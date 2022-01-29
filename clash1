@@ -5,587 +5,639 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港, server: azhk.pluscloud.top, port: 443, type: trojan, password: c1698db4-42e2-4901-adad-064bf5a8b558, sni: azhk.pluscloud.top, skip-cert-verify: true, udp: true}
+  - {name: 韩国-TSET, server: jisu79.tzmm.xyz, port: 50079, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jisu79.tzmm.xyz}, udp: true}
+  - {name: 中日iplc-v1, server: zriplc.tzmm.xyz, port: 50110, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zriplc.tzmm.xyz}, udp: true}
+  - {name: 韩国v8-v2ray, server: jisu80.tzmm.xyz, port: 50080, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jisu80.tzmm.xyz}, udp: true}
   - {name: _KR_韩国_免费节点_17, server: aws.kr.tgproxy.wtf, port: 21888, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: aws.kr.tgproxy.wtf}, udp: true}
+  - {name: 中日iplc-v2, server: zriplc.tzmm.xyz, port: 50111, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp111.tzmm.xyz}, udp: true}
   - {name: _SG_新加坡, server: 172.104.168.83, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _DE_德国, server: 172.105.244.165, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国_免费节点_2, server: 38.75.136.49, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国_阿伟科技-油管, server: 38.75.136.49, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _US_美国, server: 167.88.61.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国 2, server: 167.88.61.50, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 付费推荐:dlj.tf/ssrsub__06, server: 167.88.61.130, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国 3, server: 38.68.134.190, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _US_美国 4, server: 167.88.62.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 5, server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国 6, server: 38.68.134.190, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _US_0125节点_40, server: 167.88.63.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国 7, server: 167.88.63.79, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国 8, server: 167.88.62.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国 9, server: 167.88.63.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _US_美国 10, server: 38.121.43.91, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_0125节点_33, server: 169.197.142.99, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_0125节点_48, server: 169.197.142.99, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _US_美国 11, server: 38.68.134.190, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国 12, server: 38.68.134.190, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _CA_0125节点_14, server: 198.57.27.188, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国 13, server: 167.88.63.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _BE_比利时_免费节点_16, server: 77.243.191.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs, udp: true}
-  - {name: 馃嚭馃嚫+缇庡浗+32, server: 38.68.134.191, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国 14, server: 167.88.63.79, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大, server: 134.195.196.147, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Ytb:鹏哥分享_US_美国_24, server: 38.68.134.190, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 馃嚚馃嚘+鍔犳嬁澶�+13, server: 198.57.27.241, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国 15, server: 38.68.134.190, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: +Dallas-GTHost, server: 38.68.134.191, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 付费推荐:dlj.tf/ssrsub__05, server: 167.88.61.130, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 16, server: 38.68.134.85, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 2, server: 198.57.27.152, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 3, server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 17, server: 38.68.134.37, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国_免费节点_10, server: 38.68.135.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 4, server: 134.195.196.147, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国 18, server: 38.107.226.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 馃嚚馃嚘+鍔犳嬁澶�+14, server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 5, server: 134.195.196.149, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _CA_加拿大 6, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 7, server: 134.195.196.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _CA_加拿大 8, server: 134.195.196.44, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _US_美国 19, server: 167.88.63.61, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 美国_阿伟科技-油管 2, server: 169.197.142.99, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _US_美国 20, server: 38.107.226.48, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国 21, server: 38.68.135.93, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 22, server: 167.88.63.74, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _US_美国 23, server: 38.68.134.48, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 9, server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国_免费节点_4, server: 38.68.134.37, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国 24, server: 167.88.62.62, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _GB_英国, server: 172.99.190.90, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: +Dallas-GTHost 2, server: 38.68.134.191, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _US_美国 25, server: 38.68.134.85, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _CA_加拿大 10, server: 134.195.196.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _US_美国 26, server: 38.107.226.48, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国 27, server: 38.68.135.239, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 11, server: 134.195.196.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _FR_法国, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _CN_中国_免费节点_7, server: ddns04.r8o8c8k.xyz, port: 65009, type: vmess, uuid: aefcd764-7d2e-3a86-803d-b11c1e77aa30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: ddns04.r8o8c8k.xyz}, udp: true}
-  - {name: 馃嚭馃嚫+缇庡浗+9, server: 38.121.43.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 馃嚭馃嚫+缇庡浗+8, server: 38.121.43.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_0125节点_42, server: 167.88.63.28, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国 28, server: 167.88.63.61, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 馃嚭馃嚫+缇庡浗+20, server: 167.88.62.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 1000G使劲🌿🌿🌿🌿, server: 137.74.96.141, port: 47908, type: vmess, uuid: 077b4435-80de-4374-866d-349ae95e32e4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CA_加拿大 12, server: 198.57.27.152, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _GB_英国 2, server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国 29, server: 38.75.136.45, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 13, server: 134.195.196.128, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 馃嚚馃嚘+鍔犳嬁澶�+18, server: 134.195.196.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 14, server: 198.57.27.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _CA_加拿大 15, server: 134.195.196.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 16, server: 134.195.196.107, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _US_0125节点_18, server: 167.88.63.28, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 17, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 18, server: 198.57.27.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _CA_加拿大 19, server: 134.195.196.128, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 馃嚚馃嚘+鍔犳嬁澶�+2, server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 20, server: 134.195.196.128, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _CA_加拿大 21, server: 198.57.27.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大+35, server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国_免费节点_8, server: 38.68.134.37, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 馃嚭馃嚫+缇庡浗+39, server: 167.88.62.34, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 22, server: 198.57.27.184, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _CA_加拿大 23, server: 198.57.27.184, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 24, server: 198.57.27.184, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 25, server: 134.195.196.214, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _GB_英国 3, server: 172.99.190.109, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 26, server: 198.57.27.184, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 27, server: 198.57.27.184, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _GB_英国 4, server: 172.99.190.149, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 馃嚚馃嚘+鍔犳嬁澶�+25, server: 198.57.27.241, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _GB_英国 5, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 28, server: 134.195.196.128, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 29, server: 198.57.27.184, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 30, server: 38.107.226.159, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 30, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _GB_0125节点_45, server: 172.99.190.186, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _GB_英国 6, server: 172.99.190.109, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: U, server: 172.99.190.139, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 31, server: 38.68.134.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _GB_英国 7, server: 172.99.190.109, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 【426节点池】US_2284, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: +London-GTHost, server: 172.99.190.109, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: WoAiDaFeiJi, server: 38.68.134.191, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 31, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _GB_英国 8, server: 172.99.190.139, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _GB_英国 9, server: 172.99.190.149, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _CA_加拿大 32, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _GB_英国 10, server: 172.99.190.188, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _GB_0125节点_9, server: 172.99.190.139, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _GB_英国 11, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 馃嚚馃嚘+鍔犳嬁澶�+22, server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "@SSRSUB-V39-付费推荐:suo.yt/ssrsub", server: 185.252.223.204, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/243535322906, ws-headers: {Host: www.16675463.xyz}, udp: true}
-  - {name: _GB_英国 12, server: 172.99.190.186, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 33, server: 134.195.196.128, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 馃嚭馃嚫US_1569, server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 馃嚚馃嚘+鍔犳嬁澶�+21, server: 134.195.196.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国_免费节点_1, server: 38.68.134.37, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _CA_加拿大+14, server: 134.195.196.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 付费推荐:dlj.tf/ssrsub__13, server: 38.75.136.45, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国_免费节点_3, server: 38.68.134.190, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _GB_英国 13, server: 212.38.189.174, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 新加坡 v1-v2ray, server: cn2108.jisumm.xyz, port: 50108, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sg108.tzkk.xyz}, udp: true}
   - {name: _HK_香港_免费节点_9, server: 20.187.91.141, port: 80, type: ss, cipher: aes-128-gcm, password: bIW7xp, udp: true}
-  - {name: _US_美国 32, server: 167.88.61.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 33, server: 38.68.134.191, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_0125节点_44, server: 167.88.62.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 34, server: 198.57.27.152, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "@SSRSUB-V38-付费推荐:suo.yt/ssrsub", server: 103.wgong.xyz, port: 52203, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 34, server: 38.68.135.239, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 35, server: 167.88.63.74, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _GB_英国 14, server: 172.99.190.39, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 35, server: 198.57.27.184, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 36, server: 134.195.196.128, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 36, server: 38.107.226.48, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 新加坡 v5-v2ray, server: gyy.tzmm.xyz, port: 51173, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: gyy.tzmm.xyz}, udp: true}
+  - {name: 日本v5-v2ray, server: vpscn2.jisumm.xyz, port: 50097, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: vpscn2.jisumm.xyz}, udp: true}
+  - {name: 日本v2-v2ray, server: vpscn2.jisumm.xyz, port: 50099, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: vpscn2.jisumm.xyz}, udp: true}
+  - {name: 韩国v1-v2ray, server: jstz95.tzmm.xyz, port: 51195, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jstz95.tzmm.xyz}, udp: true}
+  - {name: 日本v4-v2ray, server: jisu106.tzmm.xyz, port: 50106, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp106.tzkk.xyz}, udp: true}
+  - {name: 日本v1-v2ray, server: jisu90.tzmm.xyz, port: 50090, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp90.tzmm.xyz}, udp: true}
+  - {name: 韩国v2-v2ray, server: jisu96.tzkk.xyz, port: 50096, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: kr96.tzkk.xyz}, udp: true}
+  - {name: 韩国v3-v2ray, server: jisu103.tzmm.xyz, port: 50103, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: kr103.tzmm.xyz}, udp: true}
   - {name: default_name, server: inapus.mooncloud.bike, port: 8443, type: vmess, uuid: 2c42a34e-5f88-492b-8a59-3531090578f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: inapus1.mooncloud.bike}, udp: true}
+  - {name: 新加坡 v3-v2ray, server: jisu68.tzmm.xyz, port: 50068, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jisu68.tzmm.xyz}, udp: true}
+  - {name: _US_0125节点_48, server: 169.197.142.99, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _US_0125节点_33, server: 169.197.142.99, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 娱乐节点buy vm（套用中转不构成购买参考）, server: azure-f4s-hk-1.transfer-xray.tk, port: 27871, type: vmess, uuid: 581b4cc8-882a-4e5b-90fd-deef7f86fc15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国_阿伟科技-油管, server: 169.197.142.99, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国_免费节点_2, server: 38.75.136.49, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国_阿伟科技-油管 2, server: 38.75.136.49, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 美国-TEST, server: cu98.tzmm.xyz, port: 50098, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jstz98.tzmm.xyz}, udp: true}
+  - {name: _US_美国, server: 167.88.62.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 2, server: 167.88.61.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CN_中国_免费节点_7, server: ddns04.r8o8c8k.xyz, port: 65009, type: vmess, uuid: aefcd764-7d2e-3a86-803d-b11c1e77aa30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: ddns04.r8o8c8k.xyz}, udp: true}
+  - {name: 馃嚭馃嚫+缇庡浗+20, server: 167.88.62.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 3, server: 167.88.61.50, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 香港v5-v2ray, server: jstz82.tzmm.xyz, port: 50082, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk82.tzmm.xyz}, udp: true}
+  - {name: _US_美国 4, server: 167.88.63.79, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 5, server: 167.88.63.79, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 6, server: 38.121.43.91, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 馃嚭馃嚫+缇庡浗+32, server: 38.68.134.191, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 7, server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_0125节点_40, server: 167.88.63.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 8, server: 167.88.62.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大, server: 198.57.27.152, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 9, server: 38.75.136.45, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 2, server: 198.57.27.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 3, server: 134.195.196.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 10, server: 38.68.134.48, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: +Dallas-GTHost, server: 38.68.134.191, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 馃嚚馃嚘+鍔犳嬁澶�+25, server: 198.57.27.241, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国_免费节点_1, server: 38.68.134.37, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 11, server: 167.88.62.62, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大 4, server: 134.195.196.149, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: +Dallas-GTHost 2, server: 38.68.134.191, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 5, server: 134.195.196.147, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 6, server: 198.57.27.152, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大 7, server: 134.195.196.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 8, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 12, server: 167.88.63.61, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国 13, server: 38.107.226.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 14, server: 38.107.226.48, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大 9, server: 134.195.196.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国 15, server: 38.107.226.48, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 16, server: 38.68.135.239, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 印度-TEST, server: jisu112.tzkk.xyz, port: 50112, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jisu112.tzkk.xyz}, udp: true}
+  - {name: 馃嚚馃嚘+鍔犳嬁澶�+13, server: 198.57.27.241, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _GB_英国, server: 172.99.190.90, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 10, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_0125节点_14, server: 198.57.27.188, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 11, server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 馃嚭馃嚫+缇庡浗+8, server: 38.121.43.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 17, server: 167.88.63.61, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大+35, server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 12, server: 134.195.196.44, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国 18, server: 167.88.63.74, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 馃嚭馃嚫+缇庡浗+9, server: 38.121.43.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _GB_英国 2, server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国_免费节点_8, server: 38.68.134.37, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 13, server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 14, server: 134.195.196.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 香港v3-v2ray, server: jisu59.tzmm.xyz, port: 50059, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk59.tzmm.xyz}, udp: true}
+  - {name: 馃嚚馃嚘+鍔犳嬁澶�+18, server: 134.195.196.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 韩国v6-v2ray, server: jisu114.tzkk.xyz, port: 50114, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jisu114.tzkk.xyz}, udp: true}
+  - {name: _CA_加拿大 15, server: 134.195.196.107, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 芜湖, server: 104.27.89.125, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, ws-headers: {Host: xiaochen.chenyingjie5201314.workers.dev}, udp: true}
+  - {name: _US_0125节点_42, server: 167.88.63.28, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_0125节点_18, server: 167.88.63.28, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 莞港iplc-v2, server: jisu116.tzmm.xyz, port: 50116, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jisu116.tzmm.xyz}, udp: true}
+  - {name: 馃嚚馃嚘+鍔犳嬁澶�+14, server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _DE_德国, server: 172.105.244.165, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _GB_英国 3, server: 172.99.190.149, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _GB_英国 4, server: 172.99.190.188, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国 19, server: 38.68.134.37, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 16, server: 134.195.196.214, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _GB_英国 5, server: 172.99.190.109, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 新加坡 v2-v2ray, server: jisu76.tzmm.xyz, port: 50076, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sgp76.tzkk.xyz}, udp: true}
+  - {name: _CA_加拿大 17, server: 134.195.196.128, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _CA_加拿大 18, server: 134.195.196.147, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 19, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 20, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 付费推荐:dlj.tf/ssrsub__01, server: 38.68.134.23, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 韩国v5-v2ray, server: jisu113.tzmm.xyz, port: 50113, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jisu113.tzmm.xyz}, udp: true}
+  - {name: 馃嚭馃嚫+缇庡浗+39, server: 167.88.62.34, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 21, server: 198.57.27.184, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 22, server: 198.57.27.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _GB_英国 6, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: U, server: 172.99.190.139, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _GB_英国 7, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 韩国v4-v2ray, server: jisu109.tzkk.xyz, port: 50109, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jisu109.tzkk.xyz}, udp: true}
+  - {name: _CA_加拿大 23, server: 134.195.196.128, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大 24, server: 198.57.27.184, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 韩国v7-v2ray, server: jisu55.tzmm.xyz, port: 50055, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jisu55.tzmm.xyz}, udp: true}
+  - {name: _CA_加拿大 25, server: 134.195.196.128, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _GB_0125节点_9, server: 172.99.190.139, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 26, server: 198.57.27.184, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 27, server: 198.57.27.184, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _GB_英国 8, server: 172.99.190.149, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 德国 v2-v2ray, server: jisu102.tzkk.xyz, port: 50102, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ger102.tzkk.xyz}, udp: true}
+  - {name: 馃嚚馃嚘+鍔犳嬁澶�+2, server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国_免费节点_4, server: 38.68.134.37, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _GB_英国 9, server: 172.99.190.139, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _GB_英国 10, server: 172.99.190.109, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 28, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 付费推荐:dlj.tf/ssrsub__13, server: 38.75.136.45, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: WoAiDaFeiJi, server: 38.68.134.191, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: TEST, server: jisu117.tzmm.xyz, port: 50117, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jisu117.tzmm.xyz}, udp: true}
+  - {name: 【426节点池】US_2284, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 香港v4-v2ray, server: vdscu.jisumm.xyz, port: 50078, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: vdscu.jisumm.xyz}, udp: true}
+  - {name: _FR_法国, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 20, server: 38.68.134.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 香港v6-v2ray, server: jstz65.tzmm.xyz, port: 50065, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk65.tzmm.xyz}, udp: true}
+  - {name: _GB_英国 11, server: 172.99.190.109, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: +London-GTHost, server: 172.99.190.109, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CA_加拿大+14, server: 134.195.196.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 德国 v1-v2ray, server: jisu101.tzkk.xyz, port: 50101, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ger101.tzkk.xyz}, udp: true}
+  - {name: _CA_加拿大 29, server: 198.57.27.184, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国v5-v2ray, server: jisu51.tzmm.xyz, port: 50051, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us51.tzmm.xyz}, udp: true}
+  - {name: _CA_加拿大 30, server: 134.195.196.128, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 21, server: 167.88.61.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国V2-v2ray, server: cu85.tzkk.xyz, port: 50085, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us85.tzkk.xyz}, udp: true}
+  - {name: 馃嚭馃嚫US_1569, server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 台湾v3-v2ray, server: jstz75.tzmm.xyz, port: 51175, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jstz75.tzmm.xyz}, udp: true}
+  - {name: _US_0125节点_44, server: 167.88.62.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 22, server: 38.68.134.191, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 23, server: 38.68.135.239, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _GB_英国 12, server: 172.99.190.39, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 24, server: 167.88.63.74, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "@SSRSUB-V39-付费推荐:suo.yt/ssrsub", server: 185.252.223.204, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/243535322906, ws-headers: {Host: www.16675463.xyz}, udp: true}
+  - {name: _CA_加拿大 31, server: 134.195.196.128, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 32, server: 198.57.27.184, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 新加坡CN2-3, server: vpscn2.jisumm.xyz, port: 50077, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: vpscn2.jisumm.xyz}, udp: true}
+  - {name: 新加坡 v4-v2ray, server: sp2.seven777.xyz, port: 443, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sp2.seven777.xyz}, udp: true}
+  - {name: 1000G使劲🌿🌿🌿🌿, server: 137.74.96.141, port: 47908, type: vmess, uuid: 077b4435-80de-4374-866d-349ae95e32e4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 馃嚚馃嚘+鍔犳嬁澶�+21, server: 134.195.196.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 新加坡CN2-1, server: vpscn2.jisumm.xyz, port: 51193, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: vpscn2.jisumm.xyz}, udp: true}
+  - {name: _CA_加拿大 33, server: 198.57.27.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 25, server: 38.107.226.48, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 台湾v2-v2ray, server: jstz03.tzmm.xyz, port: 50107, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jstz03.tzmm.xyz}, udp: true}
+  - {name: 美国v8-v2ray, server: jisu58.tzkk.xyz, port: 50058, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us58.tzkk.xyz}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港
+      - 韩国-TSET
+      - 中日iplc-v1
+      - 韩国v8-v2ray
       - _KR_韩国_免费节点_17
+      - 中日iplc-v2
       - _SG_新加坡
-      - _DE_德国
-      - _US_美国_免费节点_2
+      - 新加坡 v1-v2ray
+      - _HK_香港_免费节点_9
+      - 新加坡 v5-v2ray
+      - 日本v5-v2ray
+      - 日本v2-v2ray
+      - 韩国v1-v2ray
+      - 日本v4-v2ray
+      - 日本v1-v2ray
+      - 韩国v2-v2ray
+      - 韩国v3-v2ray
+      - default_name
+      - 新加坡 v3-v2ray
+      - _US_0125节点_48
+      - _US_0125节点_33
+      - 娱乐节点buy vm（套用中转不构成购买参考）
       - 美国_阿伟科技-油管
+      - _US_美国_免费节点_2
+      - 美国_阿伟科技-油管 2
+      - 美国-TEST
       - _US_美国
       - _US_美国 2
-      - 付费推荐:dlj.tf/ssrsub__06
+      - _CN_中国_免费节点_7
+      - 馃嚭馃嚫+缇庡浗+20
       - _US_美国 3
+      - 香港v5-v2ray
       - _US_美国 4
       - _US_美国 5
       - _US_美国 6
-      - _US_0125节点_40
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
-      - _US_美国 10
-      - _US_0125节点_33
-      - _US_0125节点_48
-      - _US_美国 11
-      - _US_美国 12
-      - _CA_0125节点_14
-      - _US_美国 13
-      - _BE_比利时_免费节点_16
       - 馃嚭馃嚫+缇庡浗+32
-      - _US_美国 14
+      - _US_美国 7
+      - _US_0125节点_40
+      - _US_美国 8
       - _CA_加拿大
-      - Ytb:鹏哥分享_US_美国_24
-      - 馃嚚馃嚘+鍔犳嬁澶�+13
-      - _US_美国 15
-      - +Dallas-GTHost
-      - 付费推荐:dlj.tf/ssrsub__05
-      - _US_美国 16
+      - _US_美国 9
       - _CA_加拿大 2
       - _CA_加拿大 3
-      - _US_美国 17
-      - _US_美国_免费节点_10
+      - _US_美国 10
+      - +Dallas-GTHost
+      - 馃嚚馃嚘+鍔犳嬁澶�+25
+      - _US_美国_免费节点_1
+      - _US_美国 11
       - _CA_加拿大 4
-      - _US_美国 18
-      - 馃嚚馃嚘+鍔犳嬁澶�+14
+      - +Dallas-GTHost 2
       - _CA_加拿大 5
       - _CA_加拿大 6
       - _CA_加拿大 7
       - _CA_加拿大 8
-      - _US_美国 19
-      - 美国_阿伟科技-油管 2
-      - _US_美国 20
-      - _US_美国 21
-      - _US_美国 22
-      - _US_美国 23
+      - _US_美国 12
+      - _US_美国 13
+      - _US_美国 14
       - _CA_加拿大 9
-      - _US_美国_免费节点_4
-      - _US_美国 24
+      - _US_美国 15
+      - _US_美国 16
+      - 印度-TEST
+      - 馃嚚馃嚘+鍔犳嬁澶�+13
       - _GB_英国
-      - +Dallas-GTHost 2
-      - _US_美国 25
       - _CA_加拿大 10
-      - _US_美国 26
-      - _US_美国 27
+      - _CA_0125节点_14
       - _CA_加拿大 11
-      - _FR_法国
-      - _CN_中国_免费节点_7
-      - 馃嚭馃嚫+缇庡浗+9
       - 馃嚭馃嚫+缇庡浗+8
-      - _US_0125节点_42
-      - _US_美国 28
-      - 馃嚭馃嚫+缇庡浗+20
-      - 1000G使劲🌿🌿🌿🌿
+      - _US_美国 17
+      - _CA_加拿大+35
       - _CA_加拿大 12
+      - _US_美国 18
+      - 馃嚭馃嚫+缇庡浗+9
       - _GB_英国 2
-      - _US_美国 29
+      - _US_美国_免费节点_8
       - _CA_加拿大 13
-      - 馃嚚馃嚘+鍔犳嬁澶�+18
       - _CA_加拿大 14
+      - 香港v3-v2ray
+      - 馃嚚馃嚘+鍔犳嬁澶�+18
+      - 韩国v6-v2ray
       - _CA_加拿大 15
-      - _CA_加拿大 16
+      - 芜湖
+      - _US_0125节点_42
       - _US_0125节点_18
+      - 莞港iplc-v2
+      - 馃嚚馃嚘+鍔犳嬁澶�+14
+      - _DE_德国
+      - _GB_英国 3
+      - _GB_英国 4
+      - _US_美国 19
+      - _CA_加拿大 16
+      - _GB_英国 5
+      - 新加坡 v2-v2ray
       - _CA_加拿大 17
       - _CA_加拿大 18
       - _CA_加拿大 19
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
       - _CA_加拿大 20
-      - _CA_加拿大 21
-      - _CA_加拿大+35
-      - _US_美国_免费节点_8
+      - 付费推荐:dlj.tf/ssrsub__01
+      - 韩国v5-v2ray
       - 馃嚭馃嚫+缇庡浗+39
+      - _CA_加拿大 21
       - _CA_加拿大 22
-      - _CA_加拿大 23
-      - _CA_加拿大 24
-      - _CA_加拿大 25
-      - _GB_英国 3
-      - _CA_加拿大 26
-      - _CA_加拿大 27
-      - _GB_英国 4
-      - 馃嚚馃嚘+鍔犳嬁澶�+25
-      - _GB_英国 5
-      - _CA_加拿大 28
-      - _CA_加拿大 29
-      - _US_美国 30
-      - _CA_加拿大 30
-      - _GB_0125节点_45
       - _GB_英国 6
       - U
-      - _US_美国 31
       - _GB_英国 7
-      - 【426节点池】US_2284
-      - +London-GTHost
-      - WoAiDaFeiJi
-      - _CA_加拿大 31
-      - _GB_英国 8
-      - _GB_英国 9
-      - _CA_加拿大 32
-      - _GB_英国 10
+      - 韩国v4-v2ray
+      - _CA_加拿大 23
+      - _CA_加拿大 24
+      - 韩国v7-v2ray
+      - _CA_加拿大 25
       - _GB_0125节点_9
-      - _GB_英国 11
-      - 馃嚚馃嚘+鍔犳嬁澶�+22
-      - "@SSRSUB-V39-付费推荐:suo.yt/ssrsub"
-      - _GB_英国 12
-      - _CA_加拿大 33
-      - 馃嚭馃嚫US_1569
-      - 馃嚚馃嚘+鍔犳嬁澶�+21
-      - _US_美国_免费节点_1
-      - _CA_加拿大+14
+      - _CA_加拿大 26
+      - _CA_加拿大 27
+      - _GB_英国 8
+      - 德国 v2-v2ray
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - _US_美国_免费节点_4
+      - _GB_英国 9
+      - _GB_英国 10
+      - _CA_加拿大 28
       - 付费推荐:dlj.tf/ssrsub__13
-      - _US_美国_免费节点_3
-      - _GB_英国 13
-      - _HK_香港_免费节点_9
-      - _US_美国 32
-      - _US_美国 33
+      - WoAiDaFeiJi
+      - TEST
+      - 【426节点池】US_2284
+      - 香港v4-v2ray
+      - _FR_法国
+      - _US_美国 20
+      - 香港v6-v2ray
+      - _GB_英国 11
+      - +London-GTHost
+      - _CA_加拿大+14
+      - 德国 v1-v2ray
+      - _CA_加拿大 29
+      - 美国v5-v2ray
+      - _CA_加拿大 30
+      - _US_美国 21
+      - 美国V2-v2ray
+      - 馃嚭馃嚫US_1569
+      - 台湾v3-v2ray
       - _US_0125节点_44
-      - _CA_加拿大 34
-      - "@SSRSUB-V38-付费推荐:suo.yt/ssrsub"
-      - _US_美国 34
-      - _US_美国 35
-      - _GB_英国 14
-      - _CA_加拿大 35
-      - _CA_加拿大 36
-      - _US_美国 36
-      - default_name
-      - 付费推荐:dlj.tf/ssrsub__01
+      - _US_美国 22
+      - _US_美国 23
+      - _GB_英国 12
+      - _US_美国 24
+      - "@SSRSUB-V39-付费推荐:suo.yt/ssrsub"
+      - _CA_加拿大 31
+      - _CA_加拿大 32
+      - 新加坡CN2-3
+      - 新加坡 v4-v2ray
+      - 1000G使劲🌿🌿🌿🌿
+      - 馃嚚馃嚘+鍔犳嬁澶�+21
+      - 新加坡CN2-1
+      - _CA_加拿大 33
+      - _US_美国 25
+      - 台湾v2-v2ray
+      - 美国v8-v2ray
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港
+      - 韩国-TSET
+      - 中日iplc-v1
+      - 韩国v8-v2ray
       - _KR_韩国_免费节点_17
+      - 中日iplc-v2
       - _SG_新加坡
-      - _DE_德国
-      - _US_美国_免费节点_2
+      - 新加坡 v1-v2ray
+      - _HK_香港_免费节点_9
+      - 新加坡 v5-v2ray
+      - 日本v5-v2ray
+      - 日本v2-v2ray
+      - 韩国v1-v2ray
+      - 日本v4-v2ray
+      - 日本v1-v2ray
+      - 韩国v2-v2ray
+      - 韩国v3-v2ray
+      - default_name
+      - 新加坡 v3-v2ray
+      - _US_0125节点_48
+      - _US_0125节点_33
+      - 娱乐节点buy vm（套用中转不构成购买参考）
       - 美国_阿伟科技-油管
+      - _US_美国_免费节点_2
+      - 美国_阿伟科技-油管 2
+      - 美国-TEST
       - _US_美国
       - _US_美国 2
-      - 付费推荐:dlj.tf/ssrsub__06
+      - _CN_中国_免费节点_7
+      - 馃嚭馃嚫+缇庡浗+20
       - _US_美国 3
+      - 香港v5-v2ray
       - _US_美国 4
       - _US_美国 5
       - _US_美国 6
-      - _US_0125节点_40
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
-      - _US_美国 10
-      - _US_0125节点_33
-      - _US_0125节点_48
-      - _US_美国 11
-      - _US_美国 12
-      - _CA_0125节点_14
-      - _US_美国 13
-      - _BE_比利时_免费节点_16
       - 馃嚭馃嚫+缇庡浗+32
-      - _US_美国 14
+      - _US_美国 7
+      - _US_0125节点_40
+      - _US_美国 8
       - _CA_加拿大
-      - Ytb:鹏哥分享_US_美国_24
-      - 馃嚚馃嚘+鍔犳嬁澶�+13
-      - _US_美国 15
-      - +Dallas-GTHost
-      - 付费推荐:dlj.tf/ssrsub__05
-      - _US_美国 16
+      - _US_美国 9
       - _CA_加拿大 2
       - _CA_加拿大 3
-      - _US_美国 17
-      - _US_美国_免费节点_10
+      - _US_美国 10
+      - +Dallas-GTHost
+      - 馃嚚馃嚘+鍔犳嬁澶�+25
+      - _US_美国_免费节点_1
+      - _US_美国 11
       - _CA_加拿大 4
-      - _US_美国 18
-      - 馃嚚馃嚘+鍔犳嬁澶�+14
+      - +Dallas-GTHost 2
       - _CA_加拿大 5
       - _CA_加拿大 6
       - _CA_加拿大 7
       - _CA_加拿大 8
-      - _US_美国 19
-      - 美国_阿伟科技-油管 2
-      - _US_美国 20
-      - _US_美国 21
-      - _US_美国 22
-      - _US_美国 23
+      - _US_美国 12
+      - _US_美国 13
+      - _US_美国 14
       - _CA_加拿大 9
-      - _US_美国_免费节点_4
-      - _US_美国 24
+      - _US_美国 15
+      - _US_美国 16
+      - 印度-TEST
+      - 馃嚚馃嚘+鍔犳嬁澶�+13
       - _GB_英国
-      - +Dallas-GTHost 2
-      - _US_美国 25
       - _CA_加拿大 10
-      - _US_美国 26
-      - _US_美国 27
+      - _CA_0125节点_14
       - _CA_加拿大 11
-      - _FR_法国
-      - _CN_中国_免费节点_7
-      - 馃嚭馃嚫+缇庡浗+9
       - 馃嚭馃嚫+缇庡浗+8
-      - _US_0125节点_42
-      - _US_美国 28
-      - 馃嚭馃嚫+缇庡浗+20
-      - 1000G使劲🌿🌿🌿🌿
+      - _US_美国 17
+      - _CA_加拿大+35
       - _CA_加拿大 12
+      - _US_美国 18
+      - 馃嚭馃嚫+缇庡浗+9
       - _GB_英国 2
-      - _US_美国 29
+      - _US_美国_免费节点_8
       - _CA_加拿大 13
-      - 馃嚚馃嚘+鍔犳嬁澶�+18
       - _CA_加拿大 14
+      - 香港v3-v2ray
+      - 馃嚚馃嚘+鍔犳嬁澶�+18
+      - 韩国v6-v2ray
       - _CA_加拿大 15
-      - _CA_加拿大 16
+      - 芜湖
+      - _US_0125节点_42
       - _US_0125节点_18
+      - 莞港iplc-v2
+      - 馃嚚馃嚘+鍔犳嬁澶�+14
+      - _DE_德国
+      - _GB_英国 3
+      - _GB_英国 4
+      - _US_美国 19
+      - _CA_加拿大 16
+      - _GB_英国 5
+      - 新加坡 v2-v2ray
       - _CA_加拿大 17
       - _CA_加拿大 18
       - _CA_加拿大 19
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
       - _CA_加拿大 20
-      - _CA_加拿大 21
-      - _CA_加拿大+35
-      - _US_美国_免费节点_8
+      - 付费推荐:dlj.tf/ssrsub__01
+      - 韩国v5-v2ray
       - 馃嚭馃嚫+缇庡浗+39
+      - _CA_加拿大 21
       - _CA_加拿大 22
-      - _CA_加拿大 23
-      - _CA_加拿大 24
-      - _CA_加拿大 25
-      - _GB_英国 3
-      - _CA_加拿大 26
-      - _CA_加拿大 27
-      - _GB_英国 4
-      - 馃嚚馃嚘+鍔犳嬁澶�+25
-      - _GB_英国 5
-      - _CA_加拿大 28
-      - _CA_加拿大 29
-      - _US_美国 30
-      - _CA_加拿大 30
-      - _GB_0125节点_45
       - _GB_英国 6
       - U
-      - _US_美国 31
       - _GB_英国 7
-      - 【426节点池】US_2284
-      - +London-GTHost
-      - WoAiDaFeiJi
-      - _CA_加拿大 31
-      - _GB_英国 8
-      - _GB_英国 9
-      - _CA_加拿大 32
-      - _GB_英国 10
+      - 韩国v4-v2ray
+      - _CA_加拿大 23
+      - _CA_加拿大 24
+      - 韩国v7-v2ray
+      - _CA_加拿大 25
       - _GB_0125节点_9
-      - _GB_英国 11
-      - 馃嚚馃嚘+鍔犳嬁澶�+22
-      - "@SSRSUB-V39-付费推荐:suo.yt/ssrsub"
-      - _GB_英国 12
-      - _CA_加拿大 33
-      - 馃嚭馃嚫US_1569
-      - 馃嚚馃嚘+鍔犳嬁澶�+21
-      - _US_美国_免费节点_1
-      - _CA_加拿大+14
+      - _CA_加拿大 26
+      - _CA_加拿大 27
+      - _GB_英国 8
+      - 德国 v2-v2ray
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - _US_美国_免费节点_4
+      - _GB_英国 9
+      - _GB_英国 10
+      - _CA_加拿大 28
       - 付费推荐:dlj.tf/ssrsub__13
-      - _US_美国_免费节点_3
-      - _GB_英国 13
-      - _HK_香港_免费节点_9
-      - _US_美国 32
-      - _US_美国 33
+      - WoAiDaFeiJi
+      - TEST
+      - 【426节点池】US_2284
+      - 香港v4-v2ray
+      - _FR_法国
+      - _US_美国 20
+      - 香港v6-v2ray
+      - _GB_英国 11
+      - +London-GTHost
+      - _CA_加拿大+14
+      - 德国 v1-v2ray
+      - _CA_加拿大 29
+      - 美国v5-v2ray
+      - _CA_加拿大 30
+      - _US_美国 21
+      - 美国V2-v2ray
+      - 馃嚭馃嚫US_1569
+      - 台湾v3-v2ray
       - _US_0125节点_44
-      - _CA_加拿大 34
-      - "@SSRSUB-V38-付费推荐:suo.yt/ssrsub"
-      - _US_美国 34
-      - _US_美国 35
-      - _GB_英国 14
-      - _CA_加拿大 35
-      - _CA_加拿大 36
-      - _US_美国 36
-      - default_name
-      - 付费推荐:dlj.tf/ssrsub__01
+      - _US_美国 22
+      - _US_美国 23
+      - _GB_英国 12
+      - _US_美国 24
+      - "@SSRSUB-V39-付费推荐:suo.yt/ssrsub"
+      - _CA_加拿大 31
+      - _CA_加拿大 32
+      - 新加坡CN2-3
+      - 新加坡 v4-v2ray
+      - 1000G使劲🌿🌿🌿🌿
+      - 馃嚚馃嚘+鍔犳嬁澶�+21
+      - 新加坡CN2-1
+      - _CA_加拿大 33
+      - _US_美国 25
+      - 台湾v2-v2ray
+      - 美国v8-v2ray
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港
+      - 韩国-TSET
+      - 中日iplc-v1
+      - 韩国v8-v2ray
       - _KR_韩国_免费节点_17
+      - 中日iplc-v2
       - _SG_新加坡
-      - _DE_德国
-      - _US_美国_免费节点_2
+      - 新加坡 v1-v2ray
+      - _HK_香港_免费节点_9
+      - 新加坡 v5-v2ray
+      - 日本v5-v2ray
+      - 日本v2-v2ray
+      - 韩国v1-v2ray
+      - 日本v4-v2ray
+      - 日本v1-v2ray
+      - 韩国v2-v2ray
+      - 韩国v3-v2ray
+      - default_name
+      - 新加坡 v3-v2ray
+      - _US_0125节点_48
+      - _US_0125节点_33
+      - 娱乐节点buy vm（套用中转不构成购买参考）
       - 美国_阿伟科技-油管
+      - _US_美国_免费节点_2
+      - 美国_阿伟科技-油管 2
+      - 美国-TEST
       - _US_美国
       - _US_美国 2
-      - 付费推荐:dlj.tf/ssrsub__06
+      - _CN_中国_免费节点_7
+      - 馃嚭馃嚫+缇庡浗+20
       - _US_美国 3
+      - 香港v5-v2ray
       - _US_美国 4
       - _US_美国 5
       - _US_美国 6
-      - _US_0125节点_40
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
-      - _US_美国 10
-      - _US_0125节点_33
-      - _US_0125节点_48
-      - _US_美国 11
-      - _US_美国 12
-      - _CA_0125节点_14
-      - _US_美国 13
-      - _BE_比利时_免费节点_16
       - 馃嚭馃嚫+缇庡浗+32
-      - _US_美国 14
+      - _US_美国 7
+      - _US_0125节点_40
+      - _US_美国 8
       - _CA_加拿大
-      - Ytb:鹏哥分享_US_美国_24
-      - 馃嚚馃嚘+鍔犳嬁澶�+13
-      - _US_美国 15
-      - +Dallas-GTHost
-      - 付费推荐:dlj.tf/ssrsub__05
-      - _US_美国 16
+      - _US_美国 9
       - _CA_加拿大 2
       - _CA_加拿大 3
-      - _US_美国 17
-      - _US_美国_免费节点_10
+      - _US_美国 10
+      - +Dallas-GTHost
+      - 馃嚚馃嚘+鍔犳嬁澶�+25
+      - _US_美国_免费节点_1
+      - _US_美国 11
       - _CA_加拿大 4
-      - _US_美国 18
-      - 馃嚚馃嚘+鍔犳嬁澶�+14
+      - +Dallas-GTHost 2
       - _CA_加拿大 5
       - _CA_加拿大 6
       - _CA_加拿大 7
       - _CA_加拿大 8
-      - _US_美国 19
-      - 美国_阿伟科技-油管 2
-      - _US_美国 20
-      - _US_美国 21
-      - _US_美国 22
-      - _US_美国 23
+      - _US_美国 12
+      - _US_美国 13
+      - _US_美国 14
       - _CA_加拿大 9
-      - _US_美国_免费节点_4
-      - _US_美国 24
+      - _US_美国 15
+      - _US_美国 16
+      - 印度-TEST
+      - 馃嚚馃嚘+鍔犳嬁澶�+13
       - _GB_英国
-      - +Dallas-GTHost 2
-      - _US_美国 25
       - _CA_加拿大 10
-      - _US_美国 26
-      - _US_美国 27
+      - _CA_0125节点_14
       - _CA_加拿大 11
-      - _FR_法国
-      - _CN_中国_免费节点_7
-      - 馃嚭馃嚫+缇庡浗+9
       - 馃嚭馃嚫+缇庡浗+8
-      - _US_0125节点_42
-      - _US_美国 28
-      - 馃嚭馃嚫+缇庡浗+20
-      - 1000G使劲🌿🌿🌿🌿
+      - _US_美国 17
+      - _CA_加拿大+35
       - _CA_加拿大 12
+      - _US_美国 18
+      - 馃嚭馃嚫+缇庡浗+9
       - _GB_英国 2
-      - _US_美国 29
+      - _US_美国_免费节点_8
       - _CA_加拿大 13
-      - 馃嚚馃嚘+鍔犳嬁澶�+18
       - _CA_加拿大 14
+      - 香港v3-v2ray
+      - 馃嚚馃嚘+鍔犳嬁澶�+18
+      - 韩国v6-v2ray
       - _CA_加拿大 15
-      - _CA_加拿大 16
+      - 芜湖
+      - _US_0125节点_42
       - _US_0125节点_18
+      - 莞港iplc-v2
+      - 馃嚚馃嚘+鍔犳嬁澶�+14
+      - _DE_德国
+      - _GB_英国 3
+      - _GB_英国 4
+      - _US_美国 19
+      - _CA_加拿大 16
+      - _GB_英国 5
+      - 新加坡 v2-v2ray
       - _CA_加拿大 17
       - _CA_加拿大 18
       - _CA_加拿大 19
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
       - _CA_加拿大 20
-      - _CA_加拿大 21
-      - _CA_加拿大+35
-      - _US_美国_免费节点_8
+      - 付费推荐:dlj.tf/ssrsub__01
+      - 韩国v5-v2ray
       - 馃嚭馃嚫+缇庡浗+39
+      - _CA_加拿大 21
       - _CA_加拿大 22
-      - _CA_加拿大 23
-      - _CA_加拿大 24
-      - _CA_加拿大 25
-      - _GB_英国 3
-      - _CA_加拿大 26
-      - _CA_加拿大 27
-      - _GB_英国 4
-      - 馃嚚馃嚘+鍔犳嬁澶�+25
-      - _GB_英国 5
-      - _CA_加拿大 28
-      - _CA_加拿大 29
-      - _US_美国 30
-      - _CA_加拿大 30
-      - _GB_0125节点_45
       - _GB_英国 6
       - U
-      - _US_美国 31
       - _GB_英国 7
-      - 【426节点池】US_2284
-      - +London-GTHost
-      - WoAiDaFeiJi
-      - _CA_加拿大 31
-      - _GB_英国 8
-      - _GB_英国 9
-      - _CA_加拿大 32
-      - _GB_英国 10
+      - 韩国v4-v2ray
+      - _CA_加拿大 23
+      - _CA_加拿大 24
+      - 韩国v7-v2ray
+      - _CA_加拿大 25
       - _GB_0125节点_9
-      - _GB_英国 11
-      - 馃嚚馃嚘+鍔犳嬁澶�+22
-      - "@SSRSUB-V39-付费推荐:suo.yt/ssrsub"
-      - _GB_英国 12
-      - _CA_加拿大 33
-      - 馃嚭馃嚫US_1569
-      - 馃嚚馃嚘+鍔犳嬁澶�+21
-      - _US_美国_免费节点_1
-      - _CA_加拿大+14
+      - _CA_加拿大 26
+      - _CA_加拿大 27
+      - _GB_英国 8
+      - 德国 v2-v2ray
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - _US_美国_免费节点_4
+      - _GB_英国 9
+      - _GB_英国 10
+      - _CA_加拿大 28
       - 付费推荐:dlj.tf/ssrsub__13
-      - _US_美国_免费节点_3
-      - _GB_英国 13
-      - _HK_香港_免费节点_9
-      - _US_美国 32
-      - _US_美国 33
+      - WoAiDaFeiJi
+      - TEST
+      - 【426节点池】US_2284
+      - 香港v4-v2ray
+      - _FR_法国
+      - _US_美国 20
+      - 香港v6-v2ray
+      - _GB_英国 11
+      - +London-GTHost
+      - _CA_加拿大+14
+      - 德国 v1-v2ray
+      - _CA_加拿大 29
+      - 美国v5-v2ray
+      - _CA_加拿大 30
+      - _US_美国 21
+      - 美国V2-v2ray
+      - 馃嚭馃嚫US_1569
+      - 台湾v3-v2ray
       - _US_0125节点_44
-      - _CA_加拿大 34
-      - "@SSRSUB-V38-付费推荐:suo.yt/ssrsub"
-      - _US_美国 34
-      - _US_美国 35
-      - _GB_英国 14
-      - _CA_加拿大 35
-      - _CA_加拿大 36
-      - _US_美国 36
-      - default_name
-      - 付费推荐:dlj.tf/ssrsub__01
+      - _US_美国 22
+      - _US_美国 23
+      - _GB_英国 12
+      - _US_美国 24
+      - "@SSRSUB-V39-付费推荐:suo.yt/ssrsub"
+      - _CA_加拿大 31
+      - _CA_加拿大 32
+      - 新加坡CN2-3
+      - 新加坡 v4-v2ray
+      - 1000G使劲🌿🌿🌿🌿
+      - 馃嚚馃嚘+鍔犳嬁澶�+21
+      - 新加坡CN2-1
+      - _CA_加拿大 33
+      - _US_美国 25
+      - 台湾v2-v2ray
+      - 美国v8-v2ray
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -604,593 +656,651 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港
+      - 韩国-TSET
+      - 中日iplc-v1
+      - 韩国v8-v2ray
       - _KR_韩国_免费节点_17
+      - 中日iplc-v2
       - _SG_新加坡
-      - _DE_德国
-      - _US_美国_免费节点_2
+      - 新加坡 v1-v2ray
+      - _HK_香港_免费节点_9
+      - 新加坡 v5-v2ray
+      - 日本v5-v2ray
+      - 日本v2-v2ray
+      - 韩国v1-v2ray
+      - 日本v4-v2ray
+      - 日本v1-v2ray
+      - 韩国v2-v2ray
+      - 韩国v3-v2ray
+      - default_name
+      - 新加坡 v3-v2ray
+      - _US_0125节点_48
+      - _US_0125节点_33
+      - 娱乐节点buy vm（套用中转不构成购买参考）
       - 美国_阿伟科技-油管
+      - _US_美国_免费节点_2
+      - 美国_阿伟科技-油管 2
+      - 美国-TEST
       - _US_美国
       - _US_美国 2
-      - 付费推荐:dlj.tf/ssrsub__06
+      - _CN_中国_免费节点_7
+      - 馃嚭馃嚫+缇庡浗+20
       - _US_美国 3
+      - 香港v5-v2ray
       - _US_美国 4
       - _US_美国 5
       - _US_美国 6
-      - _US_0125节点_40
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
-      - _US_美国 10
-      - _US_0125节点_33
-      - _US_0125节点_48
-      - _US_美国 11
-      - _US_美国 12
-      - _CA_0125节点_14
-      - _US_美国 13
-      - _BE_比利时_免费节点_16
       - 馃嚭馃嚫+缇庡浗+32
-      - _US_美国 14
+      - _US_美国 7
+      - _US_0125节点_40
+      - _US_美国 8
       - _CA_加拿大
-      - Ytb:鹏哥分享_US_美国_24
-      - 馃嚚馃嚘+鍔犳嬁澶�+13
-      - _US_美国 15
-      - +Dallas-GTHost
-      - 付费推荐:dlj.tf/ssrsub__05
-      - _US_美国 16
+      - _US_美国 9
       - _CA_加拿大 2
       - _CA_加拿大 3
-      - _US_美国 17
-      - _US_美国_免费节点_10
+      - _US_美国 10
+      - +Dallas-GTHost
+      - 馃嚚馃嚘+鍔犳嬁澶�+25
+      - _US_美国_免费节点_1
+      - _US_美国 11
       - _CA_加拿大 4
-      - _US_美国 18
-      - 馃嚚馃嚘+鍔犳嬁澶�+14
+      - +Dallas-GTHost 2
       - _CA_加拿大 5
       - _CA_加拿大 6
       - _CA_加拿大 7
       - _CA_加拿大 8
-      - _US_美国 19
-      - 美国_阿伟科技-油管 2
-      - _US_美国 20
-      - _US_美国 21
-      - _US_美国 22
-      - _US_美国 23
+      - _US_美国 12
+      - _US_美国 13
+      - _US_美国 14
       - _CA_加拿大 9
-      - _US_美国_免费节点_4
-      - _US_美国 24
+      - _US_美国 15
+      - _US_美国 16
+      - 印度-TEST
+      - 馃嚚馃嚘+鍔犳嬁澶�+13
       - _GB_英国
-      - +Dallas-GTHost 2
-      - _US_美国 25
       - _CA_加拿大 10
-      - _US_美国 26
-      - _US_美国 27
+      - _CA_0125节点_14
       - _CA_加拿大 11
-      - _FR_法国
-      - _CN_中国_免费节点_7
-      - 馃嚭馃嚫+缇庡浗+9
       - 馃嚭馃嚫+缇庡浗+8
-      - _US_0125节点_42
-      - _US_美国 28
-      - 馃嚭馃嚫+缇庡浗+20
-      - 1000G使劲🌿🌿🌿🌿
+      - _US_美国 17
+      - _CA_加拿大+35
       - _CA_加拿大 12
+      - _US_美国 18
+      - 馃嚭馃嚫+缇庡浗+9
       - _GB_英国 2
-      - _US_美国 29
+      - _US_美国_免费节点_8
       - _CA_加拿大 13
-      - 馃嚚馃嚘+鍔犳嬁澶�+18
       - _CA_加拿大 14
+      - 香港v3-v2ray
+      - 馃嚚馃嚘+鍔犳嬁澶�+18
+      - 韩国v6-v2ray
       - _CA_加拿大 15
-      - _CA_加拿大 16
+      - 芜湖
+      - _US_0125节点_42
       - _US_0125节点_18
+      - 莞港iplc-v2
+      - 馃嚚馃嚘+鍔犳嬁澶�+14
+      - _DE_德国
+      - _GB_英国 3
+      - _GB_英国 4
+      - _US_美国 19
+      - _CA_加拿大 16
+      - _GB_英国 5
+      - 新加坡 v2-v2ray
       - _CA_加拿大 17
       - _CA_加拿大 18
       - _CA_加拿大 19
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
       - _CA_加拿大 20
-      - _CA_加拿大 21
-      - _CA_加拿大+35
-      - _US_美国_免费节点_8
+      - 付费推荐:dlj.tf/ssrsub__01
+      - 韩国v5-v2ray
       - 馃嚭馃嚫+缇庡浗+39
+      - _CA_加拿大 21
       - _CA_加拿大 22
-      - _CA_加拿大 23
-      - _CA_加拿大 24
-      - _CA_加拿大 25
-      - _GB_英国 3
-      - _CA_加拿大 26
-      - _CA_加拿大 27
-      - _GB_英国 4
-      - 馃嚚馃嚘+鍔犳嬁澶�+25
-      - _GB_英国 5
-      - _CA_加拿大 28
-      - _CA_加拿大 29
-      - _US_美国 30
-      - _CA_加拿大 30
-      - _GB_0125节点_45
       - _GB_英国 6
       - U
-      - _US_美国 31
       - _GB_英国 7
-      - 【426节点池】US_2284
-      - +London-GTHost
-      - WoAiDaFeiJi
-      - _CA_加拿大 31
-      - _GB_英国 8
-      - _GB_英国 9
-      - _CA_加拿大 32
-      - _GB_英国 10
+      - 韩国v4-v2ray
+      - _CA_加拿大 23
+      - _CA_加拿大 24
+      - 韩国v7-v2ray
+      - _CA_加拿大 25
       - _GB_0125节点_9
-      - _GB_英国 11
-      - 馃嚚馃嚘+鍔犳嬁澶�+22
-      - "@SSRSUB-V39-付费推荐:suo.yt/ssrsub"
-      - _GB_英国 12
-      - _CA_加拿大 33
-      - 馃嚭馃嚫US_1569
-      - 馃嚚馃嚘+鍔犳嬁澶�+21
-      - _US_美国_免费节点_1
-      - _CA_加拿大+14
+      - _CA_加拿大 26
+      - _CA_加拿大 27
+      - _GB_英国 8
+      - 德国 v2-v2ray
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - _US_美国_免费节点_4
+      - _GB_英国 9
+      - _GB_英国 10
+      - _CA_加拿大 28
       - 付费推荐:dlj.tf/ssrsub__13
-      - _US_美国_免费节点_3
-      - _GB_英国 13
-      - _HK_香港_免费节点_9
-      - _US_美国 32
-      - _US_美国 33
+      - WoAiDaFeiJi
+      - TEST
+      - 【426节点池】US_2284
+      - 香港v4-v2ray
+      - _FR_法国
+      - _US_美国 20
+      - 香港v6-v2ray
+      - _GB_英国 11
+      - +London-GTHost
+      - _CA_加拿大+14
+      - 德国 v1-v2ray
+      - _CA_加拿大 29
+      - 美国v5-v2ray
+      - _CA_加拿大 30
+      - _US_美国 21
+      - 美国V2-v2ray
+      - 馃嚭馃嚫US_1569
+      - 台湾v3-v2ray
       - _US_0125节点_44
-      - _CA_加拿大 34
-      - "@SSRSUB-V38-付费推荐:suo.yt/ssrsub"
-      - _US_美国 34
-      - _US_美国 35
-      - _GB_英国 14
-      - _CA_加拿大 35
-      - _CA_加拿大 36
-      - _US_美国 36
-      - default_name
-      - 付费推荐:dlj.tf/ssrsub__01
+      - _US_美国 22
+      - _US_美国 23
+      - _GB_英国 12
+      - _US_美国 24
+      - "@SSRSUB-V39-付费推荐:suo.yt/ssrsub"
+      - _CA_加拿大 31
+      - _CA_加拿大 32
+      - 新加坡CN2-3
+      - 新加坡 v4-v2ray
+      - 1000G使劲🌿🌿🌿🌿
+      - 馃嚚馃嚘+鍔犳嬁澶�+21
+      - 新加坡CN2-1
+      - _CA_加拿大 33
+      - _US_美国 25
+      - 台湾v2-v2ray
+      - 美国v8-v2ray
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港
       - _HK_香港_免费节点_9
+      - 香港v5-v2ray
+      - 香港v3-v2ray
+      - 莞港iplc-v2
+      - 香港v4-v2ray
+      - 香港v6-v2ray
+      - 台湾v3-v2ray
+      - 台湾v2-v2ray
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港
+      - 韩国-TSET
+      - 中日iplc-v1
+      - 韩国v8-v2ray
       - _KR_韩国_免费节点_17
+      - 中日iplc-v2
       - _SG_新加坡
-      - _DE_德国
-      - _US_美国_免费节点_2
+      - 新加坡 v1-v2ray
+      - _HK_香港_免费节点_9
+      - 新加坡 v5-v2ray
+      - 日本v5-v2ray
+      - 日本v2-v2ray
+      - 韩国v1-v2ray
+      - 日本v4-v2ray
+      - 日本v1-v2ray
+      - 韩国v2-v2ray
+      - 韩国v3-v2ray
+      - default_name
+      - 新加坡 v3-v2ray
+      - _US_0125节点_48
+      - _US_0125节点_33
+      - 娱乐节点buy vm（套用中转不构成购买参考）
       - 美国_阿伟科技-油管
+      - _US_美国_免费节点_2
+      - 美国_阿伟科技-油管 2
+      - 美国-TEST
       - _US_美国
       - _US_美国 2
-      - 付费推荐:dlj.tf/ssrsub__06
+      - _CN_中国_免费节点_7
+      - 馃嚭馃嚫+缇庡浗+20
       - _US_美国 3
+      - 香港v5-v2ray
       - _US_美国 4
       - _US_美国 5
       - _US_美国 6
-      - _US_0125节点_40
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
-      - _US_美国 10
-      - _US_0125节点_33
-      - _US_0125节点_48
-      - _US_美国 11
-      - _US_美国 12
-      - _CA_0125节点_14
-      - _US_美国 13
-      - _BE_比利时_免费节点_16
       - 馃嚭馃嚫+缇庡浗+32
-      - _US_美国 14
+      - _US_美国 7
+      - _US_0125节点_40
+      - _US_美国 8
       - _CA_加拿大
-      - Ytb:鹏哥分享_US_美国_24
-      - 馃嚚馃嚘+鍔犳嬁澶�+13
-      - _US_美国 15
-      - +Dallas-GTHost
-      - 付费推荐:dlj.tf/ssrsub__05
-      - _US_美国 16
+      - _US_美国 9
       - _CA_加拿大 2
       - _CA_加拿大 3
-      - _US_美国 17
-      - _US_美国_免费节点_10
+      - _US_美国 10
+      - +Dallas-GTHost
+      - 馃嚚馃嚘+鍔犳嬁澶�+25
+      - _US_美国_免费节点_1
+      - _US_美国 11
       - _CA_加拿大 4
-      - _US_美国 18
-      - 馃嚚馃嚘+鍔犳嬁澶�+14
+      - +Dallas-GTHost 2
       - _CA_加拿大 5
       - _CA_加拿大 6
       - _CA_加拿大 7
       - _CA_加拿大 8
-      - _US_美国 19
-      - 美国_阿伟科技-油管 2
-      - _US_美国 20
-      - _US_美国 21
-      - _US_美国 22
-      - _US_美国 23
+      - _US_美国 12
+      - _US_美国 13
+      - _US_美国 14
       - _CA_加拿大 9
-      - _US_美国_免费节点_4
-      - _US_美国 24
+      - _US_美国 15
+      - _US_美国 16
+      - 印度-TEST
+      - 馃嚚馃嚘+鍔犳嬁澶�+13
       - _GB_英国
-      - +Dallas-GTHost 2
-      - _US_美国 25
       - _CA_加拿大 10
-      - _US_美国 26
-      - _US_美国 27
+      - _CA_0125节点_14
       - _CA_加拿大 11
-      - _FR_法国
-      - _CN_中国_免费节点_7
-      - 馃嚭馃嚫+缇庡浗+9
       - 馃嚭馃嚫+缇庡浗+8
-      - _US_0125节点_42
-      - _US_美国 28
-      - 馃嚭馃嚫+缇庡浗+20
-      - 1000G使劲🌿🌿🌿🌿
+      - _US_美国 17
+      - _CA_加拿大+35
       - _CA_加拿大 12
+      - _US_美国 18
+      - 馃嚭馃嚫+缇庡浗+9
       - _GB_英国 2
-      - _US_美国 29
+      - _US_美国_免费节点_8
       - _CA_加拿大 13
-      - 馃嚚馃嚘+鍔犳嬁澶�+18
       - _CA_加拿大 14
+      - 香港v3-v2ray
+      - 馃嚚馃嚘+鍔犳嬁澶�+18
+      - 韩国v6-v2ray
       - _CA_加拿大 15
-      - _CA_加拿大 16
+      - 芜湖
+      - _US_0125节点_42
       - _US_0125节点_18
+      - 莞港iplc-v2
+      - 馃嚚馃嚘+鍔犳嬁澶�+14
+      - _DE_德国
+      - _GB_英国 3
+      - _GB_英国 4
+      - _US_美国 19
+      - _CA_加拿大 16
+      - _GB_英国 5
+      - 新加坡 v2-v2ray
       - _CA_加拿大 17
       - _CA_加拿大 18
       - _CA_加拿大 19
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
       - _CA_加拿大 20
-      - _CA_加拿大 21
-      - _CA_加拿大+35
-      - _US_美国_免费节点_8
+      - 付费推荐:dlj.tf/ssrsub__01
+      - 韩国v5-v2ray
       - 馃嚭馃嚫+缇庡浗+39
+      - _CA_加拿大 21
       - _CA_加拿大 22
-      - _CA_加拿大 23
-      - _CA_加拿大 24
-      - _CA_加拿大 25
-      - _GB_英国 3
-      - _CA_加拿大 26
-      - _CA_加拿大 27
-      - _GB_英国 4
-      - 馃嚚馃嚘+鍔犳嬁澶�+25
-      - _GB_英国 5
-      - _CA_加拿大 28
-      - _CA_加拿大 29
-      - _US_美国 30
-      - _CA_加拿大 30
-      - _GB_0125节点_45
       - _GB_英国 6
       - U
-      - _US_美国 31
       - _GB_英国 7
-      - 【426节点池】US_2284
-      - +London-GTHost
-      - WoAiDaFeiJi
-      - _CA_加拿大 31
-      - _GB_英国 8
-      - _GB_英国 9
-      - _CA_加拿大 32
-      - _GB_英国 10
+      - 韩国v4-v2ray
+      - _CA_加拿大 23
+      - _CA_加拿大 24
+      - 韩国v7-v2ray
+      - _CA_加拿大 25
       - _GB_0125节点_9
-      - _GB_英国 11
-      - 馃嚚馃嚘+鍔犳嬁澶�+22
-      - "@SSRSUB-V39-付费推荐:suo.yt/ssrsub"
-      - _GB_英国 12
-      - _CA_加拿大 33
-      - 馃嚭馃嚫US_1569
-      - 馃嚚馃嚘+鍔犳嬁澶�+21
-      - _US_美国_免费节点_1
-      - _CA_加拿大+14
+      - _CA_加拿大 26
+      - _CA_加拿大 27
+      - _GB_英国 8
+      - 德国 v2-v2ray
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - _US_美国_免费节点_4
+      - _GB_英国 9
+      - _GB_英国 10
+      - _CA_加拿大 28
       - 付费推荐:dlj.tf/ssrsub__13
-      - _US_美国_免费节点_3
-      - _GB_英国 13
-      - _HK_香港_免费节点_9
-      - _US_美国 32
-      - _US_美国 33
+      - WoAiDaFeiJi
+      - TEST
+      - 【426节点池】US_2284
+      - 香港v4-v2ray
+      - _FR_法国
+      - _US_美国 20
+      - 香港v6-v2ray
+      - _GB_英国 11
+      - +London-GTHost
+      - _CA_加拿大+14
+      - 德国 v1-v2ray
+      - _CA_加拿大 29
+      - 美国v5-v2ray
+      - _CA_加拿大 30
+      - _US_美国 21
+      - 美国V2-v2ray
+      - 馃嚭馃嚫US_1569
+      - 台湾v3-v2ray
       - _US_0125节点_44
-      - _CA_加拿大 34
-      - "@SSRSUB-V38-付费推荐:suo.yt/ssrsub"
-      - _US_美国 34
-      - _US_美国 35
-      - _GB_英国 14
-      - _CA_加拿大 35
-      - _CA_加拿大 36
-      - _US_美国 36
-      - default_name
-      - 付费推荐:dlj.tf/ssrsub__01
+      - _US_美国 22
+      - _US_美国 23
+      - _GB_英国 12
+      - _US_美国 24
+      - "@SSRSUB-V39-付费推荐:suo.yt/ssrsub"
+      - _CA_加拿大 31
+      - _CA_加拿大 32
+      - 新加坡CN2-3
+      - 新加坡 v4-v2ray
+      - 1000G使劲🌿🌿🌿🌿
+      - 馃嚚馃嚘+鍔犳嬁澶�+21
+      - 新加坡CN2-1
+      - _CA_加拿大 33
+      - _US_美国 25
+      - 台湾v2-v2ray
+      - 美国v8-v2ray
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 香港
+      - 韩国-TSET
+      - 中日iplc-v1
+      - 韩国v8-v2ray
       - _KR_韩国_免费节点_17
+      - 中日iplc-v2
       - _SG_新加坡
-      - _DE_德国
-      - _US_美国_免费节点_2
+      - 新加坡 v1-v2ray
+      - _HK_香港_免费节点_9
+      - 新加坡 v5-v2ray
+      - 日本v5-v2ray
+      - 日本v2-v2ray
+      - 韩国v1-v2ray
+      - 日本v4-v2ray
+      - 日本v1-v2ray
+      - 韩国v2-v2ray
+      - 韩国v3-v2ray
+      - default_name
+      - 新加坡 v3-v2ray
+      - _US_0125节点_48
+      - _US_0125节点_33
+      - 娱乐节点buy vm（套用中转不构成购买参考）
       - 美国_阿伟科技-油管
+      - _US_美国_免费节点_2
+      - 美国_阿伟科技-油管 2
+      - 美国-TEST
       - _US_美国
       - _US_美国 2
-      - 付费推荐:dlj.tf/ssrsub__06
+      - _CN_中国_免费节点_7
+      - 馃嚭馃嚫+缇庡浗+20
       - _US_美国 3
+      - 香港v5-v2ray
       - _US_美国 4
       - _US_美国 5
       - _US_美国 6
-      - _US_0125节点_40
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
-      - _US_美国 10
-      - _US_0125节点_33
-      - _US_0125节点_48
-      - _US_美国 11
-      - _US_美国 12
-      - _CA_0125节点_14
-      - _US_美国 13
-      - _BE_比利时_免费节点_16
       - 馃嚭馃嚫+缇庡浗+32
-      - _US_美国 14
+      - _US_美国 7
+      - _US_0125节点_40
+      - _US_美国 8
       - _CA_加拿大
-      - Ytb:鹏哥分享_US_美国_24
-      - 馃嚚馃嚘+鍔犳嬁澶�+13
-      - _US_美国 15
-      - +Dallas-GTHost
-      - 付费推荐:dlj.tf/ssrsub__05
-      - _US_美国 16
+      - _US_美国 9
       - _CA_加拿大 2
       - _CA_加拿大 3
-      - _US_美国 17
-      - _US_美国_免费节点_10
+      - _US_美国 10
+      - +Dallas-GTHost
+      - 馃嚚馃嚘+鍔犳嬁澶�+25
+      - _US_美国_免费节点_1
+      - _US_美国 11
       - _CA_加拿大 4
-      - _US_美国 18
-      - 馃嚚馃嚘+鍔犳嬁澶�+14
+      - +Dallas-GTHost 2
       - _CA_加拿大 5
       - _CA_加拿大 6
       - _CA_加拿大 7
       - _CA_加拿大 8
-      - _US_美国 19
-      - 美国_阿伟科技-油管 2
-      - _US_美国 20
-      - _US_美国 21
-      - _US_美国 22
-      - _US_美国 23
+      - _US_美国 12
+      - _US_美国 13
+      - _US_美国 14
       - _CA_加拿大 9
-      - _US_美国_免费节点_4
-      - _US_美国 24
+      - _US_美国 15
+      - _US_美国 16
+      - 印度-TEST
+      - 馃嚚馃嚘+鍔犳嬁澶�+13
       - _GB_英国
-      - +Dallas-GTHost 2
-      - _US_美国 25
       - _CA_加拿大 10
-      - _US_美国 26
-      - _US_美国 27
+      - _CA_0125节点_14
       - _CA_加拿大 11
-      - _FR_法国
-      - _CN_中国_免费节点_7
-      - 馃嚭馃嚫+缇庡浗+9
       - 馃嚭馃嚫+缇庡浗+8
-      - _US_0125节点_42
-      - _US_美国 28
-      - 馃嚭馃嚫+缇庡浗+20
-      - 1000G使劲🌿🌿🌿🌿
+      - _US_美国 17
+      - _CA_加拿大+35
       - _CA_加拿大 12
+      - _US_美国 18
+      - 馃嚭馃嚫+缇庡浗+9
       - _GB_英国 2
-      - _US_美国 29
+      - _US_美国_免费节点_8
       - _CA_加拿大 13
-      - 馃嚚馃嚘+鍔犳嬁澶�+18
       - _CA_加拿大 14
+      - 香港v3-v2ray
+      - 馃嚚馃嚘+鍔犳嬁澶�+18
+      - 韩国v6-v2ray
       - _CA_加拿大 15
-      - _CA_加拿大 16
+      - 芜湖
+      - _US_0125节点_42
       - _US_0125节点_18
+      - 莞港iplc-v2
+      - 馃嚚馃嚘+鍔犳嬁澶�+14
+      - _DE_德国
+      - _GB_英国 3
+      - _GB_英国 4
+      - _US_美国 19
+      - _CA_加拿大 16
+      - _GB_英国 5
+      - 新加坡 v2-v2ray
       - _CA_加拿大 17
       - _CA_加拿大 18
       - _CA_加拿大 19
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
       - _CA_加拿大 20
-      - _CA_加拿大 21
-      - _CA_加拿大+35
-      - _US_美国_免费节点_8
+      - 付费推荐:dlj.tf/ssrsub__01
+      - 韩国v5-v2ray
       - 馃嚭馃嚫+缇庡浗+39
+      - _CA_加拿大 21
       - _CA_加拿大 22
-      - _CA_加拿大 23
-      - _CA_加拿大 24
-      - _CA_加拿大 25
-      - _GB_英国 3
-      - _CA_加拿大 26
-      - _CA_加拿大 27
-      - _GB_英国 4
-      - 馃嚚馃嚘+鍔犳嬁澶�+25
-      - _GB_英国 5
-      - _CA_加拿大 28
-      - _CA_加拿大 29
-      - _US_美国 30
-      - _CA_加拿大 30
-      - _GB_0125节点_45
       - _GB_英国 6
       - U
-      - _US_美国 31
       - _GB_英国 7
-      - 【426节点池】US_2284
-      - +London-GTHost
-      - WoAiDaFeiJi
-      - _CA_加拿大 31
-      - _GB_英国 8
-      - _GB_英国 9
-      - _CA_加拿大 32
-      - _GB_英国 10
+      - 韩国v4-v2ray
+      - _CA_加拿大 23
+      - _CA_加拿大 24
+      - 韩国v7-v2ray
+      - _CA_加拿大 25
       - _GB_0125节点_9
-      - _GB_英国 11
-      - 馃嚚馃嚘+鍔犳嬁澶�+22
-      - "@SSRSUB-V39-付费推荐:suo.yt/ssrsub"
-      - _GB_英国 12
-      - _CA_加拿大 33
-      - 馃嚭馃嚫US_1569
-      - 馃嚚馃嚘+鍔犳嬁澶�+21
-      - _US_美国_免费节点_1
-      - _CA_加拿大+14
+      - _CA_加拿大 26
+      - _CA_加拿大 27
+      - _GB_英国 8
+      - 德国 v2-v2ray
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - _US_美国_免费节点_4
+      - _GB_英国 9
+      - _GB_英国 10
+      - _CA_加拿大 28
       - 付费推荐:dlj.tf/ssrsub__13
-      - _US_美国_免费节点_3
-      - _GB_英国 13
-      - _HK_香港_免费节点_9
-      - _US_美国 32
-      - _US_美国 33
+      - WoAiDaFeiJi
+      - TEST
+      - 【426节点池】US_2284
+      - 香港v4-v2ray
+      - _FR_法国
+      - _US_美国 20
+      - 香港v6-v2ray
+      - _GB_英国 11
+      - +London-GTHost
+      - _CA_加拿大+14
+      - 德国 v1-v2ray
+      - _CA_加拿大 29
+      - 美国v5-v2ray
+      - _CA_加拿大 30
+      - _US_美国 21
+      - 美国V2-v2ray
+      - 馃嚭馃嚫US_1569
+      - 台湾v3-v2ray
       - _US_0125节点_44
-      - _CA_加拿大 34
-      - "@SSRSUB-V38-付费推荐:suo.yt/ssrsub"
-      - _US_美国 34
-      - _US_美国 35
-      - _GB_英国 14
-      - _CA_加拿大 35
-      - _CA_加拿大 36
-      - _US_美国 36
-      - default_name
-      - 付费推荐:dlj.tf/ssrsub__01
+      - _US_美国 22
+      - _US_美国 23
+      - _GB_英国 12
+      - _US_美国 24
+      - "@SSRSUB-V39-付费推荐:suo.yt/ssrsub"
+      - _CA_加拿大 31
+      - _CA_加拿大 32
+      - 新加坡CN2-3
+      - 新加坡 v4-v2ray
+      - 1000G使劲🌿🌿🌿🌿
+      - 馃嚚馃嚘+鍔犳嬁澶�+21
+      - 新加坡CN2-1
+      - _CA_加拿大 33
+      - _US_美国 25
+      - 台湾v2-v2ray
+      - 美国v8-v2ray
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港
+      - 韩国-TSET
+      - 中日iplc-v1
+      - 韩国v8-v2ray
       - _KR_韩国_免费节点_17
+      - 中日iplc-v2
       - _SG_新加坡
-      - _DE_德国
-      - _US_美国_免费节点_2
+      - 新加坡 v1-v2ray
+      - _HK_香港_免费节点_9
+      - 新加坡 v5-v2ray
+      - 日本v5-v2ray
+      - 日本v2-v2ray
+      - 韩国v1-v2ray
+      - 日本v4-v2ray
+      - 日本v1-v2ray
+      - 韩国v2-v2ray
+      - 韩国v3-v2ray
+      - default_name
+      - 新加坡 v3-v2ray
+      - _US_0125节点_48
+      - _US_0125节点_33
+      - 娱乐节点buy vm（套用中转不构成购买参考）
       - 美国_阿伟科技-油管
+      - _US_美国_免费节点_2
+      - 美国_阿伟科技-油管 2
+      - 美国-TEST
       - _US_美国
       - _US_美国 2
-      - 付费推荐:dlj.tf/ssrsub__06
+      - _CN_中国_免费节点_7
+      - 馃嚭馃嚫+缇庡浗+20
       - _US_美国 3
+      - 香港v5-v2ray
       - _US_美国 4
       - _US_美国 5
       - _US_美国 6
-      - _US_0125节点_40
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
-      - _US_美国 10
-      - _US_0125节点_33
-      - _US_0125节点_48
-      - _US_美国 11
-      - _US_美国 12
-      - _CA_0125节点_14
-      - _US_美国 13
-      - _BE_比利时_免费节点_16
       - 馃嚭馃嚫+缇庡浗+32
-      - _US_美国 14
+      - _US_美国 7
+      - _US_0125节点_40
+      - _US_美国 8
       - _CA_加拿大
-      - Ytb:鹏哥分享_US_美国_24
-      - 馃嚚馃嚘+鍔犳嬁澶�+13
-      - _US_美国 15
-      - +Dallas-GTHost
-      - 付费推荐:dlj.tf/ssrsub__05
-      - _US_美国 16
+      - _US_美国 9
       - _CA_加拿大 2
       - _CA_加拿大 3
-      - _US_美国 17
-      - _US_美国_免费节点_10
+      - _US_美国 10
+      - +Dallas-GTHost
+      - 馃嚚馃嚘+鍔犳嬁澶�+25
+      - _US_美国_免费节点_1
+      - _US_美国 11
       - _CA_加拿大 4
-      - _US_美国 18
-      - 馃嚚馃嚘+鍔犳嬁澶�+14
+      - +Dallas-GTHost 2
       - _CA_加拿大 5
       - _CA_加拿大 6
       - _CA_加拿大 7
       - _CA_加拿大 8
-      - _US_美国 19
-      - 美国_阿伟科技-油管 2
-      - _US_美国 20
-      - _US_美国 21
-      - _US_美国 22
-      - _US_美国 23
+      - _US_美国 12
+      - _US_美国 13
+      - _US_美国 14
       - _CA_加拿大 9
-      - _US_美国_免费节点_4
-      - _US_美国 24
+      - _US_美国 15
+      - _US_美国 16
+      - 印度-TEST
+      - 馃嚚馃嚘+鍔犳嬁澶�+13
       - _GB_英国
-      - +Dallas-GTHost 2
-      - _US_美国 25
       - _CA_加拿大 10
-      - _US_美国 26
-      - _US_美国 27
+      - _CA_0125节点_14
       - _CA_加拿大 11
-      - _FR_法国
-      - _CN_中国_免费节点_7
-      - 馃嚭馃嚫+缇庡浗+9
       - 馃嚭馃嚫+缇庡浗+8
-      - _US_0125节点_42
-      - _US_美国 28
-      - 馃嚭馃嚫+缇庡浗+20
-      - 1000G使劲🌿🌿🌿🌿
+      - _US_美国 17
+      - _CA_加拿大+35
       - _CA_加拿大 12
+      - _US_美国 18
+      - 馃嚭馃嚫+缇庡浗+9
       - _GB_英国 2
-      - _US_美国 29
+      - _US_美国_免费节点_8
       - _CA_加拿大 13
-      - 馃嚚馃嚘+鍔犳嬁澶�+18
       - _CA_加拿大 14
+      - 香港v3-v2ray
+      - 馃嚚馃嚘+鍔犳嬁澶�+18
+      - 韩国v6-v2ray
       - _CA_加拿大 15
-      - _CA_加拿大 16
+      - 芜湖
+      - _US_0125节点_42
       - _US_0125节点_18
+      - 莞港iplc-v2
+      - 馃嚚馃嚘+鍔犳嬁澶�+14
+      - _DE_德国
+      - _GB_英国 3
+      - _GB_英国 4
+      - _US_美国 19
+      - _CA_加拿大 16
+      - _GB_英国 5
+      - 新加坡 v2-v2ray
       - _CA_加拿大 17
       - _CA_加拿大 18
       - _CA_加拿大 19
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
       - _CA_加拿大 20
-      - _CA_加拿大 21
-      - _CA_加拿大+35
-      - _US_美国_免费节点_8
+      - 付费推荐:dlj.tf/ssrsub__01
+      - 韩国v5-v2ray
       - 馃嚭馃嚫+缇庡浗+39
+      - _CA_加拿大 21
       - _CA_加拿大 22
-      - _CA_加拿大 23
-      - _CA_加拿大 24
-      - _CA_加拿大 25
-      - _GB_英国 3
-      - _CA_加拿大 26
-      - _CA_加拿大 27
-      - _GB_英国 4
-      - 馃嚚馃嚘+鍔犳嬁澶�+25
-      - _GB_英国 5
-      - _CA_加拿大 28
-      - _CA_加拿大 29
-      - _US_美国 30
-      - _CA_加拿大 30
-      - _GB_0125节点_45
       - _GB_英国 6
       - U
-      - _US_美国 31
       - _GB_英国 7
-      - 【426节点池】US_2284
-      - +London-GTHost
-      - WoAiDaFeiJi
-      - _CA_加拿大 31
-      - _GB_英国 8
-      - _GB_英国 9
-      - _CA_加拿大 32
-      - _GB_英国 10
+      - 韩国v4-v2ray
+      - _CA_加拿大 23
+      - _CA_加拿大 24
+      - 韩国v7-v2ray
+      - _CA_加拿大 25
       - _GB_0125节点_9
-      - _GB_英国 11
-      - 馃嚚馃嚘+鍔犳嬁澶�+22
-      - "@SSRSUB-V39-付费推荐:suo.yt/ssrsub"
-      - _GB_英国 12
-      - _CA_加拿大 33
-      - 馃嚭馃嚫US_1569
-      - 馃嚚馃嚘+鍔犳嬁澶�+21
-      - _US_美国_免费节点_1
-      - _CA_加拿大+14
+      - _CA_加拿大 26
+      - _CA_加拿大 27
+      - _GB_英国 8
+      - 德国 v2-v2ray
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - _US_美国_免费节点_4
+      - _GB_英国 9
+      - _GB_英国 10
+      - _CA_加拿大 28
       - 付费推荐:dlj.tf/ssrsub__13
-      - _US_美国_免费节点_3
-      - _GB_英国 13
-      - _HK_香港_免费节点_9
-      - _US_美国 32
-      - _US_美国 33
+      - WoAiDaFeiJi
+      - TEST
+      - 【426节点池】US_2284
+      - 香港v4-v2ray
+      - _FR_法国
+      - _US_美国 20
+      - 香港v6-v2ray
+      - _GB_英国 11
+      - +London-GTHost
+      - _CA_加拿大+14
+      - 德国 v1-v2ray
+      - _CA_加拿大 29
+      - 美国v5-v2ray
+      - _CA_加拿大 30
+      - _US_美国 21
+      - 美国V2-v2ray
+      - 馃嚭馃嚫US_1569
+      - 台湾v3-v2ray
       - _US_0125节点_44
-      - _CA_加拿大 34
-      - "@SSRSUB-V38-付费推荐:suo.yt/ssrsub"
-      - _US_美国 34
-      - _US_美国 35
-      - _GB_英国 14
-      - _CA_加拿大 35
-      - _CA_加拿大 36
-      - _US_美国 36
-      - default_name
-      - 付费推荐:dlj.tf/ssrsub__01
+      - _US_美国 22
+      - _US_美国 23
+      - _GB_英国 12
+      - _US_美国 24
+      - "@SSRSUB-V39-付费推荐:suo.yt/ssrsub"
+      - _CA_加拿大 31
+      - _CA_加拿大 32
+      - 新加坡CN2-3
+      - 新加坡 v4-v2ray
+      - 1000G使劲🌿🌿🌿🌿
+      - 馃嚚馃嚘+鍔犳嬁澶�+21
+      - 新加坡CN2-1
+      - _CA_加拿大 33
+      - _US_美国 25
+      - 台湾v2-v2ray
+      - 美国v8-v2ray
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1206,147 +1316,160 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港
+      - 韩国-TSET
+      - 中日iplc-v1
+      - 韩国v8-v2ray
       - _KR_韩国_免费节点_17
+      - 中日iplc-v2
       - _SG_新加坡
-      - _DE_德国
-      - _US_美国_免费节点_2
+      - 新加坡 v1-v2ray
+      - _HK_香港_免费节点_9
+      - 新加坡 v5-v2ray
+      - 日本v5-v2ray
+      - 日本v2-v2ray
+      - 韩国v1-v2ray
+      - 日本v4-v2ray
+      - 日本v1-v2ray
+      - 韩国v2-v2ray
+      - 韩国v3-v2ray
+      - default_name
+      - 新加坡 v3-v2ray
+      - _US_0125节点_48
+      - _US_0125节点_33
+      - 娱乐节点buy vm（套用中转不构成购买参考）
       - 美国_阿伟科技-油管
+      - _US_美国_免费节点_2
+      - 美国_阿伟科技-油管 2
+      - 美国-TEST
       - _US_美国
       - _US_美国 2
-      - 付费推荐:dlj.tf/ssrsub__06
+      - _CN_中国_免费节点_7
+      - 馃嚭馃嚫+缇庡浗+20
       - _US_美国 3
+      - 香港v5-v2ray
       - _US_美国 4
       - _US_美国 5
       - _US_美国 6
-      - _US_0125节点_40
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
-      - _US_美国 10
-      - _US_0125节点_33
-      - _US_0125节点_48
-      - _US_美国 11
-      - _US_美国 12
-      - _CA_0125节点_14
-      - _US_美国 13
-      - _BE_比利时_免费节点_16
       - 馃嚭馃嚫+缇庡浗+32
-      - _US_美国 14
+      - _US_美国 7
+      - _US_0125节点_40
+      - _US_美国 8
       - _CA_加拿大
-      - Ytb:鹏哥分享_US_美国_24
-      - 馃嚚馃嚘+鍔犳嬁澶�+13
-      - _US_美国 15
-      - +Dallas-GTHost
-      - 付费推荐:dlj.tf/ssrsub__05
-      - _US_美国 16
+      - _US_美国 9
       - _CA_加拿大 2
       - _CA_加拿大 3
-      - _US_美国 17
-      - _US_美国_免费节点_10
+      - _US_美国 10
+      - +Dallas-GTHost
+      - 馃嚚馃嚘+鍔犳嬁澶�+25
+      - _US_美国_免费节点_1
+      - _US_美国 11
       - _CA_加拿大 4
-      - _US_美国 18
-      - 馃嚚馃嚘+鍔犳嬁澶�+14
+      - +Dallas-GTHost 2
       - _CA_加拿大 5
       - _CA_加拿大 6
       - _CA_加拿大 7
       - _CA_加拿大 8
-      - _US_美国 19
-      - 美国_阿伟科技-油管 2
-      - _US_美国 20
-      - _US_美国 21
-      - _US_美国 22
-      - _US_美国 23
+      - _US_美国 12
+      - _US_美国 13
+      - _US_美国 14
       - _CA_加拿大 9
-      - _US_美国_免费节点_4
-      - _US_美国 24
+      - _US_美国 15
+      - _US_美国 16
+      - 印度-TEST
+      - 馃嚚馃嚘+鍔犳嬁澶�+13
       - _GB_英国
-      - +Dallas-GTHost 2
-      - _US_美国 25
       - _CA_加拿大 10
-      - _US_美国 26
-      - _US_美国 27
+      - _CA_0125节点_14
       - _CA_加拿大 11
-      - _FR_法国
-      - _CN_中国_免费节点_7
-      - 馃嚭馃嚫+缇庡浗+9
       - 馃嚭馃嚫+缇庡浗+8
-      - _US_0125节点_42
-      - _US_美国 28
-      - 馃嚭馃嚫+缇庡浗+20
-      - 1000G使劲🌿🌿🌿🌿
+      - _US_美国 17
+      - _CA_加拿大+35
       - _CA_加拿大 12
+      - _US_美国 18
+      - 馃嚭馃嚫+缇庡浗+9
       - _GB_英国 2
-      - _US_美国 29
+      - _US_美国_免费节点_8
       - _CA_加拿大 13
-      - 馃嚚馃嚘+鍔犳嬁澶�+18
       - _CA_加拿大 14
+      - 香港v3-v2ray
+      - 馃嚚馃嚘+鍔犳嬁澶�+18
+      - 韩国v6-v2ray
       - _CA_加拿大 15
-      - _CA_加拿大 16
+      - 芜湖
+      - _US_0125节点_42
       - _US_0125节点_18
+      - 莞港iplc-v2
+      - 馃嚚馃嚘+鍔犳嬁澶�+14
+      - _DE_德国
+      - _GB_英国 3
+      - _GB_英国 4
+      - _US_美国 19
+      - _CA_加拿大 16
+      - _GB_英国 5
+      - 新加坡 v2-v2ray
       - _CA_加拿大 17
       - _CA_加拿大 18
       - _CA_加拿大 19
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
       - _CA_加拿大 20
-      - _CA_加拿大 21
-      - _CA_加拿大+35
-      - _US_美国_免费节点_8
+      - 付费推荐:dlj.tf/ssrsub__01
+      - 韩国v5-v2ray
       - 馃嚭馃嚫+缇庡浗+39
+      - _CA_加拿大 21
       - _CA_加拿大 22
-      - _CA_加拿大 23
-      - _CA_加拿大 24
-      - _CA_加拿大 25
-      - _GB_英国 3
-      - _CA_加拿大 26
-      - _CA_加拿大 27
-      - _GB_英国 4
-      - 馃嚚馃嚘+鍔犳嬁澶�+25
-      - _GB_英国 5
-      - _CA_加拿大 28
-      - _CA_加拿大 29
-      - _US_美国 30
-      - _CA_加拿大 30
-      - _GB_0125节点_45
       - _GB_英国 6
       - U
-      - _US_美国 31
       - _GB_英国 7
-      - 【426节点池】US_2284
-      - +London-GTHost
-      - WoAiDaFeiJi
-      - _CA_加拿大 31
-      - _GB_英国 8
-      - _GB_英国 9
-      - _CA_加拿大 32
-      - _GB_英国 10
+      - 韩国v4-v2ray
+      - _CA_加拿大 23
+      - _CA_加拿大 24
+      - 韩国v7-v2ray
+      - _CA_加拿大 25
       - _GB_0125节点_9
-      - _GB_英国 11
-      - 馃嚚馃嚘+鍔犳嬁澶�+22
-      - "@SSRSUB-V39-付费推荐:suo.yt/ssrsub"
-      - _GB_英国 12
-      - _CA_加拿大 33
-      - 馃嚭馃嚫US_1569
-      - 馃嚚馃嚘+鍔犳嬁澶�+21
-      - _US_美国_免费节点_1
-      - _CA_加拿大+14
+      - _CA_加拿大 26
+      - _CA_加拿大 27
+      - _GB_英国 8
+      - 德国 v2-v2ray
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - _US_美国_免费节点_4
+      - _GB_英国 9
+      - _GB_英国 10
+      - _CA_加拿大 28
       - 付费推荐:dlj.tf/ssrsub__13
-      - _US_美国_免费节点_3
-      - _GB_英国 13
-      - _HK_香港_免费节点_9
-      - _US_美国 32
-      - _US_美国 33
+      - WoAiDaFeiJi
+      - TEST
+      - 【426节点池】US_2284
+      - 香港v4-v2ray
+      - _FR_法国
+      - _US_美国 20
+      - 香港v6-v2ray
+      - _GB_英国 11
+      - +London-GTHost
+      - _CA_加拿大+14
+      - 德国 v1-v2ray
+      - _CA_加拿大 29
+      - 美国v5-v2ray
+      - _CA_加拿大 30
+      - _US_美国 21
+      - 美国V2-v2ray
+      - 馃嚭馃嚫US_1569
+      - 台湾v3-v2ray
       - _US_0125节点_44
-      - _CA_加拿大 34
-      - "@SSRSUB-V38-付费推荐:suo.yt/ssrsub"
-      - _US_美国 34
-      - _US_美国 35
-      - _GB_英国 14
-      - _CA_加拿大 35
-      - _CA_加拿大 36
-      - _US_美国 36
-      - default_name
-      - 付费推荐:dlj.tf/ssrsub__01
+      - _US_美国 22
+      - _US_美国 23
+      - _GB_英国 12
+      - _US_美国 24
+      - "@SSRSUB-V39-付费推荐:suo.yt/ssrsub"
+      - _CA_加拿大 31
+      - _CA_加拿大 32
+      - 新加坡CN2-3
+      - 新加坡 v4-v2ray
+      - 1000G使劲🌿🌿🌿🌿
+      - 馃嚚馃嚘+鍔犳嬁澶�+21
+      - 新加坡CN2-1
+      - _CA_加拿大 33
+      - _US_美国 25
+      - 台湾v2-v2ray
+      - 美国v8-v2ray
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
