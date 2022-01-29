@@ -5,7 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 日本(绿头外网集团)(Public), server: 35.77.53.131, port: 32626, type: vmess, uuid: 21f93641-4804-4540-a3ea-752cdac87e4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 美国(绿头外网集团)(Public), server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: 付费推荐:dlj.tf/ssrsub__13, server: 38.75.136.45, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: AA-V2ray-SG-NTT.01, server: cdn-cn.nekocloud.cn, port: 19079, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
@@ -16,34 +15,33 @@ proxies:
   - {name: _CA_加拿大, server: 134.195.196.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: _CA_加拿大 2, server: 198.57.27.152, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: 美国(绿头外网集团)(Public) 2, server: 38.68.135.239, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国 4, server: 167.88.62.62, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 馃嚚馃嚘+鍔犳嬁澶�+2, server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: _CA_加拿大 3, server: 198.57.27.152, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _US_美国 5, server: 38.107.226.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 4, server: 38.107.226.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: _US_美国_免费节点_1, server: 38.68.134.37, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: +Dallas-GTHost, server: 38.68.134.191, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _CA_0125节点_14, server: 198.57.27.188, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: _CA_加拿大 4, server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 馃嚚馃嚘+鍔犳嬁澶�+14, server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: _CA_加拿大 5, server: 134.195.196.149, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _US_美国 6, server: 38.68.134.48, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 5, server: 38.68.134.48, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: _CA_加拿大 6, server: 134.195.196.147, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国 7, server: 167.88.63.61, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _US_美国 8, server: 167.88.63.61, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 6, server: 167.88.63.61, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国 7, server: 167.88.63.61, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: _US_美国_免费节点_4, server: 38.68.134.37, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 馃嚚馃嚘+鍔犳嬁澶�+21, server: 134.195.196.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 9, server: 167.88.63.79, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 8, server: 167.88.63.79, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: _CA_加拿大 7, server: 134.195.196.147, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: _CA_加拿大 8, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: _US_0125节点_42, server: 167.88.63.28, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: _CA_加拿大 9, server: 134.195.196.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _GB_英国, server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国 10, server: 38.68.134.37, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 9, server: 38.68.134.37, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: 馃嚭馃嚫+缇庡浗+9, server: 38.121.43.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: 馃嚚馃嚘+鍔犳嬁澶�+18, server: 134.195.196.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _US_0125节点_18, server: 167.88.63.28, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国 11, server: 167.88.63.74, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _US_美国 12, server: 38.107.226.48, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 10, server: 167.88.63.74, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国 11, server: 38.107.226.48, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 馃嚭馃嚫+缇庡浗+8, server: 38.121.43.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: _CA_加拿大 10, server: 134.195.196.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _CA_加拿大 11, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
@@ -58,8 +56,8 @@ proxies:
   - {name: 馃嚚馃嚘+鍔犳嬁澶�+13, server: 198.57.27.241, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: 馃嚚馃嚘+鍔犳嬁澶�+25, server: 198.57.27.241, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 日本, server: azjp.pluscloud.top, port: 443, type: trojan, password: c1698db4-42e2-4901-adad-064bf5a8b558, sni: azjp.pluscloud.top, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 13, server: 38.107.226.48, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国 14, server: 38.68.135.239, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 12, server: 38.107.226.48, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 13, server: 38.68.135.239, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: _GB_英国 2, server: 172.99.190.149, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: _CA_加拿大 19, server: 134.195.196.128, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: _CA_加拿大 20, server: 198.57.27.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
@@ -74,10 +72,9 @@ proxies:
   - {name: _US_美国_免费节点_8, server: 38.68.134.37, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: +London-GTHost, server: 172.99.190.109, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: _GB_英国 6, server: 172.99.190.149, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国 15, server: 38.68.134.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国 14, server: 38.68.134.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: 美国_阿伟科技-油管 2, server: 169.197.142.99, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: _CA_加拿大 24, server: 198.57.27.184, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: WoAiDaFeiJi, server: 38.68.134.191, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: _CA_加拿大 25, server: 198.57.27.184, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: _CA_加拿大+35, server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: _GB_英国 7, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
@@ -95,29 +92,28 @@ proxies:
   - {name: 英国(绿头外网集团)(Public), server: 172.99.190.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: _CA_加拿大 30, server: 134.195.196.128, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: AA-V2ray-JP-NTT.03, server: cdn-cn.nekocloud.cn, port: 19055, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: _US_美国 16, server: 167.88.63.79, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 15, server: 167.88.63.79, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: AA-V2ray-US-HE.03, server: cdn-cn.nekocloud.cn, port: 19029, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
   - {name: AA-V2ray-JP-NTT.02, server: cdn-cn.nekocloud.cn, port: 10006, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: _US_美国 17, server: 167.88.61.50, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国 18, server: 167.88.62.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国, server: azus.pluscloud.top, port: 443, type: trojan, password: c1698db4-42e2-4901-adad-064bf5a8b558, sni: azus.pluscloud.top, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 16, server: 167.88.61.50, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 17, server: 167.88.62.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: _CA_加拿大 31, server: 198.57.27.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: _US_0125节点_44, server: 167.88.62.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _CA_加拿大 32, server: 198.57.27.184, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 19, server: 38.68.135.239, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 18, server: 38.68.135.239, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _CA_加拿大 33, server: 134.195.196.128, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 20, server: 167.88.63.74, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 21, server: 38.107.226.48, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 22, server: 38.68.134.191, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 23, server: 167.88.61.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 19, server: 167.88.63.74, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 20, server: 38.107.226.48, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 21, server: 38.68.134.191, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 22, server: 167.88.61.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: AA-V2ray-US-Philadelphia, server: cdn-cn.nekocloud.cn, port: 19016, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
   - {name: AA-V2ray-HK-NTT.01, server: cdn-cn.nekocloud.cn, port: 19084, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
   - {name: AA-V2ray-VN【越南】, server: cdn-cn.nekocloud.cn, port: 10007, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
   - {name: _GB_英国 10, server: 172.99.190.39, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 香港, server: azhk.pluscloud.top, port: 443, type: trojan, password: c1698db4-42e2-4901-adad-064bf5a8b558, sni: azhk.pluscloud.top, skip-cert-verify: true, udp: true}
   - {name: AA-V2ray-NL【荷兰】, server: cdn-cn.nekocloud.cn, port: 19049, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: _US_美国 24, server: 167.88.61.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国 25, server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 23, server: 167.88.61.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国 24, server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: +Dallas-GTHost 2, server: 38.68.134.191, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: AA-V2ray-HK-HKBN, server: cdn-cn.nekocloud.cn, port: 19085, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
   - {name: AA-V2ray-HK-HGC, server: cdn-cn.nekocloud.cn, port: 19083, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
@@ -130,7 +126,6 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本(绿头外网集团)(Public)
       - 美国(绿头外网集团)(Public)
       - 付费推荐:dlj.tf/ssrsub__13
       - AA-V2ray-SG-NTT.01
@@ -141,34 +136,33 @@ proxy-groups:
       - _CA_加拿大
       - _CA_加拿大 2
       - 美国(绿头外网集团)(Public) 2
-      - _US_美国 4
       - 馃嚚馃嚘+鍔犳嬁澶�+2
       - _CA_加拿大 3
-      - _US_美国 5
+      - _US_美国 4
       - _US_美国_免费节点_1
       - +Dallas-GTHost
       - _CA_0125节点_14
       - _CA_加拿大 4
       - 馃嚚馃嚘+鍔犳嬁澶�+14
       - _CA_加拿大 5
-      - _US_美国 6
+      - _US_美国 5
       - _CA_加拿大 6
+      - _US_美国 6
       - _US_美国 7
-      - _US_美国 8
       - _US_美国_免费节点_4
       - 馃嚚馃嚘+鍔犳嬁澶�+21
-      - _US_美国 9
+      - _US_美国 8
       - _CA_加拿大 7
       - _CA_加拿大 8
       - _US_0125节点_42
       - _CA_加拿大 9
       - _GB_英国
-      - _US_美国 10
+      - _US_美国 9
       - 馃嚭馃嚫+缇庡浗+9
       - 馃嚚馃嚘+鍔犳嬁澶�+18
       - _US_0125节点_18
+      - _US_美国 10
       - _US_美国 11
-      - _US_美国 12
       - 馃嚭馃嚫+缇庡浗+8
       - _CA_加拿大 10
       - _CA_加拿大 11
@@ -183,8 +177,8 @@ proxy-groups:
       - 馃嚚馃嚘+鍔犳嬁澶�+13
       - 馃嚚馃嚘+鍔犳嬁澶�+25
       - 日本
+      - _US_美国 12
       - _US_美国 13
-      - _US_美国 14
       - _GB_英国 2
       - _CA_加拿大 19
       - _CA_加拿大 20
@@ -199,10 +193,9 @@ proxy-groups:
       - _US_美国_免费节点_8
       - +London-GTHost
       - _GB_英国 6
-      - _US_美国 15
+      - _US_美国 14
       - 美国_阿伟科技-油管 2
       - _CA_加拿大 24
-      - WoAiDaFeiJi
       - _CA_加拿大 25
       - _CA_加拿大+35
       - _GB_英国 7
@@ -220,29 +213,28 @@ proxy-groups:
       - 英国(绿头外网集团)(Public)
       - _CA_加拿大 30
       - AA-V2ray-JP-NTT.03
-      - _US_美国 16
+      - _US_美国 15
       - AA-V2ray-US-HE.03
       - AA-V2ray-JP-NTT.02
+      - _US_美国 16
       - _US_美国 17
-      - _US_美国 18
-      - 美国
       - _CA_加拿大 31
       - _US_0125节点_44
       - _CA_加拿大 32
-      - _US_美国 19
+      - _US_美国 18
       - _CA_加拿大 33
+      - _US_美国 19
       - _US_美国 20
       - _US_美国 21
       - _US_美国 22
-      - _US_美国 23
       - AA-V2ray-US-Philadelphia
       - AA-V2ray-HK-NTT.01
       - AA-V2ray-VN【越南】
       - _GB_英国 10
       - 香港
       - AA-V2ray-NL【荷兰】
+      - _US_美国 23
       - _US_美国 24
-      - _US_美国 25
       - +Dallas-GTHost 2
       - AA-V2ray-HK-HKBN
       - AA-V2ray-HK-HGC
@@ -254,7 +246,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 日本(绿头外网集团)(Public)
       - 美国(绿头外网集团)(Public)
       - 付费推荐:dlj.tf/ssrsub__13
       - AA-V2ray-SG-NTT.01
@@ -265,34 +256,33 @@ proxy-groups:
       - _CA_加拿大
       - _CA_加拿大 2
       - 美国(绿头外网集团)(Public) 2
-      - _US_美国 4
       - 馃嚚馃嚘+鍔犳嬁澶�+2
       - _CA_加拿大 3
-      - _US_美国 5
+      - _US_美国 4
       - _US_美国_免费节点_1
       - +Dallas-GTHost
       - _CA_0125节点_14
       - _CA_加拿大 4
       - 馃嚚馃嚘+鍔犳嬁澶�+14
       - _CA_加拿大 5
-      - _US_美国 6
+      - _US_美国 5
       - _CA_加拿大 6
+      - _US_美国 6
       - _US_美国 7
-      - _US_美国 8
       - _US_美国_免费节点_4
       - 馃嚚馃嚘+鍔犳嬁澶�+21
-      - _US_美国 9
+      - _US_美国 8
       - _CA_加拿大 7
       - _CA_加拿大 8
       - _US_0125节点_42
       - _CA_加拿大 9
       - _GB_英国
-      - _US_美国 10
+      - _US_美国 9
       - 馃嚭馃嚫+缇庡浗+9
       - 馃嚚馃嚘+鍔犳嬁澶�+18
       - _US_0125节点_18
+      - _US_美国 10
       - _US_美国 11
-      - _US_美国 12
       - 馃嚭馃嚫+缇庡浗+8
       - _CA_加拿大 10
       - _CA_加拿大 11
@@ -307,8 +297,8 @@ proxy-groups:
       - 馃嚚馃嚘+鍔犳嬁澶�+13
       - 馃嚚馃嚘+鍔犳嬁澶�+25
       - 日本
+      - _US_美国 12
       - _US_美国 13
-      - _US_美国 14
       - _GB_英国 2
       - _CA_加拿大 19
       - _CA_加拿大 20
@@ -323,10 +313,9 @@ proxy-groups:
       - _US_美国_免费节点_8
       - +London-GTHost
       - _GB_英国 6
-      - _US_美国 15
+      - _US_美国 14
       - 美国_阿伟科技-油管 2
       - _CA_加拿大 24
-      - WoAiDaFeiJi
       - _CA_加拿大 25
       - _CA_加拿大+35
       - _GB_英国 7
@@ -344,29 +333,28 @@ proxy-groups:
       - 英国(绿头外网集团)(Public)
       - _CA_加拿大 30
       - AA-V2ray-JP-NTT.03
-      - _US_美国 16
+      - _US_美国 15
       - AA-V2ray-US-HE.03
       - AA-V2ray-JP-NTT.02
+      - _US_美国 16
       - _US_美国 17
-      - _US_美国 18
-      - 美国
       - _CA_加拿大 31
       - _US_0125节点_44
       - _CA_加拿大 32
-      - _US_美国 19
+      - _US_美国 18
       - _CA_加拿大 33
+      - _US_美国 19
       - _US_美国 20
       - _US_美国 21
       - _US_美国 22
-      - _US_美国 23
       - AA-V2ray-US-Philadelphia
       - AA-V2ray-HK-NTT.01
       - AA-V2ray-VN【越南】
       - _GB_英国 10
       - 香港
       - AA-V2ray-NL【荷兰】
+      - _US_美国 23
       - _US_美国 24
-      - _US_美国 25
       - +Dallas-GTHost 2
       - AA-V2ray-HK-HKBN
       - AA-V2ray-HK-HGC
@@ -379,7 +367,6 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本(绿头外网集团)(Public)
       - 美国(绿头外网集团)(Public)
       - 付费推荐:dlj.tf/ssrsub__13
       - AA-V2ray-SG-NTT.01
@@ -390,34 +377,33 @@ proxy-groups:
       - _CA_加拿大
       - _CA_加拿大 2
       - 美国(绿头外网集团)(Public) 2
-      - _US_美国 4
       - 馃嚚馃嚘+鍔犳嬁澶�+2
       - _CA_加拿大 3
-      - _US_美国 5
+      - _US_美国 4
       - _US_美国_免费节点_1
       - +Dallas-GTHost
       - _CA_0125节点_14
       - _CA_加拿大 4
       - 馃嚚馃嚘+鍔犳嬁澶�+14
       - _CA_加拿大 5
-      - _US_美国 6
+      - _US_美国 5
       - _CA_加拿大 6
+      - _US_美国 6
       - _US_美国 7
-      - _US_美国 8
       - _US_美国_免费节点_4
       - 馃嚚馃嚘+鍔犳嬁澶�+21
-      - _US_美国 9
+      - _US_美国 8
       - _CA_加拿大 7
       - _CA_加拿大 8
       - _US_0125节点_42
       - _CA_加拿大 9
       - _GB_英国
-      - _US_美国 10
+      - _US_美国 9
       - 馃嚭馃嚫+缇庡浗+9
       - 馃嚚馃嚘+鍔犳嬁澶�+18
       - _US_0125节点_18
+      - _US_美国 10
       - _US_美国 11
-      - _US_美国 12
       - 馃嚭馃嚫+缇庡浗+8
       - _CA_加拿大 10
       - _CA_加拿大 11
@@ -432,8 +418,8 @@ proxy-groups:
       - 馃嚚馃嚘+鍔犳嬁澶�+13
       - 馃嚚馃嚘+鍔犳嬁澶�+25
       - 日本
+      - _US_美国 12
       - _US_美国 13
-      - _US_美国 14
       - _GB_英国 2
       - _CA_加拿大 19
       - _CA_加拿大 20
@@ -448,10 +434,9 @@ proxy-groups:
       - _US_美国_免费节点_8
       - +London-GTHost
       - _GB_英国 6
-      - _US_美国 15
+      - _US_美国 14
       - 美国_阿伟科技-油管 2
       - _CA_加拿大 24
-      - WoAiDaFeiJi
       - _CA_加拿大 25
       - _CA_加拿大+35
       - _GB_英国 7
@@ -469,29 +454,28 @@ proxy-groups:
       - 英国(绿头外网集团)(Public)
       - _CA_加拿大 30
       - AA-V2ray-JP-NTT.03
-      - _US_美国 16
+      - _US_美国 15
       - AA-V2ray-US-HE.03
       - AA-V2ray-JP-NTT.02
+      - _US_美国 16
       - _US_美国 17
-      - _US_美国 18
-      - 美国
       - _CA_加拿大 31
       - _US_0125节点_44
       - _CA_加拿大 32
-      - _US_美国 19
+      - _US_美国 18
       - _CA_加拿大 33
+      - _US_美国 19
       - _US_美国 20
       - _US_美国 21
       - _US_美国 22
-      - _US_美国 23
       - AA-V2ray-US-Philadelphia
       - AA-V2ray-HK-NTT.01
       - AA-V2ray-VN【越南】
       - _GB_英国 10
       - 香港
       - AA-V2ray-NL【荷兰】
+      - _US_美国 23
       - _US_美国 24
-      - _US_美国 25
       - +Dallas-GTHost 2
       - AA-V2ray-HK-HKBN
       - AA-V2ray-HK-HGC
@@ -516,7 +500,6 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本(绿头外网集团)(Public)
       - 美国(绿头外网集团)(Public)
       - 付费推荐:dlj.tf/ssrsub__13
       - AA-V2ray-SG-NTT.01
@@ -527,34 +510,33 @@ proxy-groups:
       - _CA_加拿大
       - _CA_加拿大 2
       - 美国(绿头外网集团)(Public) 2
-      - _US_美国 4
       - 馃嚚馃嚘+鍔犳嬁澶�+2
       - _CA_加拿大 3
-      - _US_美国 5
+      - _US_美国 4
       - _US_美国_免费节点_1
       - +Dallas-GTHost
       - _CA_0125节点_14
       - _CA_加拿大 4
       - 馃嚚馃嚘+鍔犳嬁澶�+14
       - _CA_加拿大 5
-      - _US_美国 6
+      - _US_美国 5
       - _CA_加拿大 6
+      - _US_美国 6
       - _US_美国 7
-      - _US_美国 8
       - _US_美国_免费节点_4
       - 馃嚚馃嚘+鍔犳嬁澶�+21
-      - _US_美国 9
+      - _US_美国 8
       - _CA_加拿大 7
       - _CA_加拿大 8
       - _US_0125节点_42
       - _CA_加拿大 9
       - _GB_英国
-      - _US_美国 10
+      - _US_美国 9
       - 馃嚭馃嚫+缇庡浗+9
       - 馃嚚馃嚘+鍔犳嬁澶�+18
       - _US_0125节点_18
+      - _US_美国 10
       - _US_美国 11
-      - _US_美国 12
       - 馃嚭馃嚫+缇庡浗+8
       - _CA_加拿大 10
       - _CA_加拿大 11
@@ -569,8 +551,8 @@ proxy-groups:
       - 馃嚚馃嚘+鍔犳嬁澶�+13
       - 馃嚚馃嚘+鍔犳嬁澶�+25
       - 日本
+      - _US_美国 12
       - _US_美国 13
-      - _US_美国 14
       - _GB_英国 2
       - _CA_加拿大 19
       - _CA_加拿大 20
@@ -585,10 +567,9 @@ proxy-groups:
       - _US_美国_免费节点_8
       - +London-GTHost
       - _GB_英国 6
-      - _US_美国 15
+      - _US_美国 14
       - 美国_阿伟科技-油管 2
       - _CA_加拿大 24
-      - WoAiDaFeiJi
       - _CA_加拿大 25
       - _CA_加拿大+35
       - _GB_英国 7
@@ -606,29 +587,28 @@ proxy-groups:
       - 英国(绿头外网集团)(Public)
       - _CA_加拿大 30
       - AA-V2ray-JP-NTT.03
-      - _US_美国 16
+      - _US_美国 15
       - AA-V2ray-US-HE.03
       - AA-V2ray-JP-NTT.02
+      - _US_美国 16
       - _US_美国 17
-      - _US_美国 18
-      - 美国
       - _CA_加拿大 31
       - _US_0125节点_44
       - _CA_加拿大 32
-      - _US_美国 19
+      - _US_美国 18
       - _CA_加拿大 33
+      - _US_美国 19
       - _US_美国 20
       - _US_美国 21
       - _US_美国 22
-      - _US_美国 23
       - AA-V2ray-US-Philadelphia
       - AA-V2ray-HK-NTT.01
       - AA-V2ray-VN【越南】
       - _GB_英国 10
       - 香港
       - AA-V2ray-NL【荷兰】
+      - _US_美国 23
       - _US_美国 24
-      - _US_美国 25
       - +Dallas-GTHost 2
       - AA-V2ray-HK-HKBN
       - AA-V2ray-HK-HGC
@@ -648,7 +628,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 日本(绿头外网集团)(Public)
       - 美国(绿头外网集团)(Public)
       - 付费推荐:dlj.tf/ssrsub__13
       - AA-V2ray-SG-NTT.01
@@ -659,34 +638,33 @@ proxy-groups:
       - _CA_加拿大
       - _CA_加拿大 2
       - 美国(绿头外网集团)(Public) 2
-      - _US_美国 4
       - 馃嚚馃嚘+鍔犳嬁澶�+2
       - _CA_加拿大 3
-      - _US_美国 5
+      - _US_美国 4
       - _US_美国_免费节点_1
       - +Dallas-GTHost
       - _CA_0125节点_14
       - _CA_加拿大 4
       - 馃嚚馃嚘+鍔犳嬁澶�+14
       - _CA_加拿大 5
-      - _US_美国 6
+      - _US_美国 5
       - _CA_加拿大 6
+      - _US_美国 6
       - _US_美国 7
-      - _US_美国 8
       - _US_美国_免费节点_4
       - 馃嚚馃嚘+鍔犳嬁澶�+21
-      - _US_美国 9
+      - _US_美国 8
       - _CA_加拿大 7
       - _CA_加拿大 8
       - _US_0125节点_42
       - _CA_加拿大 9
       - _GB_英国
-      - _US_美国 10
+      - _US_美国 9
       - 馃嚭馃嚫+缇庡浗+9
       - 馃嚚馃嚘+鍔犳嬁澶�+18
       - _US_0125节点_18
+      - _US_美国 10
       - _US_美国 11
-      - _US_美国 12
       - 馃嚭馃嚫+缇庡浗+8
       - _CA_加拿大 10
       - _CA_加拿大 11
@@ -701,8 +679,8 @@ proxy-groups:
       - 馃嚚馃嚘+鍔犳嬁澶�+13
       - 馃嚚馃嚘+鍔犳嬁澶�+25
       - 日本
+      - _US_美国 12
       - _US_美国 13
-      - _US_美国 14
       - _GB_英国 2
       - _CA_加拿大 19
       - _CA_加拿大 20
@@ -717,10 +695,9 @@ proxy-groups:
       - _US_美国_免费节点_8
       - +London-GTHost
       - _GB_英国 6
-      - _US_美国 15
+      - _US_美国 14
       - 美国_阿伟科技-油管 2
       - _CA_加拿大 24
-      - WoAiDaFeiJi
       - _CA_加拿大 25
       - _CA_加拿大+35
       - _GB_英国 7
@@ -738,29 +715,28 @@ proxy-groups:
       - 英国(绿头外网集团)(Public)
       - _CA_加拿大 30
       - AA-V2ray-JP-NTT.03
-      - _US_美国 16
+      - _US_美国 15
       - AA-V2ray-US-HE.03
       - AA-V2ray-JP-NTT.02
+      - _US_美国 16
       - _US_美国 17
-      - _US_美国 18
-      - 美国
       - _CA_加拿大 31
       - _US_0125节点_44
       - _CA_加拿大 32
-      - _US_美国 19
+      - _US_美国 18
       - _CA_加拿大 33
+      - _US_美国 19
       - _US_美国 20
       - _US_美国 21
       - _US_美国 22
-      - _US_美国 23
       - AA-V2ray-US-Philadelphia
       - AA-V2ray-HK-NTT.01
       - AA-V2ray-VN【越南】
       - _GB_英国 10
       - 香港
       - AA-V2ray-NL【荷兰】
+      - _US_美国 23
       - _US_美国 24
-      - _US_美国 25
       - +Dallas-GTHost 2
       - AA-V2ray-HK-HKBN
       - AA-V2ray-HK-HGC
@@ -772,7 +748,6 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 日本(绿头外网集团)(Public)
       - 美国(绿头外网集团)(Public)
       - 付费推荐:dlj.tf/ssrsub__13
       - AA-V2ray-SG-NTT.01
@@ -783,34 +758,33 @@ proxy-groups:
       - _CA_加拿大
       - _CA_加拿大 2
       - 美国(绿头外网集团)(Public) 2
-      - _US_美国 4
       - 馃嚚馃嚘+鍔犳嬁澶�+2
       - _CA_加拿大 3
-      - _US_美国 5
+      - _US_美国 4
       - _US_美国_免费节点_1
       - +Dallas-GTHost
       - _CA_0125节点_14
       - _CA_加拿大 4
       - 馃嚚馃嚘+鍔犳嬁澶�+14
       - _CA_加拿大 5
-      - _US_美国 6
+      - _US_美国 5
       - _CA_加拿大 6
+      - _US_美国 6
       - _US_美国 7
-      - _US_美国 8
       - _US_美国_免费节点_4
       - 馃嚚馃嚘+鍔犳嬁澶�+21
-      - _US_美国 9
+      - _US_美国 8
       - _CA_加拿大 7
       - _CA_加拿大 8
       - _US_0125节点_42
       - _CA_加拿大 9
       - _GB_英国
-      - _US_美国 10
+      - _US_美国 9
       - 馃嚭馃嚫+缇庡浗+9
       - 馃嚚馃嚘+鍔犳嬁澶�+18
       - _US_0125节点_18
+      - _US_美国 10
       - _US_美国 11
-      - _US_美国 12
       - 馃嚭馃嚫+缇庡浗+8
       - _CA_加拿大 10
       - _CA_加拿大 11
@@ -825,8 +799,8 @@ proxy-groups:
       - 馃嚚馃嚘+鍔犳嬁澶�+13
       - 馃嚚馃嚘+鍔犳嬁澶�+25
       - 日本
+      - _US_美国 12
       - _US_美国 13
-      - _US_美国 14
       - _GB_英国 2
       - _CA_加拿大 19
       - _CA_加拿大 20
@@ -841,10 +815,9 @@ proxy-groups:
       - _US_美国_免费节点_8
       - +London-GTHost
       - _GB_英国 6
-      - _US_美国 15
+      - _US_美国 14
       - 美国_阿伟科技-油管 2
       - _CA_加拿大 24
-      - WoAiDaFeiJi
       - _CA_加拿大 25
       - _CA_加拿大+35
       - _GB_英国 7
@@ -862,29 +835,28 @@ proxy-groups:
       - 英国(绿头外网集团)(Public)
       - _CA_加拿大 30
       - AA-V2ray-JP-NTT.03
-      - _US_美国 16
+      - _US_美国 15
       - AA-V2ray-US-HE.03
       - AA-V2ray-JP-NTT.02
+      - _US_美国 16
       - _US_美国 17
-      - _US_美国 18
-      - 美国
       - _CA_加拿大 31
       - _US_0125节点_44
       - _CA_加拿大 32
-      - _US_美国 19
+      - _US_美国 18
       - _CA_加拿大 33
+      - _US_美国 19
       - _US_美国 20
       - _US_美国 21
       - _US_美国 22
-      - _US_美国 23
       - AA-V2ray-US-Philadelphia
       - AA-V2ray-HK-NTT.01
       - AA-V2ray-VN【越南】
       - _GB_英国 10
       - 香港
       - AA-V2ray-NL【荷兰】
+      - _US_美国 23
       - _US_美国 24
-      - _US_美国 25
       - +Dallas-GTHost 2
       - AA-V2ray-HK-HKBN
       - AA-V2ray-HK-HGC
@@ -897,7 +869,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本(绿头外网集团)(Public)
       - 美国(绿头外网集团)(Public)
       - 付费推荐:dlj.tf/ssrsub__13
       - AA-V2ray-SG-NTT.01
@@ -908,34 +879,33 @@ proxy-groups:
       - _CA_加拿大
       - _CA_加拿大 2
       - 美国(绿头外网集团)(Public) 2
-      - _US_美国 4
       - 馃嚚馃嚘+鍔犳嬁澶�+2
       - _CA_加拿大 3
-      - _US_美国 5
+      - _US_美国 4
       - _US_美国_免费节点_1
       - +Dallas-GTHost
       - _CA_0125节点_14
       - _CA_加拿大 4
       - 馃嚚馃嚘+鍔犳嬁澶�+14
       - _CA_加拿大 5
-      - _US_美国 6
+      - _US_美国 5
       - _CA_加拿大 6
+      - _US_美国 6
       - _US_美国 7
-      - _US_美国 8
       - _US_美国_免费节点_4
       - 馃嚚馃嚘+鍔犳嬁澶�+21
-      - _US_美国 9
+      - _US_美国 8
       - _CA_加拿大 7
       - _CA_加拿大 8
       - _US_0125节点_42
       - _CA_加拿大 9
       - _GB_英国
-      - _US_美国 10
+      - _US_美国 9
       - 馃嚭馃嚫+缇庡浗+9
       - 馃嚚馃嚘+鍔犳嬁澶�+18
       - _US_0125节点_18
+      - _US_美国 10
       - _US_美国 11
-      - _US_美国 12
       - 馃嚭馃嚫+缇庡浗+8
       - _CA_加拿大 10
       - _CA_加拿大 11
@@ -950,8 +920,8 @@ proxy-groups:
       - 馃嚚馃嚘+鍔犳嬁澶�+13
       - 馃嚚馃嚘+鍔犳嬁澶�+25
       - 日本
+      - _US_美国 12
       - _US_美国 13
-      - _US_美国 14
       - _GB_英国 2
       - _CA_加拿大 19
       - _CA_加拿大 20
@@ -966,10 +936,9 @@ proxy-groups:
       - _US_美国_免费节点_8
       - +London-GTHost
       - _GB_英国 6
-      - _US_美国 15
+      - _US_美国 14
       - 美国_阿伟科技-油管 2
       - _CA_加拿大 24
-      - WoAiDaFeiJi
       - _CA_加拿大 25
       - _CA_加拿大+35
       - _GB_英国 7
@@ -987,29 +956,28 @@ proxy-groups:
       - 英国(绿头外网集团)(Public)
       - _CA_加拿大 30
       - AA-V2ray-JP-NTT.03
-      - _US_美国 16
+      - _US_美国 15
       - AA-V2ray-US-HE.03
       - AA-V2ray-JP-NTT.02
+      - _US_美国 16
       - _US_美国 17
-      - _US_美国 18
-      - 美国
       - _CA_加拿大 31
       - _US_0125节点_44
       - _CA_加拿大 32
-      - _US_美国 19
+      - _US_美国 18
       - _CA_加拿大 33
+      - _US_美国 19
       - _US_美国 20
       - _US_美国 21
       - _US_美国 22
-      - _US_美国 23
       - AA-V2ray-US-Philadelphia
       - AA-V2ray-HK-NTT.01
       - AA-V2ray-VN【越南】
       - _GB_英国 10
       - 香港
       - AA-V2ray-NL【荷兰】
+      - _US_美国 23
       - _US_美国 24
-      - _US_美国 25
       - +Dallas-GTHost 2
       - AA-V2ray-HK-HKBN
       - AA-V2ray-HK-HGC
@@ -1031,7 +999,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本(绿头外网集团)(Public)
       - 美国(绿头外网集团)(Public)
       - 付费推荐:dlj.tf/ssrsub__13
       - AA-V2ray-SG-NTT.01
@@ -1042,34 +1009,33 @@ proxy-groups:
       - _CA_加拿大
       - _CA_加拿大 2
       - 美国(绿头外网集团)(Public) 2
-      - _US_美国 4
       - 馃嚚馃嚘+鍔犳嬁澶�+2
       - _CA_加拿大 3
-      - _US_美国 5
+      - _US_美国 4
       - _US_美国_免费节点_1
       - +Dallas-GTHost
       - _CA_0125节点_14
       - _CA_加拿大 4
       - 馃嚚馃嚘+鍔犳嬁澶�+14
       - _CA_加拿大 5
-      - _US_美国 6
+      - _US_美国 5
       - _CA_加拿大 6
+      - _US_美国 6
       - _US_美国 7
-      - _US_美国 8
       - _US_美国_免费节点_4
       - 馃嚚馃嚘+鍔犳嬁澶�+21
-      - _US_美国 9
+      - _US_美国 8
       - _CA_加拿大 7
       - _CA_加拿大 8
       - _US_0125节点_42
       - _CA_加拿大 9
       - _GB_英国
-      - _US_美国 10
+      - _US_美国 9
       - 馃嚭馃嚫+缇庡浗+9
       - 馃嚚馃嚘+鍔犳嬁澶�+18
       - _US_0125节点_18
+      - _US_美国 10
       - _US_美国 11
-      - _US_美国 12
       - 馃嚭馃嚫+缇庡浗+8
       - _CA_加拿大 10
       - _CA_加拿大 11
@@ -1084,8 +1050,8 @@ proxy-groups:
       - 馃嚚馃嚘+鍔犳嬁澶�+13
       - 馃嚚馃嚘+鍔犳嬁澶�+25
       - 日本
+      - _US_美国 12
       - _US_美国 13
-      - _US_美国 14
       - _GB_英国 2
       - _CA_加拿大 19
       - _CA_加拿大 20
@@ -1100,10 +1066,9 @@ proxy-groups:
       - _US_美国_免费节点_8
       - +London-GTHost
       - _GB_英国 6
-      - _US_美国 15
+      - _US_美国 14
       - 美国_阿伟科技-油管 2
       - _CA_加拿大 24
-      - WoAiDaFeiJi
       - _CA_加拿大 25
       - _CA_加拿大+35
       - _GB_英国 7
@@ -1121,29 +1086,28 @@ proxy-groups:
       - 英国(绿头外网集团)(Public)
       - _CA_加拿大 30
       - AA-V2ray-JP-NTT.03
-      - _US_美国 16
+      - _US_美国 15
       - AA-V2ray-US-HE.03
       - AA-V2ray-JP-NTT.02
+      - _US_美国 16
       - _US_美国 17
-      - _US_美国 18
-      - 美国
       - _CA_加拿大 31
       - _US_0125节点_44
       - _CA_加拿大 32
-      - _US_美国 19
+      - _US_美国 18
       - _CA_加拿大 33
+      - _US_美国 19
       - _US_美国 20
       - _US_美国 21
       - _US_美国 22
-      - _US_美国 23
       - AA-V2ray-US-Philadelphia
       - AA-V2ray-HK-NTT.01
       - AA-V2ray-VN【越南】
       - _GB_英国 10
       - 香港
       - AA-V2ray-NL【荷兰】
+      - _US_美国 23
       - _US_美国 24
-      - _US_美国 25
       - +Dallas-GTHost 2
       - AA-V2ray-HK-HKBN
       - AA-V2ray-HK-HGC
