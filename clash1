@@ -13,14 +13,12 @@ proxies:
   - {name: 美国_阿伟科技-油管 2, server: 38.75.136.49, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: _US_美国, server: 167.88.62.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: _US_美国 2, server: 167.88.61.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 馃嚭馃嚫+缇庡浗+20, server: 167.88.62.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: _US_美国 3, server: 167.88.61.50, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: _US_美国 4, server: 167.88.63.79, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: _US_美国 5, server: 167.88.63.79, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: _US_美国 6, server: 38.121.43.91, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: 馃嚭馃嚫+缇庡浗+32, server: 38.68.134.191, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: _US_美国 7, server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_0125节点_40, server: 167.88.63.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: _US_美国 8, server: 167.88.62.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: _CA_加拿大, server: 198.57.27.152, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: _US_美国 9, server: 38.75.136.45, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
@@ -114,7 +112,15 @@ proxies:
   - {name: 馃嚚馃嚘+鍔犳嬁澶�+21, server: 134.195.196.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: _CA_加拿大 33, server: 198.57.27.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: _US_美国 25, server: 38.107.226.48, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _HK_香港_免费节点_9, server: 20.187.91.141, port: 80, type: ss, cipher: aes-128-gcm, password: bIW7xp, udp: true}
+  - {name: 英国(绿头外网集团)(Public), server: 172.99.190.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国(绿头外网集团)(Public), server: 38.68.135.239, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 中国(绿头外网集团)(Public), server: 218.78.22.199, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本(绿头外网集团)(Public), server: 35.77.53.131, port: 32626, type: vmess, uuid: 21f93641-4804-4540-a3ea-752cdac87e4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 2, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 新加坡, server: azsg.pluscloud.top, port: 443, type: trojan, password: c1698db4-42e2-4901-adad-064bf5a8b558, sni: azsg.pluscloud.top, skip-cert-verify: true, udp: true}
+  - {name: 日本, server: azjp.pluscloud.top, port: 443, type: trojan, password: c1698db4-42e2-4901-adad-064bf5a8b558, sni: azjp.pluscloud.top, skip-cert-verify: true, udp: true}
+  - {name: 香港, server: azhk.pluscloud.top, port: 443, type: trojan, password: c1698db4-42e2-4901-adad-064bf5a8b558, sni: azhk.pluscloud.top, skip-cert-verify: true, udp: true}
+  - {name: 美国, server: azus.pluscloud.top, port: 443, type: trojan, password: c1698db4-42e2-4901-adad-064bf5a8b558, sni: azus.pluscloud.top, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -129,14 +135,12 @@ proxy-groups:
       - 美国_阿伟科技-油管 2
       - _US_美国
       - _US_美国 2
-      - 馃嚭馃嚫+缇庡浗+20
       - _US_美国 3
       - _US_美国 4
       - _US_美国 5
       - _US_美国 6
       - 馃嚭馃嚫+缇庡浗+32
       - _US_美国 7
-      - _US_0125节点_40
       - _US_美国 8
       - _CA_加拿大
       - _US_美国 9
@@ -230,7 +234,15 @@ proxy-groups:
       - 馃嚚馃嚘+鍔犳嬁澶�+21
       - _CA_加拿大 33
       - _US_美国 25
-      - _HK_香港_免费节点_9
+      - 英国(绿头外网集团)(Public)
+      - 美国(绿头外网集团)(Public)
+      - 中国(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public)
+      - 美国(绿头外网集团)(Public) 2
+      - 新加坡
+      - 日本
+      - 香港
+      - 美国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -244,14 +256,12 @@ proxy-groups:
       - 美国_阿伟科技-油管 2
       - _US_美国
       - _US_美国 2
-      - 馃嚭馃嚫+缇庡浗+20
       - _US_美国 3
       - _US_美国 4
       - _US_美国 5
       - _US_美国 6
       - 馃嚭馃嚫+缇庡浗+32
       - _US_美国 7
-      - _US_0125节点_40
       - _US_美国 8
       - _CA_加拿大
       - _US_美国 9
@@ -345,7 +355,15 @@ proxy-groups:
       - 馃嚚馃嚘+鍔犳嬁澶�+21
       - _CA_加拿大 33
       - _US_美国 25
-      - _HK_香港_免费节点_9
+      - 英国(绿头外网集团)(Public)
+      - 美国(绿头外网集团)(Public)
+      - 中国(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public)
+      - 美国(绿头外网集团)(Public) 2
+      - 新加坡
+      - 日本
+      - 香港
+      - 美国
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -360,14 +378,12 @@ proxy-groups:
       - 美国_阿伟科技-油管 2
       - _US_美国
       - _US_美国 2
-      - 馃嚭馃嚫+缇庡浗+20
       - _US_美国 3
       - _US_美国 4
       - _US_美国 5
       - _US_美国 6
       - 馃嚭馃嚫+缇庡浗+32
       - _US_美国 7
-      - _US_0125节点_40
       - _US_美国 8
       - _CA_加拿大
       - _US_美国 9
@@ -461,7 +477,15 @@ proxy-groups:
       - 馃嚚馃嚘+鍔犳嬁澶�+21
       - _CA_加拿大 33
       - _US_美国 25
-      - _HK_香港_免费节点_9
+      - 英国(绿头外网集团)(Public)
+      - 美国(绿头外网集团)(Public)
+      - 中国(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public)
+      - 美国(绿头外网集团)(Public) 2
+      - 新加坡
+      - 日本
+      - 香港
+      - 美国
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -488,14 +512,12 @@ proxy-groups:
       - 美国_阿伟科技-油管 2
       - _US_美国
       - _US_美国 2
-      - 馃嚭馃嚫+缇庡浗+20
       - _US_美国 3
       - _US_美国 4
       - _US_美国 5
       - _US_美国 6
       - 馃嚭馃嚫+缇庡浗+32
       - _US_美国 7
-      - _US_0125节点_40
       - _US_美国 8
       - _CA_加拿大
       - _US_美国 9
@@ -589,12 +611,20 @@ proxy-groups:
       - 馃嚚馃嚘+鍔犳嬁澶�+21
       - _CA_加拿大 33
       - _US_美国 25
-      - _HK_香港_免费节点_9
+      - 英国(绿头外网集团)(Public)
+      - 美国(绿头外网集团)(Public)
+      - 中国(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public)
+      - 美国(绿头外网集团)(Public) 2
+      - 新加坡
+      - 日本
+      - 香港
+      - 美国
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - _HK_香港_免费节点_9
+      - 香港
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -609,14 +639,12 @@ proxy-groups:
       - 美国_阿伟科技-油管 2
       - _US_美国
       - _US_美国 2
-      - 馃嚭馃嚫+缇庡浗+20
       - _US_美国 3
       - _US_美国 4
       - _US_美国 5
       - _US_美国 6
       - 馃嚭馃嚫+缇庡浗+32
       - _US_美国 7
-      - _US_0125节点_40
       - _US_美国 8
       - _CA_加拿大
       - _US_美国 9
@@ -710,7 +738,15 @@ proxy-groups:
       - 馃嚚馃嚘+鍔犳嬁澶�+21
       - _CA_加拿大 33
       - _US_美国 25
-      - _HK_香港_免费节点_9
+      - 英国(绿头外网集团)(Public)
+      - 美国(绿头外网集团)(Public)
+      - 中国(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public)
+      - 美国(绿头外网集团)(Public) 2
+      - 新加坡
+      - 日本
+      - 香港
+      - 美国
   - name: 📲 电报信息
     type: select
     proxies:
@@ -724,14 +760,12 @@ proxy-groups:
       - 美国_阿伟科技-油管 2
       - _US_美国
       - _US_美国 2
-      - 馃嚭馃嚫+缇庡浗+20
       - _US_美国 3
       - _US_美国 4
       - _US_美国 5
       - _US_美国 6
       - 馃嚭馃嚫+缇庡浗+32
       - _US_美国 7
-      - _US_0125节点_40
       - _US_美国 8
       - _CA_加拿大
       - _US_美国 9
@@ -825,7 +859,15 @@ proxy-groups:
       - 馃嚚馃嚘+鍔犳嬁澶�+21
       - _CA_加拿大 33
       - _US_美国 25
-      - _HK_香港_免费节点_9
+      - 英国(绿头外网集团)(Public)
+      - 美国(绿头外网集团)(Public)
+      - 中国(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public)
+      - 美国(绿头外网集团)(Public) 2
+      - 新加坡
+      - 日本
+      - 香港
+      - 美国
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -840,14 +882,12 @@ proxy-groups:
       - 美国_阿伟科技-油管 2
       - _US_美国
       - _US_美国 2
-      - 馃嚭馃嚫+缇庡浗+20
       - _US_美国 3
       - _US_美国 4
       - _US_美国 5
       - _US_美国 6
       - 馃嚭馃嚫+缇庡浗+32
       - _US_美国 7
-      - _US_0125节点_40
       - _US_美国 8
       - _CA_加拿大
       - _US_美国 9
@@ -941,7 +981,15 @@ proxy-groups:
       - 馃嚚馃嚘+鍔犳嬁澶�+21
       - _CA_加拿大 33
       - _US_美国 25
-      - _HK_香港_免费节点_9
+      - 英国(绿头外网集团)(Public)
+      - 美国(绿头外网集团)(Public)
+      - 中国(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public)
+      - 美国(绿头外网集团)(Public) 2
+      - 新加坡
+      - 日本
+      - 香港
+      - 美国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -965,14 +1013,12 @@ proxy-groups:
       - 美国_阿伟科技-油管 2
       - _US_美国
       - _US_美国 2
-      - 馃嚭馃嚫+缇庡浗+20
       - _US_美国 3
       - _US_美国 4
       - _US_美国 5
       - _US_美国 6
       - 馃嚭馃嚫+缇庡浗+32
       - _US_美国 7
-      - _US_0125节点_40
       - _US_美国 8
       - _CA_加拿大
       - _US_美国 9
@@ -1066,7 +1112,15 @@ proxy-groups:
       - 馃嚚馃嚘+鍔犳嬁澶�+21
       - _CA_加拿大 33
       - _US_美国 25
-      - _HK_香港_免费节点_9
+      - 英国(绿头外网集团)(Public)
+      - 美国(绿头外网集团)(Public)
+      - 中国(绿头外网集团)(Public)
+      - 日本(绿头外网集团)(Public)
+      - 美国(绿头外网集团)(Public) 2
+      - 新加坡
+      - 日本
+      - 香港
+      - 美国
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
