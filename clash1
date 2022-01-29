@@ -9,7 +9,6 @@ proxies:
   - {name: 中日iplc-v1, server: zriplc.tzmm.xyz, port: 50110, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: zriplc.tzmm.xyz}, udp: true}
   - {name: 韩国v8-v2ray, server: jisu80.tzmm.xyz, port: 50080, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jisu80.tzmm.xyz}, udp: true}
   - {name: _KR_韩国_免费节点_17, server: aws.kr.tgproxy.wtf, port: 21888, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: aws.kr.tgproxy.wtf}, udp: true}
-  - {name: 中日iplc-v2, server: zriplc.tzmm.xyz, port: 50111, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp111.tzmm.xyz}, udp: true}
   - {name: _SG_新加坡, server: 172.104.168.83, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: 新加坡 v1-v2ray, server: cn2108.jisumm.xyz, port: 50108, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sg108.tzkk.xyz}, udp: true}
   - {name: _HK_香港_免费节点_9, server: 20.187.91.141, port: 80, type: ss, cipher: aes-128-gcm, password: bIW7xp, udp: true}
@@ -17,10 +16,6 @@ proxies:
   - {name: 日本v5-v2ray, server: vpscn2.jisumm.xyz, port: 50097, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: vpscn2.jisumm.xyz}, udp: true}
   - {name: 日本v2-v2ray, server: vpscn2.jisumm.xyz, port: 50099, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: vpscn2.jisumm.xyz}, udp: true}
   - {name: 韩国v1-v2ray, server: jstz95.tzmm.xyz, port: 51195, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jstz95.tzmm.xyz}, udp: true}
-  - {name: 日本v4-v2ray, server: jisu106.tzmm.xyz, port: 50106, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp106.tzkk.xyz}, udp: true}
-  - {name: 日本v1-v2ray, server: jisu90.tzmm.xyz, port: 50090, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp90.tzmm.xyz}, udp: true}
-  - {name: 韩国v2-v2ray, server: jisu96.tzkk.xyz, port: 50096, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: kr96.tzkk.xyz}, udp: true}
-  - {name: 韩国v3-v2ray, server: jisu103.tzmm.xyz, port: 50103, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: kr103.tzmm.xyz}, udp: true}
   - {name: default_name, server: inapus.mooncloud.bike, port: 8443, type: vmess, uuid: 2c42a34e-5f88-492b-8a59-3531090578f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: inapus1.mooncloud.bike}, udp: true}
   - {name: 新加坡 v3-v2ray, server: jisu68.tzmm.xyz, port: 50068, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jisu68.tzmm.xyz}, udp: true}
   - {name: _US_0125节点_48, server: 169.197.142.99, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
@@ -29,7 +24,6 @@ proxies:
   - {name: 美国_阿伟科技-油管, server: 169.197.142.99, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: _US_美国_免费节点_2, server: 38.75.136.49, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: 美国_阿伟科技-油管 2, server: 38.75.136.49, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美国-TEST, server: cu98.tzmm.xyz, port: 50098, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jstz98.tzmm.xyz}, udp: true}
   - {name: _US_美国, server: 167.88.62.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: _US_美国 2, server: 167.88.61.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: _CN_中国_免费节点_7, server: ddns04.r8o8c8k.xyz, port: 65009, type: vmess, uuid: aefcd764-7d2e-3a86-803d-b11c1e77aa30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: ddns04.r8o8c8k.xyz}, udp: true}
@@ -87,7 +81,6 @@ proxies:
   - {name: 芜湖, server: 104.27.89.125, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, ws-headers: {Host: xiaochen.chenyingjie5201314.workers.dev}, udp: true}
   - {name: _US_0125节点_42, server: 167.88.63.28, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: _US_0125节点_18, server: 167.88.63.28, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 莞港iplc-v2, server: jisu116.tzmm.xyz, port: 50116, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jisu116.tzmm.xyz}, udp: true}
   - {name: 馃嚚馃嚘+鍔犳嬁澶�+14, server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: _DE_德国, server: 172.105.244.165, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: _GB_英国 3, server: 172.99.190.149, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
@@ -95,7 +88,6 @@ proxies:
   - {name: _US_美国 19, server: 38.68.134.37, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: _CA_加拿大 16, server: 134.195.196.214, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: _GB_英国 5, server: 172.99.190.109, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 新加坡 v2-v2ray, server: jisu76.tzmm.xyz, port: 50076, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sgp76.tzkk.xyz}, udp: true}
   - {name: _CA_加拿大 17, server: 134.195.196.128, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: _CA_加拿大 18, server: 134.195.196.147, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: _CA_加拿大 19, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
@@ -117,7 +109,6 @@ proxies:
   - {name: _CA_加拿大 26, server: 198.57.27.184, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: _CA_加拿大 27, server: 198.57.27.184, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: _GB_英国 8, server: 172.99.190.149, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 德国 v2-v2ray, server: jisu102.tzkk.xyz, port: 50102, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ger102.tzkk.xyz}, udp: true}
   - {name: 馃嚚馃嚘+鍔犳嬁澶�+2, server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: _US_美国_免费节点_4, server: 38.68.134.37, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: _GB_英国 9, server: 172.99.190.139, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
@@ -134,14 +125,10 @@ proxies:
   - {name: _GB_英国 11, server: 172.99.190.109, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: +London-GTHost, server: 172.99.190.109, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: _CA_加拿大+14, server: 134.195.196.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 德国 v1-v2ray, server: jisu101.tzkk.xyz, port: 50101, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ger101.tzkk.xyz}, udp: true}
   - {name: _CA_加拿大 29, server: 198.57.27.184, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国v5-v2ray, server: jisu51.tzmm.xyz, port: 50051, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us51.tzmm.xyz}, udp: true}
   - {name: _CA_加拿大 30, server: 134.195.196.128, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: _US_美国 21, server: 167.88.61.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国V2-v2ray, server: cu85.tzkk.xyz, port: 50085, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us85.tzkk.xyz}, udp: true}
   - {name: 馃嚭馃嚫US_1569, server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 台湾v3-v2ray, server: jstz75.tzmm.xyz, port: 51175, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jstz75.tzmm.xyz}, udp: true}
   - {name: _US_0125节点_44, server: 167.88.62.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _US_美国 22, server: 38.68.134.191, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _US_美国 23, server: 38.68.135.239, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
@@ -151,14 +138,12 @@ proxies:
   - {name: _CA_加拿大 31, server: 134.195.196.128, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _CA_加拿大 32, server: 198.57.27.184, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 新加坡CN2-3, server: vpscn2.jisumm.xyz, port: 50077, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: vpscn2.jisumm.xyz}, udp: true}
-  - {name: 新加坡 v4-v2ray, server: sp2.seven777.xyz, port: 443, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sp2.seven777.xyz}, udp: true}
   - {name: 1000G使劲🌿🌿🌿🌿, server: 137.74.96.141, port: 47908, type: vmess, uuid: 077b4435-80de-4374-866d-349ae95e32e4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 馃嚚馃嚘+鍔犳嬁澶�+21, server: 134.195.196.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: 新加坡CN2-1, server: vpscn2.jisumm.xyz, port: 51193, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: vpscn2.jisumm.xyz}, udp: true}
   - {name: _CA_加拿大 33, server: 198.57.27.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: _US_美国 25, server: 38.107.226.48, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 台湾v2-v2ray, server: jstz03.tzmm.xyz, port: 50107, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jstz03.tzmm.xyz}, udp: true}
-  - {name: 美国v8-v2ray, server: jisu58.tzkk.xyz, port: 50058, type: vmess, uuid: 54922df1-f7e7-3947-ac7f-1360d1a65ea3, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us58.tzkk.xyz}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -169,7 +154,6 @@ proxy-groups:
       - 中日iplc-v1
       - 韩国v8-v2ray
       - _KR_韩国_免费节点_17
-      - 中日iplc-v2
       - _SG_新加坡
       - 新加坡 v1-v2ray
       - _HK_香港_免费节点_9
@@ -177,10 +161,6 @@ proxy-groups:
       - 日本v5-v2ray
       - 日本v2-v2ray
       - 韩国v1-v2ray
-      - 日本v4-v2ray
-      - 日本v1-v2ray
-      - 韩国v2-v2ray
-      - 韩国v3-v2ray
       - default_name
       - 新加坡 v3-v2ray
       - _US_0125节点_48
@@ -189,7 +169,6 @@ proxy-groups:
       - 美国_阿伟科技-油管
       - _US_美国_免费节点_2
       - 美国_阿伟科技-油管 2
-      - 美国-TEST
       - _US_美国
       - _US_美国 2
       - _CN_中国_免费节点_7
@@ -247,7 +226,6 @@ proxy-groups:
       - 芜湖
       - _US_0125节点_42
       - _US_0125节点_18
-      - 莞港iplc-v2
       - 馃嚚馃嚘+鍔犳嬁澶�+14
       - _DE_德国
       - _GB_英国 3
@@ -255,7 +233,6 @@ proxy-groups:
       - _US_美国 19
       - _CA_加拿大 16
       - _GB_英国 5
-      - 新加坡 v2-v2ray
       - _CA_加拿大 17
       - _CA_加拿大 18
       - _CA_加拿大 19
@@ -277,7 +254,6 @@ proxy-groups:
       - _CA_加拿大 26
       - _CA_加拿大 27
       - _GB_英国 8
-      - 德国 v2-v2ray
       - 馃嚚馃嚘+鍔犳嬁澶�+2
       - _US_美国_免费节点_4
       - _GB_英国 9
@@ -294,14 +270,10 @@ proxy-groups:
       - _GB_英国 11
       - +London-GTHost
       - _CA_加拿大+14
-      - 德国 v1-v2ray
       - _CA_加拿大 29
-      - 美国v5-v2ray
       - _CA_加拿大 30
       - _US_美国 21
-      - 美国V2-v2ray
       - 馃嚭馃嚫US_1569
-      - 台湾v3-v2ray
       - _US_0125节点_44
       - _US_美国 22
       - _US_美国 23
@@ -311,14 +283,12 @@ proxy-groups:
       - _CA_加拿大 31
       - _CA_加拿大 32
       - 新加坡CN2-3
-      - 新加坡 v4-v2ray
       - 1000G使劲🌿🌿🌿🌿
       - 馃嚚馃嚘+鍔犳嬁澶�+21
       - 新加坡CN2-1
       - _CA_加拿大 33
       - _US_美国 25
       - 台湾v2-v2ray
-      - 美国v8-v2ray
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -328,7 +298,6 @@ proxy-groups:
       - 中日iplc-v1
       - 韩国v8-v2ray
       - _KR_韩国_免费节点_17
-      - 中日iplc-v2
       - _SG_新加坡
       - 新加坡 v1-v2ray
       - _HK_香港_免费节点_9
@@ -336,10 +305,6 @@ proxy-groups:
       - 日本v5-v2ray
       - 日本v2-v2ray
       - 韩国v1-v2ray
-      - 日本v4-v2ray
-      - 日本v1-v2ray
-      - 韩国v2-v2ray
-      - 韩国v3-v2ray
       - default_name
       - 新加坡 v3-v2ray
       - _US_0125节点_48
@@ -348,7 +313,6 @@ proxy-groups:
       - 美国_阿伟科技-油管
       - _US_美国_免费节点_2
       - 美国_阿伟科技-油管 2
-      - 美国-TEST
       - _US_美国
       - _US_美国 2
       - _CN_中国_免费节点_7
@@ -406,7 +370,6 @@ proxy-groups:
       - 芜湖
       - _US_0125节点_42
       - _US_0125节点_18
-      - 莞港iplc-v2
       - 馃嚚馃嚘+鍔犳嬁澶�+14
       - _DE_德国
       - _GB_英国 3
@@ -414,7 +377,6 @@ proxy-groups:
       - _US_美国 19
       - _CA_加拿大 16
       - _GB_英国 5
-      - 新加坡 v2-v2ray
       - _CA_加拿大 17
       - _CA_加拿大 18
       - _CA_加拿大 19
@@ -436,7 +398,6 @@ proxy-groups:
       - _CA_加拿大 26
       - _CA_加拿大 27
       - _GB_英国 8
-      - 德国 v2-v2ray
       - 馃嚚馃嚘+鍔犳嬁澶�+2
       - _US_美国_免费节点_4
       - _GB_英国 9
@@ -453,14 +414,10 @@ proxy-groups:
       - _GB_英国 11
       - +London-GTHost
       - _CA_加拿大+14
-      - 德国 v1-v2ray
       - _CA_加拿大 29
-      - 美国v5-v2ray
       - _CA_加拿大 30
       - _US_美国 21
-      - 美国V2-v2ray
       - 馃嚭馃嚫US_1569
-      - 台湾v3-v2ray
       - _US_0125节点_44
       - _US_美国 22
       - _US_美国 23
@@ -470,14 +427,12 @@ proxy-groups:
       - _CA_加拿大 31
       - _CA_加拿大 32
       - 新加坡CN2-3
-      - 新加坡 v4-v2ray
       - 1000G使劲🌿🌿🌿🌿
       - 馃嚚馃嚘+鍔犳嬁澶�+21
       - 新加坡CN2-1
       - _CA_加拿大 33
       - _US_美国 25
       - 台湾v2-v2ray
-      - 美国v8-v2ray
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -488,7 +443,6 @@ proxy-groups:
       - 中日iplc-v1
       - 韩国v8-v2ray
       - _KR_韩国_免费节点_17
-      - 中日iplc-v2
       - _SG_新加坡
       - 新加坡 v1-v2ray
       - _HK_香港_免费节点_9
@@ -496,10 +450,6 @@ proxy-groups:
       - 日本v5-v2ray
       - 日本v2-v2ray
       - 韩国v1-v2ray
-      - 日本v4-v2ray
-      - 日本v1-v2ray
-      - 韩国v2-v2ray
-      - 韩国v3-v2ray
       - default_name
       - 新加坡 v3-v2ray
       - _US_0125节点_48
@@ -508,7 +458,6 @@ proxy-groups:
       - 美国_阿伟科技-油管
       - _US_美国_免费节点_2
       - 美国_阿伟科技-油管 2
-      - 美国-TEST
       - _US_美国
       - _US_美国 2
       - _CN_中国_免费节点_7
@@ -566,7 +515,6 @@ proxy-groups:
       - 芜湖
       - _US_0125节点_42
       - _US_0125节点_18
-      - 莞港iplc-v2
       - 馃嚚馃嚘+鍔犳嬁澶�+14
       - _DE_德国
       - _GB_英国 3
@@ -574,7 +522,6 @@ proxy-groups:
       - _US_美国 19
       - _CA_加拿大 16
       - _GB_英国 5
-      - 新加坡 v2-v2ray
       - _CA_加拿大 17
       - _CA_加拿大 18
       - _CA_加拿大 19
@@ -596,7 +543,6 @@ proxy-groups:
       - _CA_加拿大 26
       - _CA_加拿大 27
       - _GB_英国 8
-      - 德国 v2-v2ray
       - 馃嚚馃嚘+鍔犳嬁澶�+2
       - _US_美国_免费节点_4
       - _GB_英国 9
@@ -613,14 +559,10 @@ proxy-groups:
       - _GB_英国 11
       - +London-GTHost
       - _CA_加拿大+14
-      - 德国 v1-v2ray
       - _CA_加拿大 29
-      - 美国v5-v2ray
       - _CA_加拿大 30
       - _US_美国 21
-      - 美国V2-v2ray
       - 馃嚭馃嚫US_1569
-      - 台湾v3-v2ray
       - _US_0125节点_44
       - _US_美国 22
       - _US_美国 23
@@ -630,14 +572,12 @@ proxy-groups:
       - _CA_加拿大 31
       - _CA_加拿大 32
       - 新加坡CN2-3
-      - 新加坡 v4-v2ray
       - 1000G使劲🌿🌿🌿🌿
       - 馃嚚馃嚘+鍔犳嬁澶�+21
       - 新加坡CN2-1
       - _CA_加拿大 33
       - _US_美国 25
       - 台湾v2-v2ray
-      - 美国v8-v2ray
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -660,7 +600,6 @@ proxy-groups:
       - 中日iplc-v1
       - 韩国v8-v2ray
       - _KR_韩国_免费节点_17
-      - 中日iplc-v2
       - _SG_新加坡
       - 新加坡 v1-v2ray
       - _HK_香港_免费节点_9
@@ -668,10 +607,6 @@ proxy-groups:
       - 日本v5-v2ray
       - 日本v2-v2ray
       - 韩国v1-v2ray
-      - 日本v4-v2ray
-      - 日本v1-v2ray
-      - 韩国v2-v2ray
-      - 韩国v3-v2ray
       - default_name
       - 新加坡 v3-v2ray
       - _US_0125节点_48
@@ -680,7 +615,6 @@ proxy-groups:
       - 美国_阿伟科技-油管
       - _US_美国_免费节点_2
       - 美国_阿伟科技-油管 2
-      - 美国-TEST
       - _US_美国
       - _US_美国 2
       - _CN_中国_免费节点_7
@@ -738,7 +672,6 @@ proxy-groups:
       - 芜湖
       - _US_0125节点_42
       - _US_0125节点_18
-      - 莞港iplc-v2
       - 馃嚚馃嚘+鍔犳嬁澶�+14
       - _DE_德国
       - _GB_英国 3
@@ -746,7 +679,6 @@ proxy-groups:
       - _US_美国 19
       - _CA_加拿大 16
       - _GB_英国 5
-      - 新加坡 v2-v2ray
       - _CA_加拿大 17
       - _CA_加拿大 18
       - _CA_加拿大 19
@@ -768,7 +700,6 @@ proxy-groups:
       - _CA_加拿大 26
       - _CA_加拿大 27
       - _GB_英国 8
-      - 德国 v2-v2ray
       - 馃嚚馃嚘+鍔犳嬁澶�+2
       - _US_美国_免费节点_4
       - _GB_英国 9
@@ -785,14 +716,10 @@ proxy-groups:
       - _GB_英国 11
       - +London-GTHost
       - _CA_加拿大+14
-      - 德国 v1-v2ray
       - _CA_加拿大 29
-      - 美国v5-v2ray
       - _CA_加拿大 30
       - _US_美国 21
-      - 美国V2-v2ray
       - 馃嚭馃嚫US_1569
-      - 台湾v3-v2ray
       - _US_0125节点_44
       - _US_美国 22
       - _US_美国 23
@@ -802,14 +729,12 @@ proxy-groups:
       - _CA_加拿大 31
       - _CA_加拿大 32
       - 新加坡CN2-3
-      - 新加坡 v4-v2ray
       - 1000G使劲🌿🌿🌿🌿
       - 馃嚚馃嚘+鍔犳嬁澶�+21
       - 新加坡CN2-1
       - _CA_加拿大 33
       - _US_美国 25
       - 台湾v2-v2ray
-      - 美国v8-v2ray
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -817,10 +742,8 @@ proxy-groups:
       - _HK_香港_免费节点_9
       - 香港v5-v2ray
       - 香港v3-v2ray
-      - 莞港iplc-v2
       - 香港v4-v2ray
       - 香港v6-v2ray
-      - 台湾v3-v2ray
       - 台湾v2-v2ray
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
@@ -832,7 +755,6 @@ proxy-groups:
       - 中日iplc-v1
       - 韩国v8-v2ray
       - _KR_韩国_免费节点_17
-      - 中日iplc-v2
       - _SG_新加坡
       - 新加坡 v1-v2ray
       - _HK_香港_免费节点_9
@@ -840,10 +762,6 @@ proxy-groups:
       - 日本v5-v2ray
       - 日本v2-v2ray
       - 韩国v1-v2ray
-      - 日本v4-v2ray
-      - 日本v1-v2ray
-      - 韩国v2-v2ray
-      - 韩国v3-v2ray
       - default_name
       - 新加坡 v3-v2ray
       - _US_0125节点_48
@@ -852,7 +770,6 @@ proxy-groups:
       - 美国_阿伟科技-油管
       - _US_美国_免费节点_2
       - 美国_阿伟科技-油管 2
-      - 美国-TEST
       - _US_美国
       - _US_美国 2
       - _CN_中国_免费节点_7
@@ -910,7 +827,6 @@ proxy-groups:
       - 芜湖
       - _US_0125节点_42
       - _US_0125节点_18
-      - 莞港iplc-v2
       - 馃嚚馃嚘+鍔犳嬁澶�+14
       - _DE_德国
       - _GB_英国 3
@@ -918,7 +834,6 @@ proxy-groups:
       - _US_美国 19
       - _CA_加拿大 16
       - _GB_英国 5
-      - 新加坡 v2-v2ray
       - _CA_加拿大 17
       - _CA_加拿大 18
       - _CA_加拿大 19
@@ -940,7 +855,6 @@ proxy-groups:
       - _CA_加拿大 26
       - _CA_加拿大 27
       - _GB_英国 8
-      - 德国 v2-v2ray
       - 馃嚚馃嚘+鍔犳嬁澶�+2
       - _US_美国_免费节点_4
       - _GB_英国 9
@@ -957,14 +871,10 @@ proxy-groups:
       - _GB_英国 11
       - +London-GTHost
       - _CA_加拿大+14
-      - 德国 v1-v2ray
       - _CA_加拿大 29
-      - 美国v5-v2ray
       - _CA_加拿大 30
       - _US_美国 21
-      - 美国V2-v2ray
       - 馃嚭馃嚫US_1569
-      - 台湾v3-v2ray
       - _US_0125节点_44
       - _US_美国 22
       - _US_美国 23
@@ -974,14 +884,12 @@ proxy-groups:
       - _CA_加拿大 31
       - _CA_加拿大 32
       - 新加坡CN2-3
-      - 新加坡 v4-v2ray
       - 1000G使劲🌿🌿🌿🌿
       - 馃嚚馃嚘+鍔犳嬁澶�+21
       - 新加坡CN2-1
       - _CA_加拿大 33
       - _US_美国 25
       - 台湾v2-v2ray
-      - 美国v8-v2ray
   - name: 📲 电报信息
     type: select
     proxies:
@@ -991,7 +899,6 @@ proxy-groups:
       - 中日iplc-v1
       - 韩国v8-v2ray
       - _KR_韩国_免费节点_17
-      - 中日iplc-v2
       - _SG_新加坡
       - 新加坡 v1-v2ray
       - _HK_香港_免费节点_9
@@ -999,10 +906,6 @@ proxy-groups:
       - 日本v5-v2ray
       - 日本v2-v2ray
       - 韩国v1-v2ray
-      - 日本v4-v2ray
-      - 日本v1-v2ray
-      - 韩国v2-v2ray
-      - 韩国v3-v2ray
       - default_name
       - 新加坡 v3-v2ray
       - _US_0125节点_48
@@ -1011,7 +914,6 @@ proxy-groups:
       - 美国_阿伟科技-油管
       - _US_美国_免费节点_2
       - 美国_阿伟科技-油管 2
-      - 美国-TEST
       - _US_美国
       - _US_美国 2
       - _CN_中国_免费节点_7
@@ -1069,7 +971,6 @@ proxy-groups:
       - 芜湖
       - _US_0125节点_42
       - _US_0125节点_18
-      - 莞港iplc-v2
       - 馃嚚馃嚘+鍔犳嬁澶�+14
       - _DE_德国
       - _GB_英国 3
@@ -1077,7 +978,6 @@ proxy-groups:
       - _US_美国 19
       - _CA_加拿大 16
       - _GB_英国 5
-      - 新加坡 v2-v2ray
       - _CA_加拿大 17
       - _CA_加拿大 18
       - _CA_加拿大 19
@@ -1099,7 +999,6 @@ proxy-groups:
       - _CA_加拿大 26
       - _CA_加拿大 27
       - _GB_英国 8
-      - 德国 v2-v2ray
       - 馃嚚馃嚘+鍔犳嬁澶�+2
       - _US_美国_免费节点_4
       - _GB_英国 9
@@ -1116,14 +1015,10 @@ proxy-groups:
       - _GB_英国 11
       - +London-GTHost
       - _CA_加拿大+14
-      - 德国 v1-v2ray
       - _CA_加拿大 29
-      - 美国v5-v2ray
       - _CA_加拿大 30
       - _US_美国 21
-      - 美国V2-v2ray
       - 馃嚭馃嚫US_1569
-      - 台湾v3-v2ray
       - _US_0125节点_44
       - _US_美国 22
       - _US_美国 23
@@ -1133,14 +1028,12 @@ proxy-groups:
       - _CA_加拿大 31
       - _CA_加拿大 32
       - 新加坡CN2-3
-      - 新加坡 v4-v2ray
       - 1000G使劲🌿🌿🌿🌿
       - 馃嚚馃嚘+鍔犳嬁澶�+21
       - 新加坡CN2-1
       - _CA_加拿大 33
       - _US_美国 25
       - 台湾v2-v2ray
-      - 美国v8-v2ray
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -1151,7 +1044,6 @@ proxy-groups:
       - 中日iplc-v1
       - 韩国v8-v2ray
       - _KR_韩国_免费节点_17
-      - 中日iplc-v2
       - _SG_新加坡
       - 新加坡 v1-v2ray
       - _HK_香港_免费节点_9
@@ -1159,10 +1051,6 @@ proxy-groups:
       - 日本v5-v2ray
       - 日本v2-v2ray
       - 韩国v1-v2ray
-      - 日本v4-v2ray
-      - 日本v1-v2ray
-      - 韩国v2-v2ray
-      - 韩国v3-v2ray
       - default_name
       - 新加坡 v3-v2ray
       - _US_0125节点_48
@@ -1171,7 +1059,6 @@ proxy-groups:
       - 美国_阿伟科技-油管
       - _US_美国_免费节点_2
       - 美国_阿伟科技-油管 2
-      - 美国-TEST
       - _US_美国
       - _US_美国 2
       - _CN_中国_免费节点_7
@@ -1229,7 +1116,6 @@ proxy-groups:
       - 芜湖
       - _US_0125节点_42
       - _US_0125节点_18
-      - 莞港iplc-v2
       - 馃嚚馃嚘+鍔犳嬁澶�+14
       - _DE_德国
       - _GB_英国 3
@@ -1237,7 +1123,6 @@ proxy-groups:
       - _US_美国 19
       - _CA_加拿大 16
       - _GB_英国 5
-      - 新加坡 v2-v2ray
       - _CA_加拿大 17
       - _CA_加拿大 18
       - _CA_加拿大 19
@@ -1259,7 +1144,6 @@ proxy-groups:
       - _CA_加拿大 26
       - _CA_加拿大 27
       - _GB_英国 8
-      - 德国 v2-v2ray
       - 馃嚚馃嚘+鍔犳嬁澶�+2
       - _US_美国_免费节点_4
       - _GB_英国 9
@@ -1276,14 +1160,10 @@ proxy-groups:
       - _GB_英国 11
       - +London-GTHost
       - _CA_加拿大+14
-      - 德国 v1-v2ray
       - _CA_加拿大 29
-      - 美国v5-v2ray
       - _CA_加拿大 30
       - _US_美国 21
-      - 美国V2-v2ray
       - 馃嚭馃嚫US_1569
-      - 台湾v3-v2ray
       - _US_0125节点_44
       - _US_美国 22
       - _US_美国 23
@@ -1293,14 +1173,12 @@ proxy-groups:
       - _CA_加拿大 31
       - _CA_加拿大 32
       - 新加坡CN2-3
-      - 新加坡 v4-v2ray
       - 1000G使劲🌿🌿🌿🌿
       - 馃嚚馃嚘+鍔犳嬁澶�+21
       - 新加坡CN2-1
       - _CA_加拿大 33
       - _US_美国 25
       - 台湾v2-v2ray
-      - 美国v8-v2ray
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1320,7 +1198,6 @@ proxy-groups:
       - 中日iplc-v1
       - 韩国v8-v2ray
       - _KR_韩国_免费节点_17
-      - 中日iplc-v2
       - _SG_新加坡
       - 新加坡 v1-v2ray
       - _HK_香港_免费节点_9
@@ -1328,10 +1205,6 @@ proxy-groups:
       - 日本v5-v2ray
       - 日本v2-v2ray
       - 韩国v1-v2ray
-      - 日本v4-v2ray
-      - 日本v1-v2ray
-      - 韩国v2-v2ray
-      - 韩国v3-v2ray
       - default_name
       - 新加坡 v3-v2ray
       - _US_0125节点_48
@@ -1340,7 +1213,6 @@ proxy-groups:
       - 美国_阿伟科技-油管
       - _US_美国_免费节点_2
       - 美国_阿伟科技-油管 2
-      - 美国-TEST
       - _US_美国
       - _US_美国 2
       - _CN_中国_免费节点_7
@@ -1398,7 +1270,6 @@ proxy-groups:
       - 芜湖
       - _US_0125节点_42
       - _US_0125节点_18
-      - 莞港iplc-v2
       - 馃嚚馃嚘+鍔犳嬁澶�+14
       - _DE_德国
       - _GB_英国 3
@@ -1406,7 +1277,6 @@ proxy-groups:
       - _US_美国 19
       - _CA_加拿大 16
       - _GB_英国 5
-      - 新加坡 v2-v2ray
       - _CA_加拿大 17
       - _CA_加拿大 18
       - _CA_加拿大 19
@@ -1428,7 +1298,6 @@ proxy-groups:
       - _CA_加拿大 26
       - _CA_加拿大 27
       - _GB_英国 8
-      - 德国 v2-v2ray
       - 馃嚚馃嚘+鍔犳嬁澶�+2
       - _US_美国_免费节点_4
       - _GB_英国 9
@@ -1445,14 +1314,10 @@ proxy-groups:
       - _GB_英国 11
       - +London-GTHost
       - _CA_加拿大+14
-      - 德国 v1-v2ray
       - _CA_加拿大 29
-      - 美国v5-v2ray
       - _CA_加拿大 30
       - _US_美国 21
-      - 美国V2-v2ray
       - 馃嚭馃嚫US_1569
-      - 台湾v3-v2ray
       - _US_0125节点_44
       - _US_美国 22
       - _US_美国 23
@@ -1462,14 +1327,12 @@ proxy-groups:
       - _CA_加拿大 31
       - _CA_加拿大 32
       - 新加坡CN2-3
-      - 新加坡 v4-v2ray
       - 1000G使劲🌿🌿🌿🌿
       - 馃嚚馃嚘+鍔犳嬁澶�+21
       - 新加坡CN2-1
       - _CA_加拿大 33
       - _US_美国 25
       - 台湾v2-v2ray
-      - 美国v8-v2ray
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
