@@ -7,7 +7,6 @@ external-controller: :9090
 proxies:
   - {name: AA-V2ray-SG-Linode, server: cdn-cn.nekocloud.cn, port: 19057, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
   - {name: AA-V2ray-SG-NTT.01, server: cdn-cn.nekocloud.cn, port: 19079, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
-  - {name: AA-V2ray-HK-HKBN, server: cdn-cn.nekocloud.cn, port: 19085, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
   - {name: AA-V2ray-VN【越南】, server: cdn-cn.nekocloud.cn, port: 10007, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
   - {name: _SG_新加坡, server: 172.104.168.83, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: AA-V2ray-JP-NTT.03, server: cdn-cn.nekocloud.cn, port: 19055, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
@@ -25,9 +24,8 @@ proxies:
   - {name: 馃嚭馃嚫+缇庡浗+32, server: 38.68.134.191, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: _US_美国 3, server: 167.88.61.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: youtube:8度科技_美国 2, server: 167.88.63.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: youtube:8度科技_美国 3, server: 38.68.134.191, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: _US_美国 4, server: 167.88.63.79, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: youtube:8度科技_美国 4, server: 167.88.62.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: youtube:8度科技_美国 3, server: 167.88.62.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: youtube:8度科技_加拿大, server: 134.195.196.149, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: _US_美国 5, server: 167.88.61.50, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: _CA_加拿大, server: 134.195.196.149, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
@@ -37,22 +35,22 @@ proxies:
   - {name: _CA_加拿大 3, server: 198.57.27.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: _US_美国 7, server: 38.68.134.48, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: _CA_加拿大+35, server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: youtube:8度科技_美国 5, server: 38.68.134.37, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: youtube:8度科技_美国 6, server: 38.68.134.37, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: youtube:8度科技_美国 4, server: 38.68.134.37, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: youtube:8度科技_美国 5, server: 38.68.134.37, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: 美国(绿头外网集团)(Public) 2, server: 38.68.135.239, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 馃嚚馃嚘+鍔犳嬁澶�+2, server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: _US_美国_免费节点_4, server: 38.68.134.37, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: _CA_加拿大 4, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: youtube:8度科技_美国 7, server: 38.107.226.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: youtube:8度科技_美国 6, server: 38.107.226.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: youtube:8度科技_加拿大 2, server: 134.195.196.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: _CA_加拿大 5, server: 134.195.196.147, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: youtube:8度科技_美国 8, server: 167.88.63.28, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: youtube:8度科技_美国 7, server: 167.88.63.28, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: _US_美国 8, server: 38.107.226.48, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: _CA_加拿大 6, server: 134.195.196.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: youtube:8度科技_美国 9, server: 38.107.226.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: youtube:8度科技_美国 10, server: 38.107.226.241, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: youtube:8度科技_美国 8, server: 38.107.226.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: youtube:8度科技_美国 9, server: 38.107.226.241, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: _CA_加拿大 7, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: youtube:8度科技_美国 11, server: 167.88.63.28, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: youtube:8度科技_美国 10, server: 167.88.63.28, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: _US_美国 9, server: 167.88.63.61, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: 馃嚭馃嚫+缇庡浗+39, server: 167.88.62.34, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 馃嚚馃嚘+鍔犳嬁澶�+13, server: 198.57.27.241, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
@@ -81,11 +79,11 @@ proxies:
   - {name: _US_美国 14, server: 167.88.62.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: youtube:8度科技_澳大利亚 2, server: 172.105.180.227, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 馃嚚馃嚘+鍔犳嬁澶�+14, server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: youtube:8度科技_美国 12, server: 38.107.226.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: youtube:8度科技_美国 11, server: 38.107.226.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: youtube:8度科技_加拿大 6, server: 134.195.196.214, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: 馃嚭馃嚫+缇庡浗+9, server: 38.121.43.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: youtube:8度科技_美国 13, server: 167.88.63.28, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: youtube:8度科技_美国 14, server: 38.68.134.23, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: youtube:8度科技_美国 12, server: 167.88.63.28, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: youtube:8度科技_美国 13, server: 38.68.134.23, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: youtube:8度科技_加拿大 7, server: 198.57.27.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: +Dallas-GTHost 2, server: 38.68.134.191, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _CA_加拿大 18, server: 198.57.27.184, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
@@ -109,19 +107,19 @@ proxies:
   - {name: 馃嚚馃嚘+鍔犳嬁澶�+18, server: 134.195.196.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: youtube:8度科技_英国 3, server: 172.99.190.139, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: youtube:8度科技_英国 4, server: 172.99.190.139, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: youtube:8度科技_美国 15, server: 38.121.43.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: youtube:8度科技_美国 14, server: 38.121.43.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: youtube:8度科技_澳大利亚 5, server: 172.105.180.227, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: _US_0125节点_18, server: 167.88.63.28, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: youtube:8度科技_英国 5, server: 172.99.190.109, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: youtube:8度科技_加拿大 10, server: 134.195.196.149, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: youtube:8度科技_加拿大 11, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: _GB_英国 3, server: 172.99.190.188, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: youtube:8度科技_美国 16, server: 167.88.63.28, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: youtube:8度科技_美国 15, server: 167.88.63.28, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: _GB_英国 4, server: 172.99.190.149, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: youtube:8度科技_澳大利亚 6, server: 172.105.180.227, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: youtube:8度科技_英国 6, server: 172.99.190.139, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: _CA_加拿大 24, server: 134.195.196.214, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: youtube:8度科技_美国 17, server: 167.88.63.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: youtube:8度科技_美国 16, server: 167.88.63.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: AA-V2ray-US-Philadelphia, server: cdn-cn.nekocloud.cn, port: 19016, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
   - {name: +London-GTHost, server: 172.99.190.109, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: youtube:8度科技_加拿大 12, server: 198.57.27.172, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
@@ -142,7 +140,7 @@ proxies:
   - {name: _US_0125节点_33, server: 169.197.142.99, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: 日本, server: azjp.pluscloud.top, port: 443, type: trojan, password: c1698db4-42e2-4901-adad-064bf5a8b558, sni: azjp.pluscloud.top, skip-cert-verify: true, udp: true}
   - {name: youtube:8度科技_加拿大 14, server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: youtube:8度科技_美国 18, server: 38.68.134.37, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: youtube:8度科技_美国 17, server: 38.68.134.37, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: youtube:8度科技_英国 8, server: 172.99.190.139, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 馃嚭馃嚫US_1569, server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: _GB_英国 7, server: 172.99.190.149, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
@@ -151,39 +149,38 @@ proxies:
   - {name: youtube:8度科技_澳大利亚 8, server: 172.105.180.227, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: youtube:8度科技_澳大利亚 9, server: 172.105.180.227, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: 英国(绿头外网集团)(Public), server: 172.99.190.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: youtube:8度科技_美国 19, server: 38.68.134.23, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: youtube:8度科技_美国 18, server: 38.68.134.23, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: youtube:8度科技_加拿大 15, server: 134.195.196.214, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: youtube:8度科技_加拿大 16, server: 134.195.196.214, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: _GB_英国 8, server: 172.99.190.109, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: 【426节点池】US_2284, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: _US_0125节点_44, server: 167.88.62.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: youtube:8度科技_美国 20, server: 38.68.134.23, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: youtube:8度科技_美国 19, server: 38.68.134.23, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: _US_美国 18, server: 38.68.134.191, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _US_美国 19, server: 167.88.61.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _GB_英国 9, server: 172.99.190.109, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: _US_美国 20, server: 38.68.135.239, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: youtube:8度科技_美国 21, server: 38.114.114.49, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: youtube:8度科技_美国 22, server: 38.68.134.37, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: youtube:8度科技_美国 20, server: 38.114.114.49, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: youtube:8度科技_美国 21, server: 38.68.134.37, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _US_美国 21, server: 167.88.63.74, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _CA_加拿大 30, server: 198.57.27.184, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: youtube:8度科技_美国 23, server: 38.68.134.23, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: youtube:8度科技_美国 22, server: 38.68.134.23, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: _US_美国 22, server: 167.88.63.61, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: _CA_加拿大 31, server: 198.57.27.184, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: youtube:8度科技_加拿大 17, server: 198.57.27.172, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: youtube:8度科技_美国 24, server: 38.68.134.23, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: youtube:8度科技_美国 23, server: 38.68.134.23, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: youtube:8度科技_澳大利亚 10, server: 172.105.180.227, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _CA_加拿大 32, server: 134.195.196.128, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _GB_英国 10, server: 172.99.190.39, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: youtube:8度科技_美国 25, server: 38.68.134.23, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: youtube:8度科技_美国 24, server: 38.68.134.23, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: youtube:8度科技_澳大利亚 11, server: 172.105.180.227, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: _US_美国 23, server: 38.107.226.48, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _US_美国 24, server: 167.88.63.79, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: youtube:8度科技_加拿大 18, server: 198.57.27.172, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: youtube:8度科技_美国 26, server: 38.114.114.49, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: youtube:8度科技_美国 25, server: 38.114.114.49, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: youtube:8度科技_加拿大 19, server: 198.57.27.152, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: youtube:8度科技_法国, server: 145.239.1.100, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: youtube:8度科技_印度, server: 172.104.207.140, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: youtube:8度科技_英国 9, server: 212.38.189.174, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: AA-V2ray-JP-NTT.02, server: cdn-cn.nekocloud.cn, port: 10006, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
@@ -193,7 +190,6 @@ proxy-groups:
       - 🎯 全球直连
       - AA-V2ray-SG-Linode
       - AA-V2ray-SG-NTT.01
-      - AA-V2ray-HK-HKBN
       - AA-V2ray-VN【越南】
       - _SG_新加坡
       - AA-V2ray-JP-NTT.03
@@ -211,9 +207,8 @@ proxy-groups:
       - 馃嚭馃嚫+缇庡浗+32
       - _US_美国 3
       - youtube:8度科技_美国 2
-      - youtube:8度科技_美国 3
       - _US_美国 4
-      - youtube:8度科技_美国 4
+      - youtube:8度科技_美国 3
       - youtube:8度科技_加拿大
       - _US_美国 5
       - _CA_加拿大
@@ -223,22 +218,22 @@ proxy-groups:
       - _CA_加拿大 3
       - _US_美国 7
       - _CA_加拿大+35
+      - youtube:8度科技_美国 4
       - youtube:8度科技_美国 5
-      - youtube:8度科技_美国 6
       - 美国(绿头外网集团)(Public) 2
       - 馃嚚馃嚘+鍔犳嬁澶�+2
       - _US_美国_免费节点_4
       - _CA_加拿大 4
-      - youtube:8度科技_美国 7
+      - youtube:8度科技_美国 6
       - youtube:8度科技_加拿大 2
       - _CA_加拿大 5
-      - youtube:8度科技_美国 8
+      - youtube:8度科技_美国 7
       - _US_美国 8
       - _CA_加拿大 6
+      - youtube:8度科技_美国 8
       - youtube:8度科技_美国 9
-      - youtube:8度科技_美国 10
       - _CA_加拿大 7
-      - youtube:8度科技_美国 11
+      - youtube:8度科技_美国 10
       - _US_美国 9
       - 馃嚭馃嚫+缇庡浗+39
       - 馃嚚馃嚘+鍔犳嬁澶�+13
@@ -267,11 +262,11 @@ proxy-groups:
       - _US_美国 14
       - youtube:8度科技_澳大利亚 2
       - 馃嚚馃嚘+鍔犳嬁澶�+14
-      - youtube:8度科技_美国 12
+      - youtube:8度科技_美国 11
       - youtube:8度科技_加拿大 6
       - 馃嚭馃嚫+缇庡浗+9
+      - youtube:8度科技_美国 12
       - youtube:8度科技_美国 13
-      - youtube:8度科技_美国 14
       - youtube:8度科技_加拿大 7
       - +Dallas-GTHost 2
       - _CA_加拿大 18
@@ -295,19 +290,19 @@ proxy-groups:
       - 馃嚚馃嚘+鍔犳嬁澶�+18
       - youtube:8度科技_英国 3
       - youtube:8度科技_英国 4
-      - youtube:8度科技_美国 15
+      - youtube:8度科技_美国 14
       - youtube:8度科技_澳大利亚 5
       - _US_0125节点_18
       - youtube:8度科技_英国 5
       - youtube:8度科技_加拿大 10
       - youtube:8度科技_加拿大 11
       - _GB_英国 3
-      - youtube:8度科技_美国 16
+      - youtube:8度科技_美国 15
       - _GB_英国 4
       - youtube:8度科技_澳大利亚 6
       - youtube:8度科技_英国 6
       - _CA_加拿大 24
-      - youtube:8度科技_美国 17
+      - youtube:8度科技_美国 16
       - AA-V2ray-US-Philadelphia
       - +London-GTHost
       - youtube:8度科技_加拿大 12
@@ -328,7 +323,7 @@ proxy-groups:
       - _US_0125节点_33
       - 日本
       - youtube:8度科技_加拿大 14
-      - youtube:8度科技_美国 18
+      - youtube:8度科技_美国 17
       - youtube:8度科技_英国 8
       - 馃嚭馃嚫US_1569
       - _GB_英国 7
@@ -337,39 +332,38 @@ proxy-groups:
       - youtube:8度科技_澳大利亚 8
       - youtube:8度科技_澳大利亚 9
       - 英国(绿头外网集团)(Public)
-      - youtube:8度科技_美国 19
+      - youtube:8度科技_美国 18
       - youtube:8度科技_加拿大 15
       - youtube:8度科技_加拿大 16
       - _GB_英国 8
       - 【426节点池】US_2284
       - _US_0125节点_44
-      - youtube:8度科技_美国 20
+      - youtube:8度科技_美国 19
       - _US_美国 18
       - _US_美国 19
       - _GB_英国 9
       - _US_美国 20
+      - youtube:8度科技_美国 20
       - youtube:8度科技_美国 21
-      - youtube:8度科技_美国 22
       - _US_美国 21
       - _CA_加拿大 30
-      - youtube:8度科技_美国 23
+      - youtube:8度科技_美国 22
       - _US_美国 22
       - _CA_加拿大 31
       - youtube:8度科技_加拿大 17
-      - youtube:8度科技_美国 24
+      - youtube:8度科技_美国 23
       - youtube:8度科技_澳大利亚 10
       - _CA_加拿大 32
       - _GB_英国 10
-      - youtube:8度科技_美国 25
+      - youtube:8度科技_美国 24
       - youtube:8度科技_澳大利亚 11
       - _US_美国 23
       - _US_美国 24
       - youtube:8度科技_加拿大 18
-      - youtube:8度科技_美国 26
+      - youtube:8度科技_美国 25
       - youtube:8度科技_加拿大 19
       - youtube:8度科技_法国
       - youtube:8度科技_印度
-      - youtube:8度科技_英国 9
       - AA-V2ray-JP-NTT.02
   - name: ♻️ 自动选择
     type: url-test
@@ -378,7 +372,6 @@ proxy-groups:
     proxies:
       - AA-V2ray-SG-Linode
       - AA-V2ray-SG-NTT.01
-      - AA-V2ray-HK-HKBN
       - AA-V2ray-VN【越南】
       - _SG_新加坡
       - AA-V2ray-JP-NTT.03
@@ -396,9 +389,8 @@ proxy-groups:
       - 馃嚭馃嚫+缇庡浗+32
       - _US_美国 3
       - youtube:8度科技_美国 2
-      - youtube:8度科技_美国 3
       - _US_美国 4
-      - youtube:8度科技_美国 4
+      - youtube:8度科技_美国 3
       - youtube:8度科技_加拿大
       - _US_美国 5
       - _CA_加拿大
@@ -408,22 +400,22 @@ proxy-groups:
       - _CA_加拿大 3
       - _US_美国 7
       - _CA_加拿大+35
+      - youtube:8度科技_美国 4
       - youtube:8度科技_美国 5
-      - youtube:8度科技_美国 6
       - 美国(绿头外网集团)(Public) 2
       - 馃嚚馃嚘+鍔犳嬁澶�+2
       - _US_美国_免费节点_4
       - _CA_加拿大 4
-      - youtube:8度科技_美国 7
+      - youtube:8度科技_美国 6
       - youtube:8度科技_加拿大 2
       - _CA_加拿大 5
-      - youtube:8度科技_美国 8
+      - youtube:8度科技_美国 7
       - _US_美国 8
       - _CA_加拿大 6
+      - youtube:8度科技_美国 8
       - youtube:8度科技_美国 9
-      - youtube:8度科技_美国 10
       - _CA_加拿大 7
-      - youtube:8度科技_美国 11
+      - youtube:8度科技_美国 10
       - _US_美国 9
       - 馃嚭馃嚫+缇庡浗+39
       - 馃嚚馃嚘+鍔犳嬁澶�+13
@@ -452,11 +444,11 @@ proxy-groups:
       - _US_美国 14
       - youtube:8度科技_澳大利亚 2
       - 馃嚚馃嚘+鍔犳嬁澶�+14
-      - youtube:8度科技_美国 12
+      - youtube:8度科技_美国 11
       - youtube:8度科技_加拿大 6
       - 馃嚭馃嚫+缇庡浗+9
+      - youtube:8度科技_美国 12
       - youtube:8度科技_美国 13
-      - youtube:8度科技_美国 14
       - youtube:8度科技_加拿大 7
       - +Dallas-GTHost 2
       - _CA_加拿大 18
@@ -480,19 +472,19 @@ proxy-groups:
       - 馃嚚馃嚘+鍔犳嬁澶�+18
       - youtube:8度科技_英国 3
       - youtube:8度科技_英国 4
-      - youtube:8度科技_美国 15
+      - youtube:8度科技_美国 14
       - youtube:8度科技_澳大利亚 5
       - _US_0125节点_18
       - youtube:8度科技_英国 5
       - youtube:8度科技_加拿大 10
       - youtube:8度科技_加拿大 11
       - _GB_英国 3
-      - youtube:8度科技_美国 16
+      - youtube:8度科技_美国 15
       - _GB_英国 4
       - youtube:8度科技_澳大利亚 6
       - youtube:8度科技_英国 6
       - _CA_加拿大 24
-      - youtube:8度科技_美国 17
+      - youtube:8度科技_美国 16
       - AA-V2ray-US-Philadelphia
       - +London-GTHost
       - youtube:8度科技_加拿大 12
@@ -513,7 +505,7 @@ proxy-groups:
       - _US_0125节点_33
       - 日本
       - youtube:8度科技_加拿大 14
-      - youtube:8度科技_美国 18
+      - youtube:8度科技_美国 17
       - youtube:8度科技_英国 8
       - 馃嚭馃嚫US_1569
       - _GB_英国 7
@@ -522,39 +514,38 @@ proxy-groups:
       - youtube:8度科技_澳大利亚 8
       - youtube:8度科技_澳大利亚 9
       - 英国(绿头外网集团)(Public)
-      - youtube:8度科技_美国 19
+      - youtube:8度科技_美国 18
       - youtube:8度科技_加拿大 15
       - youtube:8度科技_加拿大 16
       - _GB_英国 8
       - 【426节点池】US_2284
       - _US_0125节点_44
-      - youtube:8度科技_美国 20
+      - youtube:8度科技_美国 19
       - _US_美国 18
       - _US_美国 19
       - _GB_英国 9
       - _US_美国 20
+      - youtube:8度科技_美国 20
       - youtube:8度科技_美国 21
-      - youtube:8度科技_美国 22
       - _US_美国 21
       - _CA_加拿大 30
-      - youtube:8度科技_美国 23
+      - youtube:8度科技_美国 22
       - _US_美国 22
       - _CA_加拿大 31
       - youtube:8度科技_加拿大 17
-      - youtube:8度科技_美国 24
+      - youtube:8度科技_美国 23
       - youtube:8度科技_澳大利亚 10
       - _CA_加拿大 32
       - _GB_英国 10
-      - youtube:8度科技_美国 25
+      - youtube:8度科技_美国 24
       - youtube:8度科技_澳大利亚 11
       - _US_美国 23
       - _US_美国 24
       - youtube:8度科技_加拿大 18
-      - youtube:8度科技_美国 26
+      - youtube:8度科技_美国 25
       - youtube:8度科技_加拿大 19
       - youtube:8度科技_法国
       - youtube:8度科技_印度
-      - youtube:8度科技_英国 9
       - AA-V2ray-JP-NTT.02
   - name: 🎥 NETFLIX
     type: select
@@ -564,7 +555,6 @@ proxy-groups:
       - 🎯 全球直连
       - AA-V2ray-SG-Linode
       - AA-V2ray-SG-NTT.01
-      - AA-V2ray-HK-HKBN
       - AA-V2ray-VN【越南】
       - _SG_新加坡
       - AA-V2ray-JP-NTT.03
@@ -582,9 +572,8 @@ proxy-groups:
       - 馃嚭馃嚫+缇庡浗+32
       - _US_美国 3
       - youtube:8度科技_美国 2
-      - youtube:8度科技_美国 3
       - _US_美国 4
-      - youtube:8度科技_美国 4
+      - youtube:8度科技_美国 3
       - youtube:8度科技_加拿大
       - _US_美国 5
       - _CA_加拿大
@@ -594,22 +583,22 @@ proxy-groups:
       - _CA_加拿大 3
       - _US_美国 7
       - _CA_加拿大+35
+      - youtube:8度科技_美国 4
       - youtube:8度科技_美国 5
-      - youtube:8度科技_美国 6
       - 美国(绿头外网集团)(Public) 2
       - 馃嚚馃嚘+鍔犳嬁澶�+2
       - _US_美国_免费节点_4
       - _CA_加拿大 4
-      - youtube:8度科技_美国 7
+      - youtube:8度科技_美国 6
       - youtube:8度科技_加拿大 2
       - _CA_加拿大 5
-      - youtube:8度科技_美国 8
+      - youtube:8度科技_美国 7
       - _US_美国 8
       - _CA_加拿大 6
+      - youtube:8度科技_美国 8
       - youtube:8度科技_美国 9
-      - youtube:8度科技_美国 10
       - _CA_加拿大 7
-      - youtube:8度科技_美国 11
+      - youtube:8度科技_美国 10
       - _US_美国 9
       - 馃嚭馃嚫+缇庡浗+39
       - 馃嚚馃嚘+鍔犳嬁澶�+13
@@ -638,11 +627,11 @@ proxy-groups:
       - _US_美国 14
       - youtube:8度科技_澳大利亚 2
       - 馃嚚馃嚘+鍔犳嬁澶�+14
-      - youtube:8度科技_美国 12
+      - youtube:8度科技_美国 11
       - youtube:8度科技_加拿大 6
       - 馃嚭馃嚫+缇庡浗+9
+      - youtube:8度科技_美国 12
       - youtube:8度科技_美国 13
-      - youtube:8度科技_美国 14
       - youtube:8度科技_加拿大 7
       - +Dallas-GTHost 2
       - _CA_加拿大 18
@@ -666,19 +655,19 @@ proxy-groups:
       - 馃嚚馃嚘+鍔犳嬁澶�+18
       - youtube:8度科技_英国 3
       - youtube:8度科技_英国 4
-      - youtube:8度科技_美国 15
+      - youtube:8度科技_美国 14
       - youtube:8度科技_澳大利亚 5
       - _US_0125节点_18
       - youtube:8度科技_英国 5
       - youtube:8度科技_加拿大 10
       - youtube:8度科技_加拿大 11
       - _GB_英国 3
-      - youtube:8度科技_美国 16
+      - youtube:8度科技_美国 15
       - _GB_英国 4
       - youtube:8度科技_澳大利亚 6
       - youtube:8度科技_英国 6
       - _CA_加拿大 24
-      - youtube:8度科技_美国 17
+      - youtube:8度科技_美国 16
       - AA-V2ray-US-Philadelphia
       - +London-GTHost
       - youtube:8度科技_加拿大 12
@@ -699,7 +688,7 @@ proxy-groups:
       - _US_0125节点_33
       - 日本
       - youtube:8度科技_加拿大 14
-      - youtube:8度科技_美国 18
+      - youtube:8度科技_美国 17
       - youtube:8度科技_英国 8
       - 馃嚭馃嚫US_1569
       - _GB_英国 7
@@ -708,39 +697,38 @@ proxy-groups:
       - youtube:8度科技_澳大利亚 8
       - youtube:8度科技_澳大利亚 9
       - 英国(绿头外网集团)(Public)
-      - youtube:8度科技_美国 19
+      - youtube:8度科技_美国 18
       - youtube:8度科技_加拿大 15
       - youtube:8度科技_加拿大 16
       - _GB_英国 8
       - 【426节点池】US_2284
       - _US_0125节点_44
-      - youtube:8度科技_美国 20
+      - youtube:8度科技_美国 19
       - _US_美国 18
       - _US_美国 19
       - _GB_英国 9
       - _US_美国 20
+      - youtube:8度科技_美国 20
       - youtube:8度科技_美国 21
-      - youtube:8度科技_美国 22
       - _US_美国 21
       - _CA_加拿大 30
-      - youtube:8度科技_美国 23
+      - youtube:8度科技_美国 22
       - _US_美国 22
       - _CA_加拿大 31
       - youtube:8度科技_加拿大 17
-      - youtube:8度科技_美国 24
+      - youtube:8度科技_美国 23
       - youtube:8度科技_澳大利亚 10
       - _CA_加拿大 32
       - _GB_英国 10
-      - youtube:8度科技_美国 25
+      - youtube:8度科技_美国 24
       - youtube:8度科技_澳大利亚 11
       - _US_美国 23
       - _US_美国 24
       - youtube:8度科技_加拿大 18
-      - youtube:8度科技_美国 26
+      - youtube:8度科技_美国 25
       - youtube:8度科技_加拿大 19
       - youtube:8度科技_法国
       - youtube:8度科技_印度
-      - youtube:8度科技_英国 9
       - AA-V2ray-JP-NTT.02
   - name: ⛔️ 广告拦截
     type: select
@@ -762,7 +750,6 @@ proxy-groups:
       - 🎯 全球直连
       - AA-V2ray-SG-Linode
       - AA-V2ray-SG-NTT.01
-      - AA-V2ray-HK-HKBN
       - AA-V2ray-VN【越南】
       - _SG_新加坡
       - AA-V2ray-JP-NTT.03
@@ -780,9 +767,8 @@ proxy-groups:
       - 馃嚭馃嚫+缇庡浗+32
       - _US_美国 3
       - youtube:8度科技_美国 2
-      - youtube:8度科技_美国 3
       - _US_美国 4
-      - youtube:8度科技_美国 4
+      - youtube:8度科技_美国 3
       - youtube:8度科技_加拿大
       - _US_美国 5
       - _CA_加拿大
@@ -792,22 +778,22 @@ proxy-groups:
       - _CA_加拿大 3
       - _US_美国 7
       - _CA_加拿大+35
+      - youtube:8度科技_美国 4
       - youtube:8度科技_美国 5
-      - youtube:8度科技_美国 6
       - 美国(绿头外网集团)(Public) 2
       - 馃嚚馃嚘+鍔犳嬁澶�+2
       - _US_美国_免费节点_4
       - _CA_加拿大 4
-      - youtube:8度科技_美国 7
+      - youtube:8度科技_美国 6
       - youtube:8度科技_加拿大 2
       - _CA_加拿大 5
-      - youtube:8度科技_美国 8
+      - youtube:8度科技_美国 7
       - _US_美国 8
       - _CA_加拿大 6
+      - youtube:8度科技_美国 8
       - youtube:8度科技_美国 9
-      - youtube:8度科技_美国 10
       - _CA_加拿大 7
-      - youtube:8度科技_美国 11
+      - youtube:8度科技_美国 10
       - _US_美国 9
       - 馃嚭馃嚫+缇庡浗+39
       - 馃嚚馃嚘+鍔犳嬁澶�+13
@@ -836,11 +822,11 @@ proxy-groups:
       - _US_美国 14
       - youtube:8度科技_澳大利亚 2
       - 馃嚚馃嚘+鍔犳嬁澶�+14
-      - youtube:8度科技_美国 12
+      - youtube:8度科技_美国 11
       - youtube:8度科技_加拿大 6
       - 馃嚭馃嚫+缇庡浗+9
+      - youtube:8度科技_美国 12
       - youtube:8度科技_美国 13
-      - youtube:8度科技_美国 14
       - youtube:8度科技_加拿大 7
       - +Dallas-GTHost 2
       - _CA_加拿大 18
@@ -864,19 +850,19 @@ proxy-groups:
       - 馃嚚馃嚘+鍔犳嬁澶�+18
       - youtube:8度科技_英国 3
       - youtube:8度科技_英国 4
-      - youtube:8度科技_美国 15
+      - youtube:8度科技_美国 14
       - youtube:8度科技_澳大利亚 5
       - _US_0125节点_18
       - youtube:8度科技_英国 5
       - youtube:8度科技_加拿大 10
       - youtube:8度科技_加拿大 11
       - _GB_英国 3
-      - youtube:8度科技_美国 16
+      - youtube:8度科技_美国 15
       - _GB_英国 4
       - youtube:8度科技_澳大利亚 6
       - youtube:8度科技_英国 6
       - _CA_加拿大 24
-      - youtube:8度科技_美国 17
+      - youtube:8度科技_美国 16
       - AA-V2ray-US-Philadelphia
       - +London-GTHost
       - youtube:8度科技_加拿大 12
@@ -897,7 +883,7 @@ proxy-groups:
       - _US_0125节点_33
       - 日本
       - youtube:8度科技_加拿大 14
-      - youtube:8度科技_美国 18
+      - youtube:8度科技_美国 17
       - youtube:8度科技_英国 8
       - 馃嚭馃嚫US_1569
       - _GB_英国 7
@@ -906,45 +892,43 @@ proxy-groups:
       - youtube:8度科技_澳大利亚 8
       - youtube:8度科技_澳大利亚 9
       - 英国(绿头外网集团)(Public)
-      - youtube:8度科技_美国 19
+      - youtube:8度科技_美国 18
       - youtube:8度科技_加拿大 15
       - youtube:8度科技_加拿大 16
       - _GB_英国 8
       - 【426节点池】US_2284
       - _US_0125节点_44
-      - youtube:8度科技_美国 20
+      - youtube:8度科技_美国 19
       - _US_美国 18
       - _US_美国 19
       - _GB_英国 9
       - _US_美国 20
+      - youtube:8度科技_美国 20
       - youtube:8度科技_美国 21
-      - youtube:8度科技_美国 22
       - _US_美国 21
       - _CA_加拿大 30
-      - youtube:8度科技_美国 23
+      - youtube:8度科技_美国 22
       - _US_美国 22
       - _CA_加拿大 31
       - youtube:8度科技_加拿大 17
-      - youtube:8度科技_美国 24
+      - youtube:8度科技_美国 23
       - youtube:8度科技_澳大利亚 10
       - _CA_加拿大 32
       - _GB_英国 10
-      - youtube:8度科技_美国 25
+      - youtube:8度科技_美国 24
       - youtube:8度科技_澳大利亚 11
       - _US_美国 23
       - _US_美国 24
       - youtube:8度科技_加拿大 18
-      - youtube:8度科技_美国 26
+      - youtube:8度科技_美国 25
       - youtube:8度科技_加拿大 19
       - youtube:8度科技_法国
       - youtube:8度科技_印度
-      - youtube:8度科技_英国 9
       - AA-V2ray-JP-NTT.02
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - AA-V2ray-HK-HKBN
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -953,7 +937,6 @@ proxy-groups:
       - 🔰 节点选择
       - AA-V2ray-SG-Linode
       - AA-V2ray-SG-NTT.01
-      - AA-V2ray-HK-HKBN
       - AA-V2ray-VN【越南】
       - _SG_新加坡
       - AA-V2ray-JP-NTT.03
@@ -971,9 +954,8 @@ proxy-groups:
       - 馃嚭馃嚫+缇庡浗+32
       - _US_美国 3
       - youtube:8度科技_美国 2
-      - youtube:8度科技_美国 3
       - _US_美国 4
-      - youtube:8度科技_美国 4
+      - youtube:8度科技_美国 3
       - youtube:8度科技_加拿大
       - _US_美国 5
       - _CA_加拿大
@@ -983,22 +965,22 @@ proxy-groups:
       - _CA_加拿大 3
       - _US_美国 7
       - _CA_加拿大+35
+      - youtube:8度科技_美国 4
       - youtube:8度科技_美国 5
-      - youtube:8度科技_美国 6
       - 美国(绿头外网集团)(Public) 2
       - 馃嚚馃嚘+鍔犳嬁澶�+2
       - _US_美国_免费节点_4
       - _CA_加拿大 4
-      - youtube:8度科技_美国 7
+      - youtube:8度科技_美国 6
       - youtube:8度科技_加拿大 2
       - _CA_加拿大 5
-      - youtube:8度科技_美国 8
+      - youtube:8度科技_美国 7
       - _US_美国 8
       - _CA_加拿大 6
+      - youtube:8度科技_美国 8
       - youtube:8度科技_美国 9
-      - youtube:8度科技_美国 10
       - _CA_加拿大 7
-      - youtube:8度科技_美国 11
+      - youtube:8度科技_美国 10
       - _US_美国 9
       - 馃嚭馃嚫+缇庡浗+39
       - 馃嚚馃嚘+鍔犳嬁澶�+13
@@ -1027,11 +1009,11 @@ proxy-groups:
       - _US_美国 14
       - youtube:8度科技_澳大利亚 2
       - 馃嚚馃嚘+鍔犳嬁澶�+14
-      - youtube:8度科技_美国 12
+      - youtube:8度科技_美国 11
       - youtube:8度科技_加拿大 6
       - 馃嚭馃嚫+缇庡浗+9
+      - youtube:8度科技_美国 12
       - youtube:8度科技_美国 13
-      - youtube:8度科技_美国 14
       - youtube:8度科技_加拿大 7
       - +Dallas-GTHost 2
       - _CA_加拿大 18
@@ -1055,19 +1037,19 @@ proxy-groups:
       - 馃嚚馃嚘+鍔犳嬁澶�+18
       - youtube:8度科技_英国 3
       - youtube:8度科技_英国 4
-      - youtube:8度科技_美国 15
+      - youtube:8度科技_美国 14
       - youtube:8度科技_澳大利亚 5
       - _US_0125节点_18
       - youtube:8度科技_英国 5
       - youtube:8度科技_加拿大 10
       - youtube:8度科技_加拿大 11
       - _GB_英国 3
-      - youtube:8度科技_美国 16
+      - youtube:8度科技_美国 15
       - _GB_英国 4
       - youtube:8度科技_澳大利亚 6
       - youtube:8度科技_英国 6
       - _CA_加拿大 24
-      - youtube:8度科技_美国 17
+      - youtube:8度科技_美国 16
       - AA-V2ray-US-Philadelphia
       - +London-GTHost
       - youtube:8度科技_加拿大 12
@@ -1088,7 +1070,7 @@ proxy-groups:
       - _US_0125节点_33
       - 日本
       - youtube:8度科技_加拿大 14
-      - youtube:8度科技_美国 18
+      - youtube:8度科技_美国 17
       - youtube:8度科技_英国 8
       - 馃嚭馃嚫US_1569
       - _GB_英国 7
@@ -1097,39 +1079,38 @@ proxy-groups:
       - youtube:8度科技_澳大利亚 8
       - youtube:8度科技_澳大利亚 9
       - 英国(绿头外网集团)(Public)
-      - youtube:8度科技_美国 19
+      - youtube:8度科技_美国 18
       - youtube:8度科技_加拿大 15
       - youtube:8度科技_加拿大 16
       - _GB_英国 8
       - 【426节点池】US_2284
       - _US_0125节点_44
-      - youtube:8度科技_美国 20
+      - youtube:8度科技_美国 19
       - _US_美国 18
       - _US_美国 19
       - _GB_英国 9
       - _US_美国 20
+      - youtube:8度科技_美国 20
       - youtube:8度科技_美国 21
-      - youtube:8度科技_美国 22
       - _US_美国 21
       - _CA_加拿大 30
-      - youtube:8度科技_美国 23
+      - youtube:8度科技_美国 22
       - _US_美国 22
       - _CA_加拿大 31
       - youtube:8度科技_加拿大 17
-      - youtube:8度科技_美国 24
+      - youtube:8度科技_美国 23
       - youtube:8度科技_澳大利亚 10
       - _CA_加拿大 32
       - _GB_英国 10
-      - youtube:8度科技_美国 25
+      - youtube:8度科技_美国 24
       - youtube:8度科技_澳大利亚 11
       - _US_美国 23
       - _US_美国 24
       - youtube:8度科技_加拿大 18
-      - youtube:8度科技_美国 26
+      - youtube:8度科技_美国 25
       - youtube:8度科技_加拿大 19
       - youtube:8度科技_法国
       - youtube:8度科技_印度
-      - youtube:8度科技_英国 9
       - AA-V2ray-JP-NTT.02
   - name: 📲 电报信息
     type: select
@@ -1138,7 +1119,6 @@ proxy-groups:
       - 🎯 全球直连
       - AA-V2ray-SG-Linode
       - AA-V2ray-SG-NTT.01
-      - AA-V2ray-HK-HKBN
       - AA-V2ray-VN【越南】
       - _SG_新加坡
       - AA-V2ray-JP-NTT.03
@@ -1156,9 +1136,8 @@ proxy-groups:
       - 馃嚭馃嚫+缇庡浗+32
       - _US_美国 3
       - youtube:8度科技_美国 2
-      - youtube:8度科技_美国 3
       - _US_美国 4
-      - youtube:8度科技_美国 4
+      - youtube:8度科技_美国 3
       - youtube:8度科技_加拿大
       - _US_美国 5
       - _CA_加拿大
@@ -1168,22 +1147,22 @@ proxy-groups:
       - _CA_加拿大 3
       - _US_美国 7
       - _CA_加拿大+35
+      - youtube:8度科技_美国 4
       - youtube:8度科技_美国 5
-      - youtube:8度科技_美国 6
       - 美国(绿头外网集团)(Public) 2
       - 馃嚚馃嚘+鍔犳嬁澶�+2
       - _US_美国_免费节点_4
       - _CA_加拿大 4
-      - youtube:8度科技_美国 7
+      - youtube:8度科技_美国 6
       - youtube:8度科技_加拿大 2
       - _CA_加拿大 5
-      - youtube:8度科技_美国 8
+      - youtube:8度科技_美国 7
       - _US_美国 8
       - _CA_加拿大 6
+      - youtube:8度科技_美国 8
       - youtube:8度科技_美国 9
-      - youtube:8度科技_美国 10
       - _CA_加拿大 7
-      - youtube:8度科技_美国 11
+      - youtube:8度科技_美国 10
       - _US_美国 9
       - 馃嚭馃嚫+缇庡浗+39
       - 馃嚚馃嚘+鍔犳嬁澶�+13
@@ -1212,11 +1191,11 @@ proxy-groups:
       - _US_美国 14
       - youtube:8度科技_澳大利亚 2
       - 馃嚚馃嚘+鍔犳嬁澶�+14
-      - youtube:8度科技_美国 12
+      - youtube:8度科技_美国 11
       - youtube:8度科技_加拿大 6
       - 馃嚭馃嚫+缇庡浗+9
+      - youtube:8度科技_美国 12
       - youtube:8度科技_美国 13
-      - youtube:8度科技_美国 14
       - youtube:8度科技_加拿大 7
       - +Dallas-GTHost 2
       - _CA_加拿大 18
@@ -1240,19 +1219,19 @@ proxy-groups:
       - 馃嚚馃嚘+鍔犳嬁澶�+18
       - youtube:8度科技_英国 3
       - youtube:8度科技_英国 4
-      - youtube:8度科技_美国 15
+      - youtube:8度科技_美国 14
       - youtube:8度科技_澳大利亚 5
       - _US_0125节点_18
       - youtube:8度科技_英国 5
       - youtube:8度科技_加拿大 10
       - youtube:8度科技_加拿大 11
       - _GB_英国 3
-      - youtube:8度科技_美国 16
+      - youtube:8度科技_美国 15
       - _GB_英国 4
       - youtube:8度科技_澳大利亚 6
       - youtube:8度科技_英国 6
       - _CA_加拿大 24
-      - youtube:8度科技_美国 17
+      - youtube:8度科技_美国 16
       - AA-V2ray-US-Philadelphia
       - +London-GTHost
       - youtube:8度科技_加拿大 12
@@ -1273,7 +1252,7 @@ proxy-groups:
       - _US_0125节点_33
       - 日本
       - youtube:8度科技_加拿大 14
-      - youtube:8度科技_美国 18
+      - youtube:8度科技_美国 17
       - youtube:8度科技_英国 8
       - 馃嚭馃嚫US_1569
       - _GB_英国 7
@@ -1282,39 +1261,38 @@ proxy-groups:
       - youtube:8度科技_澳大利亚 8
       - youtube:8度科技_澳大利亚 9
       - 英国(绿头外网集团)(Public)
-      - youtube:8度科技_美国 19
+      - youtube:8度科技_美国 18
       - youtube:8度科技_加拿大 15
       - youtube:8度科技_加拿大 16
       - _GB_英国 8
       - 【426节点池】US_2284
       - _US_0125节点_44
-      - youtube:8度科技_美国 20
+      - youtube:8度科技_美国 19
       - _US_美国 18
       - _US_美国 19
       - _GB_英国 9
       - _US_美国 20
+      - youtube:8度科技_美国 20
       - youtube:8度科技_美国 21
-      - youtube:8度科技_美国 22
       - _US_美国 21
       - _CA_加拿大 30
-      - youtube:8度科技_美国 23
+      - youtube:8度科技_美国 22
       - _US_美国 22
       - _CA_加拿大 31
       - youtube:8度科技_加拿大 17
-      - youtube:8度科技_美国 24
+      - youtube:8度科技_美国 23
       - youtube:8度科技_澳大利亚 10
       - _CA_加拿大 32
       - _GB_英国 10
-      - youtube:8度科技_美国 25
+      - youtube:8度科技_美国 24
       - youtube:8度科技_澳大利亚 11
       - _US_美国 23
       - _US_美国 24
       - youtube:8度科技_加拿大 18
-      - youtube:8度科技_美国 26
+      - youtube:8度科技_美国 25
       - youtube:8度科技_加拿大 19
       - youtube:8度科技_法国
       - youtube:8度科技_印度
-      - youtube:8度科技_英国 9
       - AA-V2ray-JP-NTT.02
   - name: 🍎 苹果服务
     type: select
@@ -1324,7 +1302,6 @@ proxy-groups:
       - ♻️ 自动选择
       - AA-V2ray-SG-Linode
       - AA-V2ray-SG-NTT.01
-      - AA-V2ray-HK-HKBN
       - AA-V2ray-VN【越南】
       - _SG_新加坡
       - AA-V2ray-JP-NTT.03
@@ -1342,9 +1319,8 @@ proxy-groups:
       - 馃嚭馃嚫+缇庡浗+32
       - _US_美国 3
       - youtube:8度科技_美国 2
-      - youtube:8度科技_美国 3
       - _US_美国 4
-      - youtube:8度科技_美国 4
+      - youtube:8度科技_美国 3
       - youtube:8度科技_加拿大
       - _US_美国 5
       - _CA_加拿大
@@ -1354,22 +1330,22 @@ proxy-groups:
       - _CA_加拿大 3
       - _US_美国 7
       - _CA_加拿大+35
+      - youtube:8度科技_美国 4
       - youtube:8度科技_美国 5
-      - youtube:8度科技_美国 6
       - 美国(绿头外网集团)(Public) 2
       - 馃嚚馃嚘+鍔犳嬁澶�+2
       - _US_美国_免费节点_4
       - _CA_加拿大 4
-      - youtube:8度科技_美国 7
+      - youtube:8度科技_美国 6
       - youtube:8度科技_加拿大 2
       - _CA_加拿大 5
-      - youtube:8度科技_美国 8
+      - youtube:8度科技_美国 7
       - _US_美国 8
       - _CA_加拿大 6
+      - youtube:8度科技_美国 8
       - youtube:8度科技_美国 9
-      - youtube:8度科技_美国 10
       - _CA_加拿大 7
-      - youtube:8度科技_美国 11
+      - youtube:8度科技_美国 10
       - _US_美国 9
       - 馃嚭馃嚫+缇庡浗+39
       - 馃嚚馃嚘+鍔犳嬁澶�+13
@@ -1398,11 +1374,11 @@ proxy-groups:
       - _US_美国 14
       - youtube:8度科技_澳大利亚 2
       - 馃嚚馃嚘+鍔犳嬁澶�+14
-      - youtube:8度科技_美国 12
+      - youtube:8度科技_美国 11
       - youtube:8度科技_加拿大 6
       - 馃嚭馃嚫+缇庡浗+9
+      - youtube:8度科技_美国 12
       - youtube:8度科技_美国 13
-      - youtube:8度科技_美国 14
       - youtube:8度科技_加拿大 7
       - +Dallas-GTHost 2
       - _CA_加拿大 18
@@ -1426,19 +1402,19 @@ proxy-groups:
       - 馃嚚馃嚘+鍔犳嬁澶�+18
       - youtube:8度科技_英国 3
       - youtube:8度科技_英国 4
-      - youtube:8度科技_美国 15
+      - youtube:8度科技_美国 14
       - youtube:8度科技_澳大利亚 5
       - _US_0125节点_18
       - youtube:8度科技_英国 5
       - youtube:8度科技_加拿大 10
       - youtube:8度科技_加拿大 11
       - _GB_英国 3
-      - youtube:8度科技_美国 16
+      - youtube:8度科技_美国 15
       - _GB_英国 4
       - youtube:8度科技_澳大利亚 6
       - youtube:8度科技_英国 6
       - _CA_加拿大 24
-      - youtube:8度科技_美国 17
+      - youtube:8度科技_美国 16
       - AA-V2ray-US-Philadelphia
       - +London-GTHost
       - youtube:8度科技_加拿大 12
@@ -1459,7 +1435,7 @@ proxy-groups:
       - _US_0125节点_33
       - 日本
       - youtube:8度科技_加拿大 14
-      - youtube:8度科技_美国 18
+      - youtube:8度科技_美国 17
       - youtube:8度科技_英国 8
       - 馃嚭馃嚫US_1569
       - _GB_英国 7
@@ -1468,39 +1444,38 @@ proxy-groups:
       - youtube:8度科技_澳大利亚 8
       - youtube:8度科技_澳大利亚 9
       - 英国(绿头外网集团)(Public)
-      - youtube:8度科技_美国 19
+      - youtube:8度科技_美国 18
       - youtube:8度科技_加拿大 15
       - youtube:8度科技_加拿大 16
       - _GB_英国 8
       - 【426节点池】US_2284
       - _US_0125节点_44
-      - youtube:8度科技_美国 20
+      - youtube:8度科技_美国 19
       - _US_美国 18
       - _US_美国 19
       - _GB_英国 9
       - _US_美国 20
+      - youtube:8度科技_美国 20
       - youtube:8度科技_美国 21
-      - youtube:8度科技_美国 22
       - _US_美国 21
       - _CA_加拿大 30
-      - youtube:8度科技_美国 23
+      - youtube:8度科技_美国 22
       - _US_美国 22
       - _CA_加拿大 31
       - youtube:8度科技_加拿大 17
-      - youtube:8度科技_美国 24
+      - youtube:8度科技_美国 23
       - youtube:8度科技_澳大利亚 10
       - _CA_加拿大 32
       - _GB_英国 10
-      - youtube:8度科技_美国 25
+      - youtube:8度科技_美国 24
       - youtube:8度科技_澳大利亚 11
       - _US_美国 23
       - _US_美国 24
       - youtube:8度科技_加拿大 18
-      - youtube:8度科技_美国 26
+      - youtube:8度科技_美国 25
       - youtube:8度科技_加拿大 19
       - youtube:8度科技_法国
       - youtube:8度科技_印度
-      - youtube:8度科技_英国 9
       - AA-V2ray-JP-NTT.02
   - name: 🎯 全球直连
     type: select
@@ -1519,7 +1494,6 @@ proxy-groups:
       - ♻️ 自动选择
       - AA-V2ray-SG-Linode
       - AA-V2ray-SG-NTT.01
-      - AA-V2ray-HK-HKBN
       - AA-V2ray-VN【越南】
       - _SG_新加坡
       - AA-V2ray-JP-NTT.03
@@ -1537,9 +1511,8 @@ proxy-groups:
       - 馃嚭馃嚫+缇庡浗+32
       - _US_美国 3
       - youtube:8度科技_美国 2
-      - youtube:8度科技_美国 3
       - _US_美国 4
-      - youtube:8度科技_美国 4
+      - youtube:8度科技_美国 3
       - youtube:8度科技_加拿大
       - _US_美国 5
       - _CA_加拿大
@@ -1549,22 +1522,22 @@ proxy-groups:
       - _CA_加拿大 3
       - _US_美国 7
       - _CA_加拿大+35
+      - youtube:8度科技_美国 4
       - youtube:8度科技_美国 5
-      - youtube:8度科技_美国 6
       - 美国(绿头外网集团)(Public) 2
       - 馃嚚馃嚘+鍔犳嬁澶�+2
       - _US_美国_免费节点_4
       - _CA_加拿大 4
-      - youtube:8度科技_美国 7
+      - youtube:8度科技_美国 6
       - youtube:8度科技_加拿大 2
       - _CA_加拿大 5
-      - youtube:8度科技_美国 8
+      - youtube:8度科技_美国 7
       - _US_美国 8
       - _CA_加拿大 6
+      - youtube:8度科技_美国 8
       - youtube:8度科技_美国 9
-      - youtube:8度科技_美国 10
       - _CA_加拿大 7
-      - youtube:8度科技_美国 11
+      - youtube:8度科技_美国 10
       - _US_美国 9
       - 馃嚭馃嚫+缇庡浗+39
       - 馃嚚馃嚘+鍔犳嬁澶�+13
@@ -1593,11 +1566,11 @@ proxy-groups:
       - _US_美国 14
       - youtube:8度科技_澳大利亚 2
       - 馃嚚馃嚘+鍔犳嬁澶�+14
-      - youtube:8度科技_美国 12
+      - youtube:8度科技_美国 11
       - youtube:8度科技_加拿大 6
       - 馃嚭馃嚫+缇庡浗+9
+      - youtube:8度科技_美国 12
       - youtube:8度科技_美国 13
-      - youtube:8度科技_美国 14
       - youtube:8度科技_加拿大 7
       - +Dallas-GTHost 2
       - _CA_加拿大 18
@@ -1621,19 +1594,19 @@ proxy-groups:
       - 馃嚚馃嚘+鍔犳嬁澶�+18
       - youtube:8度科技_英国 3
       - youtube:8度科技_英国 4
-      - youtube:8度科技_美国 15
+      - youtube:8度科技_美国 14
       - youtube:8度科技_澳大利亚 5
       - _US_0125节点_18
       - youtube:8度科技_英国 5
       - youtube:8度科技_加拿大 10
       - youtube:8度科技_加拿大 11
       - _GB_英国 3
-      - youtube:8度科技_美国 16
+      - youtube:8度科技_美国 15
       - _GB_英国 4
       - youtube:8度科技_澳大利亚 6
       - youtube:8度科技_英国 6
       - _CA_加拿大 24
-      - youtube:8度科技_美国 17
+      - youtube:8度科技_美国 16
       - AA-V2ray-US-Philadelphia
       - +London-GTHost
       - youtube:8度科技_加拿大 12
@@ -1654,7 +1627,7 @@ proxy-groups:
       - _US_0125节点_33
       - 日本
       - youtube:8度科技_加拿大 14
-      - youtube:8度科技_美国 18
+      - youtube:8度科技_美国 17
       - youtube:8度科技_英国 8
       - 馃嚭馃嚫US_1569
       - _GB_英国 7
@@ -1663,39 +1636,38 @@ proxy-groups:
       - youtube:8度科技_澳大利亚 8
       - youtube:8度科技_澳大利亚 9
       - 英国(绿头外网集团)(Public)
-      - youtube:8度科技_美国 19
+      - youtube:8度科技_美国 18
       - youtube:8度科技_加拿大 15
       - youtube:8度科技_加拿大 16
       - _GB_英国 8
       - 【426节点池】US_2284
       - _US_0125节点_44
-      - youtube:8度科技_美国 20
+      - youtube:8度科技_美国 19
       - _US_美国 18
       - _US_美国 19
       - _GB_英国 9
       - _US_美国 20
+      - youtube:8度科技_美国 20
       - youtube:8度科技_美国 21
-      - youtube:8度科技_美国 22
       - _US_美国 21
       - _CA_加拿大 30
-      - youtube:8度科技_美国 23
+      - youtube:8度科技_美国 22
       - _US_美国 22
       - _CA_加拿大 31
       - youtube:8度科技_加拿大 17
-      - youtube:8度科技_美国 24
+      - youtube:8度科技_美国 23
       - youtube:8度科技_澳大利亚 10
       - _CA_加拿大 32
       - _GB_英国 10
-      - youtube:8度科技_美国 25
+      - youtube:8度科技_美国 24
       - youtube:8度科技_澳大利亚 11
       - _US_美国 23
       - _US_美国 24
       - youtube:8度科技_加拿大 18
-      - youtube:8度科技_美国 26
+      - youtube:8度科技_美国 25
       - youtube:8度科技_加拿大 19
       - youtube:8度科技_法国
       - youtube:8度科技_印度
-      - youtube:8度科技_英国 9
       - AA-V2ray-JP-NTT.02
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
