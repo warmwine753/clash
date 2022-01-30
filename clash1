@@ -19,7 +19,6 @@ proxies:
   - {name: 小库公益订阅, server: gg.piyun.bid, port: 10651, type: trojan, password: 2803debb-27c4-455f-9bff-46ba0bebb710, sni: gg.piyun.bid, skip-cert-verify: true, udp: true}
   - {name: youtube:8度科技_美国, server: 38.68.134.191, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: _US_美国 2, server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "感谢岛主的公益中转,白嫖它不香吗", server: 9929.salmon-tech.com, port: 23468, type: ss, cipher: aes-256-gcm, password: 32c84106-423c-4f27-942c-abdb71ade266, udp: true}
   - {name: +Dallas-GTHost, server: 38.68.134.191, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: 馃嚭馃嚫+缇庡浗+32, server: 38.68.134.191, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: _US_美国 3, server: 167.88.61.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
@@ -160,7 +159,6 @@ proxies:
   - {name: _US_美国 19, server: 167.88.61.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _GB_英国 9, server: 172.99.190.109, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: _US_美国 20, server: 38.68.135.239, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: youtube:8度科技_美国 20, server: 38.114.114.49, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: youtube:8度科技_美国 21, server: 38.68.134.37, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _US_美国 21, server: 167.88.63.74, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _CA_加拿大 30, server: 198.57.27.184, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
@@ -202,7 +200,6 @@ proxy-groups:
       - 小库公益订阅
       - youtube:8度科技_美国
       - _US_美国 2
-      - 感谢岛主的公益中转,白嫖它不香吗
       - +Dallas-GTHost
       - 馃嚭馃嚫+缇庡浗+32
       - _US_美国 3
@@ -343,7 +340,6 @@ proxy-groups:
       - _US_美国 19
       - _GB_英国 9
       - _US_美国 20
-      - youtube:8度科技_美国 20
       - youtube:8度科技_美国 21
       - _US_美国 21
       - _CA_加拿大 30
@@ -384,7 +380,6 @@ proxy-groups:
       - 小库公益订阅
       - youtube:8度科技_美国
       - _US_美国 2
-      - 感谢岛主的公益中转,白嫖它不香吗
       - +Dallas-GTHost
       - 馃嚭馃嚫+缇庡浗+32
       - _US_美国 3
@@ -525,7 +520,6 @@ proxy-groups:
       - _US_美国 19
       - _GB_英国 9
       - _US_美国 20
-      - youtube:8度科技_美国 20
       - youtube:8度科技_美国 21
       - _US_美国 21
       - _CA_加拿大 30
@@ -567,7 +561,6 @@ proxy-groups:
       - 小库公益订阅
       - youtube:8度科技_美国
       - _US_美国 2
-      - 感谢岛主的公益中转,白嫖它不香吗
       - +Dallas-GTHost
       - 馃嚭馃嚫+缇庡浗+32
       - _US_美国 3
@@ -708,7 +701,6 @@ proxy-groups:
       - _US_美国 19
       - _GB_英国 9
       - _US_美国 20
-      - youtube:8度科技_美国 20
       - youtube:8度科技_美国 21
       - _US_美国 21
       - _CA_加拿大 30
@@ -762,7 +754,6 @@ proxy-groups:
       - 小库公益订阅
       - youtube:8度科技_美国
       - _US_美国 2
-      - 感谢岛主的公益中转,白嫖它不香吗
       - +Dallas-GTHost
       - 馃嚭馃嚫+缇庡浗+32
       - _US_美国 3
@@ -903,7 +894,6 @@ proxy-groups:
       - _US_美国 19
       - _GB_英国 9
       - _US_美国 20
-      - youtube:8度科技_美国 20
       - youtube:8度科技_美国 21
       - _US_美国 21
       - _CA_加拿大 30
@@ -949,7 +939,6 @@ proxy-groups:
       - 小库公益订阅
       - youtube:8度科技_美国
       - _US_美国 2
-      - 感谢岛主的公益中转,白嫖它不香吗
       - +Dallas-GTHost
       - 馃嚭馃嚫+缇庡浗+32
       - _US_美国 3
@@ -1090,7 +1079,6 @@ proxy-groups:
       - _US_美国 19
       - _GB_英国 9
       - _US_美国 20
-      - youtube:8度科技_美国 20
       - youtube:8度科技_美国 21
       - _US_美国 21
       - _CA_加拿大 30
@@ -1131,7 +1119,6 @@ proxy-groups:
       - 小库公益订阅
       - youtube:8度科技_美国
       - _US_美国 2
-      - 感谢岛主的公益中转,白嫖它不香吗
       - +Dallas-GTHost
       - 馃嚭馃嚫+缇庡浗+32
       - _US_美国 3
@@ -1272,7 +1259,6 @@ proxy-groups:
       - _US_美国 19
       - _GB_英国 9
       - _US_美国 20
-      - youtube:8度科技_美国 20
       - youtube:8度科技_美国 21
       - _US_美国 21
       - _CA_加拿大 30
@@ -1314,7 +1300,6 @@ proxy-groups:
       - 小库公益订阅
       - youtube:8度科技_美国
       - _US_美国 2
-      - 感谢岛主的公益中转,白嫖它不香吗
       - +Dallas-GTHost
       - 馃嚭馃嚫+缇庡浗+32
       - _US_美国 3
@@ -1455,7 +1440,6 @@ proxy-groups:
       - _US_美国 19
       - _GB_英国 9
       - _US_美国 20
-      - youtube:8度科技_美国 20
       - youtube:8度科技_美国 21
       - _US_美国 21
       - _CA_加拿大 30
@@ -1506,7 +1490,6 @@ proxy-groups:
       - 小库公益订阅
       - youtube:8度科技_美国
       - _US_美国 2
-      - 感谢岛主的公益中转,白嫖它不香吗
       - +Dallas-GTHost
       - 馃嚭馃嚫+缇庡浗+32
       - _US_美国 3
@@ -1647,7 +1630,6 @@ proxy-groups:
       - _US_美国 19
       - _GB_英国 9
       - _US_美国 20
-      - youtube:8度科技_美国 20
       - youtube:8度科技_美国 21
       - _US_美国 21
       - _CA_加拿大 30
