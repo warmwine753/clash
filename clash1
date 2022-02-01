@@ -17,7 +17,6 @@ proxies:
   - {name: 馃嚭馃嚫+缇庡浗+32, server: 38.68.134.191, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: 美国_TG@nodesharing_261, server: 196.247.24.156, port: 443, type: vmess, uuid: c028c1ff-c006-4dc7-bd7e-a61c99b4f306, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
   - {name: +Dallas-GTHost, server: 38.68.134.191, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 美国 NO.2 CN2 GIA |Netflix|HBO|Hulu|2.5x, server: us2gia.zhqsm.734.icu, port: 11443, type: trojan, password: 61e83faf-f8bb-3ff9-8be7-572d58673b64, sni: us2gia.zhqsm.734.icu, skip-cert-verify: true, udp: true}
   - {name: 【1x】CN2-美国, server: jx.cn2.salmon-tech.com, port: 15671, type: ss, cipher: aes-256-gcm, password: 67918e5e-927f-4dcd-95c8-87310de7237d, udp: true}
   - {name: 美国_TG@nodesharing_146, server: 123.lyzghim.com, port: 443, type: trojan, password: YSmrjN8GpxB2dL9Y, sni: 123.lyzghim.com, skip-cert-verify: true, udp: true}
   - {name: 中国_TG@nodesharing_34, server: 82.wgong.xyz, port: 52282, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -36,7 +35,7 @@ proxies:
   - {name: youtube:8度科技_加拿大 7, server: 198.57.27.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: youtube:8度科技_加拿大 13, server: 198.57.27.184, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 美国 NO.1 CN2 GIA |Netflix|HBO|Hulu|2.5x, server: us2gia.zhqsm.734.icu, port: 10443, type: trojan, password: 61e83faf-f8bb-3ff9-8be7-572d58673b64, sni: us2gia.zhqsm.734.icu, skip-cert-verify: true, udp: true}
-  - {name: 美国 NO.2 CN2 GIA |Netflix|HBO|Hulu|2.5x 2, server: us2gia.zhqsm.734.icu, port: 11443, type: trojan, password: 6e15668a-b06e-384a-b42f-f9f5dae84f29, sni: us2gia.zhqsm.734.icu, skip-cert-verify: true, udp: true}
+  - {name: 美国 NO.2 CN2 GIA |Netflix|HBO|Hulu|2.5x, server: us2gia.zhqsm.734.icu, port: 11443, type: trojan, password: 6e15668a-b06e-384a-b42f-f9f5dae84f29, sni: us2gia.zhqsm.734.icu, skip-cert-verify: true, udp: true}
   - {name: _CA_加拿大 31, server: 198.57.27.184, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: youtube:8度科技_加拿大 9, server: 198.57.27.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: youtube:8度科技_加拿大 12, server: 198.57.27.172, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
@@ -139,7 +138,6 @@ proxies:
   - {name: 中国_TG@nodesharing_37, server: tunnel-tw-a-01.xncloud.xyz, port: 505, type: vmess, uuid: bf6305b0-ce74-37e1-af88-c05637d8d94c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-hinet-tw-05.xncloud.xyz}, udp: true}
   - {name: 日本 No.2 电信|移动优化 |Netflix|1x, server: rb2.zh86.734.icu, port: 443, type: trojan, password: 61e83faf-f8bb-3ff9-8be7-572d58673b64, sni: rb2.zh86.734.icu, skip-cert-verify: true, udp: true}
   - {name: 日本 NO.4|llj节点|移动优化||2x|, server: rb2.llj.734.icu, port: 10443, type: trojan, password: 61e83faf-f8bb-3ff9-8be7-572d58673b64, sni: rb2.llj.734.icu, skip-cert-verify: true, udp: true}
-  - {name: 美国 NO.10 CN2GIA |Netflix|HBO|Hulu|2.5x, server: shsgia2.zhqsm.us, port: 443, type: trojan, password: 61e83faf-f8bb-3ff9-8be7-572d58673b64, sni: shsgia2.zhqsm.us, skip-cert-verify: true, udp: true}
   - {name: 韩国 NO.2 DX-三网直连切瓜专用 1.5x, server: kr2.zh86.734.icu, port: 443, type: trojan, password: 61e83faf-f8bb-3ff9-8be7-572d58673b64, sni: kr2.zh86.734.icu, skip-cert-verify: true, udp: true}
   - {name: 日本 NO.4|llj节点|移动优化||2x| 2, server: rb2.llj.734.icu, port: 10443, type: trojan, password: 5473700f-b563-3411-a811-f76c0a89427d, sni: rb2.llj.734.icu, skip-cert-verify: true, udp: true}
   - {name: 日本 NO.3|软银线路|联通优化|3x 3, server: us4gia.zhqsm.734.icu, port: 20443, type: trojan, password: 61e83faf-f8bb-3ff9-8be7-572d58673b64, sni: us4gia.zhqsm.734.icu, skip-cert-verify: true, udp: true}
@@ -160,18 +158,14 @@ proxies:
   - {name: 中国_TG@nodesharing_11, server: dgcm.vproxy.us, port: 25011, type: ss, cipher: aes-256-gcm, password: e88c406d-d083-4fcc-801f-fc5155fbaef7, udp: true}
   - {name: 中国_TG@nodesharing_2, server: dgcm.vproxy.us, port: 25025, type: ss, cipher: aes-256-gcm, password: e88c406d-d083-4fcc-801f-fc5155fbaef7, udp: true}
   - {name: 中国_TG@nodesharing_5, server: cogzcm.vproxy.us, port: 9055, type: ss, cipher: aes-256-gcm, password: e88c406d-d083-4fcc-801f-fc5155fbaef7, udp: true}
-  - {name: 俄罗斯联邦_TG@nodesharing_221, server: 146.185.218.171, port: 443, type: vmess, uuid: 947af181-c509-4245-80de-9baf64f1aa51, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
   - {name: 香港_TG@nodesharing_162, server: 32.moons.team, port: 443, type: trojan, password: 956d6c3f-1b38-4691-8b17-bbe0eec86f93, sni: 32.moons.team, skip-cert-verify: true, udp: true}
   - {name: 香港_TG@nodesharing_226, server: 31.moons.team, port: 443, type: trojan, password: 956d6c3f-1b38-4691-8b17-bbe0eec86f93, sni: 31.moons.team, skip-cert-verify: true, udp: true}
   - {name: 加拿大_TG@nodesharing_122, server: 198.57.27.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 意大利_TG@nodesharing_227, server: 37.9.229.103, port: 443, type: vmess, uuid: a30cef7c-77d5-48cb-b2eb-cda85963b42f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
   - {name: 西班牙_TG@nodesharing_264, server: 151.236.23.120, port: 443, type: vmess, uuid: 75bd7620-60a7-4930-af13-46b58ad4f137, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
   - {name: 加拿大_TG@nodesharing_272, server: 196.247.59.212, port: 443, type: vmess, uuid: 145ce2a4-f290-49e9-87c2-8b3051c74fc1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: 俄罗斯联邦_TG@nodesharing_278, server: 92.223.65.119, port: 443, type: vmess, uuid: 3fd6713f-e036-4ba9-938a-da7843a17a15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
   - {name: 美国_TG@nodesharing_229, server: 107.172.9.38, port: 443, type: vmess, uuid: 2a76d19d-5703-4548-b93e-de50447b6eb9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
   - {name: 英国_TG@nodesharing_240, server: 165.231.34.122, port: 443, type: vmess, uuid: ec0d8d2b-7ee8-492b-b6e6-1fd2eef1703f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
   - {name: 俄罗斯 NO.1|CN2 GIA|三网直连|1.5x|, server: ru1.zhqsm.734.icu, port: 10443, type: trojan, password: 61e83faf-f8bb-3ff9-8be7-572d58673b64, sni: ru1.zhqsm.734.icu, skip-cert-verify: true, udp: true}
-  - {name: 中国_TG@nodesharing_3, server: dgcm.vproxy.us, port: 25008, type: ss, cipher: aes-256-gcm, password: e88c406d-d083-4fcc-801f-fc5155fbaef7, udp: true}
   - {name: 美国_TG@nodesharing_259, server: 196.196.20.99, port: 443, type: vmess, uuid: 38d04cda-ebba-4cf7-abac-42a5e57d0cae, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
   - {name: 俄罗斯 NO.2|CN2 GIA|三网直连|2x|, server: ru2.zhqsm.734.icu, port: 10443, type: trojan, password: 61e83faf-f8bb-3ff9-8be7-572d58673b64, sni: ru2.zhqsm.734.icu, skip-cert-verify: true, udp: true}
   - {name: 美国_TG@nodesharing_220, server: 23.226.131.9, port: 443, type: vmess, uuid: 3ab8d49b-f7f2-42d5-97eb-3c84bbc6f3ff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
@@ -195,7 +189,6 @@ proxy-groups:
       - 馃嚭馃嚫+缇庡浗+32
       - 美国_TG@nodesharing_261
       - +Dallas-GTHost
-      - 美国 NO.2 CN2 GIA |Netflix|HBO|Hulu|2.5x
       - 【1x】CN2-美国
       - 美国_TG@nodesharing_146
       - 中国_TG@nodesharing_34
@@ -214,7 +207,7 @@ proxy-groups:
       - youtube:8度科技_加拿大 7
       - youtube:8度科技_加拿大 13
       - 美国 NO.1 CN2 GIA |Netflix|HBO|Hulu|2.5x
-      - 美国 NO.2 CN2 GIA |Netflix|HBO|Hulu|2.5x 2
+      - 美国 NO.2 CN2 GIA |Netflix|HBO|Hulu|2.5x
       - _CA_加拿大 31
       - youtube:8度科技_加拿大 9
       - youtube:8度科技_加拿大 12
@@ -317,7 +310,6 @@ proxy-groups:
       - 中国_TG@nodesharing_37
       - 日本 No.2 电信|移动优化 |Netflix|1x
       - 日本 NO.4|llj节点|移动优化||2x|
-      - 美国 NO.10 CN2GIA |Netflix|HBO|Hulu|2.5x
       - 韩国 NO.2 DX-三网直连切瓜专用 1.5x
       - 日本 NO.4|llj节点|移动优化||2x| 2
       - 日本 NO.3|软银线路|联通优化|3x 3
@@ -338,18 +330,14 @@ proxy-groups:
       - 中国_TG@nodesharing_11
       - 中国_TG@nodesharing_2
       - 中国_TG@nodesharing_5
-      - 俄罗斯联邦_TG@nodesharing_221
       - 香港_TG@nodesharing_162
       - 香港_TG@nodesharing_226
       - 加拿大_TG@nodesharing_122
-      - 意大利_TG@nodesharing_227
       - 西班牙_TG@nodesharing_264
       - 加拿大_TG@nodesharing_272
-      - 俄罗斯联邦_TG@nodesharing_278
       - 美国_TG@nodesharing_229
       - 英国_TG@nodesharing_240
       - 俄罗斯 NO.1|CN2 GIA|三网直连|1.5x|
-      - 中国_TG@nodesharing_3
       - 美国_TG@nodesharing_259
       - 俄罗斯 NO.2|CN2 GIA|三网直连|2x|
       - 美国_TG@nodesharing_220
@@ -372,7 +360,6 @@ proxy-groups:
       - 馃嚭馃嚫+缇庡浗+32
       - 美国_TG@nodesharing_261
       - +Dallas-GTHost
-      - 美国 NO.2 CN2 GIA |Netflix|HBO|Hulu|2.5x
       - 【1x】CN2-美国
       - 美国_TG@nodesharing_146
       - 中国_TG@nodesharing_34
@@ -391,7 +378,7 @@ proxy-groups:
       - youtube:8度科技_加拿大 7
       - youtube:8度科技_加拿大 13
       - 美国 NO.1 CN2 GIA |Netflix|HBO|Hulu|2.5x
-      - 美国 NO.2 CN2 GIA |Netflix|HBO|Hulu|2.5x 2
+      - 美国 NO.2 CN2 GIA |Netflix|HBO|Hulu|2.5x
       - _CA_加拿大 31
       - youtube:8度科技_加拿大 9
       - youtube:8度科技_加拿大 12
@@ -494,7 +481,6 @@ proxy-groups:
       - 中国_TG@nodesharing_37
       - 日本 No.2 电信|移动优化 |Netflix|1x
       - 日本 NO.4|llj节点|移动优化||2x|
-      - 美国 NO.10 CN2GIA |Netflix|HBO|Hulu|2.5x
       - 韩国 NO.2 DX-三网直连切瓜专用 1.5x
       - 日本 NO.4|llj节点|移动优化||2x| 2
       - 日本 NO.3|软银线路|联通优化|3x 3
@@ -515,18 +501,14 @@ proxy-groups:
       - 中国_TG@nodesharing_11
       - 中国_TG@nodesharing_2
       - 中国_TG@nodesharing_5
-      - 俄罗斯联邦_TG@nodesharing_221
       - 香港_TG@nodesharing_162
       - 香港_TG@nodesharing_226
       - 加拿大_TG@nodesharing_122
-      - 意大利_TG@nodesharing_227
       - 西班牙_TG@nodesharing_264
       - 加拿大_TG@nodesharing_272
-      - 俄罗斯联邦_TG@nodesharing_278
       - 美国_TG@nodesharing_229
       - 英国_TG@nodesharing_240
       - 俄罗斯 NO.1|CN2 GIA|三网直连|1.5x|
-      - 中国_TG@nodesharing_3
       - 美国_TG@nodesharing_259
       - 俄罗斯 NO.2|CN2 GIA|三网直连|2x|
       - 美国_TG@nodesharing_220
@@ -550,7 +532,6 @@ proxy-groups:
       - 馃嚭馃嚫+缇庡浗+32
       - 美国_TG@nodesharing_261
       - +Dallas-GTHost
-      - 美国 NO.2 CN2 GIA |Netflix|HBO|Hulu|2.5x
       - 【1x】CN2-美国
       - 美国_TG@nodesharing_146
       - 中国_TG@nodesharing_34
@@ -569,7 +550,7 @@ proxy-groups:
       - youtube:8度科技_加拿大 7
       - youtube:8度科技_加拿大 13
       - 美国 NO.1 CN2 GIA |Netflix|HBO|Hulu|2.5x
-      - 美国 NO.2 CN2 GIA |Netflix|HBO|Hulu|2.5x 2
+      - 美国 NO.2 CN2 GIA |Netflix|HBO|Hulu|2.5x
       - _CA_加拿大 31
       - youtube:8度科技_加拿大 9
       - youtube:8度科技_加拿大 12
@@ -672,7 +653,6 @@ proxy-groups:
       - 中国_TG@nodesharing_37
       - 日本 No.2 电信|移动优化 |Netflix|1x
       - 日本 NO.4|llj节点|移动优化||2x|
-      - 美国 NO.10 CN2GIA |Netflix|HBO|Hulu|2.5x
       - 韩国 NO.2 DX-三网直连切瓜专用 1.5x
       - 日本 NO.4|llj节点|移动优化||2x| 2
       - 日本 NO.3|软银线路|联通优化|3x 3
@@ -693,18 +673,14 @@ proxy-groups:
       - 中国_TG@nodesharing_11
       - 中国_TG@nodesharing_2
       - 中国_TG@nodesharing_5
-      - 俄罗斯联邦_TG@nodesharing_221
       - 香港_TG@nodesharing_162
       - 香港_TG@nodesharing_226
       - 加拿大_TG@nodesharing_122
-      - 意大利_TG@nodesharing_227
       - 西班牙_TG@nodesharing_264
       - 加拿大_TG@nodesharing_272
-      - 俄罗斯联邦_TG@nodesharing_278
       - 美国_TG@nodesharing_229
       - 英国_TG@nodesharing_240
       - 俄罗斯 NO.1|CN2 GIA|三网直连|1.5x|
-      - 中国_TG@nodesharing_3
       - 美国_TG@nodesharing_259
       - 俄罗斯 NO.2|CN2 GIA|三网直连|2x|
       - 美国_TG@nodesharing_220
@@ -740,7 +716,6 @@ proxy-groups:
       - 馃嚭馃嚫+缇庡浗+32
       - 美国_TG@nodesharing_261
       - +Dallas-GTHost
-      - 美国 NO.2 CN2 GIA |Netflix|HBO|Hulu|2.5x
       - 【1x】CN2-美国
       - 美国_TG@nodesharing_146
       - 中国_TG@nodesharing_34
@@ -759,7 +734,7 @@ proxy-groups:
       - youtube:8度科技_加拿大 7
       - youtube:8度科技_加拿大 13
       - 美国 NO.1 CN2 GIA |Netflix|HBO|Hulu|2.5x
-      - 美国 NO.2 CN2 GIA |Netflix|HBO|Hulu|2.5x 2
+      - 美国 NO.2 CN2 GIA |Netflix|HBO|Hulu|2.5x
       - _CA_加拿大 31
       - youtube:8度科技_加拿大 9
       - youtube:8度科技_加拿大 12
@@ -862,7 +837,6 @@ proxy-groups:
       - 中国_TG@nodesharing_37
       - 日本 No.2 电信|移动优化 |Netflix|1x
       - 日本 NO.4|llj节点|移动优化||2x|
-      - 美国 NO.10 CN2GIA |Netflix|HBO|Hulu|2.5x
       - 韩国 NO.2 DX-三网直连切瓜专用 1.5x
       - 日本 NO.4|llj节点|移动优化||2x| 2
       - 日本 NO.3|软银线路|联通优化|3x 3
@@ -883,18 +857,14 @@ proxy-groups:
       - 中国_TG@nodesharing_11
       - 中国_TG@nodesharing_2
       - 中国_TG@nodesharing_5
-      - 俄罗斯联邦_TG@nodesharing_221
       - 香港_TG@nodesharing_162
       - 香港_TG@nodesharing_226
       - 加拿大_TG@nodesharing_122
-      - 意大利_TG@nodesharing_227
       - 西班牙_TG@nodesharing_264
       - 加拿大_TG@nodesharing_272
-      - 俄罗斯联邦_TG@nodesharing_278
       - 美国_TG@nodesharing_229
       - 英国_TG@nodesharing_240
       - 俄罗斯 NO.1|CN2 GIA|三网直连|1.5x|
-      - 中国_TG@nodesharing_3
       - 美国_TG@nodesharing_259
       - 俄罗斯 NO.2|CN2 GIA|三网直连|2x|
       - 美国_TG@nodesharing_220
@@ -928,7 +898,6 @@ proxy-groups:
       - 馃嚭馃嚫+缇庡浗+32
       - 美国_TG@nodesharing_261
       - +Dallas-GTHost
-      - 美国 NO.2 CN2 GIA |Netflix|HBO|Hulu|2.5x
       - 【1x】CN2-美国
       - 美国_TG@nodesharing_146
       - 中国_TG@nodesharing_34
@@ -947,7 +916,7 @@ proxy-groups:
       - youtube:8度科技_加拿大 7
       - youtube:8度科技_加拿大 13
       - 美国 NO.1 CN2 GIA |Netflix|HBO|Hulu|2.5x
-      - 美国 NO.2 CN2 GIA |Netflix|HBO|Hulu|2.5x 2
+      - 美国 NO.2 CN2 GIA |Netflix|HBO|Hulu|2.5x
       - _CA_加拿大 31
       - youtube:8度科技_加拿大 9
       - youtube:8度科技_加拿大 12
@@ -1050,7 +1019,6 @@ proxy-groups:
       - 中国_TG@nodesharing_37
       - 日本 No.2 电信|移动优化 |Netflix|1x
       - 日本 NO.4|llj节点|移动优化||2x|
-      - 美国 NO.10 CN2GIA |Netflix|HBO|Hulu|2.5x
       - 韩国 NO.2 DX-三网直连切瓜专用 1.5x
       - 日本 NO.4|llj节点|移动优化||2x| 2
       - 日本 NO.3|软银线路|联通优化|3x 3
@@ -1071,18 +1039,14 @@ proxy-groups:
       - 中国_TG@nodesharing_11
       - 中国_TG@nodesharing_2
       - 中国_TG@nodesharing_5
-      - 俄罗斯联邦_TG@nodesharing_221
       - 香港_TG@nodesharing_162
       - 香港_TG@nodesharing_226
       - 加拿大_TG@nodesharing_122
-      - 意大利_TG@nodesharing_227
       - 西班牙_TG@nodesharing_264
       - 加拿大_TG@nodesharing_272
-      - 俄罗斯联邦_TG@nodesharing_278
       - 美国_TG@nodesharing_229
       - 英国_TG@nodesharing_240
       - 俄罗斯 NO.1|CN2 GIA|三网直连|1.5x|
-      - 中国_TG@nodesharing_3
       - 美国_TG@nodesharing_259
       - 俄罗斯 NO.2|CN2 GIA|三网直连|2x|
       - 美国_TG@nodesharing_220
@@ -1105,7 +1069,6 @@ proxy-groups:
       - 馃嚭馃嚫+缇庡浗+32
       - 美国_TG@nodesharing_261
       - +Dallas-GTHost
-      - 美国 NO.2 CN2 GIA |Netflix|HBO|Hulu|2.5x
       - 【1x】CN2-美国
       - 美国_TG@nodesharing_146
       - 中国_TG@nodesharing_34
@@ -1124,7 +1087,7 @@ proxy-groups:
       - youtube:8度科技_加拿大 7
       - youtube:8度科技_加拿大 13
       - 美国 NO.1 CN2 GIA |Netflix|HBO|Hulu|2.5x
-      - 美国 NO.2 CN2 GIA |Netflix|HBO|Hulu|2.5x 2
+      - 美国 NO.2 CN2 GIA |Netflix|HBO|Hulu|2.5x
       - _CA_加拿大 31
       - youtube:8度科技_加拿大 9
       - youtube:8度科技_加拿大 12
@@ -1227,7 +1190,6 @@ proxy-groups:
       - 中国_TG@nodesharing_37
       - 日本 No.2 电信|移动优化 |Netflix|1x
       - 日本 NO.4|llj节点|移动优化||2x|
-      - 美国 NO.10 CN2GIA |Netflix|HBO|Hulu|2.5x
       - 韩国 NO.2 DX-三网直连切瓜专用 1.5x
       - 日本 NO.4|llj节点|移动优化||2x| 2
       - 日本 NO.3|软银线路|联通优化|3x 3
@@ -1248,18 +1210,14 @@ proxy-groups:
       - 中国_TG@nodesharing_11
       - 中国_TG@nodesharing_2
       - 中国_TG@nodesharing_5
-      - 俄罗斯联邦_TG@nodesharing_221
       - 香港_TG@nodesharing_162
       - 香港_TG@nodesharing_226
       - 加拿大_TG@nodesharing_122
-      - 意大利_TG@nodesharing_227
       - 西班牙_TG@nodesharing_264
       - 加拿大_TG@nodesharing_272
-      - 俄罗斯联邦_TG@nodesharing_278
       - 美国_TG@nodesharing_229
       - 英国_TG@nodesharing_240
       - 俄罗斯 NO.1|CN2 GIA|三网直连|1.5x|
-      - 中国_TG@nodesharing_3
       - 美国_TG@nodesharing_259
       - 俄罗斯 NO.2|CN2 GIA|三网直连|2x|
       - 美国_TG@nodesharing_220
@@ -1283,7 +1241,6 @@ proxy-groups:
       - 馃嚭馃嚫+缇庡浗+32
       - 美国_TG@nodesharing_261
       - +Dallas-GTHost
-      - 美国 NO.2 CN2 GIA |Netflix|HBO|Hulu|2.5x
       - 【1x】CN2-美国
       - 美国_TG@nodesharing_146
       - 中国_TG@nodesharing_34
@@ -1302,7 +1259,7 @@ proxy-groups:
       - youtube:8度科技_加拿大 7
       - youtube:8度科技_加拿大 13
       - 美国 NO.1 CN2 GIA |Netflix|HBO|Hulu|2.5x
-      - 美国 NO.2 CN2 GIA |Netflix|HBO|Hulu|2.5x 2
+      - 美国 NO.2 CN2 GIA |Netflix|HBO|Hulu|2.5x
       - _CA_加拿大 31
       - youtube:8度科技_加拿大 9
       - youtube:8度科技_加拿大 12
@@ -1405,7 +1362,6 @@ proxy-groups:
       - 中国_TG@nodesharing_37
       - 日本 No.2 电信|移动优化 |Netflix|1x
       - 日本 NO.4|llj节点|移动优化||2x|
-      - 美国 NO.10 CN2GIA |Netflix|HBO|Hulu|2.5x
       - 韩国 NO.2 DX-三网直连切瓜专用 1.5x
       - 日本 NO.4|llj节点|移动优化||2x| 2
       - 日本 NO.3|软银线路|联通优化|3x 3
@@ -1426,18 +1382,14 @@ proxy-groups:
       - 中国_TG@nodesharing_11
       - 中国_TG@nodesharing_2
       - 中国_TG@nodesharing_5
-      - 俄罗斯联邦_TG@nodesharing_221
       - 香港_TG@nodesharing_162
       - 香港_TG@nodesharing_226
       - 加拿大_TG@nodesharing_122
-      - 意大利_TG@nodesharing_227
       - 西班牙_TG@nodesharing_264
       - 加拿大_TG@nodesharing_272
-      - 俄罗斯联邦_TG@nodesharing_278
       - 美国_TG@nodesharing_229
       - 英国_TG@nodesharing_240
       - 俄罗斯 NO.1|CN2 GIA|三网直连|1.5x|
-      - 中国_TG@nodesharing_3
       - 美国_TG@nodesharing_259
       - 俄罗斯 NO.2|CN2 GIA|三网直连|2x|
       - 美国_TG@nodesharing_220
@@ -1470,7 +1422,6 @@ proxy-groups:
       - 馃嚭馃嚫+缇庡浗+32
       - 美国_TG@nodesharing_261
       - +Dallas-GTHost
-      - 美国 NO.2 CN2 GIA |Netflix|HBO|Hulu|2.5x
       - 【1x】CN2-美国
       - 美国_TG@nodesharing_146
       - 中国_TG@nodesharing_34
@@ -1489,7 +1440,7 @@ proxy-groups:
       - youtube:8度科技_加拿大 7
       - youtube:8度科技_加拿大 13
       - 美国 NO.1 CN2 GIA |Netflix|HBO|Hulu|2.5x
-      - 美国 NO.2 CN2 GIA |Netflix|HBO|Hulu|2.5x 2
+      - 美国 NO.2 CN2 GIA |Netflix|HBO|Hulu|2.5x
       - _CA_加拿大 31
       - youtube:8度科技_加拿大 9
       - youtube:8度科技_加拿大 12
@@ -1592,7 +1543,6 @@ proxy-groups:
       - 中国_TG@nodesharing_37
       - 日本 No.2 电信|移动优化 |Netflix|1x
       - 日本 NO.4|llj节点|移动优化||2x|
-      - 美国 NO.10 CN2GIA |Netflix|HBO|Hulu|2.5x
       - 韩国 NO.2 DX-三网直连切瓜专用 1.5x
       - 日本 NO.4|llj节点|移动优化||2x| 2
       - 日本 NO.3|软银线路|联通优化|3x 3
@@ -1613,18 +1563,14 @@ proxy-groups:
       - 中国_TG@nodesharing_11
       - 中国_TG@nodesharing_2
       - 中国_TG@nodesharing_5
-      - 俄罗斯联邦_TG@nodesharing_221
       - 香港_TG@nodesharing_162
       - 香港_TG@nodesharing_226
       - 加拿大_TG@nodesharing_122
-      - 意大利_TG@nodesharing_227
       - 西班牙_TG@nodesharing_264
       - 加拿大_TG@nodesharing_272
-      - 俄罗斯联邦_TG@nodesharing_278
       - 美国_TG@nodesharing_229
       - 英国_TG@nodesharing_240
       - 俄罗斯 NO.1|CN2 GIA|三网直连|1.5x|
-      - 中国_TG@nodesharing_3
       - 美国_TG@nodesharing_259
       - 俄罗斯 NO.2|CN2 GIA|三网直连|2x|
       - 美国_TG@nodesharing_220
