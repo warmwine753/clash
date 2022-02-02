@@ -5,431 +5,315 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 「🇺🇸」无花果 x3, server: n8.emovpn.xyz, port: 1251, type: ss, cipher: chacha20-ietf-poly1305, password: 5d91b925-813f-42c2-98ec-12edc5055f06, udp: true}
-  - {name: 「🇩🇪」圣女果 - 免流 x1, server: cs.cu.01.211129.xyz, port: 47657, type: vmess, uuid: 5d91b925-813f-42c2-98ec-12edc5055f06, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
-  - {name: 新加坡_TG@nodesharing_231, server: 128.1.95.250, port: 443, type: vmess, uuid: 65e05113-3849-4ce4-9881-5a891c2b1eeb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: 美国_TG@nodesharing_194, server: 192.3.145.143, port: 443, type: vmess, uuid: f2ac5a3b-575f-4888-8997-43958deda5a4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: youtube:8度科技_美国 3, server: 167.88.62.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国 6, server: 167.88.62.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_0125节点_44, server: 167.88.62.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 付费推荐:dlj.tf/ssrsub__13, server: 38.75.136.45, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 小库公益订阅, server: gg.piyun.bid, port: 10651, type: trojan, password: 2803debb-27c4-455f-9bff-46ba0bebb710, sni: gg.piyun.bid, skip-cert-verify: true, udp: true}
-  - {name: 「🇺🇸」三红柚 x1, server: n14.emovpn.xyz, port: 1251, type: ss, cipher: chacha20-ietf-poly1305, password: 5d91b925-813f-42c2-98ec-12edc5055f06, udp: true}
-  - {name: 香港_TG@nodesharing_23, server: 130.wgong.xyz, port: 52330, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "会员群: https://t.me/emovpn_vip", server: n13.emovpn.xyz, port: 44333, type: ss, cipher: chacha20-ietf-poly1305, password: 5d91b925-813f-42c2-98ec-12edc5055f06, udp: true}
-  - {name: 「🇸🇬」水晶梨 x3, server: n2.emovpn.xyz, port: 1251, type: ss, cipher: chacha20-ietf-poly1305, password: 5d91b925-813f-42c2-98ec-12edc5055f06, udp: true}
-  - {name: 「🇸🇬」秋月梨 x3, server: n3.emovpn.xyz, port: 1252, type: ss, cipher: chacha20-ietf-poly1305, password: 5d91b925-813f-42c2-98ec-12edc5055f06, udp: true}
-  - {name: 「🇸🇬」EMO | 龙鳞果 x5, server: n23.emovpn.xyz, port: 44334, type: ss, cipher: chacha20-ietf-poly1305, password: 5d91b925-813f-42c2-98ec-12edc5055f06, udp: true}
-  - {name: 「🇸🇬」七星草 x5, server: n22.emovpn.xyz, port: 44333, type: ss, cipher: chacha20-ietf-poly1305, password: 5d91b925-813f-42c2-98ec-12edc5055f06, udp: true}
-  - {name: 「🇸🇬」翠玉梨 - 免流 x1, server: user.showvideo.site, port: 10005, type: vmess, uuid: 5d91b925-813f-42c2-98ec-12edc5055f06, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
-  - {name: 「🇭🇰」天星城 x1, server: cs.cu.01.211129.xyz, port: 28535, type: ss, cipher: chacha20-ietf-poly1305, password: 5d91b925-813f-42c2-98ec-12edc5055f06, udp: true}
-  - {name: 「🇺🇸」葡萄柚 x3, server: n7.emovpn.xyz, port: 1252, type: ss, cipher: chacha20-ietf-poly1305, password: 5d91b925-813f-42c2-98ec-12edc5055f06, udp: true}
-  - {name: 「🇺🇸」EMO | 寿元果 x1, server: n24.emovpn.xyz, port: 44333, type: ss, cipher: chacha20-ietf-poly1305, password: 5d91b925-813f-42c2-98ec-12edc5055f06, udp: true}
-  - {name: 「🇺🇸」越蔓橘 x1, server: n17.emovpn.xyz, port: 127, type: ss, cipher: chacha20-ietf-poly1305, password: 5d91b925-813f-42c2-98ec-12edc5055f06, udp: true}
-  - {name: 「🇺🇸」EMO | 金灵子 x5, server: n25.emovpn.xyz, port: 44334, type: ss, cipher: chacha20-ietf-poly1305, password: 5d91b925-813f-42c2-98ec-12edc5055f06, udp: true}
-  - {name: 「🇺🇸」车厘子 x1, server: n9.emovpn.xyz, port: 125, type: ss, cipher: chacha20-ietf-poly1305, password: 5d91b925-813f-42c2-98ec-12edc5055f06, udp: true}
-  - {name: 「🇺🇸」菠萝蜜 x3, server: n6.emovpn.xyz, port: 1251, type: ss, cipher: chacha20-ietf-poly1305, password: 5d91b925-813f-42c2-98ec-12edc5055f06, udp: true}
-  - {name: 「🇺🇸」丰水梨 x1, server: n5.emovpn.xyz, port: 127, type: ss, cipher: chacha20-ietf-poly1305, password: 5d91b925-813f-42c2-98ec-12edc5055f06, udp: true}
-  - {name: 「🇺🇸」火龙果 x3, server: n11.emovpn.xyz, port: 126, type: ss, cipher: chacha20-ietf-poly1305, password: 5d91b925-813f-42c2-98ec-12edc5055f06, udp: true}
-  - {name: "电报群: https://t.me/emovpn x5", server: n1.emovpn.xyz, port: 125, type: ss, cipher: chacha20-ietf-poly1305, password: 5d91b925-813f-42c2-98ec-12edc5055f06, udp: true}
-  - {name: +Dallas-GTHost 2, server: 38.68.134.191, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 馃嚭馃嚫+缇庡浗+32, server: 38.68.134.191, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国_TG@nodesharing_69, server: 38.75.136.21, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 2, server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: +Dallas-GTHost, server: 38.68.134.191, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _US_美国 14, server: 167.88.62.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 中国_TG@nodesharing_154, server: one.hmbiplc.com, port: 53894, type: vmess, uuid: 07d676a1-903d-4606-93bd-e3522089f951, alterId: 4, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国_TG@nodesharing_197, server: nmsl.ezydfdd.com, port: 443, type: trojan, password: gbflFU2N0S4IkM8c, sni: nmsl.ezydfdd.com, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大 13, server: 198.57.27.184, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 30, server: 198.57.27.184, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 18, server: 198.57.27.184, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: youtube:8度科技_加拿大 3, server: 198.57.27.184, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: youtube:8度科技_加拿大 13, server: 198.57.27.184, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 31, server: 198.57.27.184, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 11, server: 198.57.27.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 21, server: 167.88.63.74, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _GB_英国 5, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _GB_英国 2, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _GB_英国 3, server: 172.99.190.188, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 英国_TG@nodesharing_145, server: 172.99.190.188, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 【426节点池】US_2284, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 22, server: 198.57.27.184, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大 15, server: 198.57.27.184, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 23, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: youtube:8度科技_加拿大 11, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 29, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国_TG@nodesharing_177, server: 167.88.63.61, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 美国_TG@nodesharing_97, server: 167.88.63.74, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: youtube:8度科技_美国 12, server: 167.88.63.28, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国_TG@nodesharing_241, server: 167.88.63.61, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _CA_加拿大 16, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 19, server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_0125节点_18, server: 167.88.63.28, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: youtube:8度科技_加拿大 14, server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: youtube:8度科技_美国 15, server: 167.88.63.28, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 17, server: 38.107.226.48, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: youtube:8度科技_美国 22, server: 38.68.134.23, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _CA_加拿大 10, server: 198.57.27.152, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国_TG@nodesharing_82, server: 167.88.63.61, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: youtube:8度科技_美国 10, server: 167.88.63.28, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国_TG@nodesharing_90, server: 167.88.63.61, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大 12, server: 198.57.27.152, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _GB_英国, server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 馃嚭馃嚫+缇庡浗+8, server: 38.121.43.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: youtube:8度科技_加拿大 19, server: 198.57.27.152, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 馃嚚馃嚘+鍔犳嬁澶�+2, server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 馃嚚馃嚘+鍔犳嬁澶�+14, server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 馃嚚馃嚘+鍔犳嬁澶�+13, server: 198.57.27.241, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 13, server: 38.107.226.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CA_加拿大 6, server: 134.195.196.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 馃嚚馃嚘+鍔犳嬁澶�+18, server: 134.195.196.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 14, server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 馃嚚馃嚘+鍔犳嬁澶�+21, server: 134.195.196.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _GB_英国 10, server: 172.99.190.39, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大+35, server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 7, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 4, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: 美国_TG@nodesharing_106, server: 38.75.136.45, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 付费推荐:dlj.tf/ssrsub__13, server: 38.75.136.45, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: +Dallas-GTHost, server: 38.68.134.191, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: 美国_TG@nodesharing_57, server: 167.88.62.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: 美国_TG@nodesharing_50, server: 38.68.134.191, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 馃嚭馃嚫+缇庡浗+39, server: 167.88.62.34, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: _US_美国, server: 38.68.134.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 「🇭🇰」灵缈园 x1, server: cs.cu.01.211129.xyz, port: 42106, type: vmess, uuid: 5d91b925-813f-42c2-98ec-12edc5055f06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
-  - {name: _CA_加拿大 14, server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 7, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 6, server: 134.195.196.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 4, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _CA_加拿大+35, server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 12, server: 198.57.27.152, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 馃嚚馃嚘+鍔犳嬁澶�+18, server: 134.195.196.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _GB_英国, server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _CA_加拿大 10, server: 198.57.27.152, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 馃嚚馃嚘+鍔犳嬁澶�+14, server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 馃嚚馃嚘+鍔犳嬁澶�+21, server: 134.195.196.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 馃嚚馃嚘+鍔犳嬁澶�+2, server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国_TG@nodesharing_97, server: 167.88.63.74, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国 10, server: 167.88.63.74, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 美国_TG@nodesharing_90, server: 167.88.63.61, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 美国_TG@nodesharing_177, server: 167.88.63.61, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: youtube:8度科技_加拿大 19, server: 198.57.27.152, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国_TG@nodesharing_241, server: 167.88.63.61, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美国_TG@nodesharing_82, server: 167.88.63.61, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _US_0125节点_18, server: 167.88.63.28, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 馃嚭馃嚫+缇庡浗+8, server: 38.121.43.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: youtube:8度科技_加拿大 14, server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: youtube:8度科技_美国 22, server: 38.68.134.23, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 馃嚚馃嚘+鍔犳嬁澶�+13, server: 198.57.27.241, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 「🇸🇬」翠冠梨 - 免流 x5, server: cs.cu.01.211129.xyz, port: 41954, type: vmess, uuid: 5d91b925-813f-42c2-98ec-12edc5055f06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
-  - {name: _CA_加拿大 19, server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 21, server: 167.88.63.74, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _GB_英国 10, server: 172.99.190.39, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: youtube:8度科技_美国 12, server: 167.88.63.28, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: youtube:8度科技_美国 10, server: 167.88.63.28, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 13, server: 38.107.226.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国 23, server: 38.107.226.48, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: youtube:8度科技_美国 15, server: 167.88.63.28, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _CA_加拿大 15, server: 198.57.27.184, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _CA_加拿大 13, server: 198.57.27.184, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 11, server: 198.57.27.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _CA_加拿大 29, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: youtube:8度科技_加拿大 13, server: 198.57.27.184, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: youtube:8度科技_加拿大 11, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 英国_TG@nodesharing_145, server: 172.99.190.188, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 22, server: 198.57.27.184, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _CA_加拿大 18, server: 198.57.27.184, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 「🇺🇸」可可果 - 免流 x1, server: v10.emovpn.xyz, port: 125, type: vmess, uuid: 5d91b925-813f-42c2-98ec-12edc5055f06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
-  - {name: 「🇺🇸」青脆李 - 免流 x1, server: v1.emovpn.xyz, port: 80, type: vmess, uuid: 5d91b925-813f-42c2-98ec-12edc5055f06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
-  - {name: _CA_加拿大 23, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _CA_加拿大 16, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _GB_英国 3, server: 172.99.190.188, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _CA_加拿大 31, server: 198.57.27.184, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 【426节点池】US_2284, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _GB_英国 2, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: youtube:8度科技_加拿大 3, server: 198.57.27.184, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _GB_英国 5, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 30, server: 198.57.27.184, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: youtube:8度科技_加拿大 18, server: 198.57.27.172, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: youtube:8度科技_加拿大 9, server: 198.57.27.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国_TG@nodesharing_197, server: nmsl.ezydfdd.com, port: 443, type: trojan, password: gbflFU2N0S4IkM8c, sni: nmsl.ezydfdd.com, skip-cert-verify: true, udp: true}
-  - {name: 「🇰🇷」道一圣地 | 🚶 - 直连 x5, server: cs.cu.01.211129.xyz, port: 62107, type: vmess, uuid: 5d91b925-813f-42c2-98ec-12edc5055f06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
+  - {name: _US_美国 6, server: 167.88.62.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 14, server: 167.88.62.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 馃嚭馃嚫+缇庡浗+39, server: 167.88.62.34, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 馃嚭馃嚫+缇庡浗+32, server: 38.68.134.191, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 2, server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_0125节点_44, server: 167.88.62.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: +Dallas-GTHost 2, server: 38.68.134.191, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 中国_TG@nodesharing_37, server: tunnel-tw-a-01.xncloud.xyz, port: 505, type: vmess, uuid: bf6305b0-ce74-37e1-af88-c05637d8d94c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-hinet-tw-05.xncloud.xyz}, udp: true}
-  - {name: 中国_TG@nodesharing_154, server: one.hmbiplc.com, port: 53894, type: vmess, uuid: 07d676a1-903d-4606-93bd-e3522089f951, alterId: 4, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 17, server: 38.107.226.48, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 「🇦🇺」白狐波赞助1 x1, server: cs.cu.01.211129.xyz, port: 25205, type: vmess, uuid: 5d91b925-813f-42c2-98ec-12edc5055f06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
-  - {name: 「🇦🇺」白狐波赞助2 x1, server: cs.cu.01.211129.xyz, port: 50391, type: vmess, uuid: 5d91b925-813f-42c2-98ec-12edc5055f06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
-  - {name: 「🇺🇸」冰糖橙 - 免流 x1, server: cs.cu.01.211129.xyz, port: 37169, type: vmess, uuid: 5d91b925-813f-42c2-98ec-12edc5055f06, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
+  - {name: youtube:8度科技_加拿大 9, server: 198.57.27.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: youtube:8度科技_加拿大 18, server: 198.57.27.172, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 香港_TG@nodesharing_23, server: 130.wgong.xyz, port: 52330, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡_TG@nodesharing_231, server: 128.1.95.250, port: 443, type: vmess, uuid: 65e05113-3849-4ce4-9881-5a891c2b1eeb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: _US_美国 23, server: 38.107.226.48, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: youtube:8度科技_美国 3, server: 167.88.62.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 10, server: 167.88.63.74, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 美国_TG@nodesharing_194, server: 192.3.145.143, port: 443, type: vmess, uuid: f2ac5a3b-575f-4888-8997-43958deda5a4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「🇺🇸」无花果 x3
-      - 「🇩🇪」圣女果 - 免流 x1
-      - 新加坡_TG@nodesharing_231
-      - 美国_TG@nodesharing_194
-      - youtube:8度科技_美国 3
-      - _US_美国 6
-      - _US_0125节点_44
-      - 付费推荐:dlj.tf/ssrsub__13
-      - 小库公益订阅
-      - 「🇺🇸」三红柚 x1
-      - 香港_TG@nodesharing_23
-      - "会员群: https://t.me/emovpn_vip"
-      - 「🇸🇬」水晶梨 x3
-      - 「🇸🇬」秋月梨 x3
-      - 「🇸🇬」EMO | 龙鳞果 x5
-      - 「🇸🇬」七星草 x5
-      - 「🇸🇬」翠玉梨 - 免流 x1
-      - 「🇭🇰」天星城 x1
-      - 「🇺🇸」葡萄柚 x3
-      - 「🇺🇸」EMO | 寿元果 x1
-      - 「🇺🇸」越蔓橘 x1
-      - 「🇺🇸」EMO | 金灵子 x5
-      - 「🇺🇸」车厘子 x1
-      - 「🇺🇸」菠萝蜜 x3
-      - 「🇺🇸」丰水梨 x1
-      - 「🇺🇸」火龙果 x3
-      - "电报群: https://t.me/emovpn x5"
-      - +Dallas-GTHost 2
-      - 馃嚭馃嚫+缇庡浗+32
-      - 美国_TG@nodesharing_69
-      - _US_美国 2
-      - +Dallas-GTHost
-      - _US_美国 14
+      - 中国_TG@nodesharing_154
+      - 美国_TG@nodesharing_197
+      - _CA_加拿大 13
+      - _CA_加拿大 30
+      - _CA_加拿大 18
+      - youtube:8度科技_加拿大 3
+      - youtube:8度科技_加拿大 13
+      - _CA_加拿大 31
+      - _CA_加拿大 11
+      - _US_美国 21
+      - _GB_英国 5
+      - _GB_英国 2
+      - _GB_英国 3
+      - 英国_TG@nodesharing_145
+      - 【426节点池】US_2284
+      - _CA_加拿大 22
+      - _CA_加拿大 15
+      - _CA_加拿大 23
+      - youtube:8度科技_加拿大 11
+      - _CA_加拿大 29
+      - 美国_TG@nodesharing_177
+      - 美国_TG@nodesharing_97
+      - youtube:8度科技_美国 12
+      - 美国_TG@nodesharing_241
+      - _CA_加拿大 16
+      - _CA_加拿大 19
+      - _US_0125节点_18
+      - youtube:8度科技_加拿大 14
+      - youtube:8度科技_美国 15
+      - _US_美国 17
+      - youtube:8度科技_美国 22
+      - _CA_加拿大 10
+      - 美国_TG@nodesharing_82
+      - youtube:8度科技_美国 10
+      - 美国_TG@nodesharing_90
+      - _CA_加拿大 12
+      - _GB_英国
+      - 馃嚭馃嚫+缇庡浗+8
+      - youtube:8度科技_加拿大 19
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - 馃嚚馃嚘+鍔犳嬁澶�+14
+      - 馃嚚馃嚘+鍔犳嬁澶�+13
+      - _US_美国 13
+      - _CA_加拿大 6
+      - 馃嚚馃嚘+鍔犳嬁澶�+18
+      - _CA_加拿大 14
+      - 馃嚚馃嚘+鍔犳嬁澶�+21
+      - _GB_英国 10
+      - _CA_加拿大+35
+      - _CA_加拿大 7
+      - _CA_加拿大 4
       - 美国_TG@nodesharing_106
+      - 付费推荐:dlj.tf/ssrsub__13
+      - +Dallas-GTHost
       - 美国_TG@nodesharing_57
       - 美国_TG@nodesharing_50
-      - 馃嚭馃嚫+缇庡浗+39
       - _US_美国
-      - 「🇭🇰」灵缈园 x1
-      - _CA_加拿大 14
-      - _CA_加拿大 7
-      - _CA_加拿大 6
-      - _CA_加拿大 4
-      - _CA_加拿大+35
-      - _CA_加拿大 12
-      - 馃嚚馃嚘+鍔犳嬁澶�+18
-      - _GB_英国
-      - _CA_加拿大 10
-      - 馃嚚馃嚘+鍔犳嬁澶�+14
-      - 馃嚚馃嚘+鍔犳嬁澶�+21
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 美国_TG@nodesharing_97
-      - _US_美国 10
-      - 美国_TG@nodesharing_90
-      - 美国_TG@nodesharing_177
-      - youtube:8度科技_加拿大 19
-      - 美国_TG@nodesharing_241
-      - 美国_TG@nodesharing_82
-      - _US_0125节点_18
-      - 馃嚭馃嚫+缇庡浗+8
-      - youtube:8度科技_加拿大 14
-      - youtube:8度科技_美国 22
-      - 馃嚚馃嚘+鍔犳嬁澶�+13
-      - 「🇸🇬」翠冠梨 - 免流 x5
-      - _CA_加拿大 19
-      - _US_美国 21
-      - _GB_英国 10
-      - youtube:8度科技_美国 12
-      - youtube:8度科技_美国 10
-      - _US_美国 13
-      - _US_美国 23
-      - youtube:8度科技_美国 15
-      - _CA_加拿大 15
-      - _CA_加拿大 13
-      - _CA_加拿大 11
-      - _CA_加拿大 29
-      - youtube:8度科技_加拿大 13
-      - youtube:8度科技_加拿大 11
-      - 英国_TG@nodesharing_145
-      - _CA_加拿大 22
-      - _CA_加拿大 18
-      - 「🇺🇸」可可果 - 免流 x1
-      - 「🇺🇸」青脆李 - 免流 x1
-      - _CA_加拿大 23
-      - _CA_加拿大 16
-      - _GB_英国 3
-      - _CA_加拿大 31
-      - 【426节点池】US_2284
-      - _GB_英国 2
-      - youtube:8度科技_加拿大 3
-      - _GB_英国 5
-      - _CA_加拿大 30
-      - youtube:8度科技_加拿大 18
-      - youtube:8度科技_加拿大 9
-      - 美国_TG@nodesharing_197
-      - 「🇰🇷」道一圣地 | 🚶 - 直连 x5
+      - _US_美国 6
+      - _US_美国 14
+      - 馃嚭馃嚫+缇庡浗+39
+      - 馃嚭馃嚫+缇庡浗+32
+      - _US_美国 2
+      - _US_0125节点_44
+      - +Dallas-GTHost 2
       - 中国_TG@nodesharing_37
-      - 中国_TG@nodesharing_154
-      - _US_美国 17
-      - 「🇦🇺」白狐波赞助1 x1
-      - 「🇦🇺」白狐波赞助2 x1
-      - 「🇺🇸」冰糖橙 - 免流 x1
+      - youtube:8度科技_加拿大 9
+      - youtube:8度科技_加拿大 18
+      - 香港_TG@nodesharing_23
+      - 新加坡_TG@nodesharing_231
+      - _US_美国 23
+      - youtube:8度科技_美国 3
+      - _US_美国 10
+      - 美国_TG@nodesharing_194
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 「🇺🇸」无花果 x3
-      - 「🇩🇪」圣女果 - 免流 x1
-      - 新加坡_TG@nodesharing_231
-      - 美国_TG@nodesharing_194
-      - youtube:8度科技_美国 3
-      - _US_美国 6
-      - _US_0125节点_44
-      - 付费推荐:dlj.tf/ssrsub__13
-      - 小库公益订阅
-      - 「🇺🇸」三红柚 x1
-      - 香港_TG@nodesharing_23
-      - "会员群: https://t.me/emovpn_vip"
-      - 「🇸🇬」水晶梨 x3
-      - 「🇸🇬」秋月梨 x3
-      - 「🇸🇬」EMO | 龙鳞果 x5
-      - 「🇸🇬」七星草 x5
-      - 「🇸🇬」翠玉梨 - 免流 x1
-      - 「🇭🇰」天星城 x1
-      - 「🇺🇸」葡萄柚 x3
-      - 「🇺🇸」EMO | 寿元果 x1
-      - 「🇺🇸」越蔓橘 x1
-      - 「🇺🇸」EMO | 金灵子 x5
-      - 「🇺🇸」车厘子 x1
-      - 「🇺🇸」菠萝蜜 x3
-      - 「🇺🇸」丰水梨 x1
-      - 「🇺🇸」火龙果 x3
-      - "电报群: https://t.me/emovpn x5"
-      - +Dallas-GTHost 2
-      - 馃嚭馃嚫+缇庡浗+32
-      - 美国_TG@nodesharing_69
-      - _US_美国 2
-      - +Dallas-GTHost
-      - _US_美国 14
+      - 中国_TG@nodesharing_154
+      - 美国_TG@nodesharing_197
+      - _CA_加拿大 13
+      - _CA_加拿大 30
+      - _CA_加拿大 18
+      - youtube:8度科技_加拿大 3
+      - youtube:8度科技_加拿大 13
+      - _CA_加拿大 31
+      - _CA_加拿大 11
+      - _US_美国 21
+      - _GB_英国 5
+      - _GB_英国 2
+      - _GB_英国 3
+      - 英国_TG@nodesharing_145
+      - 【426节点池】US_2284
+      - _CA_加拿大 22
+      - _CA_加拿大 15
+      - _CA_加拿大 23
+      - youtube:8度科技_加拿大 11
+      - _CA_加拿大 29
+      - 美国_TG@nodesharing_177
+      - 美国_TG@nodesharing_97
+      - youtube:8度科技_美国 12
+      - 美国_TG@nodesharing_241
+      - _CA_加拿大 16
+      - _CA_加拿大 19
+      - _US_0125节点_18
+      - youtube:8度科技_加拿大 14
+      - youtube:8度科技_美国 15
+      - _US_美国 17
+      - youtube:8度科技_美国 22
+      - _CA_加拿大 10
+      - 美国_TG@nodesharing_82
+      - youtube:8度科技_美国 10
+      - 美国_TG@nodesharing_90
+      - _CA_加拿大 12
+      - _GB_英国
+      - 馃嚭馃嚫+缇庡浗+8
+      - youtube:8度科技_加拿大 19
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - 馃嚚馃嚘+鍔犳嬁澶�+14
+      - 馃嚚馃嚘+鍔犳嬁澶�+13
+      - _US_美国 13
+      - _CA_加拿大 6
+      - 馃嚚馃嚘+鍔犳嬁澶�+18
+      - _CA_加拿大 14
+      - 馃嚚馃嚘+鍔犳嬁澶�+21
+      - _GB_英国 10
+      - _CA_加拿大+35
+      - _CA_加拿大 7
+      - _CA_加拿大 4
       - 美国_TG@nodesharing_106
+      - 付费推荐:dlj.tf/ssrsub__13
+      - +Dallas-GTHost
       - 美国_TG@nodesharing_57
       - 美国_TG@nodesharing_50
-      - 馃嚭馃嚫+缇庡浗+39
       - _US_美国
-      - 「🇭🇰」灵缈园 x1
-      - _CA_加拿大 14
-      - _CA_加拿大 7
-      - _CA_加拿大 6
-      - _CA_加拿大 4
-      - _CA_加拿大+35
-      - _CA_加拿大 12
-      - 馃嚚馃嚘+鍔犳嬁澶�+18
-      - _GB_英国
-      - _CA_加拿大 10
-      - 馃嚚馃嚘+鍔犳嬁澶�+14
-      - 馃嚚馃嚘+鍔犳嬁澶�+21
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 美国_TG@nodesharing_97
-      - _US_美国 10
-      - 美国_TG@nodesharing_90
-      - 美国_TG@nodesharing_177
-      - youtube:8度科技_加拿大 19
-      - 美国_TG@nodesharing_241
-      - 美国_TG@nodesharing_82
-      - _US_0125节点_18
-      - 馃嚭馃嚫+缇庡浗+8
-      - youtube:8度科技_加拿大 14
-      - youtube:8度科技_美国 22
-      - 馃嚚馃嚘+鍔犳嬁澶�+13
-      - 「🇸🇬」翠冠梨 - 免流 x5
-      - _CA_加拿大 19
-      - _US_美国 21
-      - _GB_英国 10
-      - youtube:8度科技_美国 12
-      - youtube:8度科技_美国 10
-      - _US_美国 13
-      - _US_美国 23
-      - youtube:8度科技_美国 15
-      - _CA_加拿大 15
-      - _CA_加拿大 13
-      - _CA_加拿大 11
-      - _CA_加拿大 29
-      - youtube:8度科技_加拿大 13
-      - youtube:8度科技_加拿大 11
-      - 英国_TG@nodesharing_145
-      - _CA_加拿大 22
-      - _CA_加拿大 18
-      - 「🇺🇸」可可果 - 免流 x1
-      - 「🇺🇸」青脆李 - 免流 x1
-      - _CA_加拿大 23
-      - _CA_加拿大 16
-      - _GB_英国 3
-      - _CA_加拿大 31
-      - 【426节点池】US_2284
-      - _GB_英国 2
-      - youtube:8度科技_加拿大 3
-      - _GB_英国 5
-      - _CA_加拿大 30
-      - youtube:8度科技_加拿大 18
-      - youtube:8度科技_加拿大 9
-      - 美国_TG@nodesharing_197
-      - 「🇰🇷」道一圣地 | 🚶 - 直连 x5
+      - _US_美国 6
+      - _US_美国 14
+      - 馃嚭馃嚫+缇庡浗+39
+      - 馃嚭馃嚫+缇庡浗+32
+      - _US_美国 2
+      - _US_0125节点_44
+      - +Dallas-GTHost 2
       - 中国_TG@nodesharing_37
-      - 中国_TG@nodesharing_154
-      - _US_美国 17
-      - 「🇦🇺」白狐波赞助1 x1
-      - 「🇦🇺」白狐波赞助2 x1
-      - 「🇺🇸」冰糖橙 - 免流 x1
+      - youtube:8度科技_加拿大 9
+      - youtube:8度科技_加拿大 18
+      - 香港_TG@nodesharing_23
+      - 新加坡_TG@nodesharing_231
+      - _US_美国 23
+      - youtube:8度科技_美国 3
+      - _US_美国 10
+      - 美国_TG@nodesharing_194
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「🇺🇸」无花果 x3
-      - 「🇩🇪」圣女果 - 免流 x1
-      - 新加坡_TG@nodesharing_231
-      - 美国_TG@nodesharing_194
-      - youtube:8度科技_美国 3
-      - _US_美国 6
-      - _US_0125节点_44
-      - 付费推荐:dlj.tf/ssrsub__13
-      - 小库公益订阅
-      - 「🇺🇸」三红柚 x1
-      - 香港_TG@nodesharing_23
-      - "会员群: https://t.me/emovpn_vip"
-      - 「🇸🇬」水晶梨 x3
-      - 「🇸🇬」秋月梨 x3
-      - 「🇸🇬」EMO | 龙鳞果 x5
-      - 「🇸🇬」七星草 x5
-      - 「🇸🇬」翠玉梨 - 免流 x1
-      - 「🇭🇰」天星城 x1
-      - 「🇺🇸」葡萄柚 x3
-      - 「🇺🇸」EMO | 寿元果 x1
-      - 「🇺🇸」越蔓橘 x1
-      - 「🇺🇸」EMO | 金灵子 x5
-      - 「🇺🇸」车厘子 x1
-      - 「🇺🇸」菠萝蜜 x3
-      - 「🇺🇸」丰水梨 x1
-      - 「🇺🇸」火龙果 x3
-      - "电报群: https://t.me/emovpn x5"
-      - +Dallas-GTHost 2
-      - 馃嚭馃嚫+缇庡浗+32
-      - 美国_TG@nodesharing_69
-      - _US_美国 2
-      - +Dallas-GTHost
-      - _US_美国 14
+      - 中国_TG@nodesharing_154
+      - 美国_TG@nodesharing_197
+      - _CA_加拿大 13
+      - _CA_加拿大 30
+      - _CA_加拿大 18
+      - youtube:8度科技_加拿大 3
+      - youtube:8度科技_加拿大 13
+      - _CA_加拿大 31
+      - _CA_加拿大 11
+      - _US_美国 21
+      - _GB_英国 5
+      - _GB_英国 2
+      - _GB_英国 3
+      - 英国_TG@nodesharing_145
+      - 【426节点池】US_2284
+      - _CA_加拿大 22
+      - _CA_加拿大 15
+      - _CA_加拿大 23
+      - youtube:8度科技_加拿大 11
+      - _CA_加拿大 29
+      - 美国_TG@nodesharing_177
+      - 美国_TG@nodesharing_97
+      - youtube:8度科技_美国 12
+      - 美国_TG@nodesharing_241
+      - _CA_加拿大 16
+      - _CA_加拿大 19
+      - _US_0125节点_18
+      - youtube:8度科技_加拿大 14
+      - youtube:8度科技_美国 15
+      - _US_美国 17
+      - youtube:8度科技_美国 22
+      - _CA_加拿大 10
+      - 美国_TG@nodesharing_82
+      - youtube:8度科技_美国 10
+      - 美国_TG@nodesharing_90
+      - _CA_加拿大 12
+      - _GB_英国
+      - 馃嚭馃嚫+缇庡浗+8
+      - youtube:8度科技_加拿大 19
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - 馃嚚馃嚘+鍔犳嬁澶�+14
+      - 馃嚚馃嚘+鍔犳嬁澶�+13
+      - _US_美国 13
+      - _CA_加拿大 6
+      - 馃嚚馃嚘+鍔犳嬁澶�+18
+      - _CA_加拿大 14
+      - 馃嚚馃嚘+鍔犳嬁澶�+21
+      - _GB_英国 10
+      - _CA_加拿大+35
+      - _CA_加拿大 7
+      - _CA_加拿大 4
       - 美国_TG@nodesharing_106
+      - 付费推荐:dlj.tf/ssrsub__13
+      - +Dallas-GTHost
       - 美国_TG@nodesharing_57
       - 美国_TG@nodesharing_50
-      - 馃嚭馃嚫+缇庡浗+39
       - _US_美国
-      - 「🇭🇰」灵缈园 x1
-      - _CA_加拿大 14
-      - _CA_加拿大 7
-      - _CA_加拿大 6
-      - _CA_加拿大 4
-      - _CA_加拿大+35
-      - _CA_加拿大 12
-      - 馃嚚馃嚘+鍔犳嬁澶�+18
-      - _GB_英国
-      - _CA_加拿大 10
-      - 馃嚚馃嚘+鍔犳嬁澶�+14
-      - 馃嚚馃嚘+鍔犳嬁澶�+21
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 美国_TG@nodesharing_97
-      - _US_美国 10
-      - 美国_TG@nodesharing_90
-      - 美国_TG@nodesharing_177
-      - youtube:8度科技_加拿大 19
-      - 美国_TG@nodesharing_241
-      - 美国_TG@nodesharing_82
-      - _US_0125节点_18
-      - 馃嚭馃嚫+缇庡浗+8
-      - youtube:8度科技_加拿大 14
-      - youtube:8度科技_美国 22
-      - 馃嚚馃嚘+鍔犳嬁澶�+13
-      - 「🇸🇬」翠冠梨 - 免流 x5
-      - _CA_加拿大 19
-      - _US_美国 21
-      - _GB_英国 10
-      - youtube:8度科技_美国 12
-      - youtube:8度科技_美国 10
-      - _US_美国 13
-      - _US_美国 23
-      - youtube:8度科技_美国 15
-      - _CA_加拿大 15
-      - _CA_加拿大 13
-      - _CA_加拿大 11
-      - _CA_加拿大 29
-      - youtube:8度科技_加拿大 13
-      - youtube:8度科技_加拿大 11
-      - 英国_TG@nodesharing_145
-      - _CA_加拿大 22
-      - _CA_加拿大 18
-      - 「🇺🇸」可可果 - 免流 x1
-      - 「🇺🇸」青脆李 - 免流 x1
-      - _CA_加拿大 23
-      - _CA_加拿大 16
-      - _GB_英国 3
-      - _CA_加拿大 31
-      - 【426节点池】US_2284
-      - _GB_英国 2
-      - youtube:8度科技_加拿大 3
-      - _GB_英国 5
-      - _CA_加拿大 30
-      - youtube:8度科技_加拿大 18
-      - youtube:8度科技_加拿大 9
-      - 美国_TG@nodesharing_197
-      - 「🇰🇷」道一圣地 | 🚶 - 直连 x5
+      - _US_美国 6
+      - _US_美国 14
+      - 馃嚭馃嚫+缇庡浗+39
+      - 馃嚭馃嚫+缇庡浗+32
+      - _US_美国 2
+      - _US_0125节点_44
+      - +Dallas-GTHost 2
       - 中国_TG@nodesharing_37
-      - 中国_TG@nodesharing_154
-      - _US_美国 17
-      - 「🇦🇺」白狐波赞助1 x1
-      - 「🇦🇺」白狐波赞助2 x1
-      - 「🇺🇸」冰糖橙 - 免流 x1
+      - youtube:8度科技_加拿大 9
+      - youtube:8度科技_加拿大 18
+      - 香港_TG@nodesharing_23
+      - 新加坡_TG@nodesharing_231
+      - _US_美国 23
+      - youtube:8度科技_美国 3
+      - _US_美国 10
+      - 美国_TG@nodesharing_194
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -448,108 +332,79 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「🇺🇸」无花果 x3
-      - 「🇩🇪」圣女果 - 免流 x1
-      - 新加坡_TG@nodesharing_231
-      - 美国_TG@nodesharing_194
-      - youtube:8度科技_美国 3
-      - _US_美国 6
-      - _US_0125节点_44
-      - 付费推荐:dlj.tf/ssrsub__13
-      - 小库公益订阅
-      - 「🇺🇸」三红柚 x1
-      - 香港_TG@nodesharing_23
-      - "会员群: https://t.me/emovpn_vip"
-      - 「🇸🇬」水晶梨 x3
-      - 「🇸🇬」秋月梨 x3
-      - 「🇸🇬」EMO | 龙鳞果 x5
-      - 「🇸🇬」七星草 x5
-      - 「🇸🇬」翠玉梨 - 免流 x1
-      - 「🇭🇰」天星城 x1
-      - 「🇺🇸」葡萄柚 x3
-      - 「🇺🇸」EMO | 寿元果 x1
-      - 「🇺🇸」越蔓橘 x1
-      - 「🇺🇸」EMO | 金灵子 x5
-      - 「🇺🇸」车厘子 x1
-      - 「🇺🇸」菠萝蜜 x3
-      - 「🇺🇸」丰水梨 x1
-      - 「🇺🇸」火龙果 x3
-      - "电报群: https://t.me/emovpn x5"
-      - +Dallas-GTHost 2
-      - 馃嚭馃嚫+缇庡浗+32
-      - 美国_TG@nodesharing_69
-      - _US_美国 2
-      - +Dallas-GTHost
-      - _US_美国 14
+      - 中国_TG@nodesharing_154
+      - 美国_TG@nodesharing_197
+      - _CA_加拿大 13
+      - _CA_加拿大 30
+      - _CA_加拿大 18
+      - youtube:8度科技_加拿大 3
+      - youtube:8度科技_加拿大 13
+      - _CA_加拿大 31
+      - _CA_加拿大 11
+      - _US_美国 21
+      - _GB_英国 5
+      - _GB_英国 2
+      - _GB_英国 3
+      - 英国_TG@nodesharing_145
+      - 【426节点池】US_2284
+      - _CA_加拿大 22
+      - _CA_加拿大 15
+      - _CA_加拿大 23
+      - youtube:8度科技_加拿大 11
+      - _CA_加拿大 29
+      - 美国_TG@nodesharing_177
+      - 美国_TG@nodesharing_97
+      - youtube:8度科技_美国 12
+      - 美国_TG@nodesharing_241
+      - _CA_加拿大 16
+      - _CA_加拿大 19
+      - _US_0125节点_18
+      - youtube:8度科技_加拿大 14
+      - youtube:8度科技_美国 15
+      - _US_美国 17
+      - youtube:8度科技_美国 22
+      - _CA_加拿大 10
+      - 美国_TG@nodesharing_82
+      - youtube:8度科技_美国 10
+      - 美国_TG@nodesharing_90
+      - _CA_加拿大 12
+      - _GB_英国
+      - 馃嚭馃嚫+缇庡浗+8
+      - youtube:8度科技_加拿大 19
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - 馃嚚馃嚘+鍔犳嬁澶�+14
+      - 馃嚚馃嚘+鍔犳嬁澶�+13
+      - _US_美国 13
+      - _CA_加拿大 6
+      - 馃嚚馃嚘+鍔犳嬁澶�+18
+      - _CA_加拿大 14
+      - 馃嚚馃嚘+鍔犳嬁澶�+21
+      - _GB_英国 10
+      - _CA_加拿大+35
+      - _CA_加拿大 7
+      - _CA_加拿大 4
       - 美国_TG@nodesharing_106
+      - 付费推荐:dlj.tf/ssrsub__13
+      - +Dallas-GTHost
       - 美国_TG@nodesharing_57
       - 美国_TG@nodesharing_50
-      - 馃嚭馃嚫+缇庡浗+39
       - _US_美国
-      - 「🇭🇰」灵缈园 x1
-      - _CA_加拿大 14
-      - _CA_加拿大 7
-      - _CA_加拿大 6
-      - _CA_加拿大 4
-      - _CA_加拿大+35
-      - _CA_加拿大 12
-      - 馃嚚馃嚘+鍔犳嬁澶�+18
-      - _GB_英国
-      - _CA_加拿大 10
-      - 馃嚚馃嚘+鍔犳嬁澶�+14
-      - 馃嚚馃嚘+鍔犳嬁澶�+21
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 美国_TG@nodesharing_97
-      - _US_美国 10
-      - 美国_TG@nodesharing_90
-      - 美国_TG@nodesharing_177
-      - youtube:8度科技_加拿大 19
-      - 美国_TG@nodesharing_241
-      - 美国_TG@nodesharing_82
-      - _US_0125节点_18
-      - 馃嚭馃嚫+缇庡浗+8
-      - youtube:8度科技_加拿大 14
-      - youtube:8度科技_美国 22
-      - 馃嚚馃嚘+鍔犳嬁澶�+13
-      - 「🇸🇬」翠冠梨 - 免流 x5
-      - _CA_加拿大 19
-      - _US_美国 21
-      - _GB_英国 10
-      - youtube:8度科技_美国 12
-      - youtube:8度科技_美国 10
-      - _US_美国 13
-      - _US_美国 23
-      - youtube:8度科技_美国 15
-      - _CA_加拿大 15
-      - _CA_加拿大 13
-      - _CA_加拿大 11
-      - _CA_加拿大 29
-      - youtube:8度科技_加拿大 13
-      - youtube:8度科技_加拿大 11
-      - 英国_TG@nodesharing_145
-      - _CA_加拿大 22
-      - _CA_加拿大 18
-      - 「🇺🇸」可可果 - 免流 x1
-      - 「🇺🇸」青脆李 - 免流 x1
-      - _CA_加拿大 23
-      - _CA_加拿大 16
-      - _GB_英国 3
-      - _CA_加拿大 31
-      - 【426节点池】US_2284
-      - _GB_英国 2
-      - youtube:8度科技_加拿大 3
-      - _GB_英国 5
-      - _CA_加拿大 30
-      - youtube:8度科技_加拿大 18
-      - youtube:8度科技_加拿大 9
-      - 美国_TG@nodesharing_197
-      - 「🇰🇷」道一圣地 | 🚶 - 直连 x5
+      - _US_美国 6
+      - _US_美国 14
+      - 馃嚭馃嚫+缇庡浗+39
+      - 馃嚭馃嚫+缇庡浗+32
+      - _US_美国 2
+      - _US_0125节点_44
+      - +Dallas-GTHost 2
       - 中国_TG@nodesharing_37
-      - 中国_TG@nodesharing_154
-      - _US_美国 17
-      - 「🇦🇺」白狐波赞助1 x1
-      - 「🇦🇺」白狐波赞助2 x1
-      - 「🇺🇸」冰糖橙 - 免流 x1
+      - youtube:8度科技_加拿大 9
+      - youtube:8度科技_加拿大 18
+      - 香港_TG@nodesharing_23
+      - 新加坡_TG@nodesharing_231
+      - _US_美国 23
+      - youtube:8度科技_美国 3
+      - _US_美国 10
+      - 美国_TG@nodesharing_194
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -561,323 +416,236 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 「🇺🇸」无花果 x3
-      - 「🇩🇪」圣女果 - 免流 x1
-      - 新加坡_TG@nodesharing_231
-      - 美国_TG@nodesharing_194
-      - youtube:8度科技_美国 3
-      - _US_美国 6
-      - _US_0125节点_44
-      - 付费推荐:dlj.tf/ssrsub__13
-      - 小库公益订阅
-      - 「🇺🇸」三红柚 x1
-      - 香港_TG@nodesharing_23
-      - "会员群: https://t.me/emovpn_vip"
-      - 「🇸🇬」水晶梨 x3
-      - 「🇸🇬」秋月梨 x3
-      - 「🇸🇬」EMO | 龙鳞果 x5
-      - 「🇸🇬」七星草 x5
-      - 「🇸🇬」翠玉梨 - 免流 x1
-      - 「🇭🇰」天星城 x1
-      - 「🇺🇸」葡萄柚 x3
-      - 「🇺🇸」EMO | 寿元果 x1
-      - 「🇺🇸」越蔓橘 x1
-      - 「🇺🇸」EMO | 金灵子 x5
-      - 「🇺🇸」车厘子 x1
-      - 「🇺🇸」菠萝蜜 x3
-      - 「🇺🇸」丰水梨 x1
-      - 「🇺🇸」火龙果 x3
-      - "电报群: https://t.me/emovpn x5"
-      - +Dallas-GTHost 2
-      - 馃嚭馃嚫+缇庡浗+32
-      - 美国_TG@nodesharing_69
-      - _US_美国 2
-      - +Dallas-GTHost
-      - _US_美国 14
+      - 中国_TG@nodesharing_154
+      - 美国_TG@nodesharing_197
+      - _CA_加拿大 13
+      - _CA_加拿大 30
+      - _CA_加拿大 18
+      - youtube:8度科技_加拿大 3
+      - youtube:8度科技_加拿大 13
+      - _CA_加拿大 31
+      - _CA_加拿大 11
+      - _US_美国 21
+      - _GB_英国 5
+      - _GB_英国 2
+      - _GB_英国 3
+      - 英国_TG@nodesharing_145
+      - 【426节点池】US_2284
+      - _CA_加拿大 22
+      - _CA_加拿大 15
+      - _CA_加拿大 23
+      - youtube:8度科技_加拿大 11
+      - _CA_加拿大 29
+      - 美国_TG@nodesharing_177
+      - 美国_TG@nodesharing_97
+      - youtube:8度科技_美国 12
+      - 美国_TG@nodesharing_241
+      - _CA_加拿大 16
+      - _CA_加拿大 19
+      - _US_0125节点_18
+      - youtube:8度科技_加拿大 14
+      - youtube:8度科技_美国 15
+      - _US_美国 17
+      - youtube:8度科技_美国 22
+      - _CA_加拿大 10
+      - 美国_TG@nodesharing_82
+      - youtube:8度科技_美国 10
+      - 美国_TG@nodesharing_90
+      - _CA_加拿大 12
+      - _GB_英国
+      - 馃嚭馃嚫+缇庡浗+8
+      - youtube:8度科技_加拿大 19
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - 馃嚚馃嚘+鍔犳嬁澶�+14
+      - 馃嚚馃嚘+鍔犳嬁澶�+13
+      - _US_美国 13
+      - _CA_加拿大 6
+      - 馃嚚馃嚘+鍔犳嬁澶�+18
+      - _CA_加拿大 14
+      - 馃嚚馃嚘+鍔犳嬁澶�+21
+      - _GB_英国 10
+      - _CA_加拿大+35
+      - _CA_加拿大 7
+      - _CA_加拿大 4
       - 美国_TG@nodesharing_106
+      - 付费推荐:dlj.tf/ssrsub__13
+      - +Dallas-GTHost
       - 美国_TG@nodesharing_57
       - 美国_TG@nodesharing_50
-      - 馃嚭馃嚫+缇庡浗+39
       - _US_美国
-      - 「🇭🇰」灵缈园 x1
-      - _CA_加拿大 14
-      - _CA_加拿大 7
-      - _CA_加拿大 6
-      - _CA_加拿大 4
-      - _CA_加拿大+35
-      - _CA_加拿大 12
-      - 馃嚚馃嚘+鍔犳嬁澶�+18
-      - _GB_英国
-      - _CA_加拿大 10
-      - 馃嚚馃嚘+鍔犳嬁澶�+14
-      - 馃嚚馃嚘+鍔犳嬁澶�+21
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 美国_TG@nodesharing_97
-      - _US_美国 10
-      - 美国_TG@nodesharing_90
-      - 美国_TG@nodesharing_177
-      - youtube:8度科技_加拿大 19
-      - 美国_TG@nodesharing_241
-      - 美国_TG@nodesharing_82
-      - _US_0125节点_18
-      - 馃嚭馃嚫+缇庡浗+8
-      - youtube:8度科技_加拿大 14
-      - youtube:8度科技_美国 22
-      - 馃嚚馃嚘+鍔犳嬁澶�+13
-      - 「🇸🇬」翠冠梨 - 免流 x5
-      - _CA_加拿大 19
-      - _US_美国 21
-      - _GB_英国 10
-      - youtube:8度科技_美国 12
-      - youtube:8度科技_美国 10
-      - _US_美国 13
-      - _US_美国 23
-      - youtube:8度科技_美国 15
-      - _CA_加拿大 15
-      - _CA_加拿大 13
-      - _CA_加拿大 11
-      - _CA_加拿大 29
-      - youtube:8度科技_加拿大 13
-      - youtube:8度科技_加拿大 11
-      - 英国_TG@nodesharing_145
-      - _CA_加拿大 22
-      - _CA_加拿大 18
-      - 「🇺🇸」可可果 - 免流 x1
-      - 「🇺🇸」青脆李 - 免流 x1
-      - _CA_加拿大 23
-      - _CA_加拿大 16
-      - _GB_英国 3
-      - _CA_加拿大 31
-      - 【426节点池】US_2284
-      - _GB_英国 2
-      - youtube:8度科技_加拿大 3
-      - _GB_英国 5
-      - _CA_加拿大 30
-      - youtube:8度科技_加拿大 18
-      - youtube:8度科技_加拿大 9
-      - 美国_TG@nodesharing_197
-      - 「🇰🇷」道一圣地 | 🚶 - 直连 x5
+      - _US_美国 6
+      - _US_美国 14
+      - 馃嚭馃嚫+缇庡浗+39
+      - 馃嚭馃嚫+缇庡浗+32
+      - _US_美国 2
+      - _US_0125节点_44
+      - +Dallas-GTHost 2
       - 中国_TG@nodesharing_37
-      - 中国_TG@nodesharing_154
-      - _US_美国 17
-      - 「🇦🇺」白狐波赞助1 x1
-      - 「🇦🇺」白狐波赞助2 x1
-      - 「🇺🇸」冰糖橙 - 免流 x1
+      - youtube:8度科技_加拿大 9
+      - youtube:8度科技_加拿大 18
+      - 香港_TG@nodesharing_23
+      - 新加坡_TG@nodesharing_231
+      - _US_美国 23
+      - youtube:8度科技_美国 3
+      - _US_美国 10
+      - 美国_TG@nodesharing_194
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 「🇺🇸」无花果 x3
-      - 「🇩🇪」圣女果 - 免流 x1
-      - 新加坡_TG@nodesharing_231
-      - 美国_TG@nodesharing_194
-      - youtube:8度科技_美国 3
-      - _US_美国 6
-      - _US_0125节点_44
-      - 付费推荐:dlj.tf/ssrsub__13
-      - 小库公益订阅
-      - 「🇺🇸」三红柚 x1
-      - 香港_TG@nodesharing_23
-      - "会员群: https://t.me/emovpn_vip"
-      - 「🇸🇬」水晶梨 x3
-      - 「🇸🇬」秋月梨 x3
-      - 「🇸🇬」EMO | 龙鳞果 x5
-      - 「🇸🇬」七星草 x5
-      - 「🇸🇬」翠玉梨 - 免流 x1
-      - 「🇭🇰」天星城 x1
-      - 「🇺🇸」葡萄柚 x3
-      - 「🇺🇸」EMO | 寿元果 x1
-      - 「🇺🇸」越蔓橘 x1
-      - 「🇺🇸」EMO | 金灵子 x5
-      - 「🇺🇸」车厘子 x1
-      - 「🇺🇸」菠萝蜜 x3
-      - 「🇺🇸」丰水梨 x1
-      - 「🇺🇸」火龙果 x3
-      - "电报群: https://t.me/emovpn x5"
-      - +Dallas-GTHost 2
-      - 馃嚭馃嚫+缇庡浗+32
-      - 美国_TG@nodesharing_69
-      - _US_美国 2
-      - +Dallas-GTHost
-      - _US_美国 14
+      - 中国_TG@nodesharing_154
+      - 美国_TG@nodesharing_197
+      - _CA_加拿大 13
+      - _CA_加拿大 30
+      - _CA_加拿大 18
+      - youtube:8度科技_加拿大 3
+      - youtube:8度科技_加拿大 13
+      - _CA_加拿大 31
+      - _CA_加拿大 11
+      - _US_美国 21
+      - _GB_英国 5
+      - _GB_英国 2
+      - _GB_英国 3
+      - 英国_TG@nodesharing_145
+      - 【426节点池】US_2284
+      - _CA_加拿大 22
+      - _CA_加拿大 15
+      - _CA_加拿大 23
+      - youtube:8度科技_加拿大 11
+      - _CA_加拿大 29
+      - 美国_TG@nodesharing_177
+      - 美国_TG@nodesharing_97
+      - youtube:8度科技_美国 12
+      - 美国_TG@nodesharing_241
+      - _CA_加拿大 16
+      - _CA_加拿大 19
+      - _US_0125节点_18
+      - youtube:8度科技_加拿大 14
+      - youtube:8度科技_美国 15
+      - _US_美国 17
+      - youtube:8度科技_美国 22
+      - _CA_加拿大 10
+      - 美国_TG@nodesharing_82
+      - youtube:8度科技_美国 10
+      - 美国_TG@nodesharing_90
+      - _CA_加拿大 12
+      - _GB_英国
+      - 馃嚭馃嚫+缇庡浗+8
+      - youtube:8度科技_加拿大 19
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - 馃嚚馃嚘+鍔犳嬁澶�+14
+      - 馃嚚馃嚘+鍔犳嬁澶�+13
+      - _US_美国 13
+      - _CA_加拿大 6
+      - 馃嚚馃嚘+鍔犳嬁澶�+18
+      - _CA_加拿大 14
+      - 馃嚚馃嚘+鍔犳嬁澶�+21
+      - _GB_英国 10
+      - _CA_加拿大+35
+      - _CA_加拿大 7
+      - _CA_加拿大 4
       - 美国_TG@nodesharing_106
+      - 付费推荐:dlj.tf/ssrsub__13
+      - +Dallas-GTHost
       - 美国_TG@nodesharing_57
       - 美国_TG@nodesharing_50
-      - 馃嚭馃嚫+缇庡浗+39
       - _US_美国
-      - 「🇭🇰」灵缈园 x1
-      - _CA_加拿大 14
-      - _CA_加拿大 7
-      - _CA_加拿大 6
-      - _CA_加拿大 4
-      - _CA_加拿大+35
-      - _CA_加拿大 12
-      - 馃嚚馃嚘+鍔犳嬁澶�+18
-      - _GB_英国
-      - _CA_加拿大 10
-      - 馃嚚馃嚘+鍔犳嬁澶�+14
-      - 馃嚚馃嚘+鍔犳嬁澶�+21
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 美国_TG@nodesharing_97
-      - _US_美国 10
-      - 美国_TG@nodesharing_90
-      - 美国_TG@nodesharing_177
-      - youtube:8度科技_加拿大 19
-      - 美国_TG@nodesharing_241
-      - 美国_TG@nodesharing_82
-      - _US_0125节点_18
-      - 馃嚭馃嚫+缇庡浗+8
-      - youtube:8度科技_加拿大 14
-      - youtube:8度科技_美国 22
-      - 馃嚚馃嚘+鍔犳嬁澶�+13
-      - 「🇸🇬」翠冠梨 - 免流 x5
-      - _CA_加拿大 19
-      - _US_美国 21
-      - _GB_英国 10
-      - youtube:8度科技_美国 12
-      - youtube:8度科技_美国 10
-      - _US_美国 13
-      - _US_美国 23
-      - youtube:8度科技_美国 15
-      - _CA_加拿大 15
-      - _CA_加拿大 13
-      - _CA_加拿大 11
-      - _CA_加拿大 29
-      - youtube:8度科技_加拿大 13
-      - youtube:8度科技_加拿大 11
-      - 英国_TG@nodesharing_145
-      - _CA_加拿大 22
-      - _CA_加拿大 18
-      - 「🇺🇸」可可果 - 免流 x1
-      - 「🇺🇸」青脆李 - 免流 x1
-      - _CA_加拿大 23
-      - _CA_加拿大 16
-      - _GB_英国 3
-      - _CA_加拿大 31
-      - 【426节点池】US_2284
-      - _GB_英国 2
-      - youtube:8度科技_加拿大 3
-      - _GB_英国 5
-      - _CA_加拿大 30
-      - youtube:8度科技_加拿大 18
-      - youtube:8度科技_加拿大 9
-      - 美国_TG@nodesharing_197
-      - 「🇰🇷」道一圣地 | 🚶 - 直连 x5
+      - _US_美国 6
+      - _US_美国 14
+      - 馃嚭馃嚫+缇庡浗+39
+      - 馃嚭馃嚫+缇庡浗+32
+      - _US_美国 2
+      - _US_0125节点_44
+      - +Dallas-GTHost 2
       - 中国_TG@nodesharing_37
-      - 中国_TG@nodesharing_154
-      - _US_美国 17
-      - 「🇦🇺」白狐波赞助1 x1
-      - 「🇦🇺」白狐波赞助2 x1
-      - 「🇺🇸」冰糖橙 - 免流 x1
+      - youtube:8度科技_加拿大 9
+      - youtube:8度科技_加拿大 18
+      - 香港_TG@nodesharing_23
+      - 新加坡_TG@nodesharing_231
+      - _US_美国 23
+      - youtube:8度科技_美国 3
+      - _US_美国 10
+      - 美国_TG@nodesharing_194
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 「🇺🇸」无花果 x3
-      - 「🇩🇪」圣女果 - 免流 x1
-      - 新加坡_TG@nodesharing_231
-      - 美国_TG@nodesharing_194
-      - youtube:8度科技_美国 3
-      - _US_美国 6
-      - _US_0125节点_44
-      - 付费推荐:dlj.tf/ssrsub__13
-      - 小库公益订阅
-      - 「🇺🇸」三红柚 x1
-      - 香港_TG@nodesharing_23
-      - "会员群: https://t.me/emovpn_vip"
-      - 「🇸🇬」水晶梨 x3
-      - 「🇸🇬」秋月梨 x3
-      - 「🇸🇬」EMO | 龙鳞果 x5
-      - 「🇸🇬」七星草 x5
-      - 「🇸🇬」翠玉梨 - 免流 x1
-      - 「🇭🇰」天星城 x1
-      - 「🇺🇸」葡萄柚 x3
-      - 「🇺🇸」EMO | 寿元果 x1
-      - 「🇺🇸」越蔓橘 x1
-      - 「🇺🇸」EMO | 金灵子 x5
-      - 「🇺🇸」车厘子 x1
-      - 「🇺🇸」菠萝蜜 x3
-      - 「🇺🇸」丰水梨 x1
-      - 「🇺🇸」火龙果 x3
-      - "电报群: https://t.me/emovpn x5"
-      - +Dallas-GTHost 2
-      - 馃嚭馃嚫+缇庡浗+32
-      - 美国_TG@nodesharing_69
-      - _US_美国 2
-      - +Dallas-GTHost
-      - _US_美国 14
+      - 中国_TG@nodesharing_154
+      - 美国_TG@nodesharing_197
+      - _CA_加拿大 13
+      - _CA_加拿大 30
+      - _CA_加拿大 18
+      - youtube:8度科技_加拿大 3
+      - youtube:8度科技_加拿大 13
+      - _CA_加拿大 31
+      - _CA_加拿大 11
+      - _US_美国 21
+      - _GB_英国 5
+      - _GB_英国 2
+      - _GB_英国 3
+      - 英国_TG@nodesharing_145
+      - 【426节点池】US_2284
+      - _CA_加拿大 22
+      - _CA_加拿大 15
+      - _CA_加拿大 23
+      - youtube:8度科技_加拿大 11
+      - _CA_加拿大 29
+      - 美国_TG@nodesharing_177
+      - 美国_TG@nodesharing_97
+      - youtube:8度科技_美国 12
+      - 美国_TG@nodesharing_241
+      - _CA_加拿大 16
+      - _CA_加拿大 19
+      - _US_0125节点_18
+      - youtube:8度科技_加拿大 14
+      - youtube:8度科技_美国 15
+      - _US_美国 17
+      - youtube:8度科技_美国 22
+      - _CA_加拿大 10
+      - 美国_TG@nodesharing_82
+      - youtube:8度科技_美国 10
+      - 美国_TG@nodesharing_90
+      - _CA_加拿大 12
+      - _GB_英国
+      - 馃嚭馃嚫+缇庡浗+8
+      - youtube:8度科技_加拿大 19
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - 馃嚚馃嚘+鍔犳嬁澶�+14
+      - 馃嚚馃嚘+鍔犳嬁澶�+13
+      - _US_美国 13
+      - _CA_加拿大 6
+      - 馃嚚馃嚘+鍔犳嬁澶�+18
+      - _CA_加拿大 14
+      - 馃嚚馃嚘+鍔犳嬁澶�+21
+      - _GB_英国 10
+      - _CA_加拿大+35
+      - _CA_加拿大 7
+      - _CA_加拿大 4
       - 美国_TG@nodesharing_106
+      - 付费推荐:dlj.tf/ssrsub__13
+      - +Dallas-GTHost
       - 美国_TG@nodesharing_57
       - 美国_TG@nodesharing_50
-      - 馃嚭馃嚫+缇庡浗+39
       - _US_美国
-      - 「🇭🇰」灵缈园 x1
-      - _CA_加拿大 14
-      - _CA_加拿大 7
-      - _CA_加拿大 6
-      - _CA_加拿大 4
-      - _CA_加拿大+35
-      - _CA_加拿大 12
-      - 馃嚚馃嚘+鍔犳嬁澶�+18
-      - _GB_英国
-      - _CA_加拿大 10
-      - 馃嚚馃嚘+鍔犳嬁澶�+14
-      - 馃嚚馃嚘+鍔犳嬁澶�+21
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 美国_TG@nodesharing_97
-      - _US_美国 10
-      - 美国_TG@nodesharing_90
-      - 美国_TG@nodesharing_177
-      - youtube:8度科技_加拿大 19
-      - 美国_TG@nodesharing_241
-      - 美国_TG@nodesharing_82
-      - _US_0125节点_18
-      - 馃嚭馃嚫+缇庡浗+8
-      - youtube:8度科技_加拿大 14
-      - youtube:8度科技_美国 22
-      - 馃嚚馃嚘+鍔犳嬁澶�+13
-      - 「🇸🇬」翠冠梨 - 免流 x5
-      - _CA_加拿大 19
-      - _US_美国 21
-      - _GB_英国 10
-      - youtube:8度科技_美国 12
-      - youtube:8度科技_美国 10
-      - _US_美国 13
-      - _US_美国 23
-      - youtube:8度科技_美国 15
-      - _CA_加拿大 15
-      - _CA_加拿大 13
-      - _CA_加拿大 11
-      - _CA_加拿大 29
-      - youtube:8度科技_加拿大 13
-      - youtube:8度科技_加拿大 11
-      - 英国_TG@nodesharing_145
-      - _CA_加拿大 22
-      - _CA_加拿大 18
-      - 「🇺🇸」可可果 - 免流 x1
-      - 「🇺🇸」青脆李 - 免流 x1
-      - _CA_加拿大 23
-      - _CA_加拿大 16
-      - _GB_英国 3
-      - _CA_加拿大 31
-      - 【426节点池】US_2284
-      - _GB_英国 2
-      - youtube:8度科技_加拿大 3
-      - _GB_英国 5
-      - _CA_加拿大 30
-      - youtube:8度科技_加拿大 18
-      - youtube:8度科技_加拿大 9
-      - 美国_TG@nodesharing_197
-      - 「🇰🇷」道一圣地 | 🚶 - 直连 x5
+      - _US_美国 6
+      - _US_美国 14
+      - 馃嚭馃嚫+缇庡浗+39
+      - 馃嚭馃嚫+缇庡浗+32
+      - _US_美国 2
+      - _US_0125节点_44
+      - +Dallas-GTHost 2
       - 中国_TG@nodesharing_37
-      - 中国_TG@nodesharing_154
-      - _US_美国 17
-      - 「🇦🇺」白狐波赞助1 x1
-      - 「🇦🇺」白狐波赞助2 x1
-      - 「🇺🇸」冰糖橙 - 免流 x1
+      - youtube:8度科技_加拿大 9
+      - youtube:8度科技_加拿大 18
+      - 香港_TG@nodesharing_23
+      - 新加坡_TG@nodesharing_231
+      - _US_美国 23
+      - youtube:8度科技_美国 3
+      - _US_美国 10
+      - 美国_TG@nodesharing_194
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -893,108 +661,79 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 「🇺🇸」无花果 x3
-      - 「🇩🇪」圣女果 - 免流 x1
-      - 新加坡_TG@nodesharing_231
-      - 美国_TG@nodesharing_194
-      - youtube:8度科技_美国 3
-      - _US_美国 6
-      - _US_0125节点_44
-      - 付费推荐:dlj.tf/ssrsub__13
-      - 小库公益订阅
-      - 「🇺🇸」三红柚 x1
-      - 香港_TG@nodesharing_23
-      - "会员群: https://t.me/emovpn_vip"
-      - 「🇸🇬」水晶梨 x3
-      - 「🇸🇬」秋月梨 x3
-      - 「🇸🇬」EMO | 龙鳞果 x5
-      - 「🇸🇬」七星草 x5
-      - 「🇸🇬」翠玉梨 - 免流 x1
-      - 「🇭🇰」天星城 x1
-      - 「🇺🇸」葡萄柚 x3
-      - 「🇺🇸」EMO | 寿元果 x1
-      - 「🇺🇸」越蔓橘 x1
-      - 「🇺🇸」EMO | 金灵子 x5
-      - 「🇺🇸」车厘子 x1
-      - 「🇺🇸」菠萝蜜 x3
-      - 「🇺🇸」丰水梨 x1
-      - 「🇺🇸」火龙果 x3
-      - "电报群: https://t.me/emovpn x5"
-      - +Dallas-GTHost 2
-      - 馃嚭馃嚫+缇庡浗+32
-      - 美国_TG@nodesharing_69
-      - _US_美国 2
-      - +Dallas-GTHost
-      - _US_美国 14
+      - 中国_TG@nodesharing_154
+      - 美国_TG@nodesharing_197
+      - _CA_加拿大 13
+      - _CA_加拿大 30
+      - _CA_加拿大 18
+      - youtube:8度科技_加拿大 3
+      - youtube:8度科技_加拿大 13
+      - _CA_加拿大 31
+      - _CA_加拿大 11
+      - _US_美国 21
+      - _GB_英国 5
+      - _GB_英国 2
+      - _GB_英国 3
+      - 英国_TG@nodesharing_145
+      - 【426节点池】US_2284
+      - _CA_加拿大 22
+      - _CA_加拿大 15
+      - _CA_加拿大 23
+      - youtube:8度科技_加拿大 11
+      - _CA_加拿大 29
+      - 美国_TG@nodesharing_177
+      - 美国_TG@nodesharing_97
+      - youtube:8度科技_美国 12
+      - 美国_TG@nodesharing_241
+      - _CA_加拿大 16
+      - _CA_加拿大 19
+      - _US_0125节点_18
+      - youtube:8度科技_加拿大 14
+      - youtube:8度科技_美国 15
+      - _US_美国 17
+      - youtube:8度科技_美国 22
+      - _CA_加拿大 10
+      - 美国_TG@nodesharing_82
+      - youtube:8度科技_美国 10
+      - 美国_TG@nodesharing_90
+      - _CA_加拿大 12
+      - _GB_英国
+      - 馃嚭馃嚫+缇庡浗+8
+      - youtube:8度科技_加拿大 19
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - 馃嚚馃嚘+鍔犳嬁澶�+14
+      - 馃嚚馃嚘+鍔犳嬁澶�+13
+      - _US_美国 13
+      - _CA_加拿大 6
+      - 馃嚚馃嚘+鍔犳嬁澶�+18
+      - _CA_加拿大 14
+      - 馃嚚馃嚘+鍔犳嬁澶�+21
+      - _GB_英国 10
+      - _CA_加拿大+35
+      - _CA_加拿大 7
+      - _CA_加拿大 4
       - 美国_TG@nodesharing_106
+      - 付费推荐:dlj.tf/ssrsub__13
+      - +Dallas-GTHost
       - 美国_TG@nodesharing_57
       - 美国_TG@nodesharing_50
-      - 馃嚭馃嚫+缇庡浗+39
       - _US_美国
-      - 「🇭🇰」灵缈园 x1
-      - _CA_加拿大 14
-      - _CA_加拿大 7
-      - _CA_加拿大 6
-      - _CA_加拿大 4
-      - _CA_加拿大+35
-      - _CA_加拿大 12
-      - 馃嚚馃嚘+鍔犳嬁澶�+18
-      - _GB_英国
-      - _CA_加拿大 10
-      - 馃嚚馃嚘+鍔犳嬁澶�+14
-      - 馃嚚馃嚘+鍔犳嬁澶�+21
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 美国_TG@nodesharing_97
-      - _US_美国 10
-      - 美国_TG@nodesharing_90
-      - 美国_TG@nodesharing_177
-      - youtube:8度科技_加拿大 19
-      - 美国_TG@nodesharing_241
-      - 美国_TG@nodesharing_82
-      - _US_0125节点_18
-      - 馃嚭馃嚫+缇庡浗+8
-      - youtube:8度科技_加拿大 14
-      - youtube:8度科技_美国 22
-      - 馃嚚馃嚘+鍔犳嬁澶�+13
-      - 「🇸🇬」翠冠梨 - 免流 x5
-      - _CA_加拿大 19
-      - _US_美国 21
-      - _GB_英国 10
-      - youtube:8度科技_美国 12
-      - youtube:8度科技_美国 10
-      - _US_美国 13
-      - _US_美国 23
-      - youtube:8度科技_美国 15
-      - _CA_加拿大 15
-      - _CA_加拿大 13
-      - _CA_加拿大 11
-      - _CA_加拿大 29
-      - youtube:8度科技_加拿大 13
-      - youtube:8度科技_加拿大 11
-      - 英国_TG@nodesharing_145
-      - _CA_加拿大 22
-      - _CA_加拿大 18
-      - 「🇺🇸」可可果 - 免流 x1
-      - 「🇺🇸」青脆李 - 免流 x1
-      - _CA_加拿大 23
-      - _CA_加拿大 16
-      - _GB_英国 3
-      - _CA_加拿大 31
-      - 【426节点池】US_2284
-      - _GB_英国 2
-      - youtube:8度科技_加拿大 3
-      - _GB_英国 5
-      - _CA_加拿大 30
-      - youtube:8度科技_加拿大 18
-      - youtube:8度科技_加拿大 9
-      - 美国_TG@nodesharing_197
-      - 「🇰🇷」道一圣地 | 🚶 - 直连 x5
+      - _US_美国 6
+      - _US_美国 14
+      - 馃嚭馃嚫+缇庡浗+39
+      - 馃嚭馃嚫+缇庡浗+32
+      - _US_美国 2
+      - _US_0125节点_44
+      - +Dallas-GTHost 2
       - 中国_TG@nodesharing_37
-      - 中国_TG@nodesharing_154
-      - _US_美国 17
-      - 「🇦🇺」白狐波赞助1 x1
-      - 「🇦🇺」白狐波赞助2 x1
-      - 「🇺🇸」冰糖橙 - 免流 x1
+      - youtube:8度科技_加拿大 9
+      - youtube:8度科技_加拿大 18
+      - 香港_TG@nodesharing_23
+      - 新加坡_TG@nodesharing_231
+      - _US_美国 23
+      - youtube:8度科技_美国 3
+      - _US_美国 10
+      - 美国_TG@nodesharing_194
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
