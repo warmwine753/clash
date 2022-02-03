@@ -6,7 +6,6 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 中国_TG@nodesharing_154, server: one.hmbiplc.com, port: 53894, type: vmess, uuid: 07d676a1-903d-4606-93bd-e3522089f951, alterId: 4, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国_TG@nodesharing_197, server: nmsl.ezydfdd.com, port: 443, type: trojan, password: gbflFU2N0S4IkM8c, sni: nmsl.ezydfdd.com, skip-cert-verify: true, udp: true}
   - {name: _CA_加拿大 13, server: 198.57.27.184, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: _CA_加拿大 30, server: 198.57.27.184, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _CA_加拿大 18, server: 198.57.27.184, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
@@ -85,7 +84,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 中国_TG@nodesharing_154
-      - 美国_TG@nodesharing_197
       - _CA_加拿大 13
       - _CA_加拿大 30
       - _CA_加拿大 18
@@ -163,7 +161,6 @@ proxy-groups:
     interval: 300
     proxies:
       - 中国_TG@nodesharing_154
-      - 美国_TG@nodesharing_197
       - _CA_加拿大 13
       - _CA_加拿大 30
       - _CA_加拿大 18
@@ -242,7 +239,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 中国_TG@nodesharing_154
-      - 美国_TG@nodesharing_197
       - _CA_加拿大 13
       - _CA_加拿大 30
       - _CA_加拿大 18
@@ -333,7 +329,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 中国_TG@nodesharing_154
-      - 美国_TG@nodesharing_197
       - _CA_加拿大 13
       - _CA_加拿大 30
       - _CA_加拿大 18
@@ -417,7 +412,6 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 中国_TG@nodesharing_154
-      - 美国_TG@nodesharing_197
       - _CA_加拿大 13
       - _CA_加拿大 30
       - _CA_加拿大 18
@@ -495,7 +489,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - 中国_TG@nodesharing_154
-      - 美国_TG@nodesharing_197
       - _CA_加拿大 13
       - _CA_加拿大 30
       - _CA_加拿大 18
@@ -574,7 +567,6 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 中国_TG@nodesharing_154
-      - 美国_TG@nodesharing_197
       - _CA_加拿大 13
       - _CA_加拿大 30
       - _CA_加拿大 18
@@ -662,7 +654,6 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 中国_TG@nodesharing_154
-      - 美国_TG@nodesharing_197
       - _CA_加拿大 13
       - _CA_加拿大 30
       - _CA_加拿大 18
