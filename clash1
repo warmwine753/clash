@@ -5,13 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_🇨🇳CN-🇰🇷KR_300, server: 183.232.56.161, port: 1601, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_296, server: 183.232.56.161, port: 1203, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_310, server: 183.232.56.161, port: 1602, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
-  - {name: 香港_TG@nodesharing_23, server: 130.wgong.xyz, port: 52330, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_277, server: 183.232.56.161, port: 1611, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
-  - {name: Relay_🇨🇳CN-🇮🇳IN_281, server: 183.232.56.161, port: 8001, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_282, server: 183.232.56.161, port: 8002, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
   - {name: _CA_加拿大 30, server: 198.57.27.184, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: US_1419, server: 38.75.136.45, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: Relay_🇨🇳CN-🇺🇸US_304, server: 183.232.56.161, port: 1704, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
@@ -75,7 +68,6 @@ proxies:
   - {name: US_1538, server: 172.99.190.84, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: _GB_英国 5, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: US_940, server: 38.121.43.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ZZ_1995, server: 134.195.196.51, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: CA_128, server: 198.57.27.172, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: youtube:8度科技_加拿大 13, server: 198.57.27.184, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _CA_加拿大 11, server: 198.57.27.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
@@ -144,7 +136,6 @@ proxies:
   - {name: US_910, server: 172.99.190.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: _US_美国 21, server: 167.88.63.74, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: US_956, server: 38.68.134.23, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1185, server: 167.88.63.74, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: US_1567, server: 38.68.134.23, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _US_美国 6, server: 167.88.62.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: CA_196, server: 198.57.27.172, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
@@ -153,7 +144,6 @@ proxies:
   - {name: US_1359, server: 167.88.63.61, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _CA_加拿大 15, server: 198.57.27.184, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: US_1546, server: 38.68.134.23, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_1800, server: 66.55.92.101, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW, udp: true}
   - {name: US_1479, server: 38.68.134.23, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: US_1719, server: 38.68.134.23, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: _US_美国 23, server: 38.107.226.48, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
@@ -166,13 +156,6 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇰🇷KR_300
-      - Relay_🇨🇳CN-🇯🇵JP_296
-      - Relay_🇨🇳CN-🇺🇸US_310
-      - 香港_TG@nodesharing_23
-      - Relay_🇨🇳CN-🇭🇰HK_277
-      - Relay_🇨🇳CN-🇮🇳IN_281
-      - Relay_🇨🇳CN-🇺🇸US_282
       - _CA_加拿大 30
       - US_1419
       - Relay_🇨🇳CN-🇺🇸US_304
@@ -236,7 +219,6 @@ proxy-groups:
       - US_1538
       - _GB_英国 5
       - US_940
-      - ZZ_1995
       - CA_128
       - youtube:8度科技_加拿大 13
       - _CA_加拿大 11
@@ -305,7 +287,6 @@ proxy-groups:
       - US_910
       - _US_美国 21
       - US_956
-      - US_1185
       - US_1567
       - _US_美国 6
       - CA_196
@@ -314,7 +295,6 @@ proxy-groups:
       - US_1359
       - _CA_加拿大 15
       - US_1546
-      - Relay_🇺🇸US-🇺🇸US_1800
       - US_1479
       - US_1719
       - _US_美国 23
@@ -326,13 +306,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_🇨🇳CN-🇰🇷KR_300
-      - Relay_🇨🇳CN-🇯🇵JP_296
-      - Relay_🇨🇳CN-🇺🇸US_310
-      - 香港_TG@nodesharing_23
-      - Relay_🇨🇳CN-🇭🇰HK_277
-      - Relay_🇨🇳CN-🇮🇳IN_281
-      - Relay_🇨🇳CN-🇺🇸US_282
       - _CA_加拿大 30
       - US_1419
       - Relay_🇨🇳CN-🇺🇸US_304
@@ -396,7 +369,6 @@ proxy-groups:
       - US_1538
       - _GB_英国 5
       - US_940
-      - ZZ_1995
       - CA_128
       - youtube:8度科技_加拿大 13
       - _CA_加拿大 11
@@ -465,7 +437,6 @@ proxy-groups:
       - US_910
       - _US_美国 21
       - US_956
-      - US_1185
       - US_1567
       - _US_美国 6
       - CA_196
@@ -474,7 +445,6 @@ proxy-groups:
       - US_1359
       - _CA_加拿大 15
       - US_1546
-      - Relay_🇺🇸US-🇺🇸US_1800
       - US_1479
       - US_1719
       - _US_美国 23
@@ -487,13 +457,6 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇰🇷KR_300
-      - Relay_🇨🇳CN-🇯🇵JP_296
-      - Relay_🇨🇳CN-🇺🇸US_310
-      - 香港_TG@nodesharing_23
-      - Relay_🇨🇳CN-🇭🇰HK_277
-      - Relay_🇨🇳CN-🇮🇳IN_281
-      - Relay_🇨🇳CN-🇺🇸US_282
       - _CA_加拿大 30
       - US_1419
       - Relay_🇨🇳CN-🇺🇸US_304
@@ -557,7 +520,6 @@ proxy-groups:
       - US_1538
       - _GB_英国 5
       - US_940
-      - ZZ_1995
       - CA_128
       - youtube:8度科技_加拿大 13
       - _CA_加拿大 11
@@ -626,7 +588,6 @@ proxy-groups:
       - US_910
       - _US_美国 21
       - US_956
-      - US_1185
       - US_1567
       - _US_美国 6
       - CA_196
@@ -635,7 +596,6 @@ proxy-groups:
       - US_1359
       - _CA_加拿大 15
       - US_1546
-      - Relay_🇺🇸US-🇺🇸US_1800
       - US_1479
       - US_1719
       - _US_美国 23
@@ -660,13 +620,6 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇰🇷KR_300
-      - Relay_🇨🇳CN-🇯🇵JP_296
-      - Relay_🇨🇳CN-🇺🇸US_310
-      - 香港_TG@nodesharing_23
-      - Relay_🇨🇳CN-🇭🇰HK_277
-      - Relay_🇨🇳CN-🇮🇳IN_281
-      - Relay_🇨🇳CN-🇺🇸US_282
       - _CA_加拿大 30
       - US_1419
       - Relay_🇨🇳CN-🇺🇸US_304
@@ -730,7 +683,6 @@ proxy-groups:
       - US_1538
       - _GB_英国 5
       - US_940
-      - ZZ_1995
       - CA_128
       - youtube:8度科技_加拿大 13
       - _CA_加拿大 11
@@ -799,7 +751,6 @@ proxy-groups:
       - US_910
       - _US_美国 21
       - US_956
-      - US_1185
       - US_1567
       - _US_美国 6
       - CA_196
@@ -808,7 +759,6 @@ proxy-groups:
       - US_1359
       - _CA_加拿大 15
       - US_1546
-      - Relay_🇺🇸US-🇺🇸US_1800
       - US_1479
       - US_1719
       - _US_美国 23
@@ -819,20 +769,12 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港_TG@nodesharing_23
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇨🇳CN-🇰🇷KR_300
-      - Relay_🇨🇳CN-🇯🇵JP_296
-      - Relay_🇨🇳CN-🇺🇸US_310
-      - 香港_TG@nodesharing_23
-      - Relay_🇨🇳CN-🇭🇰HK_277
-      - Relay_🇨🇳CN-🇮🇳IN_281
-      - Relay_🇨🇳CN-🇺🇸US_282
       - _CA_加拿大 30
       - US_1419
       - Relay_🇨🇳CN-🇺🇸US_304
@@ -896,7 +838,6 @@ proxy-groups:
       - US_1538
       - _GB_英国 5
       - US_940
-      - ZZ_1995
       - CA_128
       - youtube:8度科技_加拿大 13
       - _CA_加拿大 11
@@ -965,7 +906,6 @@ proxy-groups:
       - US_910
       - _US_美国 21
       - US_956
-      - US_1185
       - US_1567
       - _US_美国 6
       - CA_196
@@ -974,7 +914,6 @@ proxy-groups:
       - US_1359
       - _CA_加拿大 15
       - US_1546
-      - Relay_🇺🇸US-🇺🇸US_1800
       - US_1479
       - US_1719
       - _US_美国 23
@@ -986,13 +925,6 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇰🇷KR_300
-      - Relay_🇨🇳CN-🇯🇵JP_296
-      - Relay_🇨🇳CN-🇺🇸US_310
-      - 香港_TG@nodesharing_23
-      - Relay_🇨🇳CN-🇭🇰HK_277
-      - Relay_🇨🇳CN-🇮🇳IN_281
-      - Relay_🇨🇳CN-🇺🇸US_282
       - _CA_加拿大 30
       - US_1419
       - Relay_🇨🇳CN-🇺🇸US_304
@@ -1056,7 +988,6 @@ proxy-groups:
       - US_1538
       - _GB_英国 5
       - US_940
-      - ZZ_1995
       - CA_128
       - youtube:8度科技_加拿大 13
       - _CA_加拿大 11
@@ -1125,7 +1056,6 @@ proxy-groups:
       - US_910
       - _US_美国 21
       - US_956
-      - US_1185
       - US_1567
       - _US_美国 6
       - CA_196
@@ -1134,7 +1064,6 @@ proxy-groups:
       - US_1359
       - _CA_加拿大 15
       - US_1546
-      - Relay_🇺🇸US-🇺🇸US_1800
       - US_1479
       - US_1719
       - _US_美国 23
@@ -1147,13 +1076,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇰🇷KR_300
-      - Relay_🇨🇳CN-🇯🇵JP_296
-      - Relay_🇨🇳CN-🇺🇸US_310
-      - 香港_TG@nodesharing_23
-      - Relay_🇨🇳CN-🇭🇰HK_277
-      - Relay_🇨🇳CN-🇮🇳IN_281
-      - Relay_🇨🇳CN-🇺🇸US_282
       - _CA_加拿大 30
       - US_1419
       - Relay_🇨🇳CN-🇺🇸US_304
@@ -1217,7 +1139,6 @@ proxy-groups:
       - US_1538
       - _GB_英国 5
       - US_940
-      - ZZ_1995
       - CA_128
       - youtube:8度科技_加拿大 13
       - _CA_加拿大 11
@@ -1286,7 +1207,6 @@ proxy-groups:
       - US_910
       - _US_美国 21
       - US_956
-      - US_1185
       - US_1567
       - _US_美国 6
       - CA_196
@@ -1295,7 +1215,6 @@ proxy-groups:
       - US_1359
       - _CA_加拿大 15
       - US_1546
-      - Relay_🇺🇸US-🇺🇸US_1800
       - US_1479
       - US_1719
       - _US_美国 23
@@ -1317,13 +1236,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇰🇷KR_300
-      - Relay_🇨🇳CN-🇯🇵JP_296
-      - Relay_🇨🇳CN-🇺🇸US_310
-      - 香港_TG@nodesharing_23
-      - Relay_🇨🇳CN-🇭🇰HK_277
-      - Relay_🇨🇳CN-🇮🇳IN_281
-      - Relay_🇨🇳CN-🇺🇸US_282
       - _CA_加拿大 30
       - US_1419
       - Relay_🇨🇳CN-🇺🇸US_304
@@ -1387,7 +1299,6 @@ proxy-groups:
       - US_1538
       - _GB_英国 5
       - US_940
-      - ZZ_1995
       - CA_128
       - youtube:8度科技_加拿大 13
       - _CA_加拿大 11
@@ -1456,7 +1367,6 @@ proxy-groups:
       - US_910
       - _US_美国 21
       - US_956
-      - US_1185
       - US_1567
       - _US_美国 6
       - CA_196
@@ -1465,7 +1375,6 @@ proxy-groups:
       - US_1359
       - _CA_加拿大 15
       - US_1546
-      - Relay_🇺🇸US-🇺🇸US_1800
       - US_1479
       - US_1719
       - _US_美国 23
