@@ -114,6 +114,7 @@ proxies:
   - {name: US_1003, server: 38.121.43.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: CA_163, server: 198.57.27.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: youtube:8度科技_美国 22, server: 38.68.134.23, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 3元一月200g流量 TG：@V2rayH 秒开8K, server: v2hk10.441155.xyz, port: 41705, type: vmess, uuid: 2b7f8baf-b2e5-3dc6-95b8-bf8fc02a6878, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /tu, ws-headers: {Host: hkhgc1.ddnsfree.com}, udp: true}
   - {name: _US_0125节点_18, server: 167.88.63.28, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: CA_128, server: 198.57.27.172, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: US_1852, server: 172.99.190.149, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
@@ -258,6 +259,7 @@ proxy-groups:
       - US_1003
       - CA_163
       - youtube:8度科技_美国 22
+      - 3元一月200g流量 TG：@V2rayH 秒开8K
       - _US_0125节点_18
       - CA_128
       - US_1852
@@ -401,6 +403,7 @@ proxy-groups:
       - US_1003
       - CA_163
       - youtube:8度科技_美国 22
+      - 3元一月200g流量 TG：@V2rayH 秒开8K
       - _US_0125节点_18
       - CA_128
       - US_1852
@@ -545,6 +548,7 @@ proxy-groups:
       - US_1003
       - CA_163
       - youtube:8度科技_美国 22
+      - 3元一月200g流量 TG：@V2rayH 秒开8K
       - _US_0125节点_18
       - CA_128
       - US_1852
@@ -701,6 +705,7 @@ proxy-groups:
       - US_1003
       - CA_163
       - youtube:8度科技_美国 22
+      - 3元一月200g流量 TG：@V2rayH 秒开8K
       - _US_0125节点_18
       - CA_128
       - US_1852
@@ -851,6 +856,7 @@ proxy-groups:
       - US_1003
       - CA_163
       - youtube:8度科技_美国 22
+      - 3元一月200g流量 TG：@V2rayH 秒开8K
       - _US_0125节点_18
       - CA_128
       - US_1852
@@ -994,6 +1000,7 @@ proxy-groups:
       - US_1003
       - CA_163
       - youtube:8度科技_美国 22
+      - 3元一月200g流量 TG：@V2rayH 秒开8K
       - _US_0125节点_18
       - CA_128
       - US_1852
@@ -1138,6 +1145,7 @@ proxy-groups:
       - US_1003
       - CA_163
       - youtube:8度科技_美国 22
+      - 3元一月200g流量 TG：@V2rayH 秒开8K
       - _US_0125节点_18
       - CA_128
       - US_1852
@@ -1291,6 +1299,7 @@ proxy-groups:
       - US_1003
       - CA_163
       - youtube:8度科技_美国 22
+      - 3元一月200g流量 TG：@V2rayH 秒开8K
       - _US_0125节点_18
       - CA_128
       - US_1852
