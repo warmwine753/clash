@@ -5,579 +5,643 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 【1x】广州-"香港家宽"(台区流媒体), server: 120.232.192.211, port: 9584, type: ss, cipher: aes-256-gcm, password: 2394c2ac-9d58-4822-b764-d9ce3e3c44c5, udp: true}
-  - {name: 【1x】9929-日本, server: 9929.salmon-tech.com, port: 23468, type: ss, cipher: aes-256-gcm, password: 2394c2ac-9d58-4822-b764-d9ce3e3c44c5, udp: true}
-  - {name: 【1x】CN2-美国, server: jx.cn2.salmon-tech.com, port: 15671, type: ss, cipher: aes-256-gcm, password: 2394c2ac-9d58-4822-b764-d9ce3e3c44c5, udp: true}
   - {name: US_1480, server: 38.75.136.45, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 美国_TG@nodesharing_106, server: 38.75.136.45, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1419, server: 38.75.136.45, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_1388, server: 167.88.63.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1318, server: 38.75.136.45, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国_TG@nodesharing_97, server: 167.88.63.74, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_977, server: 167.88.63.74, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国_TG@nodesharing_177, server: 167.88.63.61, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _US_美国 10, server: 167.88.63.74, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_1838, server: 167.88.63.74, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 馃嚚馃嚘+鍔犳嬁澶�+2, server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1471, server: 38.75.136.45, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1292, server: 167.88.63.74, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1837, server: 167.88.63.74, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国_TG@nodesharing_90, server: 167.88.63.61, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CA_221, server: 198.57.27.152, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国_TG@nodesharing_241, server: 167.88.63.61, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美国_TG@nodesharing_82, server: 167.88.63.61, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ZZ_2226, server: 134.195.196.193, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1016, server: 167.88.63.74, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 29, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_919, server: 167.88.63.61, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US_1604, server: 167.88.63.61, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 【426节点池】US_2284, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: CA_220, server: 198.57.27.152, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: youtube:8度科技_加拿大 11, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1129, server: 167.88.63.61, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _CA_加拿大 13, server: 198.57.27.184, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: CA_222, server: 198.57.27.152, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 14, server: 167.88.62.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ZZ_2100, server: 134.195.196.193, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CA_176, server: 198.57.27.152, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: youtube:8度科技_加拿大 3, server: 198.57.27.184, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 18, server: 198.57.27.184, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 馃嚚馃嚘+鍔犳嬁澶�+21, server: 134.195.196.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _CA_加拿大 10, server: 198.57.27.152, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 23, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _CA_加拿大 11, server: 198.57.27.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 英国_TG@nodesharing_145, server: 172.99.190.188, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 22, server: 198.57.27.184, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _CA_加拿大 31, server: 198.57.27.184, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ZZ_2069, server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1451, server: 38.68.134.191, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: youtube:8度科技_加拿大 13, server: 198.57.27.184, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ZZ_1992, server: 134.195.196.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1561, server: 172.99.190.149, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国_TG@nodesharing_50, server: 38.68.134.191, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ZZ_2204, server: 134.195.196.193, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _GB_英国 2, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _CA_加拿大+35, server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_940, server: 38.121.43.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1611, server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_949, server: 38.121.43.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _GB_英国 3, server: 172.99.190.188, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 美国_TG@nodesharing_57, server: 167.88.62.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国 6, server: 167.88.62.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: youtube:8度科技_美国 10, server: 167.88.63.28, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: CA-134.195.196.81-036, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: US_966, server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_898, server: 167.88.63.28, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 馃嚭馃嚫+缇庡浗+39, server: 167.88.62.34, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1839, server: 167.88.63.74, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1387, server: 172.99.190.149, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 付费推荐:dlj.tf/ssrsub__13, server: 38.75.136.45, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 馃嚭馃嚫+缇庡浗+8, server: 38.121.43.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1847, server: 172.99.190.109, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1625, server: 172.99.190.149, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_910, server: 172.99.190.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ZZ_2065, server: 134.195.196.193, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _CA_加拿大 19, server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1641, server: 172.99.190.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: youtube:8度科技_加拿大 18, server: 198.57.27.172, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: CA_190, server: 198.57.27.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _CA_加拿大 16, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_987, server: 38.107.226.48, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_美国 17, server: 38.107.226.48, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国 13, server: 38.107.226.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1850, server: 172.99.190.149, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1573, server: 38.107.226.48, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_896, server: 172.99.190.109, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_977, server: 167.88.63.74, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 38, server: us1nhg-node.aiqiche123.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: ray, ws-headers: {Host: us1nhg-node.aiqiche123.com}, udp: true}
+  - {name: _US_美国, server: us3.nodrop.bike, port: 47891, type: vmess, uuid: 70eda8a0-723e-4d7f-82ae-b1621ae8abe3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall, ws-headers: {Host: us3.nodrop.bike}, udp: true}
   - {name: 馃嚚馃嚘+鍔犳嬁澶�+13, server: 198.57.27.241, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _GB_英国, server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1845, server: 172.99.190.109, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大 15, server: 198.57.27.184, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1058, server: 38.107.226.48, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 馃嚚馃嚘+鍔犳嬁澶�+14, server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: CA_116, server: 198.57.27.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1475, server: 38.68.134.191, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1842, server: 172.99.190.109, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1124, server: 172.99.190.109, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1181, server: 38.107.226.48, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1538, server: 172.99.190.84, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1213, server: 167.88.63.74, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 30, server: 198.57.27.184, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CA_194, server: 198.57.27.172, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: youtube:8度科技_美国 3, server: 167.88.62.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: youtube:8度科技_美国 12, server: 167.88.63.28, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: youtube:8度科技_加拿大 9, server: 198.57.27.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1727, server: 167.88.62.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 12, server: 198.57.27.152, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: CA_217, server: 198.57.27.241, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 馃嚚馃嚘+鍔犳嬁澶�+18, server: 134.195.196.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 馃嚭馃嚫+缇庡浗+32, server: 38.68.134.191, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _GB_英国 5, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1003, server: 38.121.43.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: CA_163, server: 198.57.27.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: youtube:8度科技_美国 22, server: 38.68.134.23, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 3元一月200g流量 TG：@V2rayH 秒开8K, server: v2hk10.441155.xyz, port: 41705, type: vmess, uuid: 2b7f8baf-b2e5-3dc6-95b8-bf8fc02a6878, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /tu, ws-headers: {Host: hkhgc1.ddnsfree.com}, udp: true}
-  - {name: _US_0125节点_18, server: 167.88.63.28, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: CA_128, server: 198.57.27.172, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1852, server: 172.99.190.149, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国, server: 38.68.134.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_1194, server: 172.99.190.149, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: youtube:8度科技_美国 15, server: 167.88.63.28, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国 21, server: 167.88.63.74, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: youtube:8度科技_加拿大 19, server: 198.57.27.152, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: +Dallas-GTHost 2, server: 38.68.134.191, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1546, server: 38.68.134.23, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _US_0125节点_44, server: 167.88.62.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1479, server: 38.68.134.23, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1346, server: 172.99.190.149, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ZZ_1986, server: 134.195.196.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: youtube:8度科技_加拿大 14, server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1359, server: 167.88.63.61, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1719, server: 38.68.134.23, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _GB_英国 10, server: 172.99.190.39, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1492, server: 38.68.134.191, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国 23, server: 38.107.226.48, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 2, server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: +Dallas-GTHost, server: 38.68.134.191, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: ZZ_2130, server: 134.195.196.193, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 6, server: 134.195.196.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CA_196, server: 198.57.27.172, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 【1x】CN2-"香港家宽"(台区流媒体), server: jx.cn2.salmon-tech.com, port: 12576, type: ss, cipher: aes-256-gcm, password: 2394c2ac-9d58-4822-b764-d9ce3e3c44c5, udp: true}
+  - {name: _US_美国 2, server: 38.68.134.23, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 3, server: 38.68.134.23, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: US_1567, server: 38.68.134.23, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_956, server: 38.68.134.23, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: github.com/freefq - 印度  32, server: india.tgsc.xyz, port: 443, type: vmess, uuid: 1355574d-dac9-4006-8420-95a156fa5f32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /V81DFD0H, ws-headers: {Host: india.tgsc.xyz}, udp: true}
+  - {name: 46.29.218.146:7307, server: 46.29.218.146, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: BV-46.29.219.246-308, server: 46.29.219.246, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CA_190, server: 198.57.27.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: github.com/freefq - 北美地区  17, server: 198.57.27.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: CA_217, server: 198.57.27.241, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 馃嚚馃嚘+鍔犳嬁澶�+14, server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US-89.208.252.110-499, server: 89.208.252.110, port: 19698, type: trojan, password: 1w5vcK1KiD, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大 18, server: 198.57.27.184, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CA_163, server: 198.57.27.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_1181, server: 38.107.226.48, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_1847, server: 172.99.190.109, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: GB-185.212.62.19-450, server: 185.212.62.19, port: 443, type: trojan, password: sxkKUbBydK, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 6, server: 167.88.62.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_1058, server: 38.107.226.48, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_1124, server: 172.99.190.109, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _GB_英国, server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_1538, server: 172.99.190.84, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_1641, server: 172.99.190.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 19, server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: CA_176, server: 198.57.27.152, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CA_116, server: 198.57.27.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CA-134.195.196.200-003, server: 134.195.196.200, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 13, server: 38.107.226.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 馃嚚馃嚘+鍔犳嬁澶�+2, server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 12, server: 198.57.27.152, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: youtube:8度科技_加拿大 18, server: 198.57.27.172, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: youtube:8度科技_加拿大 9, server: 198.57.27.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_940, server: 38.121.43.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_1845, server: 172.99.190.109, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 11, server: 198.57.27.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: CA-198.57.27.172-469, server: 198.57.27.172, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: CA_194, server: 198.57.27.172, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US-38.107.226.158-532, server: 38.107.226.158, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_896, server: 172.99.190.109, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CA_220, server: 198.57.27.152, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 17, server: 38.107.226.48, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_1573, server: 38.107.226.48, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1727, server: 167.88.62.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_987, server: 38.107.226.48, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_1475, server: 38.68.134.191, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_1471, server: 38.75.136.45, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国_TG@nodesharing_57, server: 167.88.62.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_1842, server: 172.99.190.109, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 14, server: 167.88.62.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ZZ_2065, server: 134.195.196.193, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CA_222, server: 198.57.27.152, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 13, server: 198.57.27.184, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大, server: 134.195.196.227, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _GB_英国 2, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: ZZ_2226, server: 134.195.196.193, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大 2, server: 134.195.196.71, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: ZZ_2069, server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 4, server: 38.68.134.23, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: youtube:8度科技_美国 12, server: 167.88.63.28, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1318, server: 38.75.136.45, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ZZ_1986, server: 134.195.196.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: youtube:8度科技_加拿大 11, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 3, server: 134.195.196.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: +Dallas-GTHost, server: 38.68.134.191, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: youtube:8度科技_加拿大 13, server: 198.57.27.184, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 10, server: 198.57.27.152, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 15, server: 198.57.27.184, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 馃嚭馃嚫+缇庡浗+8, server: 38.121.43.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CA-134.195.196.147-462, server: 134.195.196.147, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 英国_TG@nodesharing_145, server: 172.99.190.188, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1003, server: 38.121.43.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: youtube:8度科技_加拿大 3, server: 198.57.27.184, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 30, server: 198.57.27.184, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ZZ_2204, server: 134.195.196.193, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 馃嚭馃嚫+缇庡浗+32, server: 38.68.134.191, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 31, server: 198.57.27.184, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1561, server: 172.99.190.149, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: US_1325, server: 38.121.43.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_949, server: 38.121.43.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 22, server: 198.57.27.184, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ZZ_2100, server: 134.195.196.193, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_1625, server: 172.99.190.149, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 【426节点池】US_2284, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国_TG@nodesharing_241, server: 167.88.63.61, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_1387, server: 172.99.190.149, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_1611, server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _GB_英国 3, server: 172.99.190.188, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _GB_英国 5, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 23, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US-167.88.63.61-446, server: 167.88.63.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: CA-134.195.196.227-005, server: 134.195.196.227, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_1451, server: 38.68.134.191, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: youtube:8度科技_美国 3, server: 167.88.62.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国_TG@nodesharing_82, server: 167.88.63.61, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 馃嚭馃嚫+缇庡浗+39, server: 167.88.62.34, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CA_221, server: 198.57.27.152, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CA-134.195.196.71-007, server: 134.195.196.71, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: youtube:8度科技_美国 10, server: 167.88.63.28, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _CA_加拿大 16, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1850, server: 172.99.190.149, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 馃嚚馃嚘+鍔犳嬁澶�+18, server: 134.195.196.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国_TG@nodesharing_50, server: 38.68.134.191, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_1604, server: 167.88.63.61, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_910, server: 172.99.190.149, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国 5, server: 38.75.136.45, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_898, server: 167.88.63.28, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US-167.88.63.74-452, server: 167.88.63.74, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _CA_加拿大 4, server: 134.195.196.71, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_1419, server: 38.75.136.45, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: github.com/freefq - 北美地区  12, server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 29, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _CA_加拿大 5, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国_TG@nodesharing_90, server: 167.88.63.61, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CA_加拿大 6, server: 134.195.196.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大+35, server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1839, server: 167.88.63.74, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US-167.88.63.61-018, server: 167.88.63.61, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_1292, server: 167.88.63.74, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国_TG@nodesharing_177, server: 167.88.63.61, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_1129, server: 167.88.63.61, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_1213, server: 167.88.63.74, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1837, server: 167.88.63.74, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1388, server: 167.88.63.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_919, server: 167.88.63.61, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 美国_TG@nodesharing_97, server: 167.88.63.74, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_1359, server: 167.88.63.61, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1016, server: 167.88.63.74, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_0125节点_18, server: 167.88.63.28, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_1838, server: 167.88.63.74, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 10, server: 167.88.63.74, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国 7, server: 169.197.142.48, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _US_美国 21, server: 167.88.63.74, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _US_美国 8, server: 169.197.142.48, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _US_美国 9, server: 167.88.61.175, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _US_美国 11, server: 167.88.61.175, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _US_美国 12, server: 167.88.61.14, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国 15, server: 167.88.61.14, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 3元一月200g流量 TG：@V2rayH 秒开8K, server: v2hk10.441155.xyz, port: 41705, type: vmess, uuid: 2b7f8baf-b2e5-3dc6-95b8-bf8fc02a6878, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /tu, ws-headers: {Host: hkhgc1.ddnsfree.com}, udp: true}
+  - {name: HK-218.253.159.69-475, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, sni: ssl.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: youtube:8度科技_美国 22, server: 38.68.134.23, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 【1x】CN2-美国, server: jx.cn2.salmon-tech.com, port: 15671, type: ss, cipher: aes-256-gcm, password: 2394c2ac-9d58-4822-b764-d9ce3e3c44c5, udp: true}
+  - {name: 【1x】CN2-"香港家宽"(台区流媒体), server: jx.cn2.salmon-tech.com, port: 12576, type: ss, cipher: aes-256-gcm, password: 2394c2ac-9d58-4822-b764-d9ce3e3c44c5, udp: true}
+  - {name: _SG_新加坡, server: 139.162.24.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _SG_新加坡 2, server: 139.162.24.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _SG_新加坡 3, server: 139.162.24.50, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _SG_新加坡 4, server: 139.162.24.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 【1x】广州-"香港家宽"(台区流媒体), server: 120.232.192.211, port: 9584, type: ss, cipher: aes-256-gcm, password: 2394c2ac-9d58-4822-b764-d9ce3e3c44c5, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 13, server: api.ssfree.ru, port: 443, type: vmess, uuid: 17b9521c-8638-11ec-9f8a-000017022008, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /getweather, ws-headers: {Host: api.ssfree.ru}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 【1x】广州-"香港家宽"(台区流媒体)
-      - 【1x】9929-日本
-      - 【1x】CN2-美国
       - US_1480
       - 美国_TG@nodesharing_106
-      - US_1419
-      - US_1388
-      - US_1318
-      - 美国_TG@nodesharing_97
-      - US_977
-      - 美国_TG@nodesharing_177
-      - _US_美国 10
-      - US_1838
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - US_1471
-      - US_1292
-      - US_1837
-      - 美国_TG@nodesharing_90
-      - CA_221
-      - 美国_TG@nodesharing_241
-      - 美国_TG@nodesharing_82
-      - ZZ_2226
-      - US_1016
-      - _CA_加拿大 29
-      - US_919
-      - US_1604
-      - 【426节点池】US_2284
-      - CA_220
-      - youtube:8度科技_加拿大 11
-      - US_1129
-      - _CA_加拿大 13
-      - CA_222
-      - _US_美国 14
-      - ZZ_2100
-      - CA_176
-      - youtube:8度科技_加拿大 3
-      - _CA_加拿大 18
-      - 馃嚚馃嚘+鍔犳嬁澶�+21
-      - _CA_加拿大 10
-      - _CA_加拿大 23
-      - _CA_加拿大 11
-      - 英国_TG@nodesharing_145
-      - _CA_加拿大 22
-      - _CA_加拿大 31
-      - ZZ_2069
-      - US_1451
-      - youtube:8度科技_加拿大 13
-      - ZZ_1992
-      - US_1561
-      - 美国_TG@nodesharing_50
-      - ZZ_2204
-      - _GB_英国 2
-      - _CA_加拿大+35
-      - US_940
-      - US_1611
-      - US_949
-      - _GB_英国 3
-      - 美国_TG@nodesharing_57
-      - _US_美国 6
-      - youtube:8度科技_美国 10
+      - CA-134.195.196.81-036
       - US_966
-      - US_898
-      - 馃嚭馃嚫+缇庡浗+39
-      - US_1839
-      - US_1387
-      - 付费推荐:dlj.tf/ssrsub__13
-      - 馃嚭馃嚫+缇庡浗+8
-      - US_1847
-      - US_1625
-      - US_910
-      - ZZ_2065
-      - _CA_加拿大 19
-      - US_1641
-      - youtube:8度科技_加拿大 18
-      - CA_190
-      - _CA_加拿大 16
-      - US_987
-      - _US_美国 17
-      - _US_美国 13
-      - US_1850
-      - US_1573
-      - US_896
-      - 馃嚚馃嚘+鍔犳嬁澶�+13
-      - _GB_英国
-      - US_1845
-      - _CA_加拿大 15
-      - US_1058
-      - 馃嚚馃嚘+鍔犳嬁澶�+14
-      - CA_116
-      - US_1475
-      - US_1842
-      - US_1124
-      - US_1181
-      - US_1538
-      - US_1213
-      - _CA_加拿大 30
-      - CA_194
-      - youtube:8度科技_美国 3
-      - youtube:8度科技_美国 12
-      - youtube:8度科技_加拿大 9
-      - US_1727
-      - _CA_加拿大 12
-      - CA_217
-      - 馃嚚馃嚘+鍔犳嬁澶�+18
-      - 馃嚭馃嚫+缇庡浗+32
-      - _GB_英国 5
-      - US_1003
-      - CA_163
-      - youtube:8度科技_美国 22
-      - 3元一月200g流量 TG：@V2rayH 秒开8K
-      - _US_0125节点_18
-      - CA_128
-      - US_1852
+      - US_977
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 38
       - _US_美国
-      - US_1194
-      - youtube:8度科技_美国 15
-      - _US_美国 21
-      - youtube:8度科技_加拿大 19
-      - +Dallas-GTHost 2
-      - US_1546
-      - _US_0125节点_44
-      - US_1479
-      - US_1346
-      - ZZ_1986
-      - youtube:8度科技_加拿大 14
-      - US_1359
-      - US_1719
-      - _GB_英国 10
-      - US_1492
-      - _US_美国 23
+      - 馃嚚馃嚘+鍔犳嬁澶�+13
       - _US_美国 2
-      - +Dallas-GTHost
-      - ZZ_2130
-      - _CA_加拿大 6
-      - CA_196
-      - 【1x】CN2-"香港家宽"(台区流媒体)
+      - _US_美国 3
       - US_1567
-      - US_956
+      - github.com/freefq - 印度  32
+      - 46.29.218.146:7307
+      - BV-46.29.219.246-308
+      - CA_190
+      - github.com/freefq - 北美地区  17
+      - CA_217
+      - 馃嚚馃嚘+鍔犳嬁澶�+14
+      - US-89.208.252.110-499
+      - _CA_加拿大 18
+      - CA_163
+      - US_1181
+      - US_1847
+      - GB-185.212.62.19-450
+      - _US_美国 6
+      - US_1058
+      - US_1124
+      - _GB_英国
+      - US_1538
+      - US_1641
+      - _CA_加拿大 19
+      - CA_176
+      - CA_116
+      - CA-134.195.196.200-003
+      - _US_美国 13
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - _CA_加拿大 12
+      - youtube:8度科技_加拿大 18
+      - youtube:8度科技_加拿大 9
+      - US_940
+      - US_1845
+      - _CA_加拿大 11
+      - CA-198.57.27.172-469
+      - CA_194
+      - US-38.107.226.158-532
+      - US_896
+      - CA_220
+      - _US_美国 17
+      - US_1573
+      - US_1727
+      - US_987
+      - US_1475
+      - US_1471
+      - 美国_TG@nodesharing_57
+      - US_1842
+      - _US_美国 14
+      - ZZ_2065
+      - CA_222
+      - _CA_加拿大 13
+      - _CA_加拿大
+      - _GB_英国 2
+      - ZZ_2226
+      - _CA_加拿大 2
+      - ZZ_2069
+      - _US_美国 4
+      - youtube:8度科技_美国 12
+      - US_1318
+      - ZZ_1986
+      - youtube:8度科技_加拿大 11
+      - _CA_加拿大 3
+      - +Dallas-GTHost
+      - youtube:8度科技_加拿大 13
+      - _CA_加拿大 10
+      - _CA_加拿大 15
+      - 馃嚭馃嚫+缇庡浗+8
+      - CA-134.195.196.147-462
+      - 英国_TG@nodesharing_145
+      - US_1003
+      - youtube:8度科技_加拿大 3
+      - _CA_加拿大 30
+      - ZZ_2204
+      - 馃嚭馃嚫+缇庡浗+32
+      - _CA_加拿大 31
+      - US_1561
       - US_1325
+      - US_949
+      - _CA_加拿大 22
+      - ZZ_2100
+      - US_1625
+      - 【426节点池】US_2284
+      - 美国_TG@nodesharing_241
+      - US_1387
+      - US_1611
+      - _GB_英国 3
+      - _GB_英国 5
+      - _CA_加拿大 23
+      - US-167.88.63.61-446
+      - CA-134.195.196.227-005
+      - US_1451
+      - youtube:8度科技_美国 3
+      - 美国_TG@nodesharing_82
+      - 馃嚭馃嚫+缇庡浗+39
+      - CA_221
+      - CA-134.195.196.71-007
+      - youtube:8度科技_美国 10
+      - _CA_加拿大 16
+      - US_1850
+      - 馃嚚馃嚘+鍔犳嬁澶�+18
+      - 美国_TG@nodesharing_50
+      - US_1604
+      - US_910
+      - _US_美国 5
+      - US_898
+      - US-167.88.63.74-452
+      - _CA_加拿大 4
+      - US_1419
+      - github.com/freefq - 北美地区  12
+      - _CA_加拿大 29
+      - _CA_加拿大 5
+      - 美国_TG@nodesharing_90
+      - _CA_加拿大 6
+      - _CA_加拿大+35
+      - US_1839
+      - US-167.88.63.61-018
+      - US_1292
+      - 美国_TG@nodesharing_177
+      - US_1129
+      - US_1213
+      - US_1837
+      - US_1388
+      - US_919
+      - 美国_TG@nodesharing_97
+      - US_1359
+      - US_1016
+      - _US_0125节点_18
+      - US_1838
+      - _US_美国 10
+      - _US_美国 7
+      - _US_美国 21
+      - _US_美国 8
+      - _US_美国 9
+      - _US_美国 11
+      - _US_美国 12
+      - _US_美国 15
+      - 3元一月200g流量 TG：@V2rayH 秒开8K
+      - HK-218.253.159.69-475
+      - youtube:8度科技_美国 22
+      - 【1x】CN2-美国
+      - 【1x】CN2-"香港家宽"(台区流媒体)
+      - _SG_新加坡
+      - _SG_新加坡 2
+      - _SG_新加坡 3
+      - _SG_新加坡 4
+      - 【1x】广州-"香港家宽"(台区流媒体)
+      - github.com/freefq - 美国CloudFlare节点 13
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 【1x】广州-"香港家宽"(台区流媒体)
-      - 【1x】9929-日本
-      - 【1x】CN2-美国
       - US_1480
       - 美国_TG@nodesharing_106
-      - US_1419
-      - US_1388
-      - US_1318
-      - 美国_TG@nodesharing_97
-      - US_977
-      - 美国_TG@nodesharing_177
-      - _US_美国 10
-      - US_1838
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - US_1471
-      - US_1292
-      - US_1837
-      - 美国_TG@nodesharing_90
-      - CA_221
-      - 美国_TG@nodesharing_241
-      - 美国_TG@nodesharing_82
-      - ZZ_2226
-      - US_1016
-      - _CA_加拿大 29
-      - US_919
-      - US_1604
-      - 【426节点池】US_2284
-      - CA_220
-      - youtube:8度科技_加拿大 11
-      - US_1129
-      - _CA_加拿大 13
-      - CA_222
-      - _US_美国 14
-      - ZZ_2100
-      - CA_176
-      - youtube:8度科技_加拿大 3
-      - _CA_加拿大 18
-      - 馃嚚馃嚘+鍔犳嬁澶�+21
-      - _CA_加拿大 10
-      - _CA_加拿大 23
-      - _CA_加拿大 11
-      - 英国_TG@nodesharing_145
-      - _CA_加拿大 22
-      - _CA_加拿大 31
-      - ZZ_2069
-      - US_1451
-      - youtube:8度科技_加拿大 13
-      - ZZ_1992
-      - US_1561
-      - 美国_TG@nodesharing_50
-      - ZZ_2204
-      - _GB_英国 2
-      - _CA_加拿大+35
-      - US_940
-      - US_1611
-      - US_949
-      - _GB_英国 3
-      - 美国_TG@nodesharing_57
-      - _US_美国 6
-      - youtube:8度科技_美国 10
+      - CA-134.195.196.81-036
       - US_966
-      - US_898
-      - 馃嚭馃嚫+缇庡浗+39
-      - US_1839
-      - US_1387
-      - 付费推荐:dlj.tf/ssrsub__13
-      - 馃嚭馃嚫+缇庡浗+8
-      - US_1847
-      - US_1625
-      - US_910
-      - ZZ_2065
-      - _CA_加拿大 19
-      - US_1641
-      - youtube:8度科技_加拿大 18
-      - CA_190
-      - _CA_加拿大 16
-      - US_987
-      - _US_美国 17
-      - _US_美国 13
-      - US_1850
-      - US_1573
-      - US_896
-      - 馃嚚馃嚘+鍔犳嬁澶�+13
-      - _GB_英国
-      - US_1845
-      - _CA_加拿大 15
-      - US_1058
-      - 馃嚚馃嚘+鍔犳嬁澶�+14
-      - CA_116
-      - US_1475
-      - US_1842
-      - US_1124
-      - US_1181
-      - US_1538
-      - US_1213
-      - _CA_加拿大 30
-      - CA_194
-      - youtube:8度科技_美国 3
-      - youtube:8度科技_美国 12
-      - youtube:8度科技_加拿大 9
-      - US_1727
-      - _CA_加拿大 12
-      - CA_217
-      - 馃嚚馃嚘+鍔犳嬁澶�+18
-      - 馃嚭馃嚫+缇庡浗+32
-      - _GB_英国 5
-      - US_1003
-      - CA_163
-      - youtube:8度科技_美国 22
-      - 3元一月200g流量 TG：@V2rayH 秒开8K
-      - _US_0125节点_18
-      - CA_128
-      - US_1852
+      - US_977
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 38
       - _US_美国
-      - US_1194
-      - youtube:8度科技_美国 15
-      - _US_美国 21
-      - youtube:8度科技_加拿大 19
-      - +Dallas-GTHost 2
-      - US_1546
-      - _US_0125节点_44
-      - US_1479
-      - US_1346
-      - ZZ_1986
-      - youtube:8度科技_加拿大 14
-      - US_1359
-      - US_1719
-      - _GB_英国 10
-      - US_1492
-      - _US_美国 23
+      - 馃嚚馃嚘+鍔犳嬁澶�+13
       - _US_美国 2
-      - +Dallas-GTHost
-      - ZZ_2130
-      - _CA_加拿大 6
-      - CA_196
-      - 【1x】CN2-"香港家宽"(台区流媒体)
+      - _US_美国 3
       - US_1567
-      - US_956
+      - github.com/freefq - 印度  32
+      - 46.29.218.146:7307
+      - BV-46.29.219.246-308
+      - CA_190
+      - github.com/freefq - 北美地区  17
+      - CA_217
+      - 馃嚚馃嚘+鍔犳嬁澶�+14
+      - US-89.208.252.110-499
+      - _CA_加拿大 18
+      - CA_163
+      - US_1181
+      - US_1847
+      - GB-185.212.62.19-450
+      - _US_美国 6
+      - US_1058
+      - US_1124
+      - _GB_英国
+      - US_1538
+      - US_1641
+      - _CA_加拿大 19
+      - CA_176
+      - CA_116
+      - CA-134.195.196.200-003
+      - _US_美国 13
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - _CA_加拿大 12
+      - youtube:8度科技_加拿大 18
+      - youtube:8度科技_加拿大 9
+      - US_940
+      - US_1845
+      - _CA_加拿大 11
+      - CA-198.57.27.172-469
+      - CA_194
+      - US-38.107.226.158-532
+      - US_896
+      - CA_220
+      - _US_美国 17
+      - US_1573
+      - US_1727
+      - US_987
+      - US_1475
+      - US_1471
+      - 美国_TG@nodesharing_57
+      - US_1842
+      - _US_美国 14
+      - ZZ_2065
+      - CA_222
+      - _CA_加拿大 13
+      - _CA_加拿大
+      - _GB_英国 2
+      - ZZ_2226
+      - _CA_加拿大 2
+      - ZZ_2069
+      - _US_美国 4
+      - youtube:8度科技_美国 12
+      - US_1318
+      - ZZ_1986
+      - youtube:8度科技_加拿大 11
+      - _CA_加拿大 3
+      - +Dallas-GTHost
+      - youtube:8度科技_加拿大 13
+      - _CA_加拿大 10
+      - _CA_加拿大 15
+      - 馃嚭馃嚫+缇庡浗+8
+      - CA-134.195.196.147-462
+      - 英国_TG@nodesharing_145
+      - US_1003
+      - youtube:8度科技_加拿大 3
+      - _CA_加拿大 30
+      - ZZ_2204
+      - 馃嚭馃嚫+缇庡浗+32
+      - _CA_加拿大 31
+      - US_1561
       - US_1325
+      - US_949
+      - _CA_加拿大 22
+      - ZZ_2100
+      - US_1625
+      - 【426节点池】US_2284
+      - 美国_TG@nodesharing_241
+      - US_1387
+      - US_1611
+      - _GB_英国 3
+      - _GB_英国 5
+      - _CA_加拿大 23
+      - US-167.88.63.61-446
+      - CA-134.195.196.227-005
+      - US_1451
+      - youtube:8度科技_美国 3
+      - 美国_TG@nodesharing_82
+      - 馃嚭馃嚫+缇庡浗+39
+      - CA_221
+      - CA-134.195.196.71-007
+      - youtube:8度科技_美国 10
+      - _CA_加拿大 16
+      - US_1850
+      - 馃嚚馃嚘+鍔犳嬁澶�+18
+      - 美国_TG@nodesharing_50
+      - US_1604
+      - US_910
+      - _US_美国 5
+      - US_898
+      - US-167.88.63.74-452
+      - _CA_加拿大 4
+      - US_1419
+      - github.com/freefq - 北美地区  12
+      - _CA_加拿大 29
+      - _CA_加拿大 5
+      - 美国_TG@nodesharing_90
+      - _CA_加拿大 6
+      - _CA_加拿大+35
+      - US_1839
+      - US-167.88.63.61-018
+      - US_1292
+      - 美国_TG@nodesharing_177
+      - US_1129
+      - US_1213
+      - US_1837
+      - US_1388
+      - US_919
+      - 美国_TG@nodesharing_97
+      - US_1359
+      - US_1016
+      - _US_0125节点_18
+      - US_1838
+      - _US_美国 10
+      - _US_美国 7
+      - _US_美国 21
+      - _US_美国 8
+      - _US_美国 9
+      - _US_美国 11
+      - _US_美国 12
+      - _US_美国 15
+      - 3元一月200g流量 TG：@V2rayH 秒开8K
+      - HK-218.253.159.69-475
+      - youtube:8度科技_美国 22
+      - 【1x】CN2-美国
+      - 【1x】CN2-"香港家宽"(台区流媒体)
+      - _SG_新加坡
+      - _SG_新加坡 2
+      - _SG_新加坡 3
+      - _SG_新加坡 4
+      - 【1x】广州-"香港家宽"(台区流媒体)
+      - github.com/freefq - 美国CloudFlare节点 13
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 【1x】广州-"香港家宽"(台区流媒体)
-      - 【1x】9929-日本
-      - 【1x】CN2-美国
       - US_1480
       - 美国_TG@nodesharing_106
-      - US_1419
-      - US_1388
-      - US_1318
-      - 美国_TG@nodesharing_97
-      - US_977
-      - 美国_TG@nodesharing_177
-      - _US_美国 10
-      - US_1838
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - US_1471
-      - US_1292
-      - US_1837
-      - 美国_TG@nodesharing_90
-      - CA_221
-      - 美国_TG@nodesharing_241
-      - 美国_TG@nodesharing_82
-      - ZZ_2226
-      - US_1016
-      - _CA_加拿大 29
-      - US_919
-      - US_1604
-      - 【426节点池】US_2284
-      - CA_220
-      - youtube:8度科技_加拿大 11
-      - US_1129
-      - _CA_加拿大 13
-      - CA_222
-      - _US_美国 14
-      - ZZ_2100
-      - CA_176
-      - youtube:8度科技_加拿大 3
-      - _CA_加拿大 18
-      - 馃嚚馃嚘+鍔犳嬁澶�+21
-      - _CA_加拿大 10
-      - _CA_加拿大 23
-      - _CA_加拿大 11
-      - 英国_TG@nodesharing_145
-      - _CA_加拿大 22
-      - _CA_加拿大 31
-      - ZZ_2069
-      - US_1451
-      - youtube:8度科技_加拿大 13
-      - ZZ_1992
-      - US_1561
-      - 美国_TG@nodesharing_50
-      - ZZ_2204
-      - _GB_英国 2
-      - _CA_加拿大+35
-      - US_940
-      - US_1611
-      - US_949
-      - _GB_英国 3
-      - 美国_TG@nodesharing_57
-      - _US_美国 6
-      - youtube:8度科技_美国 10
+      - CA-134.195.196.81-036
       - US_966
-      - US_898
-      - 馃嚭馃嚫+缇庡浗+39
-      - US_1839
-      - US_1387
-      - 付费推荐:dlj.tf/ssrsub__13
-      - 馃嚭馃嚫+缇庡浗+8
-      - US_1847
-      - US_1625
-      - US_910
-      - ZZ_2065
-      - _CA_加拿大 19
-      - US_1641
-      - youtube:8度科技_加拿大 18
-      - CA_190
-      - _CA_加拿大 16
-      - US_987
-      - _US_美国 17
-      - _US_美国 13
-      - US_1850
-      - US_1573
-      - US_896
-      - 馃嚚馃嚘+鍔犳嬁澶�+13
-      - _GB_英国
-      - US_1845
-      - _CA_加拿大 15
-      - US_1058
-      - 馃嚚馃嚘+鍔犳嬁澶�+14
-      - CA_116
-      - US_1475
-      - US_1842
-      - US_1124
-      - US_1181
-      - US_1538
-      - US_1213
-      - _CA_加拿大 30
-      - CA_194
-      - youtube:8度科技_美国 3
-      - youtube:8度科技_美国 12
-      - youtube:8度科技_加拿大 9
-      - US_1727
-      - _CA_加拿大 12
-      - CA_217
-      - 馃嚚馃嚘+鍔犳嬁澶�+18
-      - 馃嚭馃嚫+缇庡浗+32
-      - _GB_英国 5
-      - US_1003
-      - CA_163
-      - youtube:8度科技_美国 22
-      - 3元一月200g流量 TG：@V2rayH 秒开8K
-      - _US_0125节点_18
-      - CA_128
-      - US_1852
+      - US_977
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 38
       - _US_美国
-      - US_1194
-      - youtube:8度科技_美国 15
-      - _US_美国 21
-      - youtube:8度科技_加拿大 19
-      - +Dallas-GTHost 2
-      - US_1546
-      - _US_0125节点_44
-      - US_1479
-      - US_1346
-      - ZZ_1986
-      - youtube:8度科技_加拿大 14
-      - US_1359
-      - US_1719
-      - _GB_英国 10
-      - US_1492
-      - _US_美国 23
+      - 馃嚚馃嚘+鍔犳嬁澶�+13
       - _US_美国 2
-      - +Dallas-GTHost
-      - ZZ_2130
-      - _CA_加拿大 6
-      - CA_196
-      - 【1x】CN2-"香港家宽"(台区流媒体)
+      - _US_美国 3
       - US_1567
-      - US_956
+      - github.com/freefq - 印度  32
+      - 46.29.218.146:7307
+      - BV-46.29.219.246-308
+      - CA_190
+      - github.com/freefq - 北美地区  17
+      - CA_217
+      - 馃嚚馃嚘+鍔犳嬁澶�+14
+      - US-89.208.252.110-499
+      - _CA_加拿大 18
+      - CA_163
+      - US_1181
+      - US_1847
+      - GB-185.212.62.19-450
+      - _US_美国 6
+      - US_1058
+      - US_1124
+      - _GB_英国
+      - US_1538
+      - US_1641
+      - _CA_加拿大 19
+      - CA_176
+      - CA_116
+      - CA-134.195.196.200-003
+      - _US_美国 13
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - _CA_加拿大 12
+      - youtube:8度科技_加拿大 18
+      - youtube:8度科技_加拿大 9
+      - US_940
+      - US_1845
+      - _CA_加拿大 11
+      - CA-198.57.27.172-469
+      - CA_194
+      - US-38.107.226.158-532
+      - US_896
+      - CA_220
+      - _US_美国 17
+      - US_1573
+      - US_1727
+      - US_987
+      - US_1475
+      - US_1471
+      - 美国_TG@nodesharing_57
+      - US_1842
+      - _US_美国 14
+      - ZZ_2065
+      - CA_222
+      - _CA_加拿大 13
+      - _CA_加拿大
+      - _GB_英国 2
+      - ZZ_2226
+      - _CA_加拿大 2
+      - ZZ_2069
+      - _US_美国 4
+      - youtube:8度科技_美国 12
+      - US_1318
+      - ZZ_1986
+      - youtube:8度科技_加拿大 11
+      - _CA_加拿大 3
+      - +Dallas-GTHost
+      - youtube:8度科技_加拿大 13
+      - _CA_加拿大 10
+      - _CA_加拿大 15
+      - 馃嚭馃嚫+缇庡浗+8
+      - CA-134.195.196.147-462
+      - 英国_TG@nodesharing_145
+      - US_1003
+      - youtube:8度科技_加拿大 3
+      - _CA_加拿大 30
+      - ZZ_2204
+      - 馃嚭馃嚫+缇庡浗+32
+      - _CA_加拿大 31
+      - US_1561
       - US_1325
+      - US_949
+      - _CA_加拿大 22
+      - ZZ_2100
+      - US_1625
+      - 【426节点池】US_2284
+      - 美国_TG@nodesharing_241
+      - US_1387
+      - US_1611
+      - _GB_英国 3
+      - _GB_英国 5
+      - _CA_加拿大 23
+      - US-167.88.63.61-446
+      - CA-134.195.196.227-005
+      - US_1451
+      - youtube:8度科技_美国 3
+      - 美国_TG@nodesharing_82
+      - 馃嚭馃嚫+缇庡浗+39
+      - CA_221
+      - CA-134.195.196.71-007
+      - youtube:8度科技_美国 10
+      - _CA_加拿大 16
+      - US_1850
+      - 馃嚚馃嚘+鍔犳嬁澶�+18
+      - 美国_TG@nodesharing_50
+      - US_1604
+      - US_910
+      - _US_美国 5
+      - US_898
+      - US-167.88.63.74-452
+      - _CA_加拿大 4
+      - US_1419
+      - github.com/freefq - 北美地区  12
+      - _CA_加拿大 29
+      - _CA_加拿大 5
+      - 美国_TG@nodesharing_90
+      - _CA_加拿大 6
+      - _CA_加拿大+35
+      - US_1839
+      - US-167.88.63.61-018
+      - US_1292
+      - 美国_TG@nodesharing_177
+      - US_1129
+      - US_1213
+      - US_1837
+      - US_1388
+      - US_919
+      - 美国_TG@nodesharing_97
+      - US_1359
+      - US_1016
+      - _US_0125节点_18
+      - US_1838
+      - _US_美国 10
+      - _US_美国 7
+      - _US_美国 21
+      - _US_美国 8
+      - _US_美国 9
+      - _US_美国 11
+      - _US_美国 12
+      - _US_美国 15
+      - 3元一月200g流量 TG：@V2rayH 秒开8K
+      - HK-218.253.159.69-475
+      - youtube:8度科技_美国 22
+      - 【1x】CN2-美国
+      - 【1x】CN2-"香港家宽"(台区流媒体)
+      - _SG_新加坡
+      - _SG_新加坡 2
+      - _SG_新加坡 3
+      - _SG_新加坡 4
+      - 【1x】广州-"香港家宽"(台区流媒体)
+      - github.com/freefq - 美国CloudFlare节点 13
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -596,585 +660,649 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 【1x】广州-"香港家宽"(台区流媒体)
-      - 【1x】9929-日本
-      - 【1x】CN2-美国
       - US_1480
       - 美国_TG@nodesharing_106
-      - US_1419
-      - US_1388
-      - US_1318
-      - 美国_TG@nodesharing_97
-      - US_977
-      - 美国_TG@nodesharing_177
-      - _US_美国 10
-      - US_1838
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - US_1471
-      - US_1292
-      - US_1837
-      - 美国_TG@nodesharing_90
-      - CA_221
-      - 美国_TG@nodesharing_241
-      - 美国_TG@nodesharing_82
-      - ZZ_2226
-      - US_1016
-      - _CA_加拿大 29
-      - US_919
-      - US_1604
-      - 【426节点池】US_2284
-      - CA_220
-      - youtube:8度科技_加拿大 11
-      - US_1129
-      - _CA_加拿大 13
-      - CA_222
-      - _US_美国 14
-      - ZZ_2100
-      - CA_176
-      - youtube:8度科技_加拿大 3
-      - _CA_加拿大 18
-      - 馃嚚馃嚘+鍔犳嬁澶�+21
-      - _CA_加拿大 10
-      - _CA_加拿大 23
-      - _CA_加拿大 11
-      - 英国_TG@nodesharing_145
-      - _CA_加拿大 22
-      - _CA_加拿大 31
-      - ZZ_2069
-      - US_1451
-      - youtube:8度科技_加拿大 13
-      - ZZ_1992
-      - US_1561
-      - 美国_TG@nodesharing_50
-      - ZZ_2204
-      - _GB_英国 2
-      - _CA_加拿大+35
-      - US_940
-      - US_1611
-      - US_949
-      - _GB_英国 3
-      - 美国_TG@nodesharing_57
-      - _US_美国 6
-      - youtube:8度科技_美国 10
+      - CA-134.195.196.81-036
       - US_966
-      - US_898
-      - 馃嚭馃嚫+缇庡浗+39
-      - US_1839
-      - US_1387
-      - 付费推荐:dlj.tf/ssrsub__13
-      - 馃嚭馃嚫+缇庡浗+8
-      - US_1847
-      - US_1625
-      - US_910
-      - ZZ_2065
-      - _CA_加拿大 19
-      - US_1641
-      - youtube:8度科技_加拿大 18
-      - CA_190
-      - _CA_加拿大 16
-      - US_987
-      - _US_美国 17
-      - _US_美国 13
-      - US_1850
-      - US_1573
-      - US_896
-      - 馃嚚馃嚘+鍔犳嬁澶�+13
-      - _GB_英国
-      - US_1845
-      - _CA_加拿大 15
-      - US_1058
-      - 馃嚚馃嚘+鍔犳嬁澶�+14
-      - CA_116
-      - US_1475
-      - US_1842
-      - US_1124
-      - US_1181
-      - US_1538
-      - US_1213
-      - _CA_加拿大 30
-      - CA_194
-      - youtube:8度科技_美国 3
-      - youtube:8度科技_美国 12
-      - youtube:8度科技_加拿大 9
-      - US_1727
-      - _CA_加拿大 12
-      - CA_217
-      - 馃嚚馃嚘+鍔犳嬁澶�+18
-      - 馃嚭馃嚫+缇庡浗+32
-      - _GB_英国 5
-      - US_1003
-      - CA_163
-      - youtube:8度科技_美国 22
-      - 3元一月200g流量 TG：@V2rayH 秒开8K
-      - _US_0125节点_18
-      - CA_128
-      - US_1852
+      - US_977
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 38
       - _US_美国
-      - US_1194
-      - youtube:8度科技_美国 15
-      - _US_美国 21
-      - youtube:8度科技_加拿大 19
-      - +Dallas-GTHost 2
-      - US_1546
-      - _US_0125节点_44
-      - US_1479
-      - US_1346
-      - ZZ_1986
-      - youtube:8度科技_加拿大 14
-      - US_1359
-      - US_1719
-      - _GB_英国 10
-      - US_1492
-      - _US_美国 23
+      - 馃嚚馃嚘+鍔犳嬁澶�+13
       - _US_美国 2
-      - +Dallas-GTHost
-      - ZZ_2130
-      - _CA_加拿大 6
-      - CA_196
-      - 【1x】CN2-"香港家宽"(台区流媒体)
+      - _US_美国 3
       - US_1567
-      - US_956
+      - github.com/freefq - 印度  32
+      - 46.29.218.146:7307
+      - BV-46.29.219.246-308
+      - CA_190
+      - github.com/freefq - 北美地区  17
+      - CA_217
+      - 馃嚚馃嚘+鍔犳嬁澶�+14
+      - US-89.208.252.110-499
+      - _CA_加拿大 18
+      - CA_163
+      - US_1181
+      - US_1847
+      - GB-185.212.62.19-450
+      - _US_美国 6
+      - US_1058
+      - US_1124
+      - _GB_英国
+      - US_1538
+      - US_1641
+      - _CA_加拿大 19
+      - CA_176
+      - CA_116
+      - CA-134.195.196.200-003
+      - _US_美国 13
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - _CA_加拿大 12
+      - youtube:8度科技_加拿大 18
+      - youtube:8度科技_加拿大 9
+      - US_940
+      - US_1845
+      - _CA_加拿大 11
+      - CA-198.57.27.172-469
+      - CA_194
+      - US-38.107.226.158-532
+      - US_896
+      - CA_220
+      - _US_美国 17
+      - US_1573
+      - US_1727
+      - US_987
+      - US_1475
+      - US_1471
+      - 美国_TG@nodesharing_57
+      - US_1842
+      - _US_美国 14
+      - ZZ_2065
+      - CA_222
+      - _CA_加拿大 13
+      - _CA_加拿大
+      - _GB_英国 2
+      - ZZ_2226
+      - _CA_加拿大 2
+      - ZZ_2069
+      - _US_美国 4
+      - youtube:8度科技_美国 12
+      - US_1318
+      - ZZ_1986
+      - youtube:8度科技_加拿大 11
+      - _CA_加拿大 3
+      - +Dallas-GTHost
+      - youtube:8度科技_加拿大 13
+      - _CA_加拿大 10
+      - _CA_加拿大 15
+      - 馃嚭馃嚫+缇庡浗+8
+      - CA-134.195.196.147-462
+      - 英国_TG@nodesharing_145
+      - US_1003
+      - youtube:8度科技_加拿大 3
+      - _CA_加拿大 30
+      - ZZ_2204
+      - 馃嚭馃嚫+缇庡浗+32
+      - _CA_加拿大 31
+      - US_1561
       - US_1325
+      - US_949
+      - _CA_加拿大 22
+      - ZZ_2100
+      - US_1625
+      - 【426节点池】US_2284
+      - 美国_TG@nodesharing_241
+      - US_1387
+      - US_1611
+      - _GB_英国 3
+      - _GB_英国 5
+      - _CA_加拿大 23
+      - US-167.88.63.61-446
+      - CA-134.195.196.227-005
+      - US_1451
+      - youtube:8度科技_美国 3
+      - 美国_TG@nodesharing_82
+      - 馃嚭馃嚫+缇庡浗+39
+      - CA_221
+      - CA-134.195.196.71-007
+      - youtube:8度科技_美国 10
+      - _CA_加拿大 16
+      - US_1850
+      - 馃嚚馃嚘+鍔犳嬁澶�+18
+      - 美国_TG@nodesharing_50
+      - US_1604
+      - US_910
+      - _US_美国 5
+      - US_898
+      - US-167.88.63.74-452
+      - _CA_加拿大 4
+      - US_1419
+      - github.com/freefq - 北美地区  12
+      - _CA_加拿大 29
+      - _CA_加拿大 5
+      - 美国_TG@nodesharing_90
+      - _CA_加拿大 6
+      - _CA_加拿大+35
+      - US_1839
+      - US-167.88.63.61-018
+      - US_1292
+      - 美国_TG@nodesharing_177
+      - US_1129
+      - US_1213
+      - US_1837
+      - US_1388
+      - US_919
+      - 美国_TG@nodesharing_97
+      - US_1359
+      - US_1016
+      - _US_0125节点_18
+      - US_1838
+      - _US_美国 10
+      - _US_美国 7
+      - _US_美国 21
+      - _US_美国 8
+      - _US_美国 9
+      - _US_美国 11
+      - _US_美国 12
+      - _US_美国 15
+      - 3元一月200g流量 TG：@V2rayH 秒开8K
+      - HK-218.253.159.69-475
+      - youtube:8度科技_美国 22
+      - 【1x】CN2-美国
+      - 【1x】CN2-"香港家宽"(台区流媒体)
+      - _SG_新加坡
+      - _SG_新加坡 2
+      - _SG_新加坡 3
+      - _SG_新加坡 4
+      - 【1x】广州-"香港家宽"(台区流媒体)
+      - github.com/freefq - 美国CloudFlare节点 13
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 【1x】广州-"香港家宽"(台区流媒体)
       - 【1x】CN2-"香港家宽"(台区流媒体)
+      - 【1x】广州-"香港家宽"(台区流媒体)
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 【1x】广州-"香港家宽"(台区流媒体)
-      - 【1x】9929-日本
-      - 【1x】CN2-美国
       - US_1480
       - 美国_TG@nodesharing_106
-      - US_1419
-      - US_1388
-      - US_1318
-      - 美国_TG@nodesharing_97
-      - US_977
-      - 美国_TG@nodesharing_177
-      - _US_美国 10
-      - US_1838
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - US_1471
-      - US_1292
-      - US_1837
-      - 美国_TG@nodesharing_90
-      - CA_221
-      - 美国_TG@nodesharing_241
-      - 美国_TG@nodesharing_82
-      - ZZ_2226
-      - US_1016
-      - _CA_加拿大 29
-      - US_919
-      - US_1604
-      - 【426节点池】US_2284
-      - CA_220
-      - youtube:8度科技_加拿大 11
-      - US_1129
-      - _CA_加拿大 13
-      - CA_222
-      - _US_美国 14
-      - ZZ_2100
-      - CA_176
-      - youtube:8度科技_加拿大 3
-      - _CA_加拿大 18
-      - 馃嚚馃嚘+鍔犳嬁澶�+21
-      - _CA_加拿大 10
-      - _CA_加拿大 23
-      - _CA_加拿大 11
-      - 英国_TG@nodesharing_145
-      - _CA_加拿大 22
-      - _CA_加拿大 31
-      - ZZ_2069
-      - US_1451
-      - youtube:8度科技_加拿大 13
-      - ZZ_1992
-      - US_1561
-      - 美国_TG@nodesharing_50
-      - ZZ_2204
-      - _GB_英国 2
-      - _CA_加拿大+35
-      - US_940
-      - US_1611
-      - US_949
-      - _GB_英国 3
-      - 美国_TG@nodesharing_57
-      - _US_美国 6
-      - youtube:8度科技_美国 10
+      - CA-134.195.196.81-036
       - US_966
-      - US_898
-      - 馃嚭馃嚫+缇庡浗+39
-      - US_1839
-      - US_1387
-      - 付费推荐:dlj.tf/ssrsub__13
-      - 馃嚭馃嚫+缇庡浗+8
-      - US_1847
-      - US_1625
-      - US_910
-      - ZZ_2065
-      - _CA_加拿大 19
-      - US_1641
-      - youtube:8度科技_加拿大 18
-      - CA_190
-      - _CA_加拿大 16
-      - US_987
-      - _US_美国 17
-      - _US_美国 13
-      - US_1850
-      - US_1573
-      - US_896
-      - 馃嚚馃嚘+鍔犳嬁澶�+13
-      - _GB_英国
-      - US_1845
-      - _CA_加拿大 15
-      - US_1058
-      - 馃嚚馃嚘+鍔犳嬁澶�+14
-      - CA_116
-      - US_1475
-      - US_1842
-      - US_1124
-      - US_1181
-      - US_1538
-      - US_1213
-      - _CA_加拿大 30
-      - CA_194
-      - youtube:8度科技_美国 3
-      - youtube:8度科技_美国 12
-      - youtube:8度科技_加拿大 9
-      - US_1727
-      - _CA_加拿大 12
-      - CA_217
-      - 馃嚚馃嚘+鍔犳嬁澶�+18
-      - 馃嚭馃嚫+缇庡浗+32
-      - _GB_英国 5
-      - US_1003
-      - CA_163
-      - youtube:8度科技_美国 22
-      - 3元一月200g流量 TG：@V2rayH 秒开8K
-      - _US_0125节点_18
-      - CA_128
-      - US_1852
+      - US_977
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 38
       - _US_美国
-      - US_1194
-      - youtube:8度科技_美国 15
-      - _US_美国 21
-      - youtube:8度科技_加拿大 19
-      - +Dallas-GTHost 2
-      - US_1546
-      - _US_0125节点_44
-      - US_1479
-      - US_1346
-      - ZZ_1986
-      - youtube:8度科技_加拿大 14
-      - US_1359
-      - US_1719
-      - _GB_英国 10
-      - US_1492
-      - _US_美国 23
+      - 馃嚚馃嚘+鍔犳嬁澶�+13
       - _US_美国 2
-      - +Dallas-GTHost
-      - ZZ_2130
-      - _CA_加拿大 6
-      - CA_196
-      - 【1x】CN2-"香港家宽"(台区流媒体)
+      - _US_美国 3
       - US_1567
-      - US_956
+      - github.com/freefq - 印度  32
+      - 46.29.218.146:7307
+      - BV-46.29.219.246-308
+      - CA_190
+      - github.com/freefq - 北美地区  17
+      - CA_217
+      - 馃嚚馃嚘+鍔犳嬁澶�+14
+      - US-89.208.252.110-499
+      - _CA_加拿大 18
+      - CA_163
+      - US_1181
+      - US_1847
+      - GB-185.212.62.19-450
+      - _US_美国 6
+      - US_1058
+      - US_1124
+      - _GB_英国
+      - US_1538
+      - US_1641
+      - _CA_加拿大 19
+      - CA_176
+      - CA_116
+      - CA-134.195.196.200-003
+      - _US_美国 13
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - _CA_加拿大 12
+      - youtube:8度科技_加拿大 18
+      - youtube:8度科技_加拿大 9
+      - US_940
+      - US_1845
+      - _CA_加拿大 11
+      - CA-198.57.27.172-469
+      - CA_194
+      - US-38.107.226.158-532
+      - US_896
+      - CA_220
+      - _US_美国 17
+      - US_1573
+      - US_1727
+      - US_987
+      - US_1475
+      - US_1471
+      - 美国_TG@nodesharing_57
+      - US_1842
+      - _US_美国 14
+      - ZZ_2065
+      - CA_222
+      - _CA_加拿大 13
+      - _CA_加拿大
+      - _GB_英国 2
+      - ZZ_2226
+      - _CA_加拿大 2
+      - ZZ_2069
+      - _US_美国 4
+      - youtube:8度科技_美国 12
+      - US_1318
+      - ZZ_1986
+      - youtube:8度科技_加拿大 11
+      - _CA_加拿大 3
+      - +Dallas-GTHost
+      - youtube:8度科技_加拿大 13
+      - _CA_加拿大 10
+      - _CA_加拿大 15
+      - 馃嚭馃嚫+缇庡浗+8
+      - CA-134.195.196.147-462
+      - 英国_TG@nodesharing_145
+      - US_1003
+      - youtube:8度科技_加拿大 3
+      - _CA_加拿大 30
+      - ZZ_2204
+      - 馃嚭馃嚫+缇庡浗+32
+      - _CA_加拿大 31
+      - US_1561
       - US_1325
+      - US_949
+      - _CA_加拿大 22
+      - ZZ_2100
+      - US_1625
+      - 【426节点池】US_2284
+      - 美国_TG@nodesharing_241
+      - US_1387
+      - US_1611
+      - _GB_英国 3
+      - _GB_英国 5
+      - _CA_加拿大 23
+      - US-167.88.63.61-446
+      - CA-134.195.196.227-005
+      - US_1451
+      - youtube:8度科技_美国 3
+      - 美国_TG@nodesharing_82
+      - 馃嚭馃嚫+缇庡浗+39
+      - CA_221
+      - CA-134.195.196.71-007
+      - youtube:8度科技_美国 10
+      - _CA_加拿大 16
+      - US_1850
+      - 馃嚚馃嚘+鍔犳嬁澶�+18
+      - 美国_TG@nodesharing_50
+      - US_1604
+      - US_910
+      - _US_美国 5
+      - US_898
+      - US-167.88.63.74-452
+      - _CA_加拿大 4
+      - US_1419
+      - github.com/freefq - 北美地区  12
+      - _CA_加拿大 29
+      - _CA_加拿大 5
+      - 美国_TG@nodesharing_90
+      - _CA_加拿大 6
+      - _CA_加拿大+35
+      - US_1839
+      - US-167.88.63.61-018
+      - US_1292
+      - 美国_TG@nodesharing_177
+      - US_1129
+      - US_1213
+      - US_1837
+      - US_1388
+      - US_919
+      - 美国_TG@nodesharing_97
+      - US_1359
+      - US_1016
+      - _US_0125节点_18
+      - US_1838
+      - _US_美国 10
+      - _US_美国 7
+      - _US_美国 21
+      - _US_美国 8
+      - _US_美国 9
+      - _US_美国 11
+      - _US_美国 12
+      - _US_美国 15
+      - 3元一月200g流量 TG：@V2rayH 秒开8K
+      - HK-218.253.159.69-475
+      - youtube:8度科技_美国 22
+      - 【1x】CN2-美国
+      - 【1x】CN2-"香港家宽"(台区流媒体)
+      - _SG_新加坡
+      - _SG_新加坡 2
+      - _SG_新加坡 3
+      - _SG_新加坡 4
+      - 【1x】广州-"香港家宽"(台区流媒体)
+      - github.com/freefq - 美国CloudFlare节点 13
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 【1x】广州-"香港家宽"(台区流媒体)
-      - 【1x】9929-日本
-      - 【1x】CN2-美国
       - US_1480
       - 美国_TG@nodesharing_106
-      - US_1419
-      - US_1388
-      - US_1318
-      - 美国_TG@nodesharing_97
-      - US_977
-      - 美国_TG@nodesharing_177
-      - _US_美国 10
-      - US_1838
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - US_1471
-      - US_1292
-      - US_1837
-      - 美国_TG@nodesharing_90
-      - CA_221
-      - 美国_TG@nodesharing_241
-      - 美国_TG@nodesharing_82
-      - ZZ_2226
-      - US_1016
-      - _CA_加拿大 29
-      - US_919
-      - US_1604
-      - 【426节点池】US_2284
-      - CA_220
-      - youtube:8度科技_加拿大 11
-      - US_1129
-      - _CA_加拿大 13
-      - CA_222
-      - _US_美国 14
-      - ZZ_2100
-      - CA_176
-      - youtube:8度科技_加拿大 3
-      - _CA_加拿大 18
-      - 馃嚚馃嚘+鍔犳嬁澶�+21
-      - _CA_加拿大 10
-      - _CA_加拿大 23
-      - _CA_加拿大 11
-      - 英国_TG@nodesharing_145
-      - _CA_加拿大 22
-      - _CA_加拿大 31
-      - ZZ_2069
-      - US_1451
-      - youtube:8度科技_加拿大 13
-      - ZZ_1992
-      - US_1561
-      - 美国_TG@nodesharing_50
-      - ZZ_2204
-      - _GB_英国 2
-      - _CA_加拿大+35
-      - US_940
-      - US_1611
-      - US_949
-      - _GB_英国 3
-      - 美国_TG@nodesharing_57
-      - _US_美国 6
-      - youtube:8度科技_美国 10
+      - CA-134.195.196.81-036
       - US_966
-      - US_898
-      - 馃嚭馃嚫+缇庡浗+39
-      - US_1839
-      - US_1387
-      - 付费推荐:dlj.tf/ssrsub__13
-      - 馃嚭馃嚫+缇庡浗+8
-      - US_1847
-      - US_1625
-      - US_910
-      - ZZ_2065
-      - _CA_加拿大 19
-      - US_1641
-      - youtube:8度科技_加拿大 18
-      - CA_190
-      - _CA_加拿大 16
-      - US_987
-      - _US_美国 17
-      - _US_美国 13
-      - US_1850
-      - US_1573
-      - US_896
-      - 馃嚚馃嚘+鍔犳嬁澶�+13
-      - _GB_英国
-      - US_1845
-      - _CA_加拿大 15
-      - US_1058
-      - 馃嚚馃嚘+鍔犳嬁澶�+14
-      - CA_116
-      - US_1475
-      - US_1842
-      - US_1124
-      - US_1181
-      - US_1538
-      - US_1213
-      - _CA_加拿大 30
-      - CA_194
-      - youtube:8度科技_美国 3
-      - youtube:8度科技_美国 12
-      - youtube:8度科技_加拿大 9
-      - US_1727
-      - _CA_加拿大 12
-      - CA_217
-      - 馃嚚馃嚘+鍔犳嬁澶�+18
-      - 馃嚭馃嚫+缇庡浗+32
-      - _GB_英国 5
-      - US_1003
-      - CA_163
-      - youtube:8度科技_美国 22
-      - 3元一月200g流量 TG：@V2rayH 秒开8K
-      - _US_0125节点_18
-      - CA_128
-      - US_1852
+      - US_977
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 38
       - _US_美国
-      - US_1194
-      - youtube:8度科技_美国 15
-      - _US_美国 21
-      - youtube:8度科技_加拿大 19
-      - +Dallas-GTHost 2
-      - US_1546
-      - _US_0125节点_44
-      - US_1479
-      - US_1346
-      - ZZ_1986
-      - youtube:8度科技_加拿大 14
-      - US_1359
-      - US_1719
-      - _GB_英国 10
-      - US_1492
-      - _US_美国 23
+      - 馃嚚馃嚘+鍔犳嬁澶�+13
       - _US_美国 2
-      - +Dallas-GTHost
-      - ZZ_2130
-      - _CA_加拿大 6
-      - CA_196
-      - 【1x】CN2-"香港家宽"(台区流媒体)
+      - _US_美国 3
       - US_1567
-      - US_956
+      - github.com/freefq - 印度  32
+      - 46.29.218.146:7307
+      - BV-46.29.219.246-308
+      - CA_190
+      - github.com/freefq - 北美地区  17
+      - CA_217
+      - 馃嚚馃嚘+鍔犳嬁澶�+14
+      - US-89.208.252.110-499
+      - _CA_加拿大 18
+      - CA_163
+      - US_1181
+      - US_1847
+      - GB-185.212.62.19-450
+      - _US_美国 6
+      - US_1058
+      - US_1124
+      - _GB_英国
+      - US_1538
+      - US_1641
+      - _CA_加拿大 19
+      - CA_176
+      - CA_116
+      - CA-134.195.196.200-003
+      - _US_美国 13
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - _CA_加拿大 12
+      - youtube:8度科技_加拿大 18
+      - youtube:8度科技_加拿大 9
+      - US_940
+      - US_1845
+      - _CA_加拿大 11
+      - CA-198.57.27.172-469
+      - CA_194
+      - US-38.107.226.158-532
+      - US_896
+      - CA_220
+      - _US_美国 17
+      - US_1573
+      - US_1727
+      - US_987
+      - US_1475
+      - US_1471
+      - 美国_TG@nodesharing_57
+      - US_1842
+      - _US_美国 14
+      - ZZ_2065
+      - CA_222
+      - _CA_加拿大 13
+      - _CA_加拿大
+      - _GB_英国 2
+      - ZZ_2226
+      - _CA_加拿大 2
+      - ZZ_2069
+      - _US_美国 4
+      - youtube:8度科技_美国 12
+      - US_1318
+      - ZZ_1986
+      - youtube:8度科技_加拿大 11
+      - _CA_加拿大 3
+      - +Dallas-GTHost
+      - youtube:8度科技_加拿大 13
+      - _CA_加拿大 10
+      - _CA_加拿大 15
+      - 馃嚭馃嚫+缇庡浗+8
+      - CA-134.195.196.147-462
+      - 英国_TG@nodesharing_145
+      - US_1003
+      - youtube:8度科技_加拿大 3
+      - _CA_加拿大 30
+      - ZZ_2204
+      - 馃嚭馃嚫+缇庡浗+32
+      - _CA_加拿大 31
+      - US_1561
       - US_1325
+      - US_949
+      - _CA_加拿大 22
+      - ZZ_2100
+      - US_1625
+      - 【426节点池】US_2284
+      - 美国_TG@nodesharing_241
+      - US_1387
+      - US_1611
+      - _GB_英国 3
+      - _GB_英国 5
+      - _CA_加拿大 23
+      - US-167.88.63.61-446
+      - CA-134.195.196.227-005
+      - US_1451
+      - youtube:8度科技_美国 3
+      - 美国_TG@nodesharing_82
+      - 馃嚭馃嚫+缇庡浗+39
+      - CA_221
+      - CA-134.195.196.71-007
+      - youtube:8度科技_美国 10
+      - _CA_加拿大 16
+      - US_1850
+      - 馃嚚馃嚘+鍔犳嬁澶�+18
+      - 美国_TG@nodesharing_50
+      - US_1604
+      - US_910
+      - _US_美国 5
+      - US_898
+      - US-167.88.63.74-452
+      - _CA_加拿大 4
+      - US_1419
+      - github.com/freefq - 北美地区  12
+      - _CA_加拿大 29
+      - _CA_加拿大 5
+      - 美国_TG@nodesharing_90
+      - _CA_加拿大 6
+      - _CA_加拿大+35
+      - US_1839
+      - US-167.88.63.61-018
+      - US_1292
+      - 美国_TG@nodesharing_177
+      - US_1129
+      - US_1213
+      - US_1837
+      - US_1388
+      - US_919
+      - 美国_TG@nodesharing_97
+      - US_1359
+      - US_1016
+      - _US_0125节点_18
+      - US_1838
+      - _US_美国 10
+      - _US_美国 7
+      - _US_美国 21
+      - _US_美国 8
+      - _US_美国 9
+      - _US_美国 11
+      - _US_美国 12
+      - _US_美国 15
+      - 3元一月200g流量 TG：@V2rayH 秒开8K
+      - HK-218.253.159.69-475
+      - youtube:8度科技_美国 22
+      - 【1x】CN2-美国
+      - 【1x】CN2-"香港家宽"(台区流媒体)
+      - _SG_新加坡
+      - _SG_新加坡 2
+      - _SG_新加坡 3
+      - _SG_新加坡 4
+      - 【1x】广州-"香港家宽"(台区流媒体)
+      - github.com/freefq - 美国CloudFlare节点 13
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 【1x】广州-"香港家宽"(台区流媒体)
-      - 【1x】9929-日本
-      - 【1x】CN2-美国
       - US_1480
       - 美国_TG@nodesharing_106
-      - US_1419
-      - US_1388
-      - US_1318
-      - 美国_TG@nodesharing_97
-      - US_977
-      - 美国_TG@nodesharing_177
-      - _US_美国 10
-      - US_1838
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - US_1471
-      - US_1292
-      - US_1837
-      - 美国_TG@nodesharing_90
-      - CA_221
-      - 美国_TG@nodesharing_241
-      - 美国_TG@nodesharing_82
-      - ZZ_2226
-      - US_1016
-      - _CA_加拿大 29
-      - US_919
-      - US_1604
-      - 【426节点池】US_2284
-      - CA_220
-      - youtube:8度科技_加拿大 11
-      - US_1129
-      - _CA_加拿大 13
-      - CA_222
-      - _US_美国 14
-      - ZZ_2100
-      - CA_176
-      - youtube:8度科技_加拿大 3
-      - _CA_加拿大 18
-      - 馃嚚馃嚘+鍔犳嬁澶�+21
-      - _CA_加拿大 10
-      - _CA_加拿大 23
-      - _CA_加拿大 11
-      - 英国_TG@nodesharing_145
-      - _CA_加拿大 22
-      - _CA_加拿大 31
-      - ZZ_2069
-      - US_1451
-      - youtube:8度科技_加拿大 13
-      - ZZ_1992
-      - US_1561
-      - 美国_TG@nodesharing_50
-      - ZZ_2204
-      - _GB_英国 2
-      - _CA_加拿大+35
-      - US_940
-      - US_1611
-      - US_949
-      - _GB_英国 3
-      - 美国_TG@nodesharing_57
-      - _US_美国 6
-      - youtube:8度科技_美国 10
+      - CA-134.195.196.81-036
       - US_966
-      - US_898
-      - 馃嚭馃嚫+缇庡浗+39
-      - US_1839
-      - US_1387
-      - 付费推荐:dlj.tf/ssrsub__13
-      - 馃嚭馃嚫+缇庡浗+8
-      - US_1847
-      - US_1625
-      - US_910
-      - ZZ_2065
-      - _CA_加拿大 19
-      - US_1641
-      - youtube:8度科技_加拿大 18
-      - CA_190
-      - _CA_加拿大 16
-      - US_987
-      - _US_美国 17
-      - _US_美国 13
-      - US_1850
-      - US_1573
-      - US_896
-      - 馃嚚馃嚘+鍔犳嬁澶�+13
-      - _GB_英国
-      - US_1845
-      - _CA_加拿大 15
-      - US_1058
-      - 馃嚚馃嚘+鍔犳嬁澶�+14
-      - CA_116
-      - US_1475
-      - US_1842
-      - US_1124
-      - US_1181
-      - US_1538
-      - US_1213
-      - _CA_加拿大 30
-      - CA_194
-      - youtube:8度科技_美国 3
-      - youtube:8度科技_美国 12
-      - youtube:8度科技_加拿大 9
-      - US_1727
-      - _CA_加拿大 12
-      - CA_217
-      - 馃嚚馃嚘+鍔犳嬁澶�+18
-      - 馃嚭馃嚫+缇庡浗+32
-      - _GB_英国 5
-      - US_1003
-      - CA_163
-      - youtube:8度科技_美国 22
-      - 3元一月200g流量 TG：@V2rayH 秒开8K
-      - _US_0125节点_18
-      - CA_128
-      - US_1852
+      - US_977
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 38
       - _US_美国
-      - US_1194
-      - youtube:8度科技_美国 15
-      - _US_美国 21
-      - youtube:8度科技_加拿大 19
-      - +Dallas-GTHost 2
-      - US_1546
-      - _US_0125节点_44
-      - US_1479
-      - US_1346
-      - ZZ_1986
-      - youtube:8度科技_加拿大 14
-      - US_1359
-      - US_1719
-      - _GB_英国 10
-      - US_1492
-      - _US_美国 23
+      - 馃嚚馃嚘+鍔犳嬁澶�+13
       - _US_美国 2
-      - +Dallas-GTHost
-      - ZZ_2130
-      - _CA_加拿大 6
-      - CA_196
-      - 【1x】CN2-"香港家宽"(台区流媒体)
+      - _US_美国 3
       - US_1567
-      - US_956
+      - github.com/freefq - 印度  32
+      - 46.29.218.146:7307
+      - BV-46.29.219.246-308
+      - CA_190
+      - github.com/freefq - 北美地区  17
+      - CA_217
+      - 馃嚚馃嚘+鍔犳嬁澶�+14
+      - US-89.208.252.110-499
+      - _CA_加拿大 18
+      - CA_163
+      - US_1181
+      - US_1847
+      - GB-185.212.62.19-450
+      - _US_美国 6
+      - US_1058
+      - US_1124
+      - _GB_英国
+      - US_1538
+      - US_1641
+      - _CA_加拿大 19
+      - CA_176
+      - CA_116
+      - CA-134.195.196.200-003
+      - _US_美国 13
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - _CA_加拿大 12
+      - youtube:8度科技_加拿大 18
+      - youtube:8度科技_加拿大 9
+      - US_940
+      - US_1845
+      - _CA_加拿大 11
+      - CA-198.57.27.172-469
+      - CA_194
+      - US-38.107.226.158-532
+      - US_896
+      - CA_220
+      - _US_美国 17
+      - US_1573
+      - US_1727
+      - US_987
+      - US_1475
+      - US_1471
+      - 美国_TG@nodesharing_57
+      - US_1842
+      - _US_美国 14
+      - ZZ_2065
+      - CA_222
+      - _CA_加拿大 13
+      - _CA_加拿大
+      - _GB_英国 2
+      - ZZ_2226
+      - _CA_加拿大 2
+      - ZZ_2069
+      - _US_美国 4
+      - youtube:8度科技_美国 12
+      - US_1318
+      - ZZ_1986
+      - youtube:8度科技_加拿大 11
+      - _CA_加拿大 3
+      - +Dallas-GTHost
+      - youtube:8度科技_加拿大 13
+      - _CA_加拿大 10
+      - _CA_加拿大 15
+      - 馃嚭馃嚫+缇庡浗+8
+      - CA-134.195.196.147-462
+      - 英国_TG@nodesharing_145
+      - US_1003
+      - youtube:8度科技_加拿大 3
+      - _CA_加拿大 30
+      - ZZ_2204
+      - 馃嚭馃嚫+缇庡浗+32
+      - _CA_加拿大 31
+      - US_1561
       - US_1325
+      - US_949
+      - _CA_加拿大 22
+      - ZZ_2100
+      - US_1625
+      - 【426节点池】US_2284
+      - 美国_TG@nodesharing_241
+      - US_1387
+      - US_1611
+      - _GB_英国 3
+      - _GB_英国 5
+      - _CA_加拿大 23
+      - US-167.88.63.61-446
+      - CA-134.195.196.227-005
+      - US_1451
+      - youtube:8度科技_美国 3
+      - 美国_TG@nodesharing_82
+      - 馃嚭馃嚫+缇庡浗+39
+      - CA_221
+      - CA-134.195.196.71-007
+      - youtube:8度科技_美国 10
+      - _CA_加拿大 16
+      - US_1850
+      - 馃嚚馃嚘+鍔犳嬁澶�+18
+      - 美国_TG@nodesharing_50
+      - US_1604
+      - US_910
+      - _US_美国 5
+      - US_898
+      - US-167.88.63.74-452
+      - _CA_加拿大 4
+      - US_1419
+      - github.com/freefq - 北美地区  12
+      - _CA_加拿大 29
+      - _CA_加拿大 5
+      - 美国_TG@nodesharing_90
+      - _CA_加拿大 6
+      - _CA_加拿大+35
+      - US_1839
+      - US-167.88.63.61-018
+      - US_1292
+      - 美国_TG@nodesharing_177
+      - US_1129
+      - US_1213
+      - US_1837
+      - US_1388
+      - US_919
+      - 美国_TG@nodesharing_97
+      - US_1359
+      - US_1016
+      - _US_0125节点_18
+      - US_1838
+      - _US_美国 10
+      - _US_美国 7
+      - _US_美国 21
+      - _US_美国 8
+      - _US_美国 9
+      - _US_美国 11
+      - _US_美国 12
+      - _US_美国 15
+      - 3元一月200g流量 TG：@V2rayH 秒开8K
+      - HK-218.253.159.69-475
+      - youtube:8度科技_美国 22
+      - 【1x】CN2-美国
+      - 【1x】CN2-"香港家宽"(台区流媒体)
+      - _SG_新加坡
+      - _SG_新加坡 2
+      - _SG_新加坡 3
+      - _SG_新加坡 4
+      - 【1x】广州-"香港家宽"(台区流媒体)
+      - github.com/freefq - 美国CloudFlare节点 13
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1190,145 +1318,161 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 【1x】广州-"香港家宽"(台区流媒体)
-      - 【1x】9929-日本
-      - 【1x】CN2-美国
       - US_1480
       - 美国_TG@nodesharing_106
-      - US_1419
-      - US_1388
-      - US_1318
-      - 美国_TG@nodesharing_97
-      - US_977
-      - 美国_TG@nodesharing_177
-      - _US_美国 10
-      - US_1838
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - US_1471
-      - US_1292
-      - US_1837
-      - 美国_TG@nodesharing_90
-      - CA_221
-      - 美国_TG@nodesharing_241
-      - 美国_TG@nodesharing_82
-      - ZZ_2226
-      - US_1016
-      - _CA_加拿大 29
-      - US_919
-      - US_1604
-      - 【426节点池】US_2284
-      - CA_220
-      - youtube:8度科技_加拿大 11
-      - US_1129
-      - _CA_加拿大 13
-      - CA_222
-      - _US_美国 14
-      - ZZ_2100
-      - CA_176
-      - youtube:8度科技_加拿大 3
-      - _CA_加拿大 18
-      - 馃嚚馃嚘+鍔犳嬁澶�+21
-      - _CA_加拿大 10
-      - _CA_加拿大 23
-      - _CA_加拿大 11
-      - 英国_TG@nodesharing_145
-      - _CA_加拿大 22
-      - _CA_加拿大 31
-      - ZZ_2069
-      - US_1451
-      - youtube:8度科技_加拿大 13
-      - ZZ_1992
-      - US_1561
-      - 美国_TG@nodesharing_50
-      - ZZ_2204
-      - _GB_英国 2
-      - _CA_加拿大+35
-      - US_940
-      - US_1611
-      - US_949
-      - _GB_英国 3
-      - 美国_TG@nodesharing_57
-      - _US_美国 6
-      - youtube:8度科技_美国 10
+      - CA-134.195.196.81-036
       - US_966
-      - US_898
-      - 馃嚭馃嚫+缇庡浗+39
-      - US_1839
-      - US_1387
-      - 付费推荐:dlj.tf/ssrsub__13
-      - 馃嚭馃嚫+缇庡浗+8
-      - US_1847
-      - US_1625
-      - US_910
-      - ZZ_2065
-      - _CA_加拿大 19
-      - US_1641
-      - youtube:8度科技_加拿大 18
-      - CA_190
-      - _CA_加拿大 16
-      - US_987
-      - _US_美国 17
-      - _US_美国 13
-      - US_1850
-      - US_1573
-      - US_896
-      - 馃嚚馃嚘+鍔犳嬁澶�+13
-      - _GB_英国
-      - US_1845
-      - _CA_加拿大 15
-      - US_1058
-      - 馃嚚馃嚘+鍔犳嬁澶�+14
-      - CA_116
-      - US_1475
-      - US_1842
-      - US_1124
-      - US_1181
-      - US_1538
-      - US_1213
-      - _CA_加拿大 30
-      - CA_194
-      - youtube:8度科技_美国 3
-      - youtube:8度科技_美国 12
-      - youtube:8度科技_加拿大 9
-      - US_1727
-      - _CA_加拿大 12
-      - CA_217
-      - 馃嚚馃嚘+鍔犳嬁澶�+18
-      - 馃嚭馃嚫+缇庡浗+32
-      - _GB_英国 5
-      - US_1003
-      - CA_163
-      - youtube:8度科技_美国 22
-      - 3元一月200g流量 TG：@V2rayH 秒开8K
-      - _US_0125节点_18
-      - CA_128
-      - US_1852
+      - US_977
+      - github.com/freefq - 美国加利福尼亚州洛杉矶KURUN CLOUD INC 38
       - _US_美国
-      - US_1194
-      - youtube:8度科技_美国 15
-      - _US_美国 21
-      - youtube:8度科技_加拿大 19
-      - +Dallas-GTHost 2
-      - US_1546
-      - _US_0125节点_44
-      - US_1479
-      - US_1346
-      - ZZ_1986
-      - youtube:8度科技_加拿大 14
-      - US_1359
-      - US_1719
-      - _GB_英国 10
-      - US_1492
-      - _US_美国 23
+      - 馃嚚馃嚘+鍔犳嬁澶�+13
       - _US_美国 2
-      - +Dallas-GTHost
-      - ZZ_2130
-      - _CA_加拿大 6
-      - CA_196
-      - 【1x】CN2-"香港家宽"(台区流媒体)
+      - _US_美国 3
       - US_1567
-      - US_956
+      - github.com/freefq - 印度  32
+      - 46.29.218.146:7307
+      - BV-46.29.219.246-308
+      - CA_190
+      - github.com/freefq - 北美地区  17
+      - CA_217
+      - 馃嚚馃嚘+鍔犳嬁澶�+14
+      - US-89.208.252.110-499
+      - _CA_加拿大 18
+      - CA_163
+      - US_1181
+      - US_1847
+      - GB-185.212.62.19-450
+      - _US_美国 6
+      - US_1058
+      - US_1124
+      - _GB_英国
+      - US_1538
+      - US_1641
+      - _CA_加拿大 19
+      - CA_176
+      - CA_116
+      - CA-134.195.196.200-003
+      - _US_美国 13
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - _CA_加拿大 12
+      - youtube:8度科技_加拿大 18
+      - youtube:8度科技_加拿大 9
+      - US_940
+      - US_1845
+      - _CA_加拿大 11
+      - CA-198.57.27.172-469
+      - CA_194
+      - US-38.107.226.158-532
+      - US_896
+      - CA_220
+      - _US_美国 17
+      - US_1573
+      - US_1727
+      - US_987
+      - US_1475
+      - US_1471
+      - 美国_TG@nodesharing_57
+      - US_1842
+      - _US_美国 14
+      - ZZ_2065
+      - CA_222
+      - _CA_加拿大 13
+      - _CA_加拿大
+      - _GB_英国 2
+      - ZZ_2226
+      - _CA_加拿大 2
+      - ZZ_2069
+      - _US_美国 4
+      - youtube:8度科技_美国 12
+      - US_1318
+      - ZZ_1986
+      - youtube:8度科技_加拿大 11
+      - _CA_加拿大 3
+      - +Dallas-GTHost
+      - youtube:8度科技_加拿大 13
+      - _CA_加拿大 10
+      - _CA_加拿大 15
+      - 馃嚭馃嚫+缇庡浗+8
+      - CA-134.195.196.147-462
+      - 英国_TG@nodesharing_145
+      - US_1003
+      - youtube:8度科技_加拿大 3
+      - _CA_加拿大 30
+      - ZZ_2204
+      - 馃嚭馃嚫+缇庡浗+32
+      - _CA_加拿大 31
+      - US_1561
       - US_1325
+      - US_949
+      - _CA_加拿大 22
+      - ZZ_2100
+      - US_1625
+      - 【426节点池】US_2284
+      - 美国_TG@nodesharing_241
+      - US_1387
+      - US_1611
+      - _GB_英国 3
+      - _GB_英国 5
+      - _CA_加拿大 23
+      - US-167.88.63.61-446
+      - CA-134.195.196.227-005
+      - US_1451
+      - youtube:8度科技_美国 3
+      - 美国_TG@nodesharing_82
+      - 馃嚭馃嚫+缇庡浗+39
+      - CA_221
+      - CA-134.195.196.71-007
+      - youtube:8度科技_美国 10
+      - _CA_加拿大 16
+      - US_1850
+      - 馃嚚馃嚘+鍔犳嬁澶�+18
+      - 美国_TG@nodesharing_50
+      - US_1604
+      - US_910
+      - _US_美国 5
+      - US_898
+      - US-167.88.63.74-452
+      - _CA_加拿大 4
+      - US_1419
+      - github.com/freefq - 北美地区  12
+      - _CA_加拿大 29
+      - _CA_加拿大 5
+      - 美国_TG@nodesharing_90
+      - _CA_加拿大 6
+      - _CA_加拿大+35
+      - US_1839
+      - US-167.88.63.61-018
+      - US_1292
+      - 美国_TG@nodesharing_177
+      - US_1129
+      - US_1213
+      - US_1837
+      - US_1388
+      - US_919
+      - 美国_TG@nodesharing_97
+      - US_1359
+      - US_1016
+      - _US_0125节点_18
+      - US_1838
+      - _US_美国 10
+      - _US_美国 7
+      - _US_美国 21
+      - _US_美国 8
+      - _US_美国 9
+      - _US_美国 11
+      - _US_美国 12
+      - _US_美国 15
+      - 3元一月200g流量 TG：@V2rayH 秒开8K
+      - HK-218.253.159.69-475
+      - youtube:8度科技_美国 22
+      - 【1x】CN2-美国
+      - 【1x】CN2-"香港家宽"(台区流媒体)
+      - _SG_新加坡
+      - _SG_新加坡 2
+      - _SG_新加坡 3
+      - _SG_新加坡 4
+      - 【1x】广州-"香港家宽"(台区流媒体)
+      - github.com/freefq - 美国CloudFlare节点 13
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
