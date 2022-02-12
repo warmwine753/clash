@@ -5,363 +5,347 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "@SSRSUB-V13-付费推荐:suo.yt/ssrsub", server: 110.wgong.xyz, port: 52210, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港3-三网优化, server: 0210hk.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 0210hk.fans8.xyz}, udp: true}
-  - {name: 新加坡1-三网优化, server: 0211sg3.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 0211sg3.fans8.xyz}, udp: true}
-  - {name: 日本1-三网优化, server: 0211jp.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 0211jp.fans8.xyz}, udp: true}
-  - {name: V1-美国01 中继C | 1.5x, server: in03.dns2333.xyz, port: 63014, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: mugua-us01.covid19.rip}, udp: true}
-  - {name: 加拿大_TG@nodesharing_297, server: 198.57.27.152, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: CA-198.57.27.152-008, server: 198.57.27.152, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 馃嚚馃嚘+鍔犳嬁澶�+2, server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国_TG@nodesharing_175, server: 167.88.63.74, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 美国_TG@nodesharing_243, server: 167.88.63.74, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 加拿大_TG@nodesharing_344, server: 198.57.27.184, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_二爷翻墙网：https://1808.ga_258, server: 167.88.63.74, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: CA, server: 198.57.27.184, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 加拿大_TG@nodesharing_350, server: 198.57.27.36, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: V2-美国03 中继D | 1.5x, server: in04.dns2333.xyz, port: 63069, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: mugua-us03.covid19.rip}, udp: true}
+  - {name: V2-美国03 中继A |  1.5x, server: in01.dns2333.xyz, port: 63069, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: mugua-us03.covid19.rip}, udp: true}
   - {name: US_58, server: 167.88.63.74, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CA_二爷翻墙网：https://1808.ga_395, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 加拿大_TG@nodesharing_348, server: 198.57.27.241, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: V1-美国01 中继A | 1.5x, server: in01.dns2333.xyz, port: 63014, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: mugua-us01.covid19.rip}, udp: true}
+  - {name: CA_217, server: 198.57.27.241, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: V2-美国01 中继E | 1.5x, server: in05.dns2333.xyz, port: 63014, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: mugua-us01.covid19.rip}, udp: true}
+  - {name: 加拿大_TG@nodesharing_297, server: 198.57.27.152, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: youtube:8度科技_美国 3, server: 167.88.62.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_56, server: 172.99.190.188, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: 加拿大_TG@nodesharing_346, server: 198.57.27.36, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _CA_加拿大 29, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 英国_TG@nodesharing_217, server: 172.99.190.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 加拿大_TG@nodesharing_350, server: 198.57.27.36, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 英国_TG@nodesharing_111, server: 172.99.190.39, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_52, server: 172.99.190.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: SG_二爷翻墙网：https://1808.ga_5, server: lin-sg.tgproxy.wtf, port: 443, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: lin-sg.tgproxy.wtf}, udp: true}
+  - {name: 加拿大_TG@nodesharing_291, server: 134.195.196.200, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CA-134.195.196.147-462, server: 134.195.196.147, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: 加拿大_TG@nodesharing_169, server: 134.195.196.147, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 加拿大_TG@nodesharing_294, server: 134.195.196.147, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国_TG@nodesharing_165, server: 167.88.63.74, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: CA_12, server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 加拿大_TG@nodesharing_327, server: 198.57.27.152, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CA_151, server: 198.57.27.152, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国_TG@nodesharing_267, server: 167.88.63.74, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 加拿大_TG@nodesharing_347, server: 198.57.27.152, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 加拿大_TG@nodesharing_367, server: 198.57.27.184, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 日本, server: 54.178.95.72, port: 25565, type: vmess, uuid: d2702d4a-d815-4700-8403-3983856a9b6f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index.php, ws-headers: {Host: baidu.com}, udp: true}
-  - {name: 美国_TG@nodesharing_136, server: 167.88.63.28, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CA-134.195.196.147-462, server: 134.195.196.147, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CA_217, server: 198.57.27.241, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: V1-韩国01 中继A | x1.5, server: in01.dns2333.xyz, port: 63004, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: mugua-kr01.covid19.rip}, udp: true}
-  - {name: "@SSRSUB-V25-付费推荐:suo.yt/ssrsub", server: 42.157.8.162, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_940, server: 167.88.63.28, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: V2-印度01 中继E | 1.5x, server: in05.dns2333.xyz, port: 63051, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: mugua-in01.airport-v2.com}, udp: true}
-  - {name: 加拿大_TG@nodesharing_348, server: 198.57.27.241, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 加拿大_TG@nodesharing_380, server: 198.57.27.184, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: youtube:8度科技_美国 10, server: 167.88.63.28, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国_TG@nodesharing_189, server: 167.88.63.28, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: V2-美国03 中继D | 1.5x, server: in04.dns2333.xyz, port: 63069, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: mugua-us03.covid19.rip}, udp: true}
-  - {name: US_二爷翻墙网：https://1808.ga_134, server: 167.88.63.61, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: V2-印度01 中继D | 1.5x, server: in04.dns2333.xyz, port: 63051, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: mugua-in01.airport-v2.com}, udp: true}
-  - {name: ZZ_97, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 加拿大_TG@nodesharing_194, server: 134.195.196.200, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CA_169, server: 198.57.27.152, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 加拿大_TG@nodesharing_336, server: 198.57.27.241, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: CA-134.195.196.200-459, server: 134.195.196.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 加拿大_TG@nodesharing_437, server: 198.57.27.184, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 加拿大_TG@nodesharing_231, server: 134.195.196.81, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _CA_加拿大 18, server: 198.57.27.184, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 日本 80端口, server: 18.181.165.151, port: 80, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 18.181.165.151}, udp: true}
-  - {name: ZZ_2201, server: 134.195.196.200, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 加拿大_TG@nodesharing_291, server: 134.195.196.200, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CA 2, server: 198.57.27.184, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: V2-美国01 中继E | 1.5x, server: in05.dns2333.xyz, port: 63014, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: mugua-us01.covid19.rip}, udp: true}
-  - {name: 加拿大_TG@nodesharing_400, server: 198.57.27.241, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 英国_TG@nodesharing_111, server: 172.99.190.39, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ZZ_102, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_二爷翻墙网：https://1808.ga_316, server: 167.88.63.61, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 加拿大_TG@nodesharing_268, server: 134.195.196.200, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 韩国, server: 3.34.196.241, port: 8880, type: vmess, uuid: 51f79218-4c27-3a41-9c4f-bda3462a9b27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: 3.34.196.241}, udp: true}
-  - {name: V1-美国01 中继A | 1.5x, server: in01.dns2333.xyz, port: 63014, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: mugua-us01.covid19.rip}, udp: true}
-  - {name: CA_13, server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: youtube:8度科技_美国 3, server: 167.88.62.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: V2-巴西01 中继E, server: in05.dns2333.xyz, port: 63041, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: mugua-br01.covid19.rip}, udp: true}
-  - {name: 英国_TG@nodesharing_217, server: 172.99.190.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_62, server: 167.88.62.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CA_二爷翻墙网：https://1808.ga_395, server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_56, server: 172.99.190.188, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 加拿大_TG@nodesharing_273, server: 134.195.196.81, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 加拿大_TG@nodesharing_194, server: 134.195.196.200, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ZZ_2201, server: 134.195.196.200, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ZZ_102, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国_TG@nodesharing_189, server: 167.88.63.28, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: CA-134.195.196.200-459, server: 134.195.196.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 加拿大_TG@nodesharing_400, server: 198.57.27.241, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 18, server: 198.57.27.184, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国_TG@nodesharing_239, server: 38.121.43.71, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 美国_TG@nodesharing_323, server: 38.121.43.71, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 美国_TG@nodesharing_175, server: 167.88.63.74, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: 加拿大_TG@nodesharing_248, server: 134.195.196.193, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: V2-美国03 中继A |  1.5x, server: in01.dns2333.xyz, port: 63069, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: mugua-us03.covid19.rip}, udp: true}
+  - {name: 加拿大_TG@nodesharing_437, server: 198.57.27.184, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_二爷翻墙网：https://1808.ga_258, server: 167.88.63.74, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_940, server: 167.88.63.28, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: youtube:8度科技_美国 10, server: 167.88.63.28, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 加拿大_TG@nodesharing_352, server: 198.57.27.184, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 美国_TG@nodesharing_243, server: 167.88.63.74, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: CA, server: 198.57.27.184, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国_TG@nodesharing_165, server: 167.88.63.74, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 加拿大_TG@nodesharing_344, server: 198.57.27.184, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CA_169, server: 198.57.27.152, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CA 2, server: 198.57.27.184, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: ZZ_93, server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国_TG@nodesharing_267, server: 167.88.63.74, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_二爷翻墙网：https://1808.ga_308, server: 167.88.63.61, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 馃嚚馃嚘+鍔犳嬁澶�+2, server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CA_151, server: 198.57.27.152, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CA-198.57.27.152-008, server: 198.57.27.152, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 加拿大_TG@nodesharing_273, server: 134.195.196.81, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: ZZ_2204, server: 134.195.196.193, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 加拿大_TG@nodesharing_327, server: 198.57.27.152, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: ZZ_97, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 加拿大_TG@nodesharing_231, server: 134.195.196.81, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 加拿大_TG@nodesharing_347, server: 198.57.27.152, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 加拿大_TG@nodesharing_380, server: 198.57.27.184, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_二爷翻墙网：https://1808.ga_134, server: 167.88.63.61, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_二爷翻墙网：https://1808.ga_316, server: 167.88.63.61, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: US_二爷翻墙网：https://1808.ga_376, server: 167.88.63.61, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: US_1727, server: 167.88.62.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: SG_二爷翻墙网：https://1808.ga_5, server: lin-sg.tgproxy.wtf, port: 443, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: lin-sg.tgproxy.wtf}, udp: true}
-  - {name: 加拿大_TG@nodesharing_352, server: 198.57.27.184, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_二爷翻墙网：https://1808.ga_308, server: 167.88.63.61, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _CA_加拿大 16, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_62, server: 167.88.62.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 日本, server: 54.178.95.72, port: 25565, type: vmess, uuid: d2702d4a-d815-4700-8403-3983856a9b6f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index.php, ws-headers: {Host: baidu.com}, udp: true}
+  - {name: V1-韩国01 中继A | x1.5, server: in01.dns2333.xyz, port: 63004, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: mugua-kr01.covid19.rip}, udp: true}
+  - {name: 新加坡1-三网优化, server: 0211sg3.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 0211sg3.fans8.xyz}, udp: true}
   - {name: CA_二爷翻墙网：https://1808.ga_380, server: 134.195.196.193, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国_TG@nodesharing_239, server: 38.121.43.71, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ZZ_2204, server: 134.195.196.193, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国_TG@nodesharing_136, server: 167.88.63.28, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 日本1-三网优化, server: 0211jp.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 0211jp.fans8.xyz}, udp: true}
   - {name: "@SSRSUB-V05-付费推荐:suo.yt/ssrsub", server: 42.157.8.52, port: 48727, type: vmess, uuid: 57aa5ac3-d1d0-4e2f-b32e-6488d5a7cb45, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国_TG@nodesharing_323, server: 38.121.43.71, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "@SSRSUB-V25-付费推荐:suo.yt/ssrsub", server: 42.157.8.162, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V2-巴西01 中继E, server: in05.dns2333.xyz, port: 63041, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: mugua-br01.covid19.rip}, udp: true}
+  - {name: 香港3-三网优化, server: 0210hk.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 0210hk.fans8.xyz}, udp: true}
+  - {name: "@SSRSUB-V13-付费推荐:suo.yt/ssrsub", server: 110.wgong.xyz, port: 52210, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V2-印度01 中继E | 1.5x, server: in05.dns2333.xyz, port: 63051, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: mugua-in01.airport-v2.com}, udp: true}
+  - {name: V1-美国01 中继C | 1.5x, server: in03.dns2333.xyz, port: 63014, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: mugua-us01.covid19.rip}, udp: true}
+  - {name: _CA_加拿大 16, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 29, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: GB-172.99.190.205-473, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ZZ_93, server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_52, server: 172.99.190.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CA_12, server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 加拿大_TG@nodesharing_336, server: 198.57.27.241, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: V2-印度01 中继D | 1.5x, server: in04.dns2333.xyz, port: 63051, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: mugua-in01.airport-v2.com}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub"
-      - 香港3-三网优化
-      - 新加坡1-三网优化
-      - 日本1-三网优化
-      - V1-美国01 中继C | 1.5x
-      - 加拿大_TG@nodesharing_297
-      - CA-198.57.27.152-008
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 美国_TG@nodesharing_175
-      - 美国_TG@nodesharing_243
-      - 加拿大_TG@nodesharing_344
-      - US_二爷翻墙网：https://1808.ga_258
-      - CA
-      - 加拿大_TG@nodesharing_350
+      - V2-美国03 中继D | 1.5x
+      - V2-美国03 中继A |  1.5x
       - US_58
+      - CA_二爷翻墙网：https://1808.ga_395
+      - 加拿大_TG@nodesharing_348
+      - V1-美国01 中继A | 1.5x
+      - CA_217
+      - V2-美国01 中继E | 1.5x
+      - 加拿大_TG@nodesharing_297
+      - youtube:8度科技_美国 3
+      - US_56
       - 加拿大_TG@nodesharing_346
-      - _CA_加拿大 29
+      - 英国_TG@nodesharing_217
+      - 加拿大_TG@nodesharing_350
+      - 英国_TG@nodesharing_111
+      - US_52
+      - SG_二爷翻墙网：https://1808.ga_5
+      - 加拿大_TG@nodesharing_291
+      - CA-134.195.196.147-462
       - 加拿大_TG@nodesharing_169
       - 加拿大_TG@nodesharing_294
-      - 美国_TG@nodesharing_165
-      - CA_12
-      - 加拿大_TG@nodesharing_327
-      - CA_151
-      - 美国_TG@nodesharing_267
-      - 加拿大_TG@nodesharing_347
-      - 加拿大_TG@nodesharing_367
-      - 日本
-      - 美国_TG@nodesharing_136
-      - CA-134.195.196.147-462
-      - CA_217
-      - V1-韩国01 中继A | x1.5
-      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
-      - US_940
-      - V2-印度01 中继E | 1.5x
-      - 加拿大_TG@nodesharing_348
-      - 加拿大_TG@nodesharing_380
-      - youtube:8度科技_美国 10
-      - 美国_TG@nodesharing_189
-      - V2-美国03 中继D | 1.5x
-      - US_二爷翻墙网：https://1808.ga_134
-      - V2-印度01 中继D | 1.5x
-      - ZZ_97
-      - 加拿大_TG@nodesharing_194
-      - CA_169
-      - 加拿大_TG@nodesharing_336
-      - CA-134.195.196.200-459
-      - 加拿大_TG@nodesharing_437
-      - 加拿大_TG@nodesharing_231
-      - _CA_加拿大 18
-      - 日本 80端口
-      - ZZ_2201
-      - 加拿大_TG@nodesharing_291
-      - CA 2
-      - V2-美国01 中继E | 1.5x
-      - 加拿大_TG@nodesharing_400
-      - 英国_TG@nodesharing_111
-      - ZZ_102
-      - US_二爷翻墙网：https://1808.ga_316
       - 加拿大_TG@nodesharing_268
-      - 韩国
-      - V1-美国01 中继A | 1.5x
-      - CA_13
-      - youtube:8度科技_美国 3
-      - V2-巴西01 中继E
-      - 英国_TG@nodesharing_217
-      - US_62
-      - CA_二爷翻墙网：https://1808.ga_395
-      - US_56
-      - 加拿大_TG@nodesharing_273
+      - 加拿大_TG@nodesharing_194
+      - ZZ_2201
+      - ZZ_102
+      - 美国_TG@nodesharing_189
+      - CA-134.195.196.200-459
+      - 加拿大_TG@nodesharing_400
+      - _CA_加拿大 18
+      - 美国_TG@nodesharing_239
+      - 美国_TG@nodesharing_323
+      - 美国_TG@nodesharing_175
       - 加拿大_TG@nodesharing_248
-      - V2-美国03 中继A |  1.5x
+      - 加拿大_TG@nodesharing_437
+      - US_二爷翻墙网：https://1808.ga_258
+      - US_940
+      - youtube:8度科技_美国 10
+      - 加拿大_TG@nodesharing_352
+      - 美国_TG@nodesharing_243
+      - CA
+      - 美国_TG@nodesharing_165
+      - 加拿大_TG@nodesharing_344
+      - CA_169
+      - CA 2
+      - ZZ_93
+      - 美国_TG@nodesharing_267
+      - US_二爷翻墙网：https://1808.ga_308
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - CA_151
+      - CA-198.57.27.152-008
+      - 加拿大_TG@nodesharing_273
+      - ZZ_2204
+      - 加拿大_TG@nodesharing_327
+      - ZZ_97
+      - 加拿大_TG@nodesharing_231
+      - 加拿大_TG@nodesharing_347
+      - 加拿大_TG@nodesharing_380
+      - US_二爷翻墙网：https://1808.ga_134
+      - US_二爷翻墙网：https://1808.ga_316
       - US_二爷翻墙网：https://1808.ga_376
       - US_1727
-      - SG_二爷翻墙网：https://1808.ga_5
-      - 加拿大_TG@nodesharing_352
-      - US_二爷翻墙网：https://1808.ga_308
-      - _CA_加拿大 16
+      - US_62
+      - 日本
+      - V1-韩国01 中继A | x1.5
+      - 新加坡1-三网优化
       - CA_二爷翻墙网：https://1808.ga_380
-      - 美国_TG@nodesharing_239
-      - ZZ_2204
+      - 美国_TG@nodesharing_136
+      - 日本1-三网优化
       - "@SSRSUB-V05-付费推荐:suo.yt/ssrsub"
-      - 美国_TG@nodesharing_323
+      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
+      - V2-巴西01 中继E
+      - 香港3-三网优化
+      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub"
+      - V2-印度01 中继E | 1.5x
+      - V1-美国01 中继C | 1.5x
+      - _CA_加拿大 16
+      - _CA_加拿大 29
       - GB-172.99.190.205-473
-      - ZZ_93
-      - US_52
+      - CA_12
+      - 加拿大_TG@nodesharing_336
+      - V2-印度01 中继D | 1.5x
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub"
-      - 香港3-三网优化
-      - 新加坡1-三网优化
-      - 日本1-三网优化
-      - V1-美国01 中继C | 1.5x
-      - 加拿大_TG@nodesharing_297
-      - CA-198.57.27.152-008
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 美国_TG@nodesharing_175
-      - 美国_TG@nodesharing_243
-      - 加拿大_TG@nodesharing_344
-      - US_二爷翻墙网：https://1808.ga_258
-      - CA
-      - 加拿大_TG@nodesharing_350
+      - V2-美国03 中继D | 1.5x
+      - V2-美国03 中继A |  1.5x
       - US_58
+      - CA_二爷翻墙网：https://1808.ga_395
+      - 加拿大_TG@nodesharing_348
+      - V1-美国01 中继A | 1.5x
+      - CA_217
+      - V2-美国01 中继E | 1.5x
+      - 加拿大_TG@nodesharing_297
+      - youtube:8度科技_美国 3
+      - US_56
       - 加拿大_TG@nodesharing_346
-      - _CA_加拿大 29
+      - 英国_TG@nodesharing_217
+      - 加拿大_TG@nodesharing_350
+      - 英国_TG@nodesharing_111
+      - US_52
+      - SG_二爷翻墙网：https://1808.ga_5
+      - 加拿大_TG@nodesharing_291
+      - CA-134.195.196.147-462
       - 加拿大_TG@nodesharing_169
       - 加拿大_TG@nodesharing_294
-      - 美国_TG@nodesharing_165
-      - CA_12
-      - 加拿大_TG@nodesharing_327
-      - CA_151
-      - 美国_TG@nodesharing_267
-      - 加拿大_TG@nodesharing_347
-      - 加拿大_TG@nodesharing_367
-      - 日本
-      - 美国_TG@nodesharing_136
-      - CA-134.195.196.147-462
-      - CA_217
-      - V1-韩国01 中继A | x1.5
-      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
-      - US_940
-      - V2-印度01 中继E | 1.5x
-      - 加拿大_TG@nodesharing_348
-      - 加拿大_TG@nodesharing_380
-      - youtube:8度科技_美国 10
-      - 美国_TG@nodesharing_189
-      - V2-美国03 中继D | 1.5x
-      - US_二爷翻墙网：https://1808.ga_134
-      - V2-印度01 中继D | 1.5x
-      - ZZ_97
-      - 加拿大_TG@nodesharing_194
-      - CA_169
-      - 加拿大_TG@nodesharing_336
-      - CA-134.195.196.200-459
-      - 加拿大_TG@nodesharing_437
-      - 加拿大_TG@nodesharing_231
-      - _CA_加拿大 18
-      - 日本 80端口
-      - ZZ_2201
-      - 加拿大_TG@nodesharing_291
-      - CA 2
-      - V2-美国01 中继E | 1.5x
-      - 加拿大_TG@nodesharing_400
-      - 英国_TG@nodesharing_111
-      - ZZ_102
-      - US_二爷翻墙网：https://1808.ga_316
       - 加拿大_TG@nodesharing_268
-      - 韩国
-      - V1-美国01 中继A | 1.5x
-      - CA_13
-      - youtube:8度科技_美国 3
-      - V2-巴西01 中继E
-      - 英国_TG@nodesharing_217
-      - US_62
-      - CA_二爷翻墙网：https://1808.ga_395
-      - US_56
-      - 加拿大_TG@nodesharing_273
+      - 加拿大_TG@nodesharing_194
+      - ZZ_2201
+      - ZZ_102
+      - 美国_TG@nodesharing_189
+      - CA-134.195.196.200-459
+      - 加拿大_TG@nodesharing_400
+      - _CA_加拿大 18
+      - 美国_TG@nodesharing_239
+      - 美国_TG@nodesharing_323
+      - 美国_TG@nodesharing_175
       - 加拿大_TG@nodesharing_248
-      - V2-美国03 中继A |  1.5x
+      - 加拿大_TG@nodesharing_437
+      - US_二爷翻墙网：https://1808.ga_258
+      - US_940
+      - youtube:8度科技_美国 10
+      - 加拿大_TG@nodesharing_352
+      - 美国_TG@nodesharing_243
+      - CA
+      - 美国_TG@nodesharing_165
+      - 加拿大_TG@nodesharing_344
+      - CA_169
+      - CA 2
+      - ZZ_93
+      - 美国_TG@nodesharing_267
+      - US_二爷翻墙网：https://1808.ga_308
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - CA_151
+      - CA-198.57.27.152-008
+      - 加拿大_TG@nodesharing_273
+      - ZZ_2204
+      - 加拿大_TG@nodesharing_327
+      - ZZ_97
+      - 加拿大_TG@nodesharing_231
+      - 加拿大_TG@nodesharing_347
+      - 加拿大_TG@nodesharing_380
+      - US_二爷翻墙网：https://1808.ga_134
+      - US_二爷翻墙网：https://1808.ga_316
       - US_二爷翻墙网：https://1808.ga_376
       - US_1727
-      - SG_二爷翻墙网：https://1808.ga_5
-      - 加拿大_TG@nodesharing_352
-      - US_二爷翻墙网：https://1808.ga_308
-      - _CA_加拿大 16
+      - US_62
+      - 日本
+      - V1-韩国01 中继A | x1.5
+      - 新加坡1-三网优化
       - CA_二爷翻墙网：https://1808.ga_380
-      - 美国_TG@nodesharing_239
-      - ZZ_2204
+      - 美国_TG@nodesharing_136
+      - 日本1-三网优化
       - "@SSRSUB-V05-付费推荐:suo.yt/ssrsub"
-      - 美国_TG@nodesharing_323
+      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
+      - V2-巴西01 中继E
+      - 香港3-三网优化
+      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub"
+      - V2-印度01 中继E | 1.5x
+      - V1-美国01 中继C | 1.5x
+      - _CA_加拿大 16
+      - _CA_加拿大 29
       - GB-172.99.190.205-473
-      - ZZ_93
-      - US_52
+      - CA_12
+      - 加拿大_TG@nodesharing_336
+      - V2-印度01 中继D | 1.5x
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub"
-      - 香港3-三网优化
-      - 新加坡1-三网优化
-      - 日本1-三网优化
-      - V1-美国01 中继C | 1.5x
-      - 加拿大_TG@nodesharing_297
-      - CA-198.57.27.152-008
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 美国_TG@nodesharing_175
-      - 美国_TG@nodesharing_243
-      - 加拿大_TG@nodesharing_344
-      - US_二爷翻墙网：https://1808.ga_258
-      - CA
-      - 加拿大_TG@nodesharing_350
+      - V2-美国03 中继D | 1.5x
+      - V2-美国03 中继A |  1.5x
       - US_58
+      - CA_二爷翻墙网：https://1808.ga_395
+      - 加拿大_TG@nodesharing_348
+      - V1-美国01 中继A | 1.5x
+      - CA_217
+      - V2-美国01 中继E | 1.5x
+      - 加拿大_TG@nodesharing_297
+      - youtube:8度科技_美国 3
+      - US_56
       - 加拿大_TG@nodesharing_346
-      - _CA_加拿大 29
+      - 英国_TG@nodesharing_217
+      - 加拿大_TG@nodesharing_350
+      - 英国_TG@nodesharing_111
+      - US_52
+      - SG_二爷翻墙网：https://1808.ga_5
+      - 加拿大_TG@nodesharing_291
+      - CA-134.195.196.147-462
       - 加拿大_TG@nodesharing_169
       - 加拿大_TG@nodesharing_294
-      - 美国_TG@nodesharing_165
-      - CA_12
-      - 加拿大_TG@nodesharing_327
-      - CA_151
-      - 美国_TG@nodesharing_267
-      - 加拿大_TG@nodesharing_347
-      - 加拿大_TG@nodesharing_367
-      - 日本
-      - 美国_TG@nodesharing_136
-      - CA-134.195.196.147-462
-      - CA_217
-      - V1-韩国01 中继A | x1.5
-      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
-      - US_940
-      - V2-印度01 中继E | 1.5x
-      - 加拿大_TG@nodesharing_348
-      - 加拿大_TG@nodesharing_380
-      - youtube:8度科技_美国 10
-      - 美国_TG@nodesharing_189
-      - V2-美国03 中继D | 1.5x
-      - US_二爷翻墙网：https://1808.ga_134
-      - V2-印度01 中继D | 1.5x
-      - ZZ_97
-      - 加拿大_TG@nodesharing_194
-      - CA_169
-      - 加拿大_TG@nodesharing_336
-      - CA-134.195.196.200-459
-      - 加拿大_TG@nodesharing_437
-      - 加拿大_TG@nodesharing_231
-      - _CA_加拿大 18
-      - 日本 80端口
-      - ZZ_2201
-      - 加拿大_TG@nodesharing_291
-      - CA 2
-      - V2-美国01 中继E | 1.5x
-      - 加拿大_TG@nodesharing_400
-      - 英国_TG@nodesharing_111
-      - ZZ_102
-      - US_二爷翻墙网：https://1808.ga_316
       - 加拿大_TG@nodesharing_268
-      - 韩国
-      - V1-美国01 中继A | 1.5x
-      - CA_13
-      - youtube:8度科技_美国 3
-      - V2-巴西01 中继E
-      - 英国_TG@nodesharing_217
-      - US_62
-      - CA_二爷翻墙网：https://1808.ga_395
-      - US_56
-      - 加拿大_TG@nodesharing_273
+      - 加拿大_TG@nodesharing_194
+      - ZZ_2201
+      - ZZ_102
+      - 美国_TG@nodesharing_189
+      - CA-134.195.196.200-459
+      - 加拿大_TG@nodesharing_400
+      - _CA_加拿大 18
+      - 美国_TG@nodesharing_239
+      - 美国_TG@nodesharing_323
+      - 美国_TG@nodesharing_175
       - 加拿大_TG@nodesharing_248
-      - V2-美国03 中继A |  1.5x
+      - 加拿大_TG@nodesharing_437
+      - US_二爷翻墙网：https://1808.ga_258
+      - US_940
+      - youtube:8度科技_美国 10
+      - 加拿大_TG@nodesharing_352
+      - 美国_TG@nodesharing_243
+      - CA
+      - 美国_TG@nodesharing_165
+      - 加拿大_TG@nodesharing_344
+      - CA_169
+      - CA 2
+      - ZZ_93
+      - 美国_TG@nodesharing_267
+      - US_二爷翻墙网：https://1808.ga_308
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - CA_151
+      - CA-198.57.27.152-008
+      - 加拿大_TG@nodesharing_273
+      - ZZ_2204
+      - 加拿大_TG@nodesharing_327
+      - ZZ_97
+      - 加拿大_TG@nodesharing_231
+      - 加拿大_TG@nodesharing_347
+      - 加拿大_TG@nodesharing_380
+      - US_二爷翻墙网：https://1808.ga_134
+      - US_二爷翻墙网：https://1808.ga_316
       - US_二爷翻墙网：https://1808.ga_376
       - US_1727
-      - SG_二爷翻墙网：https://1808.ga_5
-      - 加拿大_TG@nodesharing_352
-      - US_二爷翻墙网：https://1808.ga_308
-      - _CA_加拿大 16
+      - US_62
+      - 日本
+      - V1-韩国01 中继A | x1.5
+      - 新加坡1-三网优化
       - CA_二爷翻墙网：https://1808.ga_380
-      - 美国_TG@nodesharing_239
-      - ZZ_2204
+      - 美国_TG@nodesharing_136
+      - 日本1-三网优化
       - "@SSRSUB-V05-付费推荐:suo.yt/ssrsub"
-      - 美国_TG@nodesharing_323
+      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
+      - V2-巴西01 中继E
+      - 香港3-三网优化
+      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub"
+      - V2-印度01 中继E | 1.5x
+      - V1-美国01 中继C | 1.5x
+      - _CA_加拿大 16
+      - _CA_加拿大 29
       - GB-172.99.190.205-473
-      - ZZ_93
-      - US_52
+      - CA_12
+      - 加拿大_TG@nodesharing_336
+      - V2-印度01 中继D | 1.5x
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -380,91 +364,87 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub"
-      - 香港3-三网优化
-      - 新加坡1-三网优化
-      - 日本1-三网优化
-      - V1-美国01 中继C | 1.5x
-      - 加拿大_TG@nodesharing_297
-      - CA-198.57.27.152-008
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 美国_TG@nodesharing_175
-      - 美国_TG@nodesharing_243
-      - 加拿大_TG@nodesharing_344
-      - US_二爷翻墙网：https://1808.ga_258
-      - CA
-      - 加拿大_TG@nodesharing_350
+      - V2-美国03 中继D | 1.5x
+      - V2-美国03 中继A |  1.5x
       - US_58
+      - CA_二爷翻墙网：https://1808.ga_395
+      - 加拿大_TG@nodesharing_348
+      - V1-美国01 中继A | 1.5x
+      - CA_217
+      - V2-美国01 中继E | 1.5x
+      - 加拿大_TG@nodesharing_297
+      - youtube:8度科技_美国 3
+      - US_56
       - 加拿大_TG@nodesharing_346
-      - _CA_加拿大 29
+      - 英国_TG@nodesharing_217
+      - 加拿大_TG@nodesharing_350
+      - 英国_TG@nodesharing_111
+      - US_52
+      - SG_二爷翻墙网：https://1808.ga_5
+      - 加拿大_TG@nodesharing_291
+      - CA-134.195.196.147-462
       - 加拿大_TG@nodesharing_169
       - 加拿大_TG@nodesharing_294
-      - 美国_TG@nodesharing_165
-      - CA_12
-      - 加拿大_TG@nodesharing_327
-      - CA_151
-      - 美国_TG@nodesharing_267
-      - 加拿大_TG@nodesharing_347
-      - 加拿大_TG@nodesharing_367
-      - 日本
-      - 美国_TG@nodesharing_136
-      - CA-134.195.196.147-462
-      - CA_217
-      - V1-韩国01 中继A | x1.5
-      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
-      - US_940
-      - V2-印度01 中继E | 1.5x
-      - 加拿大_TG@nodesharing_348
-      - 加拿大_TG@nodesharing_380
-      - youtube:8度科技_美国 10
-      - 美国_TG@nodesharing_189
-      - V2-美国03 中继D | 1.5x
-      - US_二爷翻墙网：https://1808.ga_134
-      - V2-印度01 中继D | 1.5x
-      - ZZ_97
-      - 加拿大_TG@nodesharing_194
-      - CA_169
-      - 加拿大_TG@nodesharing_336
-      - CA-134.195.196.200-459
-      - 加拿大_TG@nodesharing_437
-      - 加拿大_TG@nodesharing_231
-      - _CA_加拿大 18
-      - 日本 80端口
-      - ZZ_2201
-      - 加拿大_TG@nodesharing_291
-      - CA 2
-      - V2-美国01 中继E | 1.5x
-      - 加拿大_TG@nodesharing_400
-      - 英国_TG@nodesharing_111
-      - ZZ_102
-      - US_二爷翻墙网：https://1808.ga_316
       - 加拿大_TG@nodesharing_268
-      - 韩国
-      - V1-美国01 中继A | 1.5x
-      - CA_13
-      - youtube:8度科技_美国 3
-      - V2-巴西01 中继E
-      - 英国_TG@nodesharing_217
-      - US_62
-      - CA_二爷翻墙网：https://1808.ga_395
-      - US_56
-      - 加拿大_TG@nodesharing_273
+      - 加拿大_TG@nodesharing_194
+      - ZZ_2201
+      - ZZ_102
+      - 美国_TG@nodesharing_189
+      - CA-134.195.196.200-459
+      - 加拿大_TG@nodesharing_400
+      - _CA_加拿大 18
+      - 美国_TG@nodesharing_239
+      - 美国_TG@nodesharing_323
+      - 美国_TG@nodesharing_175
       - 加拿大_TG@nodesharing_248
-      - V2-美国03 中继A |  1.5x
+      - 加拿大_TG@nodesharing_437
+      - US_二爷翻墙网：https://1808.ga_258
+      - US_940
+      - youtube:8度科技_美国 10
+      - 加拿大_TG@nodesharing_352
+      - 美国_TG@nodesharing_243
+      - CA
+      - 美国_TG@nodesharing_165
+      - 加拿大_TG@nodesharing_344
+      - CA_169
+      - CA 2
+      - ZZ_93
+      - 美国_TG@nodesharing_267
+      - US_二爷翻墙网：https://1808.ga_308
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - CA_151
+      - CA-198.57.27.152-008
+      - 加拿大_TG@nodesharing_273
+      - ZZ_2204
+      - 加拿大_TG@nodesharing_327
+      - ZZ_97
+      - 加拿大_TG@nodesharing_231
+      - 加拿大_TG@nodesharing_347
+      - 加拿大_TG@nodesharing_380
+      - US_二爷翻墙网：https://1808.ga_134
+      - US_二爷翻墙网：https://1808.ga_316
       - US_二爷翻墙网：https://1808.ga_376
       - US_1727
-      - SG_二爷翻墙网：https://1808.ga_5
-      - 加拿大_TG@nodesharing_352
-      - US_二爷翻墙网：https://1808.ga_308
-      - _CA_加拿大 16
+      - US_62
+      - 日本
+      - V1-韩国01 中继A | x1.5
+      - 新加坡1-三网优化
       - CA_二爷翻墙网：https://1808.ga_380
-      - 美国_TG@nodesharing_239
-      - ZZ_2204
+      - 美国_TG@nodesharing_136
+      - 日本1-三网优化
       - "@SSRSUB-V05-付费推荐:suo.yt/ssrsub"
-      - 美国_TG@nodesharing_323
+      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
+      - V2-巴西01 中继E
+      - 香港3-三网优化
+      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub"
+      - V2-印度01 中继E | 1.5x
+      - V1-美国01 中继C | 1.5x
+      - _CA_加拿大 16
+      - _CA_加拿大 29
       - GB-172.99.190.205-473
-      - ZZ_93
-      - US_52
+      - CA_12
+      - 加拿大_TG@nodesharing_336
+      - V2-印度01 中继D | 1.5x
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -476,272 +456,260 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub"
-      - 香港3-三网优化
-      - 新加坡1-三网优化
-      - 日本1-三网优化
-      - V1-美国01 中继C | 1.5x
-      - 加拿大_TG@nodesharing_297
-      - CA-198.57.27.152-008
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 美国_TG@nodesharing_175
-      - 美国_TG@nodesharing_243
-      - 加拿大_TG@nodesharing_344
-      - US_二爷翻墙网：https://1808.ga_258
-      - CA
-      - 加拿大_TG@nodesharing_350
+      - V2-美国03 中继D | 1.5x
+      - V2-美国03 中继A |  1.5x
       - US_58
+      - CA_二爷翻墙网：https://1808.ga_395
+      - 加拿大_TG@nodesharing_348
+      - V1-美国01 中继A | 1.5x
+      - CA_217
+      - V2-美国01 中继E | 1.5x
+      - 加拿大_TG@nodesharing_297
+      - youtube:8度科技_美国 3
+      - US_56
       - 加拿大_TG@nodesharing_346
-      - _CA_加拿大 29
+      - 英国_TG@nodesharing_217
+      - 加拿大_TG@nodesharing_350
+      - 英国_TG@nodesharing_111
+      - US_52
+      - SG_二爷翻墙网：https://1808.ga_5
+      - 加拿大_TG@nodesharing_291
+      - CA-134.195.196.147-462
       - 加拿大_TG@nodesharing_169
       - 加拿大_TG@nodesharing_294
-      - 美国_TG@nodesharing_165
-      - CA_12
-      - 加拿大_TG@nodesharing_327
-      - CA_151
-      - 美国_TG@nodesharing_267
-      - 加拿大_TG@nodesharing_347
-      - 加拿大_TG@nodesharing_367
-      - 日本
-      - 美国_TG@nodesharing_136
-      - CA-134.195.196.147-462
-      - CA_217
-      - V1-韩国01 中继A | x1.5
-      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
-      - US_940
-      - V2-印度01 中继E | 1.5x
-      - 加拿大_TG@nodesharing_348
-      - 加拿大_TG@nodesharing_380
-      - youtube:8度科技_美国 10
-      - 美国_TG@nodesharing_189
-      - V2-美国03 中继D | 1.5x
-      - US_二爷翻墙网：https://1808.ga_134
-      - V2-印度01 中继D | 1.5x
-      - ZZ_97
-      - 加拿大_TG@nodesharing_194
-      - CA_169
-      - 加拿大_TG@nodesharing_336
-      - CA-134.195.196.200-459
-      - 加拿大_TG@nodesharing_437
-      - 加拿大_TG@nodesharing_231
-      - _CA_加拿大 18
-      - 日本 80端口
-      - ZZ_2201
-      - 加拿大_TG@nodesharing_291
-      - CA 2
-      - V2-美国01 中继E | 1.5x
-      - 加拿大_TG@nodesharing_400
-      - 英国_TG@nodesharing_111
-      - ZZ_102
-      - US_二爷翻墙网：https://1808.ga_316
       - 加拿大_TG@nodesharing_268
-      - 韩国
-      - V1-美国01 中继A | 1.5x
-      - CA_13
-      - youtube:8度科技_美国 3
-      - V2-巴西01 中继E
-      - 英国_TG@nodesharing_217
-      - US_62
-      - CA_二爷翻墙网：https://1808.ga_395
-      - US_56
-      - 加拿大_TG@nodesharing_273
+      - 加拿大_TG@nodesharing_194
+      - ZZ_2201
+      - ZZ_102
+      - 美国_TG@nodesharing_189
+      - CA-134.195.196.200-459
+      - 加拿大_TG@nodesharing_400
+      - _CA_加拿大 18
+      - 美国_TG@nodesharing_239
+      - 美国_TG@nodesharing_323
+      - 美国_TG@nodesharing_175
       - 加拿大_TG@nodesharing_248
-      - V2-美国03 中继A |  1.5x
+      - 加拿大_TG@nodesharing_437
+      - US_二爷翻墙网：https://1808.ga_258
+      - US_940
+      - youtube:8度科技_美国 10
+      - 加拿大_TG@nodesharing_352
+      - 美国_TG@nodesharing_243
+      - CA
+      - 美国_TG@nodesharing_165
+      - 加拿大_TG@nodesharing_344
+      - CA_169
+      - CA 2
+      - ZZ_93
+      - 美国_TG@nodesharing_267
+      - US_二爷翻墙网：https://1808.ga_308
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - CA_151
+      - CA-198.57.27.152-008
+      - 加拿大_TG@nodesharing_273
+      - ZZ_2204
+      - 加拿大_TG@nodesharing_327
+      - ZZ_97
+      - 加拿大_TG@nodesharing_231
+      - 加拿大_TG@nodesharing_347
+      - 加拿大_TG@nodesharing_380
+      - US_二爷翻墙网：https://1808.ga_134
+      - US_二爷翻墙网：https://1808.ga_316
       - US_二爷翻墙网：https://1808.ga_376
       - US_1727
-      - SG_二爷翻墙网：https://1808.ga_5
-      - 加拿大_TG@nodesharing_352
-      - US_二爷翻墙网：https://1808.ga_308
-      - _CA_加拿大 16
+      - US_62
+      - 日本
+      - V1-韩国01 中继A | x1.5
+      - 新加坡1-三网优化
       - CA_二爷翻墙网：https://1808.ga_380
-      - 美国_TG@nodesharing_239
-      - ZZ_2204
+      - 美国_TG@nodesharing_136
+      - 日本1-三网优化
       - "@SSRSUB-V05-付费推荐:suo.yt/ssrsub"
-      - 美国_TG@nodesharing_323
+      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
+      - V2-巴西01 中继E
+      - 香港3-三网优化
+      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub"
+      - V2-印度01 中继E | 1.5x
+      - V1-美国01 中继C | 1.5x
+      - _CA_加拿大 16
+      - _CA_加拿大 29
       - GB-172.99.190.205-473
-      - ZZ_93
-      - US_52
+      - CA_12
+      - 加拿大_TG@nodesharing_336
+      - V2-印度01 中继D | 1.5x
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub"
-      - 香港3-三网优化
-      - 新加坡1-三网优化
-      - 日本1-三网优化
-      - V1-美国01 中继C | 1.5x
-      - 加拿大_TG@nodesharing_297
-      - CA-198.57.27.152-008
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 美国_TG@nodesharing_175
-      - 美国_TG@nodesharing_243
-      - 加拿大_TG@nodesharing_344
-      - US_二爷翻墙网：https://1808.ga_258
-      - CA
-      - 加拿大_TG@nodesharing_350
+      - V2-美国03 中继D | 1.5x
+      - V2-美国03 中继A |  1.5x
       - US_58
+      - CA_二爷翻墙网：https://1808.ga_395
+      - 加拿大_TG@nodesharing_348
+      - V1-美国01 中继A | 1.5x
+      - CA_217
+      - V2-美国01 中继E | 1.5x
+      - 加拿大_TG@nodesharing_297
+      - youtube:8度科技_美国 3
+      - US_56
       - 加拿大_TG@nodesharing_346
-      - _CA_加拿大 29
+      - 英国_TG@nodesharing_217
+      - 加拿大_TG@nodesharing_350
+      - 英国_TG@nodesharing_111
+      - US_52
+      - SG_二爷翻墙网：https://1808.ga_5
+      - 加拿大_TG@nodesharing_291
+      - CA-134.195.196.147-462
       - 加拿大_TG@nodesharing_169
       - 加拿大_TG@nodesharing_294
-      - 美国_TG@nodesharing_165
-      - CA_12
-      - 加拿大_TG@nodesharing_327
-      - CA_151
-      - 美国_TG@nodesharing_267
-      - 加拿大_TG@nodesharing_347
-      - 加拿大_TG@nodesharing_367
-      - 日本
-      - 美国_TG@nodesharing_136
-      - CA-134.195.196.147-462
-      - CA_217
-      - V1-韩国01 中继A | x1.5
-      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
-      - US_940
-      - V2-印度01 中继E | 1.5x
-      - 加拿大_TG@nodesharing_348
-      - 加拿大_TG@nodesharing_380
-      - youtube:8度科技_美国 10
-      - 美国_TG@nodesharing_189
-      - V2-美国03 中继D | 1.5x
-      - US_二爷翻墙网：https://1808.ga_134
-      - V2-印度01 中继D | 1.5x
-      - ZZ_97
-      - 加拿大_TG@nodesharing_194
-      - CA_169
-      - 加拿大_TG@nodesharing_336
-      - CA-134.195.196.200-459
-      - 加拿大_TG@nodesharing_437
-      - 加拿大_TG@nodesharing_231
-      - _CA_加拿大 18
-      - 日本 80端口
-      - ZZ_2201
-      - 加拿大_TG@nodesharing_291
-      - CA 2
-      - V2-美国01 中继E | 1.5x
-      - 加拿大_TG@nodesharing_400
-      - 英国_TG@nodesharing_111
-      - ZZ_102
-      - US_二爷翻墙网：https://1808.ga_316
       - 加拿大_TG@nodesharing_268
-      - 韩国
-      - V1-美国01 中继A | 1.5x
-      - CA_13
-      - youtube:8度科技_美国 3
-      - V2-巴西01 中继E
-      - 英国_TG@nodesharing_217
-      - US_62
-      - CA_二爷翻墙网：https://1808.ga_395
-      - US_56
-      - 加拿大_TG@nodesharing_273
+      - 加拿大_TG@nodesharing_194
+      - ZZ_2201
+      - ZZ_102
+      - 美国_TG@nodesharing_189
+      - CA-134.195.196.200-459
+      - 加拿大_TG@nodesharing_400
+      - _CA_加拿大 18
+      - 美国_TG@nodesharing_239
+      - 美国_TG@nodesharing_323
+      - 美国_TG@nodesharing_175
       - 加拿大_TG@nodesharing_248
-      - V2-美国03 中继A |  1.5x
+      - 加拿大_TG@nodesharing_437
+      - US_二爷翻墙网：https://1808.ga_258
+      - US_940
+      - youtube:8度科技_美国 10
+      - 加拿大_TG@nodesharing_352
+      - 美国_TG@nodesharing_243
+      - CA
+      - 美国_TG@nodesharing_165
+      - 加拿大_TG@nodesharing_344
+      - CA_169
+      - CA 2
+      - ZZ_93
+      - 美国_TG@nodesharing_267
+      - US_二爷翻墙网：https://1808.ga_308
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - CA_151
+      - CA-198.57.27.152-008
+      - 加拿大_TG@nodesharing_273
+      - ZZ_2204
+      - 加拿大_TG@nodesharing_327
+      - ZZ_97
+      - 加拿大_TG@nodesharing_231
+      - 加拿大_TG@nodesharing_347
+      - 加拿大_TG@nodesharing_380
+      - US_二爷翻墙网：https://1808.ga_134
+      - US_二爷翻墙网：https://1808.ga_316
       - US_二爷翻墙网：https://1808.ga_376
       - US_1727
-      - SG_二爷翻墙网：https://1808.ga_5
-      - 加拿大_TG@nodesharing_352
-      - US_二爷翻墙网：https://1808.ga_308
-      - _CA_加拿大 16
+      - US_62
+      - 日本
+      - V1-韩国01 中继A | x1.5
+      - 新加坡1-三网优化
       - CA_二爷翻墙网：https://1808.ga_380
-      - 美国_TG@nodesharing_239
-      - ZZ_2204
+      - 美国_TG@nodesharing_136
+      - 日本1-三网优化
       - "@SSRSUB-V05-付费推荐:suo.yt/ssrsub"
-      - 美国_TG@nodesharing_323
+      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
+      - V2-巴西01 中继E
+      - 香港3-三网优化
+      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub"
+      - V2-印度01 中继E | 1.5x
+      - V1-美国01 中继C | 1.5x
+      - _CA_加拿大 16
+      - _CA_加拿大 29
       - GB-172.99.190.205-473
-      - ZZ_93
-      - US_52
+      - CA_12
+      - 加拿大_TG@nodesharing_336
+      - V2-印度01 中继D | 1.5x
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub"
-      - 香港3-三网优化
-      - 新加坡1-三网优化
-      - 日本1-三网优化
-      - V1-美国01 中继C | 1.5x
-      - 加拿大_TG@nodesharing_297
-      - CA-198.57.27.152-008
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 美国_TG@nodesharing_175
-      - 美国_TG@nodesharing_243
-      - 加拿大_TG@nodesharing_344
-      - US_二爷翻墙网：https://1808.ga_258
-      - CA
-      - 加拿大_TG@nodesharing_350
+      - V2-美国03 中继D | 1.5x
+      - V2-美国03 中继A |  1.5x
       - US_58
+      - CA_二爷翻墙网：https://1808.ga_395
+      - 加拿大_TG@nodesharing_348
+      - V1-美国01 中继A | 1.5x
+      - CA_217
+      - V2-美国01 中继E | 1.5x
+      - 加拿大_TG@nodesharing_297
+      - youtube:8度科技_美国 3
+      - US_56
       - 加拿大_TG@nodesharing_346
-      - _CA_加拿大 29
+      - 英国_TG@nodesharing_217
+      - 加拿大_TG@nodesharing_350
+      - 英国_TG@nodesharing_111
+      - US_52
+      - SG_二爷翻墙网：https://1808.ga_5
+      - 加拿大_TG@nodesharing_291
+      - CA-134.195.196.147-462
       - 加拿大_TG@nodesharing_169
       - 加拿大_TG@nodesharing_294
-      - 美国_TG@nodesharing_165
-      - CA_12
-      - 加拿大_TG@nodesharing_327
-      - CA_151
-      - 美国_TG@nodesharing_267
-      - 加拿大_TG@nodesharing_347
-      - 加拿大_TG@nodesharing_367
-      - 日本
-      - 美国_TG@nodesharing_136
-      - CA-134.195.196.147-462
-      - CA_217
-      - V1-韩国01 中继A | x1.5
-      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
-      - US_940
-      - V2-印度01 中继E | 1.5x
-      - 加拿大_TG@nodesharing_348
-      - 加拿大_TG@nodesharing_380
-      - youtube:8度科技_美国 10
-      - 美国_TG@nodesharing_189
-      - V2-美国03 中继D | 1.5x
-      - US_二爷翻墙网：https://1808.ga_134
-      - V2-印度01 中继D | 1.5x
-      - ZZ_97
-      - 加拿大_TG@nodesharing_194
-      - CA_169
-      - 加拿大_TG@nodesharing_336
-      - CA-134.195.196.200-459
-      - 加拿大_TG@nodesharing_437
-      - 加拿大_TG@nodesharing_231
-      - _CA_加拿大 18
-      - 日本 80端口
-      - ZZ_2201
-      - 加拿大_TG@nodesharing_291
-      - CA 2
-      - V2-美国01 中继E | 1.5x
-      - 加拿大_TG@nodesharing_400
-      - 英国_TG@nodesharing_111
-      - ZZ_102
-      - US_二爷翻墙网：https://1808.ga_316
       - 加拿大_TG@nodesharing_268
-      - 韩国
-      - V1-美国01 中继A | 1.5x
-      - CA_13
-      - youtube:8度科技_美国 3
-      - V2-巴西01 中继E
-      - 英国_TG@nodesharing_217
-      - US_62
-      - CA_二爷翻墙网：https://1808.ga_395
-      - US_56
-      - 加拿大_TG@nodesharing_273
+      - 加拿大_TG@nodesharing_194
+      - ZZ_2201
+      - ZZ_102
+      - 美国_TG@nodesharing_189
+      - CA-134.195.196.200-459
+      - 加拿大_TG@nodesharing_400
+      - _CA_加拿大 18
+      - 美国_TG@nodesharing_239
+      - 美国_TG@nodesharing_323
+      - 美国_TG@nodesharing_175
       - 加拿大_TG@nodesharing_248
-      - V2-美国03 中继A |  1.5x
+      - 加拿大_TG@nodesharing_437
+      - US_二爷翻墙网：https://1808.ga_258
+      - US_940
+      - youtube:8度科技_美国 10
+      - 加拿大_TG@nodesharing_352
+      - 美国_TG@nodesharing_243
+      - CA
+      - 美国_TG@nodesharing_165
+      - 加拿大_TG@nodesharing_344
+      - CA_169
+      - CA 2
+      - ZZ_93
+      - 美国_TG@nodesharing_267
+      - US_二爷翻墙网：https://1808.ga_308
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - CA_151
+      - CA-198.57.27.152-008
+      - 加拿大_TG@nodesharing_273
+      - ZZ_2204
+      - 加拿大_TG@nodesharing_327
+      - ZZ_97
+      - 加拿大_TG@nodesharing_231
+      - 加拿大_TG@nodesharing_347
+      - 加拿大_TG@nodesharing_380
+      - US_二爷翻墙网：https://1808.ga_134
+      - US_二爷翻墙网：https://1808.ga_316
       - US_二爷翻墙网：https://1808.ga_376
       - US_1727
-      - SG_二爷翻墙网：https://1808.ga_5
-      - 加拿大_TG@nodesharing_352
-      - US_二爷翻墙网：https://1808.ga_308
-      - _CA_加拿大 16
+      - US_62
+      - 日本
+      - V1-韩国01 中继A | x1.5
+      - 新加坡1-三网优化
       - CA_二爷翻墙网：https://1808.ga_380
-      - 美国_TG@nodesharing_239
-      - ZZ_2204
+      - 美国_TG@nodesharing_136
+      - 日本1-三网优化
       - "@SSRSUB-V05-付费推荐:suo.yt/ssrsub"
-      - 美国_TG@nodesharing_323
+      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
+      - V2-巴西01 中继E
+      - 香港3-三网优化
+      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub"
+      - V2-印度01 中继E | 1.5x
+      - V1-美国01 中继C | 1.5x
+      - _CA_加拿大 16
+      - _CA_加拿大 29
       - GB-172.99.190.205-473
-      - ZZ_93
-      - US_52
+      - CA_12
+      - 加拿大_TG@nodesharing_336
+      - V2-印度01 中继D | 1.5x
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -757,91 +725,87 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub"
-      - 香港3-三网优化
-      - 新加坡1-三网优化
-      - 日本1-三网优化
-      - V1-美国01 中继C | 1.5x
-      - 加拿大_TG@nodesharing_297
-      - CA-198.57.27.152-008
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 美国_TG@nodesharing_175
-      - 美国_TG@nodesharing_243
-      - 加拿大_TG@nodesharing_344
-      - US_二爷翻墙网：https://1808.ga_258
-      - CA
-      - 加拿大_TG@nodesharing_350
+      - V2-美国03 中继D | 1.5x
+      - V2-美国03 中继A |  1.5x
       - US_58
+      - CA_二爷翻墙网：https://1808.ga_395
+      - 加拿大_TG@nodesharing_348
+      - V1-美国01 中继A | 1.5x
+      - CA_217
+      - V2-美国01 中继E | 1.5x
+      - 加拿大_TG@nodesharing_297
+      - youtube:8度科技_美国 3
+      - US_56
       - 加拿大_TG@nodesharing_346
-      - _CA_加拿大 29
+      - 英国_TG@nodesharing_217
+      - 加拿大_TG@nodesharing_350
+      - 英国_TG@nodesharing_111
+      - US_52
+      - SG_二爷翻墙网：https://1808.ga_5
+      - 加拿大_TG@nodesharing_291
+      - CA-134.195.196.147-462
       - 加拿大_TG@nodesharing_169
       - 加拿大_TG@nodesharing_294
-      - 美国_TG@nodesharing_165
-      - CA_12
-      - 加拿大_TG@nodesharing_327
-      - CA_151
-      - 美国_TG@nodesharing_267
-      - 加拿大_TG@nodesharing_347
-      - 加拿大_TG@nodesharing_367
-      - 日本
-      - 美国_TG@nodesharing_136
-      - CA-134.195.196.147-462
-      - CA_217
-      - V1-韩国01 中继A | x1.5
-      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
-      - US_940
-      - V2-印度01 中继E | 1.5x
-      - 加拿大_TG@nodesharing_348
-      - 加拿大_TG@nodesharing_380
-      - youtube:8度科技_美国 10
-      - 美国_TG@nodesharing_189
-      - V2-美国03 中继D | 1.5x
-      - US_二爷翻墙网：https://1808.ga_134
-      - V2-印度01 中继D | 1.5x
-      - ZZ_97
-      - 加拿大_TG@nodesharing_194
-      - CA_169
-      - 加拿大_TG@nodesharing_336
-      - CA-134.195.196.200-459
-      - 加拿大_TG@nodesharing_437
-      - 加拿大_TG@nodesharing_231
-      - _CA_加拿大 18
-      - 日本 80端口
-      - ZZ_2201
-      - 加拿大_TG@nodesharing_291
-      - CA 2
-      - V2-美国01 中继E | 1.5x
-      - 加拿大_TG@nodesharing_400
-      - 英国_TG@nodesharing_111
-      - ZZ_102
-      - US_二爷翻墙网：https://1808.ga_316
       - 加拿大_TG@nodesharing_268
-      - 韩国
-      - V1-美国01 中继A | 1.5x
-      - CA_13
-      - youtube:8度科技_美国 3
-      - V2-巴西01 中继E
-      - 英国_TG@nodesharing_217
-      - US_62
-      - CA_二爷翻墙网：https://1808.ga_395
-      - US_56
-      - 加拿大_TG@nodesharing_273
+      - 加拿大_TG@nodesharing_194
+      - ZZ_2201
+      - ZZ_102
+      - 美国_TG@nodesharing_189
+      - CA-134.195.196.200-459
+      - 加拿大_TG@nodesharing_400
+      - _CA_加拿大 18
+      - 美国_TG@nodesharing_239
+      - 美国_TG@nodesharing_323
+      - 美国_TG@nodesharing_175
       - 加拿大_TG@nodesharing_248
-      - V2-美国03 中继A |  1.5x
+      - 加拿大_TG@nodesharing_437
+      - US_二爷翻墙网：https://1808.ga_258
+      - US_940
+      - youtube:8度科技_美国 10
+      - 加拿大_TG@nodesharing_352
+      - 美国_TG@nodesharing_243
+      - CA
+      - 美国_TG@nodesharing_165
+      - 加拿大_TG@nodesharing_344
+      - CA_169
+      - CA 2
+      - ZZ_93
+      - 美国_TG@nodesharing_267
+      - US_二爷翻墙网：https://1808.ga_308
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - CA_151
+      - CA-198.57.27.152-008
+      - 加拿大_TG@nodesharing_273
+      - ZZ_2204
+      - 加拿大_TG@nodesharing_327
+      - ZZ_97
+      - 加拿大_TG@nodesharing_231
+      - 加拿大_TG@nodesharing_347
+      - 加拿大_TG@nodesharing_380
+      - US_二爷翻墙网：https://1808.ga_134
+      - US_二爷翻墙网：https://1808.ga_316
       - US_二爷翻墙网：https://1808.ga_376
       - US_1727
-      - SG_二爷翻墙网：https://1808.ga_5
-      - 加拿大_TG@nodesharing_352
-      - US_二爷翻墙网：https://1808.ga_308
-      - _CA_加拿大 16
+      - US_62
+      - 日本
+      - V1-韩国01 中继A | x1.5
+      - 新加坡1-三网优化
       - CA_二爷翻墙网：https://1808.ga_380
-      - 美国_TG@nodesharing_239
-      - ZZ_2204
+      - 美国_TG@nodesharing_136
+      - 日本1-三网优化
       - "@SSRSUB-V05-付费推荐:suo.yt/ssrsub"
-      - 美国_TG@nodesharing_323
+      - "@SSRSUB-V25-付费推荐:suo.yt/ssrsub"
+      - V2-巴西01 中继E
+      - 香港3-三网优化
+      - "@SSRSUB-V13-付费推荐:suo.yt/ssrsub"
+      - V2-印度01 中继E | 1.5x
+      - V1-美国01 中继C | 1.5x
+      - _CA_加拿大 16
+      - _CA_加拿大 29
       - GB-172.99.190.205-473
-      - ZZ_93
-      - US_52
+      - CA_12
+      - 加拿大_TG@nodesharing_336
+      - V2-印度01 中继D | 1.5x
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
