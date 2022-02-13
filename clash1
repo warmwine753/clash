@@ -5,623 +5,411 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 新加坡1-三网优化, server: 0211sg3.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 0211sg3.fans8.xyz}, udp: true}
-  - {name: 美国阿伟科技@TG/油管, server: 103.wgong.xyz, port: 52203, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本1-三网优化, server: 0211jp.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 0211jp.fans8.xyz}, udp: true}
-  - {name: 2092 @WangCai_1, server: 120.197.85.73, port: 2092, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
-  - {name: 3062 @WangCai_1, server: 120.197.85.73, port: 3062, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
-  - {name: US_0443 @WangCai_1, server: 169.197.142.21, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_9101 @WangCai_1, server: 169.197.142.21, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_5003 @WangCai_1, server: 169.197.142.21, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_7306 @WangCai_1, server: 169.197.142.21, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_8000 @WangCai_1, server: 169.197.142.21, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_7307 @WangCai_1, server: 169.197.142.216, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: CN2-GIA-美国2, server: uscn2.bilibili.best, port: 16760, type: trojan, password: 42968c9d-2a42-4776-8afb-dc56e53731bc, sni: uscn2.bilibili.best, skip-cert-verify: true, udp: true}
-  - {name: US_6697 @WangCai_1, server: 169.197.142.21, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_6697 @WangCai_1 2, server: 169.197.142.216, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_2375 @WangCai_1, server: 169.197.142.21, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_7001 @WangCai_1, server: 169.197.142.21, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_5004 @WangCai_1, server: 169.197.142.21, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_6379 @WangCai_1, server: 169.197.142.21, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US_7307 @WangCai_1 2, server: 169.197.142.21, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_8882 @WangCai_1, server: 169.197.142.21, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US_8000 @WangCai_1 2, server: 169.197.142.216, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_8080 @WangCai_1, server: 169.197.142.216, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_8008 @WangCai_1, server: 169.197.142.216, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_5003 @WangCai_1 2, server: 169.197.142.216, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_8091 @WangCai_1, server: 169.197.142.21, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_8008 @WangCai_1 2, server: 169.197.142.21, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_6679 @WangCai_1, server: 169.197.142.21, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_9102 @WangCai_1, server: 169.197.142.21, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 5016 @WangCai_1, server: 120.197.85.73, port: 5016, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
-  - {name: US_8080 @WangCai_1 2, server: 169.197.142.21, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 5015 @WangCai_1, server: 120.197.85.73, port: 5015, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
-  - {name: 澳大利亚1*, server: gy.n.hxray.me, port: 22402, type: ss, cipher: aes-128-gcm, password: 42968c9d-2a42-4776-8afb-dc56e53731bc, udp: true}
-  - {name: US_3389 @WangCai_1, server: 169.197.142.21, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国阿伟科技@TG/油管 2, server: 107.155.83.152, port: 443, type: vmess, uuid: 8f469f1b-1fd3-433b-9fd9-b4e041b9df16, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: 2042 @WangCai_1, server: 120.197.85.73, port: 2042, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
-  - {name: US_7001 @WangCai_1 2, server: 169.197.142.216, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_8119 @WangCai_1, server: 169.197.142.21, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_8881 @WangCai_1, server: 169.197.142.216, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 印度2*, server: zu.n.hxray.me, port: 37001, type: ss, cipher: aes-128-gcm, password: 42968c9d-2a42-4776-8afb-dc56e53731bc, udp: true}
-  - {name: 加拿大_TG@nodesharing_347, server: 198.57.27.152, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_8888 @WangCai_1, server: 169.197.142.216, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 日本2-三网优化, server: 0211jp11.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 0211jp11.fans8.xyz}, udp: true}
-  - {name: _CA_加拿大 18, server: 198.57.27.184, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_7306 @WangCai_1 2, server: 169.197.142.216, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 加拿大_TG@nodesharing_437, server: 198.57.27.184, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_8118 @WangCai_1, server: 169.197.142.21, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 加拿大_TG@nodesharing_297, server: 198.57.27.152, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 加拿大阿伟科技@TG/油管, server: 134.195.196.221, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_5001 @WangCai_1, server: 169.197.142.21, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国_TG@nodesharing_243, server: 167.88.63.74, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_6679 @WangCai_1 2, server: 169.197.142.216, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 加拿大_TG@nodesharing_380, server: 198.57.27.184, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CA_151, server: 198.57.27.152, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 加拿大_TG@nodesharing_344, server: 198.57.27.184, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 台湾阿伟科技@TG/油管, server: 183.232.56.202, port: 64088, type: vmess, uuid: 51f79218-4c27-3a41-9c4f-bda3462a9b27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: 183.232.56.202}, udp: true}
-  - {name: 日本3-三网优化, server: 0211osk21.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 0211osk21.fans8.xyz}, udp: true}
-  - {name: 馃嚚馃嚘+鍔犳嬁澶�+2, server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国阿伟科技@TG/油管 3, server: 167.88.63.61, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: CA, server: 198.57.27.184, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国_TG@nodesharing_136, server: 167.88.63.28, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国_TG@nodesharing_175, server: 167.88.63.74, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CA-134.195.196.147-462, server: 134.195.196.147, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 5017 @WangCai_1, server: 120.197.85.73, port: 5017, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
-  - {name: US_2376 @WangCai_1, server: 169.197.142.21, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 加拿大_TG@nodesharing_352, server: 198.57.27.184, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_9102 @WangCai_1 2, server: 169.197.142.216, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 2093 @WangCai_1, server: 120.197.85.73, port: 2093, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
-  - {name: 加拿大_TG@nodesharing_294, server: 134.195.196.147, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 俄罗斯阿伟科技@TG/油管, server: 5.188.35.120, port: 443, type: vmess, uuid: 0c7a06d0-8061-4df7-b521-960e2b9ce0f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: GB-172.99.190.205-473, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 法国阿伟科技@TG/油管, server: 149.202.82.172, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_8888 @WangCai_1 2, server: 169.197.142.21, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 5010 @WangCai_1, server: 120.197.85.73, port: 5010, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
-  - {name: 5001 @WangCai_1, server: 120.197.85.73, port: 5001, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
-  - {name: 5019 @WangCai_1, server: 120.197.85.73, port: 5019, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
-  - {name: US_5500 @WangCai_1, server: 169.197.142.21, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 加拿大_TG@nodesharing_169, server: 134.195.196.147, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_2375 @WangCai_1 2, server: 169.197.142.216, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 日本1*, server: zu.n.hxray.me, port: 43944, type: ss, cipher: aes-128-gcm, password: 42968c9d-2a42-4776-8afb-dc56e53731bc, udp: true}
-  - {name: US_7002 @WangCai_1, server: 169.197.142.216, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_9101 @WangCai_1 2, server: 169.197.142.216, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 加拿大_TG@nodesharing_194, server: 134.195.196.200, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 印度1*, server: gy.n.hxray.me, port: 14059, type: ss, cipher: aes-128-gcm, password: 42968c9d-2a42-4776-8afb-dc56e53731bc, udp: true}
-  - {name: 3080 @WangCai_1, server: 120.197.85.73, port: 3080, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
-  - {name: 5020 @WangCai_1, server: 120.197.85.73, port: 5020, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
-  - {name: 美国阿伟科技@TG/油管 4, server: 167.88.63.74, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: youtube:8度科技_美国 10, server: 167.88.63.28, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: 美国1-三网优化, server: 1222us.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1222us.fans8.xyz}, udp: true}
-  - {name: 新加坡2*, server: gy.n.hxray.me, port: 15763, type: ss, cipher: aes-128-gcm, password: 42968c9d-2a42-4776-8afb-dc56e53731bc, udp: true}
-  - {name: 2061 @WangCai_1, server: 120.197.85.73, port: 2061, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
-  - {name: 香港阿伟科技@TG/油管, server: 107.wowogg.cyou, port: 52207, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技@TG/油管 2, server: 89.wowogg.cyou, port: 52289, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技@TG/油管 3, server: 107.wowogg.cyou, port: 52207, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港阿伟科技@TG/油管 4, server: 108.wowogg.cyou, port: 11224, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港1*Hxray.me, server: gy.n.hxray.me, port: 24724, type: ss, cipher: aes-128-gcm, password: 42968c9d-2a42-4776-8afb-dc56e53731bc, udp: true}
-  - {name: 香港阿伟科技@TG/油管 5, server: 110.wowogg.cyou, port: 52210, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: SG_二爷翻墙网：https://1808.ga_5, server: lin-sg.tgproxy.wtf, port: 443, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: lin-sg.tgproxy.wtf}, udp: true}
-  - {name: 2040 @WangCai_1, server: 120.197.85.73, port: 2040, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
-  - {name: 新加坡1*, server: gy.n.hxray.me, port: 10949, type: ss, cipher: aes-128-gcm, password: 42968c9d-2a42-4776-8afb-dc56e53731bc, udp: true}
-  - {name: CA-198.57.27.152-008, server: 198.57.27.152, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_52, server: 172.99.190.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_3306 @WangCai_1, server: 169.197.142.21, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 加拿大_TG@nodesharing_336, server: 198.57.27.241, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 德国阿伟科技@TG/油管, server: 37.120.134.207, port: 443, type: vmess, uuid: 5c0beec7-9b91-4e28-85b0-e3ff49b4ac50, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: US_56, server: 172.99.190.188, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 台湾阿伟科技@TG/油管 2, server: 183.232.56.202, port: 64088, type: vmess, uuid: 51f79218-4c27-3a41-9c4f-bda3462a9b27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: in02.dns2333.xyz}, udp: true}
-  - {name: US_5000 @WangCai_1, server: 169.197.142.216, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_5500 @WangCai_1 2, server: 169.197.142.216, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 4005 @WangCai_1, server: 120.197.85.73, port: 4005, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
-  - {name: 美国_TG@nodesharing_267, server: 167.88.63.74, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: ZZ_2201, server: 134.195.196.200, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国阿伟科技@TG/油管 5, server: 167.88.63.74, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 加拿大_TG@nodesharing_291, server: 134.195.196.200, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _CA_加拿大 16, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: CA_217, server: 198.57.27.241, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 5009 @WangCai_1, server: 120.197.85.73, port: 5009, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
-  - {name: CA-134.195.196.200-459, server: 134.195.196.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 台湾阿伟科技@TG/油管 3, server: tw.main.tgproxy.wtf, port: 30002, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: tw.main.tgproxy.wtf}, udp: true}
-  - {name: 加拿大_TG@nodesharing_273, server: 134.195.196.81, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: CA_12, server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 2065 @WangCai_1, server: 120.197.85.73, port: 2065, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
-  - {name: US_二爷翻墙网：https://1808.ga_134, server: 167.88.63.61, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_58, server: 167.88.63.74, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 加拿大_TG@nodesharing_400, server: 198.57.27.241, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 加拿大_TG@nodesharing_348, server: 198.57.27.241, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 美国_TG@nodesharing_165, server: 167.88.63.74, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 英国_TG@nodesharing_217, server: 172.99.190.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美国2*, server: zu.n.hxray.me, port: 46037, type: ss, cipher: aes-128-gcm, password: 42968c9d-2a42-4776-8afb-dc56e53731bc, udp: true}
-  - {name: 德国阿伟科技@TG/油管 2, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 英国1*, server: gy.n.hxray.me, port: 22403, type: ss, cipher: chacha20-ietf-poly1305, password: 42968c9d-2a42-4776-8afb-dc56e53731bc, udp: true}
-  - {name: US_二爷翻墙网：https://1808.ga_316, server: 167.88.63.61, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 5018 @WangCai_1, server: 120.197.85.73, port: 5018, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
-  - {name: US_二爷翻墙网：https://1808.ga_308, server: 167.88.63.61, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: CA_二爷翻墙网：https://1808.ga_380, server: 134.195.196.193, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1727, server: 167.88.62.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_62, server: 167.88.62.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 香港阿伟科技@TG/油管 6, server: 93.wowogg.cyou, port: 52293, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CA_169, server: 198.57.27.152, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 2064 @WangCai_1, server: 120.197.85.73, port: 2064, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
-  - {name: 加拿大_TG@nodesharing_268, server: 134.195.196.200, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国1*, server: zu.n.hxray.me, port: 46458, type: ss, cipher: aes-128-gcm, password: 42968c9d-2a42-4776-8afb-dc56e53731bc, udp: true}
-  - {name: 美国3*, server: zu.n.hxray.me, port: 49244, type: ss, cipher: aes-128-gcm, password: 42968c9d-2a42-4776-8afb-dc56e53731bc, udp: true}
-  - {name: youtube:8度科技_美国 3, server: 167.88.62.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ZZ_93, server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 日本, server: 54.178.95.72, port: 25565, type: vmess, uuid: d2702d4a-d815-4700-8403-3983856a9b6f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index.php, ws-headers: {Host: baidu.com}, udp: true}
-  - {name: ZZ_102, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 加拿大_TG@nodesharing_352, server: 198.57.27.184, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_7307 @WangCai_1, server: 169.197.142.216, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 日本1*, server: zu.n.hxray.me, port: 43944, type: ss, cipher: aes-128-gcm, password: 42968c9d-2a42-4776-8afb-dc56e53731bc, udp: true}
   - {name: _CA_加拿大 29, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 2063 @WangCai_1, server: 120.197.85.73, port: 2063, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
-  - {name: 7001 @WangCai_1, server: 120.197.85.73, port: 7001, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
+  - {name: 加拿大_TG@nodesharing_169, server: 134.195.196.147, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1727, server: 167.88.62.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: SG_二爷翻墙网：https://1808.ga_5, server: lin-sg.tgproxy.wtf, port: 443, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: lin-sg.tgproxy.wtf}, udp: true}
+  - {name: US_8008 @WangCai_1, server: 169.197.142.216, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 美国_TG@nodesharing_267, server: 167.88.63.74, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 16, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_62, server: 167.88.62.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: CA_217, server: 198.57.27.241, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CA-134.195.196.200-459, server: 134.195.196.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_52, server: 172.99.190.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 加拿大_TG@nodesharing_380, server: 198.57.27.184, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 加拿大_TG@nodesharing_294, server: 134.195.196.147, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CN2-GIA-美国2, server: uscn2.bilibili.best, port: 16760, type: trojan, password: 42968c9d-2a42-4776-8afb-dc56e53731bc, sni: uscn2.bilibili.best, skip-cert-verify: true, udp: true}
+  - {name: CA_151, server: 198.57.27.152, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大_TG@nodesharing_437, server: 198.57.27.184, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 加拿大_TG@nodesharing_291, server: 134.195.196.200, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大_TG@nodesharing_400, server: 198.57.27.241, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国阿伟科技@TG/油管, server: 167.88.63.61, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_56, server: 172.99.190.188, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 英国_TG@nodesharing_217, server: 172.99.190.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 加拿大_TG@nodesharing_347, server: 198.57.27.152, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 美国_TG@nodesharing_243, server: 167.88.63.74, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _CA_加拿大 18, server: 198.57.27.184, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CA_12, server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_二爷翻墙网：https://1808.ga_134, server: 167.88.63.61, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 加拿大阿伟科技@TG/油管, server: 134.195.196.221, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: CA_169, server: 198.57.27.152, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国_TG@nodesharing_165, server: 167.88.63.74, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: CA, server: 198.57.27.184, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 加拿大_TG@nodesharing_336, server: 198.57.27.241, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_7002 @WangCai_1, server: 169.197.142.216, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 美国阿伟科技@TG/油管 2, server: 167.88.63.74, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: ZZ_93, server: 134.195.196.81, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 加拿大_TG@nodesharing_348, server: 198.57.27.241, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 美国_TG@nodesharing_175, server: 167.88.63.74, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: ZZ_102, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 加拿大_TG@nodesharing_297, server: 198.57.27.152, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 馃嚚馃嚘+鍔犳嬁澶�+2, server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CA-198.57.27.152-008, server: 198.57.27.152, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_5000 @WangCai_1, server: 169.197.142.216, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国阿伟科技@TG/油管 3, server: 167.88.63.74, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 德国阿伟科技@TG/油管, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CA_二爷翻墙网：https://1808.ga_380, server: 134.195.196.193, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大_TG@nodesharing_273, server: 134.195.196.81, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 美国1*, server: zu.n.hxray.me, port: 46458, type: ss, cipher: aes-128-gcm, password: 42968c9d-2a42-4776-8afb-dc56e53731bc, udp: true}
+  - {name: US_7306 @WangCai_1, server: 169.197.142.216, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_6697 @WangCai_1, server: 169.197.142.216, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_二爷翻墙网：https://1808.ga_308, server: 167.88.63.61, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: ZZ_2204, server: 134.195.196.193, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_8000 @WangCai_1, server: 169.197.142.216, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_8881 @WangCai_1, server: 169.197.142.216, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_6679 @WangCai_1, server: 169.197.142.216, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 日本, server: 54.178.95.72, port: 25565, type: vmess, uuid: d2702d4a-d815-4700-8403-3983856a9b6f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index.php, ws-headers: {Host: baidu.com}, udp: true}
+  - {name: youtube:8度科技_美国 3, server: 167.88.62.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 新加坡1-三网优化, server: 0211sg3.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 0211sg3.fans8.xyz}, udp: true}
+  - {name: US_2375 @WangCai_1, server: 169.197.142.216, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_8888 @WangCai_1, server: 169.197.142.216, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_9102 @WangCai_1, server: 169.197.142.216, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 台湾阿伟科技@TG/油管, server: tw.main.tgproxy.wtf, port: 30002, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: tw.main.tgproxy.wtf}, udp: true}
+  - {name: 美国3*, server: zu.n.hxray.me, port: 49244, type: ss, cipher: aes-128-gcm, password: 42968c9d-2a42-4776-8afb-dc56e53731bc, udp: true}
+  - {name: 美国2*, server: zu.n.hxray.me, port: 46037, type: ss, cipher: aes-128-gcm, password: 42968c9d-2a42-4776-8afb-dc56e53731bc, udp: true}
+  - {name: 台湾阿伟科技@TG/油管 2, server: 183.232.56.202, port: 64088, type: vmess, uuid: 51f79218-4c27-3a41-9c4f-bda3462a9b27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: 183.232.56.202}, udp: true}
+  - {name: US_5500 @WangCai_1, server: 169.197.142.216, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 台湾阿伟科技@TG/油管 3, server: 183.232.56.202, port: 64088, type: vmess, uuid: 51f79218-4c27-3a41-9c4f-bda3462a9b27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: in02.dns2333.xyz}, udp: true}
+  - {name: US_7001 @WangCai_1, server: 169.197.142.216, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 日本1-三网优化, server: 0211jp.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 0211jp.fans8.xyz}, udp: true}
+  - {name: 日本2-三网优化, server: 0211jp11.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 0211jp11.fans8.xyz}, udp: true}
+  - {name: 加拿大_TG@nodesharing_344, server: 198.57.27.184, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 日本3-三网优化, server: 0211osk21.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 0211osk21.fans8.xyz}, udp: true}
+  - {name: 加拿大_TG@nodesharing_194, server: 134.195.196.200, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_二爷翻墙网：https://1808.ga_316, server: 167.88.63.61, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_8080 @WangCai_1, server: 169.197.142.216, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_9101 @WangCai_1, server: 169.197.142.216, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 香港阿伟科技@TG/油管, server: 107.wowogg.cyou, port: 52207, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国_TG@nodesharing_136, server: 167.88.63.28, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 香港阿伟科技@TG/油管 2, server: 107.wowogg.cyou, port: 52207, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港阿伟科技@TG/油管 3, server: 108.wowogg.cyou, port: 11224, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港阿伟科技@TG/油管 4, server: 93.wowogg.cyou, port: 52293, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港阿伟科技@TG/油管 5, server: 110.wowogg.cyou, port: 52210, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港阿伟科技@TG/油管 6, server: 89.wowogg.cyou, port: 52289, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 加拿大_TG@nodesharing_268, server: 134.195.196.200, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_58, server: 167.88.63.74, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: GB-172.99.190.205-473, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: CA-134.195.196.147-462, server: 134.195.196.147, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 俄罗斯阿伟科技@TG/油管, server: 5.188.35.120, port: 443, type: vmess, uuid: 0c7a06d0-8061-4df7-b521-960e2b9ce0f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: 印度2*, server: zu.n.hxray.me, port: 37001, type: ss, cipher: aes-128-gcm, password: 42968c9d-2a42-4776-8afb-dc56e53731bc, udp: true}
+  - {name: 法国阿伟科技@TG/油管, server: 149.202.82.172, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 德国阿伟科技@TG/油管 2, server: 37.120.134.207, port: 443, type: vmess, uuid: 5c0beec7-9b91-4e28-85b0-e3ff49b4ac50, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: 美国阿伟科技@TG/油管 4, server: 107.155.83.152, port: 443, type: vmess, uuid: 8f469f1b-1fd3-433b-9fd9-b4e041b9df16, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: US_5003 @WangCai_1, server: 169.197.142.216, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡1-三网优化
-      - 美国阿伟科技@TG/油管
-      - 日本1-三网优化
-      - 2092 @WangCai_1
-      - 3062 @WangCai_1
-      - US_0443 @WangCai_1
-      - US_9101 @WangCai_1
-      - US_5003 @WangCai_1
-      - US_7306 @WangCai_1
-      - US_8000 @WangCai_1
-      - US_7307 @WangCai_1
-      - CN2-GIA-美国2
-      - US_6697 @WangCai_1
-      - US_6697 @WangCai_1 2
-      - US_2375 @WangCai_1
-      - US_7001 @WangCai_1
-      - US_5004 @WangCai_1
-      - US_6379 @WangCai_1
-      - US_7307 @WangCai_1 2
-      - US_8882 @WangCai_1
-      - US_8000 @WangCai_1 2
-      - US_8080 @WangCai_1
-      - US_8008 @WangCai_1
-      - US_5003 @WangCai_1 2
-      - US_8091 @WangCai_1
-      - US_8008 @WangCai_1 2
-      - US_6679 @WangCai_1
-      - US_9102 @WangCai_1
-      - 5016 @WangCai_1
-      - US_8080 @WangCai_1 2
-      - 5015 @WangCai_1
-      - 澳大利亚1*
-      - US_3389 @WangCai_1
-      - 美国阿伟科技@TG/油管 2
-      - 2042 @WangCai_1
-      - US_7001 @WangCai_1 2
-      - US_8119 @WangCai_1
-      - US_8881 @WangCai_1
-      - 印度2*
-      - 加拿大_TG@nodesharing_347
-      - US_8888 @WangCai_1
-      - 日本2-三网优化
-      - _CA_加拿大 18
-      - US_7306 @WangCai_1 2
-      - 加拿大_TG@nodesharing_437
-      - US_8118 @WangCai_1
-      - 加拿大_TG@nodesharing_297
-      - 加拿大阿伟科技@TG/油管
-      - US_5001 @WangCai_1
-      - 美国_TG@nodesharing_243
-      - US_6679 @WangCai_1 2
-      - 加拿大_TG@nodesharing_380
-      - CA_151
-      - 加拿大_TG@nodesharing_344
-      - 台湾阿伟科技@TG/油管
-      - 日本3-三网优化
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 美国阿伟科技@TG/油管 3
-      - CA
-      - 美国_TG@nodesharing_136
-      - 美国_TG@nodesharing_175
-      - CA-134.195.196.147-462
-      - 5017 @WangCai_1
-      - US_2376 @WangCai_1
-      - 加拿大_TG@nodesharing_352
-      - US_9102 @WangCai_1 2
-      - 2093 @WangCai_1
-      - 加拿大_TG@nodesharing_294
-      - 俄罗斯阿伟科技@TG/油管
-      - GB-172.99.190.205-473
-      - 法国阿伟科技@TG/油管
-      - US_8888 @WangCai_1 2
-      - 5010 @WangCai_1
-      - 5001 @WangCai_1
-      - 5019 @WangCai_1
-      - US_5500 @WangCai_1
-      - 加拿大_TG@nodesharing_169
-      - US_2375 @WangCai_1 2
-      - 日本1*
-      - US_7002 @WangCai_1
-      - US_9101 @WangCai_1 2
-      - 加拿大_TG@nodesharing_194
-      - 印度1*
-      - 3080 @WangCai_1
-      - 5020 @WangCai_1
-      - 美国阿伟科技@TG/油管 4
       - youtube:8度科技_美国 10
       - 美国1-三网优化
-      - 新加坡2*
-      - 2061 @WangCai_1
+      - ZZ_2201
+      - 加拿大_TG@nodesharing_352
+      - US_7307 @WangCai_1
+      - 日本1*
+      - _CA_加拿大 29
+      - 加拿大_TG@nodesharing_169
+      - US_1727
+      - SG_二爷翻墙网：https://1808.ga_5
+      - US_8008 @WangCai_1
+      - 美国_TG@nodesharing_267
+      - _CA_加拿大 16
+      - US_62
+      - CA_217
+      - CA-134.195.196.200-459
+      - US_52
+      - 加拿大_TG@nodesharing_380
+      - 加拿大_TG@nodesharing_294
+      - CN2-GIA-美国2
+      - CA_151
+      - 加拿大_TG@nodesharing_437
+      - 加拿大_TG@nodesharing_291
+      - 加拿大_TG@nodesharing_400
+      - 美国阿伟科技@TG/油管
+      - US_56
+      - 英国_TG@nodesharing_217
+      - 加拿大_TG@nodesharing_347
+      - 美国_TG@nodesharing_243
+      - _CA_加拿大 18
+      - CA_12
+      - US_二爷翻墙网：https://1808.ga_134
+      - 加拿大阿伟科技@TG/油管
+      - CA_169
+      - 美国_TG@nodesharing_165
+      - CA
+      - 加拿大_TG@nodesharing_336
+      - US_7002 @WangCai_1
+      - 美国阿伟科技@TG/油管 2
+      - ZZ_93
+      - 加拿大_TG@nodesharing_348
+      - 美国_TG@nodesharing_175
+      - ZZ_102
+      - 加拿大_TG@nodesharing_297
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - CA-198.57.27.152-008
+      - US_5000 @WangCai_1
+      - 美国阿伟科技@TG/油管 3
+      - 德国阿伟科技@TG/油管
+      - CA_二爷翻墙网：https://1808.ga_380
+      - 加拿大_TG@nodesharing_273
+      - 美国1*
+      - US_7306 @WangCai_1
+      - US_6697 @WangCai_1
+      - US_二爷翻墙网：https://1808.ga_308
+      - ZZ_2204
+      - US_8000 @WangCai_1
+      - US_8881 @WangCai_1
+      - US_6679 @WangCai_1
+      - 日本
+      - youtube:8度科技_美国 3
+      - 新加坡1-三网优化
+      - US_2375 @WangCai_1
+      - US_8888 @WangCai_1
+      - US_9102 @WangCai_1
+      - 台湾阿伟科技@TG/油管
+      - 美国3*
+      - 美国2*
+      - 台湾阿伟科技@TG/油管 2
+      - US_5500 @WangCai_1
+      - 台湾阿伟科技@TG/油管 3
+      - US_7001 @WangCai_1
+      - 日本1-三网优化
+      - 日本2-三网优化
+      - 加拿大_TG@nodesharing_344
+      - 日本3-三网优化
+      - 加拿大_TG@nodesharing_194
+      - US_二爷翻墙网：https://1808.ga_316
+      - US_8080 @WangCai_1
+      - US_9101 @WangCai_1
       - 香港阿伟科技@TG/油管
+      - 美国_TG@nodesharing_136
       - 香港阿伟科技@TG/油管 2
       - 香港阿伟科技@TG/油管 3
       - 香港阿伟科技@TG/油管 4
-      - 香港1*Hxray.me
       - 香港阿伟科技@TG/油管 5
-      - SG_二爷翻墙网：https://1808.ga_5
-      - 2040 @WangCai_1
-      - 新加坡1*
-      - CA-198.57.27.152-008
-      - US_52
-      - US_3306 @WangCai_1
-      - 加拿大_TG@nodesharing_336
-      - 德国阿伟科技@TG/油管
-      - US_56
-      - 台湾阿伟科技@TG/油管 2
-      - US_5000 @WangCai_1
-      - US_5500 @WangCai_1 2
-      - 4005 @WangCai_1
-      - 美国_TG@nodesharing_267
-      - ZZ_2201
-      - 美国阿伟科技@TG/油管 5
-      - 加拿大_TG@nodesharing_291
-      - _CA_加拿大 16
-      - CA_217
-      - 5009 @WangCai_1
-      - CA-134.195.196.200-459
-      - 台湾阿伟科技@TG/油管 3
-      - 加拿大_TG@nodesharing_273
-      - CA_12
-      - 2065 @WangCai_1
-      - US_二爷翻墙网：https://1808.ga_134
-      - US_58
-      - 加拿大_TG@nodesharing_400
-      - 加拿大_TG@nodesharing_348
-      - 美国_TG@nodesharing_165
-      - 英国_TG@nodesharing_217
-      - 美国2*
-      - 德国阿伟科技@TG/油管 2
-      - 英国1*
-      - US_二爷翻墙网：https://1808.ga_316
-      - 5018 @WangCai_1
-      - US_二爷翻墙网：https://1808.ga_308
-      - CA_二爷翻墙网：https://1808.ga_380
-      - US_1727
-      - US_62
       - 香港阿伟科技@TG/油管 6
-      - CA_169
-      - 2064 @WangCai_1
       - 加拿大_TG@nodesharing_268
-      - 美国1*
-      - 美国3*
-      - youtube:8度科技_美国 3
-      - ZZ_93
-      - 日本
-      - ZZ_102
-      - _CA_加拿大 29
-      - 2063 @WangCai_1
-      - 7001 @WangCai_1
-      - ZZ_2204
+      - US_58
+      - GB-172.99.190.205-473
+      - CA-134.195.196.147-462
+      - 俄罗斯阿伟科技@TG/油管
+      - 印度2*
+      - 法国阿伟科技@TG/油管
+      - 德国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 4
+      - US_5003 @WangCai_1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 新加坡1-三网优化
-      - 美国阿伟科技@TG/油管
-      - 日本1-三网优化
-      - 2092 @WangCai_1
-      - 3062 @WangCai_1
-      - US_0443 @WangCai_1
-      - US_9101 @WangCai_1
-      - US_5003 @WangCai_1
-      - US_7306 @WangCai_1
-      - US_8000 @WangCai_1
-      - US_7307 @WangCai_1
-      - CN2-GIA-美国2
-      - US_6697 @WangCai_1
-      - US_6697 @WangCai_1 2
-      - US_2375 @WangCai_1
-      - US_7001 @WangCai_1
-      - US_5004 @WangCai_1
-      - US_6379 @WangCai_1
-      - US_7307 @WangCai_1 2
-      - US_8882 @WangCai_1
-      - US_8000 @WangCai_1 2
-      - US_8080 @WangCai_1
-      - US_8008 @WangCai_1
-      - US_5003 @WangCai_1 2
-      - US_8091 @WangCai_1
-      - US_8008 @WangCai_1 2
-      - US_6679 @WangCai_1
-      - US_9102 @WangCai_1
-      - 5016 @WangCai_1
-      - US_8080 @WangCai_1 2
-      - 5015 @WangCai_1
-      - 澳大利亚1*
-      - US_3389 @WangCai_1
-      - 美国阿伟科技@TG/油管 2
-      - 2042 @WangCai_1
-      - US_7001 @WangCai_1 2
-      - US_8119 @WangCai_1
-      - US_8881 @WangCai_1
-      - 印度2*
-      - 加拿大_TG@nodesharing_347
-      - US_8888 @WangCai_1
-      - 日本2-三网优化
-      - _CA_加拿大 18
-      - US_7306 @WangCai_1 2
-      - 加拿大_TG@nodesharing_437
-      - US_8118 @WangCai_1
-      - 加拿大_TG@nodesharing_297
-      - 加拿大阿伟科技@TG/油管
-      - US_5001 @WangCai_1
-      - 美国_TG@nodesharing_243
-      - US_6679 @WangCai_1 2
-      - 加拿大_TG@nodesharing_380
-      - CA_151
-      - 加拿大_TG@nodesharing_344
-      - 台湾阿伟科技@TG/油管
-      - 日本3-三网优化
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 美国阿伟科技@TG/油管 3
-      - CA
-      - 美国_TG@nodesharing_136
-      - 美国_TG@nodesharing_175
-      - CA-134.195.196.147-462
-      - 5017 @WangCai_1
-      - US_2376 @WangCai_1
-      - 加拿大_TG@nodesharing_352
-      - US_9102 @WangCai_1 2
-      - 2093 @WangCai_1
-      - 加拿大_TG@nodesharing_294
-      - 俄罗斯阿伟科技@TG/油管
-      - GB-172.99.190.205-473
-      - 法国阿伟科技@TG/油管
-      - US_8888 @WangCai_1 2
-      - 5010 @WangCai_1
-      - 5001 @WangCai_1
-      - 5019 @WangCai_1
-      - US_5500 @WangCai_1
-      - 加拿大_TG@nodesharing_169
-      - US_2375 @WangCai_1 2
-      - 日本1*
-      - US_7002 @WangCai_1
-      - US_9101 @WangCai_1 2
-      - 加拿大_TG@nodesharing_194
-      - 印度1*
-      - 3080 @WangCai_1
-      - 5020 @WangCai_1
-      - 美国阿伟科技@TG/油管 4
       - youtube:8度科技_美国 10
       - 美国1-三网优化
-      - 新加坡2*
-      - 2061 @WangCai_1
+      - ZZ_2201
+      - 加拿大_TG@nodesharing_352
+      - US_7307 @WangCai_1
+      - 日本1*
+      - _CA_加拿大 29
+      - 加拿大_TG@nodesharing_169
+      - US_1727
+      - SG_二爷翻墙网：https://1808.ga_5
+      - US_8008 @WangCai_1
+      - 美国_TG@nodesharing_267
+      - _CA_加拿大 16
+      - US_62
+      - CA_217
+      - CA-134.195.196.200-459
+      - US_52
+      - 加拿大_TG@nodesharing_380
+      - 加拿大_TG@nodesharing_294
+      - CN2-GIA-美国2
+      - CA_151
+      - 加拿大_TG@nodesharing_437
+      - 加拿大_TG@nodesharing_291
+      - 加拿大_TG@nodesharing_400
+      - 美国阿伟科技@TG/油管
+      - US_56
+      - 英国_TG@nodesharing_217
+      - 加拿大_TG@nodesharing_347
+      - 美国_TG@nodesharing_243
+      - _CA_加拿大 18
+      - CA_12
+      - US_二爷翻墙网：https://1808.ga_134
+      - 加拿大阿伟科技@TG/油管
+      - CA_169
+      - 美国_TG@nodesharing_165
+      - CA
+      - 加拿大_TG@nodesharing_336
+      - US_7002 @WangCai_1
+      - 美国阿伟科技@TG/油管 2
+      - ZZ_93
+      - 加拿大_TG@nodesharing_348
+      - 美国_TG@nodesharing_175
+      - ZZ_102
+      - 加拿大_TG@nodesharing_297
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - CA-198.57.27.152-008
+      - US_5000 @WangCai_1
+      - 美国阿伟科技@TG/油管 3
+      - 德国阿伟科技@TG/油管
+      - CA_二爷翻墙网：https://1808.ga_380
+      - 加拿大_TG@nodesharing_273
+      - 美国1*
+      - US_7306 @WangCai_1
+      - US_6697 @WangCai_1
+      - US_二爷翻墙网：https://1808.ga_308
+      - ZZ_2204
+      - US_8000 @WangCai_1
+      - US_8881 @WangCai_1
+      - US_6679 @WangCai_1
+      - 日本
+      - youtube:8度科技_美国 3
+      - 新加坡1-三网优化
+      - US_2375 @WangCai_1
+      - US_8888 @WangCai_1
+      - US_9102 @WangCai_1
+      - 台湾阿伟科技@TG/油管
+      - 美国3*
+      - 美国2*
+      - 台湾阿伟科技@TG/油管 2
+      - US_5500 @WangCai_1
+      - 台湾阿伟科技@TG/油管 3
+      - US_7001 @WangCai_1
+      - 日本1-三网优化
+      - 日本2-三网优化
+      - 加拿大_TG@nodesharing_344
+      - 日本3-三网优化
+      - 加拿大_TG@nodesharing_194
+      - US_二爷翻墙网：https://1808.ga_316
+      - US_8080 @WangCai_1
+      - US_9101 @WangCai_1
       - 香港阿伟科技@TG/油管
+      - 美国_TG@nodesharing_136
       - 香港阿伟科技@TG/油管 2
       - 香港阿伟科技@TG/油管 3
       - 香港阿伟科技@TG/油管 4
-      - 香港1*Hxray.me
       - 香港阿伟科技@TG/油管 5
-      - SG_二爷翻墙网：https://1808.ga_5
-      - 2040 @WangCai_1
-      - 新加坡1*
-      - CA-198.57.27.152-008
-      - US_52
-      - US_3306 @WangCai_1
-      - 加拿大_TG@nodesharing_336
-      - 德国阿伟科技@TG/油管
-      - US_56
-      - 台湾阿伟科技@TG/油管 2
-      - US_5000 @WangCai_1
-      - US_5500 @WangCai_1 2
-      - 4005 @WangCai_1
-      - 美国_TG@nodesharing_267
-      - ZZ_2201
-      - 美国阿伟科技@TG/油管 5
-      - 加拿大_TG@nodesharing_291
-      - _CA_加拿大 16
-      - CA_217
-      - 5009 @WangCai_1
-      - CA-134.195.196.200-459
-      - 台湾阿伟科技@TG/油管 3
-      - 加拿大_TG@nodesharing_273
-      - CA_12
-      - 2065 @WangCai_1
-      - US_二爷翻墙网：https://1808.ga_134
-      - US_58
-      - 加拿大_TG@nodesharing_400
-      - 加拿大_TG@nodesharing_348
-      - 美国_TG@nodesharing_165
-      - 英国_TG@nodesharing_217
-      - 美国2*
-      - 德国阿伟科技@TG/油管 2
-      - 英国1*
-      - US_二爷翻墙网：https://1808.ga_316
-      - 5018 @WangCai_1
-      - US_二爷翻墙网：https://1808.ga_308
-      - CA_二爷翻墙网：https://1808.ga_380
-      - US_1727
-      - US_62
       - 香港阿伟科技@TG/油管 6
-      - CA_169
-      - 2064 @WangCai_1
       - 加拿大_TG@nodesharing_268
-      - 美国1*
-      - 美国3*
-      - youtube:8度科技_美国 3
-      - ZZ_93
-      - 日本
-      - ZZ_102
-      - _CA_加拿大 29
-      - 2063 @WangCai_1
-      - 7001 @WangCai_1
-      - ZZ_2204
+      - US_58
+      - GB-172.99.190.205-473
+      - CA-134.195.196.147-462
+      - 俄罗斯阿伟科技@TG/油管
+      - 印度2*
+      - 法国阿伟科技@TG/油管
+      - 德国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 4
+      - US_5003 @WangCai_1
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡1-三网优化
-      - 美国阿伟科技@TG/油管
-      - 日本1-三网优化
-      - 2092 @WangCai_1
-      - 3062 @WangCai_1
-      - US_0443 @WangCai_1
-      - US_9101 @WangCai_1
-      - US_5003 @WangCai_1
-      - US_7306 @WangCai_1
-      - US_8000 @WangCai_1
-      - US_7307 @WangCai_1
-      - CN2-GIA-美国2
-      - US_6697 @WangCai_1
-      - US_6697 @WangCai_1 2
-      - US_2375 @WangCai_1
-      - US_7001 @WangCai_1
-      - US_5004 @WangCai_1
-      - US_6379 @WangCai_1
-      - US_7307 @WangCai_1 2
-      - US_8882 @WangCai_1
-      - US_8000 @WangCai_1 2
-      - US_8080 @WangCai_1
-      - US_8008 @WangCai_1
-      - US_5003 @WangCai_1 2
-      - US_8091 @WangCai_1
-      - US_8008 @WangCai_1 2
-      - US_6679 @WangCai_1
-      - US_9102 @WangCai_1
-      - 5016 @WangCai_1
-      - US_8080 @WangCai_1 2
-      - 5015 @WangCai_1
-      - 澳大利亚1*
-      - US_3389 @WangCai_1
-      - 美国阿伟科技@TG/油管 2
-      - 2042 @WangCai_1
-      - US_7001 @WangCai_1 2
-      - US_8119 @WangCai_1
-      - US_8881 @WangCai_1
-      - 印度2*
-      - 加拿大_TG@nodesharing_347
-      - US_8888 @WangCai_1
-      - 日本2-三网优化
-      - _CA_加拿大 18
-      - US_7306 @WangCai_1 2
-      - 加拿大_TG@nodesharing_437
-      - US_8118 @WangCai_1
-      - 加拿大_TG@nodesharing_297
-      - 加拿大阿伟科技@TG/油管
-      - US_5001 @WangCai_1
-      - 美国_TG@nodesharing_243
-      - US_6679 @WangCai_1 2
-      - 加拿大_TG@nodesharing_380
-      - CA_151
-      - 加拿大_TG@nodesharing_344
-      - 台湾阿伟科技@TG/油管
-      - 日本3-三网优化
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 美国阿伟科技@TG/油管 3
-      - CA
-      - 美国_TG@nodesharing_136
-      - 美国_TG@nodesharing_175
-      - CA-134.195.196.147-462
-      - 5017 @WangCai_1
-      - US_2376 @WangCai_1
-      - 加拿大_TG@nodesharing_352
-      - US_9102 @WangCai_1 2
-      - 2093 @WangCai_1
-      - 加拿大_TG@nodesharing_294
-      - 俄罗斯阿伟科技@TG/油管
-      - GB-172.99.190.205-473
-      - 法国阿伟科技@TG/油管
-      - US_8888 @WangCai_1 2
-      - 5010 @WangCai_1
-      - 5001 @WangCai_1
-      - 5019 @WangCai_1
-      - US_5500 @WangCai_1
-      - 加拿大_TG@nodesharing_169
-      - US_2375 @WangCai_1 2
-      - 日本1*
-      - US_7002 @WangCai_1
-      - US_9101 @WangCai_1 2
-      - 加拿大_TG@nodesharing_194
-      - 印度1*
-      - 3080 @WangCai_1
-      - 5020 @WangCai_1
-      - 美国阿伟科技@TG/油管 4
       - youtube:8度科技_美国 10
       - 美国1-三网优化
-      - 新加坡2*
-      - 2061 @WangCai_1
+      - ZZ_2201
+      - 加拿大_TG@nodesharing_352
+      - US_7307 @WangCai_1
+      - 日本1*
+      - _CA_加拿大 29
+      - 加拿大_TG@nodesharing_169
+      - US_1727
+      - SG_二爷翻墙网：https://1808.ga_5
+      - US_8008 @WangCai_1
+      - 美国_TG@nodesharing_267
+      - _CA_加拿大 16
+      - US_62
+      - CA_217
+      - CA-134.195.196.200-459
+      - US_52
+      - 加拿大_TG@nodesharing_380
+      - 加拿大_TG@nodesharing_294
+      - CN2-GIA-美国2
+      - CA_151
+      - 加拿大_TG@nodesharing_437
+      - 加拿大_TG@nodesharing_291
+      - 加拿大_TG@nodesharing_400
+      - 美国阿伟科技@TG/油管
+      - US_56
+      - 英国_TG@nodesharing_217
+      - 加拿大_TG@nodesharing_347
+      - 美国_TG@nodesharing_243
+      - _CA_加拿大 18
+      - CA_12
+      - US_二爷翻墙网：https://1808.ga_134
+      - 加拿大阿伟科技@TG/油管
+      - CA_169
+      - 美国_TG@nodesharing_165
+      - CA
+      - 加拿大_TG@nodesharing_336
+      - US_7002 @WangCai_1
+      - 美国阿伟科技@TG/油管 2
+      - ZZ_93
+      - 加拿大_TG@nodesharing_348
+      - 美国_TG@nodesharing_175
+      - ZZ_102
+      - 加拿大_TG@nodesharing_297
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - CA-198.57.27.152-008
+      - US_5000 @WangCai_1
+      - 美国阿伟科技@TG/油管 3
+      - 德国阿伟科技@TG/油管
+      - CA_二爷翻墙网：https://1808.ga_380
+      - 加拿大_TG@nodesharing_273
+      - 美国1*
+      - US_7306 @WangCai_1
+      - US_6697 @WangCai_1
+      - US_二爷翻墙网：https://1808.ga_308
+      - ZZ_2204
+      - US_8000 @WangCai_1
+      - US_8881 @WangCai_1
+      - US_6679 @WangCai_1
+      - 日本
+      - youtube:8度科技_美国 3
+      - 新加坡1-三网优化
+      - US_2375 @WangCai_1
+      - US_8888 @WangCai_1
+      - US_9102 @WangCai_1
+      - 台湾阿伟科技@TG/油管
+      - 美国3*
+      - 美国2*
+      - 台湾阿伟科技@TG/油管 2
+      - US_5500 @WangCai_1
+      - 台湾阿伟科技@TG/油管 3
+      - US_7001 @WangCai_1
+      - 日本1-三网优化
+      - 日本2-三网优化
+      - 加拿大_TG@nodesharing_344
+      - 日本3-三网优化
+      - 加拿大_TG@nodesharing_194
+      - US_二爷翻墙网：https://1808.ga_316
+      - US_8080 @WangCai_1
+      - US_9101 @WangCai_1
       - 香港阿伟科技@TG/油管
+      - 美国_TG@nodesharing_136
       - 香港阿伟科技@TG/油管 2
       - 香港阿伟科技@TG/油管 3
       - 香港阿伟科技@TG/油管 4
-      - 香港1*Hxray.me
       - 香港阿伟科技@TG/油管 5
-      - SG_二爷翻墙网：https://1808.ga_5
-      - 2040 @WangCai_1
-      - 新加坡1*
-      - CA-198.57.27.152-008
-      - US_52
-      - US_3306 @WangCai_1
-      - 加拿大_TG@nodesharing_336
-      - 德国阿伟科技@TG/油管
-      - US_56
-      - 台湾阿伟科技@TG/油管 2
-      - US_5000 @WangCai_1
-      - US_5500 @WangCai_1 2
-      - 4005 @WangCai_1
-      - 美国_TG@nodesharing_267
-      - ZZ_2201
-      - 美国阿伟科技@TG/油管 5
-      - 加拿大_TG@nodesharing_291
-      - _CA_加拿大 16
-      - CA_217
-      - 5009 @WangCai_1
-      - CA-134.195.196.200-459
-      - 台湾阿伟科技@TG/油管 3
-      - 加拿大_TG@nodesharing_273
-      - CA_12
-      - 2065 @WangCai_1
-      - US_二爷翻墙网：https://1808.ga_134
-      - US_58
-      - 加拿大_TG@nodesharing_400
-      - 加拿大_TG@nodesharing_348
-      - 美国_TG@nodesharing_165
-      - 英国_TG@nodesharing_217
-      - 美国2*
-      - 德国阿伟科技@TG/油管 2
-      - 英国1*
-      - US_二爷翻墙网：https://1808.ga_316
-      - 5018 @WangCai_1
-      - US_二爷翻墙网：https://1808.ga_308
-      - CA_二爷翻墙网：https://1808.ga_380
-      - US_1727
-      - US_62
       - 香港阿伟科技@TG/油管 6
-      - CA_169
-      - 2064 @WangCai_1
       - 加拿大_TG@nodesharing_268
-      - 美国1*
-      - 美国3*
-      - youtube:8度科技_美国 3
-      - ZZ_93
-      - 日本
-      - ZZ_102
-      - _CA_加拿大 29
-      - 2063 @WangCai_1
-      - 7001 @WangCai_1
-      - ZZ_2204
+      - US_58
+      - GB-172.99.190.205-473
+      - CA-134.195.196.147-462
+      - 俄罗斯阿伟科技@TG/油管
+      - 印度2*
+      - 法国阿伟科技@TG/油管
+      - 德国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 4
+      - US_5003 @WangCai_1
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -640,169 +428,115 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡1-三网优化
-      - 美国阿伟科技@TG/油管
-      - 日本1-三网优化
-      - 2092 @WangCai_1
-      - 3062 @WangCai_1
-      - US_0443 @WangCai_1
-      - US_9101 @WangCai_1
-      - US_5003 @WangCai_1
-      - US_7306 @WangCai_1
-      - US_8000 @WangCai_1
-      - US_7307 @WangCai_1
-      - CN2-GIA-美国2
-      - US_6697 @WangCai_1
-      - US_6697 @WangCai_1 2
-      - US_2375 @WangCai_1
-      - US_7001 @WangCai_1
-      - US_5004 @WangCai_1
-      - US_6379 @WangCai_1
-      - US_7307 @WangCai_1 2
-      - US_8882 @WangCai_1
-      - US_8000 @WangCai_1 2
-      - US_8080 @WangCai_1
-      - US_8008 @WangCai_1
-      - US_5003 @WangCai_1 2
-      - US_8091 @WangCai_1
-      - US_8008 @WangCai_1 2
-      - US_6679 @WangCai_1
-      - US_9102 @WangCai_1
-      - 5016 @WangCai_1
-      - US_8080 @WangCai_1 2
-      - 5015 @WangCai_1
-      - 澳大利亚1*
-      - US_3389 @WangCai_1
-      - 美国阿伟科技@TG/油管 2
-      - 2042 @WangCai_1
-      - US_7001 @WangCai_1 2
-      - US_8119 @WangCai_1
-      - US_8881 @WangCai_1
-      - 印度2*
-      - 加拿大_TG@nodesharing_347
-      - US_8888 @WangCai_1
-      - 日本2-三网优化
-      - _CA_加拿大 18
-      - US_7306 @WangCai_1 2
-      - 加拿大_TG@nodesharing_437
-      - US_8118 @WangCai_1
-      - 加拿大_TG@nodesharing_297
-      - 加拿大阿伟科技@TG/油管
-      - US_5001 @WangCai_1
-      - 美国_TG@nodesharing_243
-      - US_6679 @WangCai_1 2
-      - 加拿大_TG@nodesharing_380
-      - CA_151
-      - 加拿大_TG@nodesharing_344
-      - 台湾阿伟科技@TG/油管
-      - 日本3-三网优化
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 美国阿伟科技@TG/油管 3
-      - CA
-      - 美国_TG@nodesharing_136
-      - 美国_TG@nodesharing_175
-      - CA-134.195.196.147-462
-      - 5017 @WangCai_1
-      - US_2376 @WangCai_1
-      - 加拿大_TG@nodesharing_352
-      - US_9102 @WangCai_1 2
-      - 2093 @WangCai_1
-      - 加拿大_TG@nodesharing_294
-      - 俄罗斯阿伟科技@TG/油管
-      - GB-172.99.190.205-473
-      - 法国阿伟科技@TG/油管
-      - US_8888 @WangCai_1 2
-      - 5010 @WangCai_1
-      - 5001 @WangCai_1
-      - 5019 @WangCai_1
-      - US_5500 @WangCai_1
-      - 加拿大_TG@nodesharing_169
-      - US_2375 @WangCai_1 2
-      - 日本1*
-      - US_7002 @WangCai_1
-      - US_9101 @WangCai_1 2
-      - 加拿大_TG@nodesharing_194
-      - 印度1*
-      - 3080 @WangCai_1
-      - 5020 @WangCai_1
-      - 美国阿伟科技@TG/油管 4
       - youtube:8度科技_美国 10
       - 美国1-三网优化
-      - 新加坡2*
-      - 2061 @WangCai_1
+      - ZZ_2201
+      - 加拿大_TG@nodesharing_352
+      - US_7307 @WangCai_1
+      - 日本1*
+      - _CA_加拿大 29
+      - 加拿大_TG@nodesharing_169
+      - US_1727
+      - SG_二爷翻墙网：https://1808.ga_5
+      - US_8008 @WangCai_1
+      - 美国_TG@nodesharing_267
+      - _CA_加拿大 16
+      - US_62
+      - CA_217
+      - CA-134.195.196.200-459
+      - US_52
+      - 加拿大_TG@nodesharing_380
+      - 加拿大_TG@nodesharing_294
+      - CN2-GIA-美国2
+      - CA_151
+      - 加拿大_TG@nodesharing_437
+      - 加拿大_TG@nodesharing_291
+      - 加拿大_TG@nodesharing_400
+      - 美国阿伟科技@TG/油管
+      - US_56
+      - 英国_TG@nodesharing_217
+      - 加拿大_TG@nodesharing_347
+      - 美国_TG@nodesharing_243
+      - _CA_加拿大 18
+      - CA_12
+      - US_二爷翻墙网：https://1808.ga_134
+      - 加拿大阿伟科技@TG/油管
+      - CA_169
+      - 美国_TG@nodesharing_165
+      - CA
+      - 加拿大_TG@nodesharing_336
+      - US_7002 @WangCai_1
+      - 美国阿伟科技@TG/油管 2
+      - ZZ_93
+      - 加拿大_TG@nodesharing_348
+      - 美国_TG@nodesharing_175
+      - ZZ_102
+      - 加拿大_TG@nodesharing_297
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - CA-198.57.27.152-008
+      - US_5000 @WangCai_1
+      - 美国阿伟科技@TG/油管 3
+      - 德国阿伟科技@TG/油管
+      - CA_二爷翻墙网：https://1808.ga_380
+      - 加拿大_TG@nodesharing_273
+      - 美国1*
+      - US_7306 @WangCai_1
+      - US_6697 @WangCai_1
+      - US_二爷翻墙网：https://1808.ga_308
+      - ZZ_2204
+      - US_8000 @WangCai_1
+      - US_8881 @WangCai_1
+      - US_6679 @WangCai_1
+      - 日本
+      - youtube:8度科技_美国 3
+      - 新加坡1-三网优化
+      - US_2375 @WangCai_1
+      - US_8888 @WangCai_1
+      - US_9102 @WangCai_1
+      - 台湾阿伟科技@TG/油管
+      - 美国3*
+      - 美国2*
+      - 台湾阿伟科技@TG/油管 2
+      - US_5500 @WangCai_1
+      - 台湾阿伟科技@TG/油管 3
+      - US_7001 @WangCai_1
+      - 日本1-三网优化
+      - 日本2-三网优化
+      - 加拿大_TG@nodesharing_344
+      - 日本3-三网优化
+      - 加拿大_TG@nodesharing_194
+      - US_二爷翻墙网：https://1808.ga_316
+      - US_8080 @WangCai_1
+      - US_9101 @WangCai_1
       - 香港阿伟科技@TG/油管
+      - 美国_TG@nodesharing_136
       - 香港阿伟科技@TG/油管 2
       - 香港阿伟科技@TG/油管 3
       - 香港阿伟科技@TG/油管 4
-      - 香港1*Hxray.me
       - 香港阿伟科技@TG/油管 5
-      - SG_二爷翻墙网：https://1808.ga_5
-      - 2040 @WangCai_1
-      - 新加坡1*
-      - CA-198.57.27.152-008
-      - US_52
-      - US_3306 @WangCai_1
-      - 加拿大_TG@nodesharing_336
-      - 德国阿伟科技@TG/油管
-      - US_56
-      - 台湾阿伟科技@TG/油管 2
-      - US_5000 @WangCai_1
-      - US_5500 @WangCai_1 2
-      - 4005 @WangCai_1
-      - 美国_TG@nodesharing_267
-      - ZZ_2201
-      - 美国阿伟科技@TG/油管 5
-      - 加拿大_TG@nodesharing_291
-      - _CA_加拿大 16
-      - CA_217
-      - 5009 @WangCai_1
-      - CA-134.195.196.200-459
-      - 台湾阿伟科技@TG/油管 3
-      - 加拿大_TG@nodesharing_273
-      - CA_12
-      - 2065 @WangCai_1
-      - US_二爷翻墙网：https://1808.ga_134
-      - US_58
-      - 加拿大_TG@nodesharing_400
-      - 加拿大_TG@nodesharing_348
-      - 美国_TG@nodesharing_165
-      - 英国_TG@nodesharing_217
-      - 美国2*
-      - 德国阿伟科技@TG/油管 2
-      - 英国1*
-      - US_二爷翻墙网：https://1808.ga_316
-      - 5018 @WangCai_1
-      - US_二爷翻墙网：https://1808.ga_308
-      - CA_二爷翻墙网：https://1808.ga_380
-      - US_1727
-      - US_62
       - 香港阿伟科技@TG/油管 6
-      - CA_169
-      - 2064 @WangCai_1
       - 加拿大_TG@nodesharing_268
-      - 美国1*
-      - 美国3*
-      - youtube:8度科技_美国 3
-      - ZZ_93
-      - 日本
-      - ZZ_102
-      - _CA_加拿大 29
-      - 2063 @WangCai_1
-      - 7001 @WangCai_1
-      - ZZ_2204
+      - US_58
+      - GB-172.99.190.205-473
+      - CA-134.195.196.147-462
+      - 俄罗斯阿伟科技@TG/油管
+      - 印度2*
+      - 法国阿伟科技@TG/油管
+      - 德国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 4
+      - US_5003 @WangCai_1
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 台湾阿伟科技@TG/油管
+      - 台湾阿伟科技@TG/油管 2
+      - 台湾阿伟科技@TG/油管 3
       - 香港阿伟科技@TG/油管
       - 香港阿伟科技@TG/油管 2
       - 香港阿伟科技@TG/油管 3
       - 香港阿伟科技@TG/油管 4
-      - 香港1*Hxray.me
       - 香港阿伟科技@TG/油管 5
-      - 台湾阿伟科技@TG/油管 2
-      - 台湾阿伟科技@TG/油管 3
       - 香港阿伟科技@TG/油管 6
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
@@ -810,467 +544,308 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 新加坡1-三网优化
-      - 美国阿伟科技@TG/油管
-      - 日本1-三网优化
-      - 2092 @WangCai_1
-      - 3062 @WangCai_1
-      - US_0443 @WangCai_1
-      - US_9101 @WangCai_1
-      - US_5003 @WangCai_1
-      - US_7306 @WangCai_1
-      - US_8000 @WangCai_1
-      - US_7307 @WangCai_1
-      - CN2-GIA-美国2
-      - US_6697 @WangCai_1
-      - US_6697 @WangCai_1 2
-      - US_2375 @WangCai_1
-      - US_7001 @WangCai_1
-      - US_5004 @WangCai_1
-      - US_6379 @WangCai_1
-      - US_7307 @WangCai_1 2
-      - US_8882 @WangCai_1
-      - US_8000 @WangCai_1 2
-      - US_8080 @WangCai_1
-      - US_8008 @WangCai_1
-      - US_5003 @WangCai_1 2
-      - US_8091 @WangCai_1
-      - US_8008 @WangCai_1 2
-      - US_6679 @WangCai_1
-      - US_9102 @WangCai_1
-      - 5016 @WangCai_1
-      - US_8080 @WangCai_1 2
-      - 5015 @WangCai_1
-      - 澳大利亚1*
-      - US_3389 @WangCai_1
-      - 美国阿伟科技@TG/油管 2
-      - 2042 @WangCai_1
-      - US_7001 @WangCai_1 2
-      - US_8119 @WangCai_1
-      - US_8881 @WangCai_1
-      - 印度2*
-      - 加拿大_TG@nodesharing_347
-      - US_8888 @WangCai_1
-      - 日本2-三网优化
-      - _CA_加拿大 18
-      - US_7306 @WangCai_1 2
-      - 加拿大_TG@nodesharing_437
-      - US_8118 @WangCai_1
-      - 加拿大_TG@nodesharing_297
-      - 加拿大阿伟科技@TG/油管
-      - US_5001 @WangCai_1
-      - 美国_TG@nodesharing_243
-      - US_6679 @WangCai_1 2
-      - 加拿大_TG@nodesharing_380
-      - CA_151
-      - 加拿大_TG@nodesharing_344
-      - 台湾阿伟科技@TG/油管
-      - 日本3-三网优化
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 美国阿伟科技@TG/油管 3
-      - CA
-      - 美国_TG@nodesharing_136
-      - 美国_TG@nodesharing_175
-      - CA-134.195.196.147-462
-      - 5017 @WangCai_1
-      - US_2376 @WangCai_1
-      - 加拿大_TG@nodesharing_352
-      - US_9102 @WangCai_1 2
-      - 2093 @WangCai_1
-      - 加拿大_TG@nodesharing_294
-      - 俄罗斯阿伟科技@TG/油管
-      - GB-172.99.190.205-473
-      - 法国阿伟科技@TG/油管
-      - US_8888 @WangCai_1 2
-      - 5010 @WangCai_1
-      - 5001 @WangCai_1
-      - 5019 @WangCai_1
-      - US_5500 @WangCai_1
-      - 加拿大_TG@nodesharing_169
-      - US_2375 @WangCai_1 2
-      - 日本1*
-      - US_7002 @WangCai_1
-      - US_9101 @WangCai_1 2
-      - 加拿大_TG@nodesharing_194
-      - 印度1*
-      - 3080 @WangCai_1
-      - 5020 @WangCai_1
-      - 美国阿伟科技@TG/油管 4
       - youtube:8度科技_美国 10
       - 美国1-三网优化
-      - 新加坡2*
-      - 2061 @WangCai_1
+      - ZZ_2201
+      - 加拿大_TG@nodesharing_352
+      - US_7307 @WangCai_1
+      - 日本1*
+      - _CA_加拿大 29
+      - 加拿大_TG@nodesharing_169
+      - US_1727
+      - SG_二爷翻墙网：https://1808.ga_5
+      - US_8008 @WangCai_1
+      - 美国_TG@nodesharing_267
+      - _CA_加拿大 16
+      - US_62
+      - CA_217
+      - CA-134.195.196.200-459
+      - US_52
+      - 加拿大_TG@nodesharing_380
+      - 加拿大_TG@nodesharing_294
+      - CN2-GIA-美国2
+      - CA_151
+      - 加拿大_TG@nodesharing_437
+      - 加拿大_TG@nodesharing_291
+      - 加拿大_TG@nodesharing_400
+      - 美国阿伟科技@TG/油管
+      - US_56
+      - 英国_TG@nodesharing_217
+      - 加拿大_TG@nodesharing_347
+      - 美国_TG@nodesharing_243
+      - _CA_加拿大 18
+      - CA_12
+      - US_二爷翻墙网：https://1808.ga_134
+      - 加拿大阿伟科技@TG/油管
+      - CA_169
+      - 美国_TG@nodesharing_165
+      - CA
+      - 加拿大_TG@nodesharing_336
+      - US_7002 @WangCai_1
+      - 美国阿伟科技@TG/油管 2
+      - ZZ_93
+      - 加拿大_TG@nodesharing_348
+      - 美国_TG@nodesharing_175
+      - ZZ_102
+      - 加拿大_TG@nodesharing_297
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - CA-198.57.27.152-008
+      - US_5000 @WangCai_1
+      - 美国阿伟科技@TG/油管 3
+      - 德国阿伟科技@TG/油管
+      - CA_二爷翻墙网：https://1808.ga_380
+      - 加拿大_TG@nodesharing_273
+      - 美国1*
+      - US_7306 @WangCai_1
+      - US_6697 @WangCai_1
+      - US_二爷翻墙网：https://1808.ga_308
+      - ZZ_2204
+      - US_8000 @WangCai_1
+      - US_8881 @WangCai_1
+      - US_6679 @WangCai_1
+      - 日本
+      - youtube:8度科技_美国 3
+      - 新加坡1-三网优化
+      - US_2375 @WangCai_1
+      - US_8888 @WangCai_1
+      - US_9102 @WangCai_1
+      - 台湾阿伟科技@TG/油管
+      - 美国3*
+      - 美国2*
+      - 台湾阿伟科技@TG/油管 2
+      - US_5500 @WangCai_1
+      - 台湾阿伟科技@TG/油管 3
+      - US_7001 @WangCai_1
+      - 日本1-三网优化
+      - 日本2-三网优化
+      - 加拿大_TG@nodesharing_344
+      - 日本3-三网优化
+      - 加拿大_TG@nodesharing_194
+      - US_二爷翻墙网：https://1808.ga_316
+      - US_8080 @WangCai_1
+      - US_9101 @WangCai_1
       - 香港阿伟科技@TG/油管
+      - 美国_TG@nodesharing_136
       - 香港阿伟科技@TG/油管 2
       - 香港阿伟科技@TG/油管 3
       - 香港阿伟科技@TG/油管 4
-      - 香港1*Hxray.me
       - 香港阿伟科技@TG/油管 5
-      - SG_二爷翻墙网：https://1808.ga_5
-      - 2040 @WangCai_1
-      - 新加坡1*
-      - CA-198.57.27.152-008
-      - US_52
-      - US_3306 @WangCai_1
-      - 加拿大_TG@nodesharing_336
-      - 德国阿伟科技@TG/油管
-      - US_56
-      - 台湾阿伟科技@TG/油管 2
-      - US_5000 @WangCai_1
-      - US_5500 @WangCai_1 2
-      - 4005 @WangCai_1
-      - 美国_TG@nodesharing_267
-      - ZZ_2201
-      - 美国阿伟科技@TG/油管 5
-      - 加拿大_TG@nodesharing_291
-      - _CA_加拿大 16
-      - CA_217
-      - 5009 @WangCai_1
-      - CA-134.195.196.200-459
-      - 台湾阿伟科技@TG/油管 3
-      - 加拿大_TG@nodesharing_273
-      - CA_12
-      - 2065 @WangCai_1
-      - US_二爷翻墙网：https://1808.ga_134
-      - US_58
-      - 加拿大_TG@nodesharing_400
-      - 加拿大_TG@nodesharing_348
-      - 美国_TG@nodesharing_165
-      - 英国_TG@nodesharing_217
-      - 美国2*
-      - 德国阿伟科技@TG/油管 2
-      - 英国1*
-      - US_二爷翻墙网：https://1808.ga_316
-      - 5018 @WangCai_1
-      - US_二爷翻墙网：https://1808.ga_308
-      - CA_二爷翻墙网：https://1808.ga_380
-      - US_1727
-      - US_62
       - 香港阿伟科技@TG/油管 6
-      - CA_169
-      - 2064 @WangCai_1
       - 加拿大_TG@nodesharing_268
-      - 美国1*
-      - 美国3*
-      - youtube:8度科技_美国 3
-      - ZZ_93
-      - 日本
-      - ZZ_102
-      - _CA_加拿大 29
-      - 2063 @WangCai_1
-      - 7001 @WangCai_1
-      - ZZ_2204
+      - US_58
+      - GB-172.99.190.205-473
+      - CA-134.195.196.147-462
+      - 俄罗斯阿伟科技@TG/油管
+      - 印度2*
+      - 法国阿伟科技@TG/油管
+      - 德国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 4
+      - US_5003 @WangCai_1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 新加坡1-三网优化
-      - 美国阿伟科技@TG/油管
-      - 日本1-三网优化
-      - 2092 @WangCai_1
-      - 3062 @WangCai_1
-      - US_0443 @WangCai_1
-      - US_9101 @WangCai_1
-      - US_5003 @WangCai_1
-      - US_7306 @WangCai_1
-      - US_8000 @WangCai_1
-      - US_7307 @WangCai_1
-      - CN2-GIA-美国2
-      - US_6697 @WangCai_1
-      - US_6697 @WangCai_1 2
-      - US_2375 @WangCai_1
-      - US_7001 @WangCai_1
-      - US_5004 @WangCai_1
-      - US_6379 @WangCai_1
-      - US_7307 @WangCai_1 2
-      - US_8882 @WangCai_1
-      - US_8000 @WangCai_1 2
-      - US_8080 @WangCai_1
-      - US_8008 @WangCai_1
-      - US_5003 @WangCai_1 2
-      - US_8091 @WangCai_1
-      - US_8008 @WangCai_1 2
-      - US_6679 @WangCai_1
-      - US_9102 @WangCai_1
-      - 5016 @WangCai_1
-      - US_8080 @WangCai_1 2
-      - 5015 @WangCai_1
-      - 澳大利亚1*
-      - US_3389 @WangCai_1
-      - 美国阿伟科技@TG/油管 2
-      - 2042 @WangCai_1
-      - US_7001 @WangCai_1 2
-      - US_8119 @WangCai_1
-      - US_8881 @WangCai_1
-      - 印度2*
-      - 加拿大_TG@nodesharing_347
-      - US_8888 @WangCai_1
-      - 日本2-三网优化
-      - _CA_加拿大 18
-      - US_7306 @WangCai_1 2
-      - 加拿大_TG@nodesharing_437
-      - US_8118 @WangCai_1
-      - 加拿大_TG@nodesharing_297
-      - 加拿大阿伟科技@TG/油管
-      - US_5001 @WangCai_1
-      - 美国_TG@nodesharing_243
-      - US_6679 @WangCai_1 2
-      - 加拿大_TG@nodesharing_380
-      - CA_151
-      - 加拿大_TG@nodesharing_344
-      - 台湾阿伟科技@TG/油管
-      - 日本3-三网优化
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 美国阿伟科技@TG/油管 3
-      - CA
-      - 美国_TG@nodesharing_136
-      - 美国_TG@nodesharing_175
-      - CA-134.195.196.147-462
-      - 5017 @WangCai_1
-      - US_2376 @WangCai_1
-      - 加拿大_TG@nodesharing_352
-      - US_9102 @WangCai_1 2
-      - 2093 @WangCai_1
-      - 加拿大_TG@nodesharing_294
-      - 俄罗斯阿伟科技@TG/油管
-      - GB-172.99.190.205-473
-      - 法国阿伟科技@TG/油管
-      - US_8888 @WangCai_1 2
-      - 5010 @WangCai_1
-      - 5001 @WangCai_1
-      - 5019 @WangCai_1
-      - US_5500 @WangCai_1
-      - 加拿大_TG@nodesharing_169
-      - US_2375 @WangCai_1 2
-      - 日本1*
-      - US_7002 @WangCai_1
-      - US_9101 @WangCai_1 2
-      - 加拿大_TG@nodesharing_194
-      - 印度1*
-      - 3080 @WangCai_1
-      - 5020 @WangCai_1
-      - 美国阿伟科技@TG/油管 4
       - youtube:8度科技_美国 10
       - 美国1-三网优化
-      - 新加坡2*
-      - 2061 @WangCai_1
+      - ZZ_2201
+      - 加拿大_TG@nodesharing_352
+      - US_7307 @WangCai_1
+      - 日本1*
+      - _CA_加拿大 29
+      - 加拿大_TG@nodesharing_169
+      - US_1727
+      - SG_二爷翻墙网：https://1808.ga_5
+      - US_8008 @WangCai_1
+      - 美国_TG@nodesharing_267
+      - _CA_加拿大 16
+      - US_62
+      - CA_217
+      - CA-134.195.196.200-459
+      - US_52
+      - 加拿大_TG@nodesharing_380
+      - 加拿大_TG@nodesharing_294
+      - CN2-GIA-美国2
+      - CA_151
+      - 加拿大_TG@nodesharing_437
+      - 加拿大_TG@nodesharing_291
+      - 加拿大_TG@nodesharing_400
+      - 美国阿伟科技@TG/油管
+      - US_56
+      - 英国_TG@nodesharing_217
+      - 加拿大_TG@nodesharing_347
+      - 美国_TG@nodesharing_243
+      - _CA_加拿大 18
+      - CA_12
+      - US_二爷翻墙网：https://1808.ga_134
+      - 加拿大阿伟科技@TG/油管
+      - CA_169
+      - 美国_TG@nodesharing_165
+      - CA
+      - 加拿大_TG@nodesharing_336
+      - US_7002 @WangCai_1
+      - 美国阿伟科技@TG/油管 2
+      - ZZ_93
+      - 加拿大_TG@nodesharing_348
+      - 美国_TG@nodesharing_175
+      - ZZ_102
+      - 加拿大_TG@nodesharing_297
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - CA-198.57.27.152-008
+      - US_5000 @WangCai_1
+      - 美国阿伟科技@TG/油管 3
+      - 德国阿伟科技@TG/油管
+      - CA_二爷翻墙网：https://1808.ga_380
+      - 加拿大_TG@nodesharing_273
+      - 美国1*
+      - US_7306 @WangCai_1
+      - US_6697 @WangCai_1
+      - US_二爷翻墙网：https://1808.ga_308
+      - ZZ_2204
+      - US_8000 @WangCai_1
+      - US_8881 @WangCai_1
+      - US_6679 @WangCai_1
+      - 日本
+      - youtube:8度科技_美国 3
+      - 新加坡1-三网优化
+      - US_2375 @WangCai_1
+      - US_8888 @WangCai_1
+      - US_9102 @WangCai_1
+      - 台湾阿伟科技@TG/油管
+      - 美国3*
+      - 美国2*
+      - 台湾阿伟科技@TG/油管 2
+      - US_5500 @WangCai_1
+      - 台湾阿伟科技@TG/油管 3
+      - US_7001 @WangCai_1
+      - 日本1-三网优化
+      - 日本2-三网优化
+      - 加拿大_TG@nodesharing_344
+      - 日本3-三网优化
+      - 加拿大_TG@nodesharing_194
+      - US_二爷翻墙网：https://1808.ga_316
+      - US_8080 @WangCai_1
+      - US_9101 @WangCai_1
       - 香港阿伟科技@TG/油管
+      - 美国_TG@nodesharing_136
       - 香港阿伟科技@TG/油管 2
       - 香港阿伟科技@TG/油管 3
       - 香港阿伟科技@TG/油管 4
-      - 香港1*Hxray.me
       - 香港阿伟科技@TG/油管 5
-      - SG_二爷翻墙网：https://1808.ga_5
-      - 2040 @WangCai_1
-      - 新加坡1*
-      - CA-198.57.27.152-008
-      - US_52
-      - US_3306 @WangCai_1
-      - 加拿大_TG@nodesharing_336
-      - 德国阿伟科技@TG/油管
-      - US_56
-      - 台湾阿伟科技@TG/油管 2
-      - US_5000 @WangCai_1
-      - US_5500 @WangCai_1 2
-      - 4005 @WangCai_1
-      - 美国_TG@nodesharing_267
-      - ZZ_2201
-      - 美国阿伟科技@TG/油管 5
-      - 加拿大_TG@nodesharing_291
-      - _CA_加拿大 16
-      - CA_217
-      - 5009 @WangCai_1
-      - CA-134.195.196.200-459
-      - 台湾阿伟科技@TG/油管 3
-      - 加拿大_TG@nodesharing_273
-      - CA_12
-      - 2065 @WangCai_1
-      - US_二爷翻墙网：https://1808.ga_134
-      - US_58
-      - 加拿大_TG@nodesharing_400
-      - 加拿大_TG@nodesharing_348
-      - 美国_TG@nodesharing_165
-      - 英国_TG@nodesharing_217
-      - 美国2*
-      - 德国阿伟科技@TG/油管 2
-      - 英国1*
-      - US_二爷翻墙网：https://1808.ga_316
-      - 5018 @WangCai_1
-      - US_二爷翻墙网：https://1808.ga_308
-      - CA_二爷翻墙网：https://1808.ga_380
-      - US_1727
-      - US_62
       - 香港阿伟科技@TG/油管 6
-      - CA_169
-      - 2064 @WangCai_1
       - 加拿大_TG@nodesharing_268
-      - 美国1*
-      - 美国3*
-      - youtube:8度科技_美国 3
-      - ZZ_93
-      - 日本
-      - ZZ_102
-      - _CA_加拿大 29
-      - 2063 @WangCai_1
-      - 7001 @WangCai_1
-      - ZZ_2204
+      - US_58
+      - GB-172.99.190.205-473
+      - CA-134.195.196.147-462
+      - 俄罗斯阿伟科技@TG/油管
+      - 印度2*
+      - 法国阿伟科技@TG/油管
+      - 德国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 4
+      - US_5003 @WangCai_1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡1-三网优化
-      - 美国阿伟科技@TG/油管
-      - 日本1-三网优化
-      - 2092 @WangCai_1
-      - 3062 @WangCai_1
-      - US_0443 @WangCai_1
-      - US_9101 @WangCai_1
-      - US_5003 @WangCai_1
-      - US_7306 @WangCai_1
-      - US_8000 @WangCai_1
-      - US_7307 @WangCai_1
-      - CN2-GIA-美国2
-      - US_6697 @WangCai_1
-      - US_6697 @WangCai_1 2
-      - US_2375 @WangCai_1
-      - US_7001 @WangCai_1
-      - US_5004 @WangCai_1
-      - US_6379 @WangCai_1
-      - US_7307 @WangCai_1 2
-      - US_8882 @WangCai_1
-      - US_8000 @WangCai_1 2
-      - US_8080 @WangCai_1
-      - US_8008 @WangCai_1
-      - US_5003 @WangCai_1 2
-      - US_8091 @WangCai_1
-      - US_8008 @WangCai_1 2
-      - US_6679 @WangCai_1
-      - US_9102 @WangCai_1
-      - 5016 @WangCai_1
-      - US_8080 @WangCai_1 2
-      - 5015 @WangCai_1
-      - 澳大利亚1*
-      - US_3389 @WangCai_1
-      - 美国阿伟科技@TG/油管 2
-      - 2042 @WangCai_1
-      - US_7001 @WangCai_1 2
-      - US_8119 @WangCai_1
-      - US_8881 @WangCai_1
-      - 印度2*
-      - 加拿大_TG@nodesharing_347
-      - US_8888 @WangCai_1
-      - 日本2-三网优化
-      - _CA_加拿大 18
-      - US_7306 @WangCai_1 2
-      - 加拿大_TG@nodesharing_437
-      - US_8118 @WangCai_1
-      - 加拿大_TG@nodesharing_297
-      - 加拿大阿伟科技@TG/油管
-      - US_5001 @WangCai_1
-      - 美国_TG@nodesharing_243
-      - US_6679 @WangCai_1 2
-      - 加拿大_TG@nodesharing_380
-      - CA_151
-      - 加拿大_TG@nodesharing_344
-      - 台湾阿伟科技@TG/油管
-      - 日本3-三网优化
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 美国阿伟科技@TG/油管 3
-      - CA
-      - 美国_TG@nodesharing_136
-      - 美国_TG@nodesharing_175
-      - CA-134.195.196.147-462
-      - 5017 @WangCai_1
-      - US_2376 @WangCai_1
-      - 加拿大_TG@nodesharing_352
-      - US_9102 @WangCai_1 2
-      - 2093 @WangCai_1
-      - 加拿大_TG@nodesharing_294
-      - 俄罗斯阿伟科技@TG/油管
-      - GB-172.99.190.205-473
-      - 法国阿伟科技@TG/油管
-      - US_8888 @WangCai_1 2
-      - 5010 @WangCai_1
-      - 5001 @WangCai_1
-      - 5019 @WangCai_1
-      - US_5500 @WangCai_1
-      - 加拿大_TG@nodesharing_169
-      - US_2375 @WangCai_1 2
-      - 日本1*
-      - US_7002 @WangCai_1
-      - US_9101 @WangCai_1 2
-      - 加拿大_TG@nodesharing_194
-      - 印度1*
-      - 3080 @WangCai_1
-      - 5020 @WangCai_1
-      - 美国阿伟科技@TG/油管 4
       - youtube:8度科技_美国 10
       - 美国1-三网优化
-      - 新加坡2*
-      - 2061 @WangCai_1
+      - ZZ_2201
+      - 加拿大_TG@nodesharing_352
+      - US_7307 @WangCai_1
+      - 日本1*
+      - _CA_加拿大 29
+      - 加拿大_TG@nodesharing_169
+      - US_1727
+      - SG_二爷翻墙网：https://1808.ga_5
+      - US_8008 @WangCai_1
+      - 美国_TG@nodesharing_267
+      - _CA_加拿大 16
+      - US_62
+      - CA_217
+      - CA-134.195.196.200-459
+      - US_52
+      - 加拿大_TG@nodesharing_380
+      - 加拿大_TG@nodesharing_294
+      - CN2-GIA-美国2
+      - CA_151
+      - 加拿大_TG@nodesharing_437
+      - 加拿大_TG@nodesharing_291
+      - 加拿大_TG@nodesharing_400
+      - 美国阿伟科技@TG/油管
+      - US_56
+      - 英国_TG@nodesharing_217
+      - 加拿大_TG@nodesharing_347
+      - 美国_TG@nodesharing_243
+      - _CA_加拿大 18
+      - CA_12
+      - US_二爷翻墙网：https://1808.ga_134
+      - 加拿大阿伟科技@TG/油管
+      - CA_169
+      - 美国_TG@nodesharing_165
+      - CA
+      - 加拿大_TG@nodesharing_336
+      - US_7002 @WangCai_1
+      - 美国阿伟科技@TG/油管 2
+      - ZZ_93
+      - 加拿大_TG@nodesharing_348
+      - 美国_TG@nodesharing_175
+      - ZZ_102
+      - 加拿大_TG@nodesharing_297
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - CA-198.57.27.152-008
+      - US_5000 @WangCai_1
+      - 美国阿伟科技@TG/油管 3
+      - 德国阿伟科技@TG/油管
+      - CA_二爷翻墙网：https://1808.ga_380
+      - 加拿大_TG@nodesharing_273
+      - 美国1*
+      - US_7306 @WangCai_1
+      - US_6697 @WangCai_1
+      - US_二爷翻墙网：https://1808.ga_308
+      - ZZ_2204
+      - US_8000 @WangCai_1
+      - US_8881 @WangCai_1
+      - US_6679 @WangCai_1
+      - 日本
+      - youtube:8度科技_美国 3
+      - 新加坡1-三网优化
+      - US_2375 @WangCai_1
+      - US_8888 @WangCai_1
+      - US_9102 @WangCai_1
+      - 台湾阿伟科技@TG/油管
+      - 美国3*
+      - 美国2*
+      - 台湾阿伟科技@TG/油管 2
+      - US_5500 @WangCai_1
+      - 台湾阿伟科技@TG/油管 3
+      - US_7001 @WangCai_1
+      - 日本1-三网优化
+      - 日本2-三网优化
+      - 加拿大_TG@nodesharing_344
+      - 日本3-三网优化
+      - 加拿大_TG@nodesharing_194
+      - US_二爷翻墙网：https://1808.ga_316
+      - US_8080 @WangCai_1
+      - US_9101 @WangCai_1
       - 香港阿伟科技@TG/油管
+      - 美国_TG@nodesharing_136
       - 香港阿伟科技@TG/油管 2
       - 香港阿伟科技@TG/油管 3
       - 香港阿伟科技@TG/油管 4
-      - 香港1*Hxray.me
       - 香港阿伟科技@TG/油管 5
-      - SG_二爷翻墙网：https://1808.ga_5
-      - 2040 @WangCai_1
-      - 新加坡1*
-      - CA-198.57.27.152-008
-      - US_52
-      - US_3306 @WangCai_1
-      - 加拿大_TG@nodesharing_336
-      - 德国阿伟科技@TG/油管
-      - US_56
-      - 台湾阿伟科技@TG/油管 2
-      - US_5000 @WangCai_1
-      - US_5500 @WangCai_1 2
-      - 4005 @WangCai_1
-      - 美国_TG@nodesharing_267
-      - ZZ_2201
-      - 美国阿伟科技@TG/油管 5
-      - 加拿大_TG@nodesharing_291
-      - _CA_加拿大 16
-      - CA_217
-      - 5009 @WangCai_1
-      - CA-134.195.196.200-459
-      - 台湾阿伟科技@TG/油管 3
-      - 加拿大_TG@nodesharing_273
-      - CA_12
-      - 2065 @WangCai_1
-      - US_二爷翻墙网：https://1808.ga_134
-      - US_58
-      - 加拿大_TG@nodesharing_400
-      - 加拿大_TG@nodesharing_348
-      - 美国_TG@nodesharing_165
-      - 英国_TG@nodesharing_217
-      - 美国2*
-      - 德国阿伟科技@TG/油管 2
-      - 英国1*
-      - US_二爷翻墙网：https://1808.ga_316
-      - 5018 @WangCai_1
-      - US_二爷翻墙网：https://1808.ga_308
-      - CA_二爷翻墙网：https://1808.ga_380
-      - US_1727
-      - US_62
       - 香港阿伟科技@TG/油管 6
-      - CA_169
-      - 2064 @WangCai_1
       - 加拿大_TG@nodesharing_268
-      - 美国1*
-      - 美国3*
-      - youtube:8度科技_美国 3
-      - ZZ_93
-      - 日本
-      - ZZ_102
-      - _CA_加拿大 29
-      - 2063 @WangCai_1
-      - 7001 @WangCai_1
-      - ZZ_2204
+      - US_58
+      - GB-172.99.190.205-473
+      - CA-134.195.196.147-462
+      - 俄罗斯阿伟科技@TG/油管
+      - 印度2*
+      - 法国阿伟科技@TG/油管
+      - 德国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 4
+      - US_5003 @WangCai_1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1286,156 +861,103 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡1-三网优化
-      - 美国阿伟科技@TG/油管
-      - 日本1-三网优化
-      - 2092 @WangCai_1
-      - 3062 @WangCai_1
-      - US_0443 @WangCai_1
-      - US_9101 @WangCai_1
-      - US_5003 @WangCai_1
-      - US_7306 @WangCai_1
-      - US_8000 @WangCai_1
-      - US_7307 @WangCai_1
-      - CN2-GIA-美国2
-      - US_6697 @WangCai_1
-      - US_6697 @WangCai_1 2
-      - US_2375 @WangCai_1
-      - US_7001 @WangCai_1
-      - US_5004 @WangCai_1
-      - US_6379 @WangCai_1
-      - US_7307 @WangCai_1 2
-      - US_8882 @WangCai_1
-      - US_8000 @WangCai_1 2
-      - US_8080 @WangCai_1
-      - US_8008 @WangCai_1
-      - US_5003 @WangCai_1 2
-      - US_8091 @WangCai_1
-      - US_8008 @WangCai_1 2
-      - US_6679 @WangCai_1
-      - US_9102 @WangCai_1
-      - 5016 @WangCai_1
-      - US_8080 @WangCai_1 2
-      - 5015 @WangCai_1
-      - 澳大利亚1*
-      - US_3389 @WangCai_1
-      - 美国阿伟科技@TG/油管 2
-      - 2042 @WangCai_1
-      - US_7001 @WangCai_1 2
-      - US_8119 @WangCai_1
-      - US_8881 @WangCai_1
-      - 印度2*
-      - 加拿大_TG@nodesharing_347
-      - US_8888 @WangCai_1
-      - 日本2-三网优化
-      - _CA_加拿大 18
-      - US_7306 @WangCai_1 2
-      - 加拿大_TG@nodesharing_437
-      - US_8118 @WangCai_1
-      - 加拿大_TG@nodesharing_297
-      - 加拿大阿伟科技@TG/油管
-      - US_5001 @WangCai_1
-      - 美国_TG@nodesharing_243
-      - US_6679 @WangCai_1 2
-      - 加拿大_TG@nodesharing_380
-      - CA_151
-      - 加拿大_TG@nodesharing_344
-      - 台湾阿伟科技@TG/油管
-      - 日本3-三网优化
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 美国阿伟科技@TG/油管 3
-      - CA
-      - 美国_TG@nodesharing_136
-      - 美国_TG@nodesharing_175
-      - CA-134.195.196.147-462
-      - 5017 @WangCai_1
-      - US_2376 @WangCai_1
-      - 加拿大_TG@nodesharing_352
-      - US_9102 @WangCai_1 2
-      - 2093 @WangCai_1
-      - 加拿大_TG@nodesharing_294
-      - 俄罗斯阿伟科技@TG/油管
-      - GB-172.99.190.205-473
-      - 法国阿伟科技@TG/油管
-      - US_8888 @WangCai_1 2
-      - 5010 @WangCai_1
-      - 5001 @WangCai_1
-      - 5019 @WangCai_1
-      - US_5500 @WangCai_1
-      - 加拿大_TG@nodesharing_169
-      - US_2375 @WangCai_1 2
-      - 日本1*
-      - US_7002 @WangCai_1
-      - US_9101 @WangCai_1 2
-      - 加拿大_TG@nodesharing_194
-      - 印度1*
-      - 3080 @WangCai_1
-      - 5020 @WangCai_1
-      - 美国阿伟科技@TG/油管 4
       - youtube:8度科技_美国 10
       - 美国1-三网优化
-      - 新加坡2*
-      - 2061 @WangCai_1
+      - ZZ_2201
+      - 加拿大_TG@nodesharing_352
+      - US_7307 @WangCai_1
+      - 日本1*
+      - _CA_加拿大 29
+      - 加拿大_TG@nodesharing_169
+      - US_1727
+      - SG_二爷翻墙网：https://1808.ga_5
+      - US_8008 @WangCai_1
+      - 美国_TG@nodesharing_267
+      - _CA_加拿大 16
+      - US_62
+      - CA_217
+      - CA-134.195.196.200-459
+      - US_52
+      - 加拿大_TG@nodesharing_380
+      - 加拿大_TG@nodesharing_294
+      - CN2-GIA-美国2
+      - CA_151
+      - 加拿大_TG@nodesharing_437
+      - 加拿大_TG@nodesharing_291
+      - 加拿大_TG@nodesharing_400
+      - 美国阿伟科技@TG/油管
+      - US_56
+      - 英国_TG@nodesharing_217
+      - 加拿大_TG@nodesharing_347
+      - 美国_TG@nodesharing_243
+      - _CA_加拿大 18
+      - CA_12
+      - US_二爷翻墙网：https://1808.ga_134
+      - 加拿大阿伟科技@TG/油管
+      - CA_169
+      - 美国_TG@nodesharing_165
+      - CA
+      - 加拿大_TG@nodesharing_336
+      - US_7002 @WangCai_1
+      - 美国阿伟科技@TG/油管 2
+      - ZZ_93
+      - 加拿大_TG@nodesharing_348
+      - 美国_TG@nodesharing_175
+      - ZZ_102
+      - 加拿大_TG@nodesharing_297
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - CA-198.57.27.152-008
+      - US_5000 @WangCai_1
+      - 美国阿伟科技@TG/油管 3
+      - 德国阿伟科技@TG/油管
+      - CA_二爷翻墙网：https://1808.ga_380
+      - 加拿大_TG@nodesharing_273
+      - 美国1*
+      - US_7306 @WangCai_1
+      - US_6697 @WangCai_1
+      - US_二爷翻墙网：https://1808.ga_308
+      - ZZ_2204
+      - US_8000 @WangCai_1
+      - US_8881 @WangCai_1
+      - US_6679 @WangCai_1
+      - 日本
+      - youtube:8度科技_美国 3
+      - 新加坡1-三网优化
+      - US_2375 @WangCai_1
+      - US_8888 @WangCai_1
+      - US_9102 @WangCai_1
+      - 台湾阿伟科技@TG/油管
+      - 美国3*
+      - 美国2*
+      - 台湾阿伟科技@TG/油管 2
+      - US_5500 @WangCai_1
+      - 台湾阿伟科技@TG/油管 3
+      - US_7001 @WangCai_1
+      - 日本1-三网优化
+      - 日本2-三网优化
+      - 加拿大_TG@nodesharing_344
+      - 日本3-三网优化
+      - 加拿大_TG@nodesharing_194
+      - US_二爷翻墙网：https://1808.ga_316
+      - US_8080 @WangCai_1
+      - US_9101 @WangCai_1
       - 香港阿伟科技@TG/油管
+      - 美国_TG@nodesharing_136
       - 香港阿伟科技@TG/油管 2
       - 香港阿伟科技@TG/油管 3
       - 香港阿伟科技@TG/油管 4
-      - 香港1*Hxray.me
       - 香港阿伟科技@TG/油管 5
-      - SG_二爷翻墙网：https://1808.ga_5
-      - 2040 @WangCai_1
-      - 新加坡1*
-      - CA-198.57.27.152-008
-      - US_52
-      - US_3306 @WangCai_1
-      - 加拿大_TG@nodesharing_336
-      - 德国阿伟科技@TG/油管
-      - US_56
-      - 台湾阿伟科技@TG/油管 2
-      - US_5000 @WangCai_1
-      - US_5500 @WangCai_1 2
-      - 4005 @WangCai_1
-      - 美国_TG@nodesharing_267
-      - ZZ_2201
-      - 美国阿伟科技@TG/油管 5
-      - 加拿大_TG@nodesharing_291
-      - _CA_加拿大 16
-      - CA_217
-      - 5009 @WangCai_1
-      - CA-134.195.196.200-459
-      - 台湾阿伟科技@TG/油管 3
-      - 加拿大_TG@nodesharing_273
-      - CA_12
-      - 2065 @WangCai_1
-      - US_二爷翻墙网：https://1808.ga_134
-      - US_58
-      - 加拿大_TG@nodesharing_400
-      - 加拿大_TG@nodesharing_348
-      - 美国_TG@nodesharing_165
-      - 英国_TG@nodesharing_217
-      - 美国2*
-      - 德国阿伟科技@TG/油管 2
-      - 英国1*
-      - US_二爷翻墙网：https://1808.ga_316
-      - 5018 @WangCai_1
-      - US_二爷翻墙网：https://1808.ga_308
-      - CA_二爷翻墙网：https://1808.ga_380
-      - US_1727
-      - US_62
       - 香港阿伟科技@TG/油管 6
-      - CA_169
-      - 2064 @WangCai_1
       - 加拿大_TG@nodesharing_268
-      - 美国1*
-      - 美国3*
-      - youtube:8度科技_美国 3
-      - ZZ_93
-      - 日本
-      - ZZ_102
-      - _CA_加拿大 29
-      - 2063 @WangCai_1
-      - 7001 @WangCai_1
-      - ZZ_2204
+      - US_58
+      - GB-172.99.190.205-473
+      - CA-134.195.196.147-462
+      - 俄罗斯阿伟科技@TG/油管
+      - 印度2*
+      - 法国阿伟科技@TG/油管
+      - 德国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 4
+      - US_5003 @WangCai_1
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
