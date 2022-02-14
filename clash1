@@ -5,319 +5,283 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: 英国_YouTube：8度科技 5, server: 172.99.190.205, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 英国_TG@nodesharing_217, server: 172.99.190.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 新加坡do, server: china-gzyd-1.forwardserver.xyz, port: 48670, type: vmess, uuid: a857ee21-5767-4991-fa93-c7089e616509, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港+中继10+华南, server: cn-6.crhnode.top, port: 569, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
+  - {name: 香港+中继09+华南, server: cn-6.crhnode.top, port: 568, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
+  - {name: 香港+中继08+华南, server: cn-6.crhnode.top, port: 567, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
+  - {name: 香港+中继07+华南, server: cn-6.crhnode.top, port: 566, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
+  - {name: 香港+中继06+华南, server: cn-6.crhnode.top, port: 565, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
+  - {name: 香港+中继05+华南, server: cn-6.crhnode.top, port: 564, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
+  - {name: 香港+中继04+华南, server: cn-6.crhnode.top, port: 563, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
+  - {name: 香港+中继03+华南, server: cn-6.crhnode.top, port: 562, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
+  - {name: 香港+中继02+华南, server: cn-6.crhnode.top, port: 561, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
+  - {name: 香港+中继01+华南, server: cn-6.crhnode.top, port: 560, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
+  - {name: 台湾+中继10+华南, server: cn-1.crhnode.top, port: 559, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
   - {name: 台湾+中继09+华南, server: cn-1.crhnode.top, port: 558, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
+  - {name: 台湾+中继08+华南, server: cn-1.crhnode.top, port: 557, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
+  - {name: 台湾+中继07+华南, server: cn-1.crhnode.top, port: 556, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
+  - {name: 台湾+中继06+华南, server: cn-1.crhnode.top, port: 555, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
+  - {name: 台湾+中继05+华南, server: cn-1.crhnode.top, port: 554, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
+  - {name: 台湾+中继04+华南, server: cn-1.crhnode.top, port: 553, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
+  - {name: 台湾+中继03+华南, server: cn-1.crhnode.top, port: 552, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
   - {name: 台湾+中继02+华南, server: cn-1.crhnode.top, port: 551, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 日本1-三网优化, server: 0211jp.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 0211jp.fans8.xyz}, udp: true}
-  - {name: 日本2-三网优化, server: 0211jp11.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 0211jp11.fans8.xyz}, udp: true}
   - {name: 台湾+中继01+华南, server: cn-1.crhnode.top, port: 550, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
   - {name: 日本3-三网优化, server: 0211osk21.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 0211osk21.fans8.xyz}, udp: true}
-  - {name: 香港+中继09+华南, server: cn-6.crhnode.top, port: 568, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 台湾+中继04+华南, server: cn-1.crhnode.top, port: 553, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 台湾+中继10+华南, server: cn-1.crhnode.top, port: 559, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 日本, server: 54.178.95.72, port: 25565, type: vmess, uuid: d2702d4a-d815-4700-8403-3983856a9b6f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /index.php, ws-headers: {Host: baidu.com}, udp: true}
-  - {name: 台湾+中继05+华南, server: cn-1.crhnode.top, port: 554, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 香港+中继07+华南, server: cn-6.crhnode.top, port: 566, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 加拿大_TG@nodesharing_297, server: 198.57.27.152, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 加拿大_TG@nodesharing_437, server: 198.57.27.184, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 馃嚚馃嚘+鍔犳嬁澶�+2, server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 加拿大_TG@nodesharing_344, server: 198.57.27.184, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国_TG@nodesharing_243, server: 167.88.63.74, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 加拿大_TG@nodesharing_380, server: 198.57.27.184, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 美国_TG@nodesharing_267, server: 167.88.63.74, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 俄罗斯联邦_YouTube：8度科技, server: 92.223.65.119, port: 443, type: vmess, uuid: 3fd6713f-e036-4ba9-938a-da7843a17a15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: 日本2-三网优化, server: 0211jp11.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 0211jp11.fans8.xyz}, udp: true}
+  - {name: 日本1-三网优化, server: 0211jp.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 0211jp.fans8.xyz}, udp: true}
   - {name: 美国阿伟科技@TG/油管, server: 107.155.83.152, port: 443, type: vmess, uuid: 8f469f1b-1fd3-433b-9fd9-b4e041b9df16, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: +US_1496, server: 167.88.62.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国_TG@nodesharing_175, server: 167.88.63.74, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 加拿大_TG@nodesharing_347, server: 198.57.27.152, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 法国阿伟科技@TG/油管, server: 149.202.82.172, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 美国1-三网优化, server: 1222us.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1222us.fans8.xyz}, udp: true}
-  - {name: CA-134.195.196.200-459, server: 134.195.196.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国_TG@nodesharing_165, server: 167.88.63.74, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 香港+中继05+华南, server: cn-6.crhnode.top, port: 564, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 香港+中继06+华南, server: cn-6.crhnode.top, port: 565, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 香港+中继02+华南, server: cn-6.crhnode.top, port: 561, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 香港+中继03+华南, server: cn-6.crhnode.top, port: 562, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 台湾+中继06+华南, server: cn-1.crhnode.top, port: 555, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 香港+中继01+华南, server: cn-6.crhnode.top, port: 560, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 香港+中继08+华南, server: cn-6.crhnode.top, port: 567, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 台湾+中继08+华南, server: cn-1.crhnode.top, port: 557, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 台湾+中继03+华南, server: cn-1.crhnode.top, port: 552, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 台湾+中继07+华南, server: cn-1.crhnode.top, port: 556, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 香港+中继10+华南, server: cn-6.crhnode.top, port: 569, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 香港+中继04+华南, server: cn-6.crhnode.top, port: 563, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 加拿大_YouTube：8度科技 24, server: 134.195.196.200, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: CA-198.57.27.152-008, server: 198.57.27.152, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 英国_YouTube：8度科技 5, server: 172.99.190.205, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: +US_1864, server: 167.88.63.28, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 俄罗斯阿伟科技@TG/油管, server: 5.188.35.120, port: 443, type: vmess, uuid: 0c7a06d0-8061-4df7-b521-960e2b9ce0f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: US_52, server: 172.99.190.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: +US_1436, server: 167.88.63.74, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: +US_1482, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国+中继05+华东, server: cn-4.crhnode.top, port: 574, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: +US_1462, server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 美国+中继10+华东, server: cn-4.crhnode.top, port: 579, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: _GB_英国, server: 172.99.190.188, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国+中继02+华东, server: cn-4.crhnode.top, port: 571, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 德国阿伟科技@TG/油管, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: GB-172.99.190.205-473, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CA-134.195.196.147-462, server: 134.195.196.147, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 英国_TG@nodesharing_217, server: 172.99.190.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 加拿大_TG@nodesharing_194, server: 134.195.196.200, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: +US_1332, server: 172.99.190.188, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 美国_YouTube：8度科技 3, server: 167.88.62.34, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: +US_2122, server: 167.88.63.61, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_56, server: 172.99.190.188, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ZZ_2204, server: 134.195.196.193, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: +US_1278, server: 172.99.190.188, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_二爷翻墙网：https://1808.ga_134, server: 167.88.63.61, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: youtube:8度科技_美国 10, server: 167.88.63.28, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 美国+中继05+华东, server: cn-4.crhnode.top, port: 574, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
   - {name: 美国+中继04+华东, server: cn-4.crhnode.top, port: 573, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 加拿大_YouTube：8度科技 9, server: 134.195.196.200, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 29, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国+中继02+华东, server: cn-4.crhnode.top, port: 571, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
+  - {name: 美国_YouTube：8度科技 3, server: 167.88.62.34, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: 美国_YouTube：8度科技 11, server: 167.88.63.28, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 加拿大_YouTube：8度科技 9, server: 134.195.196.200, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 加拿大_YouTube：8度科技 7, server: 134.195.196.200, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 加拿大_YouTube：8度科技 24, server: 134.195.196.200, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 加拿大_TG@nodesharing_347, server: 198.57.27.152, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 加拿大_TG@nodesharing_297, server: 198.57.27.152, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: 加拿大_TG@nodesharing_291, server: 134.195.196.200, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: 加拿大_TG@nodesharing_268, server: 134.195.196.200, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大_TG@nodesharing_194, server: 134.195.196.200, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 馃嚚馃嚘+鍔犳嬁澶�+2, server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 法国阿伟科技@TG/油管, server: 149.202.82.172, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 俄罗斯联邦_YouTube：8度科技, server: 92.223.65.119, port: 443, type: vmess, uuid: 3fd6713f-e036-4ba9-938a-da7843a17a15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: 俄罗斯阿伟科技@TG/油管, server: 5.188.35.120, port: 443, type: vmess, uuid: 0c7a06d0-8061-4df7-b521-960e2b9ce0f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: 德国阿伟科技@TG/油管, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_56, server: 172.99.190.188, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_52, server: 172.99.190.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: ZZ_2204, server: 134.195.196.193, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: youtube:8度科技_美国 10, server: 167.88.63.28, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: GB-172.99.190.205-473, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: CA-198.57.27.152-008, server: 198.57.27.152, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CA-134.195.196.200-459, server: 134.195.196.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CA-134.195.196.147-462, server: 134.195.196.147, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: CA_二爷翻墙网：https://1808.ga_380, server: 134.195.196.193, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 加拿大_YouTube：8度科技 7, server: 134.195.196.200, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: +US_2122, server: 167.88.63.61, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: +US_1864, server: 167.88.63.28, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: +US_1496, server: 167.88.62.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: +US_1482, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: +US_1462, server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: +US_1332, server: 172.99.190.188, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: +US_1278, server: 172.99.190.188, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _GB_英国, server: 172.99.190.188, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 29, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 英国_YouTube：8度科技 5
+      - 英国_TG@nodesharing_217
+      - 新加坡do
+      - 香港+中继10+华南
+      - 香港+中继09+华南
+      - 香港+中继08+华南
+      - 香港+中继07+华南
+      - 香港+中继06+华南
+      - 香港+中继05+华南
+      - 香港+中继04+华南
+      - 香港+中继03+华南
+      - 香港+中继02+华南
+      - 香港+中继01+华南
+      - 台湾+中继10+华南
       - 台湾+中继09+华南
+      - 台湾+中继08+华南
+      - 台湾+中继07+华南
+      - 台湾+中继06+华南
+      - 台湾+中继05+华南
+      - 台湾+中继04+华南
+      - 台湾+中继03+华南
       - 台湾+中继02+华南
-      - 日本1-三网优化
-      - 日本2-三网优化
       - 台湾+中继01+华南
       - 日本3-三网优化
-      - 香港+中继09+华南
-      - 台湾+中继04+华南
-      - 台湾+中继10+华南
-      - 日本
-      - 台湾+中继05+华南
-      - 香港+中继07+华南
-      - 加拿大_TG@nodesharing_297
-      - 加拿大_TG@nodesharing_437
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 加拿大_TG@nodesharing_344
-      - 美国_TG@nodesharing_243
-      - 加拿大_TG@nodesharing_380
-      - 美国_TG@nodesharing_267
-      - 俄罗斯联邦_YouTube：8度科技
+      - 日本2-三网优化
+      - 日本1-三网优化
       - 美国阿伟科技@TG/油管
-      - +US_1496
-      - 美国_TG@nodesharing_175
-      - 加拿大_TG@nodesharing_347
-      - 法国阿伟科技@TG/油管
       - 美国1-三网优化
-      - CA-134.195.196.200-459
-      - 美国_TG@nodesharing_165
-      - 香港+中继05+华南
-      - 香港+中继06+华南
-      - 香港+中继02+华南
-      - 香港+中继03+华南
-      - 台湾+中继06+华南
-      - 香港+中继01+华南
-      - 香港+中继08+华南
-      - 台湾+中继08+华南
-      - 台湾+中继03+华南
-      - 台湾+中继07+华南
-      - 香港+中继10+华南
-      - 香港+中继04+华南
-      - 加拿大_YouTube：8度科技 24
-      - CA-198.57.27.152-008
-      - 英国_YouTube：8度科技 5
-      - +US_1864
-      - 俄罗斯阿伟科技@TG/油管
-      - US_52
-      - +US_1436
-      - +US_1482
-      - 美国+中继05+华东
-      - +US_1462
       - 美国+中继10+华东
-      - _GB_英国
-      - 美国+中继02+华东
-      - 德国阿伟科技@TG/油管
-      - GB-172.99.190.205-473
-      - CA-134.195.196.147-462
-      - 英国_TG@nodesharing_217
-      - 加拿大_TG@nodesharing_194
-      - +US_1332
-      - 美国_YouTube：8度科技 3
-      - +US_2122
-      - US_56
-      - ZZ_2204
-      - +US_1278
-      - US_二爷翻墙网：https://1808.ga_134
-      - youtube:8度科技_美国 10
+      - 美国+中继05+华东
       - 美国+中继04+华东
-      - 加拿大_YouTube：8度科技 9
-      - _CA_加拿大 29
+      - 美国+中继02+华东
+      - 美国_YouTube：8度科技 3
       - 美国_YouTube：8度科技 11
+      - 加拿大_YouTube：8度科技 9
+      - 加拿大_YouTube：8度科技 7
+      - 加拿大_YouTube：8度科技 24
+      - 加拿大_TG@nodesharing_347
+      - 加拿大_TG@nodesharing_297
       - 加拿大_TG@nodesharing_291
       - 加拿大_TG@nodesharing_268
+      - 加拿大_TG@nodesharing_194
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - 法国阿伟科技@TG/油管
+      - 俄罗斯联邦_YouTube：8度科技
+      - 俄罗斯阿伟科技@TG/油管
+      - 德国阿伟科技@TG/油管
+      - US_56
+      - US_52
+      - ZZ_2204
+      - youtube:8度科技_美国 10
+      - GB-172.99.190.205-473
+      - CA-198.57.27.152-008
+      - CA-134.195.196.200-459
+      - CA-134.195.196.147-462
       - CA_二爷翻墙网：https://1808.ga_380
-      - 加拿大_YouTube：8度科技 7
+      - +US_2122
+      - +US_1864
+      - +US_1496
+      - +US_1482
+      - +US_1462
+      - +US_1332
+      - +US_1278
+      - _GB_英国
+      - _CA_加拿大 29
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 英国_YouTube：8度科技 5
+      - 英国_TG@nodesharing_217
+      - 新加坡do
+      - 香港+中继10+华南
+      - 香港+中继09+华南
+      - 香港+中继08+华南
+      - 香港+中继07+华南
+      - 香港+中继06+华南
+      - 香港+中继05+华南
+      - 香港+中继04+华南
+      - 香港+中继03+华南
+      - 香港+中继02+华南
+      - 香港+中继01+华南
+      - 台湾+中继10+华南
       - 台湾+中继09+华南
+      - 台湾+中继08+华南
+      - 台湾+中继07+华南
+      - 台湾+中继06+华南
+      - 台湾+中继05+华南
+      - 台湾+中继04+华南
+      - 台湾+中继03+华南
       - 台湾+中继02+华南
-      - 日本1-三网优化
-      - 日本2-三网优化
       - 台湾+中继01+华南
       - 日本3-三网优化
-      - 香港+中继09+华南
-      - 台湾+中继04+华南
-      - 台湾+中继10+华南
-      - 日本
-      - 台湾+中继05+华南
-      - 香港+中继07+华南
-      - 加拿大_TG@nodesharing_297
-      - 加拿大_TG@nodesharing_437
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 加拿大_TG@nodesharing_344
-      - 美国_TG@nodesharing_243
-      - 加拿大_TG@nodesharing_380
-      - 美国_TG@nodesharing_267
-      - 俄罗斯联邦_YouTube：8度科技
+      - 日本2-三网优化
+      - 日本1-三网优化
       - 美国阿伟科技@TG/油管
-      - +US_1496
-      - 美国_TG@nodesharing_175
-      - 加拿大_TG@nodesharing_347
-      - 法国阿伟科技@TG/油管
       - 美国1-三网优化
-      - CA-134.195.196.200-459
-      - 美国_TG@nodesharing_165
-      - 香港+中继05+华南
-      - 香港+中继06+华南
-      - 香港+中继02+华南
-      - 香港+中继03+华南
-      - 台湾+中继06+华南
-      - 香港+中继01+华南
-      - 香港+中继08+华南
-      - 台湾+中继08+华南
-      - 台湾+中继03+华南
-      - 台湾+中继07+华南
-      - 香港+中继10+华南
-      - 香港+中继04+华南
-      - 加拿大_YouTube：8度科技 24
-      - CA-198.57.27.152-008
-      - 英国_YouTube：8度科技 5
-      - +US_1864
-      - 俄罗斯阿伟科技@TG/油管
-      - US_52
-      - +US_1436
-      - +US_1482
-      - 美国+中继05+华东
-      - +US_1462
       - 美国+中继10+华东
-      - _GB_英国
-      - 美国+中继02+华东
-      - 德国阿伟科技@TG/油管
-      - GB-172.99.190.205-473
-      - CA-134.195.196.147-462
-      - 英国_TG@nodesharing_217
-      - 加拿大_TG@nodesharing_194
-      - +US_1332
-      - 美国_YouTube：8度科技 3
-      - +US_2122
-      - US_56
-      - ZZ_2204
-      - +US_1278
-      - US_二爷翻墙网：https://1808.ga_134
-      - youtube:8度科技_美国 10
+      - 美国+中继05+华东
       - 美国+中继04+华东
-      - 加拿大_YouTube：8度科技 9
-      - _CA_加拿大 29
+      - 美国+中继02+华东
+      - 美国_YouTube：8度科技 3
       - 美国_YouTube：8度科技 11
+      - 加拿大_YouTube：8度科技 9
+      - 加拿大_YouTube：8度科技 7
+      - 加拿大_YouTube：8度科技 24
+      - 加拿大_TG@nodesharing_347
+      - 加拿大_TG@nodesharing_297
       - 加拿大_TG@nodesharing_291
       - 加拿大_TG@nodesharing_268
+      - 加拿大_TG@nodesharing_194
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - 法国阿伟科技@TG/油管
+      - 俄罗斯联邦_YouTube：8度科技
+      - 俄罗斯阿伟科技@TG/油管
+      - 德国阿伟科技@TG/油管
+      - US_56
+      - US_52
+      - ZZ_2204
+      - youtube:8度科技_美国 10
+      - GB-172.99.190.205-473
+      - CA-198.57.27.152-008
+      - CA-134.195.196.200-459
+      - CA-134.195.196.147-462
       - CA_二爷翻墙网：https://1808.ga_380
-      - 加拿大_YouTube：8度科技 7
+      - +US_2122
+      - +US_1864
+      - +US_1496
+      - +US_1482
+      - +US_1462
+      - +US_1332
+      - +US_1278
+      - _GB_英国
+      - _CA_加拿大 29
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 英国_YouTube：8度科技 5
+      - 英国_TG@nodesharing_217
+      - 新加坡do
+      - 香港+中继10+华南
+      - 香港+中继09+华南
+      - 香港+中继08+华南
+      - 香港+中继07+华南
+      - 香港+中继06+华南
+      - 香港+中继05+华南
+      - 香港+中继04+华南
+      - 香港+中继03+华南
+      - 香港+中继02+华南
+      - 香港+中继01+华南
+      - 台湾+中继10+华南
       - 台湾+中继09+华南
+      - 台湾+中继08+华南
+      - 台湾+中继07+华南
+      - 台湾+中继06+华南
+      - 台湾+中继05+华南
+      - 台湾+中继04+华南
+      - 台湾+中继03+华南
       - 台湾+中继02+华南
-      - 日本1-三网优化
-      - 日本2-三网优化
       - 台湾+中继01+华南
       - 日本3-三网优化
-      - 香港+中继09+华南
-      - 台湾+中继04+华南
-      - 台湾+中继10+华南
-      - 日本
-      - 台湾+中继05+华南
-      - 香港+中继07+华南
-      - 加拿大_TG@nodesharing_297
-      - 加拿大_TG@nodesharing_437
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 加拿大_TG@nodesharing_344
-      - 美国_TG@nodesharing_243
-      - 加拿大_TG@nodesharing_380
-      - 美国_TG@nodesharing_267
-      - 俄罗斯联邦_YouTube：8度科技
+      - 日本2-三网优化
+      - 日本1-三网优化
       - 美国阿伟科技@TG/油管
-      - +US_1496
-      - 美国_TG@nodesharing_175
-      - 加拿大_TG@nodesharing_347
-      - 法国阿伟科技@TG/油管
       - 美国1-三网优化
-      - CA-134.195.196.200-459
-      - 美国_TG@nodesharing_165
-      - 香港+中继05+华南
-      - 香港+中继06+华南
-      - 香港+中继02+华南
-      - 香港+中继03+华南
-      - 台湾+中继06+华南
-      - 香港+中继01+华南
-      - 香港+中继08+华南
-      - 台湾+中继08+华南
-      - 台湾+中继03+华南
-      - 台湾+中继07+华南
-      - 香港+中继10+华南
-      - 香港+中继04+华南
-      - 加拿大_YouTube：8度科技 24
-      - CA-198.57.27.152-008
-      - 英国_YouTube：8度科技 5
-      - +US_1864
-      - 俄罗斯阿伟科技@TG/油管
-      - US_52
-      - +US_1436
-      - +US_1482
-      - 美国+中继05+华东
-      - +US_1462
       - 美国+中继10+华东
-      - _GB_英国
-      - 美国+中继02+华东
-      - 德国阿伟科技@TG/油管
-      - GB-172.99.190.205-473
-      - CA-134.195.196.147-462
-      - 英国_TG@nodesharing_217
-      - 加拿大_TG@nodesharing_194
-      - +US_1332
-      - 美国_YouTube：8度科技 3
-      - +US_2122
-      - US_56
-      - ZZ_2204
-      - +US_1278
-      - US_二爷翻墙网：https://1808.ga_134
-      - youtube:8度科技_美国 10
+      - 美国+中继05+华东
       - 美国+中继04+华东
-      - 加拿大_YouTube：8度科技 9
-      - _CA_加拿大 29
+      - 美国+中继02+华东
+      - 美国_YouTube：8度科技 3
       - 美国_YouTube：8度科技 11
+      - 加拿大_YouTube：8度科技 9
+      - 加拿大_YouTube：8度科技 7
+      - 加拿大_YouTube：8度科技 24
+      - 加拿大_TG@nodesharing_347
+      - 加拿大_TG@nodesharing_297
       - 加拿大_TG@nodesharing_291
       - 加拿大_TG@nodesharing_268
+      - 加拿大_TG@nodesharing_194
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - 法国阿伟科技@TG/油管
+      - 俄罗斯联邦_YouTube：8度科技
+      - 俄罗斯阿伟科技@TG/油管
+      - 德国阿伟科技@TG/油管
+      - US_56
+      - US_52
+      - ZZ_2204
+      - youtube:8度科技_美国 10
+      - GB-172.99.190.205-473
+      - CA-198.57.27.152-008
+      - CA-134.195.196.200-459
+      - CA-134.195.196.147-462
       - CA_二爷翻墙网：https://1808.ga_380
-      - 加拿大_YouTube：8度科技 7
+      - +US_2122
+      - +US_1864
+      - +US_1496
+      - +US_1482
+      - +US_1462
+      - +US_1332
+      - +US_1278
+      - _GB_英国
+      - _CA_加拿大 29
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -336,343 +300,307 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 英国_YouTube：8度科技 5
+      - 英国_TG@nodesharing_217
+      - 新加坡do
+      - 香港+中继10+华南
+      - 香港+中继09+华南
+      - 香港+中继08+华南
+      - 香港+中继07+华南
+      - 香港+中继06+华南
+      - 香港+中继05+华南
+      - 香港+中继04+华南
+      - 香港+中继03+华南
+      - 香港+中继02+华南
+      - 香港+中继01+华南
+      - 台湾+中继10+华南
       - 台湾+中继09+华南
+      - 台湾+中继08+华南
+      - 台湾+中继07+华南
+      - 台湾+中继06+华南
+      - 台湾+中继05+华南
+      - 台湾+中继04+华南
+      - 台湾+中继03+华南
       - 台湾+中继02+华南
-      - 日本1-三网优化
-      - 日本2-三网优化
       - 台湾+中继01+华南
       - 日本3-三网优化
-      - 香港+中继09+华南
-      - 台湾+中继04+华南
-      - 台湾+中继10+华南
-      - 日本
-      - 台湾+中继05+华南
-      - 香港+中继07+华南
-      - 加拿大_TG@nodesharing_297
-      - 加拿大_TG@nodesharing_437
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 加拿大_TG@nodesharing_344
-      - 美国_TG@nodesharing_243
-      - 加拿大_TG@nodesharing_380
-      - 美国_TG@nodesharing_267
-      - 俄罗斯联邦_YouTube：8度科技
+      - 日本2-三网优化
+      - 日本1-三网优化
       - 美国阿伟科技@TG/油管
-      - +US_1496
-      - 美国_TG@nodesharing_175
-      - 加拿大_TG@nodesharing_347
-      - 法国阿伟科技@TG/油管
       - 美国1-三网优化
-      - CA-134.195.196.200-459
-      - 美国_TG@nodesharing_165
-      - 香港+中继05+华南
-      - 香港+中继06+华南
-      - 香港+中继02+华南
-      - 香港+中继03+华南
-      - 台湾+中继06+华南
-      - 香港+中继01+华南
-      - 香港+中继08+华南
-      - 台湾+中继08+华南
-      - 台湾+中继03+华南
-      - 台湾+中继07+华南
-      - 香港+中继10+华南
-      - 香港+中继04+华南
-      - 加拿大_YouTube：8度科技 24
-      - CA-198.57.27.152-008
-      - 英国_YouTube：8度科技 5
-      - +US_1864
-      - 俄罗斯阿伟科技@TG/油管
-      - US_52
-      - +US_1436
-      - +US_1482
-      - 美国+中继05+华东
-      - +US_1462
       - 美国+中继10+华东
-      - _GB_英国
-      - 美国+中继02+华东
-      - 德国阿伟科技@TG/油管
-      - GB-172.99.190.205-473
-      - CA-134.195.196.147-462
-      - 英国_TG@nodesharing_217
-      - 加拿大_TG@nodesharing_194
-      - +US_1332
-      - 美国_YouTube：8度科技 3
-      - +US_2122
-      - US_56
-      - ZZ_2204
-      - +US_1278
-      - US_二爷翻墙网：https://1808.ga_134
-      - youtube:8度科技_美国 10
+      - 美国+中继05+华东
       - 美国+中继04+华东
-      - 加拿大_YouTube：8度科技 9
-      - _CA_加拿大 29
+      - 美国+中继02+华东
+      - 美国_YouTube：8度科技 3
       - 美国_YouTube：8度科技 11
+      - 加拿大_YouTube：8度科技 9
+      - 加拿大_YouTube：8度科技 7
+      - 加拿大_YouTube：8度科技 24
+      - 加拿大_TG@nodesharing_347
+      - 加拿大_TG@nodesharing_297
       - 加拿大_TG@nodesharing_291
       - 加拿大_TG@nodesharing_268
+      - 加拿大_TG@nodesharing_194
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - 法国阿伟科技@TG/油管
+      - 俄罗斯联邦_YouTube：8度科技
+      - 俄罗斯阿伟科技@TG/油管
+      - 德国阿伟科技@TG/油管
+      - US_56
+      - US_52
+      - ZZ_2204
+      - youtube:8度科技_美国 10
+      - GB-172.99.190.205-473
+      - CA-198.57.27.152-008
+      - CA-134.195.196.200-459
+      - CA-134.195.196.147-462
       - CA_二爷翻墙网：https://1808.ga_380
-      - 加拿大_YouTube：8度科技 7
+      - +US_2122
+      - +US_1864
+      - +US_1496
+      - +US_1482
+      - +US_1462
+      - +US_1332
+      - +US_1278
+      - _GB_英国
+      - _CA_加拿大 29
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港+中继10+华南
+      - 香港+中继09+华南
+      - 香港+中继08+华南
+      - 香港+中继07+华南
+      - 香港+中继06+华南
+      - 香港+中继05+华南
+      - 香港+中继04+华南
+      - 香港+中继03+华南
+      - 香港+中继02+华南
+      - 香港+中继01+华南
+      - 台湾+中继10+华南
       - 台湾+中继09+华南
+      - 台湾+中继08+华南
+      - 台湾+中继07+华南
+      - 台湾+中继06+华南
+      - 台湾+中继05+华南
+      - 台湾+中继04+华南
+      - 台湾+中继03+华南
       - 台湾+中继02+华南
       - 台湾+中继01+华南
-      - 香港+中继09+华南
-      - 台湾+中继04+华南
-      - 台湾+中继10+华南
-      - 台湾+中继05+华南
-      - 香港+中继07+华南
-      - 香港+中继05+华南
-      - 香港+中继06+华南
-      - 香港+中继02+华南
-      - 香港+中继03+华南
-      - 台湾+中继06+华南
-      - 香港+中继01+华南
-      - 香港+中继08+华南
-      - 台湾+中继08+华南
-      - 台湾+中继03+华南
-      - 台湾+中继07+华南
-      - 香港+中继10+华南
-      - 香港+中继04+华南
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 英国_YouTube：8度科技 5
+      - 英国_TG@nodesharing_217
+      - 新加坡do
+      - 香港+中继10+华南
+      - 香港+中继09+华南
+      - 香港+中继08+华南
+      - 香港+中继07+华南
+      - 香港+中继06+华南
+      - 香港+中继05+华南
+      - 香港+中继04+华南
+      - 香港+中继03+华南
+      - 香港+中继02+华南
+      - 香港+中继01+华南
+      - 台湾+中继10+华南
       - 台湾+中继09+华南
+      - 台湾+中继08+华南
+      - 台湾+中继07+华南
+      - 台湾+中继06+华南
+      - 台湾+中继05+华南
+      - 台湾+中继04+华南
+      - 台湾+中继03+华南
       - 台湾+中继02+华南
-      - 日本1-三网优化
-      - 日本2-三网优化
       - 台湾+中继01+华南
       - 日本3-三网优化
-      - 香港+中继09+华南
-      - 台湾+中继04+华南
-      - 台湾+中继10+华南
-      - 日本
-      - 台湾+中继05+华南
-      - 香港+中继07+华南
-      - 加拿大_TG@nodesharing_297
-      - 加拿大_TG@nodesharing_437
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 加拿大_TG@nodesharing_344
-      - 美国_TG@nodesharing_243
-      - 加拿大_TG@nodesharing_380
-      - 美国_TG@nodesharing_267
-      - 俄罗斯联邦_YouTube：8度科技
+      - 日本2-三网优化
+      - 日本1-三网优化
       - 美国阿伟科技@TG/油管
-      - +US_1496
-      - 美国_TG@nodesharing_175
-      - 加拿大_TG@nodesharing_347
-      - 法国阿伟科技@TG/油管
       - 美国1-三网优化
-      - CA-134.195.196.200-459
-      - 美国_TG@nodesharing_165
-      - 香港+中继05+华南
-      - 香港+中继06+华南
-      - 香港+中继02+华南
-      - 香港+中继03+华南
-      - 台湾+中继06+华南
-      - 香港+中继01+华南
-      - 香港+中继08+华南
-      - 台湾+中继08+华南
-      - 台湾+中继03+华南
-      - 台湾+中继07+华南
-      - 香港+中继10+华南
-      - 香港+中继04+华南
-      - 加拿大_YouTube：8度科技 24
-      - CA-198.57.27.152-008
-      - 英国_YouTube：8度科技 5
-      - +US_1864
-      - 俄罗斯阿伟科技@TG/油管
-      - US_52
-      - +US_1436
-      - +US_1482
-      - 美国+中继05+华东
-      - +US_1462
       - 美国+中继10+华东
-      - _GB_英国
-      - 美国+中继02+华东
-      - 德国阿伟科技@TG/油管
-      - GB-172.99.190.205-473
-      - CA-134.195.196.147-462
-      - 英国_TG@nodesharing_217
-      - 加拿大_TG@nodesharing_194
-      - +US_1332
-      - 美国_YouTube：8度科技 3
-      - +US_2122
-      - US_56
-      - ZZ_2204
-      - +US_1278
-      - US_二爷翻墙网：https://1808.ga_134
-      - youtube:8度科技_美国 10
+      - 美国+中继05+华东
       - 美国+中继04+华东
-      - 加拿大_YouTube：8度科技 9
-      - _CA_加拿大 29
+      - 美国+中继02+华东
+      - 美国_YouTube：8度科技 3
       - 美国_YouTube：8度科技 11
+      - 加拿大_YouTube：8度科技 9
+      - 加拿大_YouTube：8度科技 7
+      - 加拿大_YouTube：8度科技 24
+      - 加拿大_TG@nodesharing_347
+      - 加拿大_TG@nodesharing_297
       - 加拿大_TG@nodesharing_291
       - 加拿大_TG@nodesharing_268
+      - 加拿大_TG@nodesharing_194
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - 法国阿伟科技@TG/油管
+      - 俄罗斯联邦_YouTube：8度科技
+      - 俄罗斯阿伟科技@TG/油管
+      - 德国阿伟科技@TG/油管
+      - US_56
+      - US_52
+      - ZZ_2204
+      - youtube:8度科技_美国 10
+      - GB-172.99.190.205-473
+      - CA-198.57.27.152-008
+      - CA-134.195.196.200-459
+      - CA-134.195.196.147-462
       - CA_二爷翻墙网：https://1808.ga_380
-      - 加拿大_YouTube：8度科技 7
+      - +US_2122
+      - +US_1864
+      - +US_1496
+      - +US_1482
+      - +US_1462
+      - +US_1332
+      - +US_1278
+      - _GB_英国
+      - _CA_加拿大 29
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 英国_YouTube：8度科技 5
+      - 英国_TG@nodesharing_217
+      - 新加坡do
+      - 香港+中继10+华南
+      - 香港+中继09+华南
+      - 香港+中继08+华南
+      - 香港+中继07+华南
+      - 香港+中继06+华南
+      - 香港+中继05+华南
+      - 香港+中继04+华南
+      - 香港+中继03+华南
+      - 香港+中继02+华南
+      - 香港+中继01+华南
+      - 台湾+中继10+华南
       - 台湾+中继09+华南
+      - 台湾+中继08+华南
+      - 台湾+中继07+华南
+      - 台湾+中继06+华南
+      - 台湾+中继05+华南
+      - 台湾+中继04+华南
+      - 台湾+中继03+华南
       - 台湾+中继02+华南
-      - 日本1-三网优化
-      - 日本2-三网优化
       - 台湾+中继01+华南
       - 日本3-三网优化
-      - 香港+中继09+华南
-      - 台湾+中继04+华南
-      - 台湾+中继10+华南
-      - 日本
-      - 台湾+中继05+华南
-      - 香港+中继07+华南
-      - 加拿大_TG@nodesharing_297
-      - 加拿大_TG@nodesharing_437
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 加拿大_TG@nodesharing_344
-      - 美国_TG@nodesharing_243
-      - 加拿大_TG@nodesharing_380
-      - 美国_TG@nodesharing_267
-      - 俄罗斯联邦_YouTube：8度科技
+      - 日本2-三网优化
+      - 日本1-三网优化
       - 美国阿伟科技@TG/油管
-      - +US_1496
-      - 美国_TG@nodesharing_175
-      - 加拿大_TG@nodesharing_347
-      - 法国阿伟科技@TG/油管
       - 美国1-三网优化
-      - CA-134.195.196.200-459
-      - 美国_TG@nodesharing_165
-      - 香港+中继05+华南
-      - 香港+中继06+华南
-      - 香港+中继02+华南
-      - 香港+中继03+华南
-      - 台湾+中继06+华南
-      - 香港+中继01+华南
-      - 香港+中继08+华南
-      - 台湾+中继08+华南
-      - 台湾+中继03+华南
-      - 台湾+中继07+华南
-      - 香港+中继10+华南
-      - 香港+中继04+华南
-      - 加拿大_YouTube：8度科技 24
-      - CA-198.57.27.152-008
-      - 英国_YouTube：8度科技 5
-      - +US_1864
-      - 俄罗斯阿伟科技@TG/油管
-      - US_52
-      - +US_1436
-      - +US_1482
-      - 美国+中继05+华东
-      - +US_1462
       - 美国+中继10+华东
-      - _GB_英国
-      - 美国+中继02+华东
-      - 德国阿伟科技@TG/油管
-      - GB-172.99.190.205-473
-      - CA-134.195.196.147-462
-      - 英国_TG@nodesharing_217
-      - 加拿大_TG@nodesharing_194
-      - +US_1332
-      - 美国_YouTube：8度科技 3
-      - +US_2122
-      - US_56
-      - ZZ_2204
-      - +US_1278
-      - US_二爷翻墙网：https://1808.ga_134
-      - youtube:8度科技_美国 10
+      - 美国+中继05+华东
       - 美国+中继04+华东
-      - 加拿大_YouTube：8度科技 9
-      - _CA_加拿大 29
+      - 美国+中继02+华东
+      - 美国_YouTube：8度科技 3
       - 美国_YouTube：8度科技 11
+      - 加拿大_YouTube：8度科技 9
+      - 加拿大_YouTube：8度科技 7
+      - 加拿大_YouTube：8度科技 24
+      - 加拿大_TG@nodesharing_347
+      - 加拿大_TG@nodesharing_297
       - 加拿大_TG@nodesharing_291
       - 加拿大_TG@nodesharing_268
+      - 加拿大_TG@nodesharing_194
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - 法国阿伟科技@TG/油管
+      - 俄罗斯联邦_YouTube：8度科技
+      - 俄罗斯阿伟科技@TG/油管
+      - 德国阿伟科技@TG/油管
+      - US_56
+      - US_52
+      - ZZ_2204
+      - youtube:8度科技_美国 10
+      - GB-172.99.190.205-473
+      - CA-198.57.27.152-008
+      - CA-134.195.196.200-459
+      - CA-134.195.196.147-462
       - CA_二爷翻墙网：https://1808.ga_380
-      - 加拿大_YouTube：8度科技 7
+      - +US_2122
+      - +US_1864
+      - +US_1496
+      - +US_1482
+      - +US_1462
+      - +US_1332
+      - +US_1278
+      - _GB_英国
+      - _CA_加拿大 29
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 英国_YouTube：8度科技 5
+      - 英国_TG@nodesharing_217
+      - 新加坡do
+      - 香港+中继10+华南
+      - 香港+中继09+华南
+      - 香港+中继08+华南
+      - 香港+中继07+华南
+      - 香港+中继06+华南
+      - 香港+中继05+华南
+      - 香港+中继04+华南
+      - 香港+中继03+华南
+      - 香港+中继02+华南
+      - 香港+中继01+华南
+      - 台湾+中继10+华南
       - 台湾+中继09+华南
+      - 台湾+中继08+华南
+      - 台湾+中继07+华南
+      - 台湾+中继06+华南
+      - 台湾+中继05+华南
+      - 台湾+中继04+华南
+      - 台湾+中继03+华南
       - 台湾+中继02+华南
-      - 日本1-三网优化
-      - 日本2-三网优化
       - 台湾+中继01+华南
       - 日本3-三网优化
-      - 香港+中继09+华南
-      - 台湾+中继04+华南
-      - 台湾+中继10+华南
-      - 日本
-      - 台湾+中继05+华南
-      - 香港+中继07+华南
-      - 加拿大_TG@nodesharing_297
-      - 加拿大_TG@nodesharing_437
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 加拿大_TG@nodesharing_344
-      - 美国_TG@nodesharing_243
-      - 加拿大_TG@nodesharing_380
-      - 美国_TG@nodesharing_267
-      - 俄罗斯联邦_YouTube：8度科技
+      - 日本2-三网优化
+      - 日本1-三网优化
       - 美国阿伟科技@TG/油管
-      - +US_1496
-      - 美国_TG@nodesharing_175
-      - 加拿大_TG@nodesharing_347
-      - 法国阿伟科技@TG/油管
       - 美国1-三网优化
-      - CA-134.195.196.200-459
-      - 美国_TG@nodesharing_165
-      - 香港+中继05+华南
-      - 香港+中继06+华南
-      - 香港+中继02+华南
-      - 香港+中继03+华南
-      - 台湾+中继06+华南
-      - 香港+中继01+华南
-      - 香港+中继08+华南
-      - 台湾+中继08+华南
-      - 台湾+中继03+华南
-      - 台湾+中继07+华南
-      - 香港+中继10+华南
-      - 香港+中继04+华南
-      - 加拿大_YouTube：8度科技 24
-      - CA-198.57.27.152-008
-      - 英国_YouTube：8度科技 5
-      - +US_1864
-      - 俄罗斯阿伟科技@TG/油管
-      - US_52
-      - +US_1436
-      - +US_1482
-      - 美国+中继05+华东
-      - +US_1462
       - 美国+中继10+华东
-      - _GB_英国
-      - 美国+中继02+华东
-      - 德国阿伟科技@TG/油管
-      - GB-172.99.190.205-473
-      - CA-134.195.196.147-462
-      - 英国_TG@nodesharing_217
-      - 加拿大_TG@nodesharing_194
-      - +US_1332
-      - 美国_YouTube：8度科技 3
-      - +US_2122
-      - US_56
-      - ZZ_2204
-      - +US_1278
-      - US_二爷翻墙网：https://1808.ga_134
-      - youtube:8度科技_美国 10
+      - 美国+中继05+华东
       - 美国+中继04+华东
-      - 加拿大_YouTube：8度科技 9
-      - _CA_加拿大 29
+      - 美国+中继02+华东
+      - 美国_YouTube：8度科技 3
       - 美国_YouTube：8度科技 11
+      - 加拿大_YouTube：8度科技 9
+      - 加拿大_YouTube：8度科技 7
+      - 加拿大_YouTube：8度科技 24
+      - 加拿大_TG@nodesharing_347
+      - 加拿大_TG@nodesharing_297
       - 加拿大_TG@nodesharing_291
       - 加拿大_TG@nodesharing_268
+      - 加拿大_TG@nodesharing_194
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - 法国阿伟科技@TG/油管
+      - 俄罗斯联邦_YouTube：8度科技
+      - 俄罗斯阿伟科技@TG/油管
+      - 德国阿伟科技@TG/油管
+      - US_56
+      - US_52
+      - ZZ_2204
+      - youtube:8度科技_美国 10
+      - GB-172.99.190.205-473
+      - CA-198.57.27.152-008
+      - CA-134.195.196.200-459
+      - CA-134.195.196.147-462
       - CA_二爷翻墙网：https://1808.ga_380
-      - 加拿大_YouTube：8度科技 7
+      - +US_2122
+      - +US_1864
+      - +US_1496
+      - +US_1482
+      - +US_1462
+      - +US_1332
+      - +US_1278
+      - _GB_英国
+      - _CA_加拿大 29
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -688,80 +616,71 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 英国_YouTube：8度科技 5
+      - 英国_TG@nodesharing_217
+      - 新加坡do
+      - 香港+中继10+华南
+      - 香港+中继09+华南
+      - 香港+中继08+华南
+      - 香港+中继07+华南
+      - 香港+中继06+华南
+      - 香港+中继05+华南
+      - 香港+中继04+华南
+      - 香港+中继03+华南
+      - 香港+中继02+华南
+      - 香港+中继01+华南
+      - 台湾+中继10+华南
       - 台湾+中继09+华南
+      - 台湾+中继08+华南
+      - 台湾+中继07+华南
+      - 台湾+中继06+华南
+      - 台湾+中继05+华南
+      - 台湾+中继04+华南
+      - 台湾+中继03+华南
       - 台湾+中继02+华南
-      - 日本1-三网优化
-      - 日本2-三网优化
       - 台湾+中继01+华南
       - 日本3-三网优化
-      - 香港+中继09+华南
-      - 台湾+中继04+华南
-      - 台湾+中继10+华南
-      - 日本
-      - 台湾+中继05+华南
-      - 香港+中继07+华南
-      - 加拿大_TG@nodesharing_297
-      - 加拿大_TG@nodesharing_437
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 加拿大_TG@nodesharing_344
-      - 美国_TG@nodesharing_243
-      - 加拿大_TG@nodesharing_380
-      - 美国_TG@nodesharing_267
-      - 俄罗斯联邦_YouTube：8度科技
+      - 日本2-三网优化
+      - 日本1-三网优化
       - 美国阿伟科技@TG/油管
-      - +US_1496
-      - 美国_TG@nodesharing_175
-      - 加拿大_TG@nodesharing_347
-      - 法国阿伟科技@TG/油管
       - 美国1-三网优化
-      - CA-134.195.196.200-459
-      - 美国_TG@nodesharing_165
-      - 香港+中继05+华南
-      - 香港+中继06+华南
-      - 香港+中继02+华南
-      - 香港+中继03+华南
-      - 台湾+中继06+华南
-      - 香港+中继01+华南
-      - 香港+中继08+华南
-      - 台湾+中继08+华南
-      - 台湾+中继03+华南
-      - 台湾+中继07+华南
-      - 香港+中继10+华南
-      - 香港+中继04+华南
-      - 加拿大_YouTube：8度科技 24
-      - CA-198.57.27.152-008
-      - 英国_YouTube：8度科技 5
-      - +US_1864
-      - 俄罗斯阿伟科技@TG/油管
-      - US_52
-      - +US_1436
-      - +US_1482
-      - 美国+中继05+华东
-      - +US_1462
       - 美国+中继10+华东
-      - _GB_英国
-      - 美国+中继02+华东
-      - 德国阿伟科技@TG/油管
-      - GB-172.99.190.205-473
-      - CA-134.195.196.147-462
-      - 英国_TG@nodesharing_217
-      - 加拿大_TG@nodesharing_194
-      - +US_1332
-      - 美国_YouTube：8度科技 3
-      - +US_2122
-      - US_56
-      - ZZ_2204
-      - +US_1278
-      - US_二爷翻墙网：https://1808.ga_134
-      - youtube:8度科技_美国 10
+      - 美国+中继05+华东
       - 美国+中继04+华东
-      - 加拿大_YouTube：8度科技 9
-      - _CA_加拿大 29
+      - 美国+中继02+华东
+      - 美国_YouTube：8度科技 3
       - 美国_YouTube：8度科技 11
+      - 加拿大_YouTube：8度科技 9
+      - 加拿大_YouTube：8度科技 7
+      - 加拿大_YouTube：8度科技 24
+      - 加拿大_TG@nodesharing_347
+      - 加拿大_TG@nodesharing_297
       - 加拿大_TG@nodesharing_291
       - 加拿大_TG@nodesharing_268
+      - 加拿大_TG@nodesharing_194
+      - 馃嚚馃嚘+鍔犳嬁澶�+2
+      - 法国阿伟科技@TG/油管
+      - 俄罗斯联邦_YouTube：8度科技
+      - 俄罗斯阿伟科技@TG/油管
+      - 德国阿伟科技@TG/油管
+      - US_56
+      - US_52
+      - ZZ_2204
+      - youtube:8度科技_美国 10
+      - GB-172.99.190.205-473
+      - CA-198.57.27.152-008
+      - CA-134.195.196.200-459
+      - CA-134.195.196.147-462
       - CA_二爷翻墙网：https://1808.ga_380
-      - 加拿大_YouTube：8度科技 7
+      - +US_2122
+      - +US_1864
+      - +US_1496
+      - +US_1482
+      - +US_1462
+      - +US_1332
+      - +US_1278
+      - _GB_英国
+      - _CA_加拿大 29
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
