@@ -5,283 +5,291 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 英国_YouTube：8度科技 5, server: 172.99.190.205, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 英国_TG@nodesharing_217, server: 172.99.190.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 新加坡do, server: china-gzyd-1.forwardserver.xyz, port: 48670, type: vmess, uuid: a857ee21-5767-4991-fa93-c7089e616509, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港+中继10+华南, server: cn-6.crhnode.top, port: 569, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 香港+中继09+华南, server: cn-6.crhnode.top, port: 568, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 香港+中继08+华南, server: cn-6.crhnode.top, port: 567, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 香港+中继07+华南, server: cn-6.crhnode.top, port: 566, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 香港+中继06+华南, server: cn-6.crhnode.top, port: 565, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 香港+中继05+华南, server: cn-6.crhnode.top, port: 564, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 香港+中继04+华南, server: cn-6.crhnode.top, port: 563, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 香港+中继03+华南, server: cn-6.crhnode.top, port: 562, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 香港+中继02+华南, server: cn-6.crhnode.top, port: 561, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 香港+中继01+华南, server: cn-6.crhnode.top, port: 560, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 台湾+中继10+华南, server: cn-1.crhnode.top, port: 559, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 台湾+中继09+华南, server: cn-1.crhnode.top, port: 558, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 台湾+中继08+华南, server: cn-1.crhnode.top, port: 557, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 台湾+中继07+华南, server: cn-1.crhnode.top, port: 556, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 台湾+中继06+华南, server: cn-1.crhnode.top, port: 555, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 台湾+中继05+华南, server: cn-1.crhnode.top, port: 554, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 台湾+中继04+华南, server: cn-1.crhnode.top, port: 553, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 台湾+中继03+华南, server: cn-1.crhnode.top, port: 552, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 台湾+中继02+华南, server: cn-1.crhnode.top, port: 551, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 台湾+中继01+华南, server: cn-1.crhnode.top, port: 550, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 日本3-三网优化, server: 0211osk21.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 0211osk21.fans8.xyz}, udp: true}
-  - {name: 日本2-三网优化, server: 0211jp11.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 0211jp11.fans8.xyz}, udp: true}
-  - {name: 日本1-三网优化, server: 0211jp.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 0211jp.fans8.xyz}, udp: true}
-  - {name: 美国阿伟科技@TG/油管, server: 107.155.83.152, port: 443, type: vmess, uuid: 8f469f1b-1fd3-433b-9fd9-b4e041b9df16, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: 美国1-三网优化, server: 1222us.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1222us.fans8.xyz}, udp: true}
-  - {name: 美国+中继10+华东, server: cn-4.crhnode.top, port: 579, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 美国+中继05+华东, server: cn-4.crhnode.top, port: 574, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 美国+中继04+华东, server: cn-4.crhnode.top, port: 573, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 美国+中继02+华东, server: cn-4.crhnode.top, port: 571, type: ss, cipher: rc4-md5, password: AAEXNETWORKTECHNOLOGYLTD20170715, plugin: obfs, plugin-opts: {mode: http, host: 20148-818nw7mYgF.download.microsoft.com}, udp: true}
-  - {name: 美国_YouTube：8度科技 3, server: 167.88.62.34, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 美国_YouTube：8度科技 11, server: 167.88.63.28, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 加拿大_YouTube：8度科技 9, server: 134.195.196.200, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 加拿大_YouTube：8度科技 7, server: 134.195.196.200, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 加拿大_YouTube：8度科技 24, server: 134.195.196.200, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 加拿大_TG@nodesharing_347, server: 198.57.27.152, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 加拿大_TG@nodesharing_297, server: 198.57.27.152, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 加拿大_TG@nodesharing_291, server: 134.195.196.200, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 加拿大_TG@nodesharing_268, server: 134.195.196.200, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 加拿大_TG@nodesharing_194, server: 134.195.196.200, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 馃嚚馃嚘+鍔犳嬁澶�+2, server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 法国阿伟科技@TG/油管, server: 149.202.82.172, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 俄罗斯联邦_YouTube：8度科技, server: 92.223.65.119, port: 443, type: vmess, uuid: 3fd6713f-e036-4ba9-938a-da7843a17a15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: _香港_YouTube:VV科技_77, server: 130.wowogg.cyou, port: 52330, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _美国_YouTube:VV科技_92, server: 95.wowogg.cyou, port: 52295, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _美国_YouTube:VV科技_96, server: 87.wowogg.cyou, port: 52287, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _中国_YouTube:VV科技_99, server: styd.sf66.cf, port: 49989, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: hgc01.hk.tgproxy.wtf}, udp: true}
+  - {name: _香港_YouTube:VV科技_56, server: 115.wowogg.cyou, port: 52215, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _中国_YouTube:VV科技_32, server: styd.sf66.cf, port: 38461, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: tw.twz.tgproxy.wtf}, udp: true}
+  - {name: _香港_YouTube:VV科技_60, server: 88.wowogg.cyou, port: 52288, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _中国跳转_YouTube:VV科技_53, server: 183.232.56.202, port: 64088, type: vmess, uuid: 51f79218-4c27-3a41-9c4f-bda3462a9b27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: 183.232.56.202}, udp: true}
+  - {name: _中国_YouTube:VV科技_42, server: hzlt.tuboshu.space, port: 18812, type: vmess, uuid: 29dffee4-15bc-31d3-9bb7-87d94f8c5742, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hzlt.tuboshu.space}, udp: true}
+  - {name: _中国_YouTube:VV科技_113, server: styd.sf66.cf, port: 16990, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: ggz.jgw.tgproxy.wtf}, udp: true}
+  - {name: _中国_YouTube:VV科技_75, server: 183.232.56.202, port: 64088, type: vmess, uuid: 51f79218-4c27-3a41-9c4f-bda3462a9b27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: in02.dns2333.xyz}, udp: true}
+  - {name: _优先在YouTube：<VV科技>频道公布, server: 196.247.24.156, port: 443, type: vmess, uuid: c028c1ff-c006-4dc7-bd7e-a61c99b4f306, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: _韩国_YouTube:VV科技_55, server: oracle.kr.tgproxy.wtf, port: 21888, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: oracle.kr.tgproxy.wtf}, udp: true}
+  - {name: _香港_YouTube:VV科技_109, server: 124.wowogg.cyou, port: 52224, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _美国_YouTube:VV科技_117, server: ggz.jgw.tgproxy.wtf, port: 80, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: ggz.jgw.tgproxy.wtf}, udp: true}
+  - {name: _中国_YouTube:VV科技_9, server: styd.sf66.cf, port: 52412, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: vds.sgp.tgproxy.wtf}, udp: true}
+  - {name: _中国跳转_YouTube:VV科技_71, server: tunnel-tw-a-01.xncloud.xyz, port: 504, type: vmess, uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-hinet-tw-04.xncloud.xyz}, udp: true}
+  - {name: _阿联酋_YouTube:VV科技_86, server: 193.123.95.114, port: 21999, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 193.123.95.114}, udp: true}
+  - {name: _美国_YouTube:VV科技_69, server: aws.us.tgproxy.wtf, port: 21888, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: aws.us.tgproxy.wtf}, udp: true}
+  - {name: _英国_YouTube:VV科技_71, server: gia.uk.tgproxy.wtf, port: 443, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: gia.uk.tgproxy.wtf}, udp: true}
+  - {name: _法国_YouTube:VV科技_114, server: 134.119.176.171, port: 443, type: vmess, uuid: b1a868c2-cba7-42c5-bba5-ae158894402e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
   - {name: 俄罗斯阿伟科技@TG/油管, server: 5.188.35.120, port: 443, type: vmess, uuid: 0c7a06d0-8061-4df7-b521-960e2b9ce0f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: 德国阿伟科技@TG/油管, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _台湾_YouTube:VV科技_16, server: tw.twz.tgproxy.wtf, port: 21888, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: tw.twz.tgproxy.wtf}, udp: true}
+  - {name: _台湾_YouTube:VV科技_73, server: tw.v2ssvps.com, port: 60763, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: microsoft.com}, udp: true}
+  - {name: _美国_YouTube:VV科技_104, server: 113.wowogg.cyou, port: 52213, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _香港_YouTube:VV科技_38, server: 108.wowogg.cyou, port: 11224, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _香港_YouTube:VV科技_112, server: 112.wowogg.cyou, port: 52212, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _香港_YouTube:VV科技_98, server: 83.wgong.xyz, port: 52283, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _香港_YouTube:VV科技_76, server: 110.wowogg.cyou, port: 52210, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _俄罗斯联邦_YouTube:VV科技_63, server: 92.223.72.42, port: 443, type: vmess, uuid: ae08412f-5bb9-4be7-8560-1984976a1097, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: _美国_YouTube:VV科技_97, server: 72.11.136.212, port: 443, type: vmess, uuid: 6b02b504-ead6-4939-ba1c-afa5b92a6f6d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
   - {name: US_56, server: 172.99.190.188, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_52, server: 172.99.190.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ZZ_2204, server: 134.195.196.193, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: youtube:8度科技_美国 10, server: 167.88.63.28, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: GB-172.99.190.205-473, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CA-198.57.27.152-008, server: 198.57.27.152, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _法国_YouTube:VV科技_18, server: 149.202.82.172, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 俄罗斯联邦_YouTube：8度科技, server: 92.223.65.119, port: 443, type: vmess, uuid: 3fd6713f-e036-4ba9-938a-da7843a17a15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: _法国_YouTube:VV科技_135, server: 149.202.82.172, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _美国_YouTube:VV科技_107, server: anzhuo-hezi1.herokuapp.com, port: 443, type: vmess, uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess, ws-headers: {Host: anzhuo-hezi1.herokuapp.com}, udp: true}
+  - {name: _美国_YouTube:VV科技_41, server: anzhuo-hezi1.herokuapp.com, port: 443, type: vmess, uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess, ws-headers: {Host: anzhuo-hezi1.herokuapp.com}, udp: true}
+  - {name: _英国_YouTube:VV科技_25, server: 51.68.205.180, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _美国_YouTube:VV科技_50, server: 6.lyzghim.com, port: 443, type: vmess, uuid: 2bb8823b-6938-4c82-87dc-0dee4c118b2d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /qwe, ws-headers: {Host: 6.lyzghim.com}, udp: true}
+  - {name: _英国_YouTube:VV科技_103, server: 37.120.134.207, port: 443, type: vmess, uuid: 5c0beec7-9b91-4e28-85b0-e3ff49b4ac50, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: _英国_YouTube:VV科技_21, server: 172.99.190.39, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _美国_YouTube:VV科技_118, server: jinsen.cf, port: 80, type: vmess, uuid: 5eefacb4-ed77-4717-e081-601abe1272d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jinsen.cf}, udp: true}
+  - {name: _英国_YouTube:VV科技_34, server: 172.99.190.205, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _电报群 t.me/vvkj11(节点失效会在群里补上), server: dg.jgw.tgproxy.wtf, port: 443, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: dg.jgw.tgproxy.wtf}, udp: true}
+  - {name: 英国_TG@nodesharing_217, server: 172.99.190.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _韩国_YouTube:VV科技_85, server: 1031kr.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1031kr.fans8.xyz}, udp: true}
   - {name: CA-134.195.196.200-459, server: 134.195.196.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: CA-134.195.196.147-462, server: 134.195.196.147, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CA_二爷翻墙网：https://1808.ga_380, server: 134.195.196.193, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: +US_2122, server: 167.88.63.61, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: +US_1864, server: 167.88.63.28, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: +US_1496, server: 167.88.62.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 加拿大_TG@nodesharing_194, server: 134.195.196.200, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: +US_1482, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: +US_1462, server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: +US_1332, server: 172.99.190.188, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: +US_1278, server: 172.99.190.188, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: _GB_英国, server: 172.99.190.188, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _CA_加拿大 29, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _英国_YouTube:VV科技_6, server: 172.99.190.188, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _英国_YouTube:VV科技_121, server: 172.99.190.205, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 英国_YouTube：8度科技 5, server: 172.99.190.205, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 加拿大_TG@nodesharing_268, server: 134.195.196.200, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大_YouTube：8度科技 24, server: 134.195.196.200, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: +US_1278, server: 172.99.190.188, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _中国_YouTube:VV科技_31, server: 118.wowogg.cyou, port: 52218, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _日本_YouTube:VV科技_13, server: 69.64.248.199, port: 443, type: vmess, uuid: 7235b329-e205-4fcb-bcd6-81c19fbb9e85, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: 法国阿伟科技@TG/油管, server: 149.202.82.172, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _加拿大_YouTube:VV科技_65, server: 134.195.196.200, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _加拿大_YouTube:VV科技_106, server: 134.195.196.200, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: GB-172.99.190.205-473, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _加拿大_YouTube:VV科技_27, server: t1.ssrsub.com, port: 8443, type: trojan, password: 21627f29-0d0f-4dfa-9740-b5ee360bf061, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: _德国_YouTube:VV科技_122, server: 37.61.213.94, port: 443, type: vmess, uuid: 97ff78ea-8807-4c33-93e5-d8481ac0539e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: _加拿大_YouTube:VV科技_130, server: t4.ssrsub.com, port: 8443, type: trojan, password: 21627f29-0d0f-4dfa-9740-b5ee360bf061, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: _英国_YouTube:VV科技_8, server: 172.99.190.39, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _新加坡_YouTube:VV科技_6, server: dynamic-sg2b.obfs.xyz, port: 443, type: vmess, uuid: 273efd3d-3273-475c-b538-86bfed0030ff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /fastssh, ws-headers: {Host: dynamic-sg2b.obfs.xyz}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 英国_YouTube：8度科技 5
-      - 英国_TG@nodesharing_217
-      - 新加坡do
-      - 香港+中继10+华南
-      - 香港+中继09+华南
-      - 香港+中继08+华南
-      - 香港+中继07+华南
-      - 香港+中继06+华南
-      - 香港+中继05+华南
-      - 香港+中继04+华南
-      - 香港+中继03+华南
-      - 香港+中继02+华南
-      - 香港+中继01+华南
-      - 台湾+中继10+华南
-      - 台湾+中继09+华南
-      - 台湾+中继08+华南
-      - 台湾+中继07+华南
-      - 台湾+中继06+华南
-      - 台湾+中继05+华南
-      - 台湾+中继04+华南
-      - 台湾+中继03+华南
-      - 台湾+中继02+华南
-      - 台湾+中继01+华南
-      - 日本3-三网优化
-      - 日本2-三网优化
-      - 日本1-三网优化
-      - 美国阿伟科技@TG/油管
-      - 美国1-三网优化
-      - 美国+中继10+华东
-      - 美国+中继05+华东
-      - 美国+中继04+华东
-      - 美国+中继02+华东
-      - 美国_YouTube：8度科技 3
-      - 美国_YouTube：8度科技 11
-      - 加拿大_YouTube：8度科技 9
-      - 加拿大_YouTube：8度科技 7
-      - 加拿大_YouTube：8度科技 24
-      - 加拿大_TG@nodesharing_347
-      - 加拿大_TG@nodesharing_297
-      - 加拿大_TG@nodesharing_291
-      - 加拿大_TG@nodesharing_268
-      - 加拿大_TG@nodesharing_194
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 法国阿伟科技@TG/油管
-      - 俄罗斯联邦_YouTube：8度科技
+      - _香港_YouTube:VV科技_77
+      - _美国_YouTube:VV科技_92
+      - _美国_YouTube:VV科技_96
+      - _中国_YouTube:VV科技_99
+      - _香港_YouTube:VV科技_56
+      - _中国_YouTube:VV科技_32
+      - _香港_YouTube:VV科技_60
+      - _中国跳转_YouTube:VV科技_53
+      - _中国_YouTube:VV科技_42
+      - _中国_YouTube:VV科技_113
+      - _中国_YouTube:VV科技_75
+      - _优先在YouTube：<VV科技>频道公布
+      - _韩国_YouTube:VV科技_55
+      - _香港_YouTube:VV科技_109
+      - _美国_YouTube:VV科技_117
+      - _中国_YouTube:VV科技_9
+      - _中国跳转_YouTube:VV科技_71
+      - _阿联酋_YouTube:VV科技_86
+      - _美国_YouTube:VV科技_69
+      - _英国_YouTube:VV科技_71
+      - _法国_YouTube:VV科技_114
       - 俄罗斯阿伟科技@TG/油管
-      - 德国阿伟科技@TG/油管
+      - _台湾_YouTube:VV科技_16
+      - _台湾_YouTube:VV科技_73
+      - _美国_YouTube:VV科技_104
+      - _香港_YouTube:VV科技_38
+      - _香港_YouTube:VV科技_112
+      - _香港_YouTube:VV科技_98
+      - _香港_YouTube:VV科技_76
+      - _俄罗斯联邦_YouTube:VV科技_63
+      - _美国_YouTube:VV科技_97
       - US_56
-      - US_52
-      - ZZ_2204
-      - youtube:8度科技_美国 10
-      - GB-172.99.190.205-473
-      - CA-198.57.27.152-008
+      - _法国_YouTube:VV科技_18
+      - 俄罗斯联邦_YouTube：8度科技
+      - _法国_YouTube:VV科技_135
+      - _美国_YouTube:VV科技_107
+      - _美国_YouTube:VV科技_41
+      - _英国_YouTube:VV科技_25
+      - _美国_YouTube:VV科技_50
+      - _英国_YouTube:VV科技_103
+      - _英国_YouTube:VV科技_21
+      - _美国_YouTube:VV科技_118
+      - _英国_YouTube:VV科技_34
+      - _电报群 t.me/vvkj11(节点失效会在群里补上)
+      - 英国_TG@nodesharing_217
+      - _韩国_YouTube:VV科技_85
       - CA-134.195.196.200-459
-      - CA-134.195.196.147-462
-      - CA_二爷翻墙网：https://1808.ga_380
-      - +US_2122
-      - +US_1864
-      - +US_1496
+      - 加拿大_TG@nodesharing_194
       - +US_1482
-      - +US_1462
-      - +US_1332
-      - +US_1278
       - _GB_英国
-      - _CA_加拿大 29
+      - _英国_YouTube:VV科技_6
+      - _英国_YouTube:VV科技_121
+      - 英国_YouTube：8度科技 5
+      - 加拿大_TG@nodesharing_268
+      - 加拿大_YouTube：8度科技 24
+      - +US_1278
+      - _中国_YouTube:VV科技_31
+      - _日本_YouTube:VV科技_13
+      - 法国阿伟科技@TG/油管
+      - _加拿大_YouTube:VV科技_65
+      - _加拿大_YouTube:VV科技_106
+      - GB-172.99.190.205-473
+      - _加拿大_YouTube:VV科技_27
+      - _德国_YouTube:VV科技_122
+      - _加拿大_YouTube:VV科技_130
+      - _英国_YouTube:VV科技_8
+      - _新加坡_YouTube:VV科技_6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 英国_YouTube：8度科技 5
-      - 英国_TG@nodesharing_217
-      - 新加坡do
-      - 香港+中继10+华南
-      - 香港+中继09+华南
-      - 香港+中继08+华南
-      - 香港+中继07+华南
-      - 香港+中继06+华南
-      - 香港+中继05+华南
-      - 香港+中继04+华南
-      - 香港+中继03+华南
-      - 香港+中继02+华南
-      - 香港+中继01+华南
-      - 台湾+中继10+华南
-      - 台湾+中继09+华南
-      - 台湾+中继08+华南
-      - 台湾+中继07+华南
-      - 台湾+中继06+华南
-      - 台湾+中继05+华南
-      - 台湾+中继04+华南
-      - 台湾+中继03+华南
-      - 台湾+中继02+华南
-      - 台湾+中继01+华南
-      - 日本3-三网优化
-      - 日本2-三网优化
-      - 日本1-三网优化
-      - 美国阿伟科技@TG/油管
-      - 美国1-三网优化
-      - 美国+中继10+华东
-      - 美国+中继05+华东
-      - 美国+中继04+华东
-      - 美国+中继02+华东
-      - 美国_YouTube：8度科技 3
-      - 美国_YouTube：8度科技 11
-      - 加拿大_YouTube：8度科技 9
-      - 加拿大_YouTube：8度科技 7
-      - 加拿大_YouTube：8度科技 24
-      - 加拿大_TG@nodesharing_347
-      - 加拿大_TG@nodesharing_297
-      - 加拿大_TG@nodesharing_291
-      - 加拿大_TG@nodesharing_268
-      - 加拿大_TG@nodesharing_194
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 法国阿伟科技@TG/油管
-      - 俄罗斯联邦_YouTube：8度科技
+      - _香港_YouTube:VV科技_77
+      - _美国_YouTube:VV科技_92
+      - _美国_YouTube:VV科技_96
+      - _中国_YouTube:VV科技_99
+      - _香港_YouTube:VV科技_56
+      - _中国_YouTube:VV科技_32
+      - _香港_YouTube:VV科技_60
+      - _中国跳转_YouTube:VV科技_53
+      - _中国_YouTube:VV科技_42
+      - _中国_YouTube:VV科技_113
+      - _中国_YouTube:VV科技_75
+      - _优先在YouTube：<VV科技>频道公布
+      - _韩国_YouTube:VV科技_55
+      - _香港_YouTube:VV科技_109
+      - _美国_YouTube:VV科技_117
+      - _中国_YouTube:VV科技_9
+      - _中国跳转_YouTube:VV科技_71
+      - _阿联酋_YouTube:VV科技_86
+      - _美国_YouTube:VV科技_69
+      - _英国_YouTube:VV科技_71
+      - _法国_YouTube:VV科技_114
       - 俄罗斯阿伟科技@TG/油管
-      - 德国阿伟科技@TG/油管
+      - _台湾_YouTube:VV科技_16
+      - _台湾_YouTube:VV科技_73
+      - _美国_YouTube:VV科技_104
+      - _香港_YouTube:VV科技_38
+      - _香港_YouTube:VV科技_112
+      - _香港_YouTube:VV科技_98
+      - _香港_YouTube:VV科技_76
+      - _俄罗斯联邦_YouTube:VV科技_63
+      - _美国_YouTube:VV科技_97
       - US_56
-      - US_52
-      - ZZ_2204
-      - youtube:8度科技_美国 10
-      - GB-172.99.190.205-473
-      - CA-198.57.27.152-008
+      - _法国_YouTube:VV科技_18
+      - 俄罗斯联邦_YouTube：8度科技
+      - _法国_YouTube:VV科技_135
+      - _美国_YouTube:VV科技_107
+      - _美国_YouTube:VV科技_41
+      - _英国_YouTube:VV科技_25
+      - _美国_YouTube:VV科技_50
+      - _英国_YouTube:VV科技_103
+      - _英国_YouTube:VV科技_21
+      - _美国_YouTube:VV科技_118
+      - _英国_YouTube:VV科技_34
+      - _电报群 t.me/vvkj11(节点失效会在群里补上)
+      - 英国_TG@nodesharing_217
+      - _韩国_YouTube:VV科技_85
       - CA-134.195.196.200-459
-      - CA-134.195.196.147-462
-      - CA_二爷翻墙网：https://1808.ga_380
-      - +US_2122
-      - +US_1864
-      - +US_1496
+      - 加拿大_TG@nodesharing_194
       - +US_1482
-      - +US_1462
-      - +US_1332
-      - +US_1278
       - _GB_英国
-      - _CA_加拿大 29
+      - _英国_YouTube:VV科技_6
+      - _英国_YouTube:VV科技_121
+      - 英国_YouTube：8度科技 5
+      - 加拿大_TG@nodesharing_268
+      - 加拿大_YouTube：8度科技 24
+      - +US_1278
+      - _中国_YouTube:VV科技_31
+      - _日本_YouTube:VV科技_13
+      - 法国阿伟科技@TG/油管
+      - _加拿大_YouTube:VV科技_65
+      - _加拿大_YouTube:VV科技_106
+      - GB-172.99.190.205-473
+      - _加拿大_YouTube:VV科技_27
+      - _德国_YouTube:VV科技_122
+      - _加拿大_YouTube:VV科技_130
+      - _英国_YouTube:VV科技_8
+      - _新加坡_YouTube:VV科技_6
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 英国_YouTube：8度科技 5
-      - 英国_TG@nodesharing_217
-      - 新加坡do
-      - 香港+中继10+华南
-      - 香港+中继09+华南
-      - 香港+中继08+华南
-      - 香港+中继07+华南
-      - 香港+中继06+华南
-      - 香港+中继05+华南
-      - 香港+中继04+华南
-      - 香港+中继03+华南
-      - 香港+中继02+华南
-      - 香港+中继01+华南
-      - 台湾+中继10+华南
-      - 台湾+中继09+华南
-      - 台湾+中继08+华南
-      - 台湾+中继07+华南
-      - 台湾+中继06+华南
-      - 台湾+中继05+华南
-      - 台湾+中继04+华南
-      - 台湾+中继03+华南
-      - 台湾+中继02+华南
-      - 台湾+中继01+华南
-      - 日本3-三网优化
-      - 日本2-三网优化
-      - 日本1-三网优化
-      - 美国阿伟科技@TG/油管
-      - 美国1-三网优化
-      - 美国+中继10+华东
-      - 美国+中继05+华东
-      - 美国+中继04+华东
-      - 美国+中继02+华东
-      - 美国_YouTube：8度科技 3
-      - 美国_YouTube：8度科技 11
-      - 加拿大_YouTube：8度科技 9
-      - 加拿大_YouTube：8度科技 7
-      - 加拿大_YouTube：8度科技 24
-      - 加拿大_TG@nodesharing_347
-      - 加拿大_TG@nodesharing_297
-      - 加拿大_TG@nodesharing_291
-      - 加拿大_TG@nodesharing_268
-      - 加拿大_TG@nodesharing_194
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 法国阿伟科技@TG/油管
-      - 俄罗斯联邦_YouTube：8度科技
+      - _香港_YouTube:VV科技_77
+      - _美国_YouTube:VV科技_92
+      - _美国_YouTube:VV科技_96
+      - _中国_YouTube:VV科技_99
+      - _香港_YouTube:VV科技_56
+      - _中国_YouTube:VV科技_32
+      - _香港_YouTube:VV科技_60
+      - _中国跳转_YouTube:VV科技_53
+      - _中国_YouTube:VV科技_42
+      - _中国_YouTube:VV科技_113
+      - _中国_YouTube:VV科技_75
+      - _优先在YouTube：<VV科技>频道公布
+      - _韩国_YouTube:VV科技_55
+      - _香港_YouTube:VV科技_109
+      - _美国_YouTube:VV科技_117
+      - _中国_YouTube:VV科技_9
+      - _中国跳转_YouTube:VV科技_71
+      - _阿联酋_YouTube:VV科技_86
+      - _美国_YouTube:VV科技_69
+      - _英国_YouTube:VV科技_71
+      - _法国_YouTube:VV科技_114
       - 俄罗斯阿伟科技@TG/油管
-      - 德国阿伟科技@TG/油管
+      - _台湾_YouTube:VV科技_16
+      - _台湾_YouTube:VV科技_73
+      - _美国_YouTube:VV科技_104
+      - _香港_YouTube:VV科技_38
+      - _香港_YouTube:VV科技_112
+      - _香港_YouTube:VV科技_98
+      - _香港_YouTube:VV科技_76
+      - _俄罗斯联邦_YouTube:VV科技_63
+      - _美国_YouTube:VV科技_97
       - US_56
-      - US_52
-      - ZZ_2204
-      - youtube:8度科技_美国 10
-      - GB-172.99.190.205-473
-      - CA-198.57.27.152-008
+      - _法国_YouTube:VV科技_18
+      - 俄罗斯联邦_YouTube：8度科技
+      - _法国_YouTube:VV科技_135
+      - _美国_YouTube:VV科技_107
+      - _美国_YouTube:VV科技_41
+      - _英国_YouTube:VV科技_25
+      - _美国_YouTube:VV科技_50
+      - _英国_YouTube:VV科技_103
+      - _英国_YouTube:VV科技_21
+      - _美国_YouTube:VV科技_118
+      - _英国_YouTube:VV科技_34
+      - _电报群 t.me/vvkj11(节点失效会在群里补上)
+      - 英国_TG@nodesharing_217
+      - _韩国_YouTube:VV科技_85
       - CA-134.195.196.200-459
-      - CA-134.195.196.147-462
-      - CA_二爷翻墙网：https://1808.ga_380
-      - +US_2122
-      - +US_1864
-      - +US_1496
+      - 加拿大_TG@nodesharing_194
       - +US_1482
-      - +US_1462
-      - +US_1332
-      - +US_1278
       - _GB_英国
-      - _CA_加拿大 29
+      - _英国_YouTube:VV科技_6
+      - _英国_YouTube:VV科技_121
+      - 英国_YouTube：8度科技 5
+      - 加拿大_TG@nodesharing_268
+      - 加拿大_YouTube：8度科技 24
+      - +US_1278
+      - _中国_YouTube:VV科技_31
+      - _日本_YouTube:VV科技_13
+      - 法国阿伟科技@TG/油管
+      - _加拿大_YouTube:VV科技_65
+      - _加拿大_YouTube:VV科技_106
+      - GB-172.99.190.205-473
+      - _加拿大_YouTube:VV科技_27
+      - _德国_YouTube:VV科技_122
+      - _加拿大_YouTube:VV科技_130
+      - _英国_YouTube:VV科技_8
+      - _新加坡_YouTube:VV科技_6
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -300,307 +308,305 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 英国_YouTube：8度科技 5
-      - 英国_TG@nodesharing_217
-      - 新加坡do
-      - 香港+中继10+华南
-      - 香港+中继09+华南
-      - 香港+中继08+华南
-      - 香港+中继07+华南
-      - 香港+中继06+华南
-      - 香港+中继05+华南
-      - 香港+中继04+华南
-      - 香港+中继03+华南
-      - 香港+中继02+华南
-      - 香港+中继01+华南
-      - 台湾+中继10+华南
-      - 台湾+中继09+华南
-      - 台湾+中继08+华南
-      - 台湾+中继07+华南
-      - 台湾+中继06+华南
-      - 台湾+中继05+华南
-      - 台湾+中继04+华南
-      - 台湾+中继03+华南
-      - 台湾+中继02+华南
-      - 台湾+中继01+华南
-      - 日本3-三网优化
-      - 日本2-三网优化
-      - 日本1-三网优化
-      - 美国阿伟科技@TG/油管
-      - 美国1-三网优化
-      - 美国+中继10+华东
-      - 美国+中继05+华东
-      - 美国+中继04+华东
-      - 美国+中继02+华东
-      - 美国_YouTube：8度科技 3
-      - 美国_YouTube：8度科技 11
-      - 加拿大_YouTube：8度科技 9
-      - 加拿大_YouTube：8度科技 7
-      - 加拿大_YouTube：8度科技 24
-      - 加拿大_TG@nodesharing_347
-      - 加拿大_TG@nodesharing_297
-      - 加拿大_TG@nodesharing_291
-      - 加拿大_TG@nodesharing_268
-      - 加拿大_TG@nodesharing_194
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 法国阿伟科技@TG/油管
-      - 俄罗斯联邦_YouTube：8度科技
+      - _香港_YouTube:VV科技_77
+      - _美国_YouTube:VV科技_92
+      - _美国_YouTube:VV科技_96
+      - _中国_YouTube:VV科技_99
+      - _香港_YouTube:VV科技_56
+      - _中国_YouTube:VV科技_32
+      - _香港_YouTube:VV科技_60
+      - _中国跳转_YouTube:VV科技_53
+      - _中国_YouTube:VV科技_42
+      - _中国_YouTube:VV科技_113
+      - _中国_YouTube:VV科技_75
+      - _优先在YouTube：<VV科技>频道公布
+      - _韩国_YouTube:VV科技_55
+      - _香港_YouTube:VV科技_109
+      - _美国_YouTube:VV科技_117
+      - _中国_YouTube:VV科技_9
+      - _中国跳转_YouTube:VV科技_71
+      - _阿联酋_YouTube:VV科技_86
+      - _美国_YouTube:VV科技_69
+      - _英国_YouTube:VV科技_71
+      - _法国_YouTube:VV科技_114
       - 俄罗斯阿伟科技@TG/油管
-      - 德国阿伟科技@TG/油管
+      - _台湾_YouTube:VV科技_16
+      - _台湾_YouTube:VV科技_73
+      - _美国_YouTube:VV科技_104
+      - _香港_YouTube:VV科技_38
+      - _香港_YouTube:VV科技_112
+      - _香港_YouTube:VV科技_98
+      - _香港_YouTube:VV科技_76
+      - _俄罗斯联邦_YouTube:VV科技_63
+      - _美国_YouTube:VV科技_97
       - US_56
-      - US_52
-      - ZZ_2204
-      - youtube:8度科技_美国 10
-      - GB-172.99.190.205-473
-      - CA-198.57.27.152-008
+      - _法国_YouTube:VV科技_18
+      - 俄罗斯联邦_YouTube：8度科技
+      - _法国_YouTube:VV科技_135
+      - _美国_YouTube:VV科技_107
+      - _美国_YouTube:VV科技_41
+      - _英国_YouTube:VV科技_25
+      - _美国_YouTube:VV科技_50
+      - _英国_YouTube:VV科技_103
+      - _英国_YouTube:VV科技_21
+      - _美国_YouTube:VV科技_118
+      - _英国_YouTube:VV科技_34
+      - _电报群 t.me/vvkj11(节点失效会在群里补上)
+      - 英国_TG@nodesharing_217
+      - _韩国_YouTube:VV科技_85
       - CA-134.195.196.200-459
-      - CA-134.195.196.147-462
-      - CA_二爷翻墙网：https://1808.ga_380
-      - +US_2122
-      - +US_1864
-      - +US_1496
+      - 加拿大_TG@nodesharing_194
       - +US_1482
-      - +US_1462
-      - +US_1332
-      - +US_1278
       - _GB_英国
-      - _CA_加拿大 29
+      - _英国_YouTube:VV科技_6
+      - _英国_YouTube:VV科技_121
+      - 英国_YouTube：8度科技 5
+      - 加拿大_TG@nodesharing_268
+      - 加拿大_YouTube：8度科技 24
+      - +US_1278
+      - _中国_YouTube:VV科技_31
+      - _日本_YouTube:VV科技_13
+      - 法国阿伟科技@TG/油管
+      - _加拿大_YouTube:VV科技_65
+      - _加拿大_YouTube:VV科技_106
+      - GB-172.99.190.205-473
+      - _加拿大_YouTube:VV科技_27
+      - _德国_YouTube:VV科技_122
+      - _加拿大_YouTube:VV科技_130
+      - _英国_YouTube:VV科技_8
+      - _新加坡_YouTube:VV科技_6
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港+中继10+华南
-      - 香港+中继09+华南
-      - 香港+中继08+华南
-      - 香港+中继07+华南
-      - 香港+中继06+华南
-      - 香港+中继05+华南
-      - 香港+中继04+华南
-      - 香港+中继03+华南
-      - 香港+中继02+华南
-      - 香港+中继01+华南
-      - 台湾+中继10+华南
-      - 台湾+中继09+华南
-      - 台湾+中继08+华南
-      - 台湾+中继07+华南
-      - 台湾+中继06+华南
-      - 台湾+中继05+华南
-      - 台湾+中继04+华南
-      - 台湾+中继03+华南
-      - 台湾+中继02+华南
-      - 台湾+中继01+华南
+      - _香港_YouTube:VV科技_77
+      - _香港_YouTube:VV科技_56
+      - _香港_YouTube:VV科技_60
+      - _香港_YouTube:VV科技_109
+      - _台湾_YouTube:VV科技_16
+      - _台湾_YouTube:VV科技_73
+      - _香港_YouTube:VV科技_38
+      - _香港_YouTube:VV科技_112
+      - _香港_YouTube:VV科技_98
+      - _香港_YouTube:VV科技_76
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 英国_YouTube：8度科技 5
-      - 英国_TG@nodesharing_217
-      - 新加坡do
-      - 香港+中继10+华南
-      - 香港+中继09+华南
-      - 香港+中继08+华南
-      - 香港+中继07+华南
-      - 香港+中继06+华南
-      - 香港+中继05+华南
-      - 香港+中继04+华南
-      - 香港+中继03+华南
-      - 香港+中继02+华南
-      - 香港+中继01+华南
-      - 台湾+中继10+华南
-      - 台湾+中继09+华南
-      - 台湾+中继08+华南
-      - 台湾+中继07+华南
-      - 台湾+中继06+华南
-      - 台湾+中继05+华南
-      - 台湾+中继04+华南
-      - 台湾+中继03+华南
-      - 台湾+中继02+华南
-      - 台湾+中继01+华南
-      - 日本3-三网优化
-      - 日本2-三网优化
-      - 日本1-三网优化
-      - 美国阿伟科技@TG/油管
-      - 美国1-三网优化
-      - 美国+中继10+华东
-      - 美国+中继05+华东
-      - 美国+中继04+华东
-      - 美国+中继02+华东
-      - 美国_YouTube：8度科技 3
-      - 美国_YouTube：8度科技 11
-      - 加拿大_YouTube：8度科技 9
-      - 加拿大_YouTube：8度科技 7
-      - 加拿大_YouTube：8度科技 24
-      - 加拿大_TG@nodesharing_347
-      - 加拿大_TG@nodesharing_297
-      - 加拿大_TG@nodesharing_291
-      - 加拿大_TG@nodesharing_268
-      - 加拿大_TG@nodesharing_194
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 法国阿伟科技@TG/油管
-      - 俄罗斯联邦_YouTube：8度科技
+      - _香港_YouTube:VV科技_77
+      - _美国_YouTube:VV科技_92
+      - _美国_YouTube:VV科技_96
+      - _中国_YouTube:VV科技_99
+      - _香港_YouTube:VV科技_56
+      - _中国_YouTube:VV科技_32
+      - _香港_YouTube:VV科技_60
+      - _中国跳转_YouTube:VV科技_53
+      - _中国_YouTube:VV科技_42
+      - _中国_YouTube:VV科技_113
+      - _中国_YouTube:VV科技_75
+      - _优先在YouTube：<VV科技>频道公布
+      - _韩国_YouTube:VV科技_55
+      - _香港_YouTube:VV科技_109
+      - _美国_YouTube:VV科技_117
+      - _中国_YouTube:VV科技_9
+      - _中国跳转_YouTube:VV科技_71
+      - _阿联酋_YouTube:VV科技_86
+      - _美国_YouTube:VV科技_69
+      - _英国_YouTube:VV科技_71
+      - _法国_YouTube:VV科技_114
       - 俄罗斯阿伟科技@TG/油管
-      - 德国阿伟科技@TG/油管
+      - _台湾_YouTube:VV科技_16
+      - _台湾_YouTube:VV科技_73
+      - _美国_YouTube:VV科技_104
+      - _香港_YouTube:VV科技_38
+      - _香港_YouTube:VV科技_112
+      - _香港_YouTube:VV科技_98
+      - _香港_YouTube:VV科技_76
+      - _俄罗斯联邦_YouTube:VV科技_63
+      - _美国_YouTube:VV科技_97
       - US_56
-      - US_52
-      - ZZ_2204
-      - youtube:8度科技_美国 10
-      - GB-172.99.190.205-473
-      - CA-198.57.27.152-008
+      - _法国_YouTube:VV科技_18
+      - 俄罗斯联邦_YouTube：8度科技
+      - _法国_YouTube:VV科技_135
+      - _美国_YouTube:VV科技_107
+      - _美国_YouTube:VV科技_41
+      - _英国_YouTube:VV科技_25
+      - _美国_YouTube:VV科技_50
+      - _英国_YouTube:VV科技_103
+      - _英国_YouTube:VV科技_21
+      - _美国_YouTube:VV科技_118
+      - _英国_YouTube:VV科技_34
+      - _电报群 t.me/vvkj11(节点失效会在群里补上)
+      - 英国_TG@nodesharing_217
+      - _韩国_YouTube:VV科技_85
       - CA-134.195.196.200-459
-      - CA-134.195.196.147-462
-      - CA_二爷翻墙网：https://1808.ga_380
-      - +US_2122
-      - +US_1864
-      - +US_1496
+      - 加拿大_TG@nodesharing_194
       - +US_1482
-      - +US_1462
-      - +US_1332
-      - +US_1278
       - _GB_英国
-      - _CA_加拿大 29
+      - _英国_YouTube:VV科技_6
+      - _英国_YouTube:VV科技_121
+      - 英国_YouTube：8度科技 5
+      - 加拿大_TG@nodesharing_268
+      - 加拿大_YouTube：8度科技 24
+      - +US_1278
+      - _中国_YouTube:VV科技_31
+      - _日本_YouTube:VV科技_13
+      - 法国阿伟科技@TG/油管
+      - _加拿大_YouTube:VV科技_65
+      - _加拿大_YouTube:VV科技_106
+      - GB-172.99.190.205-473
+      - _加拿大_YouTube:VV科技_27
+      - _德国_YouTube:VV科技_122
+      - _加拿大_YouTube:VV科技_130
+      - _英国_YouTube:VV科技_8
+      - _新加坡_YouTube:VV科技_6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 英国_YouTube：8度科技 5
-      - 英国_TG@nodesharing_217
-      - 新加坡do
-      - 香港+中继10+华南
-      - 香港+中继09+华南
-      - 香港+中继08+华南
-      - 香港+中继07+华南
-      - 香港+中继06+华南
-      - 香港+中继05+华南
-      - 香港+中继04+华南
-      - 香港+中继03+华南
-      - 香港+中继02+华南
-      - 香港+中继01+华南
-      - 台湾+中继10+华南
-      - 台湾+中继09+华南
-      - 台湾+中继08+华南
-      - 台湾+中继07+华南
-      - 台湾+中继06+华南
-      - 台湾+中继05+华南
-      - 台湾+中继04+华南
-      - 台湾+中继03+华南
-      - 台湾+中继02+华南
-      - 台湾+中继01+华南
-      - 日本3-三网优化
-      - 日本2-三网优化
-      - 日本1-三网优化
-      - 美国阿伟科技@TG/油管
-      - 美国1-三网优化
-      - 美国+中继10+华东
-      - 美国+中继05+华东
-      - 美国+中继04+华东
-      - 美国+中继02+华东
-      - 美国_YouTube：8度科技 3
-      - 美国_YouTube：8度科技 11
-      - 加拿大_YouTube：8度科技 9
-      - 加拿大_YouTube：8度科技 7
-      - 加拿大_YouTube：8度科技 24
-      - 加拿大_TG@nodesharing_347
-      - 加拿大_TG@nodesharing_297
-      - 加拿大_TG@nodesharing_291
-      - 加拿大_TG@nodesharing_268
-      - 加拿大_TG@nodesharing_194
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 法国阿伟科技@TG/油管
-      - 俄罗斯联邦_YouTube：8度科技
+      - _香港_YouTube:VV科技_77
+      - _美国_YouTube:VV科技_92
+      - _美国_YouTube:VV科技_96
+      - _中国_YouTube:VV科技_99
+      - _香港_YouTube:VV科技_56
+      - _中国_YouTube:VV科技_32
+      - _香港_YouTube:VV科技_60
+      - _中国跳转_YouTube:VV科技_53
+      - _中国_YouTube:VV科技_42
+      - _中国_YouTube:VV科技_113
+      - _中国_YouTube:VV科技_75
+      - _优先在YouTube：<VV科技>频道公布
+      - _韩国_YouTube:VV科技_55
+      - _香港_YouTube:VV科技_109
+      - _美国_YouTube:VV科技_117
+      - _中国_YouTube:VV科技_9
+      - _中国跳转_YouTube:VV科技_71
+      - _阿联酋_YouTube:VV科技_86
+      - _美国_YouTube:VV科技_69
+      - _英国_YouTube:VV科技_71
+      - _法国_YouTube:VV科技_114
       - 俄罗斯阿伟科技@TG/油管
-      - 德国阿伟科技@TG/油管
+      - _台湾_YouTube:VV科技_16
+      - _台湾_YouTube:VV科技_73
+      - _美国_YouTube:VV科技_104
+      - _香港_YouTube:VV科技_38
+      - _香港_YouTube:VV科技_112
+      - _香港_YouTube:VV科技_98
+      - _香港_YouTube:VV科技_76
+      - _俄罗斯联邦_YouTube:VV科技_63
+      - _美国_YouTube:VV科技_97
       - US_56
-      - US_52
-      - ZZ_2204
-      - youtube:8度科技_美国 10
-      - GB-172.99.190.205-473
-      - CA-198.57.27.152-008
+      - _法国_YouTube:VV科技_18
+      - 俄罗斯联邦_YouTube：8度科技
+      - _法国_YouTube:VV科技_135
+      - _美国_YouTube:VV科技_107
+      - _美国_YouTube:VV科技_41
+      - _英国_YouTube:VV科技_25
+      - _美国_YouTube:VV科技_50
+      - _英国_YouTube:VV科技_103
+      - _英国_YouTube:VV科技_21
+      - _美国_YouTube:VV科技_118
+      - _英国_YouTube:VV科技_34
+      - _电报群 t.me/vvkj11(节点失效会在群里补上)
+      - 英国_TG@nodesharing_217
+      - _韩国_YouTube:VV科技_85
       - CA-134.195.196.200-459
-      - CA-134.195.196.147-462
-      - CA_二爷翻墙网：https://1808.ga_380
-      - +US_2122
-      - +US_1864
-      - +US_1496
+      - 加拿大_TG@nodesharing_194
       - +US_1482
-      - +US_1462
-      - +US_1332
-      - +US_1278
       - _GB_英国
-      - _CA_加拿大 29
+      - _英国_YouTube:VV科技_6
+      - _英国_YouTube:VV科技_121
+      - 英国_YouTube：8度科技 5
+      - 加拿大_TG@nodesharing_268
+      - 加拿大_YouTube：8度科技 24
+      - +US_1278
+      - _中国_YouTube:VV科技_31
+      - _日本_YouTube:VV科技_13
+      - 法国阿伟科技@TG/油管
+      - _加拿大_YouTube:VV科技_65
+      - _加拿大_YouTube:VV科技_106
+      - GB-172.99.190.205-473
+      - _加拿大_YouTube:VV科技_27
+      - _德国_YouTube:VV科技_122
+      - _加拿大_YouTube:VV科技_130
+      - _英国_YouTube:VV科技_8
+      - _新加坡_YouTube:VV科技_6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 英国_YouTube：8度科技 5
-      - 英国_TG@nodesharing_217
-      - 新加坡do
-      - 香港+中继10+华南
-      - 香港+中继09+华南
-      - 香港+中继08+华南
-      - 香港+中继07+华南
-      - 香港+中继06+华南
-      - 香港+中继05+华南
-      - 香港+中继04+华南
-      - 香港+中继03+华南
-      - 香港+中继02+华南
-      - 香港+中继01+华南
-      - 台湾+中继10+华南
-      - 台湾+中继09+华南
-      - 台湾+中继08+华南
-      - 台湾+中继07+华南
-      - 台湾+中继06+华南
-      - 台湾+中继05+华南
-      - 台湾+中继04+华南
-      - 台湾+中继03+华南
-      - 台湾+中继02+华南
-      - 台湾+中继01+华南
-      - 日本3-三网优化
-      - 日本2-三网优化
-      - 日本1-三网优化
-      - 美国阿伟科技@TG/油管
-      - 美国1-三网优化
-      - 美国+中继10+华东
-      - 美国+中继05+华东
-      - 美国+中继04+华东
-      - 美国+中继02+华东
-      - 美国_YouTube：8度科技 3
-      - 美国_YouTube：8度科技 11
-      - 加拿大_YouTube：8度科技 9
-      - 加拿大_YouTube：8度科技 7
-      - 加拿大_YouTube：8度科技 24
-      - 加拿大_TG@nodesharing_347
-      - 加拿大_TG@nodesharing_297
-      - 加拿大_TG@nodesharing_291
-      - 加拿大_TG@nodesharing_268
-      - 加拿大_TG@nodesharing_194
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 法国阿伟科技@TG/油管
-      - 俄罗斯联邦_YouTube：8度科技
+      - _香港_YouTube:VV科技_77
+      - _美国_YouTube:VV科技_92
+      - _美国_YouTube:VV科技_96
+      - _中国_YouTube:VV科技_99
+      - _香港_YouTube:VV科技_56
+      - _中国_YouTube:VV科技_32
+      - _香港_YouTube:VV科技_60
+      - _中国跳转_YouTube:VV科技_53
+      - _中国_YouTube:VV科技_42
+      - _中国_YouTube:VV科技_113
+      - _中国_YouTube:VV科技_75
+      - _优先在YouTube：<VV科技>频道公布
+      - _韩国_YouTube:VV科技_55
+      - _香港_YouTube:VV科技_109
+      - _美国_YouTube:VV科技_117
+      - _中国_YouTube:VV科技_9
+      - _中国跳转_YouTube:VV科技_71
+      - _阿联酋_YouTube:VV科技_86
+      - _美国_YouTube:VV科技_69
+      - _英国_YouTube:VV科技_71
+      - _法国_YouTube:VV科技_114
       - 俄罗斯阿伟科技@TG/油管
-      - 德国阿伟科技@TG/油管
+      - _台湾_YouTube:VV科技_16
+      - _台湾_YouTube:VV科技_73
+      - _美国_YouTube:VV科技_104
+      - _香港_YouTube:VV科技_38
+      - _香港_YouTube:VV科技_112
+      - _香港_YouTube:VV科技_98
+      - _香港_YouTube:VV科技_76
+      - _俄罗斯联邦_YouTube:VV科技_63
+      - _美国_YouTube:VV科技_97
       - US_56
-      - US_52
-      - ZZ_2204
-      - youtube:8度科技_美国 10
-      - GB-172.99.190.205-473
-      - CA-198.57.27.152-008
+      - _法国_YouTube:VV科技_18
+      - 俄罗斯联邦_YouTube：8度科技
+      - _法国_YouTube:VV科技_135
+      - _美国_YouTube:VV科技_107
+      - _美国_YouTube:VV科技_41
+      - _英国_YouTube:VV科技_25
+      - _美国_YouTube:VV科技_50
+      - _英国_YouTube:VV科技_103
+      - _英国_YouTube:VV科技_21
+      - _美国_YouTube:VV科技_118
+      - _英国_YouTube:VV科技_34
+      - _电报群 t.me/vvkj11(节点失效会在群里补上)
+      - 英国_TG@nodesharing_217
+      - _韩国_YouTube:VV科技_85
       - CA-134.195.196.200-459
-      - CA-134.195.196.147-462
-      - CA_二爷翻墙网：https://1808.ga_380
-      - +US_2122
-      - +US_1864
-      - +US_1496
+      - 加拿大_TG@nodesharing_194
       - +US_1482
-      - +US_1462
-      - +US_1332
-      - +US_1278
       - _GB_英国
-      - _CA_加拿大 29
+      - _英国_YouTube:VV科技_6
+      - _英国_YouTube:VV科技_121
+      - 英国_YouTube：8度科技 5
+      - 加拿大_TG@nodesharing_268
+      - 加拿大_YouTube：8度科技 24
+      - +US_1278
+      - _中国_YouTube:VV科技_31
+      - _日本_YouTube:VV科技_13
+      - 法国阿伟科技@TG/油管
+      - _加拿大_YouTube:VV科技_65
+      - _加拿大_YouTube:VV科技_106
+      - GB-172.99.190.205-473
+      - _加拿大_YouTube:VV科技_27
+      - _德国_YouTube:VV科技_122
+      - _加拿大_YouTube:VV科技_130
+      - _英国_YouTube:VV科技_8
+      - _新加坡_YouTube:VV科技_6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -616,71 +622,73 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 英国_YouTube：8度科技 5
-      - 英国_TG@nodesharing_217
-      - 新加坡do
-      - 香港+中继10+华南
-      - 香港+中继09+华南
-      - 香港+中继08+华南
-      - 香港+中继07+华南
-      - 香港+中继06+华南
-      - 香港+中继05+华南
-      - 香港+中继04+华南
-      - 香港+中继03+华南
-      - 香港+中继02+华南
-      - 香港+中继01+华南
-      - 台湾+中继10+华南
-      - 台湾+中继09+华南
-      - 台湾+中继08+华南
-      - 台湾+中继07+华南
-      - 台湾+中继06+华南
-      - 台湾+中继05+华南
-      - 台湾+中继04+华南
-      - 台湾+中继03+华南
-      - 台湾+中继02+华南
-      - 台湾+中继01+华南
-      - 日本3-三网优化
-      - 日本2-三网优化
-      - 日本1-三网优化
-      - 美国阿伟科技@TG/油管
-      - 美国1-三网优化
-      - 美国+中继10+华东
-      - 美国+中继05+华东
-      - 美国+中继04+华东
-      - 美国+中继02+华东
-      - 美国_YouTube：8度科技 3
-      - 美国_YouTube：8度科技 11
-      - 加拿大_YouTube：8度科技 9
-      - 加拿大_YouTube：8度科技 7
-      - 加拿大_YouTube：8度科技 24
-      - 加拿大_TG@nodesharing_347
-      - 加拿大_TG@nodesharing_297
-      - 加拿大_TG@nodesharing_291
-      - 加拿大_TG@nodesharing_268
-      - 加拿大_TG@nodesharing_194
-      - 馃嚚馃嚘+鍔犳嬁澶�+2
-      - 法国阿伟科技@TG/油管
-      - 俄罗斯联邦_YouTube：8度科技
+      - _香港_YouTube:VV科技_77
+      - _美国_YouTube:VV科技_92
+      - _美国_YouTube:VV科技_96
+      - _中国_YouTube:VV科技_99
+      - _香港_YouTube:VV科技_56
+      - _中国_YouTube:VV科技_32
+      - _香港_YouTube:VV科技_60
+      - _中国跳转_YouTube:VV科技_53
+      - _中国_YouTube:VV科技_42
+      - _中国_YouTube:VV科技_113
+      - _中国_YouTube:VV科技_75
+      - _优先在YouTube：<VV科技>频道公布
+      - _韩国_YouTube:VV科技_55
+      - _香港_YouTube:VV科技_109
+      - _美国_YouTube:VV科技_117
+      - _中国_YouTube:VV科技_9
+      - _中国跳转_YouTube:VV科技_71
+      - _阿联酋_YouTube:VV科技_86
+      - _美国_YouTube:VV科技_69
+      - _英国_YouTube:VV科技_71
+      - _法国_YouTube:VV科技_114
       - 俄罗斯阿伟科技@TG/油管
-      - 德国阿伟科技@TG/油管
+      - _台湾_YouTube:VV科技_16
+      - _台湾_YouTube:VV科技_73
+      - _美国_YouTube:VV科技_104
+      - _香港_YouTube:VV科技_38
+      - _香港_YouTube:VV科技_112
+      - _香港_YouTube:VV科技_98
+      - _香港_YouTube:VV科技_76
+      - _俄罗斯联邦_YouTube:VV科技_63
+      - _美国_YouTube:VV科技_97
       - US_56
-      - US_52
-      - ZZ_2204
-      - youtube:8度科技_美国 10
-      - GB-172.99.190.205-473
-      - CA-198.57.27.152-008
+      - _法国_YouTube:VV科技_18
+      - 俄罗斯联邦_YouTube：8度科技
+      - _法国_YouTube:VV科技_135
+      - _美国_YouTube:VV科技_107
+      - _美国_YouTube:VV科技_41
+      - _英国_YouTube:VV科技_25
+      - _美国_YouTube:VV科技_50
+      - _英国_YouTube:VV科技_103
+      - _英国_YouTube:VV科技_21
+      - _美国_YouTube:VV科技_118
+      - _英国_YouTube:VV科技_34
+      - _电报群 t.me/vvkj11(节点失效会在群里补上)
+      - 英国_TG@nodesharing_217
+      - _韩国_YouTube:VV科技_85
       - CA-134.195.196.200-459
-      - CA-134.195.196.147-462
-      - CA_二爷翻墙网：https://1808.ga_380
-      - +US_2122
-      - +US_1864
-      - +US_1496
+      - 加拿大_TG@nodesharing_194
       - +US_1482
-      - +US_1462
-      - +US_1332
-      - +US_1278
       - _GB_英国
-      - _CA_加拿大 29
+      - _英国_YouTube:VV科技_6
+      - _英国_YouTube:VV科技_121
+      - 英国_YouTube：8度科技 5
+      - 加拿大_TG@nodesharing_268
+      - 加拿大_YouTube：8度科技 24
+      - +US_1278
+      - _中国_YouTube:VV科技_31
+      - _日本_YouTube:VV科技_13
+      - 法国阿伟科技@TG/油管
+      - _加拿大_YouTube:VV科技_65
+      - _加拿大_YouTube:VV科技_106
+      - GB-172.99.190.205-473
+      - _加拿大_YouTube:VV科技_27
+      - _德国_YouTube:VV科技_122
+      - _加拿大_YouTube:VV科技_130
+      - _英国_YouTube:VV科技_8
+      - _新加坡_YouTube:VV科技_6
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
