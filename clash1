@@ -5,227 +5,391 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _香港_YouTube:VV科技_38, server: 108.wowogg.cyou, port: 11224, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇩🇪DE_286, server: gz2.52168.xyz, port: 2106, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: _中国_YouTube:VV科技_32, server: styd.sf66.cf, port: 38461, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: tw.twz.tgproxy.wtf}, udp: true}
-  - {name: _中国_YouTube:VV科技_9, server: styd.sf66.cf, port: 52412, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: vds.sgp.tgproxy.wtf}, udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_285, server: gz2.52168.xyz, port: 2107, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: _台湾_YouTube:VV科技_73, server: tw.v2ssvps.com, port: 60763, type: vmess, uuid: 1b693eb3-3241-362a-9001-5b503789cfbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: microsoft.com}, udp: true}
-  - {name: _中国_YouTube:VV科技_99, server: styd.sf66.cf, port: 49989, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: hgc01.hk.tgproxy.wtf}, udp: true}
-  - {name: _台湾_YouTube:VV科技_16, server: tw.twz.tgproxy.wtf, port: 21888, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: tw.twz.tgproxy.wtf}, udp: true}
-  - {name: _美国_YouTube:VV科技_54, server: 56789.gq, port: 443, type: trojan, password: dc1453e4-e5c4-4b30-bee3-6ed2adce9ee3, sni: 56789.gq, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇨🇦CA_287, server: gz1.52168.xyz, port: 1111, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: Relay_🇨🇳CN-🇬🇧GB_283, server: gz1.52168.xyz, port: 1116, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: Relay_🇸🇬SG-🇸🇬SG_808, server: sg27.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, sni: sg27.holiganfan.com, skip-cert-verify: true, udp: true}
+  - {name: 80免流节点, server: ml.godlight.xyz, port: 80, type: vmess, uuid: 3b9bfc9a-280a-4630-bf0f-6ed91ac8c780, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: www.amazon.com}, udp: true}
+  - {name: JP_755 |212.95Mb, server: jp10.holiganfan.com, port: 10088, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba, sni: jp10.holiganfan.com, skip-cert-verify: true, udp: true}
+  - {name: "v2ray 香港HGC(移动) [Netflix]", server: cm.cheapv2.xyz, port: 23318, type: vmess, uuid: ae8b573c-ed9c-318c-a0e6-183b2b5fb03f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cm.cheapv2.xyz}, udp: true}
+  - {name: "v2ray 马来西亚(移动) [Netflix]", server: cu.cheapv2.xyz, port: 26610, type: vmess, uuid: ae36e7c4-457f-3de6-a84b-de02f7d136a8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cu.cheapv2.xyz}, udp: true}
   - {name: Relay_🇨🇳CN-🇵🇭PH_282, server: gz1.52168.xyz, port: 1101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: _香港_YouTube:VV科技_109, server: 124.wowogg.cyou, port: 52224, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇩🇪DE_284, server: gz1.52168.xyz, port: 1102, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: "v2ray 香港HGC(联通) [Netflix]", server: cu.cheapv2.xyz, port: 23318, type: vmess, uuid: ae8b573c-ed9c-318c-a0e6-183b2b5fb03f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cu.cheapv2.xyz}, udp: true}
+  - {name: "v2ray 香港HGC(移动) [Netflix] 2", server: cm.cheapv2.xyz, port: 23318, type: vmess, uuid: ae36e7c4-457f-3de6-a84b-de02f7d136a8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cm.cheapv2.xyz}, udp: true}
+  - {name: "v2ray 香港HGC(联通) [Netflix] 2", server: cu.cheapv2.xyz, port: 23318, type: vmess, uuid: ae36e7c4-457f-3de6-a84b-de02f7d136a8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cu.cheapv2.xyz}, udp: true}
   - {name: _韩国_YouTube:VV科技_55, server: oracle.kr.tgproxy.wtf, port: 21888, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: oracle.kr.tgproxy.wtf}, udp: true}
-  - {name: US_1969, server: 104.160.43.43, port: 443, type: vmess, uuid: a307a6f7-b697-400e-bc7e-e6356de877c2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdfaszzsdfa, ws-headers: {Host: 104.160.43.43}, udp: true}
-  - {name: JP_85, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
-  - {name: _优先在YouTube：<VV科技>频道公布, server: 196.247.24.156, port: 443, type: vmess, uuid: c028c1ff-c006-4dc7-bd7e-a61c99b4f306, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: _阿联酋_YouTube:VV科技_86, server: 193.123.95.114, port: 21999, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 193.123.95.114}, udp: true}
-  - {name: _美国_YouTube:VV科技_8, server: fd.speedcar88.com, port: 61268, type: vmess, uuid: 52b6103f-7b2a-4114-81bc-e325e46f494d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: fd.speedcar88.com}, udp: true}
-  - {name: FR_46, server: 149.202.82.172, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: FR_72, server: 149.202.82.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: ZZ_184, server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _美国_YouTube:VV科技_69, server: aws.us.tgproxy.wtf, port: 21888, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: aws.us.tgproxy.wtf}, udp: true}
-  - {name: US_107, server: 172.99.190.39, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _英国_YouTube:VV科技_71, server: gia.uk.tgproxy.wtf, port: 443, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: gia.uk.tgproxy.wtf}, udp: true}
-  - {name: _英国_YouTube:VV科技_103, server: 37.120.134.207, port: 443, type: vmess, uuid: 5c0beec7-9b91-4e28-85b0-e3ff49b4ac50, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: US_133, server: 172.99.190.39, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _美国_YouTube:VV科技_59, server: 1222us.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1222us.fans8.xyz}, udp: true}
-  - {name: _美国_YouTube:VV科技_97, server: 72.11.136.212, port: 443, type: vmess, uuid: 6b02b504-ead6-4939-ba1c-afa5b92a6f6d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: US_136, server: 172.99.190.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 俄罗斯阿伟科技@TG/油管, server: 5.188.35.120, port: 443, type: vmess, uuid: 0c7a06d0-8061-4df7-b521-960e2b9ce0f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: US_118, server: 172.99.190.149, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _香港_YouTube:VV科技_116, server: 108.wowogg.cyou, port: 11224, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_1117, server: 172.99.190.149, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _美国_YouTube:VV科技_107, server: anzhuo-hezi1.herokuapp.com, port: 443, type: vmess, uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess, ws-headers: {Host: anzhuo-hezi1.herokuapp.com}, udp: true}
-  - {name: _俄罗斯联邦_YouTube:VV科技_63, server: 92.223.72.42, port: 443, type: vmess, uuid: ae08412f-5bb9-4be7-8560-1984976a1097, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_1968, server: 138.197.236.77, port: 443, type: vmess, uuid: 3579436c-b37e-11eb-8529-0242ac130003, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 138.197.236.77}, udp: true}
-  - {name: US_117, server: 172.99.190.149, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _中国_YouTube:VV科技_31, server: 118.wowogg.cyou, port: 52218, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _美国_YouTube:VV科技_41, server: anzhuo-hezi1.herokuapp.com, port: 443, type: vmess, uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess, ws-headers: {Host: anzhuo-hezi1.herokuapp.com}, udp: true}
-  - {name: CN_28, server: 117.28.243.220, port: 8186, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: ZZ_199, server: 134.195.196.147, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_138, server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_113, server: 172.99.190.39, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _中国_YouTube:VV科技_113, server: styd.sf66.cf, port: 16990, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: ggz.jgw.tgproxy.wtf}, udp: true}
-  - {name: US_1350, server: 172.99.190.188, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 加拿大_TG@nodesharing_268, server: 134.195.196.200, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_95, server: 172.99.190.188, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: Relay_🇸🇪SE-🇸🇪SE_743, server: se.oceancloud.asia, port: 12100, type: vmess, uuid: adfc4bf6-8f7d-393e-9997-7dd969d9ea88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /se, ws-headers: {Host: se.oceancloud.asia}, udp: true}
+  - {name: Relay_🇨🇳CN-🇨🇦CA_284, server: gz1.52168.xyz, port: 1111, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: "v2ray 马来西亚(移动) [Netflix] 2", server: cu.cheapv2.xyz, port: 26610, type: vmess, uuid: ae8b573c-ed9c-318c-a0e6-183b2b5fb03f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cu.cheapv2.xyz}, udp: true}
+  - {name: Relay_🇨🇳CN-🇮🇩ID_286, server: gz1.52168.xyz, port: 1103, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: Relay_🇨🇳CN-🇬🇧GB_287, server: gz1.52168.xyz, port: 1117, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: "v2ray 香港HKT(联通) [Netflix]", server: cu.cheapv2.xyz, port: 23338, type: vmess, uuid: ae36e7c4-457f-3de6-a84b-de02f7d136a8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cu.cheapv2.xyz}, udp: true}
+  - {name: _中国_YouTube:VV科技_99, server: styd.sf66.cf, port: 49989, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: hgc01.hk.tgproxy.wtf}, udp: true}
+  - {name: _优先在YouTube：<VV科技>频道公布, server: 196.247.24.156, port: 443, type: vmess, uuid: c028c1ff-c006-4dc7-bd7e-a61c99b4f306, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: US_1012 |29.20Mb, server: 38.86.135.36, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_1014 |30.86Mb, server: 38.86.135.36, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1004 |30.86Mb, server: 38.86.135.36, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_1007 |28.81Mb, server: 38.86.135.36, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_1013 |31.40Mb, server: 38.86.135.36, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_1002 |30.19Mb, server: 38.86.135.36, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_1020 |32.52Mb, server: 38.86.135.36, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_1022 |29.70Mb, server: 38.86.135.36, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_1031 |28.02Mb, server: 38.86.135.36, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_1032 |30.22Mb, server: 38.86.135.36, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_1006 |30.42Mb, server: 38.86.135.36, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_1008 |30.11Mb, server: 38.86.135.36, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_1033 |30.12Mb, server: 38.86.135.36, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_1627 |28.89Mb, server: 38.86.135.36, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_1009 |30.75Mb, server: 38.86.135.36, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_1011 |31.13Mb, server: 38.86.135.36, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1029 |28.43Mb, server: 38.86.135.36, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_1003 |31.01Mb, server: 38.86.135.36, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_1625 |30.94Mb, server: 38.86.135.36, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _美国_YouTube:VV科技_69, server: aws.us.tgproxy.wtf, port: 21888, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: aws.us.tgproxy.wtf}, udp: true}
+  - {name: US_1010 |27.84Mb, server: 38.86.135.36, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 俄罗斯阿伟科技@TG/油管, server: 5.188.35.120, port: 443, type: vmess, uuid: 0c7a06d0-8061-4df7-b521-960e2b9ce0f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: FR_78, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_1019 |27.82Mb, server: 38.86.135.36, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _英国_YouTube:VV科技_71, server: gia.uk.tgproxy.wtf, port: 443, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: gia.uk.tgproxy.wtf}, udp: true}
+  - {name: FR_72, server: 149.202.82.172, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: FR_70, server: 149.202.82.172, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _美国_YouTube:VV科技_59, server: 1222us.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 1222us.fans8.xyz}, udp: true}
+  - {name: "v2ray 香港HKT(移动) [Netflix]", server: cm5.cheapv2.xyz, port: 23338, type: vmess, uuid: ae36e7c4-457f-3de6-a84b-de02f7d136a8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cm5.cheapv2.xyz}, udp: true}
+  - {name: "v2ray 香港HKT(联通) [Netflix] 2", server: cu.cheapv2.xyz, port: 23338, type: vmess, uuid: ae8b573c-ed9c-318c-a0e6-183b2b5fb03f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cu.cheapv2.xyz}, udp: true}
+  - {name: "v2ray 香港2(移动) [Netflix]", server: cm.cheapv2.xyz, port: 26616, type: vmess, uuid: ae8b573c-ed9c-318c-a0e6-183b2b5fb03f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cm.cheapv2.xyz}, udp: true}
+  - {name: FR_432, server: 149.202.82.172, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_133, server: 172.99.190.39, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "v2ray 香港HKT(移动) [Netflix] 2", server: cm5.cheapv2.xyz, port: 23338, type: vmess, uuid: ae8b573c-ed9c-318c-a0e6-183b2b5fb03f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cm5.cheapv2.xyz}, udp: true}
+  - {name: _阿联酋_YouTube:VV科技_86, server: 193.123.95.114, port: 21999, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 193.123.95.114}, udp: true}
+  - {name: "v2ray 香港2(联通) [Netflix]", server: cu.cheapv2.xyz, port: 26616, type: vmess, uuid: ae8b573c-ed9c-318c-a0e6-183b2b5fb03f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cu.cheapv2.xyz}, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_274, server: 117.28.243.173, port: 4173, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: _美国_YouTube:VV科技_97, server: 72.11.136.212, port: 443, type: vmess, uuid: 6b02b504-ead6-4939-ba1c-afa5b92a6f6d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: _英国_YouTube:VV科技_103, server: 37.120.134.207, port: 443, type: vmess, uuid: 5c0beec7-9b91-4e28-85b0-e3ff49b4ac50, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: "v2ray 香港2(移动) [Netflix] 2", server: cm.cheapv2.xyz, port: 26616, type: vmess, uuid: ae36e7c4-457f-3de6-a84b-de02f7d136a8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cm.cheapv2.xyz}, udp: true}
+  - {name: _俄罗斯联邦_YouTube:VV科技_63, server: 92.223.72.42, port: 443, type: vmess, uuid: ae08412f-5bb9-4be7-8560-1984976a1097, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: US_172, server: www.darkwater.xyz, port: 41759, type: trojan, password: ixkIc4mCzH, sni: www.darkwater.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_1015 |16.48Mb, server: 38.86.135.36, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1030 |16.32Mb, server: 38.86.135.36, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: F|V02-付费解锁更多线路, server: cmi.db-link.in, port: 21153, type: vmess, uuid: 167e6957-b628-3255-955e-0491c3afbf05, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /db, ws-headers: {Host: us01.db-link.in}, udp: true}
+  - {name: US_1005 |16.33Mb, server: 38.86.135.36, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _美国_YouTube:VV科技_107, server: anzhuo-hezi1.herokuapp.com, port: 443, type: vmess, uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess, ws-headers: {Host: anzhuo-hezi1.herokuapp.com}, udp: true}
+  - {name: F|V04-公益等级线路限速, server: cmi.db-link.in, port: 21154, type: vmess, uuid: 167e6957-b628-3255-955e-0491c3afbf05, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /db, ws-headers: {Host: us01.db-link.in}, udp: true}
+  - {name: US_1273, server: 172.99.190.149, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_151, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _美国_YouTube:VV科技_41, server: anzhuo-hezi1.herokuapp.com, port: 443, type: vmess, uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess, ws-headers: {Host: anzhuo-hezi1.herokuapp.com}, udp: true}
   - {name: Relay_🇨🇳CN-🇸🇬SG_279, server: 117.28.243.220, port: 8076, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: US_144, server: 172.99.190.188, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_92, server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: ZZ_185, server: 134.195.196.200, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_115, server: 172.99.190.39, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1117, server: 172.99.190.149, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_116, server: 172.99.190.39, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: ZZ_201, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_128, server: 172.99.190.149, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_133 2, server: 172.99.190.39, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_123, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_107, server: 172.99.190.39, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_136, server: 172.99.190.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: ZZ_197, server: 134.195.196.147, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_138, server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_118, server: 172.99.190.149, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_102, server: 172.99.190.205, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_105, server: 172.99.190.149, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "v2ray 香港(联通) [Netflix]", server: cu.cheapv2.xyz, port: 26612, type: vmess, uuid: ae8b573c-ed9c-318c-a0e6-183b2b5fb03f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cu.cheapv2.xyz}, udp: true}
+  - {name: US_124, server: 172.99.190.39, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: ZZ_199, server: 134.195.196.147, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: ZZ_202, server: 134.195.196.200, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: ZZ_209, server: 134.195.196.200, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _香港_YouTube:VV科技_38
-      - Relay_🇨🇳CN-🇩🇪DE_286
-      - _中国_YouTube:VV科技_32
-      - _中国_YouTube:VV科技_9
-      - Relay_🇨🇳CN-🇯🇵JP_285
-      - _台湾_YouTube:VV科技_73
-      - _中国_YouTube:VV科技_99
-      - _台湾_YouTube:VV科技_16
-      - _美国_YouTube:VV科技_54
-      - Relay_🇨🇳CN-🇨🇦CA_287
-      - Relay_🇨🇳CN-🇬🇧GB_283
+      - Relay_🇸🇬SG-🇸🇬SG_808
+      - 80免流节点
+      - JP_755 |212.95Mb
+      - v2ray 香港HGC(移动) [Netflix]
+      - v2ray 马来西亚(移动) [Netflix]
       - Relay_🇨🇳CN-🇵🇭PH_282
-      - _香港_YouTube:VV科技_109
-      - Relay_🇨🇳CN-🇩🇪DE_284
+      - v2ray 香港HGC(联通) [Netflix]
+      - v2ray 香港HGC(移动) [Netflix] 2
+      - v2ray 香港HGC(联通) [Netflix] 2
       - _韩国_YouTube:VV科技_55
-      - US_1969
-      - JP_85
-      - _优先在YouTube：<VV科技>频道公布
-      - _阿联酋_YouTube:VV科技_86
-      - _美国_YouTube:VV科技_8
-      - FR_46
-      - FR_72
-      - ZZ_184
-      - _美国_YouTube:VV科技_69
-      - US_107
-      - _英国_YouTube:VV科技_71
-      - _英国_YouTube:VV科技_103
-      - US_133
-      - _美国_YouTube:VV科技_59
-      - _美国_YouTube:VV科技_97
-      - US_136
-      - 俄罗斯阿伟科技@TG/油管
-      - US_118
-      - _香港_YouTube:VV科技_116
-      - US_1117
-      - _美国_YouTube:VV科技_107
-      - _俄罗斯联邦_YouTube:VV科技_63
-      - Relay_🇺🇸US-🇺🇸US_1968
-      - US_117
-      - _中国_YouTube:VV科技_31
-      - _美国_YouTube:VV科技_41
-      - CN_28
-      - ZZ_199
-      - US_138
-      - US_113
       - _中国_YouTube:VV科技_113
-      - US_1350
-      - 加拿大_TG@nodesharing_268
-      - US_95
-      - Relay_🇸🇪SE-🇸🇪SE_743
+      - Relay_🇨🇳CN-🇨🇦CA_284
+      - v2ray 马来西亚(移动) [Netflix] 2
+      - Relay_🇨🇳CN-🇮🇩ID_286
+      - Relay_🇨🇳CN-🇬🇧GB_287
+      - v2ray 香港HKT(联通) [Netflix]
+      - _中国_YouTube:VV科技_99
+      - _优先在YouTube：<VV科技>频道公布
+      - US_1012 |29.20Mb
+      - US_1014 |30.86Mb
+      - US_1004 |30.86Mb
+      - US_1007 |28.81Mb
+      - US_1013 |31.40Mb
+      - US_1002 |30.19Mb
+      - US_1020 |32.52Mb
+      - US_1022 |29.70Mb
+      - US_1031 |28.02Mb
+      - US_1032 |30.22Mb
+      - US_1006 |30.42Mb
+      - US_1008 |30.11Mb
+      - US_1033 |30.12Mb
+      - US_1627 |28.89Mb
+      - US_1009 |30.75Mb
+      - US_1011 |31.13Mb
+      - US_1029 |28.43Mb
+      - US_1003 |31.01Mb
+      - US_1625 |30.94Mb
+      - _美国_YouTube:VV科技_69
+      - US_1010 |27.84Mb
+      - 俄罗斯阿伟科技@TG/油管
+      - FR_78
+      - US_1019 |27.82Mb
+      - _英国_YouTube:VV科技_71
+      - FR_72
+      - FR_70
+      - _美国_YouTube:VV科技_59
+      - v2ray 香港HKT(移动) [Netflix]
+      - v2ray 香港HKT(联通) [Netflix] 2
+      - v2ray 香港2(移动) [Netflix]
+      - FR_432
+      - US_133
+      - v2ray 香港HKT(移动) [Netflix] 2
+      - _阿联酋_YouTube:VV科技_86
+      - v2ray 香港2(联通) [Netflix]
+      - Relay_🇨🇳CN-🇺🇸US_274
+      - _美国_YouTube:VV科技_97
+      - _英国_YouTube:VV科技_103
+      - v2ray 香港2(移动) [Netflix] 2
+      - _俄罗斯联邦_YouTube:VV科技_63
+      - US_172
+      - US_1015 |16.48Mb
+      - US_1030 |16.32Mb
+      - F|V02-付费解锁更多线路
+      - US_1005 |16.33Mb
+      - _美国_YouTube:VV科技_107
+      - F|V04-公益等级线路限速
+      - US_1273
+      - US_151
+      - _美国_YouTube:VV科技_41
       - Relay_🇨🇳CN-🇸🇬SG_279
+      - US_144
+      - US_92
+      - ZZ_185
+      - US_115
+      - US_1117
+      - US_116
+      - ZZ_201
+      - US_128
+      - US_133 2
+      - US_123
+      - US_107
+      - US_136
+      - ZZ_197
+      - US_138
+      - US_118
+      - US_102
+      - US_105
+      - v2ray 香港(联通) [Netflix]
+      - US_124
+      - ZZ_199
+      - ZZ_202
+      - ZZ_209
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _香港_YouTube:VV科技_38
-      - Relay_🇨🇳CN-🇩🇪DE_286
-      - _中国_YouTube:VV科技_32
-      - _中国_YouTube:VV科技_9
-      - Relay_🇨🇳CN-🇯🇵JP_285
-      - _台湾_YouTube:VV科技_73
-      - _中国_YouTube:VV科技_99
-      - _台湾_YouTube:VV科技_16
-      - _美国_YouTube:VV科技_54
-      - Relay_🇨🇳CN-🇨🇦CA_287
-      - Relay_🇨🇳CN-🇬🇧GB_283
+      - Relay_🇸🇬SG-🇸🇬SG_808
+      - 80免流节点
+      - JP_755 |212.95Mb
+      - v2ray 香港HGC(移动) [Netflix]
+      - v2ray 马来西亚(移动) [Netflix]
       - Relay_🇨🇳CN-🇵🇭PH_282
-      - _香港_YouTube:VV科技_109
-      - Relay_🇨🇳CN-🇩🇪DE_284
+      - v2ray 香港HGC(联通) [Netflix]
+      - v2ray 香港HGC(移动) [Netflix] 2
+      - v2ray 香港HGC(联通) [Netflix] 2
       - _韩国_YouTube:VV科技_55
-      - US_1969
-      - JP_85
-      - _优先在YouTube：<VV科技>频道公布
-      - _阿联酋_YouTube:VV科技_86
-      - _美国_YouTube:VV科技_8
-      - FR_46
-      - FR_72
-      - ZZ_184
-      - _美国_YouTube:VV科技_69
-      - US_107
-      - _英国_YouTube:VV科技_71
-      - _英国_YouTube:VV科技_103
-      - US_133
-      - _美国_YouTube:VV科技_59
-      - _美国_YouTube:VV科技_97
-      - US_136
-      - 俄罗斯阿伟科技@TG/油管
-      - US_118
-      - _香港_YouTube:VV科技_116
-      - US_1117
-      - _美国_YouTube:VV科技_107
-      - _俄罗斯联邦_YouTube:VV科技_63
-      - Relay_🇺🇸US-🇺🇸US_1968
-      - US_117
-      - _中国_YouTube:VV科技_31
-      - _美国_YouTube:VV科技_41
-      - CN_28
-      - ZZ_199
-      - US_138
-      - US_113
       - _中国_YouTube:VV科技_113
-      - US_1350
-      - 加拿大_TG@nodesharing_268
-      - US_95
-      - Relay_🇸🇪SE-🇸🇪SE_743
+      - Relay_🇨🇳CN-🇨🇦CA_284
+      - v2ray 马来西亚(移动) [Netflix] 2
+      - Relay_🇨🇳CN-🇮🇩ID_286
+      - Relay_🇨🇳CN-🇬🇧GB_287
+      - v2ray 香港HKT(联通) [Netflix]
+      - _中国_YouTube:VV科技_99
+      - _优先在YouTube：<VV科技>频道公布
+      - US_1012 |29.20Mb
+      - US_1014 |30.86Mb
+      - US_1004 |30.86Mb
+      - US_1007 |28.81Mb
+      - US_1013 |31.40Mb
+      - US_1002 |30.19Mb
+      - US_1020 |32.52Mb
+      - US_1022 |29.70Mb
+      - US_1031 |28.02Mb
+      - US_1032 |30.22Mb
+      - US_1006 |30.42Mb
+      - US_1008 |30.11Mb
+      - US_1033 |30.12Mb
+      - US_1627 |28.89Mb
+      - US_1009 |30.75Mb
+      - US_1011 |31.13Mb
+      - US_1029 |28.43Mb
+      - US_1003 |31.01Mb
+      - US_1625 |30.94Mb
+      - _美国_YouTube:VV科技_69
+      - US_1010 |27.84Mb
+      - 俄罗斯阿伟科技@TG/油管
+      - FR_78
+      - US_1019 |27.82Mb
+      - _英国_YouTube:VV科技_71
+      - FR_72
+      - FR_70
+      - _美国_YouTube:VV科技_59
+      - v2ray 香港HKT(移动) [Netflix]
+      - v2ray 香港HKT(联通) [Netflix] 2
+      - v2ray 香港2(移动) [Netflix]
+      - FR_432
+      - US_133
+      - v2ray 香港HKT(移动) [Netflix] 2
+      - _阿联酋_YouTube:VV科技_86
+      - v2ray 香港2(联通) [Netflix]
+      - Relay_🇨🇳CN-🇺🇸US_274
+      - _美国_YouTube:VV科技_97
+      - _英国_YouTube:VV科技_103
+      - v2ray 香港2(移动) [Netflix] 2
+      - _俄罗斯联邦_YouTube:VV科技_63
+      - US_172
+      - US_1015 |16.48Mb
+      - US_1030 |16.32Mb
+      - F|V02-付费解锁更多线路
+      - US_1005 |16.33Mb
+      - _美国_YouTube:VV科技_107
+      - F|V04-公益等级线路限速
+      - US_1273
+      - US_151
+      - _美国_YouTube:VV科技_41
       - Relay_🇨🇳CN-🇸🇬SG_279
+      - US_144
+      - US_92
+      - ZZ_185
+      - US_115
+      - US_1117
+      - US_116
+      - ZZ_201
+      - US_128
+      - US_133 2
+      - US_123
+      - US_107
+      - US_136
+      - ZZ_197
+      - US_138
+      - US_118
+      - US_102
+      - US_105
+      - v2ray 香港(联通) [Netflix]
+      - US_124
+      - ZZ_199
+      - ZZ_202
+      - ZZ_209
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _香港_YouTube:VV科技_38
-      - Relay_🇨🇳CN-🇩🇪DE_286
-      - _中国_YouTube:VV科技_32
-      - _中国_YouTube:VV科技_9
-      - Relay_🇨🇳CN-🇯🇵JP_285
-      - _台湾_YouTube:VV科技_73
-      - _中国_YouTube:VV科技_99
-      - _台湾_YouTube:VV科技_16
-      - _美国_YouTube:VV科技_54
-      - Relay_🇨🇳CN-🇨🇦CA_287
-      - Relay_🇨🇳CN-🇬🇧GB_283
+      - Relay_🇸🇬SG-🇸🇬SG_808
+      - 80免流节点
+      - JP_755 |212.95Mb
+      - v2ray 香港HGC(移动) [Netflix]
+      - v2ray 马来西亚(移动) [Netflix]
       - Relay_🇨🇳CN-🇵🇭PH_282
-      - _香港_YouTube:VV科技_109
-      - Relay_🇨🇳CN-🇩🇪DE_284
+      - v2ray 香港HGC(联通) [Netflix]
+      - v2ray 香港HGC(移动) [Netflix] 2
+      - v2ray 香港HGC(联通) [Netflix] 2
       - _韩国_YouTube:VV科技_55
-      - US_1969
-      - JP_85
-      - _优先在YouTube：<VV科技>频道公布
-      - _阿联酋_YouTube:VV科技_86
-      - _美国_YouTube:VV科技_8
-      - FR_46
-      - FR_72
-      - ZZ_184
-      - _美国_YouTube:VV科技_69
-      - US_107
-      - _英国_YouTube:VV科技_71
-      - _英国_YouTube:VV科技_103
-      - US_133
-      - _美国_YouTube:VV科技_59
-      - _美国_YouTube:VV科技_97
-      - US_136
-      - 俄罗斯阿伟科技@TG/油管
-      - US_118
-      - _香港_YouTube:VV科技_116
-      - US_1117
-      - _美国_YouTube:VV科技_107
-      - _俄罗斯联邦_YouTube:VV科技_63
-      - Relay_🇺🇸US-🇺🇸US_1968
-      - US_117
-      - _中国_YouTube:VV科技_31
-      - _美国_YouTube:VV科技_41
-      - CN_28
-      - ZZ_199
-      - US_138
-      - US_113
       - _中国_YouTube:VV科技_113
-      - US_1350
-      - 加拿大_TG@nodesharing_268
-      - US_95
-      - Relay_🇸🇪SE-🇸🇪SE_743
+      - Relay_🇨🇳CN-🇨🇦CA_284
+      - v2ray 马来西亚(移动) [Netflix] 2
+      - Relay_🇨🇳CN-🇮🇩ID_286
+      - Relay_🇨🇳CN-🇬🇧GB_287
+      - v2ray 香港HKT(联通) [Netflix]
+      - _中国_YouTube:VV科技_99
+      - _优先在YouTube：<VV科技>频道公布
+      - US_1012 |29.20Mb
+      - US_1014 |30.86Mb
+      - US_1004 |30.86Mb
+      - US_1007 |28.81Mb
+      - US_1013 |31.40Mb
+      - US_1002 |30.19Mb
+      - US_1020 |32.52Mb
+      - US_1022 |29.70Mb
+      - US_1031 |28.02Mb
+      - US_1032 |30.22Mb
+      - US_1006 |30.42Mb
+      - US_1008 |30.11Mb
+      - US_1033 |30.12Mb
+      - US_1627 |28.89Mb
+      - US_1009 |30.75Mb
+      - US_1011 |31.13Mb
+      - US_1029 |28.43Mb
+      - US_1003 |31.01Mb
+      - US_1625 |30.94Mb
+      - _美国_YouTube:VV科技_69
+      - US_1010 |27.84Mb
+      - 俄罗斯阿伟科技@TG/油管
+      - FR_78
+      - US_1019 |27.82Mb
+      - _英国_YouTube:VV科技_71
+      - FR_72
+      - FR_70
+      - _美国_YouTube:VV科技_59
+      - v2ray 香港HKT(移动) [Netflix]
+      - v2ray 香港HKT(联通) [Netflix] 2
+      - v2ray 香港2(移动) [Netflix]
+      - FR_432
+      - US_133
+      - v2ray 香港HKT(移动) [Netflix] 2
+      - _阿联酋_YouTube:VV科技_86
+      - v2ray 香港2(联通) [Netflix]
+      - Relay_🇨🇳CN-🇺🇸US_274
+      - _美国_YouTube:VV科技_97
+      - _英国_YouTube:VV科技_103
+      - v2ray 香港2(移动) [Netflix] 2
+      - _俄罗斯联邦_YouTube:VV科技_63
+      - US_172
+      - US_1015 |16.48Mb
+      - US_1030 |16.32Mb
+      - F|V02-付费解锁更多线路
+      - US_1005 |16.33Mb
+      - _美国_YouTube:VV科技_107
+      - F|V04-公益等级线路限速
+      - US_1273
+      - US_151
+      - _美国_YouTube:VV科技_41
       - Relay_🇨🇳CN-🇸🇬SG_279
+      - US_144
+      - US_92
+      - ZZ_185
+      - US_115
+      - US_1117
+      - US_116
+      - ZZ_201
+      - US_128
+      - US_133 2
+      - US_123
+      - US_107
+      - US_136
+      - ZZ_197
+      - US_138
+      - US_118
+      - US_102
+      - US_105
+      - v2ray 香港(联通) [Netflix]
+      - US_124
+      - ZZ_199
+      - ZZ_202
+      - ZZ_209
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -244,236 +408,407 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _香港_YouTube:VV科技_38
-      - Relay_🇨🇳CN-🇩🇪DE_286
-      - _中国_YouTube:VV科技_32
-      - _中国_YouTube:VV科技_9
-      - Relay_🇨🇳CN-🇯🇵JP_285
-      - _台湾_YouTube:VV科技_73
-      - _中国_YouTube:VV科技_99
-      - _台湾_YouTube:VV科技_16
-      - _美国_YouTube:VV科技_54
-      - Relay_🇨🇳CN-🇨🇦CA_287
-      - Relay_🇨🇳CN-🇬🇧GB_283
+      - Relay_🇸🇬SG-🇸🇬SG_808
+      - 80免流节点
+      - JP_755 |212.95Mb
+      - v2ray 香港HGC(移动) [Netflix]
+      - v2ray 马来西亚(移动) [Netflix]
       - Relay_🇨🇳CN-🇵🇭PH_282
-      - _香港_YouTube:VV科技_109
-      - Relay_🇨🇳CN-🇩🇪DE_284
+      - v2ray 香港HGC(联通) [Netflix]
+      - v2ray 香港HGC(移动) [Netflix] 2
+      - v2ray 香港HGC(联通) [Netflix] 2
       - _韩国_YouTube:VV科技_55
-      - US_1969
-      - JP_85
-      - _优先在YouTube：<VV科技>频道公布
-      - _阿联酋_YouTube:VV科技_86
-      - _美国_YouTube:VV科技_8
-      - FR_46
-      - FR_72
-      - ZZ_184
-      - _美国_YouTube:VV科技_69
-      - US_107
-      - _英国_YouTube:VV科技_71
-      - _英国_YouTube:VV科技_103
-      - US_133
-      - _美国_YouTube:VV科技_59
-      - _美国_YouTube:VV科技_97
-      - US_136
-      - 俄罗斯阿伟科技@TG/油管
-      - US_118
-      - _香港_YouTube:VV科技_116
-      - US_1117
-      - _美国_YouTube:VV科技_107
-      - _俄罗斯联邦_YouTube:VV科技_63
-      - Relay_🇺🇸US-🇺🇸US_1968
-      - US_117
-      - _中国_YouTube:VV科技_31
-      - _美国_YouTube:VV科技_41
-      - CN_28
-      - ZZ_199
-      - US_138
-      - US_113
       - _中国_YouTube:VV科技_113
-      - US_1350
-      - 加拿大_TG@nodesharing_268
-      - US_95
-      - Relay_🇸🇪SE-🇸🇪SE_743
+      - Relay_🇨🇳CN-🇨🇦CA_284
+      - v2ray 马来西亚(移动) [Netflix] 2
+      - Relay_🇨🇳CN-🇮🇩ID_286
+      - Relay_🇨🇳CN-🇬🇧GB_287
+      - v2ray 香港HKT(联通) [Netflix]
+      - _中国_YouTube:VV科技_99
+      - _优先在YouTube：<VV科技>频道公布
+      - US_1012 |29.20Mb
+      - US_1014 |30.86Mb
+      - US_1004 |30.86Mb
+      - US_1007 |28.81Mb
+      - US_1013 |31.40Mb
+      - US_1002 |30.19Mb
+      - US_1020 |32.52Mb
+      - US_1022 |29.70Mb
+      - US_1031 |28.02Mb
+      - US_1032 |30.22Mb
+      - US_1006 |30.42Mb
+      - US_1008 |30.11Mb
+      - US_1033 |30.12Mb
+      - US_1627 |28.89Mb
+      - US_1009 |30.75Mb
+      - US_1011 |31.13Mb
+      - US_1029 |28.43Mb
+      - US_1003 |31.01Mb
+      - US_1625 |30.94Mb
+      - _美国_YouTube:VV科技_69
+      - US_1010 |27.84Mb
+      - 俄罗斯阿伟科技@TG/油管
+      - FR_78
+      - US_1019 |27.82Mb
+      - _英国_YouTube:VV科技_71
+      - FR_72
+      - FR_70
+      - _美国_YouTube:VV科技_59
+      - v2ray 香港HKT(移动) [Netflix]
+      - v2ray 香港HKT(联通) [Netflix] 2
+      - v2ray 香港2(移动) [Netflix]
+      - FR_432
+      - US_133
+      - v2ray 香港HKT(移动) [Netflix] 2
+      - _阿联酋_YouTube:VV科技_86
+      - v2ray 香港2(联通) [Netflix]
+      - Relay_🇨🇳CN-🇺🇸US_274
+      - _美国_YouTube:VV科技_97
+      - _英国_YouTube:VV科技_103
+      - v2ray 香港2(移动) [Netflix] 2
+      - _俄罗斯联邦_YouTube:VV科技_63
+      - US_172
+      - US_1015 |16.48Mb
+      - US_1030 |16.32Mb
+      - F|V02-付费解锁更多线路
+      - US_1005 |16.33Mb
+      - _美国_YouTube:VV科技_107
+      - F|V04-公益等级线路限速
+      - US_1273
+      - US_151
+      - _美国_YouTube:VV科技_41
       - Relay_🇨🇳CN-🇸🇬SG_279
+      - US_144
+      - US_92
+      - ZZ_185
+      - US_115
+      - US_1117
+      - US_116
+      - ZZ_201
+      - US_128
+      - US_133 2
+      - US_123
+      - US_107
+      - US_136
+      - ZZ_197
+      - US_138
+      - US_118
+      - US_102
+      - US_105
+      - v2ray 香港(联通) [Netflix]
+      - US_124
+      - ZZ_199
+      - ZZ_202
+      - ZZ_209
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - _香港_YouTube:VV科技_38
-      - _台湾_YouTube:VV科技_73
-      - _台湾_YouTube:VV科技_16
-      - _香港_YouTube:VV科技_109
-      - _香港_YouTube:VV科技_116
+      - v2ray 香港HGC(移动) [Netflix]
+      - v2ray 香港HGC(联通) [Netflix]
+      - v2ray 香港HGC(移动) [Netflix] 2
+      - v2ray 香港HGC(联通) [Netflix] 2
+      - v2ray 香港HKT(联通) [Netflix]
+      - v2ray 香港HKT(移动) [Netflix]
+      - v2ray 香港HKT(联通) [Netflix] 2
+      - v2ray 香港2(移动) [Netflix]
+      - v2ray 香港HKT(移动) [Netflix] 2
+      - v2ray 香港2(联通) [Netflix]
+      - v2ray 香港2(移动) [Netflix] 2
+      - v2ray 香港(联通) [Netflix]
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _香港_YouTube:VV科技_38
-      - Relay_🇨🇳CN-🇩🇪DE_286
-      - _中国_YouTube:VV科技_32
-      - _中国_YouTube:VV科技_9
-      - Relay_🇨🇳CN-🇯🇵JP_285
-      - _台湾_YouTube:VV科技_73
-      - _中国_YouTube:VV科技_99
-      - _台湾_YouTube:VV科技_16
-      - _美国_YouTube:VV科技_54
-      - Relay_🇨🇳CN-🇨🇦CA_287
-      - Relay_🇨🇳CN-🇬🇧GB_283
+      - Relay_🇸🇬SG-🇸🇬SG_808
+      - 80免流节点
+      - JP_755 |212.95Mb
+      - v2ray 香港HGC(移动) [Netflix]
+      - v2ray 马来西亚(移动) [Netflix]
       - Relay_🇨🇳CN-🇵🇭PH_282
-      - _香港_YouTube:VV科技_109
-      - Relay_🇨🇳CN-🇩🇪DE_284
+      - v2ray 香港HGC(联通) [Netflix]
+      - v2ray 香港HGC(移动) [Netflix] 2
+      - v2ray 香港HGC(联通) [Netflix] 2
       - _韩国_YouTube:VV科技_55
-      - US_1969
-      - JP_85
-      - _优先在YouTube：<VV科技>频道公布
-      - _阿联酋_YouTube:VV科技_86
-      - _美国_YouTube:VV科技_8
-      - FR_46
-      - FR_72
-      - ZZ_184
-      - _美国_YouTube:VV科技_69
-      - US_107
-      - _英国_YouTube:VV科技_71
-      - _英国_YouTube:VV科技_103
-      - US_133
-      - _美国_YouTube:VV科技_59
-      - _美国_YouTube:VV科技_97
-      - US_136
-      - 俄罗斯阿伟科技@TG/油管
-      - US_118
-      - _香港_YouTube:VV科技_116
-      - US_1117
-      - _美国_YouTube:VV科技_107
-      - _俄罗斯联邦_YouTube:VV科技_63
-      - Relay_🇺🇸US-🇺🇸US_1968
-      - US_117
-      - _中国_YouTube:VV科技_31
-      - _美国_YouTube:VV科技_41
-      - CN_28
-      - ZZ_199
-      - US_138
-      - US_113
       - _中国_YouTube:VV科技_113
-      - US_1350
-      - 加拿大_TG@nodesharing_268
-      - US_95
-      - Relay_🇸🇪SE-🇸🇪SE_743
+      - Relay_🇨🇳CN-🇨🇦CA_284
+      - v2ray 马来西亚(移动) [Netflix] 2
+      - Relay_🇨🇳CN-🇮🇩ID_286
+      - Relay_🇨🇳CN-🇬🇧GB_287
+      - v2ray 香港HKT(联通) [Netflix]
+      - _中国_YouTube:VV科技_99
+      - _优先在YouTube：<VV科技>频道公布
+      - US_1012 |29.20Mb
+      - US_1014 |30.86Mb
+      - US_1004 |30.86Mb
+      - US_1007 |28.81Mb
+      - US_1013 |31.40Mb
+      - US_1002 |30.19Mb
+      - US_1020 |32.52Mb
+      - US_1022 |29.70Mb
+      - US_1031 |28.02Mb
+      - US_1032 |30.22Mb
+      - US_1006 |30.42Mb
+      - US_1008 |30.11Mb
+      - US_1033 |30.12Mb
+      - US_1627 |28.89Mb
+      - US_1009 |30.75Mb
+      - US_1011 |31.13Mb
+      - US_1029 |28.43Mb
+      - US_1003 |31.01Mb
+      - US_1625 |30.94Mb
+      - _美国_YouTube:VV科技_69
+      - US_1010 |27.84Mb
+      - 俄罗斯阿伟科技@TG/油管
+      - FR_78
+      - US_1019 |27.82Mb
+      - _英国_YouTube:VV科技_71
+      - FR_72
+      - FR_70
+      - _美国_YouTube:VV科技_59
+      - v2ray 香港HKT(移动) [Netflix]
+      - v2ray 香港HKT(联通) [Netflix] 2
+      - v2ray 香港2(移动) [Netflix]
+      - FR_432
+      - US_133
+      - v2ray 香港HKT(移动) [Netflix] 2
+      - _阿联酋_YouTube:VV科技_86
+      - v2ray 香港2(联通) [Netflix]
+      - Relay_🇨🇳CN-🇺🇸US_274
+      - _美国_YouTube:VV科技_97
+      - _英国_YouTube:VV科技_103
+      - v2ray 香港2(移动) [Netflix] 2
+      - _俄罗斯联邦_YouTube:VV科技_63
+      - US_172
+      - US_1015 |16.48Mb
+      - US_1030 |16.32Mb
+      - F|V02-付费解锁更多线路
+      - US_1005 |16.33Mb
+      - _美国_YouTube:VV科技_107
+      - F|V04-公益等级线路限速
+      - US_1273
+      - US_151
+      - _美国_YouTube:VV科技_41
       - Relay_🇨🇳CN-🇸🇬SG_279
+      - US_144
+      - US_92
+      - ZZ_185
+      - US_115
+      - US_1117
+      - US_116
+      - ZZ_201
+      - US_128
+      - US_133 2
+      - US_123
+      - US_107
+      - US_136
+      - ZZ_197
+      - US_138
+      - US_118
+      - US_102
+      - US_105
+      - v2ray 香港(联通) [Netflix]
+      - US_124
+      - ZZ_199
+      - ZZ_202
+      - ZZ_209
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _香港_YouTube:VV科技_38
-      - Relay_🇨🇳CN-🇩🇪DE_286
-      - _中国_YouTube:VV科技_32
-      - _中国_YouTube:VV科技_9
-      - Relay_🇨🇳CN-🇯🇵JP_285
-      - _台湾_YouTube:VV科技_73
-      - _中国_YouTube:VV科技_99
-      - _台湾_YouTube:VV科技_16
-      - _美国_YouTube:VV科技_54
-      - Relay_🇨🇳CN-🇨🇦CA_287
-      - Relay_🇨🇳CN-🇬🇧GB_283
+      - Relay_🇸🇬SG-🇸🇬SG_808
+      - 80免流节点
+      - JP_755 |212.95Mb
+      - v2ray 香港HGC(移动) [Netflix]
+      - v2ray 马来西亚(移动) [Netflix]
       - Relay_🇨🇳CN-🇵🇭PH_282
-      - _香港_YouTube:VV科技_109
-      - Relay_🇨🇳CN-🇩🇪DE_284
+      - v2ray 香港HGC(联通) [Netflix]
+      - v2ray 香港HGC(移动) [Netflix] 2
+      - v2ray 香港HGC(联通) [Netflix] 2
       - _韩国_YouTube:VV科技_55
-      - US_1969
-      - JP_85
-      - _优先在YouTube：<VV科技>频道公布
-      - _阿联酋_YouTube:VV科技_86
-      - _美国_YouTube:VV科技_8
-      - FR_46
-      - FR_72
-      - ZZ_184
-      - _美国_YouTube:VV科技_69
-      - US_107
-      - _英国_YouTube:VV科技_71
-      - _英国_YouTube:VV科技_103
-      - US_133
-      - _美国_YouTube:VV科技_59
-      - _美国_YouTube:VV科技_97
-      - US_136
-      - 俄罗斯阿伟科技@TG/油管
-      - US_118
-      - _香港_YouTube:VV科技_116
-      - US_1117
-      - _美国_YouTube:VV科技_107
-      - _俄罗斯联邦_YouTube:VV科技_63
-      - Relay_🇺🇸US-🇺🇸US_1968
-      - US_117
-      - _中国_YouTube:VV科技_31
-      - _美国_YouTube:VV科技_41
-      - CN_28
-      - ZZ_199
-      - US_138
-      - US_113
       - _中国_YouTube:VV科技_113
-      - US_1350
-      - 加拿大_TG@nodesharing_268
-      - US_95
-      - Relay_🇸🇪SE-🇸🇪SE_743
+      - Relay_🇨🇳CN-🇨🇦CA_284
+      - v2ray 马来西亚(移动) [Netflix] 2
+      - Relay_🇨🇳CN-🇮🇩ID_286
+      - Relay_🇨🇳CN-🇬🇧GB_287
+      - v2ray 香港HKT(联通) [Netflix]
+      - _中国_YouTube:VV科技_99
+      - _优先在YouTube：<VV科技>频道公布
+      - US_1012 |29.20Mb
+      - US_1014 |30.86Mb
+      - US_1004 |30.86Mb
+      - US_1007 |28.81Mb
+      - US_1013 |31.40Mb
+      - US_1002 |30.19Mb
+      - US_1020 |32.52Mb
+      - US_1022 |29.70Mb
+      - US_1031 |28.02Mb
+      - US_1032 |30.22Mb
+      - US_1006 |30.42Mb
+      - US_1008 |30.11Mb
+      - US_1033 |30.12Mb
+      - US_1627 |28.89Mb
+      - US_1009 |30.75Mb
+      - US_1011 |31.13Mb
+      - US_1029 |28.43Mb
+      - US_1003 |31.01Mb
+      - US_1625 |30.94Mb
+      - _美国_YouTube:VV科技_69
+      - US_1010 |27.84Mb
+      - 俄罗斯阿伟科技@TG/油管
+      - FR_78
+      - US_1019 |27.82Mb
+      - _英国_YouTube:VV科技_71
+      - FR_72
+      - FR_70
+      - _美国_YouTube:VV科技_59
+      - v2ray 香港HKT(移动) [Netflix]
+      - v2ray 香港HKT(联通) [Netflix] 2
+      - v2ray 香港2(移动) [Netflix]
+      - FR_432
+      - US_133
+      - v2ray 香港HKT(移动) [Netflix] 2
+      - _阿联酋_YouTube:VV科技_86
+      - v2ray 香港2(联通) [Netflix]
+      - Relay_🇨🇳CN-🇺🇸US_274
+      - _美国_YouTube:VV科技_97
+      - _英国_YouTube:VV科技_103
+      - v2ray 香港2(移动) [Netflix] 2
+      - _俄罗斯联邦_YouTube:VV科技_63
+      - US_172
+      - US_1015 |16.48Mb
+      - US_1030 |16.32Mb
+      - F|V02-付费解锁更多线路
+      - US_1005 |16.33Mb
+      - _美国_YouTube:VV科技_107
+      - F|V04-公益等级线路限速
+      - US_1273
+      - US_151
+      - _美国_YouTube:VV科技_41
       - Relay_🇨🇳CN-🇸🇬SG_279
+      - US_144
+      - US_92
+      - ZZ_185
+      - US_115
+      - US_1117
+      - US_116
+      - ZZ_201
+      - US_128
+      - US_133 2
+      - US_123
+      - US_107
+      - US_136
+      - ZZ_197
+      - US_138
+      - US_118
+      - US_102
+      - US_105
+      - v2ray 香港(联通) [Netflix]
+      - US_124
+      - ZZ_199
+      - ZZ_202
+      - ZZ_209
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _香港_YouTube:VV科技_38
-      - Relay_🇨🇳CN-🇩🇪DE_286
-      - _中国_YouTube:VV科技_32
-      - _中国_YouTube:VV科技_9
-      - Relay_🇨🇳CN-🇯🇵JP_285
-      - _台湾_YouTube:VV科技_73
-      - _中国_YouTube:VV科技_99
-      - _台湾_YouTube:VV科技_16
-      - _美国_YouTube:VV科技_54
-      - Relay_🇨🇳CN-🇨🇦CA_287
-      - Relay_🇨🇳CN-🇬🇧GB_283
+      - Relay_🇸🇬SG-🇸🇬SG_808
+      - 80免流节点
+      - JP_755 |212.95Mb
+      - v2ray 香港HGC(移动) [Netflix]
+      - v2ray 马来西亚(移动) [Netflix]
       - Relay_🇨🇳CN-🇵🇭PH_282
-      - _香港_YouTube:VV科技_109
-      - Relay_🇨🇳CN-🇩🇪DE_284
+      - v2ray 香港HGC(联通) [Netflix]
+      - v2ray 香港HGC(移动) [Netflix] 2
+      - v2ray 香港HGC(联通) [Netflix] 2
       - _韩国_YouTube:VV科技_55
-      - US_1969
-      - JP_85
-      - _优先在YouTube：<VV科技>频道公布
-      - _阿联酋_YouTube:VV科技_86
-      - _美国_YouTube:VV科技_8
-      - FR_46
-      - FR_72
-      - ZZ_184
-      - _美国_YouTube:VV科技_69
-      - US_107
-      - _英国_YouTube:VV科技_71
-      - _英国_YouTube:VV科技_103
-      - US_133
-      - _美国_YouTube:VV科技_59
-      - _美国_YouTube:VV科技_97
-      - US_136
-      - 俄罗斯阿伟科技@TG/油管
-      - US_118
-      - _香港_YouTube:VV科技_116
-      - US_1117
-      - _美国_YouTube:VV科技_107
-      - _俄罗斯联邦_YouTube:VV科技_63
-      - Relay_🇺🇸US-🇺🇸US_1968
-      - US_117
-      - _中国_YouTube:VV科技_31
-      - _美国_YouTube:VV科技_41
-      - CN_28
-      - ZZ_199
-      - US_138
-      - US_113
       - _中国_YouTube:VV科技_113
-      - US_1350
-      - 加拿大_TG@nodesharing_268
-      - US_95
-      - Relay_🇸🇪SE-🇸🇪SE_743
+      - Relay_🇨🇳CN-🇨🇦CA_284
+      - v2ray 马来西亚(移动) [Netflix] 2
+      - Relay_🇨🇳CN-🇮🇩ID_286
+      - Relay_🇨🇳CN-🇬🇧GB_287
+      - v2ray 香港HKT(联通) [Netflix]
+      - _中国_YouTube:VV科技_99
+      - _优先在YouTube：<VV科技>频道公布
+      - US_1012 |29.20Mb
+      - US_1014 |30.86Mb
+      - US_1004 |30.86Mb
+      - US_1007 |28.81Mb
+      - US_1013 |31.40Mb
+      - US_1002 |30.19Mb
+      - US_1020 |32.52Mb
+      - US_1022 |29.70Mb
+      - US_1031 |28.02Mb
+      - US_1032 |30.22Mb
+      - US_1006 |30.42Mb
+      - US_1008 |30.11Mb
+      - US_1033 |30.12Mb
+      - US_1627 |28.89Mb
+      - US_1009 |30.75Mb
+      - US_1011 |31.13Mb
+      - US_1029 |28.43Mb
+      - US_1003 |31.01Mb
+      - US_1625 |30.94Mb
+      - _美国_YouTube:VV科技_69
+      - US_1010 |27.84Mb
+      - 俄罗斯阿伟科技@TG/油管
+      - FR_78
+      - US_1019 |27.82Mb
+      - _英国_YouTube:VV科技_71
+      - FR_72
+      - FR_70
+      - _美国_YouTube:VV科技_59
+      - v2ray 香港HKT(移动) [Netflix]
+      - v2ray 香港HKT(联通) [Netflix] 2
+      - v2ray 香港2(移动) [Netflix]
+      - FR_432
+      - US_133
+      - v2ray 香港HKT(移动) [Netflix] 2
+      - _阿联酋_YouTube:VV科技_86
+      - v2ray 香港2(联通) [Netflix]
+      - Relay_🇨🇳CN-🇺🇸US_274
+      - _美国_YouTube:VV科技_97
+      - _英国_YouTube:VV科技_103
+      - v2ray 香港2(移动) [Netflix] 2
+      - _俄罗斯联邦_YouTube:VV科技_63
+      - US_172
+      - US_1015 |16.48Mb
+      - US_1030 |16.32Mb
+      - F|V02-付费解锁更多线路
+      - US_1005 |16.33Mb
+      - _美国_YouTube:VV科技_107
+      - F|V04-公益等级线路限速
+      - US_1273
+      - US_151
+      - _美国_YouTube:VV科技_41
       - Relay_🇨🇳CN-🇸🇬SG_279
+      - US_144
+      - US_92
+      - ZZ_185
+      - US_115
+      - US_1117
+      - US_116
+      - ZZ_201
+      - US_128
+      - US_133 2
+      - US_123
+      - US_107
+      - US_136
+      - ZZ_197
+      - US_138
+      - US_118
+      - US_102
+      - US_105
+      - v2ray 香港(联通) [Netflix]
+      - US_124
+      - ZZ_199
+      - ZZ_202
+      - ZZ_209
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -489,57 +824,98 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _香港_YouTube:VV科技_38
-      - Relay_🇨🇳CN-🇩🇪DE_286
-      - _中国_YouTube:VV科技_32
-      - _中国_YouTube:VV科技_9
-      - Relay_🇨🇳CN-🇯🇵JP_285
-      - _台湾_YouTube:VV科技_73
-      - _中国_YouTube:VV科技_99
-      - _台湾_YouTube:VV科技_16
-      - _美国_YouTube:VV科技_54
-      - Relay_🇨🇳CN-🇨🇦CA_287
-      - Relay_🇨🇳CN-🇬🇧GB_283
+      - Relay_🇸🇬SG-🇸🇬SG_808
+      - 80免流节点
+      - JP_755 |212.95Mb
+      - v2ray 香港HGC(移动) [Netflix]
+      - v2ray 马来西亚(移动) [Netflix]
       - Relay_🇨🇳CN-🇵🇭PH_282
-      - _香港_YouTube:VV科技_109
-      - Relay_🇨🇳CN-🇩🇪DE_284
+      - v2ray 香港HGC(联通) [Netflix]
+      - v2ray 香港HGC(移动) [Netflix] 2
+      - v2ray 香港HGC(联通) [Netflix] 2
       - _韩国_YouTube:VV科技_55
-      - US_1969
-      - JP_85
-      - _优先在YouTube：<VV科技>频道公布
-      - _阿联酋_YouTube:VV科技_86
-      - _美国_YouTube:VV科技_8
-      - FR_46
-      - FR_72
-      - ZZ_184
-      - _美国_YouTube:VV科技_69
-      - US_107
-      - _英国_YouTube:VV科技_71
-      - _英国_YouTube:VV科技_103
-      - US_133
-      - _美国_YouTube:VV科技_59
-      - _美国_YouTube:VV科技_97
-      - US_136
-      - 俄罗斯阿伟科技@TG/油管
-      - US_118
-      - _香港_YouTube:VV科技_116
-      - US_1117
-      - _美国_YouTube:VV科技_107
-      - _俄罗斯联邦_YouTube:VV科技_63
-      - Relay_🇺🇸US-🇺🇸US_1968
-      - US_117
-      - _中国_YouTube:VV科技_31
-      - _美国_YouTube:VV科技_41
-      - CN_28
-      - ZZ_199
-      - US_138
-      - US_113
       - _中国_YouTube:VV科技_113
-      - US_1350
-      - 加拿大_TG@nodesharing_268
-      - US_95
-      - Relay_🇸🇪SE-🇸🇪SE_743
+      - Relay_🇨🇳CN-🇨🇦CA_284
+      - v2ray 马来西亚(移动) [Netflix] 2
+      - Relay_🇨🇳CN-🇮🇩ID_286
+      - Relay_🇨🇳CN-🇬🇧GB_287
+      - v2ray 香港HKT(联通) [Netflix]
+      - _中国_YouTube:VV科技_99
+      - _优先在YouTube：<VV科技>频道公布
+      - US_1012 |29.20Mb
+      - US_1014 |30.86Mb
+      - US_1004 |30.86Mb
+      - US_1007 |28.81Mb
+      - US_1013 |31.40Mb
+      - US_1002 |30.19Mb
+      - US_1020 |32.52Mb
+      - US_1022 |29.70Mb
+      - US_1031 |28.02Mb
+      - US_1032 |30.22Mb
+      - US_1006 |30.42Mb
+      - US_1008 |30.11Mb
+      - US_1033 |30.12Mb
+      - US_1627 |28.89Mb
+      - US_1009 |30.75Mb
+      - US_1011 |31.13Mb
+      - US_1029 |28.43Mb
+      - US_1003 |31.01Mb
+      - US_1625 |30.94Mb
+      - _美国_YouTube:VV科技_69
+      - US_1010 |27.84Mb
+      - 俄罗斯阿伟科技@TG/油管
+      - FR_78
+      - US_1019 |27.82Mb
+      - _英国_YouTube:VV科技_71
+      - FR_72
+      - FR_70
+      - _美国_YouTube:VV科技_59
+      - v2ray 香港HKT(移动) [Netflix]
+      - v2ray 香港HKT(联通) [Netflix] 2
+      - v2ray 香港2(移动) [Netflix]
+      - FR_432
+      - US_133
+      - v2ray 香港HKT(移动) [Netflix] 2
+      - _阿联酋_YouTube:VV科技_86
+      - v2ray 香港2(联通) [Netflix]
+      - Relay_🇨🇳CN-🇺🇸US_274
+      - _美国_YouTube:VV科技_97
+      - _英国_YouTube:VV科技_103
+      - v2ray 香港2(移动) [Netflix] 2
+      - _俄罗斯联邦_YouTube:VV科技_63
+      - US_172
+      - US_1015 |16.48Mb
+      - US_1030 |16.32Mb
+      - F|V02-付费解锁更多线路
+      - US_1005 |16.33Mb
+      - _美国_YouTube:VV科技_107
+      - F|V04-公益等级线路限速
+      - US_1273
+      - US_151
+      - _美国_YouTube:VV科技_41
       - Relay_🇨🇳CN-🇸🇬SG_279
+      - US_144
+      - US_92
+      - ZZ_185
+      - US_115
+      - US_1117
+      - US_116
+      - ZZ_201
+      - US_128
+      - US_133 2
+      - US_123
+      - US_107
+      - US_136
+      - ZZ_197
+      - US_138
+      - US_118
+      - US_102
+      - US_105
+      - v2ray 香港(联通) [Netflix]
+      - US_124
+      - ZZ_199
+      - ZZ_202
+      - ZZ_209
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
