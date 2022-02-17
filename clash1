@@ -5,131 +5,155 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港4-小浪浪, server: shcris02stand.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50374:ff112233, obfs-param: "", udp: true}
   - {name: 香港2-小浪浪, server: shonlinecu.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50374:ff112233, obfs-param: "", udp: true}
   - {name: 香港04, server: shonlinesandcu03.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50374:ff112233, obfs-param: "", udp: true}
+  - {name: 香港4-小浪浪, server: shcris02stand.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 50374:ff112233, obfs-param: "", udp: true}
   - {name: 香港 中转, server: 111.28.3.106, port: 60010, type: vmess, uuid: 19ff88ff-a3c1-3a90-82fd-e7daf29f7b11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 111.28.3.106}, udp: true}
-  - {name: _香港_YouTube:VV科技_63, server: 130.wowogg.cyou, port: 52330, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Standard|广韩|IEPL|02, server: iepl-basic-else-1.ninjarelay.pro, port: 7601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广韩|IEPL|03, server: iepl-basic-else-2.ninjarelay.pro, port: 7600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: 日本N178, server: n178.centaur.network, port: 8082, type: trojan, password: 12d66073-1c21-45d7-b7e2-6b0ed7eed556, sni: n178.centaur.network, skip-cert-verify: true, udp: true}
-  - {name: Standard|广港|IEPL|16, server: iepl-basic-hk-2.ninjarelay.pro, port: 3605, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广港|IEPL|11, server: iepl-basic-hk-2.ninjarelay.pro, port: 3600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广新|IEPL|03, server: iepl-basic-else-1.ninjarelay.pro, port: 6602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广新|IEPL|04, server: iepl-basic-else-1.ninjarelay.pro, port: 6603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广新|IEPL|07, server: iepl-basic-else-2.ninjarelay.pro, port: 6600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广港|IEPL|04, server: iepl-basic-hk-1.ninjarelay.pro, port: 3603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广日|IEPL|04, server: iepl-basic-else-1.ninjarelay.pro, port: 4603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广韩|IEPL|01, server: iepl-basic-else-1.ninjarelay.pro, port: 7600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广港|IEPL|19, server: iepl-basic-hk-2.ninjarelay.pro, port: 3608, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广新|IEPL|05, server: iepl-basic-else-1.ninjarelay.pro, port: 6604, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Standard|广港|IEPL|15, server: iepl-basic-hk-2.ninjarelay.pro, port: 3604, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
-  - {name: Relay_🇨🇳CN-🇬🇧GB_287, server: gz1.52168.xyz, port: 1117, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: _俄罗斯联邦_YouTube:VV科技_63, server: 92.223.72.42, port: 443, type: vmess, uuid: ae08412f-5bb9-4be7-8560-1984976a1097, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: _FR_法国, server: 149.202.82.172, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_289, server: gz2.52168.xyz, port: 2102, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: Standard|广新|IEPL|02, server: iepl-basic-else-1.ninjarelay.pro, port: 6601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
   - {name: Standard|广港|IEPL|02, server: iepl-basic-hk-1.ninjarelay.pro, port: 3601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Standard|广新|IEPL|03, server: iepl-basic-else-1.ninjarelay.pro, port: 6602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Standard|广港|IEPL|16, server: iepl-basic-hk-2.ninjarelay.pro, port: 3605, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Standard|广韩|IEPL|01, server: iepl-basic-else-1.ninjarelay.pro, port: 7600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Standard|广韩|IEPL|02, server: iepl-basic-else-1.ninjarelay.pro, port: 7601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: 日本N178, server: n178.centaur.network, port: 8082, type: trojan, password: 12d66073-1c21-45d7-b7e2-6b0ed7eed556, sni: n178.centaur.network, skip-cert-verify: true, udp: true}
+  - {name: Standard|广韩|IEPL|03, server: iepl-basic-else-2.ninjarelay.pro, port: 7600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: YouTube:VV科技_37, server: 104.17.161.28, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_289, server: gz2.52168.xyz, port: 2102, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: 日本H1R, server: h1r.centaur.network, port: 16802, type: trojan, password: fb39b0bb-acb7-45b8-a896-0ff6b56beb5f, sni: h1r.centaur.network, skip-cert-verify: true, udp: true}
+  - {name: 加拿大001|BGP中继|流媒体, server: azhk.relay002.insnow.xyz, port: 9907, type: trojan, password: 3cd55b21-01fc-4a11-89cf-7c80bb8ed2cb, sni: azhk.relay002.insnow.xyz, skip-cert-verify: true, udp: true}
+  - {name: 韩国002|BGP中继, server: azhk.relay001.insnow.xyz, port: 9913, type: trojan, password: 3cd55b21-01fc-4a11-89cf-7c80bb8ed2cb, sni: azhk.relay001.insnow.xyz, skip-cert-verify: true, udp: true}
+  - {name: Standard|广日|IEPL|04, server: iepl-basic-else-1.ninjarelay.pro, port: 4603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: 美国N200, server: n200.centaur.network, port: 8081, type: trojan, password: 5106d626-ddc5-452c-8983-c4ba957eb509, sni: n200.centaur.network, skip-cert-verify: true, udp: true}
+  - {name: Standard|广新|IEPL|04, server: iepl-basic-else-1.ninjarelay.pro, port: 6603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: Standard|广新|IEPL|05, server: iepl-basic-else-1.ninjarelay.pro, port: 6604, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: _RU_俄罗斯联邦, server: 5.188.35.120, port: 443, type: vmess, uuid: 0c7a06d0-8061-4df7-b521-960e2b9ce0f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: v2cross.com, server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _FR_法国, server: 149.202.82.172, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _俄罗斯联邦_YouTube:VV科技_63, server: 92.223.72.42, port: 443, type: vmess, uuid: ae08412f-5bb9-4be7-8560-1984976a1097, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: _英国_YouTube:VV科技_14, server: 172.99.190.205, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _CA_加拿大 2, server: 134.195.196.147, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _FR_法国 2, server: 149.202.82.172, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Standard|广港|IEPL|11, server: iepl-basic-hk-2.ninjarelay.pro, port: 3600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
   - {name: _英国_YouTube:VV科技_103, server: 37.120.134.207, port: 443, type: vmess, uuid: 5c0beec7-9b91-4e28-85b0-e3ff49b4ac50, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: Standard|广港|IEPL|05, server: iepl-basic-hk-1.ninjarelay.pro, port: 3604, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: bcc9a40590.microsoft.com}, udp: true}
+  - {name: _GB_英国 2, server: 172.99.190.39, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大 3, server: 134.195.196.147, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _CA_加拿大, server: 134.195.196.200, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _英国_YouTube:VV科技_8, server: 172.99.190.39, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港4-小浪浪
       - 香港2-小浪浪
       - 香港04
+      - 香港4-小浪浪
       - 香港 中转
-      - _香港_YouTube:VV科技_63
-      - Standard|广韩|IEPL|02
-      - Standard|广韩|IEPL|03
-      - 日本N178
-      - Standard|广港|IEPL|16
-      - Standard|广港|IEPL|11
-      - Standard|广新|IEPL|03
-      - Standard|广新|IEPL|04
-      - Standard|广新|IEPL|07
-      - Standard|广港|IEPL|04
-      - Standard|广日|IEPL|04
-      - Standard|广韩|IEPL|01
-      - Standard|广港|IEPL|19
-      - Standard|广新|IEPL|05
-      - Standard|广港|IEPL|15
-      - Relay_🇨🇳CN-🇬🇧GB_287
-      - _俄罗斯联邦_YouTube:VV科技_63
-      - _FR_法国
-      - Relay_🇨🇳CN-🇺🇸US_289
-      - Standard|广新|IEPL|02
       - Standard|广港|IEPL|02
+      - Standard|广新|IEPL|03
+      - Standard|广港|IEPL|16
+      - Standard|广韩|IEPL|01
+      - Standard|广韩|IEPL|02
+      - 日本N178
+      - Standard|广韩|IEPL|03
+      - YouTube:VV科技_37
+      - Relay_🇨🇳CN-🇺🇸US_289
+      - 日本H1R
+      - 加拿大001|BGP中继|流媒体
+      - 韩国002|BGP中继
+      - Standard|广日|IEPL|04
+      - 美国N200
+      - Standard|广新|IEPL|04
+      - Standard|广新|IEPL|05
+      - _RU_俄罗斯联邦
+      - v2cross.com
+      - _FR_法国
+      - _俄罗斯联邦_YouTube:VV科技_63
+      - _英国_YouTube:VV科技_14
+      - _CA_加拿大 2
+      - _FR_法国 2
+      - Standard|广港|IEPL|11
       - _英国_YouTube:VV科技_103
-      - Standard|广港|IEPL|05
+      - _GB_英国 2
+      - _CA_加拿大 3
+      - _CA_加拿大
+      - _英国_YouTube:VV科技_8
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港4-小浪浪
       - 香港2-小浪浪
       - 香港04
+      - 香港4-小浪浪
       - 香港 中转
-      - _香港_YouTube:VV科技_63
-      - Standard|广韩|IEPL|02
-      - Standard|广韩|IEPL|03
-      - 日本N178
-      - Standard|广港|IEPL|16
-      - Standard|广港|IEPL|11
-      - Standard|广新|IEPL|03
-      - Standard|广新|IEPL|04
-      - Standard|广新|IEPL|07
-      - Standard|广港|IEPL|04
-      - Standard|广日|IEPL|04
-      - Standard|广韩|IEPL|01
-      - Standard|广港|IEPL|19
-      - Standard|广新|IEPL|05
-      - Standard|广港|IEPL|15
-      - Relay_🇨🇳CN-🇬🇧GB_287
-      - _俄罗斯联邦_YouTube:VV科技_63
-      - _FR_法国
-      - Relay_🇨🇳CN-🇺🇸US_289
-      - Standard|广新|IEPL|02
       - Standard|广港|IEPL|02
+      - Standard|广新|IEPL|03
+      - Standard|广港|IEPL|16
+      - Standard|广韩|IEPL|01
+      - Standard|广韩|IEPL|02
+      - 日本N178
+      - Standard|广韩|IEPL|03
+      - YouTube:VV科技_37
+      - Relay_🇨🇳CN-🇺🇸US_289
+      - 日本H1R
+      - 加拿大001|BGP中继|流媒体
+      - 韩国002|BGP中继
+      - Standard|广日|IEPL|04
+      - 美国N200
+      - Standard|广新|IEPL|04
+      - Standard|广新|IEPL|05
+      - _RU_俄罗斯联邦
+      - v2cross.com
+      - _FR_法国
+      - _俄罗斯联邦_YouTube:VV科技_63
+      - _英国_YouTube:VV科技_14
+      - _CA_加拿大 2
+      - _FR_法国 2
+      - Standard|广港|IEPL|11
       - _英国_YouTube:VV科技_103
-      - Standard|广港|IEPL|05
+      - _GB_英国 2
+      - _CA_加拿大 3
+      - _CA_加拿大
+      - _英国_YouTube:VV科技_8
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港4-小浪浪
       - 香港2-小浪浪
       - 香港04
+      - 香港4-小浪浪
       - 香港 中转
-      - _香港_YouTube:VV科技_63
-      - Standard|广韩|IEPL|02
-      - Standard|广韩|IEPL|03
-      - 日本N178
-      - Standard|广港|IEPL|16
-      - Standard|广港|IEPL|11
-      - Standard|广新|IEPL|03
-      - Standard|广新|IEPL|04
-      - Standard|广新|IEPL|07
-      - Standard|广港|IEPL|04
-      - Standard|广日|IEPL|04
-      - Standard|广韩|IEPL|01
-      - Standard|广港|IEPL|19
-      - Standard|广新|IEPL|05
-      - Standard|广港|IEPL|15
-      - Relay_🇨🇳CN-🇬🇧GB_287
-      - _俄罗斯联邦_YouTube:VV科技_63
-      - _FR_法国
-      - Relay_🇨🇳CN-🇺🇸US_289
-      - Standard|广新|IEPL|02
       - Standard|广港|IEPL|02
+      - Standard|广新|IEPL|03
+      - Standard|广港|IEPL|16
+      - Standard|广韩|IEPL|01
+      - Standard|广韩|IEPL|02
+      - 日本N178
+      - Standard|广韩|IEPL|03
+      - YouTube:VV科技_37
+      - Relay_🇨🇳CN-🇺🇸US_289
+      - 日本H1R
+      - 加拿大001|BGP中继|流媒体
+      - 韩国002|BGP中继
+      - Standard|广日|IEPL|04
+      - 美国N200
+      - Standard|广新|IEPL|04
+      - Standard|广新|IEPL|05
+      - _RU_俄罗斯联邦
+      - v2cross.com
+      - _FR_法国
+      - _俄罗斯联邦_YouTube:VV科技_63
+      - _英国_YouTube:VV科技_14
+      - _CA_加拿大 2
+      - _FR_法国 2
+      - Standard|广港|IEPL|11
       - _英国_YouTube:VV科技_103
-      - Standard|广港|IEPL|05
+      - _GB_英国 2
+      - _CA_加拿大 3
+      - _CA_加拿大
+      - _英国_YouTube:VV科技_8
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -148,147 +172,166 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港4-小浪浪
       - 香港2-小浪浪
       - 香港04
+      - 香港4-小浪浪
       - 香港 中转
-      - _香港_YouTube:VV科技_63
-      - Standard|广韩|IEPL|02
-      - Standard|广韩|IEPL|03
-      - 日本N178
-      - Standard|广港|IEPL|16
-      - Standard|广港|IEPL|11
-      - Standard|广新|IEPL|03
-      - Standard|广新|IEPL|04
-      - Standard|广新|IEPL|07
-      - Standard|广港|IEPL|04
-      - Standard|广日|IEPL|04
-      - Standard|广韩|IEPL|01
-      - Standard|广港|IEPL|19
-      - Standard|广新|IEPL|05
-      - Standard|广港|IEPL|15
-      - Relay_🇨🇳CN-🇬🇧GB_287
-      - _俄罗斯联邦_YouTube:VV科技_63
-      - _FR_法国
-      - Relay_🇨🇳CN-🇺🇸US_289
-      - Standard|广新|IEPL|02
       - Standard|广港|IEPL|02
+      - Standard|广新|IEPL|03
+      - Standard|广港|IEPL|16
+      - Standard|广韩|IEPL|01
+      - Standard|广韩|IEPL|02
+      - 日本N178
+      - Standard|广韩|IEPL|03
+      - YouTube:VV科技_37
+      - Relay_🇨🇳CN-🇺🇸US_289
+      - 日本H1R
+      - 加拿大001|BGP中继|流媒体
+      - 韩国002|BGP中继
+      - Standard|广日|IEPL|04
+      - 美国N200
+      - Standard|广新|IEPL|04
+      - Standard|广新|IEPL|05
+      - _RU_俄罗斯联邦
+      - v2cross.com
+      - _FR_法国
+      - _俄罗斯联邦_YouTube:VV科技_63
+      - _英国_YouTube:VV科技_14
+      - _CA_加拿大 2
+      - _FR_法国 2
+      - Standard|广港|IEPL|11
       - _英国_YouTube:VV科技_103
-      - Standard|广港|IEPL|05
+      - _GB_英国 2
+      - _CA_加拿大 3
+      - _CA_加拿大
+      - _英国_YouTube:VV科技_8
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港4-小浪浪
       - 香港2-小浪浪
       - 香港04
+      - 香港4-小浪浪
       - 香港 中转
-      - _香港_YouTube:VV科技_63
+      - Standard|广港|IEPL|02
       - Standard|广港|IEPL|16
       - Standard|广港|IEPL|11
-      - Standard|广港|IEPL|04
-      - Standard|广港|IEPL|19
-      - Standard|广港|IEPL|15
-      - Standard|广港|IEPL|02
-      - Standard|广港|IEPL|05
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港4-小浪浪
       - 香港2-小浪浪
       - 香港04
+      - 香港4-小浪浪
       - 香港 中转
-      - _香港_YouTube:VV科技_63
-      - Standard|广韩|IEPL|02
-      - Standard|广韩|IEPL|03
-      - 日本N178
-      - Standard|广港|IEPL|16
-      - Standard|广港|IEPL|11
-      - Standard|广新|IEPL|03
-      - Standard|广新|IEPL|04
-      - Standard|广新|IEPL|07
-      - Standard|广港|IEPL|04
-      - Standard|广日|IEPL|04
-      - Standard|广韩|IEPL|01
-      - Standard|广港|IEPL|19
-      - Standard|广新|IEPL|05
-      - Standard|广港|IEPL|15
-      - Relay_🇨🇳CN-🇬🇧GB_287
-      - _俄罗斯联邦_YouTube:VV科技_63
-      - _FR_法国
-      - Relay_🇨🇳CN-🇺🇸US_289
-      - Standard|广新|IEPL|02
       - Standard|广港|IEPL|02
+      - Standard|广新|IEPL|03
+      - Standard|广港|IEPL|16
+      - Standard|广韩|IEPL|01
+      - Standard|广韩|IEPL|02
+      - 日本N178
+      - Standard|广韩|IEPL|03
+      - YouTube:VV科技_37
+      - Relay_🇨🇳CN-🇺🇸US_289
+      - 日本H1R
+      - 加拿大001|BGP中继|流媒体
+      - 韩国002|BGP中继
+      - Standard|广日|IEPL|04
+      - 美国N200
+      - Standard|广新|IEPL|04
+      - Standard|广新|IEPL|05
+      - _RU_俄罗斯联邦
+      - v2cross.com
+      - _FR_法国
+      - _俄罗斯联邦_YouTube:VV科技_63
+      - _英国_YouTube:VV科技_14
+      - _CA_加拿大 2
+      - _FR_法国 2
+      - Standard|广港|IEPL|11
       - _英国_YouTube:VV科技_103
-      - Standard|广港|IEPL|05
+      - _GB_英国 2
+      - _CA_加拿大 3
+      - _CA_加拿大
+      - _英国_YouTube:VV科技_8
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 香港4-小浪浪
       - 香港2-小浪浪
       - 香港04
+      - 香港4-小浪浪
       - 香港 中转
-      - _香港_YouTube:VV科技_63
-      - Standard|广韩|IEPL|02
-      - Standard|广韩|IEPL|03
-      - 日本N178
-      - Standard|广港|IEPL|16
-      - Standard|广港|IEPL|11
-      - Standard|广新|IEPL|03
-      - Standard|广新|IEPL|04
-      - Standard|广新|IEPL|07
-      - Standard|广港|IEPL|04
-      - Standard|广日|IEPL|04
-      - Standard|广韩|IEPL|01
-      - Standard|广港|IEPL|19
-      - Standard|广新|IEPL|05
-      - Standard|广港|IEPL|15
-      - Relay_🇨🇳CN-🇬🇧GB_287
-      - _俄罗斯联邦_YouTube:VV科技_63
-      - _FR_法国
-      - Relay_🇨🇳CN-🇺🇸US_289
-      - Standard|广新|IEPL|02
       - Standard|广港|IEPL|02
+      - Standard|广新|IEPL|03
+      - Standard|广港|IEPL|16
+      - Standard|广韩|IEPL|01
+      - Standard|广韩|IEPL|02
+      - 日本N178
+      - Standard|广韩|IEPL|03
+      - YouTube:VV科技_37
+      - Relay_🇨🇳CN-🇺🇸US_289
+      - 日本H1R
+      - 加拿大001|BGP中继|流媒体
+      - 韩国002|BGP中继
+      - Standard|广日|IEPL|04
+      - 美国N200
+      - Standard|广新|IEPL|04
+      - Standard|广新|IEPL|05
+      - _RU_俄罗斯联邦
+      - v2cross.com
+      - _FR_法国
+      - _俄罗斯联邦_YouTube:VV科技_63
+      - _英国_YouTube:VV科技_14
+      - _CA_加拿大 2
+      - _FR_法国 2
+      - Standard|广港|IEPL|11
       - _英国_YouTube:VV科技_103
-      - Standard|广港|IEPL|05
+      - _GB_英国 2
+      - _CA_加拿大 3
+      - _CA_加拿大
+      - _英国_YouTube:VV科技_8
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港4-小浪浪
       - 香港2-小浪浪
       - 香港04
+      - 香港4-小浪浪
       - 香港 中转
-      - _香港_YouTube:VV科技_63
-      - Standard|广韩|IEPL|02
-      - Standard|广韩|IEPL|03
-      - 日本N178
-      - Standard|广港|IEPL|16
-      - Standard|广港|IEPL|11
-      - Standard|广新|IEPL|03
-      - Standard|广新|IEPL|04
-      - Standard|广新|IEPL|07
-      - Standard|广港|IEPL|04
-      - Standard|广日|IEPL|04
-      - Standard|广韩|IEPL|01
-      - Standard|广港|IEPL|19
-      - Standard|广新|IEPL|05
-      - Standard|广港|IEPL|15
-      - Relay_🇨🇳CN-🇬🇧GB_287
-      - _俄罗斯联邦_YouTube:VV科技_63
-      - _FR_法国
-      - Relay_🇨🇳CN-🇺🇸US_289
-      - Standard|广新|IEPL|02
       - Standard|广港|IEPL|02
+      - Standard|广新|IEPL|03
+      - Standard|广港|IEPL|16
+      - Standard|广韩|IEPL|01
+      - Standard|广韩|IEPL|02
+      - 日本N178
+      - Standard|广韩|IEPL|03
+      - YouTube:VV科技_37
+      - Relay_🇨🇳CN-🇺🇸US_289
+      - 日本H1R
+      - 加拿大001|BGP中继|流媒体
+      - 韩国002|BGP中继
+      - Standard|广日|IEPL|04
+      - 美国N200
+      - Standard|广新|IEPL|04
+      - Standard|广新|IEPL|05
+      - _RU_俄罗斯联邦
+      - v2cross.com
+      - _FR_法国
+      - _俄罗斯联邦_YouTube:VV科技_63
+      - _英国_YouTube:VV科技_14
+      - _CA_加拿大 2
+      - _FR_法国 2
+      - Standard|广港|IEPL|11
       - _英国_YouTube:VV科技_103
-      - Standard|广港|IEPL|05
+      - _GB_英国 2
+      - _CA_加拿大 3
+      - _CA_加拿大
+      - _英国_YouTube:VV科技_8
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -304,33 +347,39 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港4-小浪浪
       - 香港2-小浪浪
       - 香港04
+      - 香港4-小浪浪
       - 香港 中转
-      - _香港_YouTube:VV科技_63
-      - Standard|广韩|IEPL|02
-      - Standard|广韩|IEPL|03
-      - 日本N178
-      - Standard|广港|IEPL|16
-      - Standard|广港|IEPL|11
-      - Standard|广新|IEPL|03
-      - Standard|广新|IEPL|04
-      - Standard|广新|IEPL|07
-      - Standard|广港|IEPL|04
-      - Standard|广日|IEPL|04
-      - Standard|广韩|IEPL|01
-      - Standard|广港|IEPL|19
-      - Standard|广新|IEPL|05
-      - Standard|广港|IEPL|15
-      - Relay_🇨🇳CN-🇬🇧GB_287
-      - _俄罗斯联邦_YouTube:VV科技_63
-      - _FR_法国
-      - Relay_🇨🇳CN-🇺🇸US_289
-      - Standard|广新|IEPL|02
       - Standard|广港|IEPL|02
+      - Standard|广新|IEPL|03
+      - Standard|广港|IEPL|16
+      - Standard|广韩|IEPL|01
+      - Standard|广韩|IEPL|02
+      - 日本N178
+      - Standard|广韩|IEPL|03
+      - YouTube:VV科技_37
+      - Relay_🇨🇳CN-🇺🇸US_289
+      - 日本H1R
+      - 加拿大001|BGP中继|流媒体
+      - 韩国002|BGP中继
+      - Standard|广日|IEPL|04
+      - 美国N200
+      - Standard|广新|IEPL|04
+      - Standard|广新|IEPL|05
+      - _RU_俄罗斯联邦
+      - v2cross.com
+      - _FR_法国
+      - _俄罗斯联邦_YouTube:VV科技_63
+      - _英国_YouTube:VV科技_14
+      - _CA_加拿大 2
+      - _FR_法国 2
+      - Standard|广港|IEPL|11
       - _英国_YouTube:VV科技_103
-      - Standard|广港|IEPL|05
+      - _GB_英国 2
+      - _CA_加拿大 3
+      - _CA_加拿大
+      - _英国_YouTube:VV科技_8
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
