@@ -5,219 +5,151 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 52220 @WangCai_1, server: 120.wgong.xyz, port: 52220, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 日本1|公益线路, server: 45.142.166.15, port: 48919, type: trojan, password: 52911320-db53-40ff-917a-e5de797c28e7, skip-cert-verify: true, udp: true}
   - {name: CN_404 | 6.28Mb, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: (2)香港 (5000Mbps), server: 3.vpnbro.ml, port: 9999, type: trojan, password: 8657e06e-4241-4ad2-9de7-20f6b7b1e995, sni: 3.vpnbro.ml, skip-cert-verify: true, udp: true}
-  - {name: US_8882 @WangCai_1, server: 38.75.136.127, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US_7306 @WangCai_1, server: 38.75.136.127, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_8091 @WangCai_1, server: 38.75.136.127, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_8118 @WangCai_1, server: 38.75.136.127, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_8119 @WangCai_1, server: 38.75.136.127, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_8009 @WangCai_1, server: 38.75.136.127, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_6697 @WangCai_1, server: 38.75.136.127, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_2375 @WangCai_1, server: 38.75.136.127, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: US_5500 @WangCai_1, server: 38.75.136.127, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_5004 @WangCai_1, server: 38.75.136.127, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_8000 @WangCai_1, server: 38.75.136.127, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_7002 @WangCai_1, server: 38.75.136.127, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_5003 @WangCai_1, server: 38.75.136.127, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_5601 @WangCai_1, server: 38.75.136.127, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_5001 @WangCai_1, server: 38.75.136.127, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_6379 @WangCai_1, server: 38.75.136.127, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
   - {name: US_7001 @WangCai_1, server: 38.75.136.127, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CN_425 | 3.73Mb, server: tunnel-tw-a-01.xncloud.xyz, port: 505, type: vmess, uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-hinet-tw-05.xncloud.xyz}, udp: true}
+  - {name: US_6379 @WangCai_1, server: 38.75.136.127, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US_8091 @WangCai_1, server: 38.75.136.127, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_8009 @WangCai_1, server: 38.75.136.127, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_7306 @WangCai_1, server: 38.75.136.127, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_5001 @WangCai_1, server: 38.75.136.127, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_8119 @WangCai_1, server: 38.75.136.127, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_7002 @WangCai_1, server: 38.75.136.127, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_5004 @WangCai_1, server: 38.75.136.127, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: DE_6379 @WangCai_1, server: 193.108.117.24, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US_5601 @WangCai_1, server: 38.75.136.127, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_8000 @WangCai_1, server: 38.75.136.127, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: DE_2376 @WangCai_1, server: 193.108.117.24, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: DE_8008 @WangCai_1, server: 193.108.117.24, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_8882 @WangCai_1, server: 38.75.136.127, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: "[VIP]韩国3|华中入口|1x", server: hz.pbaplink.xyz, port: 47772, type: trojan, password: ad983854-167d-478f-88eb-5d494d3b2c24, sni: hz.pbaplink.xyz, skip-cert-verify: true, udp: true}
   - {name: DE_8000 @WangCai_1, server: 193.108.117.24, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: DE_5004 @WangCai_1, server: 193.108.117.24, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: DE_8008 @WangCai_1, server: 193.108.117.24, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: DE_6379 @WangCai_1, server: 193.108.117.24, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: DE_2376 @WangCai_1, server: 193.108.117.24, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 52231 @WangCai_1, server: 131.wgong.xyz, port: 52331, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本千兆-11号, server: 81.wgong.xyz, port: 52281, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: (1)香港 (5000Mbps), server: 2.vpnbro.ml, port: 9999, type: trojan, password: 8657e06e-4241-4ad2-9de7-20f6b7b1e995, sni: 2.vpnbro.ml, skip-cert-verify: true, udp: true}
+  - {name: US_8118 @WangCai_1, server: 38.75.136.127, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_6697 @WangCai_1, server: 38.75.136.127, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: US_3306 @WangCai_1, server: 38.75.136.127, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_5000 @WangCai_1, server: 38.75.136.127, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 52216 @WangCai_1, server: 116.wgong.xyz, port: 52216, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_5003 @WangCai_1, server: 38.75.136.127, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: _俄罗斯联邦_YouTube:VV科技_63, server: 92.223.72.42, port: 443, type: vmess, uuid: ae08412f-5bb9-4be7-8560-1984976a1097, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: DE_5001 @WangCai_1, server: 193.108.117.24, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1694 |62.83Mb, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: FR_8000 @WangCai_1, server: 149.202.82.172, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: FR_8008 @WangCai_1, server: 149.202.82.172, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: CN_407 |11.04Mb, server: 42.193.48.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_5000 @WangCai_1, server: 38.75.136.127, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CN_425 | 3.73Mb, server: tunnel-tw-a-01.xncloud.xyz, port: 505, type: vmess, uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-hinet-tw-05.xncloud.xyz}, udp: true}
   - {name: US_1931 |58.11Mb, server: 172.99.190.149, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: FR_8888 @WangCai_1, server: 149.202.82.172, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: GB_8008 @WangCai_1, server: 172.99.190.205, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_2420 |67.54Mb, server: 172.99.190.188, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1936 |52.84Mb, server: 172.99.190.149, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ‌‌🇨🇦CA_8881 @WangCai_1, server: 134.195.196.200, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US_2233 |50.88Mb, server: 172.99.190.188, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: FR_8118 @WangCai_1, server: 149.202.82.172, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: DE_5001 @WangCai_1, server: 193.108.117.24, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CN_407 |11.04Mb, server: 42.193.48.64, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: GB_5500 @WangCai_1, server: 172.99.190.205, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: (2)香港 (5000Mbps), server: 3.vpnbro.ml, port: 9999, type: trojan, password: 8657e06e-4241-4ad2-9de7-20f6b7b1e995, sni: 3.vpnbro.ml, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 52220 @WangCai_1
       - 日本1|公益线路
       - CN_404 | 6.28Mb
-      - (2)香港 (5000Mbps)
-      - US_8882 @WangCai_1
-      - US_7306 @WangCai_1
-      - US_8091 @WangCai_1
-      - US_8118 @WangCai_1
-      - US_8119 @WangCai_1
-      - US_8009 @WangCai_1
-      - US_6697 @WangCai_1
-      - US_2375 @WangCai_1
       - US_5500 @WangCai_1
-      - US_5004 @WangCai_1
-      - US_8000 @WangCai_1
-      - US_7002 @WangCai_1
-      - US_5003 @WangCai_1
-      - US_5601 @WangCai_1
-      - US_5001 @WangCai_1
-      - US_6379 @WangCai_1
       - US_7001 @WangCai_1
-      - CN_425 | 3.73Mb
+      - US_6379 @WangCai_1
+      - US_8091 @WangCai_1
+      - US_8009 @WangCai_1
+      - US_7306 @WangCai_1
+      - US_5001 @WangCai_1
+      - US_8119 @WangCai_1
+      - US_7002 @WangCai_1
+      - US_5004 @WangCai_1
+      - DE_6379 @WangCai_1
+      - US_5601 @WangCai_1
+      - US_8000 @WangCai_1
+      - DE_2376 @WangCai_1
+      - DE_8008 @WangCai_1
+      - US_8882 @WangCai_1
       - "[VIP]韩国3|华中入口|1x"
       - DE_8000 @WangCai_1
-      - DE_5004 @WangCai_1
-      - DE_8008 @WangCai_1
-      - DE_6379 @WangCai_1
-      - DE_2376 @WangCai_1
-      - 52231 @WangCai_1
-      - 日本千兆-11号
-      - (1)香港 (5000Mbps)
+      - US_8118 @WangCai_1
+      - US_6697 @WangCai_1
       - US_3306 @WangCai_1
-      - US_5000 @WangCai_1
-      - 52216 @WangCai_1
+      - US_5003 @WangCai_1
       - _俄罗斯联邦_YouTube:VV科技_63
-      - DE_5001 @WangCai_1
-      - US_1694 |62.83Mb
-      - FR_8000 @WangCai_1
-      - FR_8008 @WangCai_1
-      - CN_407 |11.04Mb
+      - US_5000 @WangCai_1
+      - CN_425 | 3.73Mb
       - US_1931 |58.11Mb
-      - FR_8888 @WangCai_1
-      - GB_8008 @WangCai_1
-      - US_2420 |67.54Mb
-      - US_1936 |52.84Mb
-      - ‌‌🇨🇦CA_8881 @WangCai_1
-      - US_2233 |50.88Mb
-      - FR_8118 @WangCai_1
+      - DE_5001 @WangCai_1
+      - CN_407 |11.04Mb
       - GB_5500 @WangCai_1
+      - (2)香港 (5000Mbps)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 52220 @WangCai_1
       - 日本1|公益线路
       - CN_404 | 6.28Mb
-      - (2)香港 (5000Mbps)
-      - US_8882 @WangCai_1
-      - US_7306 @WangCai_1
-      - US_8091 @WangCai_1
-      - US_8118 @WangCai_1
-      - US_8119 @WangCai_1
-      - US_8009 @WangCai_1
-      - US_6697 @WangCai_1
-      - US_2375 @WangCai_1
       - US_5500 @WangCai_1
-      - US_5004 @WangCai_1
-      - US_8000 @WangCai_1
-      - US_7002 @WangCai_1
-      - US_5003 @WangCai_1
-      - US_5601 @WangCai_1
-      - US_5001 @WangCai_1
-      - US_6379 @WangCai_1
       - US_7001 @WangCai_1
-      - CN_425 | 3.73Mb
+      - US_6379 @WangCai_1
+      - US_8091 @WangCai_1
+      - US_8009 @WangCai_1
+      - US_7306 @WangCai_1
+      - US_5001 @WangCai_1
+      - US_8119 @WangCai_1
+      - US_7002 @WangCai_1
+      - US_5004 @WangCai_1
+      - DE_6379 @WangCai_1
+      - US_5601 @WangCai_1
+      - US_8000 @WangCai_1
+      - DE_2376 @WangCai_1
+      - DE_8008 @WangCai_1
+      - US_8882 @WangCai_1
       - "[VIP]韩国3|华中入口|1x"
       - DE_8000 @WangCai_1
-      - DE_5004 @WangCai_1
-      - DE_8008 @WangCai_1
-      - DE_6379 @WangCai_1
-      - DE_2376 @WangCai_1
-      - 52231 @WangCai_1
-      - 日本千兆-11号
-      - (1)香港 (5000Mbps)
+      - US_8118 @WangCai_1
+      - US_6697 @WangCai_1
       - US_3306 @WangCai_1
-      - US_5000 @WangCai_1
-      - 52216 @WangCai_1
+      - US_5003 @WangCai_1
       - _俄罗斯联邦_YouTube:VV科技_63
-      - DE_5001 @WangCai_1
-      - US_1694 |62.83Mb
-      - FR_8000 @WangCai_1
-      - FR_8008 @WangCai_1
-      - CN_407 |11.04Mb
+      - US_5000 @WangCai_1
+      - CN_425 | 3.73Mb
       - US_1931 |58.11Mb
-      - FR_8888 @WangCai_1
-      - GB_8008 @WangCai_1
-      - US_2420 |67.54Mb
-      - US_1936 |52.84Mb
-      - ‌‌🇨🇦CA_8881 @WangCai_1
-      - US_2233 |50.88Mb
-      - FR_8118 @WangCai_1
+      - DE_5001 @WangCai_1
+      - CN_407 |11.04Mb
       - GB_5500 @WangCai_1
+      - (2)香港 (5000Mbps)
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 52220 @WangCai_1
       - 日本1|公益线路
       - CN_404 | 6.28Mb
-      - (2)香港 (5000Mbps)
-      - US_8882 @WangCai_1
-      - US_7306 @WangCai_1
-      - US_8091 @WangCai_1
-      - US_8118 @WangCai_1
-      - US_8119 @WangCai_1
-      - US_8009 @WangCai_1
-      - US_6697 @WangCai_1
-      - US_2375 @WangCai_1
       - US_5500 @WangCai_1
-      - US_5004 @WangCai_1
-      - US_8000 @WangCai_1
-      - US_7002 @WangCai_1
-      - US_5003 @WangCai_1
-      - US_5601 @WangCai_1
-      - US_5001 @WangCai_1
-      - US_6379 @WangCai_1
       - US_7001 @WangCai_1
-      - CN_425 | 3.73Mb
+      - US_6379 @WangCai_1
+      - US_8091 @WangCai_1
+      - US_8009 @WangCai_1
+      - US_7306 @WangCai_1
+      - US_5001 @WangCai_1
+      - US_8119 @WangCai_1
+      - US_7002 @WangCai_1
+      - US_5004 @WangCai_1
+      - DE_6379 @WangCai_1
+      - US_5601 @WangCai_1
+      - US_8000 @WangCai_1
+      - DE_2376 @WangCai_1
+      - DE_8008 @WangCai_1
+      - US_8882 @WangCai_1
       - "[VIP]韩国3|华中入口|1x"
       - DE_8000 @WangCai_1
-      - DE_5004 @WangCai_1
-      - DE_8008 @WangCai_1
-      - DE_6379 @WangCai_1
-      - DE_2376 @WangCai_1
-      - 52231 @WangCai_1
-      - 日本千兆-11号
-      - (1)香港 (5000Mbps)
+      - US_8118 @WangCai_1
+      - US_6697 @WangCai_1
       - US_3306 @WangCai_1
-      - US_5000 @WangCai_1
-      - 52216 @WangCai_1
+      - US_5003 @WangCai_1
       - _俄罗斯联邦_YouTube:VV科技_63
-      - DE_5001 @WangCai_1
-      - US_1694 |62.83Mb
-      - FR_8000 @WangCai_1
-      - FR_8008 @WangCai_1
-      - CN_407 |11.04Mb
+      - US_5000 @WangCai_1
+      - CN_425 | 3.73Mb
       - US_1931 |58.11Mb
-      - FR_8888 @WangCai_1
-      - GB_8008 @WangCai_1
-      - US_2420 |67.54Mb
-      - US_1936 |52.84Mb
-      - ‌‌🇨🇦CA_8881 @WangCai_1
-      - US_2233 |50.88Mb
-      - FR_8118 @WangCai_1
+      - DE_5001 @WangCai_1
+      - CN_407 |11.04Mb
       - GB_5500 @WangCai_1
+      - (2)香港 (5000Mbps)
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -236,225 +168,156 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 52220 @WangCai_1
       - 日本1|公益线路
       - CN_404 | 6.28Mb
-      - (2)香港 (5000Mbps)
-      - US_8882 @WangCai_1
-      - US_7306 @WangCai_1
-      - US_8091 @WangCai_1
-      - US_8118 @WangCai_1
-      - US_8119 @WangCai_1
-      - US_8009 @WangCai_1
-      - US_6697 @WangCai_1
-      - US_2375 @WangCai_1
       - US_5500 @WangCai_1
-      - US_5004 @WangCai_1
-      - US_8000 @WangCai_1
-      - US_7002 @WangCai_1
-      - US_5003 @WangCai_1
-      - US_5601 @WangCai_1
-      - US_5001 @WangCai_1
-      - US_6379 @WangCai_1
       - US_7001 @WangCai_1
-      - CN_425 | 3.73Mb
+      - US_6379 @WangCai_1
+      - US_8091 @WangCai_1
+      - US_8009 @WangCai_1
+      - US_7306 @WangCai_1
+      - US_5001 @WangCai_1
+      - US_8119 @WangCai_1
+      - US_7002 @WangCai_1
+      - US_5004 @WangCai_1
+      - DE_6379 @WangCai_1
+      - US_5601 @WangCai_1
+      - US_8000 @WangCai_1
+      - DE_2376 @WangCai_1
+      - DE_8008 @WangCai_1
+      - US_8882 @WangCai_1
       - "[VIP]韩国3|华中入口|1x"
       - DE_8000 @WangCai_1
-      - DE_5004 @WangCai_1
-      - DE_8008 @WangCai_1
-      - DE_6379 @WangCai_1
-      - DE_2376 @WangCai_1
-      - 52231 @WangCai_1
-      - 日本千兆-11号
-      - (1)香港 (5000Mbps)
+      - US_8118 @WangCai_1
+      - US_6697 @WangCai_1
       - US_3306 @WangCai_1
-      - US_5000 @WangCai_1
-      - 52216 @WangCai_1
+      - US_5003 @WangCai_1
       - _俄罗斯联邦_YouTube:VV科技_63
-      - DE_5001 @WangCai_1
-      - US_1694 |62.83Mb
-      - FR_8000 @WangCai_1
-      - FR_8008 @WangCai_1
-      - CN_407 |11.04Mb
+      - US_5000 @WangCai_1
+      - CN_425 | 3.73Mb
       - US_1931 |58.11Mb
-      - FR_8888 @WangCai_1
-      - GB_8008 @WangCai_1
-      - US_2420 |67.54Mb
-      - US_1936 |52.84Mb
-      - ‌‌🇨🇦CA_8881 @WangCai_1
-      - US_2233 |50.88Mb
-      - FR_8118 @WangCai_1
+      - DE_5001 @WangCai_1
+      - CN_407 |11.04Mb
       - GB_5500 @WangCai_1
+      - (2)香港 (5000Mbps)
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - (2)香港 (5000Mbps)
-      - (1)香港 (5000Mbps)
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 52220 @WangCai_1
       - 日本1|公益线路
       - CN_404 | 6.28Mb
-      - (2)香港 (5000Mbps)
-      - US_8882 @WangCai_1
-      - US_7306 @WangCai_1
-      - US_8091 @WangCai_1
-      - US_8118 @WangCai_1
-      - US_8119 @WangCai_1
-      - US_8009 @WangCai_1
-      - US_6697 @WangCai_1
-      - US_2375 @WangCai_1
       - US_5500 @WangCai_1
-      - US_5004 @WangCai_1
-      - US_8000 @WangCai_1
-      - US_7002 @WangCai_1
-      - US_5003 @WangCai_1
-      - US_5601 @WangCai_1
-      - US_5001 @WangCai_1
-      - US_6379 @WangCai_1
       - US_7001 @WangCai_1
-      - CN_425 | 3.73Mb
+      - US_6379 @WangCai_1
+      - US_8091 @WangCai_1
+      - US_8009 @WangCai_1
+      - US_7306 @WangCai_1
+      - US_5001 @WangCai_1
+      - US_8119 @WangCai_1
+      - US_7002 @WangCai_1
+      - US_5004 @WangCai_1
+      - DE_6379 @WangCai_1
+      - US_5601 @WangCai_1
+      - US_8000 @WangCai_1
+      - DE_2376 @WangCai_1
+      - DE_8008 @WangCai_1
+      - US_8882 @WangCai_1
       - "[VIP]韩国3|华中入口|1x"
       - DE_8000 @WangCai_1
-      - DE_5004 @WangCai_1
-      - DE_8008 @WangCai_1
-      - DE_6379 @WangCai_1
-      - DE_2376 @WangCai_1
-      - 52231 @WangCai_1
-      - 日本千兆-11号
-      - (1)香港 (5000Mbps)
+      - US_8118 @WangCai_1
+      - US_6697 @WangCai_1
       - US_3306 @WangCai_1
-      - US_5000 @WangCai_1
-      - 52216 @WangCai_1
+      - US_5003 @WangCai_1
       - _俄罗斯联邦_YouTube:VV科技_63
-      - DE_5001 @WangCai_1
-      - US_1694 |62.83Mb
-      - FR_8000 @WangCai_1
-      - FR_8008 @WangCai_1
-      - CN_407 |11.04Mb
+      - US_5000 @WangCai_1
+      - CN_425 | 3.73Mb
       - US_1931 |58.11Mb
-      - FR_8888 @WangCai_1
-      - GB_8008 @WangCai_1
-      - US_2420 |67.54Mb
-      - US_1936 |52.84Mb
-      - ‌‌🇨🇦CA_8881 @WangCai_1
-      - US_2233 |50.88Mb
-      - FR_8118 @WangCai_1
+      - DE_5001 @WangCai_1
+      - CN_407 |11.04Mb
       - GB_5500 @WangCai_1
+      - (2)香港 (5000Mbps)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 52220 @WangCai_1
       - 日本1|公益线路
       - CN_404 | 6.28Mb
-      - (2)香港 (5000Mbps)
-      - US_8882 @WangCai_1
-      - US_7306 @WangCai_1
-      - US_8091 @WangCai_1
-      - US_8118 @WangCai_1
-      - US_8119 @WangCai_1
-      - US_8009 @WangCai_1
-      - US_6697 @WangCai_1
-      - US_2375 @WangCai_1
       - US_5500 @WangCai_1
-      - US_5004 @WangCai_1
-      - US_8000 @WangCai_1
-      - US_7002 @WangCai_1
-      - US_5003 @WangCai_1
-      - US_5601 @WangCai_1
-      - US_5001 @WangCai_1
-      - US_6379 @WangCai_1
       - US_7001 @WangCai_1
-      - CN_425 | 3.73Mb
+      - US_6379 @WangCai_1
+      - US_8091 @WangCai_1
+      - US_8009 @WangCai_1
+      - US_7306 @WangCai_1
+      - US_5001 @WangCai_1
+      - US_8119 @WangCai_1
+      - US_7002 @WangCai_1
+      - US_5004 @WangCai_1
+      - DE_6379 @WangCai_1
+      - US_5601 @WangCai_1
+      - US_8000 @WangCai_1
+      - DE_2376 @WangCai_1
+      - DE_8008 @WangCai_1
+      - US_8882 @WangCai_1
       - "[VIP]韩国3|华中入口|1x"
       - DE_8000 @WangCai_1
-      - DE_5004 @WangCai_1
-      - DE_8008 @WangCai_1
-      - DE_6379 @WangCai_1
-      - DE_2376 @WangCai_1
-      - 52231 @WangCai_1
-      - 日本千兆-11号
-      - (1)香港 (5000Mbps)
+      - US_8118 @WangCai_1
+      - US_6697 @WangCai_1
       - US_3306 @WangCai_1
-      - US_5000 @WangCai_1
-      - 52216 @WangCai_1
+      - US_5003 @WangCai_1
       - _俄罗斯联邦_YouTube:VV科技_63
-      - DE_5001 @WangCai_1
-      - US_1694 |62.83Mb
-      - FR_8000 @WangCai_1
-      - FR_8008 @WangCai_1
-      - CN_407 |11.04Mb
+      - US_5000 @WangCai_1
+      - CN_425 | 3.73Mb
       - US_1931 |58.11Mb
-      - FR_8888 @WangCai_1
-      - GB_8008 @WangCai_1
-      - US_2420 |67.54Mb
-      - US_1936 |52.84Mb
-      - ‌‌🇨🇦CA_8881 @WangCai_1
-      - US_2233 |50.88Mb
-      - FR_8118 @WangCai_1
+      - DE_5001 @WangCai_1
+      - CN_407 |11.04Mb
       - GB_5500 @WangCai_1
+      - (2)香港 (5000Mbps)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 52220 @WangCai_1
       - 日本1|公益线路
       - CN_404 | 6.28Mb
-      - (2)香港 (5000Mbps)
-      - US_8882 @WangCai_1
-      - US_7306 @WangCai_1
-      - US_8091 @WangCai_1
-      - US_8118 @WangCai_1
-      - US_8119 @WangCai_1
-      - US_8009 @WangCai_1
-      - US_6697 @WangCai_1
-      - US_2375 @WangCai_1
       - US_5500 @WangCai_1
-      - US_5004 @WangCai_1
-      - US_8000 @WangCai_1
-      - US_7002 @WangCai_1
-      - US_5003 @WangCai_1
-      - US_5601 @WangCai_1
-      - US_5001 @WangCai_1
-      - US_6379 @WangCai_1
       - US_7001 @WangCai_1
-      - CN_425 | 3.73Mb
+      - US_6379 @WangCai_1
+      - US_8091 @WangCai_1
+      - US_8009 @WangCai_1
+      - US_7306 @WangCai_1
+      - US_5001 @WangCai_1
+      - US_8119 @WangCai_1
+      - US_7002 @WangCai_1
+      - US_5004 @WangCai_1
+      - DE_6379 @WangCai_1
+      - US_5601 @WangCai_1
+      - US_8000 @WangCai_1
+      - DE_2376 @WangCai_1
+      - DE_8008 @WangCai_1
+      - US_8882 @WangCai_1
       - "[VIP]韩国3|华中入口|1x"
       - DE_8000 @WangCai_1
-      - DE_5004 @WangCai_1
-      - DE_8008 @WangCai_1
-      - DE_6379 @WangCai_1
-      - DE_2376 @WangCai_1
-      - 52231 @WangCai_1
-      - 日本千兆-11号
-      - (1)香港 (5000Mbps)
+      - US_8118 @WangCai_1
+      - US_6697 @WangCai_1
       - US_3306 @WangCai_1
-      - US_5000 @WangCai_1
-      - 52216 @WangCai_1
+      - US_5003 @WangCai_1
       - _俄罗斯联邦_YouTube:VV科技_63
-      - DE_5001 @WangCai_1
-      - US_1694 |62.83Mb
-      - FR_8000 @WangCai_1
-      - FR_8008 @WangCai_1
-      - CN_407 |11.04Mb
+      - US_5000 @WangCai_1
+      - CN_425 | 3.73Mb
       - US_1931 |58.11Mb
-      - FR_8888 @WangCai_1
-      - GB_8008 @WangCai_1
-      - US_2420 |67.54Mb
-      - US_1936 |52.84Mb
-      - ‌‌🇨🇦CA_8881 @WangCai_1
-      - US_2233 |50.88Mb
-      - FR_8118 @WangCai_1
+      - DE_5001 @WangCai_1
+      - CN_407 |11.04Mb
       - GB_5500 @WangCai_1
+      - (2)香港 (5000Mbps)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -470,55 +333,38 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 52220 @WangCai_1
       - 日本1|公益线路
       - CN_404 | 6.28Mb
-      - (2)香港 (5000Mbps)
-      - US_8882 @WangCai_1
-      - US_7306 @WangCai_1
-      - US_8091 @WangCai_1
-      - US_8118 @WangCai_1
-      - US_8119 @WangCai_1
-      - US_8009 @WangCai_1
-      - US_6697 @WangCai_1
-      - US_2375 @WangCai_1
       - US_5500 @WangCai_1
-      - US_5004 @WangCai_1
-      - US_8000 @WangCai_1
-      - US_7002 @WangCai_1
-      - US_5003 @WangCai_1
-      - US_5601 @WangCai_1
-      - US_5001 @WangCai_1
-      - US_6379 @WangCai_1
       - US_7001 @WangCai_1
-      - CN_425 | 3.73Mb
+      - US_6379 @WangCai_1
+      - US_8091 @WangCai_1
+      - US_8009 @WangCai_1
+      - US_7306 @WangCai_1
+      - US_5001 @WangCai_1
+      - US_8119 @WangCai_1
+      - US_7002 @WangCai_1
+      - US_5004 @WangCai_1
+      - DE_6379 @WangCai_1
+      - US_5601 @WangCai_1
+      - US_8000 @WangCai_1
+      - DE_2376 @WangCai_1
+      - DE_8008 @WangCai_1
+      - US_8882 @WangCai_1
       - "[VIP]韩国3|华中入口|1x"
       - DE_8000 @WangCai_1
-      - DE_5004 @WangCai_1
-      - DE_8008 @WangCai_1
-      - DE_6379 @WangCai_1
-      - DE_2376 @WangCai_1
-      - 52231 @WangCai_1
-      - 日本千兆-11号
-      - (1)香港 (5000Mbps)
+      - US_8118 @WangCai_1
+      - US_6697 @WangCai_1
       - US_3306 @WangCai_1
-      - US_5000 @WangCai_1
-      - 52216 @WangCai_1
+      - US_5003 @WangCai_1
       - _俄罗斯联邦_YouTube:VV科技_63
-      - DE_5001 @WangCai_1
-      - US_1694 |62.83Mb
-      - FR_8000 @WangCai_1
-      - FR_8008 @WangCai_1
-      - CN_407 |11.04Mb
+      - US_5000 @WangCai_1
+      - CN_425 | 3.73Mb
       - US_1931 |58.11Mb
-      - FR_8888 @WangCai_1
-      - GB_8008 @WangCai_1
-      - US_2420 |67.54Mb
-      - US_1936 |52.84Mb
-      - ‌‌🇨🇦CA_8881 @WangCai_1
-      - US_2233 |50.88Mb
-      - FR_8118 @WangCai_1
+      - DE_5001 @WangCai_1
+      - CN_407 |11.04Mb
       - GB_5500 @WangCai_1
+      - (2)香港 (5000Mbps)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
