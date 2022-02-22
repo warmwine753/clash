@@ -5,535 +5,191 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 新加坡高速节点 5gbps端口 直连, server: 13.229.136.232, port: 10000, type: vmess, uuid: b3e84e6e-dbc2-4c79-879f-811bc6c1cd96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _中国_YouTube:VV科技_91, server: hygz.doggogogo.top, port: 50102, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: hygz.doggogogo.top, skip-cert-verify: true, udp: true}
-  - {name: HongKong-B1, server: 18.166.193.83, port: 38297, type: ss, cipher: chacha20-ietf-poly1305, password: 0eee7abb-23db-405a-9a97-720fdc01633f, udp: true}
-  - {name: 杭州联通转高速日本, server: china-zj-hz-1.forwardserver.xyz, port: 39464, type: vmess, uuid: b3e84e6e-dbc2-4c79-879f-811bc6c1cd96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 杭州联通转高速新加坡, server: china-zj-hz-1.forwardserver.xyz, port: 37588, type: vmess, uuid: b3e84e6e-dbc2-4c79-879f-811bc6c1cd96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: South Korea-B1, server: 13.124.30.68, port: 52783, type: ss, cipher: chacha20-ietf-poly1305, password: 0eee7abb-23db-405a-9a97-720fdc01633f, udp: true}
-  - {name: 【新鸟免费】新加坡SG-AWS 02 1.0x, server: tunnel-sg-a-01.xncloud.xyz, port: 102, type: vmess, uuid: 3c9059b4-ca1f-3ed0-a41b-99612d057ad5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-02.xncloud.xyz}, udp: true}
-  - {name: TRANSIT HKG 03 @100MBPS, server: 101.230.149.27, port: 1113, type: vmess, uuid: aa8c0fbe-e2ba-4850-8cb1-fe779fa46bd4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 【新鸟免费】新加坡SG-AWS 03 1.0x, server: tunnel-sg-a-01.xncloud.xyz, port: 103, type: vmess, uuid: 3c9059b4-ca1f-3ed0-a41b-99612d057ad5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-03.xncloud.xyz}, udp: true}
-  - {name: "@SSRSUB-V24-付费推荐:suo.yt/ssrsub", server: 130.wowogg.cyou, port: 52330, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "TWN/CN - 1 微信：ddly000]", server: china-zj-hz-1.forwardserver.xyz, port: 37313, type: trojan, password: f6554cbe-1852-48df-ae9f-25ed4f42d94e, sni: china-zj-hz-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
   - {name: "TYO/JP - 1[光头院长]", server: china-zj-hz-1.forwardserver.xyz, port: 41634, type: trojan, password: f6554cbe-1852-48df-ae9f-25ed4f42d94e, sni: china-zj-hz-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本 京东 A, server: jp.azzhuangaping.tw, port: 80, type: vmess, uuid: cebeb605-6e5e-3a13-a0ce-1ee247f91bf7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /adobe, ws-headers: {Host: jp.azzhuangaping.tw}, udp: true}
-  - {name: 新加坡  解锁流媒体 免费, server: xjp.azzhuangaping.tw, port: 80, type: vmess, uuid: cebeb605-6e5e-3a13-a0ce-1ee247f91bf7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /adobe, ws-headers: {Host: xjp.azzhuangaping.tw}, udp: true}
-  - {name: 日本 京东 B, server: jp2.azzhuangaping.tw, port: 80, type: vmess, uuid: cebeb605-6e5e-3a13-a0ce-1ee247f91bf7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /adobe, ws-headers: {Host: jp2.azzhuangaping.tw}, udp: true}
-  - {name: 日本高速节点, server: 18.183.227.133, port: 10000, type: vmess, uuid: b3e84e6e-dbc2-4c79-879f-811bc6c1cd96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "SIN/SG - 1 [微信：ddly000]", server: china-zj-hz-1.forwardserver.xyz, port: 43841, type: trojan, password: f6554cbe-1852-48df-ae9f-25ed4f42d94e, sni: china-zj-hz-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
-  - {name: _台湾_YouTube:VV科技_64, server: 128tw02.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 128tw02.fans8.xyz}, udp: true}
+  - {name: TRANSIT HKG 02 @100MBPS, server: 101.230.149.27, port: 1112, type: vmess, uuid: aa8c0fbe-e2ba-4850-8cb1-fe779fa46bd4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: TRANSIT HKG 01 @100MBPS, server: 101.230.149.27, port: 1111, type: vmess, uuid: aa8c0fbe-e2ba-4850-8cb1-fe779fa46bd4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _韩国_YouTube:VV科技_70, server: 146.56.108.108, port: 37749, type: vmess, uuid: e0e06b1c-ee1e-4dbf-a17a-89f06ff2753c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 【新鸟免费】台湾TW-Hinet 04 1.0x, server: tunnel-tw-a-01.xncloud.xyz, port: 504, type: vmess, uuid: 3c9059b4-ca1f-3ed0-a41b-99612d057ad5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-hinet-tw-04.xncloud.xyz}, udp: true}
-  - {name: Indonesia-A1, server: 108.136.163.50, port: 58973, type: ss, cipher: chacha20-ietf-poly1305, password: 0eee7abb-23db-405a-9a97-720fdc01633f, udp: true}
-  - {name: 北京2 5G  80|倍率1, server: 52.131.74.206, port: 80, type: vmess, uuid: f3b960bd-df45-4e19-b45f-0539d596f526, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: shoutingtoutiao3.10010.com}, udp: true}
-  - {name: 北京 5G  80|倍率1, server: 52.131.34.203, port: 80, type: vmess, uuid: f3b960bd-df45-4e19-b45f-0539d596f526, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: shoutingtoutiao3.10010.com}, udp: true}
-  - {name: AWS 直连, server: 18.163.186.175, port: 8443, type: trojan, password: nDlVCzsl9r, skip-cert-verify: true, udp: true}
-  - {name: 【新鸟免费】香港HK-HGC 05 1.0x, server: tunnel-hk-a-01.xncloud.xyz, port: 405, type: vmess, uuid: 3c9059b4-ca1f-3ed0-a41b-99612d057ad5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-hk-05.xncloud.xyz}, udp: true}
-  - {name: 【新鸟免费】日本JP-AWS 02 1.0x, server: tunnel-jp-a-01.xncloud.xyz, port: 202, type: vmess, uuid: 3c9059b4-ca1f-3ed0-a41b-99612d057ad5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-02.xncloud.xyz}, udp: true}
   - {name: _中国_YouTube:VV科技_105, server: fsyd.wecanfly.top, port: 51133, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
-  - {name: 【新鸟免费】日本东京-Oracle 01 免流 1.0x, server: mf-oracle-jp-01.xncloud.xyz, port: 80, type: vmess, uuid: 3c9059b4-ca1f-3ed0-a41b-99612d057ad5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-oracle-jp-01.xncloud.xyz}, udp: true}
-  - {name: 日本-Baron小浪浪分享, server: shallaz.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 26043:ff112233, obfs-param: "", udp: true}
-  - {name: 【新鸟免费】日本JP-AWS 07 1.0x, server: tunnel-jp-a-01.xncloud.xyz, port: 207, type: vmess, uuid: 3c9059b4-ca1f-3ed0-a41b-99612d057ad5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-07.xncloud.xyz}, udp: true}
-  - {name: 上海2 5G  80|倍率1, server: 139.217.223.195, port: 80, type: vmess, uuid: f3b960bd-df45-4e19-b45f-0539d596f526, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dsban2?ed=2048", ws-headers: {Host: shoutingtoutiao3.10010.com}, udp: true}
-  - {name: 【新鸟免费】新加坡SG-AWS 08 1.0x, server: tunnel-sg-a-01.xncloud.xyz, port: 108, type: vmess, uuid: 3c9059b4-ca1f-3ed0-a41b-99612d057ad5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-08.xncloud.xyz}, udp: true}
-  - {name: 【新鸟免费】日本JP-AWS 03 1.0x, server: tunnel-jp-a-01.xncloud.xyz, port: 203, type: vmess, uuid: 3c9059b4-ca1f-3ed0-a41b-99612d057ad5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-03.xncloud.xyz}, udp: true}
-  - {name: 【新鸟免费】台湾TW-Hinet 01 1.0x, server: tunnel-tw-a-01.xncloud.xyz, port: 501, type: vmess, uuid: 3c9059b4-ca1f-3ed0-a41b-99612d057ad5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-hinet-tw-01.xncloud.xyz}, udp: true}
-  - {name: 上海 5G  80|倍率1, server: 52.131.216.65, port: 80, type: vmess, uuid: f3b960bd-df45-4e19-b45f-0539d596f526, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dsban2?ed=2048", ws-headers: {Host: shoutingtoutiao3.10010.com}, udp: true}
-  - {name: 【新鸟免费】香港HK-HGC 04 1.0x, server: tunnel-hk-a-01.xncloud.xyz, port: 404, type: vmess, uuid: 3c9059b4-ca1f-3ed0-a41b-99612d057ad5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-hk-04.xncloud.xyz}, udp: true}
-  - {name: 【新鸟免费】日本东京-Oracle 02 免流 1.0x, server: mf-oracle-jp-02.xncloud.xyz, port: 80, type: vmess, uuid: 3c9059b4-ca1f-3ed0-a41b-99612d057ad5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-oracle-jp-02.xncloud.xyz}, udp: true}
-  - {name: 【新鸟免费】台湾TW-Hinet 03 1.0x, server: tunnel-tw-a-01.xncloud.xyz, port: 503, type: vmess, uuid: 3c9059b4-ca1f-3ed0-a41b-99612d057ad5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-hinet-tw-03.xncloud.xyz}, udp: true}
-  - {name: _韩国_YouTube:VV科技_69, server: chuna1.515223.xyz, port: 24793, type: vmess, uuid: 58975106-dc46-4942-b79e-336da67f1bbd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _中国_YouTube:VV科技_34, server: cu.mj-cn.cyou, port: 16620, type: vmess, uuid: 60fb4b6c-7c87-4693-b5c4-b393037ecb1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: 【新鸟免费】印度IN-AZ 02 免流 1.0x, server: tunnel-sg-a-01.xncloud.xyz, port: 302, type: vmess, uuid: 3c9059b4-ca1f-3ed0-a41b-99612d057ad5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-az-yd-02.xncloud.xyz}, udp: true}
-  - {name: 【新鸟免费】日本JP-AWS 09 1.0x, server: tunnel-jp-a-01.xncloud.xyz, port: 209, type: vmess, uuid: 3c9059b4-ca1f-3ed0-a41b-99612d057ad5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-09.xncloud.xyz}, udp: true}
-  - {name: 【新鸟免费】日本JP-AWS 04 1.0x, server: tunnel-jp-a-01.xncloud.xyz, port: 204, type: vmess, uuid: 3c9059b4-ca1f-3ed0-a41b-99612d057ad5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-04.xncloud.xyz}, udp: true}
-  - {name: 【新鸟免费】日本JP-AWS 05 1.0x, server: tunnel-jp-a-01.xncloud.xyz, port: 205, type: vmess, uuid: 3c9059b4-ca1f-3ed0-a41b-99612d057ad5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-05.xncloud.xyz}, udp: true}
+  - {name: _中国_YouTube:VV科技_110, server: fsyd.wecanfly.top, port: 52000, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: "SIN/SG - 1 [微信：ddly000]", server: china-zj-hz-1.forwardserver.xyz, port: 43841, type: trojan, password: f6554cbe-1852-48df-ae9f-25ed4f42d94e, sni: china-zj-hz-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
+  - {name: _韩国_YouTube:VV科技_70, server: 146.56.108.108, port: 37749, type: vmess, uuid: e0e06b1c-ee1e-4dbf-a17a-89f06ff2753c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: AWS 直连, server: 18.163.186.175, port: 8443, type: trojan, password: nDlVCzsl9r, skip-cert-verify: true, udp: true}
+  - {name: TRANSIT HKG 03 @100MBPS, server: 101.230.149.27, port: 1113, type: vmess, uuid: aa8c0fbe-e2ba-4850-8cb1-fe779fa46bd4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Relay_🇪🇪EE-🇯🇵JP_398, server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-3.sstr-api.xyz, skip-cert-verify: true, udp: true}
   - {name: _美国_YouTube:VV科技_42, server: jason.lbtzyw.com, port: 443, type: vmess, uuid: f3a8372f-73aa-4a92-9f23-cfa0a9830d7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/zovpvws?ed=2048", ws-headers: {Host: jason.lbtzyw.com}, udp: true}
+  - {name: Indonesia-A1, server: 108.136.163.50, port: 58973, type: ss, cipher: chacha20-ietf-poly1305, password: 0eee7abb-23db-405a-9a97-720fdc01633f, udp: true}
   - {name: _美国_YouTube:VV科技_39, server: fd.speedcar88.com, port: 61268, type: vmess, uuid: 52b6103f-7b2a-4114-81bc-e325e46f494d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: fd.speedcar88.com}, udp: true}
-  - {name: "TWN/CN - 1 微信：ddly000]", server: china-zj-hz-1.forwardserver.xyz, port: 37313, type: trojan, password: f6554cbe-1852-48df-ae9f-25ed4f42d94e, sni: china-zj-hz-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
-  - {name: _韩国_YouTube:VV科技_51, server: hmykr1.tk, port: 443, type: trojan, password: 998ec528-845f-4082-9e1b-26a642b26978, sni: hmykr1.tk, skip-cert-verify: true, udp: true}
-  - {name: 上海3 5G  80|倍率1, server: 42.159.184.75, port: 80, type: vmess, uuid: f3b960bd-df45-4e19-b45f-0539d596f526, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/dsban2?ed=2048", ws-headers: {Host: shoutingtoutiao3.10010.com}, udp: true}
-  - {name: 新加坡-Baron小浪浪分享, server: shallaz.proconcn.xyz, port: 567, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 26043:ff112233, obfs-param: "", udp: true}
-  - {name: 【新鸟免费】台湾TW-Hinet 02 1.0x, server: tunnel-tw-a-01.xncloud.xyz, port: 502, type: vmess, uuid: 3c9059b4-ca1f-3ed0-a41b-99612d057ad5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-hinet-tw-02.xncloud.xyz}, udp: true}
-  - {name: _香港_YouTube:VV科技_98, server: keli.scsevers.cf, port: 443, type: trojan, password: sharecentre, sni: keli.scsevers.cf, skip-cert-verify: true, udp: true}
-  - {name: _澳大利亚_YouTube:VV科技_137, server: 192.53.169.116, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "NJ/US - 2 [微信：ddly000]", server: 173.255.225.7, port: 11416, type: trojan, password: f6554cbe-1852-48df-ae9f-25ed4f42d94e, skip-cert-verify: true, udp: true}
-  - {name: 【新鸟免费】日本JP-AWS 10 1.0x, server: tunnel-jp-a-01.xncloud.xyz, port: 210, type: vmess, uuid: 3c9059b4-ca1f-3ed0-a41b-99612d057ad5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-10.xncloud.xyz}, udp: true}
-  - {name: 【新鸟免费】新加坡SG-AWS 07 1.0x, server: tunnel-sg-a-01.xncloud.xyz, port: 107, type: vmess, uuid: 3c9059b4-ca1f-3ed0-a41b-99612d057ad5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-sg-07.xncloud.xyz}, udp: true}
-  - {name: _法国_YouTube:VV科技_11, server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 付费推荐:dlj.tf/ssrsub__07, server: 134.195.196.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: HK2 10G 80|倍率1, server: hk2.cycloud.org, port: 80, type: vmess, uuid: f3b960bd-df45-4e19-b45f-0539d596f526, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: a.189.cn}, udp: true}
-  - {name: _加拿大_YouTube:VV科技_43, server: 134.195.196.200, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _法国_YouTube:VV科技_135, server: 149.202.82.172, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 香港4-Baron小浪浪分享, server: shcris02stand.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 26043:ff112233, obfs-param: "", udp: true}
-  - {name: 香港 8080, server: c.azzhuangaping.tw, port: 8080, type: vmess, uuid: cebeb605-6e5e-3a13-a0ce-1ee247f91bf7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /adobe, ws-headers: {Host: c.azzhuangaping.tw}, udp: true}
-  - {name: _中国_YouTube:VV科技_110, server: fsyd.wecanfly.top, port: 52000, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
-  - {name: HK3 10G 80|倍率1, server: hk3.cycloud.org, port: 80, type: vmess, uuid: f3b960bd-df45-4e19-b45f-0539d596f526, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: a.189.cn}, udp: true}
-  - {name: HK 10G 80|倍率1, server: hk1.cycloud.org, port: 80, type: vmess, uuid: f3b960bd-df45-4e19-b45f-0539d596f526, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: a.189.cn}, udp: true}
-  - {name: 香港2-Baron小浪浪分享, server: shonlinesandcu03.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 26043:ff112233, obfs-param: "", udp: true}
-  - {name: 香港1-Baron小浪浪分享, server: shonlinecu.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 26043:ff112233, obfs-param: "", udp: true}
-  - {name: _中国_YouTube:VV科技_89, server: fsyd.wecanfly.top, port: 51219, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
-  - {name: 香港3-Baron小浪浪分享, server: shonlinesandcu03.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 26043:ff112233, obfs-param: "", udp: true}
-  - {name: 韩国-Baron小浪浪分享, server: shallaz.proconcn.xyz, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 26043:ff112233, obfs-param: "", udp: true}
-  - {name: _香港_YouTube:VV科技_90, server: 85.wgong.xyz, port: 52285, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _中国_YouTube:VV科技_104, server: hygz.doggogogo.top, port: 53021, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: hygz.doggogogo.top, skip-cert-verify: true, udp: true}
-  - {name: TRANSIT HKG 02 @100MBPS, server: 101.230.149.27, port: 1112, type: vmess, uuid: aa8c0fbe-e2ba-4850-8cb1-fe779fa46bd4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 东京2|微信：ddly000, server: centralchina1.cloudlink123.com, port: 37002, type: ss, cipher: aes-128-gcm, password: 2e1dfa1e-ed81-4de7-bca6-64eb22b52ef6, udp: true}
   - {name: 香港1|微信：ddly000, server: centralchina1.cloudlink123.com, port: 37005, type: ss, cipher: aes-128-gcm, password: 2e1dfa1e-ed81-4de7-bca6-64eb22b52ef6, udp: true}
-  - {name: 节点每日更新, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 圣河西1|微信：ddly000, server: centralchina1.cloudlink123.com, port: 37009, type: ss, cipher: aes-128-gcm, password: 2e1dfa1e-ed81-4de7-bca6-64eb22b52ef6, udp: true}
-  - {name: 【新鸟免费】俄罗斯RU-Justhost 04 免流 1.0x, server: mf-justhost-ru-04.xncloud.xyz, port: 80, type: vmess, uuid: 3c9059b4-ca1f-3ed0-a41b-99612d057ad5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-justhost-ru-04.xncloud.xyz}, udp: true}
-  - {name: github.com/freefq - 香港特别行政区 4, server: 133.wgong.xyz, port: 52333, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _加拿大_YouTube:VV科技_126, server: 134.195.196.200, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: github.com/freefq - 澳大利亚  40, server: 45.76.127.189, port: 443, type: vmess, uuid: 7fc6764a-6cba-4599-95d7-ac7617b7db0a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: 圣河西2|微信：ddly000, server: centralchina1.cloudlink123.com, port: 37010, type: ss, cipher: aes-128-gcm, password: 2e1dfa1e-ed81-4de7-bca6-64eb22b52ef6, udp: true}
-  - {name: github.com/freefq - 北美地区  49, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _加拿大_YouTube:VV科技_32, server: 134.195.196.200, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: github.com/freefq - 法国OVH机房SAS硬盘BGP主机 43, server: 149.202.82.172, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _英国_YouTube:VV科技_71, server: 172.99.190.188, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 【新鸟免费】美国UA -DO 06 免流 1.0x, server: mf-do-ua-06.xncloud.xyz, port: 80, type: vmess, uuid: 3c9059b4-ca1f-3ed0-a41b-99612d057ad5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-06.xncloud.xyz}, udp: true}
-  - {name: _英国_YouTube:VV科技_38, server: 172.99.190.205, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 优先在YouTube：<VV科技>频道公布, server: 149.202.82.172, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _加拿大_YouTube:VV科技_31, server: 134.195.196.200, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 付费推荐:dlj.tf/ssrsub__09, server: 172.99.190.188, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _加拿大_YouTube:VV科技_140, server: 134.195.196.193, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _加拿大_YouTube:VV科技_20, server: 134.195.196.193, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _英国_YouTube:VV科技_19, server: 172.99.190.188, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 东京2|微信：ddly000, server: centralchina1.cloudlink123.com, port: 37002, type: ss, cipher: aes-128-gcm, password: 2e1dfa1e-ed81-4de7-bca6-64eb22b52ef6, udp: true}
   - {name: _中国_YouTube:VV科技_106, server: 183.240.132.30, port: 10003, type: vmess, uuid: d76a7e70-530d-4e53-8c50-496f01d4c0a8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 183.240.132.30}, udp: true}
-  - {name: github.com/freefq - 美国  30, server: 172.99.190.205, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 【新鸟免费】美国UA -DO 02 免流 1.0x, server: mf-do-ua-02.xncloud.xyz, port: 80, type: vmess, uuid: 3c9059b4-ca1f-3ed0-a41b-99612d057ad5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-02.xncloud.xyz}, udp: true}
-  - {name: (便宜账号购买)https://suo.yt/7OYFdU3, server: oioooo.tk, port: 443, type: trojan, password: 54ea0e82-64e4-486c-848c-8b95be9f0010, sni: oioooo.tk, skip-cert-verify: true, udp: true}
-  - {name: _加拿大_YouTube:VV科技_22, server: 134.195.196.147, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _英国_YouTube:VV科技_83, server: 172.99.190.188, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _美国_YouTube:VV科技_117, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: 739e53db-d41c-4bad-a61d-6cd5a173f85b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v2.ssrsub.com}, udp: true}
-  - {name: 付费推荐:dlj.tf/ssrsub__17, server: 172.99.190.205, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "NJ/US - 2 [微信：ddly000]", server: 173.255.225.7, port: 11416, type: trojan, password: f6554cbe-1852-48df-ae9f-25ed4f42d94e, skip-cert-verify: true, udp: true}
+  - {name: _中国_YouTube:VV科技_89, server: fsyd.wecanfly.top, port: 51219, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
+  - {name: _中国_YouTube:VV科技_91, server: hygz.doggogogo.top, port: 50102, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: hygz.doggogogo.top, skip-cert-verify: true, udp: true}
   - {name: _中国_YouTube:VV科技_78, server: cu.mj-cn.cyou, port: 16619, type: vmess, uuid: 60fb4b6c-7c87-4693-b5c4-b393037ecb1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: _英国_YouTube:VV科技_63, server: 172.99.190.149, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _法国_YouTube:VV科技_56, server: 149.202.82.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _日本_YouTube:VV科技_53, server: japanfastnetwork.club, port: 443, type: vmess, uuid: fb8ed8a9-ad61-4a12-90c6-55670a4a3332, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /neuromancer, ws-headers: {Host: japanfastnetwork.club}, udp: true}
-  - {name: _英国_YouTube:VV科技_113, server: 172.99.190.205, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 【新鸟免费】美国UA -DO 04 免流 1.0x, server: mf-do-ua-04.xncloud.xyz, port: 80, type: vmess, uuid: 3c9059b4-ca1f-3ed0-a41b-99612d057ad5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-04.xncloud.xyz}, udp: true}
-  - {name: _加拿大_YouTube:VV科技_33, server: 134.195.196.200, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _英国_YouTube:VV科技_134, server: 172.99.190.205, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _英国_YouTube:VV科技_125, server: 172.99.190.188, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _美国_YouTube:VV科技_114, server: v8.ssrsub.com, port: 443, type: vmess, uuid: b2015918-4a70-4250-8afa-dba8a5be97f4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}, udp: true}
-  - {name: 【新鸟免费】美国UA -DO 03 免流 1.0x, server: mf-do-ua-03.xncloud.xyz, port: 80, type: vmess, uuid: 3c9059b4-ca1f-3ed0-a41b-99612d057ad5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-do-ua-03.xncloud.xyz}, udp: true}
-  - {name: YouTube:VV科技, server: 134.195.196.147, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: _加拿大_YouTube:VV科技_30, server: 134.195.196.200, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _加拿大_YouTube:VV科技_29, server: 134.195.196.193, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _中国_YouTube:VV科技_120, server: 109.wgong.xyz, port: 52209, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _英国_YouTube:VV科技_50, server: 172.99.190.205, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _加拿大_YouTube:VV科技_94, server: 134.195.196.200, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: github.com/freefq - 美国  54, server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _加拿大_YouTube:VV科技_36, server: 134.195.196.200, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _日本_YouTube:VV科技_143, server: 45.142.166.15, port: 56654, type: trojan, password: 52911320-db53-40ff-917a-e5de797c28e7, skip-cert-verify: true, udp: true}
-  - {name: _加拿大_YouTube:VV科技_35, server: 134.195.196.200, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _美国_YouTube:VV科技_5, server: v8.ssrsub.com, port: 443, type: vmess, uuid: 739e53db-d41c-4bad-a61d-6cd5a173f85b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}, udp: true}
-  - {name: YouTube:VV科技 2, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _英国_YouTube:VV科技_83, server: 172.99.190.188, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _英国_YouTube:VV科技_19, server: 172.99.190.188, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _中国_YouTube:VV科技_104, server: hygz.doggogogo.top, port: 53021, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: hygz.doggogogo.top, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国  30, server: 172.99.190.205, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 圣河西2|微信：ddly000, server: centralchina1.cloudlink123.com, port: 37010, type: ss, cipher: aes-128-gcm, password: 2e1dfa1e-ed81-4de7-bca6-64eb22b52ef6, udp: true}
+  - {name: _加拿大_YouTube:VV科技_22, server: 134.195.196.147, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _加拿大_YouTube:VV科技_32, server: 134.195.196.200, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: YouTube:VV科技, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 付费推荐:dlj.tf/ssrsub__09, server: 172.99.190.188, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: _英国_YouTube:VV科技_57, server: 172.99.190.149, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _加拿大_YouTube:VV科技_140, server: 134.195.196.193, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _英国_YouTube:VV科技_71, server: 172.99.190.188, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _英国_YouTube:VV科技_50, server: 172.99.190.205, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 付费推荐:dlj.tf/ssrsub__07, server: 134.195.196.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 节点每日更新, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _法国_YouTube:VV科技_56, server: 149.202.82.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: github.com/freefq - 北美地区  49, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _加拿大_YouTube:VV科技_43, server: 134.195.196.200, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _加拿大_YouTube:VV科技_31, server: 134.195.196.200, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡高速节点 5gbps端口 直连
-      - _中国_YouTube:VV科技_91
-      - HongKong-B1
-      - 杭州联通转高速日本
-      - 杭州联通转高速新加坡
-      - South Korea-B1
-      - 【新鸟免费】新加坡SG-AWS 02 1.0x
-      - TRANSIT HKG 03 @100MBPS
-      - 【新鸟免费】新加坡SG-AWS 03 1.0x
-      - "@SSRSUB-V24-付费推荐:suo.yt/ssrsub"
+      - TWN/CN - 1 微信：ddly000]
       - TYO/JP - 1[光头院长]
-      - 日本 京东 A
-      - 新加坡  解锁流媒体 免费
-      - 日本 京东 B
-      - 日本高速节点
-      - SIN/SG - 1 [微信：ddly000]
-      - _台湾_YouTube:VV科技_64
+      - TRANSIT HKG 02 @100MBPS
       - TRANSIT HKG 01 @100MBPS
-      - _韩国_YouTube:VV科技_70
-      - 【新鸟免费】台湾TW-Hinet 04 1.0x
-      - Indonesia-A1
-      - 北京2 5G  80|倍率1
-      - 北京 5G  80|倍率1
-      - AWS 直连
-      - 【新鸟免费】香港HK-HGC 05 1.0x
-      - 【新鸟免费】日本JP-AWS 02 1.0x
       - _中国_YouTube:VV科技_105
-      - 【新鸟免费】日本东京-Oracle 01 免流 1.0x
-      - 日本-Baron小浪浪分享
-      - 【新鸟免费】日本JP-AWS 07 1.0x
-      - 上海2 5G  80|倍率1
-      - 【新鸟免费】新加坡SG-AWS 08 1.0x
-      - 【新鸟免费】日本JP-AWS 03 1.0x
-      - 【新鸟免费】台湾TW-Hinet 01 1.0x
-      - 上海 5G  80|倍率1
-      - 【新鸟免费】香港HK-HGC 04 1.0x
-      - 【新鸟免费】日本东京-Oracle 02 免流 1.0x
-      - 【新鸟免费】台湾TW-Hinet 03 1.0x
-      - _韩国_YouTube:VV科技_69
-      - _中国_YouTube:VV科技_34
-      - 【新鸟免费】印度IN-AZ 02 免流 1.0x
-      - 【新鸟免费】日本JP-AWS 09 1.0x
-      - 【新鸟免费】日本JP-AWS 04 1.0x
-      - 【新鸟免费】日本JP-AWS 05 1.0x
+      - _中国_YouTube:VV科技_110
+      - SIN/SG - 1 [微信：ddly000]
+      - _韩国_YouTube:VV科技_70
+      - AWS 直连
+      - TRANSIT HKG 03 @100MBPS
       - Relay_🇪🇪EE-🇯🇵JP_398
       - _美国_YouTube:VV科技_42
+      - Indonesia-A1
       - _美国_YouTube:VV科技_39
-      - TWN/CN - 1 微信：ddly000]
-      - _韩国_YouTube:VV科技_51
-      - 上海3 5G  80|倍率1
-      - 新加坡-Baron小浪浪分享
-      - 【新鸟免费】台湾TW-Hinet 02 1.0x
-      - _香港_YouTube:VV科技_98
-      - _澳大利亚_YouTube:VV科技_137
-      - NJ/US - 2 [微信：ddly000]
-      - 【新鸟免费】日本JP-AWS 10 1.0x
-      - 【新鸟免费】新加坡SG-AWS 07 1.0x
-      - _法国_YouTube:VV科技_11
-      - 付费推荐:dlj.tf/ssrsub__07
-      - HK2 10G 80|倍率1
-      - _加拿大_YouTube:VV科技_43
-      - _法国_YouTube:VV科技_135
-      - 香港4-Baron小浪浪分享
-      - 香港 8080
-      - _中国_YouTube:VV科技_110
-      - HK3 10G 80|倍率1
-      - HK 10G 80|倍率1
-      - 香港2-Baron小浪浪分享
-      - 香港1-Baron小浪浪分享
-      - _中国_YouTube:VV科技_89
-      - 香港3-Baron小浪浪分享
-      - 韩国-Baron小浪浪分享
-      - _香港_YouTube:VV科技_90
-      - _中国_YouTube:VV科技_104
-      - TRANSIT HKG 02 @100MBPS
-      - 东京2|微信：ddly000
       - 香港1|微信：ddly000
-      - 节点每日更新
-      - 圣河西1|微信：ddly000
-      - 【新鸟免费】俄罗斯RU-Justhost 04 免流 1.0x
-      - github.com/freefq - 香港特别行政区 4
-      - _加拿大_YouTube:VV科技_126
-      - github.com/freefq - 澳大利亚  40
-      - 圣河西2|微信：ddly000
-      - github.com/freefq - 北美地区  49
-      - _加拿大_YouTube:VV科技_32
-      - github.com/freefq - 法国OVH机房SAS硬盘BGP主机 43
-      - _英国_YouTube:VV科技_71
-      - 【新鸟免费】美国UA -DO 06 免流 1.0x
-      - _英国_YouTube:VV科技_38
-      - 优先在YouTube：<VV科技>频道公布
-      - _加拿大_YouTube:VV科技_31
-      - 付费推荐:dlj.tf/ssrsub__09
-      - _加拿大_YouTube:VV科技_140
-      - _加拿大_YouTube:VV科技_20
-      - _英国_YouTube:VV科技_19
+      - 东京2|微信：ddly000
       - _中国_YouTube:VV科技_106
-      - github.com/freefq - 美国  30
-      - 【新鸟免费】美国UA -DO 02 免流 1.0x
-      - (便宜账号购买)https://suo.yt/7OYFdU3
-      - _加拿大_YouTube:VV科技_22
-      - _英国_YouTube:VV科技_83
-      - _美国_YouTube:VV科技_117
-      - 付费推荐:dlj.tf/ssrsub__17
+      - NJ/US - 2 [微信：ddly000]
+      - _中国_YouTube:VV科技_89
+      - _中国_YouTube:VV科技_91
       - _中国_YouTube:VV科技_78
-      - _英国_YouTube:VV科技_63
-      - _法国_YouTube:VV科技_56
-      - _日本_YouTube:VV科技_53
-      - _英国_YouTube:VV科技_113
-      - 【新鸟免费】美国UA -DO 04 免流 1.0x
-      - _加拿大_YouTube:VV科技_33
-      - _英国_YouTube:VV科技_134
-      - _英国_YouTube:VV科技_125
-      - _美国_YouTube:VV科技_114
-      - 【新鸟免费】美国UA -DO 03 免流 1.0x
-      - YouTube:VV科技
       - _加拿大_YouTube:VV科技_30
-      - _加拿大_YouTube:VV科技_29
-      - _中国_YouTube:VV科技_120
-      - _英国_YouTube:VV科技_50
-      - _加拿大_YouTube:VV科技_94
       - github.com/freefq - 美国  54
-      - _加拿大_YouTube:VV科技_36
-      - _日本_YouTube:VV科技_143
-      - _加拿大_YouTube:VV科技_35
-      - _美国_YouTube:VV科技_5
-      - YouTube:VV科技 2
+      - _英国_YouTube:VV科技_83
+      - _英国_YouTube:VV科技_19
+      - _中国_YouTube:VV科技_104
+      - github.com/freefq - 美国  30
+      - 圣河西2|微信：ddly000
+      - _加拿大_YouTube:VV科技_22
+      - _加拿大_YouTube:VV科技_32
+      - YouTube:VV科技
+      - 付费推荐:dlj.tf/ssrsub__09
       - _英国_YouTube:VV科技_57
+      - _加拿大_YouTube:VV科技_140
+      - _英国_YouTube:VV科技_71
+      - _英国_YouTube:VV科技_50
+      - 付费推荐:dlj.tf/ssrsub__07
+      - 节点每日更新
+      - _法国_YouTube:VV科技_56
+      - github.com/freefq - 北美地区  49
+      - _加拿大_YouTube:VV科技_43
+      - _加拿大_YouTube:VV科技_31
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 新加坡高速节点 5gbps端口 直连
-      - _中国_YouTube:VV科技_91
-      - HongKong-B1
-      - 杭州联通转高速日本
-      - 杭州联通转高速新加坡
-      - South Korea-B1
-      - 【新鸟免费】新加坡SG-AWS 02 1.0x
-      - TRANSIT HKG 03 @100MBPS
-      - 【新鸟免费】新加坡SG-AWS 03 1.0x
-      - "@SSRSUB-V24-付费推荐:suo.yt/ssrsub"
+      - TWN/CN - 1 微信：ddly000]
       - TYO/JP - 1[光头院长]
-      - 日本 京东 A
-      - 新加坡  解锁流媒体 免费
-      - 日本 京东 B
-      - 日本高速节点
-      - SIN/SG - 1 [微信：ddly000]
-      - _台湾_YouTube:VV科技_64
+      - TRANSIT HKG 02 @100MBPS
       - TRANSIT HKG 01 @100MBPS
-      - _韩国_YouTube:VV科技_70
-      - 【新鸟免费】台湾TW-Hinet 04 1.0x
-      - Indonesia-A1
-      - 北京2 5G  80|倍率1
-      - 北京 5G  80|倍率1
-      - AWS 直连
-      - 【新鸟免费】香港HK-HGC 05 1.0x
-      - 【新鸟免费】日本JP-AWS 02 1.0x
       - _中国_YouTube:VV科技_105
-      - 【新鸟免费】日本东京-Oracle 01 免流 1.0x
-      - 日本-Baron小浪浪分享
-      - 【新鸟免费】日本JP-AWS 07 1.0x
-      - 上海2 5G  80|倍率1
-      - 【新鸟免费】新加坡SG-AWS 08 1.0x
-      - 【新鸟免费】日本JP-AWS 03 1.0x
-      - 【新鸟免费】台湾TW-Hinet 01 1.0x
-      - 上海 5G  80|倍率1
-      - 【新鸟免费】香港HK-HGC 04 1.0x
-      - 【新鸟免费】日本东京-Oracle 02 免流 1.0x
-      - 【新鸟免费】台湾TW-Hinet 03 1.0x
-      - _韩国_YouTube:VV科技_69
-      - _中国_YouTube:VV科技_34
-      - 【新鸟免费】印度IN-AZ 02 免流 1.0x
-      - 【新鸟免费】日本JP-AWS 09 1.0x
-      - 【新鸟免费】日本JP-AWS 04 1.0x
-      - 【新鸟免费】日本JP-AWS 05 1.0x
+      - _中国_YouTube:VV科技_110
+      - SIN/SG - 1 [微信：ddly000]
+      - _韩国_YouTube:VV科技_70
+      - AWS 直连
+      - TRANSIT HKG 03 @100MBPS
       - Relay_🇪🇪EE-🇯🇵JP_398
       - _美国_YouTube:VV科技_42
+      - Indonesia-A1
       - _美国_YouTube:VV科技_39
-      - TWN/CN - 1 微信：ddly000]
-      - _韩国_YouTube:VV科技_51
-      - 上海3 5G  80|倍率1
-      - 新加坡-Baron小浪浪分享
-      - 【新鸟免费】台湾TW-Hinet 02 1.0x
-      - _香港_YouTube:VV科技_98
-      - _澳大利亚_YouTube:VV科技_137
-      - NJ/US - 2 [微信：ddly000]
-      - 【新鸟免费】日本JP-AWS 10 1.0x
-      - 【新鸟免费】新加坡SG-AWS 07 1.0x
-      - _法国_YouTube:VV科技_11
-      - 付费推荐:dlj.tf/ssrsub__07
-      - HK2 10G 80|倍率1
-      - _加拿大_YouTube:VV科技_43
-      - _法国_YouTube:VV科技_135
-      - 香港4-Baron小浪浪分享
-      - 香港 8080
-      - _中国_YouTube:VV科技_110
-      - HK3 10G 80|倍率1
-      - HK 10G 80|倍率1
-      - 香港2-Baron小浪浪分享
-      - 香港1-Baron小浪浪分享
-      - _中国_YouTube:VV科技_89
-      - 香港3-Baron小浪浪分享
-      - 韩国-Baron小浪浪分享
-      - _香港_YouTube:VV科技_90
-      - _中国_YouTube:VV科技_104
-      - TRANSIT HKG 02 @100MBPS
-      - 东京2|微信：ddly000
       - 香港1|微信：ddly000
-      - 节点每日更新
-      - 圣河西1|微信：ddly000
-      - 【新鸟免费】俄罗斯RU-Justhost 04 免流 1.0x
-      - github.com/freefq - 香港特别行政区 4
-      - _加拿大_YouTube:VV科技_126
-      - github.com/freefq - 澳大利亚  40
-      - 圣河西2|微信：ddly000
-      - github.com/freefq - 北美地区  49
-      - _加拿大_YouTube:VV科技_32
-      - github.com/freefq - 法国OVH机房SAS硬盘BGP主机 43
-      - _英国_YouTube:VV科技_71
-      - 【新鸟免费】美国UA -DO 06 免流 1.0x
-      - _英国_YouTube:VV科技_38
-      - 优先在YouTube：<VV科技>频道公布
-      - _加拿大_YouTube:VV科技_31
-      - 付费推荐:dlj.tf/ssrsub__09
-      - _加拿大_YouTube:VV科技_140
-      - _加拿大_YouTube:VV科技_20
-      - _英国_YouTube:VV科技_19
+      - 东京2|微信：ddly000
       - _中国_YouTube:VV科技_106
-      - github.com/freefq - 美国  30
-      - 【新鸟免费】美国UA -DO 02 免流 1.0x
-      - (便宜账号购买)https://suo.yt/7OYFdU3
-      - _加拿大_YouTube:VV科技_22
-      - _英国_YouTube:VV科技_83
-      - _美国_YouTube:VV科技_117
-      - 付费推荐:dlj.tf/ssrsub__17
+      - NJ/US - 2 [微信：ddly000]
+      - _中国_YouTube:VV科技_89
+      - _中国_YouTube:VV科技_91
       - _中国_YouTube:VV科技_78
-      - _英国_YouTube:VV科技_63
-      - _法国_YouTube:VV科技_56
-      - _日本_YouTube:VV科技_53
-      - _英国_YouTube:VV科技_113
-      - 【新鸟免费】美国UA -DO 04 免流 1.0x
-      - _加拿大_YouTube:VV科技_33
-      - _英国_YouTube:VV科技_134
-      - _英国_YouTube:VV科技_125
-      - _美国_YouTube:VV科技_114
-      - 【新鸟免费】美国UA -DO 03 免流 1.0x
-      - YouTube:VV科技
       - _加拿大_YouTube:VV科技_30
-      - _加拿大_YouTube:VV科技_29
-      - _中国_YouTube:VV科技_120
-      - _英国_YouTube:VV科技_50
-      - _加拿大_YouTube:VV科技_94
       - github.com/freefq - 美国  54
-      - _加拿大_YouTube:VV科技_36
-      - _日本_YouTube:VV科技_143
-      - _加拿大_YouTube:VV科技_35
-      - _美国_YouTube:VV科技_5
-      - YouTube:VV科技 2
+      - _英国_YouTube:VV科技_83
+      - _英国_YouTube:VV科技_19
+      - _中国_YouTube:VV科技_104
+      - github.com/freefq - 美国  30
+      - 圣河西2|微信：ddly000
+      - _加拿大_YouTube:VV科技_22
+      - _加拿大_YouTube:VV科技_32
+      - YouTube:VV科技
+      - 付费推荐:dlj.tf/ssrsub__09
       - _英国_YouTube:VV科技_57
+      - _加拿大_YouTube:VV科技_140
+      - _英国_YouTube:VV科技_71
+      - _英国_YouTube:VV科技_50
+      - 付费推荐:dlj.tf/ssrsub__07
+      - 节点每日更新
+      - _法国_YouTube:VV科技_56
+      - github.com/freefq - 北美地区  49
+      - _加拿大_YouTube:VV科技_43
+      - _加拿大_YouTube:VV科技_31
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡高速节点 5gbps端口 直连
-      - _中国_YouTube:VV科技_91
-      - HongKong-B1
-      - 杭州联通转高速日本
-      - 杭州联通转高速新加坡
-      - South Korea-B1
-      - 【新鸟免费】新加坡SG-AWS 02 1.0x
-      - TRANSIT HKG 03 @100MBPS
-      - 【新鸟免费】新加坡SG-AWS 03 1.0x
-      - "@SSRSUB-V24-付费推荐:suo.yt/ssrsub"
+      - TWN/CN - 1 微信：ddly000]
       - TYO/JP - 1[光头院长]
-      - 日本 京东 A
-      - 新加坡  解锁流媒体 免费
-      - 日本 京东 B
-      - 日本高速节点
-      - SIN/SG - 1 [微信：ddly000]
-      - _台湾_YouTube:VV科技_64
+      - TRANSIT HKG 02 @100MBPS
       - TRANSIT HKG 01 @100MBPS
-      - _韩国_YouTube:VV科技_70
-      - 【新鸟免费】台湾TW-Hinet 04 1.0x
-      - Indonesia-A1
-      - 北京2 5G  80|倍率1
-      - 北京 5G  80|倍率1
-      - AWS 直连
-      - 【新鸟免费】香港HK-HGC 05 1.0x
-      - 【新鸟免费】日本JP-AWS 02 1.0x
       - _中国_YouTube:VV科技_105
-      - 【新鸟免费】日本东京-Oracle 01 免流 1.0x
-      - 日本-Baron小浪浪分享
-      - 【新鸟免费】日本JP-AWS 07 1.0x
-      - 上海2 5G  80|倍率1
-      - 【新鸟免费】新加坡SG-AWS 08 1.0x
-      - 【新鸟免费】日本JP-AWS 03 1.0x
-      - 【新鸟免费】台湾TW-Hinet 01 1.0x
-      - 上海 5G  80|倍率1
-      - 【新鸟免费】香港HK-HGC 04 1.0x
-      - 【新鸟免费】日本东京-Oracle 02 免流 1.0x
-      - 【新鸟免费】台湾TW-Hinet 03 1.0x
-      - _韩国_YouTube:VV科技_69
-      - _中国_YouTube:VV科技_34
-      - 【新鸟免费】印度IN-AZ 02 免流 1.0x
-      - 【新鸟免费】日本JP-AWS 09 1.0x
-      - 【新鸟免费】日本JP-AWS 04 1.0x
-      - 【新鸟免费】日本JP-AWS 05 1.0x
+      - _中国_YouTube:VV科技_110
+      - SIN/SG - 1 [微信：ddly000]
+      - _韩国_YouTube:VV科技_70
+      - AWS 直连
+      - TRANSIT HKG 03 @100MBPS
       - Relay_🇪🇪EE-🇯🇵JP_398
       - _美国_YouTube:VV科技_42
+      - Indonesia-A1
       - _美国_YouTube:VV科技_39
-      - TWN/CN - 1 微信：ddly000]
-      - _韩国_YouTube:VV科技_51
-      - 上海3 5G  80|倍率1
-      - 新加坡-Baron小浪浪分享
-      - 【新鸟免费】台湾TW-Hinet 02 1.0x
-      - _香港_YouTube:VV科技_98
-      - _澳大利亚_YouTube:VV科技_137
-      - NJ/US - 2 [微信：ddly000]
-      - 【新鸟免费】日本JP-AWS 10 1.0x
-      - 【新鸟免费】新加坡SG-AWS 07 1.0x
-      - _法国_YouTube:VV科技_11
-      - 付费推荐:dlj.tf/ssrsub__07
-      - HK2 10G 80|倍率1
-      - _加拿大_YouTube:VV科技_43
-      - _法国_YouTube:VV科技_135
-      - 香港4-Baron小浪浪分享
-      - 香港 8080
-      - _中国_YouTube:VV科技_110
-      - HK3 10G 80|倍率1
-      - HK 10G 80|倍率1
-      - 香港2-Baron小浪浪分享
-      - 香港1-Baron小浪浪分享
-      - _中国_YouTube:VV科技_89
-      - 香港3-Baron小浪浪分享
-      - 韩国-Baron小浪浪分享
-      - _香港_YouTube:VV科技_90
-      - _中国_YouTube:VV科技_104
-      - TRANSIT HKG 02 @100MBPS
-      - 东京2|微信：ddly000
       - 香港1|微信：ddly000
-      - 节点每日更新
-      - 圣河西1|微信：ddly000
-      - 【新鸟免费】俄罗斯RU-Justhost 04 免流 1.0x
-      - github.com/freefq - 香港特别行政区 4
-      - _加拿大_YouTube:VV科技_126
-      - github.com/freefq - 澳大利亚  40
-      - 圣河西2|微信：ddly000
-      - github.com/freefq - 北美地区  49
-      - _加拿大_YouTube:VV科技_32
-      - github.com/freefq - 法国OVH机房SAS硬盘BGP主机 43
-      - _英国_YouTube:VV科技_71
-      - 【新鸟免费】美国UA -DO 06 免流 1.0x
-      - _英国_YouTube:VV科技_38
-      - 优先在YouTube：<VV科技>频道公布
-      - _加拿大_YouTube:VV科技_31
-      - 付费推荐:dlj.tf/ssrsub__09
-      - _加拿大_YouTube:VV科技_140
-      - _加拿大_YouTube:VV科技_20
-      - _英国_YouTube:VV科技_19
+      - 东京2|微信：ddly000
       - _中国_YouTube:VV科技_106
-      - github.com/freefq - 美国  30
-      - 【新鸟免费】美国UA -DO 02 免流 1.0x
-      - (便宜账号购买)https://suo.yt/7OYFdU3
-      - _加拿大_YouTube:VV科技_22
-      - _英国_YouTube:VV科技_83
-      - _美国_YouTube:VV科技_117
-      - 付费推荐:dlj.tf/ssrsub__17
+      - NJ/US - 2 [微信：ddly000]
+      - _中国_YouTube:VV科技_89
+      - _中国_YouTube:VV科技_91
       - _中国_YouTube:VV科技_78
-      - _英国_YouTube:VV科技_63
-      - _法国_YouTube:VV科技_56
-      - _日本_YouTube:VV科技_53
-      - _英国_YouTube:VV科技_113
-      - 【新鸟免费】美国UA -DO 04 免流 1.0x
-      - _加拿大_YouTube:VV科技_33
-      - _英国_YouTube:VV科技_134
-      - _英国_YouTube:VV科技_125
-      - _美国_YouTube:VV科技_114
-      - 【新鸟免费】美国UA -DO 03 免流 1.0x
-      - YouTube:VV科技
       - _加拿大_YouTube:VV科技_30
-      - _加拿大_YouTube:VV科技_29
-      - _中国_YouTube:VV科技_120
-      - _英国_YouTube:VV科技_50
-      - _加拿大_YouTube:VV科技_94
       - github.com/freefq - 美国  54
-      - _加拿大_YouTube:VV科技_36
-      - _日本_YouTube:VV科技_143
-      - _加拿大_YouTube:VV科技_35
-      - _美国_YouTube:VV科技_5
-      - YouTube:VV科技 2
+      - _英国_YouTube:VV科技_83
+      - _英国_YouTube:VV科技_19
+      - _中国_YouTube:VV科技_104
+      - github.com/freefq - 美国  30
+      - 圣河西2|微信：ddly000
+      - _加拿大_YouTube:VV科技_22
+      - _加拿大_YouTube:VV科技_32
+      - YouTube:VV科技
+      - 付费推荐:dlj.tf/ssrsub__09
       - _英国_YouTube:VV科技_57
+      - _加拿大_YouTube:VV科技_140
+      - _英国_YouTube:VV科技_71
+      - _英国_YouTube:VV科技_50
+      - 付费推荐:dlj.tf/ssrsub__07
+      - 节点每日更新
+      - _法国_YouTube:VV科技_56
+      - github.com/freefq - 北美地区  49
+      - _加拿大_YouTube:VV科技_43
+      - _加拿大_YouTube:VV科技_31
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -552,555 +208,196 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡高速节点 5gbps端口 直连
-      - _中国_YouTube:VV科技_91
-      - HongKong-B1
-      - 杭州联通转高速日本
-      - 杭州联通转高速新加坡
-      - South Korea-B1
-      - 【新鸟免费】新加坡SG-AWS 02 1.0x
-      - TRANSIT HKG 03 @100MBPS
-      - 【新鸟免费】新加坡SG-AWS 03 1.0x
-      - "@SSRSUB-V24-付费推荐:suo.yt/ssrsub"
+      - TWN/CN - 1 微信：ddly000]
       - TYO/JP - 1[光头院长]
-      - 日本 京东 A
-      - 新加坡  解锁流媒体 免费
-      - 日本 京东 B
-      - 日本高速节点
-      - SIN/SG - 1 [微信：ddly000]
-      - _台湾_YouTube:VV科技_64
+      - TRANSIT HKG 02 @100MBPS
       - TRANSIT HKG 01 @100MBPS
-      - _韩国_YouTube:VV科技_70
-      - 【新鸟免费】台湾TW-Hinet 04 1.0x
-      - Indonesia-A1
-      - 北京2 5G  80|倍率1
-      - 北京 5G  80|倍率1
-      - AWS 直连
-      - 【新鸟免费】香港HK-HGC 05 1.0x
-      - 【新鸟免费】日本JP-AWS 02 1.0x
       - _中国_YouTube:VV科技_105
-      - 【新鸟免费】日本东京-Oracle 01 免流 1.0x
-      - 日本-Baron小浪浪分享
-      - 【新鸟免费】日本JP-AWS 07 1.0x
-      - 上海2 5G  80|倍率1
-      - 【新鸟免费】新加坡SG-AWS 08 1.0x
-      - 【新鸟免费】日本JP-AWS 03 1.0x
-      - 【新鸟免费】台湾TW-Hinet 01 1.0x
-      - 上海 5G  80|倍率1
-      - 【新鸟免费】香港HK-HGC 04 1.0x
-      - 【新鸟免费】日本东京-Oracle 02 免流 1.0x
-      - 【新鸟免费】台湾TW-Hinet 03 1.0x
-      - _韩国_YouTube:VV科技_69
-      - _中国_YouTube:VV科技_34
-      - 【新鸟免费】印度IN-AZ 02 免流 1.0x
-      - 【新鸟免费】日本JP-AWS 09 1.0x
-      - 【新鸟免费】日本JP-AWS 04 1.0x
-      - 【新鸟免费】日本JP-AWS 05 1.0x
+      - _中国_YouTube:VV科技_110
+      - SIN/SG - 1 [微信：ddly000]
+      - _韩国_YouTube:VV科技_70
+      - AWS 直连
+      - TRANSIT HKG 03 @100MBPS
       - Relay_🇪🇪EE-🇯🇵JP_398
       - _美国_YouTube:VV科技_42
+      - Indonesia-A1
       - _美国_YouTube:VV科技_39
-      - TWN/CN - 1 微信：ddly000]
-      - _韩国_YouTube:VV科技_51
-      - 上海3 5G  80|倍率1
-      - 新加坡-Baron小浪浪分享
-      - 【新鸟免费】台湾TW-Hinet 02 1.0x
-      - _香港_YouTube:VV科技_98
-      - _澳大利亚_YouTube:VV科技_137
-      - NJ/US - 2 [微信：ddly000]
-      - 【新鸟免费】日本JP-AWS 10 1.0x
-      - 【新鸟免费】新加坡SG-AWS 07 1.0x
-      - _法国_YouTube:VV科技_11
-      - 付费推荐:dlj.tf/ssrsub__07
-      - HK2 10G 80|倍率1
-      - _加拿大_YouTube:VV科技_43
-      - _法国_YouTube:VV科技_135
-      - 香港4-Baron小浪浪分享
-      - 香港 8080
-      - _中国_YouTube:VV科技_110
-      - HK3 10G 80|倍率1
-      - HK 10G 80|倍率1
-      - 香港2-Baron小浪浪分享
-      - 香港1-Baron小浪浪分享
-      - _中国_YouTube:VV科技_89
-      - 香港3-Baron小浪浪分享
-      - 韩国-Baron小浪浪分享
-      - _香港_YouTube:VV科技_90
-      - _中国_YouTube:VV科技_104
-      - TRANSIT HKG 02 @100MBPS
-      - 东京2|微信：ddly000
       - 香港1|微信：ddly000
-      - 节点每日更新
-      - 圣河西1|微信：ddly000
-      - 【新鸟免费】俄罗斯RU-Justhost 04 免流 1.0x
-      - github.com/freefq - 香港特别行政区 4
-      - _加拿大_YouTube:VV科技_126
-      - github.com/freefq - 澳大利亚  40
-      - 圣河西2|微信：ddly000
-      - github.com/freefq - 北美地区  49
-      - _加拿大_YouTube:VV科技_32
-      - github.com/freefq - 法国OVH机房SAS硬盘BGP主机 43
-      - _英国_YouTube:VV科技_71
-      - 【新鸟免费】美国UA -DO 06 免流 1.0x
-      - _英国_YouTube:VV科技_38
-      - 优先在YouTube：<VV科技>频道公布
-      - _加拿大_YouTube:VV科技_31
-      - 付费推荐:dlj.tf/ssrsub__09
-      - _加拿大_YouTube:VV科技_140
-      - _加拿大_YouTube:VV科技_20
-      - _英国_YouTube:VV科技_19
+      - 东京2|微信：ddly000
       - _中国_YouTube:VV科技_106
-      - github.com/freefq - 美国  30
-      - 【新鸟免费】美国UA -DO 02 免流 1.0x
-      - (便宜账号购买)https://suo.yt/7OYFdU3
-      - _加拿大_YouTube:VV科技_22
-      - _英国_YouTube:VV科技_83
-      - _美国_YouTube:VV科技_117
-      - 付费推荐:dlj.tf/ssrsub__17
+      - NJ/US - 2 [微信：ddly000]
+      - _中国_YouTube:VV科技_89
+      - _中国_YouTube:VV科技_91
       - _中国_YouTube:VV科技_78
-      - _英国_YouTube:VV科技_63
-      - _法国_YouTube:VV科技_56
-      - _日本_YouTube:VV科技_53
-      - _英国_YouTube:VV科技_113
-      - 【新鸟免费】美国UA -DO 04 免流 1.0x
-      - _加拿大_YouTube:VV科技_33
-      - _英国_YouTube:VV科技_134
-      - _英国_YouTube:VV科技_125
-      - _美国_YouTube:VV科技_114
-      - 【新鸟免费】美国UA -DO 03 免流 1.0x
-      - YouTube:VV科技
       - _加拿大_YouTube:VV科技_30
-      - _加拿大_YouTube:VV科技_29
-      - _中国_YouTube:VV科技_120
-      - _英国_YouTube:VV科技_50
-      - _加拿大_YouTube:VV科技_94
       - github.com/freefq - 美国  54
-      - _加拿大_YouTube:VV科技_36
-      - _日本_YouTube:VV科技_143
-      - _加拿大_YouTube:VV科技_35
-      - _美国_YouTube:VV科技_5
-      - YouTube:VV科技 2
+      - _英国_YouTube:VV科技_83
+      - _英国_YouTube:VV科技_19
+      - _中国_YouTube:VV科技_104
+      - github.com/freefq - 美国  30
+      - 圣河西2|微信：ddly000
+      - _加拿大_YouTube:VV科技_22
+      - _加拿大_YouTube:VV科技_32
+      - YouTube:VV科技
+      - 付费推荐:dlj.tf/ssrsub__09
       - _英国_YouTube:VV科技_57
+      - _加拿大_YouTube:VV科技_140
+      - _英国_YouTube:VV科技_71
+      - _英国_YouTube:VV科技_50
+      - 付费推荐:dlj.tf/ssrsub__07
+      - 节点每日更新
+      - _法国_YouTube:VV科技_56
+      - github.com/freefq - 北美地区  49
+      - _加拿大_YouTube:VV科技_43
+      - _加拿大_YouTube:VV科技_31
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - _台湾_YouTube:VV科技_64
-      - 【新鸟免费】台湾TW-Hinet 04 1.0x
-      - 【新鸟免费】香港HK-HGC 05 1.0x
-      - 【新鸟免费】台湾TW-Hinet 01 1.0x
-      - 【新鸟免费】香港HK-HGC 04 1.0x
-      - 【新鸟免费】台湾TW-Hinet 03 1.0x
-      - 【新鸟免费】台湾TW-Hinet 02 1.0x
-      - _香港_YouTube:VV科技_98
-      - 香港4-Baron小浪浪分享
-      - 香港 8080
-      - 香港2-Baron小浪浪分享
-      - 香港1-Baron小浪浪分享
-      - 香港3-Baron小浪浪分享
-      - _香港_YouTube:VV科技_90
       - 香港1|微信：ddly000
-      - github.com/freefq - 香港特别行政区 4
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 新加坡高速节点 5gbps端口 直连
-      - _中国_YouTube:VV科技_91
-      - HongKong-B1
-      - 杭州联通转高速日本
-      - 杭州联通转高速新加坡
-      - South Korea-B1
-      - 【新鸟免费】新加坡SG-AWS 02 1.0x
-      - TRANSIT HKG 03 @100MBPS
-      - 【新鸟免费】新加坡SG-AWS 03 1.0x
-      - "@SSRSUB-V24-付费推荐:suo.yt/ssrsub"
+      - TWN/CN - 1 微信：ddly000]
       - TYO/JP - 1[光头院长]
-      - 日本 京东 A
-      - 新加坡  解锁流媒体 免费
-      - 日本 京东 B
-      - 日本高速节点
-      - SIN/SG - 1 [微信：ddly000]
-      - _台湾_YouTube:VV科技_64
+      - TRANSIT HKG 02 @100MBPS
       - TRANSIT HKG 01 @100MBPS
-      - _韩国_YouTube:VV科技_70
-      - 【新鸟免费】台湾TW-Hinet 04 1.0x
-      - Indonesia-A1
-      - 北京2 5G  80|倍率1
-      - 北京 5G  80|倍率1
-      - AWS 直连
-      - 【新鸟免费】香港HK-HGC 05 1.0x
-      - 【新鸟免费】日本JP-AWS 02 1.0x
       - _中国_YouTube:VV科技_105
-      - 【新鸟免费】日本东京-Oracle 01 免流 1.0x
-      - 日本-Baron小浪浪分享
-      - 【新鸟免费】日本JP-AWS 07 1.0x
-      - 上海2 5G  80|倍率1
-      - 【新鸟免费】新加坡SG-AWS 08 1.0x
-      - 【新鸟免费】日本JP-AWS 03 1.0x
-      - 【新鸟免费】台湾TW-Hinet 01 1.0x
-      - 上海 5G  80|倍率1
-      - 【新鸟免费】香港HK-HGC 04 1.0x
-      - 【新鸟免费】日本东京-Oracle 02 免流 1.0x
-      - 【新鸟免费】台湾TW-Hinet 03 1.0x
-      - _韩国_YouTube:VV科技_69
-      - _中国_YouTube:VV科技_34
-      - 【新鸟免费】印度IN-AZ 02 免流 1.0x
-      - 【新鸟免费】日本JP-AWS 09 1.0x
-      - 【新鸟免费】日本JP-AWS 04 1.0x
-      - 【新鸟免费】日本JP-AWS 05 1.0x
+      - _中国_YouTube:VV科技_110
+      - SIN/SG - 1 [微信：ddly000]
+      - _韩国_YouTube:VV科技_70
+      - AWS 直连
+      - TRANSIT HKG 03 @100MBPS
       - Relay_🇪🇪EE-🇯🇵JP_398
       - _美国_YouTube:VV科技_42
+      - Indonesia-A1
       - _美国_YouTube:VV科技_39
-      - TWN/CN - 1 微信：ddly000]
-      - _韩国_YouTube:VV科技_51
-      - 上海3 5G  80|倍率1
-      - 新加坡-Baron小浪浪分享
-      - 【新鸟免费】台湾TW-Hinet 02 1.0x
-      - _香港_YouTube:VV科技_98
-      - _澳大利亚_YouTube:VV科技_137
-      - NJ/US - 2 [微信：ddly000]
-      - 【新鸟免费】日本JP-AWS 10 1.0x
-      - 【新鸟免费】新加坡SG-AWS 07 1.0x
-      - _法国_YouTube:VV科技_11
-      - 付费推荐:dlj.tf/ssrsub__07
-      - HK2 10G 80|倍率1
-      - _加拿大_YouTube:VV科技_43
-      - _法国_YouTube:VV科技_135
-      - 香港4-Baron小浪浪分享
-      - 香港 8080
-      - _中国_YouTube:VV科技_110
-      - HK3 10G 80|倍率1
-      - HK 10G 80|倍率1
-      - 香港2-Baron小浪浪分享
-      - 香港1-Baron小浪浪分享
-      - _中国_YouTube:VV科技_89
-      - 香港3-Baron小浪浪分享
-      - 韩国-Baron小浪浪分享
-      - _香港_YouTube:VV科技_90
-      - _中国_YouTube:VV科技_104
-      - TRANSIT HKG 02 @100MBPS
-      - 东京2|微信：ddly000
       - 香港1|微信：ddly000
-      - 节点每日更新
-      - 圣河西1|微信：ddly000
-      - 【新鸟免费】俄罗斯RU-Justhost 04 免流 1.0x
-      - github.com/freefq - 香港特别行政区 4
-      - _加拿大_YouTube:VV科技_126
-      - github.com/freefq - 澳大利亚  40
-      - 圣河西2|微信：ddly000
-      - github.com/freefq - 北美地区  49
-      - _加拿大_YouTube:VV科技_32
-      - github.com/freefq - 法国OVH机房SAS硬盘BGP主机 43
-      - _英国_YouTube:VV科技_71
-      - 【新鸟免费】美国UA -DO 06 免流 1.0x
-      - _英国_YouTube:VV科技_38
-      - 优先在YouTube：<VV科技>频道公布
-      - _加拿大_YouTube:VV科技_31
-      - 付费推荐:dlj.tf/ssrsub__09
-      - _加拿大_YouTube:VV科技_140
-      - _加拿大_YouTube:VV科技_20
-      - _英国_YouTube:VV科技_19
+      - 东京2|微信：ddly000
       - _中国_YouTube:VV科技_106
-      - github.com/freefq - 美国  30
-      - 【新鸟免费】美国UA -DO 02 免流 1.0x
-      - (便宜账号购买)https://suo.yt/7OYFdU3
-      - _加拿大_YouTube:VV科技_22
-      - _英国_YouTube:VV科技_83
-      - _美国_YouTube:VV科技_117
-      - 付费推荐:dlj.tf/ssrsub__17
+      - NJ/US - 2 [微信：ddly000]
+      - _中国_YouTube:VV科技_89
+      - _中国_YouTube:VV科技_91
       - _中国_YouTube:VV科技_78
-      - _英国_YouTube:VV科技_63
-      - _法国_YouTube:VV科技_56
-      - _日本_YouTube:VV科技_53
-      - _英国_YouTube:VV科技_113
-      - 【新鸟免费】美国UA -DO 04 免流 1.0x
-      - _加拿大_YouTube:VV科技_33
-      - _英国_YouTube:VV科技_134
-      - _英国_YouTube:VV科技_125
-      - _美国_YouTube:VV科技_114
-      - 【新鸟免费】美国UA -DO 03 免流 1.0x
-      - YouTube:VV科技
       - _加拿大_YouTube:VV科技_30
-      - _加拿大_YouTube:VV科技_29
-      - _中国_YouTube:VV科技_120
-      - _英国_YouTube:VV科技_50
-      - _加拿大_YouTube:VV科技_94
       - github.com/freefq - 美国  54
-      - _加拿大_YouTube:VV科技_36
-      - _日本_YouTube:VV科技_143
-      - _加拿大_YouTube:VV科技_35
-      - _美国_YouTube:VV科技_5
-      - YouTube:VV科技 2
+      - _英国_YouTube:VV科技_83
+      - _英国_YouTube:VV科技_19
+      - _中国_YouTube:VV科技_104
+      - github.com/freefq - 美国  30
+      - 圣河西2|微信：ddly000
+      - _加拿大_YouTube:VV科技_22
+      - _加拿大_YouTube:VV科技_32
+      - YouTube:VV科技
+      - 付费推荐:dlj.tf/ssrsub__09
       - _英国_YouTube:VV科技_57
+      - _加拿大_YouTube:VV科技_140
+      - _英国_YouTube:VV科技_71
+      - _英国_YouTube:VV科技_50
+      - 付费推荐:dlj.tf/ssrsub__07
+      - 节点每日更新
+      - _法国_YouTube:VV科技_56
+      - github.com/freefq - 北美地区  49
+      - _加拿大_YouTube:VV科技_43
+      - _加拿大_YouTube:VV科技_31
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 新加坡高速节点 5gbps端口 直连
-      - _中国_YouTube:VV科技_91
-      - HongKong-B1
-      - 杭州联通转高速日本
-      - 杭州联通转高速新加坡
-      - South Korea-B1
-      - 【新鸟免费】新加坡SG-AWS 02 1.0x
-      - TRANSIT HKG 03 @100MBPS
-      - 【新鸟免费】新加坡SG-AWS 03 1.0x
-      - "@SSRSUB-V24-付费推荐:suo.yt/ssrsub"
+      - TWN/CN - 1 微信：ddly000]
       - TYO/JP - 1[光头院长]
-      - 日本 京东 A
-      - 新加坡  解锁流媒体 免费
-      - 日本 京东 B
-      - 日本高速节点
-      - SIN/SG - 1 [微信：ddly000]
-      - _台湾_YouTube:VV科技_64
+      - TRANSIT HKG 02 @100MBPS
       - TRANSIT HKG 01 @100MBPS
-      - _韩国_YouTube:VV科技_70
-      - 【新鸟免费】台湾TW-Hinet 04 1.0x
-      - Indonesia-A1
-      - 北京2 5G  80|倍率1
-      - 北京 5G  80|倍率1
-      - AWS 直连
-      - 【新鸟免费】香港HK-HGC 05 1.0x
-      - 【新鸟免费】日本JP-AWS 02 1.0x
       - _中国_YouTube:VV科技_105
-      - 【新鸟免费】日本东京-Oracle 01 免流 1.0x
-      - 日本-Baron小浪浪分享
-      - 【新鸟免费】日本JP-AWS 07 1.0x
-      - 上海2 5G  80|倍率1
-      - 【新鸟免费】新加坡SG-AWS 08 1.0x
-      - 【新鸟免费】日本JP-AWS 03 1.0x
-      - 【新鸟免费】台湾TW-Hinet 01 1.0x
-      - 上海 5G  80|倍率1
-      - 【新鸟免费】香港HK-HGC 04 1.0x
-      - 【新鸟免费】日本东京-Oracle 02 免流 1.0x
-      - 【新鸟免费】台湾TW-Hinet 03 1.0x
-      - _韩国_YouTube:VV科技_69
-      - _中国_YouTube:VV科技_34
-      - 【新鸟免费】印度IN-AZ 02 免流 1.0x
-      - 【新鸟免费】日本JP-AWS 09 1.0x
-      - 【新鸟免费】日本JP-AWS 04 1.0x
-      - 【新鸟免费】日本JP-AWS 05 1.0x
+      - _中国_YouTube:VV科技_110
+      - SIN/SG - 1 [微信：ddly000]
+      - _韩国_YouTube:VV科技_70
+      - AWS 直连
+      - TRANSIT HKG 03 @100MBPS
       - Relay_🇪🇪EE-🇯🇵JP_398
       - _美国_YouTube:VV科技_42
+      - Indonesia-A1
       - _美国_YouTube:VV科技_39
-      - TWN/CN - 1 微信：ddly000]
-      - _韩国_YouTube:VV科技_51
-      - 上海3 5G  80|倍率1
-      - 新加坡-Baron小浪浪分享
-      - 【新鸟免费】台湾TW-Hinet 02 1.0x
-      - _香港_YouTube:VV科技_98
-      - _澳大利亚_YouTube:VV科技_137
-      - NJ/US - 2 [微信：ddly000]
-      - 【新鸟免费】日本JP-AWS 10 1.0x
-      - 【新鸟免费】新加坡SG-AWS 07 1.0x
-      - _法国_YouTube:VV科技_11
-      - 付费推荐:dlj.tf/ssrsub__07
-      - HK2 10G 80|倍率1
-      - _加拿大_YouTube:VV科技_43
-      - _法国_YouTube:VV科技_135
-      - 香港4-Baron小浪浪分享
-      - 香港 8080
-      - _中国_YouTube:VV科技_110
-      - HK3 10G 80|倍率1
-      - HK 10G 80|倍率1
-      - 香港2-Baron小浪浪分享
-      - 香港1-Baron小浪浪分享
-      - _中国_YouTube:VV科技_89
-      - 香港3-Baron小浪浪分享
-      - 韩国-Baron小浪浪分享
-      - _香港_YouTube:VV科技_90
-      - _中国_YouTube:VV科技_104
-      - TRANSIT HKG 02 @100MBPS
-      - 东京2|微信：ddly000
       - 香港1|微信：ddly000
-      - 节点每日更新
-      - 圣河西1|微信：ddly000
-      - 【新鸟免费】俄罗斯RU-Justhost 04 免流 1.0x
-      - github.com/freefq - 香港特别行政区 4
-      - _加拿大_YouTube:VV科技_126
-      - github.com/freefq - 澳大利亚  40
-      - 圣河西2|微信：ddly000
-      - github.com/freefq - 北美地区  49
-      - _加拿大_YouTube:VV科技_32
-      - github.com/freefq - 法国OVH机房SAS硬盘BGP主机 43
-      - _英国_YouTube:VV科技_71
-      - 【新鸟免费】美国UA -DO 06 免流 1.0x
-      - _英国_YouTube:VV科技_38
-      - 优先在YouTube：<VV科技>频道公布
-      - _加拿大_YouTube:VV科技_31
-      - 付费推荐:dlj.tf/ssrsub__09
-      - _加拿大_YouTube:VV科技_140
-      - _加拿大_YouTube:VV科技_20
-      - _英国_YouTube:VV科技_19
+      - 东京2|微信：ddly000
       - _中国_YouTube:VV科技_106
-      - github.com/freefq - 美国  30
-      - 【新鸟免费】美国UA -DO 02 免流 1.0x
-      - (便宜账号购买)https://suo.yt/7OYFdU3
-      - _加拿大_YouTube:VV科技_22
-      - _英国_YouTube:VV科技_83
-      - _美国_YouTube:VV科技_117
-      - 付费推荐:dlj.tf/ssrsub__17
+      - NJ/US - 2 [微信：ddly000]
+      - _中国_YouTube:VV科技_89
+      - _中国_YouTube:VV科技_91
       - _中国_YouTube:VV科技_78
-      - _英国_YouTube:VV科技_63
-      - _法国_YouTube:VV科技_56
-      - _日本_YouTube:VV科技_53
-      - _英国_YouTube:VV科技_113
-      - 【新鸟免费】美国UA -DO 04 免流 1.0x
-      - _加拿大_YouTube:VV科技_33
-      - _英国_YouTube:VV科技_134
-      - _英国_YouTube:VV科技_125
-      - _美国_YouTube:VV科技_114
-      - 【新鸟免费】美国UA -DO 03 免流 1.0x
-      - YouTube:VV科技
       - _加拿大_YouTube:VV科技_30
-      - _加拿大_YouTube:VV科技_29
-      - _中国_YouTube:VV科技_120
-      - _英国_YouTube:VV科技_50
-      - _加拿大_YouTube:VV科技_94
       - github.com/freefq - 美国  54
-      - _加拿大_YouTube:VV科技_36
-      - _日本_YouTube:VV科技_143
-      - _加拿大_YouTube:VV科技_35
-      - _美国_YouTube:VV科技_5
-      - YouTube:VV科技 2
+      - _英国_YouTube:VV科技_83
+      - _英国_YouTube:VV科技_19
+      - _中国_YouTube:VV科技_104
+      - github.com/freefq - 美国  30
+      - 圣河西2|微信：ddly000
+      - _加拿大_YouTube:VV科技_22
+      - _加拿大_YouTube:VV科技_32
+      - YouTube:VV科技
+      - 付费推荐:dlj.tf/ssrsub__09
       - _英国_YouTube:VV科技_57
+      - _加拿大_YouTube:VV科技_140
+      - _英国_YouTube:VV科技_71
+      - _英国_YouTube:VV科技_50
+      - 付费推荐:dlj.tf/ssrsub__07
+      - 节点每日更新
+      - _法国_YouTube:VV科技_56
+      - github.com/freefq - 北美地区  49
+      - _加拿大_YouTube:VV科技_43
+      - _加拿大_YouTube:VV科技_31
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡高速节点 5gbps端口 直连
-      - _中国_YouTube:VV科技_91
-      - HongKong-B1
-      - 杭州联通转高速日本
-      - 杭州联通转高速新加坡
-      - South Korea-B1
-      - 【新鸟免费】新加坡SG-AWS 02 1.0x
-      - TRANSIT HKG 03 @100MBPS
-      - 【新鸟免费】新加坡SG-AWS 03 1.0x
-      - "@SSRSUB-V24-付费推荐:suo.yt/ssrsub"
+      - TWN/CN - 1 微信：ddly000]
       - TYO/JP - 1[光头院长]
-      - 日本 京东 A
-      - 新加坡  解锁流媒体 免费
-      - 日本 京东 B
-      - 日本高速节点
-      - SIN/SG - 1 [微信：ddly000]
-      - _台湾_YouTube:VV科技_64
+      - TRANSIT HKG 02 @100MBPS
       - TRANSIT HKG 01 @100MBPS
-      - _韩国_YouTube:VV科技_70
-      - 【新鸟免费】台湾TW-Hinet 04 1.0x
-      - Indonesia-A1
-      - 北京2 5G  80|倍率1
-      - 北京 5G  80|倍率1
-      - AWS 直连
-      - 【新鸟免费】香港HK-HGC 05 1.0x
-      - 【新鸟免费】日本JP-AWS 02 1.0x
       - _中国_YouTube:VV科技_105
-      - 【新鸟免费】日本东京-Oracle 01 免流 1.0x
-      - 日本-Baron小浪浪分享
-      - 【新鸟免费】日本JP-AWS 07 1.0x
-      - 上海2 5G  80|倍率1
-      - 【新鸟免费】新加坡SG-AWS 08 1.0x
-      - 【新鸟免费】日本JP-AWS 03 1.0x
-      - 【新鸟免费】台湾TW-Hinet 01 1.0x
-      - 上海 5G  80|倍率1
-      - 【新鸟免费】香港HK-HGC 04 1.0x
-      - 【新鸟免费】日本东京-Oracle 02 免流 1.0x
-      - 【新鸟免费】台湾TW-Hinet 03 1.0x
-      - _韩国_YouTube:VV科技_69
-      - _中国_YouTube:VV科技_34
-      - 【新鸟免费】印度IN-AZ 02 免流 1.0x
-      - 【新鸟免费】日本JP-AWS 09 1.0x
-      - 【新鸟免费】日本JP-AWS 04 1.0x
-      - 【新鸟免费】日本JP-AWS 05 1.0x
+      - _中国_YouTube:VV科技_110
+      - SIN/SG - 1 [微信：ddly000]
+      - _韩国_YouTube:VV科技_70
+      - AWS 直连
+      - TRANSIT HKG 03 @100MBPS
       - Relay_🇪🇪EE-🇯🇵JP_398
       - _美国_YouTube:VV科技_42
+      - Indonesia-A1
       - _美国_YouTube:VV科技_39
-      - TWN/CN - 1 微信：ddly000]
-      - _韩国_YouTube:VV科技_51
-      - 上海3 5G  80|倍率1
-      - 新加坡-Baron小浪浪分享
-      - 【新鸟免费】台湾TW-Hinet 02 1.0x
-      - _香港_YouTube:VV科技_98
-      - _澳大利亚_YouTube:VV科技_137
-      - NJ/US - 2 [微信：ddly000]
-      - 【新鸟免费】日本JP-AWS 10 1.0x
-      - 【新鸟免费】新加坡SG-AWS 07 1.0x
-      - _法国_YouTube:VV科技_11
-      - 付费推荐:dlj.tf/ssrsub__07
-      - HK2 10G 80|倍率1
-      - _加拿大_YouTube:VV科技_43
-      - _法国_YouTube:VV科技_135
-      - 香港4-Baron小浪浪分享
-      - 香港 8080
-      - _中国_YouTube:VV科技_110
-      - HK3 10G 80|倍率1
-      - HK 10G 80|倍率1
-      - 香港2-Baron小浪浪分享
-      - 香港1-Baron小浪浪分享
-      - _中国_YouTube:VV科技_89
-      - 香港3-Baron小浪浪分享
-      - 韩国-Baron小浪浪分享
-      - _香港_YouTube:VV科技_90
-      - _中国_YouTube:VV科技_104
-      - TRANSIT HKG 02 @100MBPS
-      - 东京2|微信：ddly000
       - 香港1|微信：ddly000
-      - 节点每日更新
-      - 圣河西1|微信：ddly000
-      - 【新鸟免费】俄罗斯RU-Justhost 04 免流 1.0x
-      - github.com/freefq - 香港特别行政区 4
-      - _加拿大_YouTube:VV科技_126
-      - github.com/freefq - 澳大利亚  40
-      - 圣河西2|微信：ddly000
-      - github.com/freefq - 北美地区  49
-      - _加拿大_YouTube:VV科技_32
-      - github.com/freefq - 法国OVH机房SAS硬盘BGP主机 43
-      - _英国_YouTube:VV科技_71
-      - 【新鸟免费】美国UA -DO 06 免流 1.0x
-      - _英国_YouTube:VV科技_38
-      - 优先在YouTube：<VV科技>频道公布
-      - _加拿大_YouTube:VV科技_31
-      - 付费推荐:dlj.tf/ssrsub__09
-      - _加拿大_YouTube:VV科技_140
-      - _加拿大_YouTube:VV科技_20
-      - _英国_YouTube:VV科技_19
+      - 东京2|微信：ddly000
       - _中国_YouTube:VV科技_106
-      - github.com/freefq - 美国  30
-      - 【新鸟免费】美国UA -DO 02 免流 1.0x
-      - (便宜账号购买)https://suo.yt/7OYFdU3
-      - _加拿大_YouTube:VV科技_22
-      - _英国_YouTube:VV科技_83
-      - _美国_YouTube:VV科技_117
-      - 付费推荐:dlj.tf/ssrsub__17
+      - NJ/US - 2 [微信：ddly000]
+      - _中国_YouTube:VV科技_89
+      - _中国_YouTube:VV科技_91
       - _中国_YouTube:VV科技_78
-      - _英国_YouTube:VV科技_63
-      - _法国_YouTube:VV科技_56
-      - _日本_YouTube:VV科技_53
-      - _英国_YouTube:VV科技_113
-      - 【新鸟免费】美国UA -DO 04 免流 1.0x
-      - _加拿大_YouTube:VV科技_33
-      - _英国_YouTube:VV科技_134
-      - _英国_YouTube:VV科技_125
-      - _美国_YouTube:VV科技_114
-      - 【新鸟免费】美国UA -DO 03 免流 1.0x
-      - YouTube:VV科技
       - _加拿大_YouTube:VV科技_30
-      - _加拿大_YouTube:VV科技_29
-      - _中国_YouTube:VV科技_120
-      - _英国_YouTube:VV科技_50
-      - _加拿大_YouTube:VV科技_94
       - github.com/freefq - 美国  54
-      - _加拿大_YouTube:VV科技_36
-      - _日本_YouTube:VV科技_143
-      - _加拿大_YouTube:VV科技_35
-      - _美国_YouTube:VV科技_5
-      - YouTube:VV科技 2
+      - _英国_YouTube:VV科技_83
+      - _英国_YouTube:VV科技_19
+      - _中国_YouTube:VV科技_104
+      - github.com/freefq - 美国  30
+      - 圣河西2|微信：ddly000
+      - _加拿大_YouTube:VV科技_22
+      - _加拿大_YouTube:VV科技_32
+      - YouTube:VV科技
+      - 付费推荐:dlj.tf/ssrsub__09
       - _英国_YouTube:VV科技_57
+      - _加拿大_YouTube:VV科技_140
+      - _英国_YouTube:VV科技_71
+      - _英国_YouTube:VV科技_50
+      - 付费推荐:dlj.tf/ssrsub__07
+      - 节点每日更新
+      - _法国_YouTube:VV科技_56
+      - github.com/freefq - 北美地区  49
+      - _加拿大_YouTube:VV科技_43
+      - _加拿大_YouTube:VV科技_31
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1116,134 +413,48 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡高速节点 5gbps端口 直连
-      - _中国_YouTube:VV科技_91
-      - HongKong-B1
-      - 杭州联通转高速日本
-      - 杭州联通转高速新加坡
-      - South Korea-B1
-      - 【新鸟免费】新加坡SG-AWS 02 1.0x
-      - TRANSIT HKG 03 @100MBPS
-      - 【新鸟免费】新加坡SG-AWS 03 1.0x
-      - "@SSRSUB-V24-付费推荐:suo.yt/ssrsub"
+      - TWN/CN - 1 微信：ddly000]
       - TYO/JP - 1[光头院长]
-      - 日本 京东 A
-      - 新加坡  解锁流媒体 免费
-      - 日本 京东 B
-      - 日本高速节点
-      - SIN/SG - 1 [微信：ddly000]
-      - _台湾_YouTube:VV科技_64
+      - TRANSIT HKG 02 @100MBPS
       - TRANSIT HKG 01 @100MBPS
-      - _韩国_YouTube:VV科技_70
-      - 【新鸟免费】台湾TW-Hinet 04 1.0x
-      - Indonesia-A1
-      - 北京2 5G  80|倍率1
-      - 北京 5G  80|倍率1
-      - AWS 直连
-      - 【新鸟免费】香港HK-HGC 05 1.0x
-      - 【新鸟免费】日本JP-AWS 02 1.0x
       - _中国_YouTube:VV科技_105
-      - 【新鸟免费】日本东京-Oracle 01 免流 1.0x
-      - 日本-Baron小浪浪分享
-      - 【新鸟免费】日本JP-AWS 07 1.0x
-      - 上海2 5G  80|倍率1
-      - 【新鸟免费】新加坡SG-AWS 08 1.0x
-      - 【新鸟免费】日本JP-AWS 03 1.0x
-      - 【新鸟免费】台湾TW-Hinet 01 1.0x
-      - 上海 5G  80|倍率1
-      - 【新鸟免费】香港HK-HGC 04 1.0x
-      - 【新鸟免费】日本东京-Oracle 02 免流 1.0x
-      - 【新鸟免费】台湾TW-Hinet 03 1.0x
-      - _韩国_YouTube:VV科技_69
-      - _中国_YouTube:VV科技_34
-      - 【新鸟免费】印度IN-AZ 02 免流 1.0x
-      - 【新鸟免费】日本JP-AWS 09 1.0x
-      - 【新鸟免费】日本JP-AWS 04 1.0x
-      - 【新鸟免费】日本JP-AWS 05 1.0x
+      - _中国_YouTube:VV科技_110
+      - SIN/SG - 1 [微信：ddly000]
+      - _韩国_YouTube:VV科技_70
+      - AWS 直连
+      - TRANSIT HKG 03 @100MBPS
       - Relay_🇪🇪EE-🇯🇵JP_398
       - _美国_YouTube:VV科技_42
+      - Indonesia-A1
       - _美国_YouTube:VV科技_39
-      - TWN/CN - 1 微信：ddly000]
-      - _韩国_YouTube:VV科技_51
-      - 上海3 5G  80|倍率1
-      - 新加坡-Baron小浪浪分享
-      - 【新鸟免费】台湾TW-Hinet 02 1.0x
-      - _香港_YouTube:VV科技_98
-      - _澳大利亚_YouTube:VV科技_137
-      - NJ/US - 2 [微信：ddly000]
-      - 【新鸟免费】日本JP-AWS 10 1.0x
-      - 【新鸟免费】新加坡SG-AWS 07 1.0x
-      - _法国_YouTube:VV科技_11
-      - 付费推荐:dlj.tf/ssrsub__07
-      - HK2 10G 80|倍率1
-      - _加拿大_YouTube:VV科技_43
-      - _法国_YouTube:VV科技_135
-      - 香港4-Baron小浪浪分享
-      - 香港 8080
-      - _中国_YouTube:VV科技_110
-      - HK3 10G 80|倍率1
-      - HK 10G 80|倍率1
-      - 香港2-Baron小浪浪分享
-      - 香港1-Baron小浪浪分享
-      - _中国_YouTube:VV科技_89
-      - 香港3-Baron小浪浪分享
-      - 韩国-Baron小浪浪分享
-      - _香港_YouTube:VV科技_90
-      - _中国_YouTube:VV科技_104
-      - TRANSIT HKG 02 @100MBPS
-      - 东京2|微信：ddly000
       - 香港1|微信：ddly000
-      - 节点每日更新
-      - 圣河西1|微信：ddly000
-      - 【新鸟免费】俄罗斯RU-Justhost 04 免流 1.0x
-      - github.com/freefq - 香港特别行政区 4
-      - _加拿大_YouTube:VV科技_126
-      - github.com/freefq - 澳大利亚  40
-      - 圣河西2|微信：ddly000
-      - github.com/freefq - 北美地区  49
-      - _加拿大_YouTube:VV科技_32
-      - github.com/freefq - 法国OVH机房SAS硬盘BGP主机 43
-      - _英国_YouTube:VV科技_71
-      - 【新鸟免费】美国UA -DO 06 免流 1.0x
-      - _英国_YouTube:VV科技_38
-      - 优先在YouTube：<VV科技>频道公布
-      - _加拿大_YouTube:VV科技_31
-      - 付费推荐:dlj.tf/ssrsub__09
-      - _加拿大_YouTube:VV科技_140
-      - _加拿大_YouTube:VV科技_20
-      - _英国_YouTube:VV科技_19
+      - 东京2|微信：ddly000
       - _中国_YouTube:VV科技_106
-      - github.com/freefq - 美国  30
-      - 【新鸟免费】美国UA -DO 02 免流 1.0x
-      - (便宜账号购买)https://suo.yt/7OYFdU3
-      - _加拿大_YouTube:VV科技_22
-      - _英国_YouTube:VV科技_83
-      - _美国_YouTube:VV科技_117
-      - 付费推荐:dlj.tf/ssrsub__17
+      - NJ/US - 2 [微信：ddly000]
+      - _中国_YouTube:VV科技_89
+      - _中国_YouTube:VV科技_91
       - _中国_YouTube:VV科技_78
-      - _英国_YouTube:VV科技_63
-      - _法国_YouTube:VV科技_56
-      - _日本_YouTube:VV科技_53
-      - _英国_YouTube:VV科技_113
-      - 【新鸟免费】美国UA -DO 04 免流 1.0x
-      - _加拿大_YouTube:VV科技_33
-      - _英国_YouTube:VV科技_134
-      - _英国_YouTube:VV科技_125
-      - _美国_YouTube:VV科技_114
-      - 【新鸟免费】美国UA -DO 03 免流 1.0x
-      - YouTube:VV科技
       - _加拿大_YouTube:VV科技_30
-      - _加拿大_YouTube:VV科技_29
-      - _中国_YouTube:VV科技_120
-      - _英国_YouTube:VV科技_50
-      - _加拿大_YouTube:VV科技_94
       - github.com/freefq - 美国  54
-      - _加拿大_YouTube:VV科技_36
-      - _日本_YouTube:VV科技_143
-      - _加拿大_YouTube:VV科技_35
-      - _美国_YouTube:VV科技_5
-      - YouTube:VV科技 2
+      - _英国_YouTube:VV科技_83
+      - _英国_YouTube:VV科技_19
+      - _中国_YouTube:VV科技_104
+      - github.com/freefq - 美国  30
+      - 圣河西2|微信：ddly000
+      - _加拿大_YouTube:VV科技_22
+      - _加拿大_YouTube:VV科技_32
+      - YouTube:VV科技
+      - 付费推荐:dlj.tf/ssrsub__09
       - _英国_YouTube:VV科技_57
+      - _加拿大_YouTube:VV科技_140
+      - _英国_YouTube:VV科技_71
+      - _英国_YouTube:VV科技_50
+      - 付费推荐:dlj.tf/ssrsub__07
+      - 节点每日更新
+      - _法国_YouTube:VV科技_56
+      - github.com/freefq - 北美地区  49
+      - _加拿大_YouTube:VV科技_43
+      - _加拿大_YouTube:VV科技_31
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
