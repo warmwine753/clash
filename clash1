@@ -5,191 +5,207 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "TWN/CN - 1 微信：ddly000]", server: china-zj-hz-1.forwardserver.xyz, port: 37313, type: trojan, password: f6554cbe-1852-48df-ae9f-25ed4f42d94e, sni: china-zj-hz-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
-  - {name: "TYO/JP - 1[光头院长]", server: china-zj-hz-1.forwardserver.xyz, port: 41634, type: trojan, password: f6554cbe-1852-48df-ae9f-25ed4f42d94e, sni: china-zj-hz-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
-  - {name: TRANSIT HKG 02 @100MBPS, server: 101.230.149.27, port: 1112, type: vmess, uuid: aa8c0fbe-e2ba-4850-8cb1-fe779fa46bd4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TRANSIT HKG 01 @100MBPS, server: 101.230.149.27, port: 1111, type: vmess, uuid: aa8c0fbe-e2ba-4850-8cb1-fe779fa46bd4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _中国_YouTube:VV科技_105, server: fsyd.wecanfly.top, port: 51133, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
-  - {name: _中国_YouTube:VV科技_110, server: fsyd.wecanfly.top, port: 52000, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
-  - {name: "SIN/SG - 1 [微信：ddly000]", server: china-zj-hz-1.forwardserver.xyz, port: 43841, type: trojan, password: f6554cbe-1852-48df-ae9f-25ed4f42d94e, sni: china-zj-hz-1.forwardserver.xyz, skip-cert-verify: true, udp: true}
-  - {name: _韩国_YouTube:VV科技_70, server: 146.56.108.108, port: 37749, type: vmess, uuid: e0e06b1c-ee1e-4dbf-a17a-89f06ff2753c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: AWS 直连, server: 18.163.186.175, port: 8443, type: trojan, password: nDlVCzsl9r, skip-cert-verify: true, udp: true}
-  - {name: TRANSIT HKG 03 @100MBPS, server: 101.230.149.27, port: 1113, type: vmess, uuid: aa8c0fbe-e2ba-4850-8cb1-fe779fa46bd4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇪🇪EE-🇯🇵JP_398, server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-3.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国阿伟科技@TG/油管, server: 111.wowogg.cyou, port: 52211, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国阿伟科技@TG/油管, server: 183.240.2.6, port: 10001, type: vmess, uuid: 5566b873-6b42-30d1-b4db-302039179eb7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 中国阿伟科技@TG/油管 2, server: 120.232.173.35, port: 10000, type: vmess, uuid: 1b292fe7-19d6-325d-9d46-22f6e7e9b3cc, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 台湾阿伟科技@TG/油管, server: 128tw02.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 128tw02.fans8.xyz}, udp: true}
+  - {name: 台湾阿伟科技@TG/油管 2, server: v2tw.doubledou.win, port: 4245, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: v2tw.doubledou.win, skip-cert-verify: true, udp: true}
+  - {name: 越南阿伟科技@TG/油管, server: gzyd.wozcjd.xyz, port: 11320, type: ss, cipher: chacha20-ietf-poly1305, password: c753e8a8-e180-4e76-a486-c917273d718b, udp: true}
+  - {name: 香港 中转, server: in05.dns2333.xyz, port: 63078, type: vmess, uuid: f7618d80-3436-3c4c-9c34-816e643067e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: in05.dns2333.xyz}, udp: true}
+  - {name: 越南阿伟科技@TG/油管 2, server: vn.doubledou.win, port: 4588, type: vmess, uuid: 3c91d857-2d40-39b9-81c0-f6adde8037ff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /doufen, ws-headers: {Host: vn.doubledou.win}, udp: true}
+  - {name: 日本阿伟科技@TG/油管, server: v2.4.doubledou.win, port: 4443, type: vmess, uuid: 3c91d857-2d40-39b9-81c0-f6adde8037ff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /doudou, ws-headers: {Host: v2.4.doubledou.win}, udp: true}
   - {name: _美国_YouTube:VV科技_42, server: jason.lbtzyw.com, port: 443, type: vmess, uuid: f3a8372f-73aa-4a92-9f23-cfa0a9830d7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/zovpvws?ed=2048", ws-headers: {Host: jason.lbtzyw.com}, udp: true}
-  - {name: Indonesia-A1, server: 108.136.163.50, port: 58973, type: ss, cipher: chacha20-ietf-poly1305, password: 0eee7abb-23db-405a-9a97-720fdc01633f, udp: true}
-  - {name: _美国_YouTube:VV科技_39, server: fd.speedcar88.com, port: 61268, type: vmess, uuid: 52b6103f-7b2a-4114-81bc-e325e46f494d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: fd.speedcar88.com}, udp: true}
-  - {name: 香港1|微信：ddly000, server: centralchina1.cloudlink123.com, port: 37005, type: ss, cipher: aes-128-gcm, password: 2e1dfa1e-ed81-4de7-bca6-64eb22b52ef6, udp: true}
-  - {name: 东京2|微信：ddly000, server: centralchina1.cloudlink123.com, port: 37002, type: ss, cipher: aes-128-gcm, password: 2e1dfa1e-ed81-4de7-bca6-64eb22b52ef6, udp: true}
-  - {name: _中国_YouTube:VV科技_106, server: 183.240.132.30, port: 10003, type: vmess, uuid: d76a7e70-530d-4e53-8c50-496f01d4c0a8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 183.240.132.30}, udp: true}
-  - {name: "NJ/US - 2 [微信：ddly000]", server: 173.255.225.7, port: 11416, type: trojan, password: f6554cbe-1852-48df-ae9f-25ed4f42d94e, skip-cert-verify: true, udp: true}
-  - {name: _中国_YouTube:VV科技_89, server: fsyd.wecanfly.top, port: 51219, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: fsyd.wecanfly.top, skip-cert-verify: true, udp: true}
-  - {name: _中国_YouTube:VV科技_91, server: hygz.doggogogo.top, port: 50102, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: hygz.doggogogo.top, skip-cert-verify: true, udp: true}
-  - {name: _中国_YouTube:VV科技_78, server: cu.mj-cn.cyou, port: 16619, type: vmess, uuid: 60fb4b6c-7c87-4693-b5c4-b393037ecb1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.mj-cn.cyou}, udp: true}
-  - {name: _加拿大_YouTube:VV科技_30, server: 134.195.196.200, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: github.com/freefq - 美国  54, server: 172.99.190.149, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _英国_YouTube:VV科技_83, server: 172.99.190.188, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _英国_YouTube:VV科技_19, server: 172.99.190.188, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _中国_YouTube:VV科技_104, server: hygz.doggogogo.top, port: 53021, type: trojan, password: 5eaea1b9-b977-3391-b7cb-370addb40ce2, sni: hygz.doggogogo.top, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国  30, server: 172.99.190.205, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 圣河西2|微信：ddly000, server: centralchina1.cloudlink123.com, port: 37010, type: ss, cipher: aes-128-gcm, password: 2e1dfa1e-ed81-4de7-bca6-64eb22b52ef6, udp: true}
-  - {name: _加拿大_YouTube:VV科技_22, server: 134.195.196.147, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _加拿大_YouTube:VV科技_32, server: 134.195.196.200, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: YouTube:VV科技, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国阿伟科技@TG/油管 2, server: uj.doubledou.win, port: 4586, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: uj.doubledou.win, skip-cert-verify: true, udp: true}
+  - {name: 美国阿伟科技@TG/油管 3, server: cuvip.doubledou.win, port: 4583, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: cuvip.doubledou.win, skip-cert-verify: true, udp: true}
+  - {name: 香港, server: www.shanpao.xyz, port: 32747, type: vmess, uuid: c460ff8a-c55e-4c7c-d556-356b758af32b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /pank, ws-headers: {Host: www.shanpao.xyz}, udp: true}
+  - {name: 中国阿伟科技@TG/油管 3, server: 120.232.173.35, port: 10051, type: vmess, uuid: 1b292fe7-19d6-325d-9d46-22f6e7e9b3cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 中国阿伟科技@TG/油管 4, server: 120.232.173.35, port: 10010, type: vmess, uuid: 1b292fe7-19d6-325d-9d46-22f6e7e9b3cc, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 南非阿伟科技@TG/油管, server: cera.doubledou.win, port: 4586, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: cera.doubledou.win, skip-cert-verify: true, udp: true}
+  - {name: 香港阿伟科技@TG/油管, server: hkcn2.doubledou.win, port: 4588, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: hkcn2.doubledou.win, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇪🇪EE-🇯🇵JP_398, server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-3.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: 韩国阿伟科技@TG/油管, server: sol.doubledou.win, port: 4588, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: sol.doubledou.win, skip-cert-verify: true, udp: true}
+  - {name: 中国阿伟科技@TG/油管 5, server: 1.ezydfdd.com, port: 443, type: vmess, uuid: 97ab5d71-96b7-4ab1-b77b-093685658d7f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /qwe, ws-headers: {Host: 1.ezydfdd.com}, udp: true}
+  - {name: 俄罗斯阿伟科技@TG/油管, server: 146.185.218.171, port: 443, type: vmess, uuid: 947af181-c509-4245-80de-9baf64f1aa51, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: 韩国阿伟科技@TG/油管 2, server: chun2.515223.xyz, port: 43992, type: vmess, uuid: 99e191b5-6515-47b8-f0c0-f6053afeb75a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国阿伟科技@TG/油管 4, server: loslite2.doubledou.win, port: 6519, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: loslite2.doubledou.win, skip-cert-verify: true, udp: true}
+  - {name: 韩国阿伟科技@TG/油管 3, server: ccc1.doubledou.win, port: 4585, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: ccc1.doubledou.win, skip-cert-verify: true, udp: true}
+  - {name: 美国阿伟科技@TG/油管 5, server: 126.wgong.xyz, port: 52226, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国阿伟科技@TG/油管 6, server: 120.232.173.35, port: 10021, type: vmess, uuid: 5566b873-6b42-30d1-b4db-302039179eb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 美国阿伟科技@TG/油管 6, server: loslite.doubledou.win, port: 6529, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: loslite.doubledou.win, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯阿伟科技@TG/油管 2, server: 92.223.72.42, port: 443, type: vmess, uuid: ae08412f-5bb9-4be7-8560-1984976a1097, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: 美国阿伟科技@TG/油管 7, server: anzhuo-hezi1.herokuapp.com, port: 443, type: vmess, uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess, ws-headers: {Host: anzhuo-hezi1.herokuapp.com}, udp: true}
+  - {name: 中国阿伟科技@TG/油管 7, server: 183.240.2.6, port: 10011, type: vmess, uuid: 5566b873-6b42-30d1-b4db-302039179eb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 法国阿伟科技@TG/油管, server: 149.202.82.172, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 香港阿伟科技@TG/油管 2, server: trohkt.doubledou.win, port: 4588, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: trohkt.doubledou.win, skip-cert-verify: true, udp: true}
+  - {name: _英国_YouTube:VV科技_71, server: 172.99.190.188, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: 付费推荐:dlj.tf/ssrsub__09, server: 172.99.190.188, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 韩国阿伟科技@TG/油管 4, server: cc2.doubledou.win, port: 4584, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: cc2.doubledou.win, skip-cert-verify: true, udp: true}
+  - {name: 美国阿伟科技@TG/油管 8, server: anzhuo-hezi1.herokuapp.com, port: 443, type: vmess, uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess, ws-headers: {Host: anzhuo-hezi1.herokuapp.com}, udp: true}
+  - {name: _加拿大_YouTube:VV科技_43, server: 134.195.196.200, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 印度阿伟科技@TG/油管, server: in1.pbaplink.xyz, port: 8443, type: trojan, password: b5b0aa8d-595c-4739-8fa0-659cff1c49bb, sni: in1.pbaplink.xyz, skip-cert-verify: true, udp: true}
+  - {name: _英国_YouTube:VV科技_19, server: 172.99.190.188, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _英国_YouTube:VV科技_57, server: 172.99.190.149, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: _加拿大_YouTube:VV科技_140, server: 134.195.196.193, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _英国_YouTube:VV科技_71, server: 172.99.190.188, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _英国_YouTube:VV科技_50, server: 172.99.190.205, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 付费推荐:dlj.tf/ssrsub__07, server: 134.195.196.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 节点每日更新, server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 中国阿伟科技@TG/油管 8, server: 183.240.2.6, port: 10050, type: vmess, uuid: 5566b873-6b42-30d1-b4db-302039179eb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2, ws-headers: {Host: t.me/vpnhat}, udp: true}
   - {name: _法国_YouTube:VV科技_56, server: 149.202.82.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: github.com/freefq - 北美地区  49, server: 134.195.196.193, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _加拿大_YouTube:VV科技_43, server: 134.195.196.200, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _加拿大_YouTube:VV科技_31, server: 134.195.196.200, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 德国阿伟科技@TG/油管, server: 37.61.213.94, port: 443, type: vmess, uuid: 97ff78ea-8807-4c33-93e5-d8481ac0539e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
+  - {name: 英国阿伟科技@TG/油管, server: 172.99.190.188, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TWN/CN - 1 微信：ddly000]
-      - TYO/JP - 1[光头院长]
-      - TRANSIT HKG 02 @100MBPS
-      - TRANSIT HKG 01 @100MBPS
-      - _中国_YouTube:VV科技_105
-      - _中国_YouTube:VV科技_110
-      - SIN/SG - 1 [微信：ddly000]
-      - _韩国_YouTube:VV科技_70
-      - AWS 直连
-      - TRANSIT HKG 03 @100MBPS
-      - Relay_🇪🇪EE-🇯🇵JP_398
+      - 美国阿伟科技@TG/油管
+      - 中国阿伟科技@TG/油管
+      - 中国阿伟科技@TG/油管 2
+      - 台湾阿伟科技@TG/油管
+      - 台湾阿伟科技@TG/油管 2
+      - 越南阿伟科技@TG/油管
+      - 香港 中转
+      - 越南阿伟科技@TG/油管 2
+      - 日本阿伟科技@TG/油管
       - _美国_YouTube:VV科技_42
-      - Indonesia-A1
-      - _美国_YouTube:VV科技_39
-      - 香港1|微信：ddly000
-      - 东京2|微信：ddly000
-      - _中国_YouTube:VV科技_106
-      - NJ/US - 2 [微信：ddly000]
-      - _中国_YouTube:VV科技_89
-      - _中国_YouTube:VV科技_91
-      - _中国_YouTube:VV科技_78
-      - _加拿大_YouTube:VV科技_30
-      - github.com/freefq - 美国  54
-      - _英国_YouTube:VV科技_83
-      - _英国_YouTube:VV科技_19
-      - _中国_YouTube:VV科技_104
-      - github.com/freefq - 美国  30
-      - 圣河西2|微信：ddly000
-      - _加拿大_YouTube:VV科技_22
-      - _加拿大_YouTube:VV科技_32
-      - YouTube:VV科技
+      - 美国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 3
+      - 香港
+      - 中国阿伟科技@TG/油管 3
+      - 中国阿伟科技@TG/油管 4
+      - 南非阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管
+      - Relay_🇪🇪EE-🇯🇵JP_398
+      - 韩国阿伟科技@TG/油管
+      - 中国阿伟科技@TG/油管 5
+      - 俄罗斯阿伟科技@TG/油管
+      - 韩国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 4
+      - 韩国阿伟科技@TG/油管 3
+      - 美国阿伟科技@TG/油管 5
+      - 中国阿伟科技@TG/油管 6
+      - 美国阿伟科技@TG/油管 6
+      - 俄罗斯阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 7
+      - 中国阿伟科技@TG/油管 7
+      - 法国阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管 2
+      - _英国_YouTube:VV科技_71
       - 付费推荐:dlj.tf/ssrsub__09
+      - 韩国阿伟科技@TG/油管 4
+      - 美国阿伟科技@TG/油管 8
+      - _加拿大_YouTube:VV科技_43
+      - 印度阿伟科技@TG/油管
+      - _英国_YouTube:VV科技_19
       - _英国_YouTube:VV科技_57
       - _加拿大_YouTube:VV科技_140
-      - _英国_YouTube:VV科技_71
-      - _英国_YouTube:VV科技_50
-      - 付费推荐:dlj.tf/ssrsub__07
       - 节点每日更新
+      - 中国阿伟科技@TG/油管 8
       - _法国_YouTube:VV科技_56
-      - github.com/freefq - 北美地区  49
-      - _加拿大_YouTube:VV科技_43
-      - _加拿大_YouTube:VV科技_31
+      - 德国阿伟科技@TG/油管
+      - 英国阿伟科技@TG/油管
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - TWN/CN - 1 微信：ddly000]
-      - TYO/JP - 1[光头院长]
-      - TRANSIT HKG 02 @100MBPS
-      - TRANSIT HKG 01 @100MBPS
-      - _中国_YouTube:VV科技_105
-      - _中国_YouTube:VV科技_110
-      - SIN/SG - 1 [微信：ddly000]
-      - _韩国_YouTube:VV科技_70
-      - AWS 直连
-      - TRANSIT HKG 03 @100MBPS
-      - Relay_🇪🇪EE-🇯🇵JP_398
+      - 美国阿伟科技@TG/油管
+      - 中国阿伟科技@TG/油管
+      - 中国阿伟科技@TG/油管 2
+      - 台湾阿伟科技@TG/油管
+      - 台湾阿伟科技@TG/油管 2
+      - 越南阿伟科技@TG/油管
+      - 香港 中转
+      - 越南阿伟科技@TG/油管 2
+      - 日本阿伟科技@TG/油管
       - _美国_YouTube:VV科技_42
-      - Indonesia-A1
-      - _美国_YouTube:VV科技_39
-      - 香港1|微信：ddly000
-      - 东京2|微信：ddly000
-      - _中国_YouTube:VV科技_106
-      - NJ/US - 2 [微信：ddly000]
-      - _中国_YouTube:VV科技_89
-      - _中国_YouTube:VV科技_91
-      - _中国_YouTube:VV科技_78
-      - _加拿大_YouTube:VV科技_30
-      - github.com/freefq - 美国  54
-      - _英国_YouTube:VV科技_83
-      - _英国_YouTube:VV科技_19
-      - _中国_YouTube:VV科技_104
-      - github.com/freefq - 美国  30
-      - 圣河西2|微信：ddly000
-      - _加拿大_YouTube:VV科技_22
-      - _加拿大_YouTube:VV科技_32
-      - YouTube:VV科技
+      - 美国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 3
+      - 香港
+      - 中国阿伟科技@TG/油管 3
+      - 中国阿伟科技@TG/油管 4
+      - 南非阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管
+      - Relay_🇪🇪EE-🇯🇵JP_398
+      - 韩国阿伟科技@TG/油管
+      - 中国阿伟科技@TG/油管 5
+      - 俄罗斯阿伟科技@TG/油管
+      - 韩国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 4
+      - 韩国阿伟科技@TG/油管 3
+      - 美国阿伟科技@TG/油管 5
+      - 中国阿伟科技@TG/油管 6
+      - 美国阿伟科技@TG/油管 6
+      - 俄罗斯阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 7
+      - 中国阿伟科技@TG/油管 7
+      - 法国阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管 2
+      - _英国_YouTube:VV科技_71
       - 付费推荐:dlj.tf/ssrsub__09
+      - 韩国阿伟科技@TG/油管 4
+      - 美国阿伟科技@TG/油管 8
+      - _加拿大_YouTube:VV科技_43
+      - 印度阿伟科技@TG/油管
+      - _英国_YouTube:VV科技_19
       - _英国_YouTube:VV科技_57
       - _加拿大_YouTube:VV科技_140
-      - _英国_YouTube:VV科技_71
-      - _英国_YouTube:VV科技_50
-      - 付费推荐:dlj.tf/ssrsub__07
       - 节点每日更新
+      - 中国阿伟科技@TG/油管 8
       - _法国_YouTube:VV科技_56
-      - github.com/freefq - 北美地区  49
-      - _加拿大_YouTube:VV科技_43
-      - _加拿大_YouTube:VV科技_31
+      - 德国阿伟科技@TG/油管
+      - 英国阿伟科技@TG/油管
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TWN/CN - 1 微信：ddly000]
-      - TYO/JP - 1[光头院长]
-      - TRANSIT HKG 02 @100MBPS
-      - TRANSIT HKG 01 @100MBPS
-      - _中国_YouTube:VV科技_105
-      - _中国_YouTube:VV科技_110
-      - SIN/SG - 1 [微信：ddly000]
-      - _韩国_YouTube:VV科技_70
-      - AWS 直连
-      - TRANSIT HKG 03 @100MBPS
-      - Relay_🇪🇪EE-🇯🇵JP_398
+      - 美国阿伟科技@TG/油管
+      - 中国阿伟科技@TG/油管
+      - 中国阿伟科技@TG/油管 2
+      - 台湾阿伟科技@TG/油管
+      - 台湾阿伟科技@TG/油管 2
+      - 越南阿伟科技@TG/油管
+      - 香港 中转
+      - 越南阿伟科技@TG/油管 2
+      - 日本阿伟科技@TG/油管
       - _美国_YouTube:VV科技_42
-      - Indonesia-A1
-      - _美国_YouTube:VV科技_39
-      - 香港1|微信：ddly000
-      - 东京2|微信：ddly000
-      - _中国_YouTube:VV科技_106
-      - NJ/US - 2 [微信：ddly000]
-      - _中国_YouTube:VV科技_89
-      - _中国_YouTube:VV科技_91
-      - _中国_YouTube:VV科技_78
-      - _加拿大_YouTube:VV科技_30
-      - github.com/freefq - 美国  54
-      - _英国_YouTube:VV科技_83
-      - _英国_YouTube:VV科技_19
-      - _中国_YouTube:VV科技_104
-      - github.com/freefq - 美国  30
-      - 圣河西2|微信：ddly000
-      - _加拿大_YouTube:VV科技_22
-      - _加拿大_YouTube:VV科技_32
-      - YouTube:VV科技
+      - 美国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 3
+      - 香港
+      - 中国阿伟科技@TG/油管 3
+      - 中国阿伟科技@TG/油管 4
+      - 南非阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管
+      - Relay_🇪🇪EE-🇯🇵JP_398
+      - 韩国阿伟科技@TG/油管
+      - 中国阿伟科技@TG/油管 5
+      - 俄罗斯阿伟科技@TG/油管
+      - 韩国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 4
+      - 韩国阿伟科技@TG/油管 3
+      - 美国阿伟科技@TG/油管 5
+      - 中国阿伟科技@TG/油管 6
+      - 美国阿伟科技@TG/油管 6
+      - 俄罗斯阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 7
+      - 中国阿伟科技@TG/油管 7
+      - 法国阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管 2
+      - _英国_YouTube:VV科技_71
       - 付费推荐:dlj.tf/ssrsub__09
+      - 韩国阿伟科技@TG/油管 4
+      - 美国阿伟科技@TG/油管 8
+      - _加拿大_YouTube:VV科技_43
+      - 印度阿伟科技@TG/油管
+      - _英国_YouTube:VV科技_19
       - _英国_YouTube:VV科技_57
       - _加拿大_YouTube:VV科技_140
-      - _英国_YouTube:VV科技_71
-      - _英国_YouTube:VV科技_50
-      - 付费推荐:dlj.tf/ssrsub__07
       - 节点每日更新
+      - 中国阿伟科技@TG/油管 8
       - _法国_YouTube:VV科技_56
-      - github.com/freefq - 北美地区  49
-      - _加拿大_YouTube:VV科技_43
-      - _加拿大_YouTube:VV科技_31
+      - 德国阿伟科技@TG/油管
+      - 英国阿伟科技@TG/油管
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -208,196 +224,217 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TWN/CN - 1 微信：ddly000]
-      - TYO/JP - 1[光头院长]
-      - TRANSIT HKG 02 @100MBPS
-      - TRANSIT HKG 01 @100MBPS
-      - _中国_YouTube:VV科技_105
-      - _中国_YouTube:VV科技_110
-      - SIN/SG - 1 [微信：ddly000]
-      - _韩国_YouTube:VV科技_70
-      - AWS 直连
-      - TRANSIT HKG 03 @100MBPS
-      - Relay_🇪🇪EE-🇯🇵JP_398
+      - 美国阿伟科技@TG/油管
+      - 中国阿伟科技@TG/油管
+      - 中国阿伟科技@TG/油管 2
+      - 台湾阿伟科技@TG/油管
+      - 台湾阿伟科技@TG/油管 2
+      - 越南阿伟科技@TG/油管
+      - 香港 中转
+      - 越南阿伟科技@TG/油管 2
+      - 日本阿伟科技@TG/油管
       - _美国_YouTube:VV科技_42
-      - Indonesia-A1
-      - _美国_YouTube:VV科技_39
-      - 香港1|微信：ddly000
-      - 东京2|微信：ddly000
-      - _中国_YouTube:VV科技_106
-      - NJ/US - 2 [微信：ddly000]
-      - _中国_YouTube:VV科技_89
-      - _中国_YouTube:VV科技_91
-      - _中国_YouTube:VV科技_78
-      - _加拿大_YouTube:VV科技_30
-      - github.com/freefq - 美国  54
-      - _英国_YouTube:VV科技_83
-      - _英国_YouTube:VV科技_19
-      - _中国_YouTube:VV科技_104
-      - github.com/freefq - 美国  30
-      - 圣河西2|微信：ddly000
-      - _加拿大_YouTube:VV科技_22
-      - _加拿大_YouTube:VV科技_32
-      - YouTube:VV科技
+      - 美国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 3
+      - 香港
+      - 中国阿伟科技@TG/油管 3
+      - 中国阿伟科技@TG/油管 4
+      - 南非阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管
+      - Relay_🇪🇪EE-🇯🇵JP_398
+      - 韩国阿伟科技@TG/油管
+      - 中国阿伟科技@TG/油管 5
+      - 俄罗斯阿伟科技@TG/油管
+      - 韩国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 4
+      - 韩国阿伟科技@TG/油管 3
+      - 美国阿伟科技@TG/油管 5
+      - 中国阿伟科技@TG/油管 6
+      - 美国阿伟科技@TG/油管 6
+      - 俄罗斯阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 7
+      - 中国阿伟科技@TG/油管 7
+      - 法国阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管 2
+      - _英国_YouTube:VV科技_71
       - 付费推荐:dlj.tf/ssrsub__09
+      - 韩国阿伟科技@TG/油管 4
+      - 美国阿伟科技@TG/油管 8
+      - _加拿大_YouTube:VV科技_43
+      - 印度阿伟科技@TG/油管
+      - _英国_YouTube:VV科技_19
       - _英国_YouTube:VV科技_57
       - _加拿大_YouTube:VV科技_140
-      - _英国_YouTube:VV科技_71
-      - _英国_YouTube:VV科技_50
-      - 付费推荐:dlj.tf/ssrsub__07
       - 节点每日更新
+      - 中国阿伟科技@TG/油管 8
       - _法国_YouTube:VV科技_56
-      - github.com/freefq - 北美地区  49
-      - _加拿大_YouTube:VV科技_43
-      - _加拿大_YouTube:VV科技_31
+      - 德国阿伟科技@TG/油管
+      - 英国阿伟科技@TG/油管
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港1|微信：ddly000
+      - 台湾阿伟科技@TG/油管
+      - 台湾阿伟科技@TG/油管 2
+      - 香港 中转
+      - 香港
+      - 香港阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - TWN/CN - 1 微信：ddly000]
-      - TYO/JP - 1[光头院长]
-      - TRANSIT HKG 02 @100MBPS
-      - TRANSIT HKG 01 @100MBPS
-      - _中国_YouTube:VV科技_105
-      - _中国_YouTube:VV科技_110
-      - SIN/SG - 1 [微信：ddly000]
-      - _韩国_YouTube:VV科技_70
-      - AWS 直连
-      - TRANSIT HKG 03 @100MBPS
-      - Relay_🇪🇪EE-🇯🇵JP_398
+      - 美国阿伟科技@TG/油管
+      - 中国阿伟科技@TG/油管
+      - 中国阿伟科技@TG/油管 2
+      - 台湾阿伟科技@TG/油管
+      - 台湾阿伟科技@TG/油管 2
+      - 越南阿伟科技@TG/油管
+      - 香港 中转
+      - 越南阿伟科技@TG/油管 2
+      - 日本阿伟科技@TG/油管
       - _美国_YouTube:VV科技_42
-      - Indonesia-A1
-      - _美国_YouTube:VV科技_39
-      - 香港1|微信：ddly000
-      - 东京2|微信：ddly000
-      - _中国_YouTube:VV科技_106
-      - NJ/US - 2 [微信：ddly000]
-      - _中国_YouTube:VV科技_89
-      - _中国_YouTube:VV科技_91
-      - _中国_YouTube:VV科技_78
-      - _加拿大_YouTube:VV科技_30
-      - github.com/freefq - 美国  54
-      - _英国_YouTube:VV科技_83
-      - _英国_YouTube:VV科技_19
-      - _中国_YouTube:VV科技_104
-      - github.com/freefq - 美国  30
-      - 圣河西2|微信：ddly000
-      - _加拿大_YouTube:VV科技_22
-      - _加拿大_YouTube:VV科技_32
-      - YouTube:VV科技
+      - 美国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 3
+      - 香港
+      - 中国阿伟科技@TG/油管 3
+      - 中国阿伟科技@TG/油管 4
+      - 南非阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管
+      - Relay_🇪🇪EE-🇯🇵JP_398
+      - 韩国阿伟科技@TG/油管
+      - 中国阿伟科技@TG/油管 5
+      - 俄罗斯阿伟科技@TG/油管
+      - 韩国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 4
+      - 韩国阿伟科技@TG/油管 3
+      - 美国阿伟科技@TG/油管 5
+      - 中国阿伟科技@TG/油管 6
+      - 美国阿伟科技@TG/油管 6
+      - 俄罗斯阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 7
+      - 中国阿伟科技@TG/油管 7
+      - 法国阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管 2
+      - _英国_YouTube:VV科技_71
       - 付费推荐:dlj.tf/ssrsub__09
+      - 韩国阿伟科技@TG/油管 4
+      - 美国阿伟科技@TG/油管 8
+      - _加拿大_YouTube:VV科技_43
+      - 印度阿伟科技@TG/油管
+      - _英国_YouTube:VV科技_19
       - _英国_YouTube:VV科技_57
       - _加拿大_YouTube:VV科技_140
-      - _英国_YouTube:VV科技_71
-      - _英国_YouTube:VV科技_50
-      - 付费推荐:dlj.tf/ssrsub__07
       - 节点每日更新
+      - 中国阿伟科技@TG/油管 8
       - _法国_YouTube:VV科技_56
-      - github.com/freefq - 北美地区  49
-      - _加拿大_YouTube:VV科技_43
-      - _加拿大_YouTube:VV科技_31
+      - 德国阿伟科技@TG/油管
+      - 英国阿伟科技@TG/油管
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - TWN/CN - 1 微信：ddly000]
-      - TYO/JP - 1[光头院长]
-      - TRANSIT HKG 02 @100MBPS
-      - TRANSIT HKG 01 @100MBPS
-      - _中国_YouTube:VV科技_105
-      - _中国_YouTube:VV科技_110
-      - SIN/SG - 1 [微信：ddly000]
-      - _韩国_YouTube:VV科技_70
-      - AWS 直连
-      - TRANSIT HKG 03 @100MBPS
-      - Relay_🇪🇪EE-🇯🇵JP_398
+      - 美国阿伟科技@TG/油管
+      - 中国阿伟科技@TG/油管
+      - 中国阿伟科技@TG/油管 2
+      - 台湾阿伟科技@TG/油管
+      - 台湾阿伟科技@TG/油管 2
+      - 越南阿伟科技@TG/油管
+      - 香港 中转
+      - 越南阿伟科技@TG/油管 2
+      - 日本阿伟科技@TG/油管
       - _美国_YouTube:VV科技_42
-      - Indonesia-A1
-      - _美国_YouTube:VV科技_39
-      - 香港1|微信：ddly000
-      - 东京2|微信：ddly000
-      - _中国_YouTube:VV科技_106
-      - NJ/US - 2 [微信：ddly000]
-      - _中国_YouTube:VV科技_89
-      - _中国_YouTube:VV科技_91
-      - _中国_YouTube:VV科技_78
-      - _加拿大_YouTube:VV科技_30
-      - github.com/freefq - 美国  54
-      - _英国_YouTube:VV科技_83
-      - _英国_YouTube:VV科技_19
-      - _中国_YouTube:VV科技_104
-      - github.com/freefq - 美国  30
-      - 圣河西2|微信：ddly000
-      - _加拿大_YouTube:VV科技_22
-      - _加拿大_YouTube:VV科技_32
-      - YouTube:VV科技
+      - 美国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 3
+      - 香港
+      - 中国阿伟科技@TG/油管 3
+      - 中国阿伟科技@TG/油管 4
+      - 南非阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管
+      - Relay_🇪🇪EE-🇯🇵JP_398
+      - 韩国阿伟科技@TG/油管
+      - 中国阿伟科技@TG/油管 5
+      - 俄罗斯阿伟科技@TG/油管
+      - 韩国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 4
+      - 韩国阿伟科技@TG/油管 3
+      - 美国阿伟科技@TG/油管 5
+      - 中国阿伟科技@TG/油管 6
+      - 美国阿伟科技@TG/油管 6
+      - 俄罗斯阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 7
+      - 中国阿伟科技@TG/油管 7
+      - 法国阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管 2
+      - _英国_YouTube:VV科技_71
       - 付费推荐:dlj.tf/ssrsub__09
+      - 韩国阿伟科技@TG/油管 4
+      - 美国阿伟科技@TG/油管 8
+      - _加拿大_YouTube:VV科技_43
+      - 印度阿伟科技@TG/油管
+      - _英国_YouTube:VV科技_19
       - _英国_YouTube:VV科技_57
       - _加拿大_YouTube:VV科技_140
-      - _英国_YouTube:VV科技_71
-      - _英国_YouTube:VV科技_50
-      - 付费推荐:dlj.tf/ssrsub__07
       - 节点每日更新
+      - 中国阿伟科技@TG/油管 8
       - _法国_YouTube:VV科技_56
-      - github.com/freefq - 北美地区  49
-      - _加拿大_YouTube:VV科技_43
-      - _加拿大_YouTube:VV科技_31
+      - 德国阿伟科技@TG/油管
+      - 英国阿伟科技@TG/油管
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TWN/CN - 1 微信：ddly000]
-      - TYO/JP - 1[光头院长]
-      - TRANSIT HKG 02 @100MBPS
-      - TRANSIT HKG 01 @100MBPS
-      - _中国_YouTube:VV科技_105
-      - _中国_YouTube:VV科技_110
-      - SIN/SG - 1 [微信：ddly000]
-      - _韩国_YouTube:VV科技_70
-      - AWS 直连
-      - TRANSIT HKG 03 @100MBPS
-      - Relay_🇪🇪EE-🇯🇵JP_398
+      - 美国阿伟科技@TG/油管
+      - 中国阿伟科技@TG/油管
+      - 中国阿伟科技@TG/油管 2
+      - 台湾阿伟科技@TG/油管
+      - 台湾阿伟科技@TG/油管 2
+      - 越南阿伟科技@TG/油管
+      - 香港 中转
+      - 越南阿伟科技@TG/油管 2
+      - 日本阿伟科技@TG/油管
       - _美国_YouTube:VV科技_42
-      - Indonesia-A1
-      - _美国_YouTube:VV科技_39
-      - 香港1|微信：ddly000
-      - 东京2|微信：ddly000
-      - _中国_YouTube:VV科技_106
-      - NJ/US - 2 [微信：ddly000]
-      - _中国_YouTube:VV科技_89
-      - _中国_YouTube:VV科技_91
-      - _中国_YouTube:VV科技_78
-      - _加拿大_YouTube:VV科技_30
-      - github.com/freefq - 美国  54
-      - _英国_YouTube:VV科技_83
-      - _英国_YouTube:VV科技_19
-      - _中国_YouTube:VV科技_104
-      - github.com/freefq - 美国  30
-      - 圣河西2|微信：ddly000
-      - _加拿大_YouTube:VV科技_22
-      - _加拿大_YouTube:VV科技_32
-      - YouTube:VV科技
+      - 美国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 3
+      - 香港
+      - 中国阿伟科技@TG/油管 3
+      - 中国阿伟科技@TG/油管 4
+      - 南非阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管
+      - Relay_🇪🇪EE-🇯🇵JP_398
+      - 韩国阿伟科技@TG/油管
+      - 中国阿伟科技@TG/油管 5
+      - 俄罗斯阿伟科技@TG/油管
+      - 韩国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 4
+      - 韩国阿伟科技@TG/油管 3
+      - 美国阿伟科技@TG/油管 5
+      - 中国阿伟科技@TG/油管 6
+      - 美国阿伟科技@TG/油管 6
+      - 俄罗斯阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 7
+      - 中国阿伟科技@TG/油管 7
+      - 法国阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管 2
+      - _英国_YouTube:VV科技_71
       - 付费推荐:dlj.tf/ssrsub__09
+      - 韩国阿伟科技@TG/油管 4
+      - 美国阿伟科技@TG/油管 8
+      - _加拿大_YouTube:VV科技_43
+      - 印度阿伟科技@TG/油管
+      - _英国_YouTube:VV科技_19
       - _英国_YouTube:VV科技_57
       - _加拿大_YouTube:VV科技_140
-      - _英国_YouTube:VV科技_71
-      - _英国_YouTube:VV科技_50
-      - 付费推荐:dlj.tf/ssrsub__07
       - 节点每日更新
+      - 中国阿伟科技@TG/油管 8
       - _法国_YouTube:VV科技_56
-      - github.com/freefq - 北美地区  49
-      - _加拿大_YouTube:VV科技_43
-      - _加拿大_YouTube:VV科技_31
+      - 德国阿伟科技@TG/油管
+      - 英国阿伟科技@TG/油管
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -413,48 +450,52 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TWN/CN - 1 微信：ddly000]
-      - TYO/JP - 1[光头院长]
-      - TRANSIT HKG 02 @100MBPS
-      - TRANSIT HKG 01 @100MBPS
-      - _中国_YouTube:VV科技_105
-      - _中国_YouTube:VV科技_110
-      - SIN/SG - 1 [微信：ddly000]
-      - _韩国_YouTube:VV科技_70
-      - AWS 直连
-      - TRANSIT HKG 03 @100MBPS
-      - Relay_🇪🇪EE-🇯🇵JP_398
+      - 美国阿伟科技@TG/油管
+      - 中国阿伟科技@TG/油管
+      - 中国阿伟科技@TG/油管 2
+      - 台湾阿伟科技@TG/油管
+      - 台湾阿伟科技@TG/油管 2
+      - 越南阿伟科技@TG/油管
+      - 香港 中转
+      - 越南阿伟科技@TG/油管 2
+      - 日本阿伟科技@TG/油管
       - _美国_YouTube:VV科技_42
-      - Indonesia-A1
-      - _美国_YouTube:VV科技_39
-      - 香港1|微信：ddly000
-      - 东京2|微信：ddly000
-      - _中国_YouTube:VV科技_106
-      - NJ/US - 2 [微信：ddly000]
-      - _中国_YouTube:VV科技_89
-      - _中国_YouTube:VV科技_91
-      - _中国_YouTube:VV科技_78
-      - _加拿大_YouTube:VV科技_30
-      - github.com/freefq - 美国  54
-      - _英国_YouTube:VV科技_83
-      - _英国_YouTube:VV科技_19
-      - _中国_YouTube:VV科技_104
-      - github.com/freefq - 美国  30
-      - 圣河西2|微信：ddly000
-      - _加拿大_YouTube:VV科技_22
-      - _加拿大_YouTube:VV科技_32
-      - YouTube:VV科技
+      - 美国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 3
+      - 香港
+      - 中国阿伟科技@TG/油管 3
+      - 中国阿伟科技@TG/油管 4
+      - 南非阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管
+      - Relay_🇪🇪EE-🇯🇵JP_398
+      - 韩国阿伟科技@TG/油管
+      - 中国阿伟科技@TG/油管 5
+      - 俄罗斯阿伟科技@TG/油管
+      - 韩国阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 4
+      - 韩国阿伟科技@TG/油管 3
+      - 美国阿伟科技@TG/油管 5
+      - 中国阿伟科技@TG/油管 6
+      - 美国阿伟科技@TG/油管 6
+      - 俄罗斯阿伟科技@TG/油管 2
+      - 美国阿伟科技@TG/油管 7
+      - 中国阿伟科技@TG/油管 7
+      - 法国阿伟科技@TG/油管
+      - 香港阿伟科技@TG/油管 2
+      - _英国_YouTube:VV科技_71
       - 付费推荐:dlj.tf/ssrsub__09
+      - 韩国阿伟科技@TG/油管 4
+      - 美国阿伟科技@TG/油管 8
+      - _加拿大_YouTube:VV科技_43
+      - 印度阿伟科技@TG/油管
+      - _英国_YouTube:VV科技_19
       - _英国_YouTube:VV科技_57
       - _加拿大_YouTube:VV科技_140
-      - _英国_YouTube:VV科技_71
-      - _英国_YouTube:VV科技_50
-      - 付费推荐:dlj.tf/ssrsub__07
       - 节点每日更新
+      - 中国阿伟科技@TG/油管 8
       - _法国_YouTube:VV科技_56
-      - github.com/freefq - 北美地区  49
-      - _加拿大_YouTube:VV科技_43
-      - _加拿大_YouTube:VV科技_31
+      - 德国阿伟科技@TG/油管
+      - 英国阿伟科技@TG/油管
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
