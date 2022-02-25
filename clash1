@@ -7,35 +7,15 @@ external-controller: :9090
 proxies:
   - {name: 韩国-Baron小浪浪, server: shallaz.proconcn.xyz, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52030:ff778899, obfs-param: "", udp: true}
   - {name: US03, server: gdgz.marslink.icu, port: 41111, type: ss, cipher: chacha20-ietf-poly1305, password: 7704a266-a631-41d4-9f73-37f3f7784081, udp: true}
-  - {name: HK09, server: gdgz.marslink.icu, port: 64024, type: ss, cipher: chacha20-ietf-poly1305, password: 7704a266-a631-41d4-9f73-37f3f7784081, udp: true}
-  - {name: AU01, server: gdgz.marslink.icu, port: 64041, type: ss, cipher: chacha20-ietf-poly1305, password: 7704a266-a631-41d4-9f73-37f3f7784081, udp: true}
-  - {name: AU02, server: hz.marslink.icu, port: 64041, type: ss, cipher: chacha20-ietf-poly1305, password: 7704a266-a631-41d4-9f73-37f3f7784081, udp: true}
-  - {name: 香港, server: www.shanpao.xyz, port: 32747, type: vmess, uuid: c460ff8a-c55e-4c7c-d556-356b758af32b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /pank, ws-headers: {Host: www.shanpao.xyz}, udp: true}
-  - {name: 中国阿伟科技@TG/油管, server: 183.240.2.6, port: 10001, type: vmess, uuid: 5566b873-6b42-30d1-b4db-302039179eb7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: SG01, server: gdgz.marslink.icu, port: 41108, type: ss, cipher: chacha20-ietf-poly1305, password: 7704a266-a631-41d4-9f73-37f3f7784081, udp: true}
   - {name: 美国阿伟科技@TG/油管, server: 111.wowogg.cyou, port: 52211, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: EN02, server: hz.marslink.icu, port: 64042, type: ss, cipher: chacha20-ietf-poly1305, password: 7704a266-a631-41d4-9f73-37f3f7784081, udp: true}
-  - {name: KR01, server: gdgz.marslink.icu, port: 41114, type: ss, cipher: chacha20-ietf-poly1305, password: 7704a266-a631-41d4-9f73-37f3f7784081, udp: true}
-  - {name: KR03, server: gdgz.marslink.icu, port: 41113, type: ss, cipher: chacha20-ietf-poly1305, password: 7704a266-a631-41d4-9f73-37f3f7784081, udp: true}
-  - {name: EN01, server: gdgz.marslink.icu, port: 64042, type: ss, cipher: chacha20-ietf-poly1305, password: 7704a266-a631-41d4-9f73-37f3f7784081, udp: true}
-  - {name: IN01, server: gdgz.marslink.icu, port: 64040, type: ss, cipher: chacha20-ietf-poly1305, password: 7704a266-a631-41d4-9f73-37f3f7784081, udp: true}
   - {name: 新加坡-Baron小浪浪, server: shallaz.proconcn.xyz, port: 566, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52030:ff778899, obfs-param: "", udp: true}
   - {name: 香港2-Baron小浪浪, server: shonlinesandcu03.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52030:ff778899, obfs-param: "", udp: true}
   - {name: 香港1-Baron小浪浪, server: shonlinecu.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52030:ff778899, obfs-param: "", udp: true}
   - {name: 香港4-Baron小浪浪, server: shcris02stand.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52030:ff778899, obfs-param: "", udp: true}
   - {name: 香港3-Baron小浪浪, server: shonlinesandcu03.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 52030:ff778899, obfs-param: "", udp: true}
-  - {name: SG02, server: hz.marslink.icu, port: 41108, type: ss, cipher: chacha20-ietf-poly1305, password: 7704a266-a631-41d4-9f73-37f3f7784081, udp: true}
-  - {name: HK10, server: hz.marslink.icu, port: 64024, type: ss, cipher: chacha20-ietf-poly1305, password: 7704a266-a631-41d4-9f73-37f3f7784081, udp: true}
-  - {name: SG04, server: hz.marslink.icu, port: 41109, type: ss, cipher: chacha20-ietf-poly1305, password: 7704a266-a631-41d4-9f73-37f3f7784081, udp: true}
-  - {name: SG03, server: gdgz.marslink.icu, port: 41109, type: ss, cipher: chacha20-ietf-poly1305, password: 7704a266-a631-41d4-9f73-37f3f7784081, udp: true}
-  - {name: KR02, server: hz.marslink.icu, port: 41114, type: ss, cipher: chacha20-ietf-poly1305, password: 7704a266-a631-41d4-9f73-37f3f7784081, udp: true}
-  - {name: 美国阿伟科技@TG/油管 2, server: 126.wgong.xyz, port: 52226, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TW02, server: hz.marslink.icu, port: 41104, type: ss, cipher: chacha20-ietf-poly1305, password: 7704a266-a631-41d4-9f73-37f3f7784081, udp: true}
-  - {name: US01, server: gdgz.marslink.icu, port: 41110, type: ss, cipher: chacha20-ietf-poly1305, password: 7704a266-a631-41d4-9f73-37f3f7784081, udp: true}
-  - {name: IN02, server: hz.marslink.icu, port: 64040, type: ss, cipher: chacha20-ietf-poly1305, password: 7704a266-a631-41d4-9f73-37f3f7784081, udp: true}
   - {name: 俄罗斯阿伟科技@TG/油管, server: 92.223.72.42, port: 443, type: vmess, uuid: ae08412f-5bb9-4be7-8560-1984976a1097, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: govacaxixo.watchdoctor.xyz}, udp: true}
-  - {name: _法国_YouTube:VV科技_56, server: 149.202.82.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: Relay_🇪🇪EE-🇯🇵JP_398, server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-3.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: 日本2-中转-奈飞全解锁, server: hl.111003.gq, port: 11701, type: vmess, uuid: 04a7b5aa-a31a-3daa-a72d-a392cb8389ba, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: ri2.lixiaolong.buzz}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -44,35 +24,15 @@ proxy-groups:
       - 🎯 全球直连
       - 韩国-Baron小浪浪
       - US03
-      - HK09
-      - AU01
-      - AU02
-      - 香港
-      - 中国阿伟科技@TG/油管
-      - SG01
       - 美国阿伟科技@TG/油管
-      - EN02
-      - KR01
-      - KR03
-      - EN01
-      - IN01
       - 新加坡-Baron小浪浪
       - 香港2-Baron小浪浪
       - 香港1-Baron小浪浪
       - 香港4-Baron小浪浪
       - 香港3-Baron小浪浪
-      - SG02
-      - HK10
-      - SG04
-      - SG03
-      - KR02
-      - 美国阿伟科技@TG/油管 2
-      - TW02
-      - US01
-      - IN02
       - 俄罗斯阿伟科技@TG/油管
-      - _法国_YouTube:VV科技_56
       - Relay_🇪🇪EE-🇯🇵JP_398
+      - 日本2-中转-奈飞全解锁
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -80,35 +40,15 @@ proxy-groups:
     proxies:
       - 韩国-Baron小浪浪
       - US03
-      - HK09
-      - AU01
-      - AU02
-      - 香港
-      - 中国阿伟科技@TG/油管
-      - SG01
       - 美国阿伟科技@TG/油管
-      - EN02
-      - KR01
-      - KR03
-      - EN01
-      - IN01
       - 新加坡-Baron小浪浪
       - 香港2-Baron小浪浪
       - 香港1-Baron小浪浪
       - 香港4-Baron小浪浪
       - 香港3-Baron小浪浪
-      - SG02
-      - HK10
-      - SG04
-      - SG03
-      - KR02
-      - 美国阿伟科技@TG/油管 2
-      - TW02
-      - US01
-      - IN02
       - 俄罗斯阿伟科技@TG/油管
-      - _法国_YouTube:VV科技_56
       - Relay_🇪🇪EE-🇯🇵JP_398
+      - 日本2-中转-奈飞全解锁
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -117,35 +57,15 @@ proxy-groups:
       - 🎯 全球直连
       - 韩国-Baron小浪浪
       - US03
-      - HK09
-      - AU01
-      - AU02
-      - 香港
-      - 中国阿伟科技@TG/油管
-      - SG01
       - 美国阿伟科技@TG/油管
-      - EN02
-      - KR01
-      - KR03
-      - EN01
-      - IN01
       - 新加坡-Baron小浪浪
       - 香港2-Baron小浪浪
       - 香港1-Baron小浪浪
       - 香港4-Baron小浪浪
       - 香港3-Baron小浪浪
-      - SG02
-      - HK10
-      - SG04
-      - SG03
-      - KR02
-      - 美国阿伟科技@TG/油管 2
-      - TW02
-      - US01
-      - IN02
       - 俄罗斯阿伟科技@TG/油管
-      - _法国_YouTube:VV科技_56
       - Relay_🇪🇪EE-🇯🇵JP_398
+      - 日本2-中转-奈飞全解锁
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -166,40 +86,19 @@ proxy-groups:
       - 🎯 全球直连
       - 韩国-Baron小浪浪
       - US03
-      - HK09
-      - AU01
-      - AU02
-      - 香港
-      - 中国阿伟科技@TG/油管
-      - SG01
       - 美国阿伟科技@TG/油管
-      - EN02
-      - KR01
-      - KR03
-      - EN01
-      - IN01
       - 新加坡-Baron小浪浪
       - 香港2-Baron小浪浪
       - 香港1-Baron小浪浪
       - 香港4-Baron小浪浪
       - 香港3-Baron小浪浪
-      - SG02
-      - HK10
-      - SG04
-      - SG03
-      - KR02
-      - 美国阿伟科技@TG/油管 2
-      - TW02
-      - US01
-      - IN02
       - 俄罗斯阿伟科技@TG/油管
-      - _法国_YouTube:VV科技_56
       - Relay_🇪🇪EE-🇯🇵JP_398
+      - 日本2-中转-奈飞全解锁
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港
       - 香港2-Baron小浪浪
       - 香港1-Baron小浪浪
       - 香港4-Baron小浪浪
@@ -212,35 +111,15 @@ proxy-groups:
       - 🔰 节点选择
       - 韩国-Baron小浪浪
       - US03
-      - HK09
-      - AU01
-      - AU02
-      - 香港
-      - 中国阿伟科技@TG/油管
-      - SG01
       - 美国阿伟科技@TG/油管
-      - EN02
-      - KR01
-      - KR03
-      - EN01
-      - IN01
       - 新加坡-Baron小浪浪
       - 香港2-Baron小浪浪
       - 香港1-Baron小浪浪
       - 香港4-Baron小浪浪
       - 香港3-Baron小浪浪
-      - SG02
-      - HK10
-      - SG04
-      - SG03
-      - KR02
-      - 美国阿伟科技@TG/油管 2
-      - TW02
-      - US01
-      - IN02
       - 俄罗斯阿伟科技@TG/油管
-      - _法国_YouTube:VV科技_56
       - Relay_🇪🇪EE-🇯🇵JP_398
+      - 日本2-中转-奈飞全解锁
   - name: 📲 电报信息
     type: select
     proxies:
@@ -248,35 +127,15 @@ proxy-groups:
       - 🎯 全球直连
       - 韩国-Baron小浪浪
       - US03
-      - HK09
-      - AU01
-      - AU02
-      - 香港
-      - 中国阿伟科技@TG/油管
-      - SG01
       - 美国阿伟科技@TG/油管
-      - EN02
-      - KR01
-      - KR03
-      - EN01
-      - IN01
       - 新加坡-Baron小浪浪
       - 香港2-Baron小浪浪
       - 香港1-Baron小浪浪
       - 香港4-Baron小浪浪
       - 香港3-Baron小浪浪
-      - SG02
-      - HK10
-      - SG04
-      - SG03
-      - KR02
-      - 美国阿伟科技@TG/油管 2
-      - TW02
-      - US01
-      - IN02
       - 俄罗斯阿伟科技@TG/油管
-      - _法国_YouTube:VV科技_56
       - Relay_🇪🇪EE-🇯🇵JP_398
+      - 日本2-中转-奈飞全解锁
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -285,35 +144,15 @@ proxy-groups:
       - ♻️ 自动选择
       - 韩国-Baron小浪浪
       - US03
-      - HK09
-      - AU01
-      - AU02
-      - 香港
-      - 中国阿伟科技@TG/油管
-      - SG01
       - 美国阿伟科技@TG/油管
-      - EN02
-      - KR01
-      - KR03
-      - EN01
-      - IN01
       - 新加坡-Baron小浪浪
       - 香港2-Baron小浪浪
       - 香港1-Baron小浪浪
       - 香港4-Baron小浪浪
       - 香港3-Baron小浪浪
-      - SG02
-      - HK10
-      - SG04
-      - SG03
-      - KR02
-      - 美国阿伟科技@TG/油管 2
-      - TW02
-      - US01
-      - IN02
       - 俄罗斯阿伟科技@TG/油管
-      - _法国_YouTube:VV科技_56
       - Relay_🇪🇪EE-🇯🇵JP_398
+      - 日本2-中转-奈飞全解锁
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -331,35 +170,15 @@ proxy-groups:
       - ♻️ 自动选择
       - 韩国-Baron小浪浪
       - US03
-      - HK09
-      - AU01
-      - AU02
-      - 香港
-      - 中国阿伟科技@TG/油管
-      - SG01
       - 美国阿伟科技@TG/油管
-      - EN02
-      - KR01
-      - KR03
-      - EN01
-      - IN01
       - 新加坡-Baron小浪浪
       - 香港2-Baron小浪浪
       - 香港1-Baron小浪浪
       - 香港4-Baron小浪浪
       - 香港3-Baron小浪浪
-      - SG02
-      - HK10
-      - SG04
-      - SG03
-      - KR02
-      - 美国阿伟科技@TG/油管 2
-      - TW02
-      - US01
-      - IN02
       - 俄罗斯阿伟科技@TG/油管
-      - _法国_YouTube:VV科技_56
       - Relay_🇪🇪EE-🇯🇵JP_398
+      - 日本2-中转-奈飞全解锁
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
