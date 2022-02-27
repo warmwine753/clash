@@ -5,867 +5,939 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港 油尖旺御金·国峯 環球全域電訊 C09, server: hgc09.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 香港 油尖旺御金·国峯 環球全域電訊 C05, server: hgc05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 香港4-IEPL-倍率1.0, server: zz.hk4s.se.sx.cn, port: 16004, type: ssr, cipher: chacha20-ietf, password: we.sc.cn, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 618:1luEgh, obfs-param: 51c32618.microsoft.com, udp: true}
-  - {name: 香港5-IEPL-倍率1.0, server: zz.hk5s.se.sx.cn, port: 16005, type: ssr, cipher: chacha20-ietf, password: we.sc.cn, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 618:1luEgh, obfs-param: 51c32618.microsoft.com, udp: true}
-  - {name: 中国-香港 IPLC Equinix HK2 C 01 1Gbps HBO TVB, server: sg01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-香港 IEPL Equinix HK8 C 07 1Gbps HBO TVB, server: sg17.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: JP | 59, server: 13.208.54.132, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, skip-cert-verify: true, udp: true}
-  - {name: 日本4-IEPL-倍率1.0, server: zz.jp4s.se.sx.cn, port: 12004, type: ssr, cipher: chacha20-ietf, password: we.sc.cn, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 618:1luEgh, obfs-param: 51c32618.microsoft.com, udp: true}
-  - {name: 中国-爱尔兰 IPLC C03, server: ir03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-爱尔兰 IPLC C01, server: ir01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 香港 油尖旺御金·国峯 名氣通電訊 C08, server: hkhe08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-香港 IEPL Equinix HK8 C 01 1Gbps HBO TVB, server: sg11.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-香港 IPLC Equinix HK2 C 04 1Gbps HBO TVB, server: sg04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-香港 IPLC Equinix HK2 C 07 1Gbps HBO TVB, server: sg07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 日本阿伟科技@TG/油管, server: 30.earths.team, port: 443, type: trojan, password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae, sni: 30.earths.team, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技@TG/油管, server: 99.wowogg.cyou, port: 52299, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国-日本 沪日IEPL传输 Equinix-TY8 C06 Netflix, server: jp06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-香港 IEPL Equinix HK8 C 02 1Gbps HBO TVB, server: sg12.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 香港 油尖旺御金·国峯 名氣通電訊 C01, server: hkhe01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-台湾彰化 IEPL HiNet固接 C08 Netflix 动画疯, server: tw08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 香港 油尖旺御金·国峯 名氣通電訊 C09, server: hkhe09.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 日本阿伟科技@TG/油管 2, server: 94.wowogg.cyou, port: 52294, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港 油尖旺御金·国峯 名氣通電訊 C04, server: hkhe04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-法国 IPLC C03, server: fr03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 韩国 전라북도 전주시 商宽 C 01, server: kr06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-日本 沪日IEPL传输 Equinix-TY8 C02 Netflix, server: jp02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-日本 多协议标签交换虚拟专用网（三） I 1000Mbps, server: hr08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-香港 IEPL Equinix HK8 C 08 1Gbps HBO TVB, server: sg18.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 日本阿伟科技@TG/油管 3, server: 30.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 30.earths.team, skip-cert-verify: true, udp: true}
-  - {name: 美国阿伟科技@TG/油管 2, server: 99.wowogg.cyou, port: 52299, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港 油尖旺御金·国峯 環球全域電訊 C04, server: hgc04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 韩国 京畿道板桥 原生游戏解锁 C 04, server: krgame04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: ASYNCHRONOUS TRANSFERMODE 永久虚通路连接PVCC C01, server: pvcc01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 香港 油尖旺御金·国峯 名氣通電訊 C02, server: hkhe02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 香港 油尖旺御金·国峯 環球全域電訊 C07, server: hgc07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-爱尔兰 IPLC C04, server: ir04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-香港 IEPL Equinix HK8 C 10 1Gbps HBO TVB, server: sg20.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-法国 IPLC C02, server: fr02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 日本 ソフトバンク C05 500Mbps 1x Netflix, server: jpsb05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-台湾桃园 IPLC 台湾固网 C06 Netflix 动画疯, server: twct06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 日本 ソフトバンク C02 500Mbps 1x Netflix, server: jpsb02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 日本 ソフトバンク C12 500Mbps 1x Netflix, server: jpsb12.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 日本1-IEPL-倍率1.0, server: zz.jp1s.se.sx.cn, port: 12001, type: ssr, cipher: chacha20-ietf, password: we.sc.cn, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 618:1luEgh, obfs-param: 51c32618.microsoft.com, udp: true}
-  - {name: 中国-台湾桃园 IPLC 台湾固网 C03 Netflix 动画疯, server: twct03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-日本 多协议标签交换虚拟专用网（三） D 1000Mbps, server: hr04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-爱尔兰 IPLC C02, server: ir02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-香港 IEPL Equinix HK8 C 06 1Gbps HBO TVB, server: sg16.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 精简 27, server: 27.sapphirerapids.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-法国 IPLC C01, server: fr01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 香港 油尖旺御金·国峯 環球全域電訊 C08, server: hgc08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-法国 IPLC C04, server: fr04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 韩国 京畿道板桥 原生游戏解锁 C 01, server: krgame01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 韩国 京畿道板桥 原生游戏解锁 C 08, server: krgame08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-台湾 VPDN 嘉义游戏专线 C01 Netflix 动画疯, server: twgame01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 日本 ソフトバンク C01 500Mbps 1x Netflix, server: jpsb01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-日本 多协议标签交换虚拟专用网（三） B 1000Mbps, server: hr02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-日本 沪日IEPL传输 Equinix-TY8 C04 Netflix, server: jp04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-日本 沪日IEPL传输 Equinix-TY8 C01 Netflix, server: jp01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 韩国 전라북도 전주시 商宽 C 05, server: kr10.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 日本 ソフトバンク C08 500Mbps 1x Netflix, server: jpsb08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-台湾 VPDN 嘉义游戏专线 C03 Netflix 动画疯, server: twgame03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-香港 IPLC Equinix HK2 C 03 1Gbps HBO TVB, server: sg03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 香港 油尖旺御金·国峯 環球全域電訊 C06, server: hgc06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 精简 24, server: 24.sapphirerapids.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 韩国 전라북도 전주시 商宽 C 02, server: kr07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 韩国 京畿道板桥 原生游戏解锁 C 05, server: krgame05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 韩国 京畿道板桥 原生游戏解锁 C 10, server: krgame10.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-韩国 IEPL（三）A 1Gbps, server: kr01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 香港 油尖旺御金·国峯 名氣通電訊 C07, server: hkhe07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-日本 多协议标签交换虚拟专用网（三） E 1000Mbps, server: hr05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-日本 多协议标签交换虚拟专用网（三） J 1000Mbps, server: hr10.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 美国5-IEPL-倍率1.0, server: zz.us5s.se.sx.cn, port: 11005, type: ssr, cipher: chacha20-ietf, password: we.sc.cn, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 618:1luEgh, obfs-param: 51c32618.microsoft.com, udp: true}
-  - {name: 中国-台湾彰化 IEPL HiNet固接 C09 Netflix 动画疯, server: tw09.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-香港 IEPL Equinix HK8 C 05 1Gbps HBO TVB, server: sg15.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-日本 沪日IEPL传输 Equinix-TY8 C03 Netflix, server: jp03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-香港 IEPL Equinix HK8 C 03 1Gbps HBO TVB, server: sg13.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-香港 IPLC Equinix HK2 C 09 1Gbps HBO TVB, server: sg09.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-台湾桃园 IPLC 台湾固网 C10 Netflix 动画疯, server: twct10.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-印度 班加罗尔 एयरटेल IPLC C08, server: in08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-日本 多协议标签交换虚拟专用网（三） A 1000Mbps, server: hr01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 台湾5-IEPL-倍率1.0, server: zz.tw5s.se.sx.cn, port: 15005, type: ssr, cipher: chacha20-ietf, password: we.sc.cn, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 618:1luEgh, obfs-param: 51c32618.microsoft.com, udp: true}
-  - {name: 中国-台湾桃园 IPLC 台湾固网 C02 Netflix 动画疯, server: twct02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 韩国 京畿道板桥 原生游戏解锁 C 03, server: krgame03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 日本6-IEPL-倍率1.0, server: zz.jp6s.se.sx.cn, port: 12006, type: ssr, cipher: chacha20-ietf, password: we.sc.cn, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 618:1luEgh, obfs-param: 51c32618.microsoft.com, udp: true}
-  - {name: 日本阿伟科技@TG/油管 4, server: 155.248.183.96, port: 45565, type: vmess, uuid: 44c36ab6-f82b-4a59-97f0-331066ea3fe8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
-  - {name: 中国-法国 IPLC C05, server: fr05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 香港 油尖旺御金·国峯 環球全域電訊 C03, server: hgc03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-台湾彰化 IEPL HiNet固接 C06 Netflix 动画疯, server: tw06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-韩国 IEPL（三）D 1Gbps, server: kr04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-韩国 IEPL（三）C 1Gbps, server: kr03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-日本 沪日IEPL传输 Equinix-TY8 C05 Netflix, server: jp05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 韩国 京畿道板桥 原生游戏解锁 C 07, server: krgame07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-台湾 VPDN 嘉义游戏专线 C02 Netflix 动画疯, server: twgame02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-日本 多协议标签交换虚拟专用网（三） C 1000Mbps, server: hr03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 日本 ソフトバンク C07 500Mbps 1x Netflix, server: jpsb07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-日本 沪日IEPL传输 Equinix-TY8 C08 Netflix, server: jp08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-台湾桃园 IPLC 台湾固网 C05 Netflix 动画疯, server: twct05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-日本 沪日IEPL传输 Equinix-TY8 C07 Netflix, server: jp07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-印度 班加罗尔 एयरटेल IPLC C03, server: in03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 韩国 京畿道板桥 原生游戏解锁 C 02, server: krgame02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 日本 ソフトバンク C03 500Mbps 1x Netflix, server: jpsb03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-台湾桃园 IPLC 台湾固网 C07 Netflix 动画疯, server: twct07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 韩国 전라북도 전주시 商宽 C 03, server: kr08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 台湾3-IEPL-倍率1.0, server: zz.tw3s.se.sx.cn, port: 15003, type: ssr, cipher: chacha20-ietf, password: we.sc.cn, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 618:1luEgh, obfs-param: 51c32618.microsoft.com, udp: true}
-  - {name: 美国1-IEPL-倍率1.0, server: zz.us1s.se.sx.cn, port: 11001, type: ssr, cipher: chacha20-ietf, password: we.sc.cn, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 618:1luEgh, obfs-param: 51c32618.microsoft.com, udp: true}
-  - {name: 精简 29, server: 30.sapphirerapids.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-台湾 VPDN 嘉义游戏专线 C05 Netflix 动画疯, server: twgame05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-台湾 VPDN 嘉义游戏专线 C10 Netflix 动画疯, server: twgame10.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-印度 班加罗尔 एयरटेल IPLC C05, server: in05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 印度1-CN2-倍率1.0, server: zz.in1s.se.sx.cn, port: 19011, type: ssr, cipher: chacha20-ietf, password: we.sc.cn, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 618:1luEgh, obfs-param: 51c32618.microsoft.com, udp: true}
-  - {name: 中国-印度 班加罗尔 एयरटेल IPLC C07, server: in07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 新加坡1-IEPL-倍率1.0, server: zz.sg1s.se.sx.cn, port: 13001, type: ssr, cipher: chacha20-ietf, password: we.sc.cn, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 618:1luEgh, obfs-param: 51c32618.microsoft.com, udp: true}
-  - {name: 中国-台湾桃园 IPLC 台湾固网 C04 Netflix 动画疯, server: twct04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-台湾 VPDN 嘉义游戏专线 C07 Netflix 动画疯, server: twgame07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 美国2-IEPL-倍率1.0, server: zz.us2s.se.sx.cn, port: 11002, type: ssr, cipher: chacha20-ietf, password: we.sc.cn, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 618:1luEgh, obfs-param: 51c32618.microsoft.com, udp: true}
-  - {name: 日本 ソフトバンク C06 500Mbps 1x Netflix, server: jpsb06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-韩国 IEPL（三）B 1Gbps, server: kr02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-台湾 VPDN 嘉义游戏专线 C06 Netflix 动画疯, server: twgame06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-香港 IEPL Equinix HK8 C 04 1Gbps HBO TVB, server: sg14.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-台湾 VPDN 嘉义游戏专线 C09 Netflix 动画疯, server: twgame09.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-台湾彰化 IEPL HiNet固接 C04 Netflix 动画疯, server: tw04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 精简 28, server: 28.sapphirerapids.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 精简 23, server: 23.sapphirerapids.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 精简 21, server: 21.sapphirerapids.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 香港阿伟科技@TG/油管, server: 40.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 40.earths.team, skip-cert-verify: true, udp: true}
   - {name: az-hk, server: azhk.cnnp.tk, port: 17815, type: vmess, uuid: 392ca636-d1df-40f7-cb9a-07e303e63eec, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /flover, ws-headers: {Host: azhk.cnnp.tk}, udp: true}
-  - {name: 中国-台湾桃园 IPLC 台湾固网 C09 Netflix 动画疯, server: twct09.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-台湾彰化 IEPL HiNet固接 C07 Netflix 动画疯, server: tw07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-印度 班加罗尔 एयरटेल IPLC C09, server: in09.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 新加坡4-IEPL-倍率1.0, server: zz.sg4s.se.sx.cn, port: 13004, type: ssr, cipher: chacha20-ietf, password: we.sc.cn, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 618:1luEgh, obfs-param: 51c32618.microsoft.com, udp: true}
-  - {name: 日本 ソフトバンク C10 500Mbps 1x Netflix, server: jpsb10.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-台湾彰化 IEPL HiNet固接 C10 Netflix 动画疯, server: tw10.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-台湾 VPDN 嘉义游戏专线 C08 Netflix 动画疯, server: twgame08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 精简 22, server: 22.sapphirerapids.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 香港 油尖旺御金·国峯 環球全域電訊 C01, server: hgc01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-日本 沪日IEPL传输 Equinix-TY8 C01 Netflix, server: jp01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-法国 IPLC C04, server: fr04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-香港 IEPL Equinix HK8 C 04 1Gbps HBO TVB, server: sg14.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 香港 油尖旺御金·国峯 環球全域電訊 C03, server: hgc03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-台湾桃园 IPLC 台湾固网 C06 Netflix 动画疯, server: twct06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 香港 油尖旺御金·国峯 環球全域電訊 C09, server: hgc09.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-香港 IEPL Equinix HK8 C 01 1Gbps HBO TVB, server: sg11.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 杭州-德国 | 2 9929, server: gy.cm.01.211129.xyz, port: 56432, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall, ws-headers: {Host: gy.cm.01.211129.xyz}, udp: true}
+  - {name: 中国-爱尔兰 IPLC C02, server: ir02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
   - {name: 中国-香港 IEPL Equinix HK8 C 09 1Gbps HBO TVB, server: sg19.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-台湾桃园 IPLC 台湾固网 C11 Netflix 动画疯, server: twct11.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 精简 26, server: 26.sapphirerapids.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 韩国 전라북도 전주시 商宽 C 04, server: kr09.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-台湾 VPDN 嘉义游戏专线 C04 Netflix 动画疯, server: twgame04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 精简 25, server: 25.sapphirerapids.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-台湾桃园 IPLC 台湾固网 C08 Netflix 动画疯, server: twct08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: US | 72, server: 45.79.237.103, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 香港 油尖旺御金·国峯 名氣通電訊 C06, server: hkhe06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-台湾彰化 IEPL HiNet固接 C05 Netflix 动画疯, server: tw05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 日本 ソフトバンク C04 500Mbps 1x Netflix, server: jpsb04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 韩国 x1 Az直连, server: az.transfer.mugocloud.top, port: 28131, type: trojan, password: 3ba2dafb-58c7-3cc8-8627-d1895bafbddc, sni: az.transfer.mugocloud.top, skip-cert-verify: true, udp: true}
+  - {name: 中国-台湾 VPDN 嘉义游戏专线 C03 Netflix 动画疯, server: twgame03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 香港 油尖旺御金·国峯 名氣通電訊 C08, server: hkhe08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 香港-美国 | 5, server: azhk520.greenyun.tk, port: 10005, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall, ws-headers: {Host: azhk520.greenyun.tk}, udp: true}
+  - {name: "新加坡 x1⇨Az[Twitter]", server: az.transfer.mugocloud.top, port: 25998, type: trojan, password: 3ba2dafb-58c7-3cc8-8627-d1895bafbddc, sni: az.transfer.mugocloud.top, skip-cert-verify: true, udp: true}
+  - {name: 日本 ソフトバンク C10 500Mbps 1x Netflix, server: jpsb10.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-韩国 IEPL（三）C 1Gbps, server: kr03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
   - {name: 日本 ソフトバンク C09 500Mbps 1x Netflix, server: jpsb09.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 韩国 京畿道板桥 原生游戏解锁 C 09, server: krgame09.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 印度阿伟科技@TG/油管, server: 155.248.244.247, port: 45565, type: vmess, uuid: 4cfa02c7-e7b3-48e2-c8dc-7bb9bbae36ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /liangting, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
-  - {name: 【V2】韩国·150Mbps | 流媒体, server: v2.kr4.hgwc.xyz, port: 10006, type: vmess, uuid: 5d812995-b95c-47fc-a562-750173aeb305, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v2.kr4.hgwc.xyz}, udp: true}
-  - {name: 中国-台湾彰化 IEPL HiNet固接 C02 Netflix 动画疯, server: tw02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 印度2-CN2-倍率1.0, server: zz.in2s.se.sx.cn, port: 19012, type: ssr, cipher: chacha20-ietf, password: we.sc.cn, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 618:1luEgh, obfs-param: 51c32618.microsoft.com, udp: true}
-  - {name: 中国-台湾彰化 IEPL HiNet固接 C03 Netflix 动画疯, server: tw03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 印度阿伟科技@TG/油管 2, server: 155.248.242.150, port: 45565, type: vmess, uuid: ece341dc-4d70-4f03-a21a-e75136b90e7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /blog, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
-  - {name: 中国-澳大利亚 IPLC 悉尼 C02, server: au02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-日本 多协议标签交换虚拟专用网（三） F 1000Mbps, server: hr06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 日本 ソフトバンク C07 500Mbps 1x Netflix, server: jpsb07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-法国 IPLC C03, server: fr03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: "台湾 x1⇨Az[Netflix]", server: az.transfer.mugocloud.top, port: 27356, type: trojan, password: 3ba2dafb-58c7-3cc8-8627-d1895bafbddc, sni: az.transfer.mugocloud.top, skip-cert-verify: true, udp: true}
+  - {name: 中国-台湾彰化 IEPL HiNet固接 C09 Netflix 动画疯, server: tw09.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 有问题发工单|不提供技术支持, server: 127.0.0.1, port: 80, type: vmess, uuid: a2ca0ff3-dd39-48dd-bd30-d945a33e5e03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICJheummmea4rzgwdGNwK2h0dHAiLAogICJhZGQiOiAiMjA3LjQ2LjE1OC4yMTEiLAogICJwb3J0IjogODAsCiAgImlkIjogIjhlMzUwN2YwLTA3YjMtNDA2Ni04ZmM4LTM2MDY3NTRhNjRkOSIsCiAgImFpZCI6IDY0LAogICJuZXQiOiAidGNwIiwKICAidHlwZSI6ICJodHRwIiwKICAiaG9zdCI6ICIiLAogICJwYXRoIjogIi95eWpzZC50b3AiLAogICJ0bHMiOiAibm9uZSIKfQ==}, udp: true}
+  - {name: HK5|10G|WS, server: 20.187.99.45, port: 80, type: vmess, uuid: a2ca0ff3-dd39-48dd-bd30-d945a33e5e03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: shoutingtoutiao3.10010.com}, udp: true}
+  - {name: 中国-台湾桃园 IPLC 台湾固网 C04 Netflix 动画疯, server: twct04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 香港 油尖旺御金·国峯 名氣通電訊 C06, server: hkhe06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 香港 油尖旺御金·国峯 環球全域電訊 C02, server: hgc02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 韩国 | 1, server: KR.nodrop.bike, port: 32123, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall.top, ws-headers: {Host: KR.nodrop.bike}, udp: true}
+  - {name: 中国-爱尔兰 IPLC C01, server: ir01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 香港HKT | 2 维护（明日）, server: hkt520.nodrop.bike, port: 13123, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /onefall, ws-headers: {Host: hkt520.nodrop.bike}, udp: true}
+  - {name: 中国-爱尔兰 IPLC C05, server: ir05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 香港az | 4 同上, server: azhk520.greenyun.tk, port: 10000, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /onefall, ws-headers: {Host: azhk520.greenyun.tk}, udp: true}
+  - {name: 美国 | 1 奈飞, server: us.nodrop.bike, port: 47891, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall, ws-headers: {Host: us.nodrop.bike}, udp: true}
+  - {name: "泰国 x1⇨Az[Netflix]", server: az.transfer.mugocloud.top, port: 27346, type: trojan, password: 3ba2dafb-58c7-3cc8-8627-d1895bafbddc, sni: az.transfer.mugocloud.top, skip-cert-verify: true, udp: true}
+  - {name: 日本 | 2, server: 139.162.121.18, port: 52312, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall, ws-headers: {Host: 139.162.121.18}, udp: true}
+  - {name: 中国-香港 IEPL Equinix HK8 C 05 1Gbps HBO TVB, server: sg15.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-香港 IPLC Equinix HK2 C 02 1Gbps HBO TVB, server: sg02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-台湾 VPDN 嘉义游戏专线 C08 Netflix 动画疯, server: twgame08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 马来西亚 | 2, server: azhk520.greenyun.tk, port: 10002, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall, ws-headers: {Host: azhk520.greenyun.tk}, udp: true}
+  - {name: 中国-台湾彰化 IEPL HiNet固接 C04 Netflix 动画疯, server: tw04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 日本 ソフトバンク C04 500Mbps 1x Netflix, server: jpsb04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: HK10|5G|HTTP|自填混淆, server: 40.83.119.40, port: 80, type: vmess, uuid: a2ca0ff3-dd39-48dd-bd30-d945a33e5e03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "英国 x1⇨长沙联通[Twitter]", server: cs.transfer.mugocloud.top, port: 22112, type: trojan, password: 3ba2dafb-58c7-3cc8-8627-d1895bafbddc, sni: cs.transfer.mugocloud.top, skip-cert-verify: true, udp: true}
+  - {name: 中国-香港 IEPL Equinix HK8 C 08 1Gbps HBO TVB, server: sg18.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 日本 | 3 杭日隧道 STCP GAME, server: cs.cu.01.211129.xyz, port: 52312, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall, ws-headers: {Host: cs.cu.01.211129.xyz}, udp: true}
+  - {name: 香港 油尖旺御金·国峯 環球全域電訊 C08, server: hgc08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 日本 x1⇨Az, server: az.transfer.mugocloud.top, port: 25418, type: trojan, password: 3ba2dafb-58c7-3cc8-8627-d1895bafbddc, sni: az.transfer.mugocloud.top, skip-cert-verify: true, udp: true}
+  - {name: 美国2 | 奈飞, server: azhk520.greenyun.tk, port: 10004, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall.top, ws-headers: {Host: azhk520.greenyun.tk}, udp: true}
+  - {name: 中国-日本 多协议标签交换虚拟专用网（三） I 1000Mbps, server: hr08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 精简 29, server: 30.sapphirerapids.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-台湾彰化 IEPL HiNet固接 C07 Netflix 动画疯, server: tw07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 台湾家宽|NetFlix|動畫瘋|解锁|8090, server: tw01.shizukuneko.com, port: 8090, type: vmess, uuid: a2ca0ff3-dd39-48dd-bd30-d945a33e5e03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: shoutingtoutiao3.10010.com}, udp: true}
+  - {name: 公告|所求皆所愿！所行皆坦途, server: az1.nodrop.bike, port: 10131, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall, ws-headers: {Host: az1.nodrop.bike}, udp: true}
+  - {name: "香港 x1⇨Az[Netflix]", server: az.transfer.mugocloud.top, port: 29456, type: trojan, password: 3ba2dafb-58c7-3cc8-8627-d1895bafbddc, sni: az.transfer.mugocloud.top, skip-cert-verify: true, udp: true}
+  - {name: 香港 油尖旺御金·国峯 環球全域電訊 C01, server: hgc01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: Azure高速港A, server: 20.187.102.193, port: 80, type: vmess, uuid: 635302ea-ba6f-4090-82bb-d1624ca23e77, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "印度 x1⇨Az[Twitter]", server: az.transfer.mugocloud.top, port: 24312, type: trojan, password: 3ba2dafb-58c7-3cc8-8627-d1895bafbddc, sni: az.transfer.mugocloud.top, skip-cert-verify: true, udp: true}
+  - {name: 中国-法国 IPLC C01, server: fr01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-香港 IPLC Equinix HK2 C 09 1Gbps HBO TVB, server: sg09.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 台湾 | 2, server: azhk520.greenyun.tk, port: 10001, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: azhk520.greenyun.tk}, udp: true}
+  - {name: 中国-日本 沪日IEPL传输 Equinix-TY8 C03 Netflix, server: jp03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 精简 26, server: 26.sapphirerapids.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 韩国 | 2 皖港隧道 STCP, server: gy.cm.01.211129.xyz, port: 42212, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall.top, ws-headers: {Host: gy.cm.01.211129.xyz}, udp: true}
+  - {name: 土耳其 | 2, server: azhk520.greenyun.tk, port: 10003, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall.top, ws-headers: {Host: azhk520.greenyun.tk}, udp: true}
+  - {name: HK18|5G|WS|头条合作A, server: 137.116.170.135, port: 80, type: vmess, uuid: a2ca0ff3-dd39-48dd-bd30-d945a33e5e03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: dm.toutiao.com}, udp: true}
+  - {name: 中国-台湾 VPDN 嘉义游戏专线 C04 Netflix 动画疯, server: twgame04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-台湾 VPDN 嘉义游戏专线 C01 Netflix 动画疯, server: twgame01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-日本 沪日IEPL传输 Equinix-TY8 C07 Netflix, server: jp07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-台湾 VPDN 嘉义游戏专线 C02 Netflix 动画疯, server: twgame02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-台湾彰化 IEPL HiNet固接 C10 Netflix 动画疯, server: tw10.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 德国 | 1 9929, server: eu1.nodrop.bike, port: 8885, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall, ws-headers: {Host: eu1.nodrop.bike}, udp: true}
+  - {name: 精简 22, server: 22.sapphirerapids.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 日本 ソフトバンク C11 500Mbps 1x Netflix, server: jpsb11.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 香港-日本 | 4 GAME, server: azhk520.greenyun.tk, port: 10006, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall, ws-headers: {Host: azhk520.greenyun.tk}, udp: true}
+  - {name: 中国-日本 多协议标签交换虚拟专用网（三） J 1000Mbps, server: hr10.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 香港-韩国 | 1, server: azhk520.greenyun.tk, port: 10009, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall.top, ws-headers: {Host: azhk520.greenyun.tk}, udp: true}
+  - {name: 中国-台湾桃园 IPLC 台湾固网 C10 Netflix 动画疯, server: twct10.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 香港-日本 | 5 GAME, server: azhk520.greenyun.tk, port: 10007, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall, ws-headers: {Host: azhk520.greenyun.tk}, udp: true}
+  - {name: 新加坡 | 2, server: 192.46.230.153, port: 443, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall.top, ws-headers: {Host: 192.46.230.153}, udp: true}
+  - {name: 中国-日本 多协议标签交换虚拟专用网（三） A 1000Mbps, server: hr01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-台湾桃园 IPLC 台湾固网 C11 Netflix 动画疯, server: twct11.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 韩国 전라북도 전주시 商宽 C 04, server: kr09.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: cns, server: 127.0.0.1, port: 80, type: vmess, uuid: a2ca0ff3-dd39-48dd-bd30-d945a33e5e03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cns://yyjsd@47.100.255.56:443}, udp: true}
+  - {name: 中国-台湾 VPDN 嘉义游戏专线 C05 Netflix 动画疯, server: twgame05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 香港 油尖旺御金·国峯 環球全域電訊 C07, server: hgc07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-台湾桃园 IPLC 台湾固网 C09 Netflix 动画疯, server: twct09.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 新加坡 | 1, server: azhk520.greenyun.tk, port: 10008, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall.top, ws-headers: {Host: azhk520.greenyun.tk}, udp: true}
+  - {name: 中国-台湾彰化 IEPL HiNet固接 C05 Netflix 动画疯, server: tw05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-台湾桃园 IPLC 台湾固网 C02 Netflix 动画疯, server: twct02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-台湾 VPDN 嘉义游戏专线 C09 Netflix 动画疯, server: twgame09.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 日本 ソフトバンク C08 500Mbps 1x Netflix, server: jpsb08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 精简 27, server: 27.sapphirerapids.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 日本 | 1, server: 139.162.116.183, port: 443, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall, ws-headers: {Host: 139.162.116.183}, udp: true}
+  - {name: 韩国 京畿道板桥 原生游戏解锁 C 08, server: krgame08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-台湾 VPDN 嘉义游戏专线 C07 Netflix 动画疯, server: twgame07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-日本 沪日IEPL传输 Equinix-TY8 C04 Netflix, server: jp04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 日本阿伟科技@TG/油管, server: 155.248.183.96, port: 45565, type: vmess, uuid: 44c36ab6-f82b-4a59-97f0-331066ea3fe8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
+  - {name: 中国-韩国 IEPL（三）D 1Gbps, server: kr04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-日本 沪日IEPL传输 Equinix-TY8 C05 Netflix, server: jp05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 日本 ソフトバンク C03 500Mbps 1x Netflix, server: jpsb03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 湖南-马来西亚 | 3 STCP, server: cs.cu.02.211129.xyz, port: 10690, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall, ws-headers: {Host: cs.cu.02.211129.xyz}, udp: true}
+  - {name: 中国-台湾彰化 IEPL HiNet固接 C08 Netflix 动画疯, server: tw08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-台湾 VPDN 嘉义游戏专线 C10 Netflix 动画疯, server: twgame10.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
   - {name: 中国-台湾桃园 IPLC 台湾固网 C01 Netflix 动画疯, server: twct01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 免费日本AWS|80|轩赞助, server: 35.72.7.219, port: 80, type: vmess, uuid: a2ca0ff3-dd39-48dd-bd30-d945a33e5e03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 35.72.7.219}, udp: true}
+  - {name: HK8|10G|HTTP|独享|1.5x, server: 207.46.154.121, port: 80, type: vmess, uuid: a2ca0ff3-dd39-48dd-bd30-d945a33e5e03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 韩国 京畿道板桥 原生游戏解锁 C 02, server: krgame02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-印度 班加罗尔 एयरटेल IPLC C01, server: in01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-香港 IEPL Equinix HK8 C 07 1Gbps HBO TVB, server: sg17.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 香港 油尖旺御金·国峯 環球全域電訊 C04, server: hgc04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 韩国 京畿道板桥 原生游戏解锁 C 01, server: krgame01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 精简 24, server: 24.sapphirerapids.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-日本 沪日IEPL传输 Equinix-TY8 C08 Netflix, server: jp08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-印度 班加罗尔 एयरटेल IPLC C08, server: in08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-印度 班加罗尔 एयरटेल IPLC C03, server: in03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-日本 多协议标签交换虚拟专用网（三） F 1000Mbps, server: hr06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 美国高级 IEPL 中继 C05, server: us05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-日本 多协议标签交换虚拟专用网（三） C 1000Mbps, server: hr03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 韩国-新加坡 | 1, server: KR2.nodrop.bike, port: 20000, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall.top, ws-headers: {Host: KR2.nodrop.bike}, udp: true}
+  - {name: 中国-台湾桃园 IPLC 台湾固网 C03 Netflix 动画疯, server: twct03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 韩国 전라북도 전주시 商宽 C 03, server: kr08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-台湾桃园 IPLC 台湾固网 C08 Netflix 动画疯, server: twct08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-法国 IPLC C05, server: fr05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 韩国 京畿道板桥 原生游戏解锁 C 05, server: krgame05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 印度2-CN2-倍率1.0, server: zz.in2s.se.sx.cn, port: 19012, type: ssr, cipher: chacha20-ietf, password: we.sc.cn, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 618:1luEgh, obfs-param: 51c32618.microsoft.com, udp: true}
+  - {name: 中国-日本 多协议标签交换虚拟专用网（三） D 1000Mbps, server: hr04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 韩国 전라북도 전주시 商宽 C 02, server: kr07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 日本 ソフトバンク C01 500Mbps 1x Netflix, server: jpsb01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-韩国 IEPL（三）A 1Gbps, server: kr01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-台湾彰化 IEPL HiNet固接 C02 Netflix 动画疯, server: tw02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-日本 多协议标签交换虚拟专用网（三） G 1000Mbps, server: hr07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: "美国 x1⇨Az[Twitter]", server: az.transfer.mugocloud.top, port: 26316, type: trojan, password: 3ba2dafb-58c7-3cc8-8627-d1895bafbddc, sni: az.transfer.mugocloud.top, skip-cert-verify: true, udp: true}
+  - {name: 美国 | 3 奈飞, server: usnf.nodrop.bike, port: 443, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall.top, ws-headers: {Host: usnf.nodrop.bike}, udp: true}
+  - {name: 中国-台湾桃园 IPLC 台湾固网 C07 Netflix 动画疯, server: twct07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-韩国 IEPL（三）B 1Gbps, server: kr02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: HK11|5G|HTTP, server: 65.52.185.115, port: 80, type: vmess, uuid: a2ca0ff3-dd39-48dd-bd30-d945a33e5e03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国-台湾 VPDN 嘉义游戏专线 C06 Netflix 动画疯, server: twgame06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: HK2|10G|HTTP, server: 20.24.73.108, port: 80, type: vmess, uuid: a2ca0ff3-dd39-48dd-bd30-d945a33e5e03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 精简 25, server: 25.sapphirerapids.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 精简 21, server: 21.sapphirerapids.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 土耳其 | 1 无限流量！, server: rq.nodrop.bike, port: 443, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall.top, ws-headers: {Host: rq.nodrop.bike}, udp: true}
+  - {name: 中国-香港 IPLC Equinix HK2 C 04 1Gbps HBO TVB, server: sg04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-日本 沪日IEPL传输 Equinix-TY8 C06 Netflix, server: jp06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 韩国 京畿道板桥 原生游戏解锁 C 07, server: krgame07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-印度 班加罗尔 एयरटेल IPLC C06, server: in06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-日本 多协议标签交换虚拟专用网（三） B 1000Mbps, server: hr02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 美国 x0.8⇨Az, server: az.transfer.mugocloud.top, port: 26336, type: trojan, password: 3ba2dafb-58c7-3cc8-8627-d1895bafbddc, sni: az.transfer.mugocloud.top, skip-cert-verify: true, udp: true}
+  - {name: 韩国 전라북도 전주시 商宽 C 01, server: kr06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: US | 72, server: 45.79.237.103, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 美国高级 IEPL 中继 C01, server: us01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: HK6|10G|HTTP, server: 20.205.115.179, port: 80, type: vmess, uuid: a2ca0ff3-dd39-48dd-bd30-d945a33e5e03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国-台湾桃园 IPLC 台湾固网 C05 Netflix 动画疯, server: twct05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-韩国 IEPL（三）E 1Gbps, server: kr05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-印度 班加罗尔 एयरटेल IPLC C09, server: in09.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-澳大利亚 IPLC 悉尼 C04, server: au04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 韩国 京畿道板桥 原生游戏解锁 C 03, server: krgame03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: "荷兰 x1⇨Az[Twitter]", server: az.transfer.mugocloud.top, port: 23412, type: trojan, password: 3ba2dafb-58c7-3cc8-8627-d1895bafbddc, sni: az.transfer.mugocloud.top, skip-cert-verify: true, udp: true}
+  - {name: "德国 x1⇨长沙联通[Twitter]", server: cs.transfer.mugocloud.top, port: 21112, type: trojan, password: 3ba2dafb-58c7-3cc8-8627-d1895bafbddc, sni: cs.transfer.mugocloud.top, skip-cert-verify: true, udp: true}
+  - {name: 日本 ソフトバンク C02 500Mbps 1x Netflix, server: jpsb02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 香港 油尖旺御金·国峯 名氣通電訊 C07, server: hkhe07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 俄罗斯1-CN2-倍率1.0, server: zz.ru1s.se.sx.cn, port: 14001, type: ssr, cipher: chacha20-ietf, password: we.sc.cn, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 618:1luEgh, obfs-param: 51c32618.microsoft.com, udp: true}
+  - {name: 马来西亚 | 1, server: ML.nodrop.bike, port: 10690, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall, ws-headers: {Host: ML.nodrop.bike}, udp: true}
+  - {name: 台湾 | 1 无限流量！, server: tw1.nodrop.bike, port: 80, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tw1.nodrop.bike}, udp: true}
+  - {name: 香港 油尖旺御金·国峯 環球全域電訊 C06, server: hgc06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-日本 沪日IEPL传输 Equinix-TY8 C02 Netflix, server: jp02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 韩国-日本 | 1, server: KR2.nodrop.bike, port: 20005, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall, ws-headers: {Host: KR2.nodrop.bike}, udp: true}
+  - {name: HK14|10G|HTTP|809测试, server: 65.52.185.115, port: 809, type: vmess, uuid: a2ca0ff3-dd39-48dd-bd30-d945a33e5e03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本阿伟科技@TG/油管 2, server: 94.wowogg.cyou, port: 52294, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "荷兰 x1⇨长沙联通[Twitter]", server: cs.transfer.mugocloud.top, port: 21412, type: trojan, password: 3ba2dafb-58c7-3cc8-8627-d1895bafbddc, sni: cs.transfer.mugocloud.top, skip-cert-verify: true, udp: true}
+  - {name: 中国-英国伦敦 IPLC BBC C02, server: uk02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 韩国 전라북도 전주시 商宽 C 05, server: kr10.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 美国阿伟科技@TG/油管, server: vir2.oracleusa.ml, port: 2053, type: vmess, uuid: 78963f70-8605-4ffd-902e-14f824617487, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: vir2.oracleusa.ml}, udp: true}
+  - {name: TG售后群|复制浏览器打开|https://t.me/yyjsd, server: 127.0.0.1, port: 80, type: vmess, uuid: a2ca0ff3-dd39-48dd-bd30-d945a33e5e03, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}, udp: true}
+  - {name: 韩国 京畿道板桥 原生游戏解锁 C 10, server: krgame10.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 美国高级 IEPL 中继 C02, server: us02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: HK9|10G|WS|独享|1.5x, server: 137.116.169.230, port: 80, type: vmess, uuid: a2ca0ff3-dd39-48dd-bd30-d945a33e5e03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 137.116.169.230}, udp: true}
+  - {name: 新加坡4-IEPL-倍率1.0, server: zz.sg4s.se.sx.cn, port: 13004, type: ssr, cipher: chacha20-ietf, password: we.sc.cn, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 618:1luEgh, obfs-param: 51c32618.microsoft.com, udp: true}
+  - {name: "德国 x1⇨Az[Twitter]", server: az.transfer.mugocloud.top, port: 22212, type: trojan, password: 3ba2dafb-58c7-3cc8-8627-d1895bafbddc, sni: az.transfer.mugocloud.top, skip-cert-verify: true, udp: true}
+  - {name: 日本 ソフトバンク C12 500Mbps 1x Netflix, server: jpsb12.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 免费美国AWS|TCP80|轩赞助, server: 3.143.168.88, port: 80, type: vmess, uuid: a2ca0ff3-dd39-48dd-bd30-d945a33e5e03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 韩国 京畿道板桥 原生游戏解锁 C 04, server: krgame04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 美国高级 IEPL 中继 C04, server: us04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-法国 IPLC C02, server: fr02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: "台湾 x1⇨长沙联通[原生][Netflix]", server: cs.transfer.mugocloud.top, port: 23156, type: trojan, password: 3ba2dafb-58c7-3cc8-8627-d1895bafbddc, sni: cs.transfer.mugocloud.top, skip-cert-verify: true, udp: true}
+  - {name: "英国 x1⇨Az[Twitter]", server: az.transfer.mugocloud.top, port: 22332, type: trojan, password: 3ba2dafb-58c7-3cc8-8627-d1895bafbddc, sni: az.transfer.mugocloud.top, skip-cert-verify: true, udp: true}
+  - {name: 中国-台湾彰化 IEPL HiNet固接 C03 Netflix 动画疯, server: tw03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
   - {name: 德国1-CN2-倍率1.0, server: zz.de1s.se.sx.cn, port: 19005, type: ssr, cipher: chacha20-ietf, password: we.sc.cn, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 618:1luEgh, obfs-param: 51c32618.microsoft.com, udp: true}
   - {name: 中国-英国伦敦 IPLC BBC C04, server: uk04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-日本 多协议标签交换虚拟专用网（三） G 1000Mbps, server: hr07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 美国阿伟科技@TG/油管 3, server: cmi.db-link.in, port: 21154, type: vmess, uuid: a9a8f171-6284-3965-a023-c5e978e084a5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /db, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
-  - {name: 美国实验性 IEPL 中继 C01, server: us06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 日本 ソフトバンク C11 500Mbps 1x Netflix, server: jpsb11.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 新加坡 Magic IEPL 中继 C04 Netflix, server: sgp09.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 新加坡 Legacy Magic IEPL 中继 C02 Netflix, server: sgp02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-英国伦敦 IPLC BBC C03, server: uk03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-英国伦敦 IPLC BBC C02, server: uk02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 新加坡 Magic IEPL 中继 C02 Netflix, server: sgp07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 美国阿伟科技@TG/油管 4, server: usa.oracleusa.ml, port: 2053, type: vmess, uuid: 78963f70-8605-4ffd-902e-14f824617487, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: usa.oracleusa.ml}, udp: true}
-  - {name: 中国-英国伦敦 IPLC BBC C06, server: uk06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 【V2】美国·芝加哥·200Mbps, server: v2.usa4.hgwc.xyz, port: 10005, type: vmess, uuid: 5d812995-b95c-47fc-a562-750173aeb305, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v2.usa4.hgwc.xyz}, udp: true}
-  - {name: 中国-澳大利亚 IPLC 悉尼 C04, server: au04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 俄罗斯1-CN2-倍率1.0, server: zz.ru1s.se.sx.cn, port: 14001, type: ssr, cipher: chacha20-ietf, password: we.sc.cn, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 618:1luEgh, obfs-param: 51c32618.microsoft.com, udp: true}
-  - {name: 新加坡 Legacy Magic IEPL 中继 C03 Netflix, server: sgp03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 新加坡 Magic IEPL 中继 C03 Netflix, server: sgp08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 美国阿伟科技@TG/油管 5, server: usa.oracleusa.ml, port: 2053, type: vmess, uuid: 78963f70-8605-4ffd-902e-14f824617487, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: usa.oracleusa.ml}, udp: true}
-  - {name: 美国阿伟科技@TG/油管 6, server: vir.oracleusa.ml, port: 2053, type: vmess, uuid: 78963f70-8605-4ffd-902e-14f824617487, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: vir.oracleusa.ml}, udp: true}
-  - {name: 土耳其1-CN2-倍率1.0, server: zz.tr1s.se.sx.cn, port: 19003, type: ssr, cipher: chacha20-ietf, password: we.sc.cn, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 618:1luEgh, obfs-param: 51c32618.microsoft.com, udp: true}
-  - {name: 美国高级 IEPL 中继 C01, server: us01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 美国高级 IEPL 中继 C02, server: us02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 美国阿伟科技@TG/油管 7, server: vir2.oracleusa.ml, port: 2053, type: vmess, uuid: 78963f70-8605-4ffd-902e-14f824617487, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: vir2.oracleusa.ml}, udp: true}
-  - {name: 土耳其2-CN2-倍率1.0, server: zz.tr2s.se.sx.cn, port: 19004, type: ssr, cipher: chacha20-ietf, password: we.sc.cn, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 618:1luEgh, obfs-param: 51c32618.microsoft.com, udp: true}
-  - {name: 新加坡 Magic IEPL 中继 C05 Netflix, server: sgp10.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-加拿大 IPLC C05, server: ca05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 美国阿伟科技@TG/油管 8, server: 104.16.160.114, port: 443, type: vmess, uuid: 4daecd66-d4e2-4577-bf79-47c90daa716d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /jackson2025_vws, ws-headers: {Host: jackson2025.cf}, udp: true}
-  - {name: 中国-加拿大 IPLC C01, server: ca01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 美国阿伟科技@TG/油管 9, server: 7.earths.team, port: 443, type: trojan, password: 03f9d1c7-40f9-475c-bf46-e3883ee7da5f, sni: 7.earths.team, skip-cert-verify: true, udp: true}
-  - {name: 中国-香港 IPLC Equinix HK2 C 02 1Gbps HBO TVB, server: sg02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 新加坡 Legacy Magic IEPL 中继 C01 Netflix, server: sgp01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 香港阿伟科技@TG/油管, server: 40.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 40.earths.team, skip-cert-verify: true, udp: true}
-  - {name: 中国-加拿大 IPLC C03, server: ca03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-印度 班加罗尔 एयरटेल IPLC C01, server: in01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 美国阿伟科技@TG/油管 10, server: vir2.oracleusa.ml, port: 2053, type: vmess, uuid: 78963f70-8605-4ffd-902e-14f824617487, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: vir2.oracleusa.ml}, udp: true}
-  - {name: 中国-韩国 IEPL（三）E 1Gbps, server: kr05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 美国阿伟科技@TG/油管 11, server: ex.oracleusa.ml, port: 2053, type: vmess, uuid: 78963f70-8605-4ffd-902e-14f824617487, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ex.oracleusa.ml}, udp: true}
-  - {name: 香港 油尖旺御金·国峯 環球全域電訊 C02, server: hgc02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-爱尔兰 IPLC C05, server: ir05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 新加坡高级 IEPL 中继 C02 Netflix, server: sgp12.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 澳大利亚1-CN2-倍率1.0, server: zz.au1s.se.sx.cn, port: 19007, type: ssr, cipher: chacha20-ietf, password: we.sc.cn, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 618:1luEgh, obfs-param: 51c32618.microsoft.com, udp: true}
-  - {name: 美国高级 IEPL 中继 C04, server: us04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-加拿大 IPLC C04, server: ca04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 新加坡高级 IEPL 中继 C01 Netflix, server: sgp11.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 美国阿伟科技@TG/油管 12, server: ru.oracleusa.ml, port: 2053, type: vmess, uuid: 78963f70-8605-4ffd-902e-14f824617487, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ru.oracleusa.ml}, udp: true}
-  - {name: 美国实验性 IEPL 中继 C02, server: us07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 美国阿伟科技@TG/油管 13, server: cmi.db-link.in, port: 21153, type: vmess, uuid: a9a8f171-6284-3965-a023-c5e978e084a5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /db, ws-headers: {Host: us01.db-link.in}, udp: true}
   - {name: 澳大利亚2-CN2-倍率1.0, server: zz.au2s.se.sx.cn, port: 19008, type: ssr, cipher: chacha20-ietf, password: we.sc.cn, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 618:1luEgh, obfs-param: 51c32618.microsoft.com, udp: true}
-  - {name: 【V2】俄罗斯·150Mbps | 电信, server: v2.ru3.hgwc.xyz, port: 10003, type: vmess, uuid: 5d812995-b95c-47fc-a562-750173aeb305, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v2.ru3.hgwc.xyz}, udp: true}
-  - {name: 【V3】台湾·1Gbps, server: v2.tw.hgwc.xyz, port: 11070, type: vmess, uuid: 5d812995-b95c-47fc-a562-750173aeb305, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v2.tw.hgwc.xyz}, udp: true}
-  - {name: 美国高级 IEPL 中继 C05, server: us05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 中国-印度 班加罗尔 एयरटेल IPLC C06, server: in06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
-  - {name: 新加坡高级 IEPL 中继 C03 Netflix, server: sgp13.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 新加坡 x1 Az直连, server: az.transfer.sg.mugocloud.top, port: 27561, type: trojan, password: 3ba2dafb-58c7-3cc8-8627-d1895bafbddc, sni: az.transfer.sg.mugocloud.top, skip-cert-verify: true, udp: true}
+  - {name: 印度1-CN2-倍率1.0, server: zz.in1s.se.sx.cn, port: 19011, type: ssr, cipher: chacha20-ietf, password: we.sc.cn, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 618:1luEgh, obfs-param: 51c32618.microsoft.com, udp: true}
+  - {name: 印度阿伟科技@TG/油管, server: 155.248.244.247, port: 45565, type: vmess, uuid: 4cfa02c7-e7b3-48e2-c8dc-7bb9bbae36ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /liangting, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
+  - {name: 美国阿伟科技@TG/油管 2, server: usa.oracleusa.ml, port: 2053, type: vmess, uuid: 78963f70-8605-4ffd-902e-14f824617487, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: usa.oracleusa.ml}, udp: true}
   - {name: 美国实验性 IEPL 中继 C03, server: us08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 土耳其1-CN2-倍率1.0, server: zz.tr1s.se.sx.cn, port: 19003, type: ssr, cipher: chacha20-ietf, password: we.sc.cn, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 618:1luEgh, obfs-param: 51c32618.microsoft.com, udp: true}
+  - {name: 中国-香港 IEPL Equinix HK8 C 03 1Gbps HBO TVB, server: sg13.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 美国阿伟科技@TG/油管 3, server: ex.oracleusa.ml, port: 2053, type: vmess, uuid: 78963f70-8605-4ffd-902e-14f824617487, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ex.oracleusa.ml}, udp: true}
+  - {name: 免费美国AWS|80|轩赞助①, server: 44.200.116.240, port: 80, type: vmess, uuid: a2ca0ff3-dd39-48dd-bd30-d945a33e5e03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 44.200.116.240}, udp: true}
+  - {name: 美国 | 4, server: rnus.nodrop.bike, port: 47891, type: vmess, uuid: c9c5133f-80ae-4712-bb18-36086e9e9468, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /onefall, ws-headers: {Host: rnus.nodrop.bike}, udp: true}
+  - {name: 韩国 京畿道板桥 原生游戏解锁 C 09, server: krgame09.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-印度 班加罗尔 एयरटेल IPLC C07, server: in07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 新加坡 Legacy Magic IEPL 中继 C01 Netflix, server: sgp01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-加拿大 IPLC C04, server: ca04.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 美国阿伟科技@TG/油管 4, server: cmi.db-link.in, port: 21154, type: vmess, uuid: a9a8f171-6284-3965-a023-c5e978e084a5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /db, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
+  - {name: 中国-印度 班加罗尔 एयरटेल IPLC C05, server: in05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-英国伦敦 IPLC BBC C06, server: uk06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 美国实验性 IEPL 中继 C02, server: us07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 美国阿伟科技@TG/油管 5, server: vir2.oracleusa.ml, port: 2053, type: vmess, uuid: 78963f70-8605-4ffd-902e-14f824617487, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: vir2.oracleusa.ml}, udp: true}
+  - {name: 美国阿伟科技@TG/油管 6, server: cmi.db-link.in, port: 21153, type: vmess, uuid: a9a8f171-6284-3965-a023-c5e978e084a5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /db, ws-headers: {Host: us01.db-link.in}, udp: true}
+  - {name: 【V2】韩国·150Mbps | 流媒体, server: v2.kr4.hgwc.xyz, port: 10006, type: vmess, uuid: 5d812995-b95c-47fc-a562-750173aeb305, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v2.kr4.hgwc.xyz}, udp: true}
+  - {name: 新加坡 Magic IEPL 中继 C05 Netflix, server: sgp10.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-加拿大 IPLC C01, server: ca01.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-加拿大 IPLC C03, server: ca03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 澳大利亚1-CN2-倍率1.0, server: zz.au1s.se.sx.cn, port: 19007, type: ssr, cipher: chacha20-ietf, password: we.sc.cn, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 618:1luEgh, obfs-param: 51c32618.microsoft.com, udp: true}
+  - {name: 中国-台湾彰化 IEPL HiNet固接 C06 Netflix 动画疯, server: tw06.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 土耳其2-CN2-倍率1.0, server: zz.tr2s.se.sx.cn, port: 19004, type: ssr, cipher: chacha20-ietf, password: we.sc.cn, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 618:1luEgh, obfs-param: 51c32618.microsoft.com, udp: true}
+  - {name: 新加坡 Legacy Magic IEPL 中继 C02 Netflix, server: sgp02.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 美国阿伟科技@TG/油管 7, server: ru.oracleusa.ml, port: 2053, type: vmess, uuid: 78963f70-8605-4ffd-902e-14f824617487, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ru.oracleusa.ml}, udp: true}
+  - {name: 美国阿伟科技@TG/油管 8, server: 104.16.160.114, port: 443, type: vmess, uuid: 4daecd66-d4e2-4577-bf79-47c90daa716d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /jackson2025_vws, ws-headers: {Host: jackson2025.cf}, udp: true}
+  - {name: 新加坡 Magic IEPL 中继 C03 Netflix, server: sgp08.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-英国伦敦 IPLC BBC C03, server: uk03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 新加坡 Legacy Magic IEPL 中继 C03 Netflix, server: sgp03.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 印度阿伟科技@TG/油管 2, server: 155.248.242.150, port: 45565, type: vmess, uuid: ece341dc-4d70-4f03-a21a-e75136b90e7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /blog, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
+  - {name: 新加坡 Magic IEPL 中继 C02 Netflix, server: sgp07.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 新加坡 Magic IEPL 中继 C04 Netflix, server: sgp09.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 中国-加拿大 IPLC C05, server: ca05.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
+  - {name: 新加坡高级 IEPL 中继 C02 Netflix, server: sgp12.cathayroute.com, port: 33400, type: ss, cipher: rc4-md5, password: SRCFiB, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港 油尖旺御金·国峯 環球全域電訊 C09
-      - 香港 油尖旺御金·国峯 環球全域電訊 C05
-      - 香港4-IEPL-倍率1.0
-      - 香港5-IEPL-倍率1.0
-      - 中国-香港 IPLC Equinix HK2 C 01 1Gbps HBO TVB
-      - 中国-香港 IEPL Equinix HK8 C 07 1Gbps HBO TVB
-      - JP | 59
-      - 日本4-IEPL-倍率1.0
-      - 中国-爱尔兰 IPLC C03
-      - 中国-爱尔兰 IPLC C01
-      - 香港 油尖旺御金·国峯 名氣通電訊 C08
-      - 中国-香港 IEPL Equinix HK8 C 01 1Gbps HBO TVB
-      - 中国-香港 IPLC Equinix HK2 C 04 1Gbps HBO TVB
-      - 中国-香港 IPLC Equinix HK2 C 07 1Gbps HBO TVB
-      - 日本阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C06 Netflix
-      - 中国-香港 IEPL Equinix HK8 C 02 1Gbps HBO TVB
-      - 香港 油尖旺御金·国峯 名氣通電訊 C01
-      - 中国-台湾彰化 IEPL HiNet固接 C08 Netflix 动画疯
-      - 香港 油尖旺御金·国峯 名氣通電訊 C09
-      - 日本阿伟科技@TG/油管 2
-      - 香港 油尖旺御金·国峯 名氣通電訊 C04
-      - 中国-法国 IPLC C03
-      - 韩国 전라북도 전주시 商宽 C 01
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C02 Netflix
-      - 中国-日本 多协议标签交换虚拟专用网（三） I 1000Mbps
-      - 中国-香港 IEPL Equinix HK8 C 08 1Gbps HBO TVB
-      - 日本阿伟科技@TG/油管 3
-      - 美国阿伟科技@TG/油管 2
-      - 香港 油尖旺御金·国峯 環球全域電訊 C04
-      - 韩国 京畿道板桥 原生游戏解锁 C 04
-      - ASYNCHRONOUS TRANSFERMODE 永久虚通路连接PVCC C01
-      - 香港 油尖旺御金·国峯 名氣通電訊 C02
-      - 香港 油尖旺御金·国峯 環球全域電訊 C07
-      - 中国-爱尔兰 IPLC C04
-      - 中国-香港 IEPL Equinix HK8 C 10 1Gbps HBO TVB
-      - 中国-法国 IPLC C02
-      - 日本 ソフトバンク C05 500Mbps 1x Netflix
-      - 中国-台湾桃园 IPLC 台湾固网 C06 Netflix 动画疯
-      - 日本 ソフトバンク C02 500Mbps 1x Netflix
-      - 日本 ソフトバンク C12 500Mbps 1x Netflix
-      - 日本1-IEPL-倍率1.0
-      - 中国-台湾桃园 IPLC 台湾固网 C03 Netflix 动画疯
-      - 中国-日本 多协议标签交换虚拟专用网（三） D 1000Mbps
-      - 中国-爱尔兰 IPLC C02
-      - 中国-香港 IEPL Equinix HK8 C 06 1Gbps HBO TVB
-      - 精简 27
-      - 中国-法国 IPLC C01
-      - 香港 油尖旺御金·国峯 環球全域電訊 C08
-      - 中国-法国 IPLC C04
-      - 韩国 京畿道板桥 原生游戏解锁 C 01
-      - 韩国 京畿道板桥 原生游戏解锁 C 08
-      - 中国-台湾 VPDN 嘉义游戏专线 C01 Netflix 动画疯
-      - 日本 ソフトバンク C01 500Mbps 1x Netflix
-      - 中国-日本 多协议标签交换虚拟专用网（三） B 1000Mbps
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C04 Netflix
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C01 Netflix
-      - 韩国 전라북도 전주시 商宽 C 05
-      - 日本 ソフトバンク C08 500Mbps 1x Netflix
-      - 中国-台湾 VPDN 嘉义游戏专线 C03 Netflix 动画疯
-      - 中国-香港 IPLC Equinix HK2 C 03 1Gbps HBO TVB
-      - 香港 油尖旺御金·国峯 環球全域電訊 C06
-      - 精简 24
-      - 韩国 전라북도 전주시 商宽 C 02
-      - 韩国 京畿道板桥 原生游戏解锁 C 05
-      - 韩国 京畿道板桥 原生游戏解锁 C 10
-      - 中国-韩国 IEPL（三）A 1Gbps
-      - 香港 油尖旺御金·国峯 名氣通電訊 C07
-      - 中国-日本 多协议标签交换虚拟专用网（三） E 1000Mbps
-      - 中国-日本 多协议标签交换虚拟专用网（三） J 1000Mbps
-      - 美国5-IEPL-倍率1.0
-      - 中国-台湾彰化 IEPL HiNet固接 C09 Netflix 动画疯
-      - 中国-香港 IEPL Equinix HK8 C 05 1Gbps HBO TVB
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C03 Netflix
-      - 中国-香港 IEPL Equinix HK8 C 03 1Gbps HBO TVB
-      - 中国-香港 IPLC Equinix HK2 C 09 1Gbps HBO TVB
-      - 中国-台湾桃园 IPLC 台湾固网 C10 Netflix 动画疯
-      - 中国-印度 班加罗尔 एयरटेल IPLC C08
-      - 中国-日本 多协议标签交换虚拟专用网（三） A 1000Mbps
-      - 台湾5-IEPL-倍率1.0
-      - 中国-台湾桃园 IPLC 台湾固网 C02 Netflix 动画疯
-      - 韩国 京畿道板桥 原生游戏解锁 C 03
-      - 日本6-IEPL-倍率1.0
-      - 日本阿伟科技@TG/油管 4
-      - 中国-法国 IPLC C05
-      - 香港 油尖旺御金·国峯 環球全域電訊 C03
-      - 中国-台湾彰化 IEPL HiNet固接 C06 Netflix 动画疯
-      - 中国-韩国 IEPL（三）D 1Gbps
-      - 中国-韩国 IEPL（三）C 1Gbps
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C05 Netflix
-      - 韩国 京畿道板桥 原生游戏解锁 C 07
-      - 中国-台湾 VPDN 嘉义游戏专线 C02 Netflix 动画疯
-      - 中国-日本 多协议标签交换虚拟专用网（三） C 1000Mbps
-      - 日本 ソフトバンク C07 500Mbps 1x Netflix
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C08 Netflix
-      - 中国-台湾桃园 IPLC 台湾固网 C05 Netflix 动画疯
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C07 Netflix
-      - 中国-印度 班加罗尔 एयरटेल IPLC C03
-      - 韩国 京畿道板桥 原生游戏解锁 C 02
-      - 日本 ソフトバンク C03 500Mbps 1x Netflix
-      - 中国-台湾桃园 IPLC 台湾固网 C07 Netflix 动画疯
-      - 韩国 전라북도 전주시 商宽 C 03
-      - 台湾3-IEPL-倍率1.0
-      - 美国1-IEPL-倍率1.0
-      - 精简 29
-      - 中国-台湾 VPDN 嘉义游戏专线 C05 Netflix 动画疯
-      - 中国-台湾 VPDN 嘉义游戏专线 C10 Netflix 动画疯
-      - 中国-印度 班加罗尔 एयरटेल IPLC C05
-      - 印度1-CN2-倍率1.0
-      - 中国-印度 班加罗尔 एयरटेल IPLC C07
-      - 新加坡1-IEPL-倍率1.0
-      - 中国-台湾桃园 IPLC 台湾固网 C04 Netflix 动画疯
-      - 中国-台湾 VPDN 嘉义游戏专线 C07 Netflix 动画疯
-      - 美国2-IEPL-倍率1.0
-      - 日本 ソフトバンク C06 500Mbps 1x Netflix
-      - 中国-韩国 IEPL（三）B 1Gbps
-      - 中国-台湾 VPDN 嘉义游戏专线 C06 Netflix 动画疯
-      - 中国-香港 IEPL Equinix HK8 C 04 1Gbps HBO TVB
-      - 中国-台湾 VPDN 嘉义游戏专线 C09 Netflix 动画疯
-      - 中国-台湾彰化 IEPL HiNet固接 C04 Netflix 动画疯
-      - 精简 28
-      - 精简 23
-      - 精简 21
+      - 香港阿伟科技@TG/油管
       - az-hk
-      - 中国-台湾桃园 IPLC 台湾固网 C09 Netflix 动画疯
-      - 中国-台湾彰化 IEPL HiNet固接 C07 Netflix 动画疯
-      - 中国-印度 班加罗尔 एयरटेल IPLC C09
-      - 新加坡4-IEPL-倍率1.0
-      - 日本 ソフトバンク C10 500Mbps 1x Netflix
-      - 中国-台湾彰化 IEPL HiNet固接 C10 Netflix 动画疯
-      - 中国-台湾 VPDN 嘉义游戏专线 C08 Netflix 动画疯
-      - 精简 22
-      - 香港 油尖旺御金·国峯 環球全域電訊 C01
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C01 Netflix
+      - 中国-法国 IPLC C04
+      - 中国-香港 IEPL Equinix HK8 C 04 1Gbps HBO TVB
+      - 香港 油尖旺御金·国峯 環球全域電訊 C03
+      - 中国-台湾桃园 IPLC 台湾固网 C06 Netflix 动画疯
+      - 香港 油尖旺御金·国峯 環球全域電訊 C09
+      - 中国-香港 IEPL Equinix HK8 C 01 1Gbps HBO TVB
+      - 杭州-德国 | 2 9929
+      - 中国-爱尔兰 IPLC C02
       - 中国-香港 IEPL Equinix HK8 C 09 1Gbps HBO TVB
-      - 中国-台湾桃园 IPLC 台湾固网 C11 Netflix 动画疯
-      - 精简 26
-      - 韩国 전라북도 전주시 商宽 C 04
-      - 中国-台湾 VPDN 嘉义游戏专线 C04 Netflix 动画疯
-      - 精简 25
-      - 中国-台湾桃园 IPLC 台湾固网 C08 Netflix 动画疯
-      - US | 72
-      - 香港 油尖旺御金·国峯 名氣通電訊 C06
-      - 中国-台湾彰化 IEPL HiNet固接 C05 Netflix 动画疯
-      - 日本 ソフトバンク C04 500Mbps 1x Netflix
+      - 韩国 x1 Az直连
+      - 中国-台湾 VPDN 嘉义游戏专线 C03 Netflix 动画疯
+      - 香港 油尖旺御金·国峯 名氣通電訊 C08
+      - 香港-美国 | 5
+      - 新加坡 x1⇨Az[Twitter]
+      - 日本 ソフトバンク C10 500Mbps 1x Netflix
+      - 中国-韩国 IEPL（三）C 1Gbps
       - 日本 ソフトバンク C09 500Mbps 1x Netflix
-      - 韩国 京畿道板桥 原生游戏解锁 C 09
-      - 印度阿伟科技@TG/油管
-      - 【V2】韩国·150Mbps | 流媒体
-      - 中国-台湾彰化 IEPL HiNet固接 C02 Netflix 动画疯
-      - 印度2-CN2-倍率1.0
-      - 中国-台湾彰化 IEPL HiNet固接 C03 Netflix 动画疯
-      - 印度阿伟科技@TG/油管 2
-      - 中国-澳大利亚 IPLC 悉尼 C02
-      - 中国-日本 多协议标签交换虚拟专用网（三） F 1000Mbps
+      - 日本 ソフトバンク C07 500Mbps 1x Netflix
+      - 中国-法国 IPLC C03
+      - 台湾 x1⇨Az[Netflix]
+      - 中国-台湾彰化 IEPL HiNet固接 C09 Netflix 动画疯
+      - 有问题发工单|不提供技术支持
+      - HK5|10G|WS
+      - 中国-台湾桃园 IPLC 台湾固网 C04 Netflix 动画疯
+      - 香港 油尖旺御金·国峯 名氣通電訊 C06
+      - 香港 油尖旺御金·国峯 環球全域電訊 C02
+      - 韩国 | 1
+      - 中国-爱尔兰 IPLC C01
+      - 香港HKT | 2 维护（明日）
+      - 中国-爱尔兰 IPLC C05
+      - 香港az | 4 同上
+      - 美国 | 1 奈飞
+      - 泰国 x1⇨Az[Netflix]
+      - 日本 | 2
+      - 中国-香港 IEPL Equinix HK8 C 05 1Gbps HBO TVB
+      - 中国-香港 IPLC Equinix HK2 C 02 1Gbps HBO TVB
+      - 中国-台湾 VPDN 嘉义游戏专线 C08 Netflix 动画疯
+      - 马来西亚 | 2
+      - 中国-台湾彰化 IEPL HiNet固接 C04 Netflix 动画疯
+      - 日本 ソフトバンク C04 500Mbps 1x Netflix
+      - HK10|5G|HTTP|自填混淆
+      - 英国 x1⇨长沙联通[Twitter]
+      - 中国-香港 IEPL Equinix HK8 C 08 1Gbps HBO TVB
+      - 日本 | 3 杭日隧道 STCP GAME
+      - 香港 油尖旺御金·国峯 環球全域電訊 C08
+      - 日本 x1⇨Az
+      - 美国2 | 奈飞
+      - 中国-日本 多协议标签交换虚拟专用网（三） I 1000Mbps
+      - 精简 29
+      - 中国-台湾彰化 IEPL HiNet固接 C07 Netflix 动画疯
+      - 台湾家宽|NetFlix|動畫瘋|解锁|8090
+      - 公告|所求皆所愿！所行皆坦途
+      - 香港 x1⇨Az[Netflix]
+      - 香港 油尖旺御金·国峯 環球全域電訊 C01
+      - Azure高速港A
+      - 印度 x1⇨Az[Twitter]
+      - 中国-法国 IPLC C01
+      - 中国-香港 IPLC Equinix HK2 C 09 1Gbps HBO TVB
+      - 台湾 | 2
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C03 Netflix
+      - 精简 26
+      - 韩国 | 2 皖港隧道 STCP
+      - 土耳其 | 2
+      - HK18|5G|WS|头条合作A
+      - 中国-台湾 VPDN 嘉义游戏专线 C04 Netflix 动画疯
+      - 中国-台湾 VPDN 嘉义游戏专线 C01 Netflix 动画疯
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C07 Netflix
+      - 中国-台湾 VPDN 嘉义游戏专线 C02 Netflix 动画疯
+      - 中国-台湾彰化 IEPL HiNet固接 C10 Netflix 动画疯
+      - 德国 | 1 9929
+      - 精简 22
+      - 日本 ソフトバンク C11 500Mbps 1x Netflix
+      - 香港-日本 | 4 GAME
+      - 中国-日本 多协议标签交换虚拟专用网（三） J 1000Mbps
+      - 香港-韩国 | 1
+      - 中国-台湾桃园 IPLC 台湾固网 C10 Netflix 动画疯
+      - 香港-日本 | 5 GAME
+      - 新加坡 | 2
+      - 中国-日本 多协议标签交换虚拟专用网（三） A 1000Mbps
+      - 中国-台湾桃园 IPLC 台湾固网 C11 Netflix 动画疯
+      - 韩国 전라북도 전주시 商宽 C 04
+      - cns
+      - 中国-台湾 VPDN 嘉义游戏专线 C05 Netflix 动画疯
+      - 香港 油尖旺御金·国峯 環球全域電訊 C07
+      - 中国-台湾桃园 IPLC 台湾固网 C09 Netflix 动画疯
+      - 新加坡 | 1
+      - 中国-台湾彰化 IEPL HiNet固接 C05 Netflix 动画疯
+      - 中国-台湾桃园 IPLC 台湾固网 C02 Netflix 动画疯
+      - 中国-台湾 VPDN 嘉义游戏专线 C09 Netflix 动画疯
+      - 日本 ソフトバンク C08 500Mbps 1x Netflix
+      - 精简 27
+      - 日本 | 1
+      - 韩国 京畿道板桥 原生游戏解锁 C 08
+      - 中国-台湾 VPDN 嘉义游戏专线 C07 Netflix 动画疯
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C04 Netflix
+      - 日本阿伟科技@TG/油管
+      - 中国-韩国 IEPL（三）D 1Gbps
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C05 Netflix
+      - 日本 ソフトバンク C03 500Mbps 1x Netflix
+      - 湖南-马来西亚 | 3 STCP
+      - 中国-台湾彰化 IEPL HiNet固接 C08 Netflix 动画疯
+      - 中国-台湾 VPDN 嘉义游戏专线 C10 Netflix 动画疯
       - 中国-台湾桃园 IPLC 台湾固网 C01 Netflix 动画疯
+      - 免费日本AWS|80|轩赞助
+      - HK8|10G|HTTP|独享|1.5x
+      - 韩国 京畿道板桥 原生游戏解锁 C 02
+      - 中国-印度 班加罗尔 एयरटेल IPLC C01
+      - 中国-香港 IEPL Equinix HK8 C 07 1Gbps HBO TVB
+      - 香港 油尖旺御金·国峯 環球全域電訊 C04
+      - 韩国 京畿道板桥 原生游戏解锁 C 01
+      - 精简 24
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C08 Netflix
+      - 中国-印度 班加罗尔 एयरटेल IPLC C08
+      - 中国-印度 班加罗尔 एयरटेल IPLC C03
+      - 中国-日本 多协议标签交换虚拟专用网（三） F 1000Mbps
+      - 美国高级 IEPL 中继 C05
+      - 中国-日本 多协议标签交换虚拟专用网（三） C 1000Mbps
+      - 韩国-新加坡 | 1
+      - 中国-台湾桃园 IPLC 台湾固网 C03 Netflix 动画疯
+      - 韩国 전라북도 전주시 商宽 C 03
+      - 中国-台湾桃园 IPLC 台湾固网 C08 Netflix 动画疯
+      - 中国-法国 IPLC C05
+      - 韩国 京畿道板桥 原生游戏解锁 C 05
+      - 印度2-CN2-倍率1.0
+      - 中国-日本 多协议标签交换虚拟专用网（三） D 1000Mbps
+      - 韩国 전라북도 전주시 商宽 C 02
+      - 日本 ソフトバンク C01 500Mbps 1x Netflix
+      - 中国-韩国 IEPL（三）A 1Gbps
+      - 中国-台湾彰化 IEPL HiNet固接 C02 Netflix 动画疯
+      - 中国-日本 多协议标签交换虚拟专用网（三） G 1000Mbps
+      - 美国 x1⇨Az[Twitter]
+      - 美国 | 3 奈飞
+      - 中国-台湾桃园 IPLC 台湾固网 C07 Netflix 动画疯
+      - 中国-韩国 IEPL（三）B 1Gbps
+      - HK11|5G|HTTP
+      - 中国-台湾 VPDN 嘉义游戏专线 C06 Netflix 动画疯
+      - HK2|10G|HTTP
+      - 精简 25
+      - 精简 21
+      - 土耳其 | 1 无限流量！
+      - 中国-香港 IPLC Equinix HK2 C 04 1Gbps HBO TVB
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C06 Netflix
+      - 韩国 京畿道板桥 原生游戏解锁 C 07
+      - 中国-印度 班加罗尔 एयरटेल IPLC C06
+      - 中国-日本 多协议标签交换虚拟专用网（三） B 1000Mbps
+      - 美国 x0.8⇨Az
+      - 韩国 전라북도 전주시 商宽 C 01
+      - US | 72
+      - 美国高级 IEPL 中继 C01
+      - HK6|10G|HTTP
+      - 中国-台湾桃园 IPLC 台湾固网 C05 Netflix 动画疯
+      - 中国-韩国 IEPL（三）E 1Gbps
+      - 中国-印度 班加罗尔 एयरटेल IPLC C09
+      - 中国-澳大利亚 IPLC 悉尼 C04
+      - 韩国 京畿道板桥 原生游戏解锁 C 03
+      - 荷兰 x1⇨Az[Twitter]
+      - 德国 x1⇨长沙联通[Twitter]
+      - 日本 ソフトバンク C02 500Mbps 1x Netflix
+      - 香港 油尖旺御金·国峯 名氣通電訊 C07
+      - 俄罗斯1-CN2-倍率1.0
+      - 马来西亚 | 1
+      - 台湾 | 1 无限流量！
+      - 香港 油尖旺御金·国峯 環球全域電訊 C06
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C02 Netflix
+      - 韩国-日本 | 1
+      - HK14|10G|HTTP|809测试
+      - 日本阿伟科技@TG/油管 2
+      - 荷兰 x1⇨长沙联通[Twitter]
+      - 中国-英国伦敦 IPLC BBC C02
+      - 韩国 전라북도 전주시 商宽 C 05
+      - 美国阿伟科技@TG/油管
+      - TG售后群|复制浏览器打开|https://t.me/yyjsd
+      - 韩国 京畿道板桥 原生游戏解锁 C 10
+      - 美国高级 IEPL 中继 C02
+      - HK9|10G|WS|独享|1.5x
+      - 新加坡4-IEPL-倍率1.0
+      - 德国 x1⇨Az[Twitter]
+      - 日本 ソフトバンク C12 500Mbps 1x Netflix
+      - 免费美国AWS|TCP80|轩赞助
+      - 韩国 京畿道板桥 原生游戏解锁 C 04
+      - 美国高级 IEPL 中继 C04
+      - 中国-法国 IPLC C02
+      - 台湾 x1⇨长沙联通[原生][Netflix]
+      - 英国 x1⇨Az[Twitter]
+      - 中国-台湾彰化 IEPL HiNet固接 C03 Netflix 动画疯
       - 德国1-CN2-倍率1.0
       - 中国-英国伦敦 IPLC BBC C04
-      - 中国-日本 多协议标签交换虚拟专用网（三） G 1000Mbps
+      - 澳大利亚2-CN2-倍率1.0
+      - 新加坡 x1 Az直连
+      - 印度1-CN2-倍率1.0
+      - 印度阿伟科技@TG/油管
+      - 美国阿伟科技@TG/油管 2
+      - 美国实验性 IEPL 中继 C03
+      - 土耳其1-CN2-倍率1.0
+      - 中国-香港 IEPL Equinix HK8 C 03 1Gbps HBO TVB
       - 美国阿伟科技@TG/油管 3
-      - 美国实验性 IEPL 中继 C01
-      - 日本 ソフトバンク C11 500Mbps 1x Netflix
-      - 新加坡 Magic IEPL 中继 C04 Netflix
-      - 新加坡 Legacy Magic IEPL 中继 C02 Netflix
-      - 中国-英国伦敦 IPLC BBC C03
-      - 中国-英国伦敦 IPLC BBC C02
-      - 新加坡 Magic IEPL 中继 C02 Netflix
+      - 免费美国AWS|80|轩赞助①
+      - 美国 | 4
+      - 韩国 京畿道板桥 原生游戏解锁 C 09
+      - 中国-印度 班加罗尔 एयरटेल IPLC C07
+      - 新加坡 Legacy Magic IEPL 中继 C01 Netflix
+      - 中国-加拿大 IPLC C04
       - 美国阿伟科技@TG/油管 4
+      - 中国-印度 班加罗尔 एयरटेल IPLC C05
       - 中国-英国伦敦 IPLC BBC C06
-      - 【V2】美国·芝加哥·200Mbps
-      - 中国-澳大利亚 IPLC 悉尼 C04
-      - 俄罗斯1-CN2-倍率1.0
-      - 新加坡 Legacy Magic IEPL 中继 C03 Netflix
-      - 新加坡 Magic IEPL 中继 C03 Netflix
+      - 美国实验性 IEPL 中继 C02
       - 美国阿伟科技@TG/油管 5
       - 美国阿伟科技@TG/油管 6
-      - 土耳其1-CN2-倍率1.0
-      - 美国高级 IEPL 中继 C01
-      - 美国高级 IEPL 中继 C02
-      - 美国阿伟科技@TG/油管 7
-      - 土耳其2-CN2-倍率1.0
+      - 【V2】韩国·150Mbps | 流媒体
       - 新加坡 Magic IEPL 中继 C05 Netflix
-      - 中国-加拿大 IPLC C05
-      - 美国阿伟科技@TG/油管 8
       - 中国-加拿大 IPLC C01
-      - 美国阿伟科技@TG/油管 9
-      - 中国-香港 IPLC Equinix HK2 C 02 1Gbps HBO TVB
-      - 新加坡 Legacy Magic IEPL 中继 C01 Netflix
-      - 香港阿伟科技@TG/油管
       - 中国-加拿大 IPLC C03
-      - 中国-印度 班加罗尔 एयरटेल IPLC C01
-      - 美国阿伟科技@TG/油管 10
-      - 中国-韩国 IEPL（三）E 1Gbps
-      - 美国阿伟科技@TG/油管 11
-      - 香港 油尖旺御金·国峯 環球全域電訊 C02
-      - 中国-爱尔兰 IPLC C05
-      - 新加坡高级 IEPL 中继 C02 Netflix
       - 澳大利亚1-CN2-倍率1.0
-      - 美国高级 IEPL 中继 C04
-      - 中国-加拿大 IPLC C04
-      - 新加坡高级 IEPL 中继 C01 Netflix
-      - 美国阿伟科技@TG/油管 12
-      - 美国实验性 IEPL 中继 C02
-      - 美国阿伟科技@TG/油管 13
-      - 澳大利亚2-CN2-倍率1.0
-      - 【V2】俄罗斯·150Mbps | 电信
-      - 【V3】台湾·1Gbps
-      - 美国高级 IEPL 中继 C05
-      - 中国-印度 班加罗尔 एयरटेल IPLC C06
-      - 新加坡高级 IEPL 中继 C03 Netflix
-      - 美国实验性 IEPL 中继 C03
+      - 中国-台湾彰化 IEPL HiNet固接 C06 Netflix 动画疯
+      - 土耳其2-CN2-倍率1.0
+      - 新加坡 Legacy Magic IEPL 中继 C02 Netflix
+      - 美国阿伟科技@TG/油管 7
+      - 美国阿伟科技@TG/油管 8
+      - 新加坡 Magic IEPL 中继 C03 Netflix
+      - 中国-英国伦敦 IPLC BBC C03
+      - 新加坡 Legacy Magic IEPL 中继 C03 Netflix
+      - 印度阿伟科技@TG/油管 2
+      - 新加坡 Magic IEPL 中继 C02 Netflix
+      - 新加坡 Magic IEPL 中继 C04 Netflix
+      - 中国-加拿大 IPLC C05
+      - 新加坡高级 IEPL 中继 C02 Netflix
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港 油尖旺御金·国峯 環球全域電訊 C09
-      - 香港 油尖旺御金·国峯 環球全域電訊 C05
-      - 香港4-IEPL-倍率1.0
-      - 香港5-IEPL-倍率1.0
-      - 中国-香港 IPLC Equinix HK2 C 01 1Gbps HBO TVB
-      - 中国-香港 IEPL Equinix HK8 C 07 1Gbps HBO TVB
-      - JP | 59
-      - 日本4-IEPL-倍率1.0
-      - 中国-爱尔兰 IPLC C03
-      - 中国-爱尔兰 IPLC C01
-      - 香港 油尖旺御金·国峯 名氣通電訊 C08
-      - 中国-香港 IEPL Equinix HK8 C 01 1Gbps HBO TVB
-      - 中国-香港 IPLC Equinix HK2 C 04 1Gbps HBO TVB
-      - 中国-香港 IPLC Equinix HK2 C 07 1Gbps HBO TVB
-      - 日本阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C06 Netflix
-      - 中国-香港 IEPL Equinix HK8 C 02 1Gbps HBO TVB
-      - 香港 油尖旺御金·国峯 名氣通電訊 C01
-      - 中国-台湾彰化 IEPL HiNet固接 C08 Netflix 动画疯
-      - 香港 油尖旺御金·国峯 名氣通電訊 C09
-      - 日本阿伟科技@TG/油管 2
-      - 香港 油尖旺御金·国峯 名氣通電訊 C04
-      - 中国-法国 IPLC C03
-      - 韩国 전라북도 전주시 商宽 C 01
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C02 Netflix
-      - 中国-日本 多协议标签交换虚拟专用网（三） I 1000Mbps
-      - 中国-香港 IEPL Equinix HK8 C 08 1Gbps HBO TVB
-      - 日本阿伟科技@TG/油管 3
-      - 美国阿伟科技@TG/油管 2
-      - 香港 油尖旺御金·国峯 環球全域電訊 C04
-      - 韩国 京畿道板桥 原生游戏解锁 C 04
-      - ASYNCHRONOUS TRANSFERMODE 永久虚通路连接PVCC C01
-      - 香港 油尖旺御金·国峯 名氣通電訊 C02
-      - 香港 油尖旺御金·国峯 環球全域電訊 C07
-      - 中国-爱尔兰 IPLC C04
-      - 中国-香港 IEPL Equinix HK8 C 10 1Gbps HBO TVB
-      - 中国-法国 IPLC C02
-      - 日本 ソフトバンク C05 500Mbps 1x Netflix
-      - 中国-台湾桃园 IPLC 台湾固网 C06 Netflix 动画疯
-      - 日本 ソフトバンク C02 500Mbps 1x Netflix
-      - 日本 ソフトバンク C12 500Mbps 1x Netflix
-      - 日本1-IEPL-倍率1.0
-      - 中国-台湾桃园 IPLC 台湾固网 C03 Netflix 动画疯
-      - 中国-日本 多协议标签交换虚拟专用网（三） D 1000Mbps
-      - 中国-爱尔兰 IPLC C02
-      - 中国-香港 IEPL Equinix HK8 C 06 1Gbps HBO TVB
-      - 精简 27
-      - 中国-法国 IPLC C01
-      - 香港 油尖旺御金·国峯 環球全域電訊 C08
-      - 中国-法国 IPLC C04
-      - 韩国 京畿道板桥 原生游戏解锁 C 01
-      - 韩国 京畿道板桥 原生游戏解锁 C 08
-      - 中国-台湾 VPDN 嘉义游戏专线 C01 Netflix 动画疯
-      - 日本 ソフトバンク C01 500Mbps 1x Netflix
-      - 中国-日本 多协议标签交换虚拟专用网（三） B 1000Mbps
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C04 Netflix
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C01 Netflix
-      - 韩国 전라북도 전주시 商宽 C 05
-      - 日本 ソフトバンク C08 500Mbps 1x Netflix
-      - 中国-台湾 VPDN 嘉义游戏专线 C03 Netflix 动画疯
-      - 中国-香港 IPLC Equinix HK2 C 03 1Gbps HBO TVB
-      - 香港 油尖旺御金·国峯 環球全域電訊 C06
-      - 精简 24
-      - 韩国 전라북도 전주시 商宽 C 02
-      - 韩国 京畿道板桥 原生游戏解锁 C 05
-      - 韩国 京畿道板桥 原生游戏解锁 C 10
-      - 中国-韩国 IEPL（三）A 1Gbps
-      - 香港 油尖旺御金·国峯 名氣通電訊 C07
-      - 中国-日本 多协议标签交换虚拟专用网（三） E 1000Mbps
-      - 中国-日本 多协议标签交换虚拟专用网（三） J 1000Mbps
-      - 美国5-IEPL-倍率1.0
-      - 中国-台湾彰化 IEPL HiNet固接 C09 Netflix 动画疯
-      - 中国-香港 IEPL Equinix HK8 C 05 1Gbps HBO TVB
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C03 Netflix
-      - 中国-香港 IEPL Equinix HK8 C 03 1Gbps HBO TVB
-      - 中国-香港 IPLC Equinix HK2 C 09 1Gbps HBO TVB
-      - 中国-台湾桃园 IPLC 台湾固网 C10 Netflix 动画疯
-      - 中国-印度 班加罗尔 एयरटेल IPLC C08
-      - 中国-日本 多协议标签交换虚拟专用网（三） A 1000Mbps
-      - 台湾5-IEPL-倍率1.0
-      - 中国-台湾桃园 IPLC 台湾固网 C02 Netflix 动画疯
-      - 韩国 京畿道板桥 原生游戏解锁 C 03
-      - 日本6-IEPL-倍率1.0
-      - 日本阿伟科技@TG/油管 4
-      - 中国-法国 IPLC C05
-      - 香港 油尖旺御金·国峯 環球全域電訊 C03
-      - 中国-台湾彰化 IEPL HiNet固接 C06 Netflix 动画疯
-      - 中国-韩国 IEPL（三）D 1Gbps
-      - 中国-韩国 IEPL（三）C 1Gbps
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C05 Netflix
-      - 韩国 京畿道板桥 原生游戏解锁 C 07
-      - 中国-台湾 VPDN 嘉义游戏专线 C02 Netflix 动画疯
-      - 中国-日本 多协议标签交换虚拟专用网（三） C 1000Mbps
-      - 日本 ソフトバンク C07 500Mbps 1x Netflix
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C08 Netflix
-      - 中国-台湾桃园 IPLC 台湾固网 C05 Netflix 动画疯
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C07 Netflix
-      - 中国-印度 班加罗尔 एयरटेल IPLC C03
-      - 韩国 京畿道板桥 原生游戏解锁 C 02
-      - 日本 ソフトバンク C03 500Mbps 1x Netflix
-      - 中国-台湾桃园 IPLC 台湾固网 C07 Netflix 动画疯
-      - 韩国 전라북도 전주시 商宽 C 03
-      - 台湾3-IEPL-倍率1.0
-      - 美国1-IEPL-倍率1.0
-      - 精简 29
-      - 中国-台湾 VPDN 嘉义游戏专线 C05 Netflix 动画疯
-      - 中国-台湾 VPDN 嘉义游戏专线 C10 Netflix 动画疯
-      - 中国-印度 班加罗尔 एयरटेल IPLC C05
-      - 印度1-CN2-倍率1.0
-      - 中国-印度 班加罗尔 एयरटेल IPLC C07
-      - 新加坡1-IEPL-倍率1.0
-      - 中国-台湾桃园 IPLC 台湾固网 C04 Netflix 动画疯
-      - 中国-台湾 VPDN 嘉义游戏专线 C07 Netflix 动画疯
-      - 美国2-IEPL-倍率1.0
-      - 日本 ソフトバンク C06 500Mbps 1x Netflix
-      - 中国-韩国 IEPL（三）B 1Gbps
-      - 中国-台湾 VPDN 嘉义游戏专线 C06 Netflix 动画疯
-      - 中国-香港 IEPL Equinix HK8 C 04 1Gbps HBO TVB
-      - 中国-台湾 VPDN 嘉义游戏专线 C09 Netflix 动画疯
-      - 中国-台湾彰化 IEPL HiNet固接 C04 Netflix 动画疯
-      - 精简 28
-      - 精简 23
-      - 精简 21
+      - 香港阿伟科技@TG/油管
       - az-hk
-      - 中国-台湾桃园 IPLC 台湾固网 C09 Netflix 动画疯
-      - 中国-台湾彰化 IEPL HiNet固接 C07 Netflix 动画疯
-      - 中国-印度 班加罗尔 एयरटेल IPLC C09
-      - 新加坡4-IEPL-倍率1.0
-      - 日本 ソフトバンク C10 500Mbps 1x Netflix
-      - 中国-台湾彰化 IEPL HiNet固接 C10 Netflix 动画疯
-      - 中国-台湾 VPDN 嘉义游戏专线 C08 Netflix 动画疯
-      - 精简 22
-      - 香港 油尖旺御金·国峯 環球全域電訊 C01
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C01 Netflix
+      - 中国-法国 IPLC C04
+      - 中国-香港 IEPL Equinix HK8 C 04 1Gbps HBO TVB
+      - 香港 油尖旺御金·国峯 環球全域電訊 C03
+      - 中国-台湾桃园 IPLC 台湾固网 C06 Netflix 动画疯
+      - 香港 油尖旺御金·国峯 環球全域電訊 C09
+      - 中国-香港 IEPL Equinix HK8 C 01 1Gbps HBO TVB
+      - 杭州-德国 | 2 9929
+      - 中国-爱尔兰 IPLC C02
       - 中国-香港 IEPL Equinix HK8 C 09 1Gbps HBO TVB
-      - 中国-台湾桃园 IPLC 台湾固网 C11 Netflix 动画疯
-      - 精简 26
-      - 韩国 전라북도 전주시 商宽 C 04
-      - 中国-台湾 VPDN 嘉义游戏专线 C04 Netflix 动画疯
-      - 精简 25
-      - 中国-台湾桃园 IPLC 台湾固网 C08 Netflix 动画疯
-      - US | 72
-      - 香港 油尖旺御金·国峯 名氣通電訊 C06
-      - 中国-台湾彰化 IEPL HiNet固接 C05 Netflix 动画疯
-      - 日本 ソフトバンク C04 500Mbps 1x Netflix
+      - 韩国 x1 Az直连
+      - 中国-台湾 VPDN 嘉义游戏专线 C03 Netflix 动画疯
+      - 香港 油尖旺御金·国峯 名氣通電訊 C08
+      - 香港-美国 | 5
+      - 新加坡 x1⇨Az[Twitter]
+      - 日本 ソフトバンク C10 500Mbps 1x Netflix
+      - 中国-韩国 IEPL（三）C 1Gbps
       - 日本 ソフトバンク C09 500Mbps 1x Netflix
-      - 韩国 京畿道板桥 原生游戏解锁 C 09
-      - 印度阿伟科技@TG/油管
-      - 【V2】韩国·150Mbps | 流媒体
-      - 中国-台湾彰化 IEPL HiNet固接 C02 Netflix 动画疯
-      - 印度2-CN2-倍率1.0
-      - 中国-台湾彰化 IEPL HiNet固接 C03 Netflix 动画疯
-      - 印度阿伟科技@TG/油管 2
-      - 中国-澳大利亚 IPLC 悉尼 C02
-      - 中国-日本 多协议标签交换虚拟专用网（三） F 1000Mbps
+      - 日本 ソフトバンク C07 500Mbps 1x Netflix
+      - 中国-法国 IPLC C03
+      - 台湾 x1⇨Az[Netflix]
+      - 中国-台湾彰化 IEPL HiNet固接 C09 Netflix 动画疯
+      - 有问题发工单|不提供技术支持
+      - HK5|10G|WS
+      - 中国-台湾桃园 IPLC 台湾固网 C04 Netflix 动画疯
+      - 香港 油尖旺御金·国峯 名氣通電訊 C06
+      - 香港 油尖旺御金·国峯 環球全域電訊 C02
+      - 韩国 | 1
+      - 中国-爱尔兰 IPLC C01
+      - 香港HKT | 2 维护（明日）
+      - 中国-爱尔兰 IPLC C05
+      - 香港az | 4 同上
+      - 美国 | 1 奈飞
+      - 泰国 x1⇨Az[Netflix]
+      - 日本 | 2
+      - 中国-香港 IEPL Equinix HK8 C 05 1Gbps HBO TVB
+      - 中国-香港 IPLC Equinix HK2 C 02 1Gbps HBO TVB
+      - 中国-台湾 VPDN 嘉义游戏专线 C08 Netflix 动画疯
+      - 马来西亚 | 2
+      - 中国-台湾彰化 IEPL HiNet固接 C04 Netflix 动画疯
+      - 日本 ソフトバンク C04 500Mbps 1x Netflix
+      - HK10|5G|HTTP|自填混淆
+      - 英国 x1⇨长沙联通[Twitter]
+      - 中国-香港 IEPL Equinix HK8 C 08 1Gbps HBO TVB
+      - 日本 | 3 杭日隧道 STCP GAME
+      - 香港 油尖旺御金·国峯 環球全域電訊 C08
+      - 日本 x1⇨Az
+      - 美国2 | 奈飞
+      - 中国-日本 多协议标签交换虚拟专用网（三） I 1000Mbps
+      - 精简 29
+      - 中国-台湾彰化 IEPL HiNet固接 C07 Netflix 动画疯
+      - 台湾家宽|NetFlix|動畫瘋|解锁|8090
+      - 公告|所求皆所愿！所行皆坦途
+      - 香港 x1⇨Az[Netflix]
+      - 香港 油尖旺御金·国峯 環球全域電訊 C01
+      - Azure高速港A
+      - 印度 x1⇨Az[Twitter]
+      - 中国-法国 IPLC C01
+      - 中国-香港 IPLC Equinix HK2 C 09 1Gbps HBO TVB
+      - 台湾 | 2
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C03 Netflix
+      - 精简 26
+      - 韩国 | 2 皖港隧道 STCP
+      - 土耳其 | 2
+      - HK18|5G|WS|头条合作A
+      - 中国-台湾 VPDN 嘉义游戏专线 C04 Netflix 动画疯
+      - 中国-台湾 VPDN 嘉义游戏专线 C01 Netflix 动画疯
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C07 Netflix
+      - 中国-台湾 VPDN 嘉义游戏专线 C02 Netflix 动画疯
+      - 中国-台湾彰化 IEPL HiNet固接 C10 Netflix 动画疯
+      - 德国 | 1 9929
+      - 精简 22
+      - 日本 ソフトバンク C11 500Mbps 1x Netflix
+      - 香港-日本 | 4 GAME
+      - 中国-日本 多协议标签交换虚拟专用网（三） J 1000Mbps
+      - 香港-韩国 | 1
+      - 中国-台湾桃园 IPLC 台湾固网 C10 Netflix 动画疯
+      - 香港-日本 | 5 GAME
+      - 新加坡 | 2
+      - 中国-日本 多协议标签交换虚拟专用网（三） A 1000Mbps
+      - 中国-台湾桃园 IPLC 台湾固网 C11 Netflix 动画疯
+      - 韩国 전라북도 전주시 商宽 C 04
+      - cns
+      - 中国-台湾 VPDN 嘉义游戏专线 C05 Netflix 动画疯
+      - 香港 油尖旺御金·国峯 環球全域電訊 C07
+      - 中国-台湾桃园 IPLC 台湾固网 C09 Netflix 动画疯
+      - 新加坡 | 1
+      - 中国-台湾彰化 IEPL HiNet固接 C05 Netflix 动画疯
+      - 中国-台湾桃园 IPLC 台湾固网 C02 Netflix 动画疯
+      - 中国-台湾 VPDN 嘉义游戏专线 C09 Netflix 动画疯
+      - 日本 ソフトバンク C08 500Mbps 1x Netflix
+      - 精简 27
+      - 日本 | 1
+      - 韩国 京畿道板桥 原生游戏解锁 C 08
+      - 中国-台湾 VPDN 嘉义游戏专线 C07 Netflix 动画疯
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C04 Netflix
+      - 日本阿伟科技@TG/油管
+      - 中国-韩国 IEPL（三）D 1Gbps
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C05 Netflix
+      - 日本 ソフトバンク C03 500Mbps 1x Netflix
+      - 湖南-马来西亚 | 3 STCP
+      - 中国-台湾彰化 IEPL HiNet固接 C08 Netflix 动画疯
+      - 中国-台湾 VPDN 嘉义游戏专线 C10 Netflix 动画疯
       - 中国-台湾桃园 IPLC 台湾固网 C01 Netflix 动画疯
+      - 免费日本AWS|80|轩赞助
+      - HK8|10G|HTTP|独享|1.5x
+      - 韩国 京畿道板桥 原生游戏解锁 C 02
+      - 中国-印度 班加罗尔 एयरटेल IPLC C01
+      - 中国-香港 IEPL Equinix HK8 C 07 1Gbps HBO TVB
+      - 香港 油尖旺御金·国峯 環球全域電訊 C04
+      - 韩国 京畿道板桥 原生游戏解锁 C 01
+      - 精简 24
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C08 Netflix
+      - 中国-印度 班加罗尔 एयरटेल IPLC C08
+      - 中国-印度 班加罗尔 एयरटेल IPLC C03
+      - 中国-日本 多协议标签交换虚拟专用网（三） F 1000Mbps
+      - 美国高级 IEPL 中继 C05
+      - 中国-日本 多协议标签交换虚拟专用网（三） C 1000Mbps
+      - 韩国-新加坡 | 1
+      - 中国-台湾桃园 IPLC 台湾固网 C03 Netflix 动画疯
+      - 韩国 전라북도 전주시 商宽 C 03
+      - 中国-台湾桃园 IPLC 台湾固网 C08 Netflix 动画疯
+      - 中国-法国 IPLC C05
+      - 韩国 京畿道板桥 原生游戏解锁 C 05
+      - 印度2-CN2-倍率1.0
+      - 中国-日本 多协议标签交换虚拟专用网（三） D 1000Mbps
+      - 韩国 전라북도 전주시 商宽 C 02
+      - 日本 ソフトバンク C01 500Mbps 1x Netflix
+      - 中国-韩国 IEPL（三）A 1Gbps
+      - 中国-台湾彰化 IEPL HiNet固接 C02 Netflix 动画疯
+      - 中国-日本 多协议标签交换虚拟专用网（三） G 1000Mbps
+      - 美国 x1⇨Az[Twitter]
+      - 美国 | 3 奈飞
+      - 中国-台湾桃园 IPLC 台湾固网 C07 Netflix 动画疯
+      - 中国-韩国 IEPL（三）B 1Gbps
+      - HK11|5G|HTTP
+      - 中国-台湾 VPDN 嘉义游戏专线 C06 Netflix 动画疯
+      - HK2|10G|HTTP
+      - 精简 25
+      - 精简 21
+      - 土耳其 | 1 无限流量！
+      - 中国-香港 IPLC Equinix HK2 C 04 1Gbps HBO TVB
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C06 Netflix
+      - 韩国 京畿道板桥 原生游戏解锁 C 07
+      - 中国-印度 班加罗尔 एयरटेल IPLC C06
+      - 中国-日本 多协议标签交换虚拟专用网（三） B 1000Mbps
+      - 美国 x0.8⇨Az
+      - 韩国 전라북도 전주시 商宽 C 01
+      - US | 72
+      - 美国高级 IEPL 中继 C01
+      - HK6|10G|HTTP
+      - 中国-台湾桃园 IPLC 台湾固网 C05 Netflix 动画疯
+      - 中国-韩国 IEPL（三）E 1Gbps
+      - 中国-印度 班加罗尔 एयरटेल IPLC C09
+      - 中国-澳大利亚 IPLC 悉尼 C04
+      - 韩国 京畿道板桥 原生游戏解锁 C 03
+      - 荷兰 x1⇨Az[Twitter]
+      - 德国 x1⇨长沙联通[Twitter]
+      - 日本 ソフトバンク C02 500Mbps 1x Netflix
+      - 香港 油尖旺御金·国峯 名氣通電訊 C07
+      - 俄罗斯1-CN2-倍率1.0
+      - 马来西亚 | 1
+      - 台湾 | 1 无限流量！
+      - 香港 油尖旺御金·国峯 環球全域電訊 C06
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C02 Netflix
+      - 韩国-日本 | 1
+      - HK14|10G|HTTP|809测试
+      - 日本阿伟科技@TG/油管 2
+      - 荷兰 x1⇨长沙联通[Twitter]
+      - 中国-英国伦敦 IPLC BBC C02
+      - 韩国 전라북도 전주시 商宽 C 05
+      - 美国阿伟科技@TG/油管
+      - TG售后群|复制浏览器打开|https://t.me/yyjsd
+      - 韩国 京畿道板桥 原生游戏解锁 C 10
+      - 美国高级 IEPL 中继 C02
+      - HK9|10G|WS|独享|1.5x
+      - 新加坡4-IEPL-倍率1.0
+      - 德国 x1⇨Az[Twitter]
+      - 日本 ソフトバンク C12 500Mbps 1x Netflix
+      - 免费美国AWS|TCP80|轩赞助
+      - 韩国 京畿道板桥 原生游戏解锁 C 04
+      - 美国高级 IEPL 中继 C04
+      - 中国-法国 IPLC C02
+      - 台湾 x1⇨长沙联通[原生][Netflix]
+      - 英国 x1⇨Az[Twitter]
+      - 中国-台湾彰化 IEPL HiNet固接 C03 Netflix 动画疯
       - 德国1-CN2-倍率1.0
       - 中国-英国伦敦 IPLC BBC C04
-      - 中国-日本 多协议标签交换虚拟专用网（三） G 1000Mbps
+      - 澳大利亚2-CN2-倍率1.0
+      - 新加坡 x1 Az直连
+      - 印度1-CN2-倍率1.0
+      - 印度阿伟科技@TG/油管
+      - 美国阿伟科技@TG/油管 2
+      - 美国实验性 IEPL 中继 C03
+      - 土耳其1-CN2-倍率1.0
+      - 中国-香港 IEPL Equinix HK8 C 03 1Gbps HBO TVB
       - 美国阿伟科技@TG/油管 3
-      - 美国实验性 IEPL 中继 C01
-      - 日本 ソフトバンク C11 500Mbps 1x Netflix
-      - 新加坡 Magic IEPL 中继 C04 Netflix
-      - 新加坡 Legacy Magic IEPL 中继 C02 Netflix
-      - 中国-英国伦敦 IPLC BBC C03
-      - 中国-英国伦敦 IPLC BBC C02
-      - 新加坡 Magic IEPL 中继 C02 Netflix
+      - 免费美国AWS|80|轩赞助①
+      - 美国 | 4
+      - 韩国 京畿道板桥 原生游戏解锁 C 09
+      - 中国-印度 班加罗尔 एयरटेल IPLC C07
+      - 新加坡 Legacy Magic IEPL 中继 C01 Netflix
+      - 中国-加拿大 IPLC C04
       - 美国阿伟科技@TG/油管 4
+      - 中国-印度 班加罗尔 एयरटेल IPLC C05
       - 中国-英国伦敦 IPLC BBC C06
-      - 【V2】美国·芝加哥·200Mbps
-      - 中国-澳大利亚 IPLC 悉尼 C04
-      - 俄罗斯1-CN2-倍率1.0
-      - 新加坡 Legacy Magic IEPL 中继 C03 Netflix
-      - 新加坡 Magic IEPL 中继 C03 Netflix
+      - 美国实验性 IEPL 中继 C02
       - 美国阿伟科技@TG/油管 5
       - 美国阿伟科技@TG/油管 6
-      - 土耳其1-CN2-倍率1.0
-      - 美国高级 IEPL 中继 C01
-      - 美国高级 IEPL 中继 C02
-      - 美国阿伟科技@TG/油管 7
-      - 土耳其2-CN2-倍率1.0
+      - 【V2】韩国·150Mbps | 流媒体
       - 新加坡 Magic IEPL 中继 C05 Netflix
-      - 中国-加拿大 IPLC C05
-      - 美国阿伟科技@TG/油管 8
       - 中国-加拿大 IPLC C01
-      - 美国阿伟科技@TG/油管 9
-      - 中国-香港 IPLC Equinix HK2 C 02 1Gbps HBO TVB
-      - 新加坡 Legacy Magic IEPL 中继 C01 Netflix
-      - 香港阿伟科技@TG/油管
       - 中国-加拿大 IPLC C03
-      - 中国-印度 班加罗尔 एयरटेल IPLC C01
-      - 美国阿伟科技@TG/油管 10
-      - 中国-韩国 IEPL（三）E 1Gbps
-      - 美国阿伟科技@TG/油管 11
-      - 香港 油尖旺御金·国峯 環球全域電訊 C02
-      - 中国-爱尔兰 IPLC C05
-      - 新加坡高级 IEPL 中继 C02 Netflix
       - 澳大利亚1-CN2-倍率1.0
-      - 美国高级 IEPL 中继 C04
-      - 中国-加拿大 IPLC C04
-      - 新加坡高级 IEPL 中继 C01 Netflix
-      - 美国阿伟科技@TG/油管 12
-      - 美国实验性 IEPL 中继 C02
-      - 美国阿伟科技@TG/油管 13
-      - 澳大利亚2-CN2-倍率1.0
-      - 【V2】俄罗斯·150Mbps | 电信
-      - 【V3】台湾·1Gbps
-      - 美国高级 IEPL 中继 C05
-      - 中国-印度 班加罗尔 एयरटेल IPLC C06
-      - 新加坡高级 IEPL 中继 C03 Netflix
-      - 美国实验性 IEPL 中继 C03
+      - 中国-台湾彰化 IEPL HiNet固接 C06 Netflix 动画疯
+      - 土耳其2-CN2-倍率1.0
+      - 新加坡 Legacy Magic IEPL 中继 C02 Netflix
+      - 美国阿伟科技@TG/油管 7
+      - 美国阿伟科技@TG/油管 8
+      - 新加坡 Magic IEPL 中继 C03 Netflix
+      - 中国-英国伦敦 IPLC BBC C03
+      - 新加坡 Legacy Magic IEPL 中继 C03 Netflix
+      - 印度阿伟科技@TG/油管 2
+      - 新加坡 Magic IEPL 中继 C02 Netflix
+      - 新加坡 Magic IEPL 中继 C04 Netflix
+      - 中国-加拿大 IPLC C05
+      - 新加坡高级 IEPL 中继 C02 Netflix
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港 油尖旺御金·国峯 環球全域電訊 C09
-      - 香港 油尖旺御金·国峯 環球全域電訊 C05
-      - 香港4-IEPL-倍率1.0
-      - 香港5-IEPL-倍率1.0
-      - 中国-香港 IPLC Equinix HK2 C 01 1Gbps HBO TVB
-      - 中国-香港 IEPL Equinix HK8 C 07 1Gbps HBO TVB
-      - JP | 59
-      - 日本4-IEPL-倍率1.0
-      - 中国-爱尔兰 IPLC C03
-      - 中国-爱尔兰 IPLC C01
-      - 香港 油尖旺御金·国峯 名氣通電訊 C08
-      - 中国-香港 IEPL Equinix HK8 C 01 1Gbps HBO TVB
-      - 中国-香港 IPLC Equinix HK2 C 04 1Gbps HBO TVB
-      - 中国-香港 IPLC Equinix HK2 C 07 1Gbps HBO TVB
-      - 日本阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C06 Netflix
-      - 中国-香港 IEPL Equinix HK8 C 02 1Gbps HBO TVB
-      - 香港 油尖旺御金·国峯 名氣通電訊 C01
-      - 中国-台湾彰化 IEPL HiNet固接 C08 Netflix 动画疯
-      - 香港 油尖旺御金·国峯 名氣通電訊 C09
-      - 日本阿伟科技@TG/油管 2
-      - 香港 油尖旺御金·国峯 名氣通電訊 C04
-      - 中国-法国 IPLC C03
-      - 韩国 전라북도 전주시 商宽 C 01
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C02 Netflix
-      - 中国-日本 多协议标签交换虚拟专用网（三） I 1000Mbps
-      - 中国-香港 IEPL Equinix HK8 C 08 1Gbps HBO TVB
-      - 日本阿伟科技@TG/油管 3
-      - 美国阿伟科技@TG/油管 2
-      - 香港 油尖旺御金·国峯 環球全域電訊 C04
-      - 韩国 京畿道板桥 原生游戏解锁 C 04
-      - ASYNCHRONOUS TRANSFERMODE 永久虚通路连接PVCC C01
-      - 香港 油尖旺御金·国峯 名氣通電訊 C02
-      - 香港 油尖旺御金·国峯 環球全域電訊 C07
-      - 中国-爱尔兰 IPLC C04
-      - 中国-香港 IEPL Equinix HK8 C 10 1Gbps HBO TVB
-      - 中国-法国 IPLC C02
-      - 日本 ソフトバンク C05 500Mbps 1x Netflix
-      - 中国-台湾桃园 IPLC 台湾固网 C06 Netflix 动画疯
-      - 日本 ソフトバンク C02 500Mbps 1x Netflix
-      - 日本 ソフトバンク C12 500Mbps 1x Netflix
-      - 日本1-IEPL-倍率1.0
-      - 中国-台湾桃园 IPLC 台湾固网 C03 Netflix 动画疯
-      - 中国-日本 多协议标签交换虚拟专用网（三） D 1000Mbps
-      - 中国-爱尔兰 IPLC C02
-      - 中国-香港 IEPL Equinix HK8 C 06 1Gbps HBO TVB
-      - 精简 27
-      - 中国-法国 IPLC C01
-      - 香港 油尖旺御金·国峯 環球全域電訊 C08
-      - 中国-法国 IPLC C04
-      - 韩国 京畿道板桥 原生游戏解锁 C 01
-      - 韩国 京畿道板桥 原生游戏解锁 C 08
-      - 中国-台湾 VPDN 嘉义游戏专线 C01 Netflix 动画疯
-      - 日本 ソフトバンク C01 500Mbps 1x Netflix
-      - 中国-日本 多协议标签交换虚拟专用网（三） B 1000Mbps
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C04 Netflix
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C01 Netflix
-      - 韩国 전라북도 전주시 商宽 C 05
-      - 日本 ソフトバンク C08 500Mbps 1x Netflix
-      - 中国-台湾 VPDN 嘉义游戏专线 C03 Netflix 动画疯
-      - 中国-香港 IPLC Equinix HK2 C 03 1Gbps HBO TVB
-      - 香港 油尖旺御金·国峯 環球全域電訊 C06
-      - 精简 24
-      - 韩国 전라북도 전주시 商宽 C 02
-      - 韩国 京畿道板桥 原生游戏解锁 C 05
-      - 韩国 京畿道板桥 原生游戏解锁 C 10
-      - 中国-韩国 IEPL（三）A 1Gbps
-      - 香港 油尖旺御金·国峯 名氣通電訊 C07
-      - 中国-日本 多协议标签交换虚拟专用网（三） E 1000Mbps
-      - 中国-日本 多协议标签交换虚拟专用网（三） J 1000Mbps
-      - 美国5-IEPL-倍率1.0
-      - 中国-台湾彰化 IEPL HiNet固接 C09 Netflix 动画疯
-      - 中国-香港 IEPL Equinix HK8 C 05 1Gbps HBO TVB
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C03 Netflix
-      - 中国-香港 IEPL Equinix HK8 C 03 1Gbps HBO TVB
-      - 中国-香港 IPLC Equinix HK2 C 09 1Gbps HBO TVB
-      - 中国-台湾桃园 IPLC 台湾固网 C10 Netflix 动画疯
-      - 中国-印度 班加罗尔 एयरटेल IPLC C08
-      - 中国-日本 多协议标签交换虚拟专用网（三） A 1000Mbps
-      - 台湾5-IEPL-倍率1.0
-      - 中国-台湾桃园 IPLC 台湾固网 C02 Netflix 动画疯
-      - 韩国 京畿道板桥 原生游戏解锁 C 03
-      - 日本6-IEPL-倍率1.0
-      - 日本阿伟科技@TG/油管 4
-      - 中国-法国 IPLC C05
-      - 香港 油尖旺御金·国峯 環球全域電訊 C03
-      - 中国-台湾彰化 IEPL HiNet固接 C06 Netflix 动画疯
-      - 中国-韩国 IEPL（三）D 1Gbps
-      - 中国-韩国 IEPL（三）C 1Gbps
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C05 Netflix
-      - 韩国 京畿道板桥 原生游戏解锁 C 07
-      - 中国-台湾 VPDN 嘉义游戏专线 C02 Netflix 动画疯
-      - 中国-日本 多协议标签交换虚拟专用网（三） C 1000Mbps
-      - 日本 ソフトバンク C07 500Mbps 1x Netflix
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C08 Netflix
-      - 中国-台湾桃园 IPLC 台湾固网 C05 Netflix 动画疯
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C07 Netflix
-      - 中国-印度 班加罗尔 एयरटेल IPLC C03
-      - 韩国 京畿道板桥 原生游戏解锁 C 02
-      - 日本 ソフトバンク C03 500Mbps 1x Netflix
-      - 中国-台湾桃园 IPLC 台湾固网 C07 Netflix 动画疯
-      - 韩国 전라북도 전주시 商宽 C 03
-      - 台湾3-IEPL-倍率1.0
-      - 美国1-IEPL-倍率1.0
-      - 精简 29
-      - 中国-台湾 VPDN 嘉义游戏专线 C05 Netflix 动画疯
-      - 中国-台湾 VPDN 嘉义游戏专线 C10 Netflix 动画疯
-      - 中国-印度 班加罗尔 एयरटेल IPLC C05
-      - 印度1-CN2-倍率1.0
-      - 中国-印度 班加罗尔 एयरटेल IPLC C07
-      - 新加坡1-IEPL-倍率1.0
-      - 中国-台湾桃园 IPLC 台湾固网 C04 Netflix 动画疯
-      - 中国-台湾 VPDN 嘉义游戏专线 C07 Netflix 动画疯
-      - 美国2-IEPL-倍率1.0
-      - 日本 ソフトバンク C06 500Mbps 1x Netflix
-      - 中国-韩国 IEPL（三）B 1Gbps
-      - 中国-台湾 VPDN 嘉义游戏专线 C06 Netflix 动画疯
-      - 中国-香港 IEPL Equinix HK8 C 04 1Gbps HBO TVB
-      - 中国-台湾 VPDN 嘉义游戏专线 C09 Netflix 动画疯
-      - 中国-台湾彰化 IEPL HiNet固接 C04 Netflix 动画疯
-      - 精简 28
-      - 精简 23
-      - 精简 21
+      - 香港阿伟科技@TG/油管
       - az-hk
-      - 中国-台湾桃园 IPLC 台湾固网 C09 Netflix 动画疯
-      - 中国-台湾彰化 IEPL HiNet固接 C07 Netflix 动画疯
-      - 中国-印度 班加罗尔 एयरटेल IPLC C09
-      - 新加坡4-IEPL-倍率1.0
-      - 日本 ソフトバンク C10 500Mbps 1x Netflix
-      - 中国-台湾彰化 IEPL HiNet固接 C10 Netflix 动画疯
-      - 中国-台湾 VPDN 嘉义游戏专线 C08 Netflix 动画疯
-      - 精简 22
-      - 香港 油尖旺御金·国峯 環球全域電訊 C01
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C01 Netflix
+      - 中国-法国 IPLC C04
+      - 中国-香港 IEPL Equinix HK8 C 04 1Gbps HBO TVB
+      - 香港 油尖旺御金·国峯 環球全域電訊 C03
+      - 中国-台湾桃园 IPLC 台湾固网 C06 Netflix 动画疯
+      - 香港 油尖旺御金·国峯 環球全域電訊 C09
+      - 中国-香港 IEPL Equinix HK8 C 01 1Gbps HBO TVB
+      - 杭州-德国 | 2 9929
+      - 中国-爱尔兰 IPLC C02
       - 中国-香港 IEPL Equinix HK8 C 09 1Gbps HBO TVB
-      - 中国-台湾桃园 IPLC 台湾固网 C11 Netflix 动画疯
-      - 精简 26
-      - 韩国 전라북도 전주시 商宽 C 04
-      - 中国-台湾 VPDN 嘉义游戏专线 C04 Netflix 动画疯
-      - 精简 25
-      - 中国-台湾桃园 IPLC 台湾固网 C08 Netflix 动画疯
-      - US | 72
-      - 香港 油尖旺御金·国峯 名氣通電訊 C06
-      - 中国-台湾彰化 IEPL HiNet固接 C05 Netflix 动画疯
-      - 日本 ソフトバンク C04 500Mbps 1x Netflix
+      - 韩国 x1 Az直连
+      - 中国-台湾 VPDN 嘉义游戏专线 C03 Netflix 动画疯
+      - 香港 油尖旺御金·国峯 名氣通電訊 C08
+      - 香港-美国 | 5
+      - 新加坡 x1⇨Az[Twitter]
+      - 日本 ソフトバンク C10 500Mbps 1x Netflix
+      - 中国-韩国 IEPL（三）C 1Gbps
       - 日本 ソフトバンク C09 500Mbps 1x Netflix
-      - 韩国 京畿道板桥 原生游戏解锁 C 09
-      - 印度阿伟科技@TG/油管
-      - 【V2】韩国·150Mbps | 流媒体
-      - 中国-台湾彰化 IEPL HiNet固接 C02 Netflix 动画疯
-      - 印度2-CN2-倍率1.0
-      - 中国-台湾彰化 IEPL HiNet固接 C03 Netflix 动画疯
-      - 印度阿伟科技@TG/油管 2
-      - 中国-澳大利亚 IPLC 悉尼 C02
-      - 中国-日本 多协议标签交换虚拟专用网（三） F 1000Mbps
+      - 日本 ソフトバンク C07 500Mbps 1x Netflix
+      - 中国-法国 IPLC C03
+      - 台湾 x1⇨Az[Netflix]
+      - 中国-台湾彰化 IEPL HiNet固接 C09 Netflix 动画疯
+      - 有问题发工单|不提供技术支持
+      - HK5|10G|WS
+      - 中国-台湾桃园 IPLC 台湾固网 C04 Netflix 动画疯
+      - 香港 油尖旺御金·国峯 名氣通電訊 C06
+      - 香港 油尖旺御金·国峯 環球全域電訊 C02
+      - 韩国 | 1
+      - 中国-爱尔兰 IPLC C01
+      - 香港HKT | 2 维护（明日）
+      - 中国-爱尔兰 IPLC C05
+      - 香港az | 4 同上
+      - 美国 | 1 奈飞
+      - 泰国 x1⇨Az[Netflix]
+      - 日本 | 2
+      - 中国-香港 IEPL Equinix HK8 C 05 1Gbps HBO TVB
+      - 中国-香港 IPLC Equinix HK2 C 02 1Gbps HBO TVB
+      - 中国-台湾 VPDN 嘉义游戏专线 C08 Netflix 动画疯
+      - 马来西亚 | 2
+      - 中国-台湾彰化 IEPL HiNet固接 C04 Netflix 动画疯
+      - 日本 ソフトバンク C04 500Mbps 1x Netflix
+      - HK10|5G|HTTP|自填混淆
+      - 英国 x1⇨长沙联通[Twitter]
+      - 中国-香港 IEPL Equinix HK8 C 08 1Gbps HBO TVB
+      - 日本 | 3 杭日隧道 STCP GAME
+      - 香港 油尖旺御金·国峯 環球全域電訊 C08
+      - 日本 x1⇨Az
+      - 美国2 | 奈飞
+      - 中国-日本 多协议标签交换虚拟专用网（三） I 1000Mbps
+      - 精简 29
+      - 中国-台湾彰化 IEPL HiNet固接 C07 Netflix 动画疯
+      - 台湾家宽|NetFlix|動畫瘋|解锁|8090
+      - 公告|所求皆所愿！所行皆坦途
+      - 香港 x1⇨Az[Netflix]
+      - 香港 油尖旺御金·国峯 環球全域電訊 C01
+      - Azure高速港A
+      - 印度 x1⇨Az[Twitter]
+      - 中国-法国 IPLC C01
+      - 中国-香港 IPLC Equinix HK2 C 09 1Gbps HBO TVB
+      - 台湾 | 2
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C03 Netflix
+      - 精简 26
+      - 韩国 | 2 皖港隧道 STCP
+      - 土耳其 | 2
+      - HK18|5G|WS|头条合作A
+      - 中国-台湾 VPDN 嘉义游戏专线 C04 Netflix 动画疯
+      - 中国-台湾 VPDN 嘉义游戏专线 C01 Netflix 动画疯
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C07 Netflix
+      - 中国-台湾 VPDN 嘉义游戏专线 C02 Netflix 动画疯
+      - 中国-台湾彰化 IEPL HiNet固接 C10 Netflix 动画疯
+      - 德国 | 1 9929
+      - 精简 22
+      - 日本 ソフトバンク C11 500Mbps 1x Netflix
+      - 香港-日本 | 4 GAME
+      - 中国-日本 多协议标签交换虚拟专用网（三） J 1000Mbps
+      - 香港-韩国 | 1
+      - 中国-台湾桃园 IPLC 台湾固网 C10 Netflix 动画疯
+      - 香港-日本 | 5 GAME
+      - 新加坡 | 2
+      - 中国-日本 多协议标签交换虚拟专用网（三） A 1000Mbps
+      - 中国-台湾桃园 IPLC 台湾固网 C11 Netflix 动画疯
+      - 韩国 전라북도 전주시 商宽 C 04
+      - cns
+      - 中国-台湾 VPDN 嘉义游戏专线 C05 Netflix 动画疯
+      - 香港 油尖旺御金·国峯 環球全域電訊 C07
+      - 中国-台湾桃园 IPLC 台湾固网 C09 Netflix 动画疯
+      - 新加坡 | 1
+      - 中国-台湾彰化 IEPL HiNet固接 C05 Netflix 动画疯
+      - 中国-台湾桃园 IPLC 台湾固网 C02 Netflix 动画疯
+      - 中国-台湾 VPDN 嘉义游戏专线 C09 Netflix 动画疯
+      - 日本 ソフトバンク C08 500Mbps 1x Netflix
+      - 精简 27
+      - 日本 | 1
+      - 韩国 京畿道板桥 原生游戏解锁 C 08
+      - 中国-台湾 VPDN 嘉义游戏专线 C07 Netflix 动画疯
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C04 Netflix
+      - 日本阿伟科技@TG/油管
+      - 中国-韩国 IEPL（三）D 1Gbps
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C05 Netflix
+      - 日本 ソフトバンク C03 500Mbps 1x Netflix
+      - 湖南-马来西亚 | 3 STCP
+      - 中国-台湾彰化 IEPL HiNet固接 C08 Netflix 动画疯
+      - 中国-台湾 VPDN 嘉义游戏专线 C10 Netflix 动画疯
       - 中国-台湾桃园 IPLC 台湾固网 C01 Netflix 动画疯
+      - 免费日本AWS|80|轩赞助
+      - HK8|10G|HTTP|独享|1.5x
+      - 韩国 京畿道板桥 原生游戏解锁 C 02
+      - 中国-印度 班加罗尔 एयरटेल IPLC C01
+      - 中国-香港 IEPL Equinix HK8 C 07 1Gbps HBO TVB
+      - 香港 油尖旺御金·国峯 環球全域電訊 C04
+      - 韩国 京畿道板桥 原生游戏解锁 C 01
+      - 精简 24
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C08 Netflix
+      - 中国-印度 班加罗尔 एयरटेल IPLC C08
+      - 中国-印度 班加罗尔 एयरटेल IPLC C03
+      - 中国-日本 多协议标签交换虚拟专用网（三） F 1000Mbps
+      - 美国高级 IEPL 中继 C05
+      - 中国-日本 多协议标签交换虚拟专用网（三） C 1000Mbps
+      - 韩国-新加坡 | 1
+      - 中国-台湾桃园 IPLC 台湾固网 C03 Netflix 动画疯
+      - 韩国 전라북도 전주시 商宽 C 03
+      - 中国-台湾桃园 IPLC 台湾固网 C08 Netflix 动画疯
+      - 中国-法国 IPLC C05
+      - 韩国 京畿道板桥 原生游戏解锁 C 05
+      - 印度2-CN2-倍率1.0
+      - 中国-日本 多协议标签交换虚拟专用网（三） D 1000Mbps
+      - 韩国 전라북도 전주시 商宽 C 02
+      - 日本 ソフトバンク C01 500Mbps 1x Netflix
+      - 中国-韩国 IEPL（三）A 1Gbps
+      - 中国-台湾彰化 IEPL HiNet固接 C02 Netflix 动画疯
+      - 中国-日本 多协议标签交换虚拟专用网（三） G 1000Mbps
+      - 美国 x1⇨Az[Twitter]
+      - 美国 | 3 奈飞
+      - 中国-台湾桃园 IPLC 台湾固网 C07 Netflix 动画疯
+      - 中国-韩国 IEPL（三）B 1Gbps
+      - HK11|5G|HTTP
+      - 中国-台湾 VPDN 嘉义游戏专线 C06 Netflix 动画疯
+      - HK2|10G|HTTP
+      - 精简 25
+      - 精简 21
+      - 土耳其 | 1 无限流量！
+      - 中国-香港 IPLC Equinix HK2 C 04 1Gbps HBO TVB
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C06 Netflix
+      - 韩国 京畿道板桥 原生游戏解锁 C 07
+      - 中国-印度 班加罗尔 एयरटेल IPLC C06
+      - 中国-日本 多协议标签交换虚拟专用网（三） B 1000Mbps
+      - 美国 x0.8⇨Az
+      - 韩国 전라북도 전주시 商宽 C 01
+      - US | 72
+      - 美国高级 IEPL 中继 C01
+      - HK6|10G|HTTP
+      - 中国-台湾桃园 IPLC 台湾固网 C05 Netflix 动画疯
+      - 中国-韩国 IEPL（三）E 1Gbps
+      - 中国-印度 班加罗尔 एयरटेल IPLC C09
+      - 中国-澳大利亚 IPLC 悉尼 C04
+      - 韩国 京畿道板桥 原生游戏解锁 C 03
+      - 荷兰 x1⇨Az[Twitter]
+      - 德国 x1⇨长沙联通[Twitter]
+      - 日本 ソフトバンク C02 500Mbps 1x Netflix
+      - 香港 油尖旺御金·国峯 名氣通電訊 C07
+      - 俄罗斯1-CN2-倍率1.0
+      - 马来西亚 | 1
+      - 台湾 | 1 无限流量！
+      - 香港 油尖旺御金·国峯 環球全域電訊 C06
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C02 Netflix
+      - 韩国-日本 | 1
+      - HK14|10G|HTTP|809测试
+      - 日本阿伟科技@TG/油管 2
+      - 荷兰 x1⇨长沙联通[Twitter]
+      - 中国-英国伦敦 IPLC BBC C02
+      - 韩国 전라북도 전주시 商宽 C 05
+      - 美国阿伟科技@TG/油管
+      - TG售后群|复制浏览器打开|https://t.me/yyjsd
+      - 韩国 京畿道板桥 原生游戏解锁 C 10
+      - 美国高级 IEPL 中继 C02
+      - HK9|10G|WS|独享|1.5x
+      - 新加坡4-IEPL-倍率1.0
+      - 德国 x1⇨Az[Twitter]
+      - 日本 ソフトバンク C12 500Mbps 1x Netflix
+      - 免费美国AWS|TCP80|轩赞助
+      - 韩国 京畿道板桥 原生游戏解锁 C 04
+      - 美国高级 IEPL 中继 C04
+      - 中国-法国 IPLC C02
+      - 台湾 x1⇨长沙联通[原生][Netflix]
+      - 英国 x1⇨Az[Twitter]
+      - 中国-台湾彰化 IEPL HiNet固接 C03 Netflix 动画疯
       - 德国1-CN2-倍率1.0
       - 中国-英国伦敦 IPLC BBC C04
-      - 中国-日本 多协议标签交换虚拟专用网（三） G 1000Mbps
+      - 澳大利亚2-CN2-倍率1.0
+      - 新加坡 x1 Az直连
+      - 印度1-CN2-倍率1.0
+      - 印度阿伟科技@TG/油管
+      - 美国阿伟科技@TG/油管 2
+      - 美国实验性 IEPL 中继 C03
+      - 土耳其1-CN2-倍率1.0
+      - 中国-香港 IEPL Equinix HK8 C 03 1Gbps HBO TVB
       - 美国阿伟科技@TG/油管 3
-      - 美国实验性 IEPL 中继 C01
-      - 日本 ソフトバンク C11 500Mbps 1x Netflix
-      - 新加坡 Magic IEPL 中继 C04 Netflix
-      - 新加坡 Legacy Magic IEPL 中继 C02 Netflix
-      - 中国-英国伦敦 IPLC BBC C03
-      - 中国-英国伦敦 IPLC BBC C02
-      - 新加坡 Magic IEPL 中继 C02 Netflix
+      - 免费美国AWS|80|轩赞助①
+      - 美国 | 4
+      - 韩国 京畿道板桥 原生游戏解锁 C 09
+      - 中国-印度 班加罗尔 एयरटेल IPLC C07
+      - 新加坡 Legacy Magic IEPL 中继 C01 Netflix
+      - 中国-加拿大 IPLC C04
       - 美国阿伟科技@TG/油管 4
+      - 中国-印度 班加罗尔 एयरटेल IPLC C05
       - 中国-英国伦敦 IPLC BBC C06
-      - 【V2】美国·芝加哥·200Mbps
-      - 中国-澳大利亚 IPLC 悉尼 C04
-      - 俄罗斯1-CN2-倍率1.0
-      - 新加坡 Legacy Magic IEPL 中继 C03 Netflix
-      - 新加坡 Magic IEPL 中继 C03 Netflix
+      - 美国实验性 IEPL 中继 C02
       - 美国阿伟科技@TG/油管 5
       - 美国阿伟科技@TG/油管 6
-      - 土耳其1-CN2-倍率1.0
-      - 美国高级 IEPL 中继 C01
-      - 美国高级 IEPL 中继 C02
-      - 美国阿伟科技@TG/油管 7
-      - 土耳其2-CN2-倍率1.0
+      - 【V2】韩国·150Mbps | 流媒体
       - 新加坡 Magic IEPL 中继 C05 Netflix
-      - 中国-加拿大 IPLC C05
-      - 美国阿伟科技@TG/油管 8
       - 中国-加拿大 IPLC C01
-      - 美国阿伟科技@TG/油管 9
-      - 中国-香港 IPLC Equinix HK2 C 02 1Gbps HBO TVB
-      - 新加坡 Legacy Magic IEPL 中继 C01 Netflix
-      - 香港阿伟科技@TG/油管
       - 中国-加拿大 IPLC C03
-      - 中国-印度 班加罗尔 एयरटेल IPLC C01
-      - 美国阿伟科技@TG/油管 10
-      - 中国-韩国 IEPL（三）E 1Gbps
-      - 美国阿伟科技@TG/油管 11
-      - 香港 油尖旺御金·国峯 環球全域電訊 C02
-      - 中国-爱尔兰 IPLC C05
-      - 新加坡高级 IEPL 中继 C02 Netflix
       - 澳大利亚1-CN2-倍率1.0
-      - 美国高级 IEPL 中继 C04
-      - 中国-加拿大 IPLC C04
-      - 新加坡高级 IEPL 中继 C01 Netflix
-      - 美国阿伟科技@TG/油管 12
-      - 美国实验性 IEPL 中继 C02
-      - 美国阿伟科技@TG/油管 13
-      - 澳大利亚2-CN2-倍率1.0
-      - 【V2】俄罗斯·150Mbps | 电信
-      - 【V3】台湾·1Gbps
-      - 美国高级 IEPL 中继 C05
-      - 中国-印度 班加罗尔 एयरटेल IPLC C06
-      - 新加坡高级 IEPL 中继 C03 Netflix
-      - 美国实验性 IEPL 中继 C03
+      - 中国-台湾彰化 IEPL HiNet固接 C06 Netflix 动画疯
+      - 土耳其2-CN2-倍率1.0
+      - 新加坡 Legacy Magic IEPL 中继 C02 Netflix
+      - 美国阿伟科技@TG/油管 7
+      - 美国阿伟科技@TG/油管 8
+      - 新加坡 Magic IEPL 中继 C03 Netflix
+      - 中国-英国伦敦 IPLC BBC C03
+      - 新加坡 Legacy Magic IEPL 中继 C03 Netflix
+      - 印度阿伟科技@TG/油管 2
+      - 新加坡 Magic IEPL 中继 C02 Netflix
+      - 新加坡 Magic IEPL 中继 C04 Netflix
+      - 中国-加拿大 IPLC C05
+      - 新加坡高级 IEPL 中继 C02 Netflix
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -884,940 +956,1010 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港 油尖旺御金·国峯 環球全域電訊 C09
-      - 香港 油尖旺御金·国峯 環球全域電訊 C05
-      - 香港4-IEPL-倍率1.0
-      - 香港5-IEPL-倍率1.0
-      - 中国-香港 IPLC Equinix HK2 C 01 1Gbps HBO TVB
-      - 中国-香港 IEPL Equinix HK8 C 07 1Gbps HBO TVB
-      - JP | 59
-      - 日本4-IEPL-倍率1.0
-      - 中国-爱尔兰 IPLC C03
-      - 中国-爱尔兰 IPLC C01
-      - 香港 油尖旺御金·国峯 名氣通電訊 C08
-      - 中国-香港 IEPL Equinix HK8 C 01 1Gbps HBO TVB
-      - 中国-香港 IPLC Equinix HK2 C 04 1Gbps HBO TVB
-      - 中国-香港 IPLC Equinix HK2 C 07 1Gbps HBO TVB
-      - 日本阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C06 Netflix
-      - 中国-香港 IEPL Equinix HK8 C 02 1Gbps HBO TVB
-      - 香港 油尖旺御金·国峯 名氣通電訊 C01
-      - 中国-台湾彰化 IEPL HiNet固接 C08 Netflix 动画疯
-      - 香港 油尖旺御金·国峯 名氣通電訊 C09
-      - 日本阿伟科技@TG/油管 2
-      - 香港 油尖旺御金·国峯 名氣通電訊 C04
-      - 中国-法国 IPLC C03
-      - 韩国 전라북도 전주시 商宽 C 01
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C02 Netflix
-      - 中国-日本 多协议标签交换虚拟专用网（三） I 1000Mbps
-      - 中国-香港 IEPL Equinix HK8 C 08 1Gbps HBO TVB
-      - 日本阿伟科技@TG/油管 3
-      - 美国阿伟科技@TG/油管 2
-      - 香港 油尖旺御金·国峯 環球全域電訊 C04
-      - 韩国 京畿道板桥 原生游戏解锁 C 04
-      - ASYNCHRONOUS TRANSFERMODE 永久虚通路连接PVCC C01
-      - 香港 油尖旺御金·国峯 名氣通電訊 C02
-      - 香港 油尖旺御金·国峯 環球全域電訊 C07
-      - 中国-爱尔兰 IPLC C04
-      - 中国-香港 IEPL Equinix HK8 C 10 1Gbps HBO TVB
-      - 中国-法国 IPLC C02
-      - 日本 ソフトバンク C05 500Mbps 1x Netflix
-      - 中国-台湾桃园 IPLC 台湾固网 C06 Netflix 动画疯
-      - 日本 ソフトバンク C02 500Mbps 1x Netflix
-      - 日本 ソフトバンク C12 500Mbps 1x Netflix
-      - 日本1-IEPL-倍率1.0
-      - 中国-台湾桃园 IPLC 台湾固网 C03 Netflix 动画疯
-      - 中国-日本 多协议标签交换虚拟专用网（三） D 1000Mbps
-      - 中国-爱尔兰 IPLC C02
-      - 中国-香港 IEPL Equinix HK8 C 06 1Gbps HBO TVB
-      - 精简 27
-      - 中国-法国 IPLC C01
-      - 香港 油尖旺御金·国峯 環球全域電訊 C08
-      - 中国-法国 IPLC C04
-      - 韩国 京畿道板桥 原生游戏解锁 C 01
-      - 韩国 京畿道板桥 原生游戏解锁 C 08
-      - 中国-台湾 VPDN 嘉义游戏专线 C01 Netflix 动画疯
-      - 日本 ソフトバンク C01 500Mbps 1x Netflix
-      - 中国-日本 多协议标签交换虚拟专用网（三） B 1000Mbps
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C04 Netflix
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C01 Netflix
-      - 韩国 전라북도 전주시 商宽 C 05
-      - 日本 ソフトバンク C08 500Mbps 1x Netflix
-      - 中国-台湾 VPDN 嘉义游戏专线 C03 Netflix 动画疯
-      - 中国-香港 IPLC Equinix HK2 C 03 1Gbps HBO TVB
-      - 香港 油尖旺御金·国峯 環球全域電訊 C06
-      - 精简 24
-      - 韩国 전라북도 전주시 商宽 C 02
-      - 韩国 京畿道板桥 原生游戏解锁 C 05
-      - 韩国 京畿道板桥 原生游戏解锁 C 10
-      - 中国-韩国 IEPL（三）A 1Gbps
-      - 香港 油尖旺御金·国峯 名氣通電訊 C07
-      - 中国-日本 多协议标签交换虚拟专用网（三） E 1000Mbps
-      - 中国-日本 多协议标签交换虚拟专用网（三） J 1000Mbps
-      - 美国5-IEPL-倍率1.0
-      - 中国-台湾彰化 IEPL HiNet固接 C09 Netflix 动画疯
-      - 中国-香港 IEPL Equinix HK8 C 05 1Gbps HBO TVB
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C03 Netflix
-      - 中国-香港 IEPL Equinix HK8 C 03 1Gbps HBO TVB
-      - 中国-香港 IPLC Equinix HK2 C 09 1Gbps HBO TVB
-      - 中国-台湾桃园 IPLC 台湾固网 C10 Netflix 动画疯
-      - 中国-印度 班加罗尔 एयरटेल IPLC C08
-      - 中国-日本 多协议标签交换虚拟专用网（三） A 1000Mbps
-      - 台湾5-IEPL-倍率1.0
-      - 中国-台湾桃园 IPLC 台湾固网 C02 Netflix 动画疯
-      - 韩国 京畿道板桥 原生游戏解锁 C 03
-      - 日本6-IEPL-倍率1.0
-      - 日本阿伟科技@TG/油管 4
-      - 中国-法国 IPLC C05
-      - 香港 油尖旺御金·国峯 環球全域電訊 C03
-      - 中国-台湾彰化 IEPL HiNet固接 C06 Netflix 动画疯
-      - 中国-韩国 IEPL（三）D 1Gbps
-      - 中国-韩国 IEPL（三）C 1Gbps
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C05 Netflix
-      - 韩国 京畿道板桥 原生游戏解锁 C 07
-      - 中国-台湾 VPDN 嘉义游戏专线 C02 Netflix 动画疯
-      - 中国-日本 多协议标签交换虚拟专用网（三） C 1000Mbps
-      - 日本 ソフトバンク C07 500Mbps 1x Netflix
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C08 Netflix
-      - 中国-台湾桃园 IPLC 台湾固网 C05 Netflix 动画疯
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C07 Netflix
-      - 中国-印度 班加罗尔 एयरटेल IPLC C03
-      - 韩国 京畿道板桥 原生游戏解锁 C 02
-      - 日本 ソフトバンク C03 500Mbps 1x Netflix
-      - 中国-台湾桃园 IPLC 台湾固网 C07 Netflix 动画疯
-      - 韩国 전라북도 전주시 商宽 C 03
-      - 台湾3-IEPL-倍率1.0
-      - 美国1-IEPL-倍率1.0
-      - 精简 29
-      - 中国-台湾 VPDN 嘉义游戏专线 C05 Netflix 动画疯
-      - 中国-台湾 VPDN 嘉义游戏专线 C10 Netflix 动画疯
-      - 中国-印度 班加罗尔 एयरटेल IPLC C05
-      - 印度1-CN2-倍率1.0
-      - 中国-印度 班加罗尔 एयरटेल IPLC C07
-      - 新加坡1-IEPL-倍率1.0
-      - 中国-台湾桃园 IPLC 台湾固网 C04 Netflix 动画疯
-      - 中国-台湾 VPDN 嘉义游戏专线 C07 Netflix 动画疯
-      - 美国2-IEPL-倍率1.0
-      - 日本 ソフトバンク C06 500Mbps 1x Netflix
-      - 中国-韩国 IEPL（三）B 1Gbps
-      - 中国-台湾 VPDN 嘉义游戏专线 C06 Netflix 动画疯
-      - 中国-香港 IEPL Equinix HK8 C 04 1Gbps HBO TVB
-      - 中国-台湾 VPDN 嘉义游戏专线 C09 Netflix 动画疯
-      - 中国-台湾彰化 IEPL HiNet固接 C04 Netflix 动画疯
-      - 精简 28
-      - 精简 23
-      - 精简 21
+      - 香港阿伟科技@TG/油管
       - az-hk
-      - 中国-台湾桃园 IPLC 台湾固网 C09 Netflix 动画疯
-      - 中国-台湾彰化 IEPL HiNet固接 C07 Netflix 动画疯
-      - 中国-印度 班加罗尔 एयरटेल IPLC C09
-      - 新加坡4-IEPL-倍率1.0
-      - 日本 ソフトバンク C10 500Mbps 1x Netflix
-      - 中国-台湾彰化 IEPL HiNet固接 C10 Netflix 动画疯
-      - 中国-台湾 VPDN 嘉义游戏专线 C08 Netflix 动画疯
-      - 精简 22
-      - 香港 油尖旺御金·国峯 環球全域電訊 C01
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C01 Netflix
+      - 中国-法国 IPLC C04
+      - 中国-香港 IEPL Equinix HK8 C 04 1Gbps HBO TVB
+      - 香港 油尖旺御金·国峯 環球全域電訊 C03
+      - 中国-台湾桃园 IPLC 台湾固网 C06 Netflix 动画疯
+      - 香港 油尖旺御金·国峯 環球全域電訊 C09
+      - 中国-香港 IEPL Equinix HK8 C 01 1Gbps HBO TVB
+      - 杭州-德国 | 2 9929
+      - 中国-爱尔兰 IPLC C02
       - 中国-香港 IEPL Equinix HK8 C 09 1Gbps HBO TVB
-      - 中国-台湾桃园 IPLC 台湾固网 C11 Netflix 动画疯
-      - 精简 26
-      - 韩国 전라북도 전주시 商宽 C 04
-      - 中国-台湾 VPDN 嘉义游戏专线 C04 Netflix 动画疯
-      - 精简 25
-      - 中国-台湾桃园 IPLC 台湾固网 C08 Netflix 动画疯
-      - US | 72
-      - 香港 油尖旺御金·国峯 名氣通電訊 C06
-      - 中国-台湾彰化 IEPL HiNet固接 C05 Netflix 动画疯
-      - 日本 ソフトバンク C04 500Mbps 1x Netflix
+      - 韩国 x1 Az直连
+      - 中国-台湾 VPDN 嘉义游戏专线 C03 Netflix 动画疯
+      - 香港 油尖旺御金·国峯 名氣通電訊 C08
+      - 香港-美国 | 5
+      - 新加坡 x1⇨Az[Twitter]
+      - 日本 ソフトバンク C10 500Mbps 1x Netflix
+      - 中国-韩国 IEPL（三）C 1Gbps
       - 日本 ソフトバンク C09 500Mbps 1x Netflix
-      - 韩国 京畿道板桥 原生游戏解锁 C 09
-      - 印度阿伟科技@TG/油管
-      - 【V2】韩国·150Mbps | 流媒体
-      - 中国-台湾彰化 IEPL HiNet固接 C02 Netflix 动画疯
-      - 印度2-CN2-倍率1.0
-      - 中国-台湾彰化 IEPL HiNet固接 C03 Netflix 动画疯
-      - 印度阿伟科技@TG/油管 2
-      - 中国-澳大利亚 IPLC 悉尼 C02
-      - 中国-日本 多协议标签交换虚拟专用网（三） F 1000Mbps
+      - 日本 ソフトバンク C07 500Mbps 1x Netflix
+      - 中国-法国 IPLC C03
+      - 台湾 x1⇨Az[Netflix]
+      - 中国-台湾彰化 IEPL HiNet固接 C09 Netflix 动画疯
+      - 有问题发工单|不提供技术支持
+      - HK5|10G|WS
+      - 中国-台湾桃园 IPLC 台湾固网 C04 Netflix 动画疯
+      - 香港 油尖旺御金·国峯 名氣通電訊 C06
+      - 香港 油尖旺御金·国峯 環球全域電訊 C02
+      - 韩国 | 1
+      - 中国-爱尔兰 IPLC C01
+      - 香港HKT | 2 维护（明日）
+      - 中国-爱尔兰 IPLC C05
+      - 香港az | 4 同上
+      - 美国 | 1 奈飞
+      - 泰国 x1⇨Az[Netflix]
+      - 日本 | 2
+      - 中国-香港 IEPL Equinix HK8 C 05 1Gbps HBO TVB
+      - 中国-香港 IPLC Equinix HK2 C 02 1Gbps HBO TVB
+      - 中国-台湾 VPDN 嘉义游戏专线 C08 Netflix 动画疯
+      - 马来西亚 | 2
+      - 中国-台湾彰化 IEPL HiNet固接 C04 Netflix 动画疯
+      - 日本 ソフトバンク C04 500Mbps 1x Netflix
+      - HK10|5G|HTTP|自填混淆
+      - 英国 x1⇨长沙联通[Twitter]
+      - 中国-香港 IEPL Equinix HK8 C 08 1Gbps HBO TVB
+      - 日本 | 3 杭日隧道 STCP GAME
+      - 香港 油尖旺御金·国峯 環球全域電訊 C08
+      - 日本 x1⇨Az
+      - 美国2 | 奈飞
+      - 中国-日本 多协议标签交换虚拟专用网（三） I 1000Mbps
+      - 精简 29
+      - 中国-台湾彰化 IEPL HiNet固接 C07 Netflix 动画疯
+      - 台湾家宽|NetFlix|動畫瘋|解锁|8090
+      - 公告|所求皆所愿！所行皆坦途
+      - 香港 x1⇨Az[Netflix]
+      - 香港 油尖旺御金·国峯 環球全域電訊 C01
+      - Azure高速港A
+      - 印度 x1⇨Az[Twitter]
+      - 中国-法国 IPLC C01
+      - 中国-香港 IPLC Equinix HK2 C 09 1Gbps HBO TVB
+      - 台湾 | 2
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C03 Netflix
+      - 精简 26
+      - 韩国 | 2 皖港隧道 STCP
+      - 土耳其 | 2
+      - HK18|5G|WS|头条合作A
+      - 中国-台湾 VPDN 嘉义游戏专线 C04 Netflix 动画疯
+      - 中国-台湾 VPDN 嘉义游戏专线 C01 Netflix 动画疯
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C07 Netflix
+      - 中国-台湾 VPDN 嘉义游戏专线 C02 Netflix 动画疯
+      - 中国-台湾彰化 IEPL HiNet固接 C10 Netflix 动画疯
+      - 德国 | 1 9929
+      - 精简 22
+      - 日本 ソフトバンク C11 500Mbps 1x Netflix
+      - 香港-日本 | 4 GAME
+      - 中国-日本 多协议标签交换虚拟专用网（三） J 1000Mbps
+      - 香港-韩国 | 1
+      - 中国-台湾桃园 IPLC 台湾固网 C10 Netflix 动画疯
+      - 香港-日本 | 5 GAME
+      - 新加坡 | 2
+      - 中国-日本 多协议标签交换虚拟专用网（三） A 1000Mbps
+      - 中国-台湾桃园 IPLC 台湾固网 C11 Netflix 动画疯
+      - 韩国 전라북도 전주시 商宽 C 04
+      - cns
+      - 中国-台湾 VPDN 嘉义游戏专线 C05 Netflix 动画疯
+      - 香港 油尖旺御金·国峯 環球全域電訊 C07
+      - 中国-台湾桃园 IPLC 台湾固网 C09 Netflix 动画疯
+      - 新加坡 | 1
+      - 中国-台湾彰化 IEPL HiNet固接 C05 Netflix 动画疯
+      - 中国-台湾桃园 IPLC 台湾固网 C02 Netflix 动画疯
+      - 中国-台湾 VPDN 嘉义游戏专线 C09 Netflix 动画疯
+      - 日本 ソフトバンク C08 500Mbps 1x Netflix
+      - 精简 27
+      - 日本 | 1
+      - 韩国 京畿道板桥 原生游戏解锁 C 08
+      - 中国-台湾 VPDN 嘉义游戏专线 C07 Netflix 动画疯
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C04 Netflix
+      - 日本阿伟科技@TG/油管
+      - 中国-韩国 IEPL（三）D 1Gbps
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C05 Netflix
+      - 日本 ソフトバンク C03 500Mbps 1x Netflix
+      - 湖南-马来西亚 | 3 STCP
+      - 中国-台湾彰化 IEPL HiNet固接 C08 Netflix 动画疯
+      - 中国-台湾 VPDN 嘉义游戏专线 C10 Netflix 动画疯
       - 中国-台湾桃园 IPLC 台湾固网 C01 Netflix 动画疯
+      - 免费日本AWS|80|轩赞助
+      - HK8|10G|HTTP|独享|1.5x
+      - 韩国 京畿道板桥 原生游戏解锁 C 02
+      - 中国-印度 班加罗尔 एयरटेल IPLC C01
+      - 中国-香港 IEPL Equinix HK8 C 07 1Gbps HBO TVB
+      - 香港 油尖旺御金·国峯 環球全域電訊 C04
+      - 韩国 京畿道板桥 原生游戏解锁 C 01
+      - 精简 24
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C08 Netflix
+      - 中国-印度 班加罗尔 एयरटेल IPLC C08
+      - 中国-印度 班加罗尔 एयरटेल IPLC C03
+      - 中国-日本 多协议标签交换虚拟专用网（三） F 1000Mbps
+      - 美国高级 IEPL 中继 C05
+      - 中国-日本 多协议标签交换虚拟专用网（三） C 1000Mbps
+      - 韩国-新加坡 | 1
+      - 中国-台湾桃园 IPLC 台湾固网 C03 Netflix 动画疯
+      - 韩国 전라북도 전주시 商宽 C 03
+      - 中国-台湾桃园 IPLC 台湾固网 C08 Netflix 动画疯
+      - 中国-法国 IPLC C05
+      - 韩国 京畿道板桥 原生游戏解锁 C 05
+      - 印度2-CN2-倍率1.0
+      - 中国-日本 多协议标签交换虚拟专用网（三） D 1000Mbps
+      - 韩国 전라북도 전주시 商宽 C 02
+      - 日本 ソフトバンク C01 500Mbps 1x Netflix
+      - 中国-韩国 IEPL（三）A 1Gbps
+      - 中国-台湾彰化 IEPL HiNet固接 C02 Netflix 动画疯
+      - 中国-日本 多协议标签交换虚拟专用网（三） G 1000Mbps
+      - 美国 x1⇨Az[Twitter]
+      - 美国 | 3 奈飞
+      - 中国-台湾桃园 IPLC 台湾固网 C07 Netflix 动画疯
+      - 中国-韩国 IEPL（三）B 1Gbps
+      - HK11|5G|HTTP
+      - 中国-台湾 VPDN 嘉义游戏专线 C06 Netflix 动画疯
+      - HK2|10G|HTTP
+      - 精简 25
+      - 精简 21
+      - 土耳其 | 1 无限流量！
+      - 中国-香港 IPLC Equinix HK2 C 04 1Gbps HBO TVB
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C06 Netflix
+      - 韩国 京畿道板桥 原生游戏解锁 C 07
+      - 中国-印度 班加罗尔 एयरटेल IPLC C06
+      - 中国-日本 多协议标签交换虚拟专用网（三） B 1000Mbps
+      - 美国 x0.8⇨Az
+      - 韩国 전라북도 전주시 商宽 C 01
+      - US | 72
+      - 美国高级 IEPL 中继 C01
+      - HK6|10G|HTTP
+      - 中国-台湾桃园 IPLC 台湾固网 C05 Netflix 动画疯
+      - 中国-韩国 IEPL（三）E 1Gbps
+      - 中国-印度 班加罗尔 एयरटेल IPLC C09
+      - 中国-澳大利亚 IPLC 悉尼 C04
+      - 韩国 京畿道板桥 原生游戏解锁 C 03
+      - 荷兰 x1⇨Az[Twitter]
+      - 德国 x1⇨长沙联通[Twitter]
+      - 日本 ソフトバンク C02 500Mbps 1x Netflix
+      - 香港 油尖旺御金·国峯 名氣通電訊 C07
+      - 俄罗斯1-CN2-倍率1.0
+      - 马来西亚 | 1
+      - 台湾 | 1 无限流量！
+      - 香港 油尖旺御金·国峯 環球全域電訊 C06
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C02 Netflix
+      - 韩国-日本 | 1
+      - HK14|10G|HTTP|809测试
+      - 日本阿伟科技@TG/油管 2
+      - 荷兰 x1⇨长沙联通[Twitter]
+      - 中国-英国伦敦 IPLC BBC C02
+      - 韩国 전라북도 전주시 商宽 C 05
+      - 美国阿伟科技@TG/油管
+      - TG售后群|复制浏览器打开|https://t.me/yyjsd
+      - 韩国 京畿道板桥 原生游戏解锁 C 10
+      - 美国高级 IEPL 中继 C02
+      - HK9|10G|WS|独享|1.5x
+      - 新加坡4-IEPL-倍率1.0
+      - 德国 x1⇨Az[Twitter]
+      - 日本 ソフトバンク C12 500Mbps 1x Netflix
+      - 免费美国AWS|TCP80|轩赞助
+      - 韩国 京畿道板桥 原生游戏解锁 C 04
+      - 美国高级 IEPL 中继 C04
+      - 中国-法国 IPLC C02
+      - 台湾 x1⇨长沙联通[原生][Netflix]
+      - 英国 x1⇨Az[Twitter]
+      - 中国-台湾彰化 IEPL HiNet固接 C03 Netflix 动画疯
       - 德国1-CN2-倍率1.0
       - 中国-英国伦敦 IPLC BBC C04
-      - 中国-日本 多协议标签交换虚拟专用网（三） G 1000Mbps
+      - 澳大利亚2-CN2-倍率1.0
+      - 新加坡 x1 Az直连
+      - 印度1-CN2-倍率1.0
+      - 印度阿伟科技@TG/油管
+      - 美国阿伟科技@TG/油管 2
+      - 美国实验性 IEPL 中继 C03
+      - 土耳其1-CN2-倍率1.0
+      - 中国-香港 IEPL Equinix HK8 C 03 1Gbps HBO TVB
       - 美国阿伟科技@TG/油管 3
-      - 美国实验性 IEPL 中继 C01
-      - 日本 ソフトバンク C11 500Mbps 1x Netflix
-      - 新加坡 Magic IEPL 中继 C04 Netflix
-      - 新加坡 Legacy Magic IEPL 中继 C02 Netflix
-      - 中国-英国伦敦 IPLC BBC C03
-      - 中国-英国伦敦 IPLC BBC C02
-      - 新加坡 Magic IEPL 中继 C02 Netflix
+      - 免费美国AWS|80|轩赞助①
+      - 美国 | 4
+      - 韩国 京畿道板桥 原生游戏解锁 C 09
+      - 中国-印度 班加罗尔 एयरटेल IPLC C07
+      - 新加坡 Legacy Magic IEPL 中继 C01 Netflix
+      - 中国-加拿大 IPLC C04
       - 美国阿伟科技@TG/油管 4
+      - 中国-印度 班加罗尔 एयरटेल IPLC C05
       - 中国-英国伦敦 IPLC BBC C06
-      - 【V2】美国·芝加哥·200Mbps
-      - 中国-澳大利亚 IPLC 悉尼 C04
-      - 俄罗斯1-CN2-倍率1.0
-      - 新加坡 Legacy Magic IEPL 中继 C03 Netflix
-      - 新加坡 Magic IEPL 中继 C03 Netflix
+      - 美国实验性 IEPL 中继 C02
       - 美国阿伟科技@TG/油管 5
       - 美国阿伟科技@TG/油管 6
-      - 土耳其1-CN2-倍率1.0
-      - 美国高级 IEPL 中继 C01
-      - 美国高级 IEPL 中继 C02
-      - 美国阿伟科技@TG/油管 7
-      - 土耳其2-CN2-倍率1.0
+      - 【V2】韩国·150Mbps | 流媒体
       - 新加坡 Magic IEPL 中继 C05 Netflix
-      - 中国-加拿大 IPLC C05
-      - 美国阿伟科技@TG/油管 8
       - 中国-加拿大 IPLC C01
-      - 美国阿伟科技@TG/油管 9
-      - 中国-香港 IPLC Equinix HK2 C 02 1Gbps HBO TVB
-      - 新加坡 Legacy Magic IEPL 中继 C01 Netflix
-      - 香港阿伟科技@TG/油管
       - 中国-加拿大 IPLC C03
-      - 中国-印度 班加罗尔 एयरटेल IPLC C01
-      - 美国阿伟科技@TG/油管 10
-      - 中国-韩国 IEPL（三）E 1Gbps
-      - 美国阿伟科技@TG/油管 11
-      - 香港 油尖旺御金·国峯 環球全域電訊 C02
-      - 中国-爱尔兰 IPLC C05
-      - 新加坡高级 IEPL 中继 C02 Netflix
       - 澳大利亚1-CN2-倍率1.0
-      - 美国高级 IEPL 中继 C04
-      - 中国-加拿大 IPLC C04
-      - 新加坡高级 IEPL 中继 C01 Netflix
-      - 美国阿伟科技@TG/油管 12
-      - 美国实验性 IEPL 中继 C02
-      - 美国阿伟科技@TG/油管 13
-      - 澳大利亚2-CN2-倍率1.0
-      - 【V2】俄罗斯·150Mbps | 电信
-      - 【V3】台湾·1Gbps
-      - 美国高级 IEPL 中继 C05
-      - 中国-印度 班加罗尔 एयरटेल IPLC C06
-      - 新加坡高级 IEPL 中继 C03 Netflix
-      - 美国实验性 IEPL 中继 C03
+      - 中国-台湾彰化 IEPL HiNet固接 C06 Netflix 动画疯
+      - 土耳其2-CN2-倍率1.0
+      - 新加坡 Legacy Magic IEPL 中继 C02 Netflix
+      - 美国阿伟科技@TG/油管 7
+      - 美国阿伟科技@TG/油管 8
+      - 新加坡 Magic IEPL 中继 C03 Netflix
+      - 中国-英国伦敦 IPLC BBC C03
+      - 新加坡 Legacy Magic IEPL 中继 C03 Netflix
+      - 印度阿伟科技@TG/油管 2
+      - 新加坡 Magic IEPL 中继 C02 Netflix
+      - 新加坡 Magic IEPL 中继 C04 Netflix
+      - 中国-加拿大 IPLC C05
+      - 新加坡高级 IEPL 中继 C02 Netflix
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港 油尖旺御金·国峯 環球全域電訊 C09
-      - 香港 油尖旺御金·国峯 環球全域電訊 C05
-      - 香港4-IEPL-倍率1.0
-      - 香港5-IEPL-倍率1.0
-      - 中国-香港 IPLC Equinix HK2 C 01 1Gbps HBO TVB
-      - 中国-香港 IEPL Equinix HK8 C 07 1Gbps HBO TVB
-      - 香港 油尖旺御金·国峯 名氣通電訊 C08
-      - 中国-香港 IEPL Equinix HK8 C 01 1Gbps HBO TVB
-      - 中国-香港 IPLC Equinix HK2 C 04 1Gbps HBO TVB
-      - 中国-香港 IPLC Equinix HK2 C 07 1Gbps HBO TVB
-      - 中国-香港 IEPL Equinix HK8 C 02 1Gbps HBO TVB
-      - 香港 油尖旺御金·国峯 名氣通電訊 C01
-      - 中国-台湾彰化 IEPL HiNet固接 C08 Netflix 动画疯
-      - 香港 油尖旺御金·国峯 名氣通電訊 C09
-      - 香港 油尖旺御金·国峯 名氣通電訊 C04
-      - 中国-香港 IEPL Equinix HK8 C 08 1Gbps HBO TVB
-      - 香港 油尖旺御金·国峯 環球全域電訊 C04
-      - 香港 油尖旺御金·国峯 名氣通電訊 C02
-      - 香港 油尖旺御金·国峯 環球全域電訊 C07
-      - 中国-香港 IEPL Equinix HK8 C 10 1Gbps HBO TVB
-      - 中国-台湾桃园 IPLC 台湾固网 C06 Netflix 动画疯
-      - 中国-台湾桃园 IPLC 台湾固网 C03 Netflix 动画疯
-      - 中国-香港 IEPL Equinix HK8 C 06 1Gbps HBO TVB
-      - 香港 油尖旺御金·国峯 環球全域電訊 C08
-      - 中国-台湾 VPDN 嘉义游戏专线 C01 Netflix 动画疯
-      - 中国-台湾 VPDN 嘉义游戏专线 C03 Netflix 动画疯
-      - 中国-香港 IPLC Equinix HK2 C 03 1Gbps HBO TVB
-      - 香港 油尖旺御金·国峯 環球全域電訊 C06
-      - 香港 油尖旺御金·国峯 名氣通電訊 C07
-      - 中国-台湾彰化 IEPL HiNet固接 C09 Netflix 动画疯
-      - 中国-香港 IEPL Equinix HK8 C 05 1Gbps HBO TVB
-      - 中国-香港 IEPL Equinix HK8 C 03 1Gbps HBO TVB
-      - 中国-香港 IPLC Equinix HK2 C 09 1Gbps HBO TVB
-      - 中国-台湾桃园 IPLC 台湾固网 C10 Netflix 动画疯
-      - 台湾5-IEPL-倍率1.0
-      - 中国-台湾桃园 IPLC 台湾固网 C02 Netflix 动画疯
-      - 香港 油尖旺御金·国峯 環球全域電訊 C03
-      - 中国-台湾彰化 IEPL HiNet固接 C06 Netflix 动画疯
-      - 中国-台湾 VPDN 嘉义游戏专线 C02 Netflix 动画疯
-      - 中国-台湾桃园 IPLC 台湾固网 C05 Netflix 动画疯
-      - 中国-台湾桃园 IPLC 台湾固网 C07 Netflix 动画疯
-      - 台湾3-IEPL-倍率1.0
-      - 中国-台湾 VPDN 嘉义游戏专线 C05 Netflix 动画疯
-      - 中国-台湾 VPDN 嘉义游戏专线 C10 Netflix 动画疯
-      - 中国-台湾桃园 IPLC 台湾固网 C04 Netflix 动画疯
-      - 中国-台湾 VPDN 嘉义游戏专线 C07 Netflix 动画疯
-      - 中国-台湾 VPDN 嘉义游戏专线 C06 Netflix 动画疯
-      - 中国-香港 IEPL Equinix HK8 C 04 1Gbps HBO TVB
-      - 中国-台湾 VPDN 嘉义游戏专线 C09 Netflix 动画疯
-      - 中国-台湾彰化 IEPL HiNet固接 C04 Netflix 动画疯
-      - az-hk
-      - 中国-台湾桃园 IPLC 台湾固网 C09 Netflix 动画疯
-      - 中国-台湾彰化 IEPL HiNet固接 C07 Netflix 动画疯
-      - 中国-台湾彰化 IEPL HiNet固接 C10 Netflix 动画疯
-      - 中国-台湾 VPDN 嘉义游戏专线 C08 Netflix 动画疯
-      - 香港 油尖旺御金·国峯 環球全域電訊 C01
-      - 中国-香港 IEPL Equinix HK8 C 09 1Gbps HBO TVB
-      - 中国-台湾桃园 IPLC 台湾固网 C11 Netflix 动画疯
-      - 中国-台湾 VPDN 嘉义游戏专线 C04 Netflix 动画疯
-      - 中国-台湾桃园 IPLC 台湾固网 C08 Netflix 动画疯
-      - 香港 油尖旺御金·国峯 名氣通電訊 C06
-      - 中国-台湾彰化 IEPL HiNet固接 C05 Netflix 动画疯
-      - 中国-台湾彰化 IEPL HiNet固接 C02 Netflix 动画疯
-      - 中国-台湾彰化 IEPL HiNet固接 C03 Netflix 动画疯
-      - 中国-台湾桃园 IPLC 台湾固网 C01 Netflix 动画疯
-      - 中国-香港 IPLC Equinix HK2 C 02 1Gbps HBO TVB
       - 香港阿伟科技@TG/油管
+      - az-hk
+      - 中国-香港 IEPL Equinix HK8 C 04 1Gbps HBO TVB
+      - 香港 油尖旺御金·国峯 環球全域電訊 C03
+      - 中国-台湾桃园 IPLC 台湾固网 C06 Netflix 动画疯
+      - 香港 油尖旺御金·国峯 環球全域電訊 C09
+      - 中国-香港 IEPL Equinix HK8 C 01 1Gbps HBO TVB
+      - 中国-香港 IEPL Equinix HK8 C 09 1Gbps HBO TVB
+      - 中国-台湾 VPDN 嘉义游戏专线 C03 Netflix 动画疯
+      - 香港 油尖旺御金·国峯 名氣通電訊 C08
+      - 香港-美国 | 5
+      - 台湾 x1⇨Az[Netflix]
+      - 中国-台湾彰化 IEPL HiNet固接 C09 Netflix 动画疯
+      - 中国-台湾桃园 IPLC 台湾固网 C04 Netflix 动画疯
+      - 香港 油尖旺御金·国峯 名氣通電訊 C06
       - 香港 油尖旺御金·国峯 環球全域電訊 C02
-      - 【V3】台湾·1Gbps
+      - 香港HKT | 2 维护（明日）
+      - 香港az | 4 同上
+      - 中国-香港 IEPL Equinix HK8 C 05 1Gbps HBO TVB
+      - 中国-香港 IPLC Equinix HK2 C 02 1Gbps HBO TVB
+      - 中国-台湾 VPDN 嘉义游戏专线 C08 Netflix 动画疯
+      - 中国-台湾彰化 IEPL HiNet固接 C04 Netflix 动画疯
+      - 中国-香港 IEPL Equinix HK8 C 08 1Gbps HBO TVB
+      - 香港 油尖旺御金·国峯 環球全域電訊 C08
+      - 中国-台湾彰化 IEPL HiNet固接 C07 Netflix 动画疯
+      - 台湾家宽|NetFlix|動畫瘋|解锁|8090
+      - 香港 x1⇨Az[Netflix]
+      - 香港 油尖旺御金·国峯 環球全域電訊 C01
+      - Azure高速港A
+      - 中国-香港 IPLC Equinix HK2 C 09 1Gbps HBO TVB
+      - 台湾 | 2
+      - 韩国 | 2 皖港隧道 STCP
+      - 中国-台湾 VPDN 嘉义游戏专线 C04 Netflix 动画疯
+      - 中国-台湾 VPDN 嘉义游戏专线 C01 Netflix 动画疯
+      - 中国-台湾 VPDN 嘉义游戏专线 C02 Netflix 动画疯
+      - 中国-台湾彰化 IEPL HiNet固接 C10 Netflix 动画疯
+      - 香港-日本 | 4 GAME
+      - 香港-韩国 | 1
+      - 中国-台湾桃园 IPLC 台湾固网 C10 Netflix 动画疯
+      - 香港-日本 | 5 GAME
+      - 中国-台湾桃园 IPLC 台湾固网 C11 Netflix 动画疯
+      - 中国-台湾 VPDN 嘉义游戏专线 C05 Netflix 动画疯
+      - 香港 油尖旺御金·国峯 環球全域電訊 C07
+      - 中国-台湾桃园 IPLC 台湾固网 C09 Netflix 动画疯
+      - 中国-台湾彰化 IEPL HiNet固接 C05 Netflix 动画疯
+      - 中国-台湾桃园 IPLC 台湾固网 C02 Netflix 动画疯
+      - 中国-台湾 VPDN 嘉义游戏专线 C09 Netflix 动画疯
+      - 中国-台湾 VPDN 嘉义游戏专线 C07 Netflix 动画疯
+      - 中国-台湾彰化 IEPL HiNet固接 C08 Netflix 动画疯
+      - 中国-台湾 VPDN 嘉义游戏专线 C10 Netflix 动画疯
+      - 中国-台湾桃园 IPLC 台湾固网 C01 Netflix 动画疯
+      - 中国-香港 IEPL Equinix HK8 C 07 1Gbps HBO TVB
+      - 香港 油尖旺御金·国峯 環球全域電訊 C04
+      - 中国-台湾桃园 IPLC 台湾固网 C03 Netflix 动画疯
+      - 中国-台湾桃园 IPLC 台湾固网 C08 Netflix 动画疯
+      - 中国-台湾彰化 IEPL HiNet固接 C02 Netflix 动画疯
+      - 中国-台湾桃园 IPLC 台湾固网 C07 Netflix 动画疯
+      - 中国-台湾 VPDN 嘉义游戏专线 C06 Netflix 动画疯
+      - 中国-香港 IPLC Equinix HK2 C 04 1Gbps HBO TVB
+      - 中国-台湾桃园 IPLC 台湾固网 C05 Netflix 动画疯
+      - 香港 油尖旺御金·国峯 名氣通電訊 C07
+      - 台湾 | 1 无限流量！
+      - 香港 油尖旺御金·国峯 環球全域電訊 C06
+      - 台湾 x1⇨长沙联通[原生][Netflix]
+      - 中国-台湾彰化 IEPL HiNet固接 C03 Netflix 动画疯
+      - 中国-香港 IEPL Equinix HK8 C 03 1Gbps HBO TVB
+      - 中国-台湾彰化 IEPL HiNet固接 C06 Netflix 动画疯
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港 油尖旺御金·国峯 環球全域電訊 C09
-      - 香港 油尖旺御金·国峯 環球全域電訊 C05
-      - 香港4-IEPL-倍率1.0
-      - 香港5-IEPL-倍率1.0
-      - 中国-香港 IPLC Equinix HK2 C 01 1Gbps HBO TVB
-      - 中国-香港 IEPL Equinix HK8 C 07 1Gbps HBO TVB
-      - JP | 59
-      - 日本4-IEPL-倍率1.0
-      - 中国-爱尔兰 IPLC C03
-      - 中国-爱尔兰 IPLC C01
-      - 香港 油尖旺御金·国峯 名氣通電訊 C08
-      - 中国-香港 IEPL Equinix HK8 C 01 1Gbps HBO TVB
-      - 中国-香港 IPLC Equinix HK2 C 04 1Gbps HBO TVB
-      - 中国-香港 IPLC Equinix HK2 C 07 1Gbps HBO TVB
-      - 日本阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C06 Netflix
-      - 中国-香港 IEPL Equinix HK8 C 02 1Gbps HBO TVB
-      - 香港 油尖旺御金·国峯 名氣通電訊 C01
-      - 中国-台湾彰化 IEPL HiNet固接 C08 Netflix 动画疯
-      - 香港 油尖旺御金·国峯 名氣通電訊 C09
-      - 日本阿伟科技@TG/油管 2
-      - 香港 油尖旺御金·国峯 名氣通電訊 C04
-      - 中国-法国 IPLC C03
-      - 韩国 전라북도 전주시 商宽 C 01
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C02 Netflix
-      - 中国-日本 多协议标签交换虚拟专用网（三） I 1000Mbps
-      - 中国-香港 IEPL Equinix HK8 C 08 1Gbps HBO TVB
-      - 日本阿伟科技@TG/油管 3
-      - 美国阿伟科技@TG/油管 2
-      - 香港 油尖旺御金·国峯 環球全域電訊 C04
-      - 韩国 京畿道板桥 原生游戏解锁 C 04
-      - ASYNCHRONOUS TRANSFERMODE 永久虚通路连接PVCC C01
-      - 香港 油尖旺御金·国峯 名氣通電訊 C02
-      - 香港 油尖旺御金·国峯 環球全域電訊 C07
-      - 中国-爱尔兰 IPLC C04
-      - 中国-香港 IEPL Equinix HK8 C 10 1Gbps HBO TVB
-      - 中国-法国 IPLC C02
-      - 日本 ソフトバンク C05 500Mbps 1x Netflix
-      - 中国-台湾桃园 IPLC 台湾固网 C06 Netflix 动画疯
-      - 日本 ソフトバンク C02 500Mbps 1x Netflix
-      - 日本 ソフトバンク C12 500Mbps 1x Netflix
-      - 日本1-IEPL-倍率1.0
-      - 中国-台湾桃园 IPLC 台湾固网 C03 Netflix 动画疯
-      - 中国-日本 多协议标签交换虚拟专用网（三） D 1000Mbps
-      - 中国-爱尔兰 IPLC C02
-      - 中国-香港 IEPL Equinix HK8 C 06 1Gbps HBO TVB
-      - 精简 27
-      - 中国-法国 IPLC C01
-      - 香港 油尖旺御金·国峯 環球全域電訊 C08
-      - 中国-法国 IPLC C04
-      - 韩国 京畿道板桥 原生游戏解锁 C 01
-      - 韩国 京畿道板桥 原生游戏解锁 C 08
-      - 中国-台湾 VPDN 嘉义游戏专线 C01 Netflix 动画疯
-      - 日本 ソフトバンク C01 500Mbps 1x Netflix
-      - 中国-日本 多协议标签交换虚拟专用网（三） B 1000Mbps
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C04 Netflix
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C01 Netflix
-      - 韩国 전라북도 전주시 商宽 C 05
-      - 日本 ソフトバンク C08 500Mbps 1x Netflix
-      - 中国-台湾 VPDN 嘉义游戏专线 C03 Netflix 动画疯
-      - 中国-香港 IPLC Equinix HK2 C 03 1Gbps HBO TVB
-      - 香港 油尖旺御金·国峯 環球全域電訊 C06
-      - 精简 24
-      - 韩国 전라북도 전주시 商宽 C 02
-      - 韩国 京畿道板桥 原生游戏解锁 C 05
-      - 韩国 京畿道板桥 原生游戏解锁 C 10
-      - 中国-韩国 IEPL（三）A 1Gbps
-      - 香港 油尖旺御金·国峯 名氣通電訊 C07
-      - 中国-日本 多协议标签交换虚拟专用网（三） E 1000Mbps
-      - 中国-日本 多协议标签交换虚拟专用网（三） J 1000Mbps
-      - 美国5-IEPL-倍率1.0
-      - 中国-台湾彰化 IEPL HiNet固接 C09 Netflix 动画疯
-      - 中国-香港 IEPL Equinix HK8 C 05 1Gbps HBO TVB
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C03 Netflix
-      - 中国-香港 IEPL Equinix HK8 C 03 1Gbps HBO TVB
-      - 中国-香港 IPLC Equinix HK2 C 09 1Gbps HBO TVB
-      - 中国-台湾桃园 IPLC 台湾固网 C10 Netflix 动画疯
-      - 中国-印度 班加罗尔 एयरटेल IPLC C08
-      - 中国-日本 多协议标签交换虚拟专用网（三） A 1000Mbps
-      - 台湾5-IEPL-倍率1.0
-      - 中国-台湾桃园 IPLC 台湾固网 C02 Netflix 动画疯
-      - 韩国 京畿道板桥 原生游戏解锁 C 03
-      - 日本6-IEPL-倍率1.0
-      - 日本阿伟科技@TG/油管 4
-      - 中国-法国 IPLC C05
-      - 香港 油尖旺御金·国峯 環球全域電訊 C03
-      - 中国-台湾彰化 IEPL HiNet固接 C06 Netflix 动画疯
-      - 中国-韩国 IEPL（三）D 1Gbps
-      - 中国-韩国 IEPL（三）C 1Gbps
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C05 Netflix
-      - 韩国 京畿道板桥 原生游戏解锁 C 07
-      - 中国-台湾 VPDN 嘉义游戏专线 C02 Netflix 动画疯
-      - 中国-日本 多协议标签交换虚拟专用网（三） C 1000Mbps
-      - 日本 ソフトバンク C07 500Mbps 1x Netflix
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C08 Netflix
-      - 中国-台湾桃园 IPLC 台湾固网 C05 Netflix 动画疯
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C07 Netflix
-      - 中国-印度 班加罗尔 एयरटेल IPLC C03
-      - 韩国 京畿道板桥 原生游戏解锁 C 02
-      - 日本 ソフトバンク C03 500Mbps 1x Netflix
-      - 中国-台湾桃园 IPLC 台湾固网 C07 Netflix 动画疯
-      - 韩国 전라북도 전주시 商宽 C 03
-      - 台湾3-IEPL-倍率1.0
-      - 美国1-IEPL-倍率1.0
-      - 精简 29
-      - 中国-台湾 VPDN 嘉义游戏专线 C05 Netflix 动画疯
-      - 中国-台湾 VPDN 嘉义游戏专线 C10 Netflix 动画疯
-      - 中国-印度 班加罗尔 एयरटेल IPLC C05
-      - 印度1-CN2-倍率1.0
-      - 中国-印度 班加罗尔 एयरटेल IPLC C07
-      - 新加坡1-IEPL-倍率1.0
-      - 中国-台湾桃园 IPLC 台湾固网 C04 Netflix 动画疯
-      - 中国-台湾 VPDN 嘉义游戏专线 C07 Netflix 动画疯
-      - 美国2-IEPL-倍率1.0
-      - 日本 ソフトバンク C06 500Mbps 1x Netflix
-      - 中国-韩国 IEPL（三）B 1Gbps
-      - 中国-台湾 VPDN 嘉义游戏专线 C06 Netflix 动画疯
-      - 中国-香港 IEPL Equinix HK8 C 04 1Gbps HBO TVB
-      - 中国-台湾 VPDN 嘉义游戏专线 C09 Netflix 动画疯
-      - 中国-台湾彰化 IEPL HiNet固接 C04 Netflix 动画疯
-      - 精简 28
-      - 精简 23
-      - 精简 21
+      - 香港阿伟科技@TG/油管
       - az-hk
-      - 中国-台湾桃园 IPLC 台湾固网 C09 Netflix 动画疯
-      - 中国-台湾彰化 IEPL HiNet固接 C07 Netflix 动画疯
-      - 中国-印度 班加罗尔 एयरटेल IPLC C09
-      - 新加坡4-IEPL-倍率1.0
-      - 日本 ソフトバンク C10 500Mbps 1x Netflix
-      - 中国-台湾彰化 IEPL HiNet固接 C10 Netflix 动画疯
-      - 中国-台湾 VPDN 嘉义游戏专线 C08 Netflix 动画疯
-      - 精简 22
-      - 香港 油尖旺御金·国峯 環球全域電訊 C01
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C01 Netflix
+      - 中国-法国 IPLC C04
+      - 中国-香港 IEPL Equinix HK8 C 04 1Gbps HBO TVB
+      - 香港 油尖旺御金·国峯 環球全域電訊 C03
+      - 中国-台湾桃园 IPLC 台湾固网 C06 Netflix 动画疯
+      - 香港 油尖旺御金·国峯 環球全域電訊 C09
+      - 中国-香港 IEPL Equinix HK8 C 01 1Gbps HBO TVB
+      - 杭州-德国 | 2 9929
+      - 中国-爱尔兰 IPLC C02
       - 中国-香港 IEPL Equinix HK8 C 09 1Gbps HBO TVB
-      - 中国-台湾桃园 IPLC 台湾固网 C11 Netflix 动画疯
-      - 精简 26
-      - 韩国 전라북도 전주시 商宽 C 04
-      - 中国-台湾 VPDN 嘉义游戏专线 C04 Netflix 动画疯
-      - 精简 25
-      - 中国-台湾桃园 IPLC 台湾固网 C08 Netflix 动画疯
-      - US | 72
-      - 香港 油尖旺御金·国峯 名氣通電訊 C06
-      - 中国-台湾彰化 IEPL HiNet固接 C05 Netflix 动画疯
-      - 日本 ソフトバンク C04 500Mbps 1x Netflix
+      - 韩国 x1 Az直连
+      - 中国-台湾 VPDN 嘉义游戏专线 C03 Netflix 动画疯
+      - 香港 油尖旺御金·国峯 名氣通電訊 C08
+      - 香港-美国 | 5
+      - 新加坡 x1⇨Az[Twitter]
+      - 日本 ソフトバンク C10 500Mbps 1x Netflix
+      - 中国-韩国 IEPL（三）C 1Gbps
       - 日本 ソフトバンク C09 500Mbps 1x Netflix
-      - 韩国 京畿道板桥 原生游戏解锁 C 09
-      - 印度阿伟科技@TG/油管
-      - 【V2】韩国·150Mbps | 流媒体
-      - 中国-台湾彰化 IEPL HiNet固接 C02 Netflix 动画疯
-      - 印度2-CN2-倍率1.0
-      - 中国-台湾彰化 IEPL HiNet固接 C03 Netflix 动画疯
-      - 印度阿伟科技@TG/油管 2
-      - 中国-澳大利亚 IPLC 悉尼 C02
-      - 中国-日本 多协议标签交换虚拟专用网（三） F 1000Mbps
+      - 日本 ソフトバンク C07 500Mbps 1x Netflix
+      - 中国-法国 IPLC C03
+      - 台湾 x1⇨Az[Netflix]
+      - 中国-台湾彰化 IEPL HiNet固接 C09 Netflix 动画疯
+      - 有问题发工单|不提供技术支持
+      - HK5|10G|WS
+      - 中国-台湾桃园 IPLC 台湾固网 C04 Netflix 动画疯
+      - 香港 油尖旺御金·国峯 名氣通電訊 C06
+      - 香港 油尖旺御金·国峯 環球全域電訊 C02
+      - 韩国 | 1
+      - 中国-爱尔兰 IPLC C01
+      - 香港HKT | 2 维护（明日）
+      - 中国-爱尔兰 IPLC C05
+      - 香港az | 4 同上
+      - 美国 | 1 奈飞
+      - 泰国 x1⇨Az[Netflix]
+      - 日本 | 2
+      - 中国-香港 IEPL Equinix HK8 C 05 1Gbps HBO TVB
+      - 中国-香港 IPLC Equinix HK2 C 02 1Gbps HBO TVB
+      - 中国-台湾 VPDN 嘉义游戏专线 C08 Netflix 动画疯
+      - 马来西亚 | 2
+      - 中国-台湾彰化 IEPL HiNet固接 C04 Netflix 动画疯
+      - 日本 ソフトバンク C04 500Mbps 1x Netflix
+      - HK10|5G|HTTP|自填混淆
+      - 英国 x1⇨长沙联通[Twitter]
+      - 中国-香港 IEPL Equinix HK8 C 08 1Gbps HBO TVB
+      - 日本 | 3 杭日隧道 STCP GAME
+      - 香港 油尖旺御金·国峯 環球全域電訊 C08
+      - 日本 x1⇨Az
+      - 美国2 | 奈飞
+      - 中国-日本 多协议标签交换虚拟专用网（三） I 1000Mbps
+      - 精简 29
+      - 中国-台湾彰化 IEPL HiNet固接 C07 Netflix 动画疯
+      - 台湾家宽|NetFlix|動畫瘋|解锁|8090
+      - 公告|所求皆所愿！所行皆坦途
+      - 香港 x1⇨Az[Netflix]
+      - 香港 油尖旺御金·国峯 環球全域電訊 C01
+      - Azure高速港A
+      - 印度 x1⇨Az[Twitter]
+      - 中国-法国 IPLC C01
+      - 中国-香港 IPLC Equinix HK2 C 09 1Gbps HBO TVB
+      - 台湾 | 2
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C03 Netflix
+      - 精简 26
+      - 韩国 | 2 皖港隧道 STCP
+      - 土耳其 | 2
+      - HK18|5G|WS|头条合作A
+      - 中国-台湾 VPDN 嘉义游戏专线 C04 Netflix 动画疯
+      - 中国-台湾 VPDN 嘉义游戏专线 C01 Netflix 动画疯
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C07 Netflix
+      - 中国-台湾 VPDN 嘉义游戏专线 C02 Netflix 动画疯
+      - 中国-台湾彰化 IEPL HiNet固接 C10 Netflix 动画疯
+      - 德国 | 1 9929
+      - 精简 22
+      - 日本 ソフトバンク C11 500Mbps 1x Netflix
+      - 香港-日本 | 4 GAME
+      - 中国-日本 多协议标签交换虚拟专用网（三） J 1000Mbps
+      - 香港-韩国 | 1
+      - 中国-台湾桃园 IPLC 台湾固网 C10 Netflix 动画疯
+      - 香港-日本 | 5 GAME
+      - 新加坡 | 2
+      - 中国-日本 多协议标签交换虚拟专用网（三） A 1000Mbps
+      - 中国-台湾桃园 IPLC 台湾固网 C11 Netflix 动画疯
+      - 韩国 전라북도 전주시 商宽 C 04
+      - cns
+      - 中国-台湾 VPDN 嘉义游戏专线 C05 Netflix 动画疯
+      - 香港 油尖旺御金·国峯 環球全域電訊 C07
+      - 中国-台湾桃园 IPLC 台湾固网 C09 Netflix 动画疯
+      - 新加坡 | 1
+      - 中国-台湾彰化 IEPL HiNet固接 C05 Netflix 动画疯
+      - 中国-台湾桃园 IPLC 台湾固网 C02 Netflix 动画疯
+      - 中国-台湾 VPDN 嘉义游戏专线 C09 Netflix 动画疯
+      - 日本 ソフトバンク C08 500Mbps 1x Netflix
+      - 精简 27
+      - 日本 | 1
+      - 韩国 京畿道板桥 原生游戏解锁 C 08
+      - 中国-台湾 VPDN 嘉义游戏专线 C07 Netflix 动画疯
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C04 Netflix
+      - 日本阿伟科技@TG/油管
+      - 中国-韩国 IEPL（三）D 1Gbps
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C05 Netflix
+      - 日本 ソフトバンク C03 500Mbps 1x Netflix
+      - 湖南-马来西亚 | 3 STCP
+      - 中国-台湾彰化 IEPL HiNet固接 C08 Netflix 动画疯
+      - 中国-台湾 VPDN 嘉义游戏专线 C10 Netflix 动画疯
       - 中国-台湾桃园 IPLC 台湾固网 C01 Netflix 动画疯
+      - 免费日本AWS|80|轩赞助
+      - HK8|10G|HTTP|独享|1.5x
+      - 韩国 京畿道板桥 原生游戏解锁 C 02
+      - 中国-印度 班加罗尔 एयरटेल IPLC C01
+      - 中国-香港 IEPL Equinix HK8 C 07 1Gbps HBO TVB
+      - 香港 油尖旺御金·国峯 環球全域電訊 C04
+      - 韩国 京畿道板桥 原生游戏解锁 C 01
+      - 精简 24
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C08 Netflix
+      - 中国-印度 班加罗尔 एयरटेल IPLC C08
+      - 中国-印度 班加罗尔 एयरटेल IPLC C03
+      - 中国-日本 多协议标签交换虚拟专用网（三） F 1000Mbps
+      - 美国高级 IEPL 中继 C05
+      - 中国-日本 多协议标签交换虚拟专用网（三） C 1000Mbps
+      - 韩国-新加坡 | 1
+      - 中国-台湾桃园 IPLC 台湾固网 C03 Netflix 动画疯
+      - 韩国 전라북도 전주시 商宽 C 03
+      - 中国-台湾桃园 IPLC 台湾固网 C08 Netflix 动画疯
+      - 中国-法国 IPLC C05
+      - 韩国 京畿道板桥 原生游戏解锁 C 05
+      - 印度2-CN2-倍率1.0
+      - 中国-日本 多协议标签交换虚拟专用网（三） D 1000Mbps
+      - 韩国 전라북도 전주시 商宽 C 02
+      - 日本 ソフトバンク C01 500Mbps 1x Netflix
+      - 中国-韩国 IEPL（三）A 1Gbps
+      - 中国-台湾彰化 IEPL HiNet固接 C02 Netflix 动画疯
+      - 中国-日本 多协议标签交换虚拟专用网（三） G 1000Mbps
+      - 美国 x1⇨Az[Twitter]
+      - 美国 | 3 奈飞
+      - 中国-台湾桃园 IPLC 台湾固网 C07 Netflix 动画疯
+      - 中国-韩国 IEPL（三）B 1Gbps
+      - HK11|5G|HTTP
+      - 中国-台湾 VPDN 嘉义游戏专线 C06 Netflix 动画疯
+      - HK2|10G|HTTP
+      - 精简 25
+      - 精简 21
+      - 土耳其 | 1 无限流量！
+      - 中国-香港 IPLC Equinix HK2 C 04 1Gbps HBO TVB
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C06 Netflix
+      - 韩国 京畿道板桥 原生游戏解锁 C 07
+      - 中国-印度 班加罗尔 एयरटेल IPLC C06
+      - 中国-日本 多协议标签交换虚拟专用网（三） B 1000Mbps
+      - 美国 x0.8⇨Az
+      - 韩国 전라북도 전주시 商宽 C 01
+      - US | 72
+      - 美国高级 IEPL 中继 C01
+      - HK6|10G|HTTP
+      - 中国-台湾桃园 IPLC 台湾固网 C05 Netflix 动画疯
+      - 中国-韩国 IEPL（三）E 1Gbps
+      - 中国-印度 班加罗尔 एयरटेल IPLC C09
+      - 中国-澳大利亚 IPLC 悉尼 C04
+      - 韩国 京畿道板桥 原生游戏解锁 C 03
+      - 荷兰 x1⇨Az[Twitter]
+      - 德国 x1⇨长沙联通[Twitter]
+      - 日本 ソフトバンク C02 500Mbps 1x Netflix
+      - 香港 油尖旺御金·国峯 名氣通電訊 C07
+      - 俄罗斯1-CN2-倍率1.0
+      - 马来西亚 | 1
+      - 台湾 | 1 无限流量！
+      - 香港 油尖旺御金·国峯 環球全域電訊 C06
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C02 Netflix
+      - 韩国-日本 | 1
+      - HK14|10G|HTTP|809测试
+      - 日本阿伟科技@TG/油管 2
+      - 荷兰 x1⇨长沙联通[Twitter]
+      - 中国-英国伦敦 IPLC BBC C02
+      - 韩国 전라북도 전주시 商宽 C 05
+      - 美国阿伟科技@TG/油管
+      - TG售后群|复制浏览器打开|https://t.me/yyjsd
+      - 韩国 京畿道板桥 原生游戏解锁 C 10
+      - 美国高级 IEPL 中继 C02
+      - HK9|10G|WS|独享|1.5x
+      - 新加坡4-IEPL-倍率1.0
+      - 德国 x1⇨Az[Twitter]
+      - 日本 ソフトバンク C12 500Mbps 1x Netflix
+      - 免费美国AWS|TCP80|轩赞助
+      - 韩国 京畿道板桥 原生游戏解锁 C 04
+      - 美国高级 IEPL 中继 C04
+      - 中国-法国 IPLC C02
+      - 台湾 x1⇨长沙联通[原生][Netflix]
+      - 英国 x1⇨Az[Twitter]
+      - 中国-台湾彰化 IEPL HiNet固接 C03 Netflix 动画疯
       - 德国1-CN2-倍率1.0
       - 中国-英国伦敦 IPLC BBC C04
-      - 中国-日本 多协议标签交换虚拟专用网（三） G 1000Mbps
+      - 澳大利亚2-CN2-倍率1.0
+      - 新加坡 x1 Az直连
+      - 印度1-CN2-倍率1.0
+      - 印度阿伟科技@TG/油管
+      - 美国阿伟科技@TG/油管 2
+      - 美国实验性 IEPL 中继 C03
+      - 土耳其1-CN2-倍率1.0
+      - 中国-香港 IEPL Equinix HK8 C 03 1Gbps HBO TVB
       - 美国阿伟科技@TG/油管 3
-      - 美国实验性 IEPL 中继 C01
-      - 日本 ソフトバンク C11 500Mbps 1x Netflix
-      - 新加坡 Magic IEPL 中继 C04 Netflix
-      - 新加坡 Legacy Magic IEPL 中继 C02 Netflix
-      - 中国-英国伦敦 IPLC BBC C03
-      - 中国-英国伦敦 IPLC BBC C02
-      - 新加坡 Magic IEPL 中继 C02 Netflix
+      - 免费美国AWS|80|轩赞助①
+      - 美国 | 4
+      - 韩国 京畿道板桥 原生游戏解锁 C 09
+      - 中国-印度 班加罗尔 एयरटेल IPLC C07
+      - 新加坡 Legacy Magic IEPL 中继 C01 Netflix
+      - 中国-加拿大 IPLC C04
       - 美国阿伟科技@TG/油管 4
+      - 中国-印度 班加罗尔 एयरटेल IPLC C05
       - 中国-英国伦敦 IPLC BBC C06
-      - 【V2】美国·芝加哥·200Mbps
-      - 中国-澳大利亚 IPLC 悉尼 C04
-      - 俄罗斯1-CN2-倍率1.0
-      - 新加坡 Legacy Magic IEPL 中继 C03 Netflix
-      - 新加坡 Magic IEPL 中继 C03 Netflix
+      - 美国实验性 IEPL 中继 C02
       - 美国阿伟科技@TG/油管 5
       - 美国阿伟科技@TG/油管 6
-      - 土耳其1-CN2-倍率1.0
-      - 美国高级 IEPL 中继 C01
-      - 美国高级 IEPL 中继 C02
-      - 美国阿伟科技@TG/油管 7
-      - 土耳其2-CN2-倍率1.0
+      - 【V2】韩国·150Mbps | 流媒体
       - 新加坡 Magic IEPL 中继 C05 Netflix
-      - 中国-加拿大 IPLC C05
-      - 美国阿伟科技@TG/油管 8
       - 中国-加拿大 IPLC C01
-      - 美国阿伟科技@TG/油管 9
-      - 中国-香港 IPLC Equinix HK2 C 02 1Gbps HBO TVB
-      - 新加坡 Legacy Magic IEPL 中继 C01 Netflix
-      - 香港阿伟科技@TG/油管
       - 中国-加拿大 IPLC C03
-      - 中国-印度 班加罗尔 एयरटेल IPLC C01
-      - 美国阿伟科技@TG/油管 10
-      - 中国-韩国 IEPL（三）E 1Gbps
-      - 美国阿伟科技@TG/油管 11
-      - 香港 油尖旺御金·国峯 環球全域電訊 C02
-      - 中国-爱尔兰 IPLC C05
-      - 新加坡高级 IEPL 中继 C02 Netflix
       - 澳大利亚1-CN2-倍率1.0
-      - 美国高级 IEPL 中继 C04
-      - 中国-加拿大 IPLC C04
-      - 新加坡高级 IEPL 中继 C01 Netflix
-      - 美国阿伟科技@TG/油管 12
-      - 美国实验性 IEPL 中继 C02
-      - 美国阿伟科技@TG/油管 13
-      - 澳大利亚2-CN2-倍率1.0
-      - 【V2】俄罗斯·150Mbps | 电信
-      - 【V3】台湾·1Gbps
-      - 美国高级 IEPL 中继 C05
-      - 中国-印度 班加罗尔 एयरटेल IPLC C06
-      - 新加坡高级 IEPL 中继 C03 Netflix
-      - 美国实验性 IEPL 中继 C03
+      - 中国-台湾彰化 IEPL HiNet固接 C06 Netflix 动画疯
+      - 土耳其2-CN2-倍率1.0
+      - 新加坡 Legacy Magic IEPL 中继 C02 Netflix
+      - 美国阿伟科技@TG/油管 7
+      - 美国阿伟科技@TG/油管 8
+      - 新加坡 Magic IEPL 中继 C03 Netflix
+      - 中国-英国伦敦 IPLC BBC C03
+      - 新加坡 Legacy Magic IEPL 中继 C03 Netflix
+      - 印度阿伟科技@TG/油管 2
+      - 新加坡 Magic IEPL 中继 C02 Netflix
+      - 新加坡 Magic IEPL 中继 C04 Netflix
+      - 中国-加拿大 IPLC C05
+      - 新加坡高级 IEPL 中继 C02 Netflix
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 香港 油尖旺御金·国峯 環球全域電訊 C09
-      - 香港 油尖旺御金·国峯 環球全域電訊 C05
-      - 香港4-IEPL-倍率1.0
-      - 香港5-IEPL-倍率1.0
-      - 中国-香港 IPLC Equinix HK2 C 01 1Gbps HBO TVB
-      - 中国-香港 IEPL Equinix HK8 C 07 1Gbps HBO TVB
-      - JP | 59
-      - 日本4-IEPL-倍率1.0
-      - 中国-爱尔兰 IPLC C03
-      - 中国-爱尔兰 IPLC C01
-      - 香港 油尖旺御金·国峯 名氣通電訊 C08
-      - 中国-香港 IEPL Equinix HK8 C 01 1Gbps HBO TVB
-      - 中国-香港 IPLC Equinix HK2 C 04 1Gbps HBO TVB
-      - 中国-香港 IPLC Equinix HK2 C 07 1Gbps HBO TVB
-      - 日本阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C06 Netflix
-      - 中国-香港 IEPL Equinix HK8 C 02 1Gbps HBO TVB
-      - 香港 油尖旺御金·国峯 名氣通電訊 C01
-      - 中国-台湾彰化 IEPL HiNet固接 C08 Netflix 动画疯
-      - 香港 油尖旺御金·国峯 名氣通電訊 C09
-      - 日本阿伟科技@TG/油管 2
-      - 香港 油尖旺御金·国峯 名氣通電訊 C04
-      - 中国-法国 IPLC C03
-      - 韩国 전라북도 전주시 商宽 C 01
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C02 Netflix
-      - 中国-日本 多协议标签交换虚拟专用网（三） I 1000Mbps
-      - 中国-香港 IEPL Equinix HK8 C 08 1Gbps HBO TVB
-      - 日本阿伟科技@TG/油管 3
-      - 美国阿伟科技@TG/油管 2
-      - 香港 油尖旺御金·国峯 環球全域電訊 C04
-      - 韩国 京畿道板桥 原生游戏解锁 C 04
-      - ASYNCHRONOUS TRANSFERMODE 永久虚通路连接PVCC C01
-      - 香港 油尖旺御金·国峯 名氣通電訊 C02
-      - 香港 油尖旺御金·国峯 環球全域電訊 C07
-      - 中国-爱尔兰 IPLC C04
-      - 中国-香港 IEPL Equinix HK8 C 10 1Gbps HBO TVB
-      - 中国-法国 IPLC C02
-      - 日本 ソフトバンク C05 500Mbps 1x Netflix
-      - 中国-台湾桃园 IPLC 台湾固网 C06 Netflix 动画疯
-      - 日本 ソフトバンク C02 500Mbps 1x Netflix
-      - 日本 ソフトバンク C12 500Mbps 1x Netflix
-      - 日本1-IEPL-倍率1.0
-      - 中国-台湾桃园 IPLC 台湾固网 C03 Netflix 动画疯
-      - 中国-日本 多协议标签交换虚拟专用网（三） D 1000Mbps
-      - 中国-爱尔兰 IPLC C02
-      - 中国-香港 IEPL Equinix HK8 C 06 1Gbps HBO TVB
-      - 精简 27
-      - 中国-法国 IPLC C01
-      - 香港 油尖旺御金·国峯 環球全域電訊 C08
-      - 中国-法国 IPLC C04
-      - 韩国 京畿道板桥 原生游戏解锁 C 01
-      - 韩国 京畿道板桥 原生游戏解锁 C 08
-      - 中国-台湾 VPDN 嘉义游戏专线 C01 Netflix 动画疯
-      - 日本 ソフトバンク C01 500Mbps 1x Netflix
-      - 中国-日本 多协议标签交换虚拟专用网（三） B 1000Mbps
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C04 Netflix
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C01 Netflix
-      - 韩国 전라북도 전주시 商宽 C 05
-      - 日本 ソフトバンク C08 500Mbps 1x Netflix
-      - 中国-台湾 VPDN 嘉义游戏专线 C03 Netflix 动画疯
-      - 中国-香港 IPLC Equinix HK2 C 03 1Gbps HBO TVB
-      - 香港 油尖旺御金·国峯 環球全域電訊 C06
-      - 精简 24
-      - 韩国 전라북도 전주시 商宽 C 02
-      - 韩国 京畿道板桥 原生游戏解锁 C 05
-      - 韩国 京畿道板桥 原生游戏解锁 C 10
-      - 中国-韩国 IEPL（三）A 1Gbps
-      - 香港 油尖旺御金·国峯 名氣通電訊 C07
-      - 中国-日本 多协议标签交换虚拟专用网（三） E 1000Mbps
-      - 中国-日本 多协议标签交换虚拟专用网（三） J 1000Mbps
-      - 美国5-IEPL-倍率1.0
-      - 中国-台湾彰化 IEPL HiNet固接 C09 Netflix 动画疯
-      - 中国-香港 IEPL Equinix HK8 C 05 1Gbps HBO TVB
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C03 Netflix
-      - 中国-香港 IEPL Equinix HK8 C 03 1Gbps HBO TVB
-      - 中国-香港 IPLC Equinix HK2 C 09 1Gbps HBO TVB
-      - 中国-台湾桃园 IPLC 台湾固网 C10 Netflix 动画疯
-      - 中国-印度 班加罗尔 एयरटेल IPLC C08
-      - 中国-日本 多协议标签交换虚拟专用网（三） A 1000Mbps
-      - 台湾5-IEPL-倍率1.0
-      - 中国-台湾桃园 IPLC 台湾固网 C02 Netflix 动画疯
-      - 韩国 京畿道板桥 原生游戏解锁 C 03
-      - 日本6-IEPL-倍率1.0
-      - 日本阿伟科技@TG/油管 4
-      - 中国-法国 IPLC C05
-      - 香港 油尖旺御金·国峯 環球全域電訊 C03
-      - 中国-台湾彰化 IEPL HiNet固接 C06 Netflix 动画疯
-      - 中国-韩国 IEPL（三）D 1Gbps
-      - 中国-韩国 IEPL（三）C 1Gbps
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C05 Netflix
-      - 韩国 京畿道板桥 原生游戏解锁 C 07
-      - 中国-台湾 VPDN 嘉义游戏专线 C02 Netflix 动画疯
-      - 中国-日本 多协议标签交换虚拟专用网（三） C 1000Mbps
-      - 日本 ソフトバンク C07 500Mbps 1x Netflix
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C08 Netflix
-      - 中国-台湾桃园 IPLC 台湾固网 C05 Netflix 动画疯
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C07 Netflix
-      - 中国-印度 班加罗尔 एयरटेल IPLC C03
-      - 韩国 京畿道板桥 原生游戏解锁 C 02
-      - 日本 ソフトバンク C03 500Mbps 1x Netflix
-      - 中国-台湾桃园 IPLC 台湾固网 C07 Netflix 动画疯
-      - 韩国 전라북도 전주시 商宽 C 03
-      - 台湾3-IEPL-倍率1.0
-      - 美国1-IEPL-倍率1.0
-      - 精简 29
-      - 中国-台湾 VPDN 嘉义游戏专线 C05 Netflix 动画疯
-      - 中国-台湾 VPDN 嘉义游戏专线 C10 Netflix 动画疯
-      - 中国-印度 班加罗尔 एयरटेल IPLC C05
-      - 印度1-CN2-倍率1.0
-      - 中国-印度 班加罗尔 एयरटेल IPLC C07
-      - 新加坡1-IEPL-倍率1.0
-      - 中国-台湾桃园 IPLC 台湾固网 C04 Netflix 动画疯
-      - 中国-台湾 VPDN 嘉义游戏专线 C07 Netflix 动画疯
-      - 美国2-IEPL-倍率1.0
-      - 日本 ソフトバンク C06 500Mbps 1x Netflix
-      - 中国-韩国 IEPL（三）B 1Gbps
-      - 中国-台湾 VPDN 嘉义游戏专线 C06 Netflix 动画疯
-      - 中国-香港 IEPL Equinix HK8 C 04 1Gbps HBO TVB
-      - 中国-台湾 VPDN 嘉义游戏专线 C09 Netflix 动画疯
-      - 中国-台湾彰化 IEPL HiNet固接 C04 Netflix 动画疯
-      - 精简 28
-      - 精简 23
-      - 精简 21
+      - 香港阿伟科技@TG/油管
       - az-hk
-      - 中国-台湾桃园 IPLC 台湾固网 C09 Netflix 动画疯
-      - 中国-台湾彰化 IEPL HiNet固接 C07 Netflix 动画疯
-      - 中国-印度 班加罗尔 एयरटेल IPLC C09
-      - 新加坡4-IEPL-倍率1.0
-      - 日本 ソフトバンク C10 500Mbps 1x Netflix
-      - 中国-台湾彰化 IEPL HiNet固接 C10 Netflix 动画疯
-      - 中国-台湾 VPDN 嘉义游戏专线 C08 Netflix 动画疯
-      - 精简 22
-      - 香港 油尖旺御金·国峯 環球全域電訊 C01
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C01 Netflix
+      - 中国-法国 IPLC C04
+      - 中国-香港 IEPL Equinix HK8 C 04 1Gbps HBO TVB
+      - 香港 油尖旺御金·国峯 環球全域電訊 C03
+      - 中国-台湾桃园 IPLC 台湾固网 C06 Netflix 动画疯
+      - 香港 油尖旺御金·国峯 環球全域電訊 C09
+      - 中国-香港 IEPL Equinix HK8 C 01 1Gbps HBO TVB
+      - 杭州-德国 | 2 9929
+      - 中国-爱尔兰 IPLC C02
       - 中国-香港 IEPL Equinix HK8 C 09 1Gbps HBO TVB
-      - 中国-台湾桃园 IPLC 台湾固网 C11 Netflix 动画疯
-      - 精简 26
-      - 韩国 전라북도 전주시 商宽 C 04
-      - 中国-台湾 VPDN 嘉义游戏专线 C04 Netflix 动画疯
-      - 精简 25
-      - 中国-台湾桃园 IPLC 台湾固网 C08 Netflix 动画疯
-      - US | 72
-      - 香港 油尖旺御金·国峯 名氣通電訊 C06
-      - 中国-台湾彰化 IEPL HiNet固接 C05 Netflix 动画疯
-      - 日本 ソフトバンク C04 500Mbps 1x Netflix
+      - 韩国 x1 Az直连
+      - 中国-台湾 VPDN 嘉义游戏专线 C03 Netflix 动画疯
+      - 香港 油尖旺御金·国峯 名氣通電訊 C08
+      - 香港-美国 | 5
+      - 新加坡 x1⇨Az[Twitter]
+      - 日本 ソフトバンク C10 500Mbps 1x Netflix
+      - 中国-韩国 IEPL（三）C 1Gbps
       - 日本 ソフトバンク C09 500Mbps 1x Netflix
-      - 韩国 京畿道板桥 原生游戏解锁 C 09
-      - 印度阿伟科技@TG/油管
-      - 【V2】韩国·150Mbps | 流媒体
-      - 中国-台湾彰化 IEPL HiNet固接 C02 Netflix 动画疯
-      - 印度2-CN2-倍率1.0
-      - 中国-台湾彰化 IEPL HiNet固接 C03 Netflix 动画疯
-      - 印度阿伟科技@TG/油管 2
-      - 中国-澳大利亚 IPLC 悉尼 C02
-      - 中国-日本 多协议标签交换虚拟专用网（三） F 1000Mbps
+      - 日本 ソフトバンク C07 500Mbps 1x Netflix
+      - 中国-法国 IPLC C03
+      - 台湾 x1⇨Az[Netflix]
+      - 中国-台湾彰化 IEPL HiNet固接 C09 Netflix 动画疯
+      - 有问题发工单|不提供技术支持
+      - HK5|10G|WS
+      - 中国-台湾桃园 IPLC 台湾固网 C04 Netflix 动画疯
+      - 香港 油尖旺御金·国峯 名氣通電訊 C06
+      - 香港 油尖旺御金·国峯 環球全域電訊 C02
+      - 韩国 | 1
+      - 中国-爱尔兰 IPLC C01
+      - 香港HKT | 2 维护（明日）
+      - 中国-爱尔兰 IPLC C05
+      - 香港az | 4 同上
+      - 美国 | 1 奈飞
+      - 泰国 x1⇨Az[Netflix]
+      - 日本 | 2
+      - 中国-香港 IEPL Equinix HK8 C 05 1Gbps HBO TVB
+      - 中国-香港 IPLC Equinix HK2 C 02 1Gbps HBO TVB
+      - 中国-台湾 VPDN 嘉义游戏专线 C08 Netflix 动画疯
+      - 马来西亚 | 2
+      - 中国-台湾彰化 IEPL HiNet固接 C04 Netflix 动画疯
+      - 日本 ソフトバンク C04 500Mbps 1x Netflix
+      - HK10|5G|HTTP|自填混淆
+      - 英国 x1⇨长沙联通[Twitter]
+      - 中国-香港 IEPL Equinix HK8 C 08 1Gbps HBO TVB
+      - 日本 | 3 杭日隧道 STCP GAME
+      - 香港 油尖旺御金·国峯 環球全域電訊 C08
+      - 日本 x1⇨Az
+      - 美国2 | 奈飞
+      - 中国-日本 多协议标签交换虚拟专用网（三） I 1000Mbps
+      - 精简 29
+      - 中国-台湾彰化 IEPL HiNet固接 C07 Netflix 动画疯
+      - 台湾家宽|NetFlix|動畫瘋|解锁|8090
+      - 公告|所求皆所愿！所行皆坦途
+      - 香港 x1⇨Az[Netflix]
+      - 香港 油尖旺御金·国峯 環球全域電訊 C01
+      - Azure高速港A
+      - 印度 x1⇨Az[Twitter]
+      - 中国-法国 IPLC C01
+      - 中国-香港 IPLC Equinix HK2 C 09 1Gbps HBO TVB
+      - 台湾 | 2
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C03 Netflix
+      - 精简 26
+      - 韩国 | 2 皖港隧道 STCP
+      - 土耳其 | 2
+      - HK18|5G|WS|头条合作A
+      - 中国-台湾 VPDN 嘉义游戏专线 C04 Netflix 动画疯
+      - 中国-台湾 VPDN 嘉义游戏专线 C01 Netflix 动画疯
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C07 Netflix
+      - 中国-台湾 VPDN 嘉义游戏专线 C02 Netflix 动画疯
+      - 中国-台湾彰化 IEPL HiNet固接 C10 Netflix 动画疯
+      - 德国 | 1 9929
+      - 精简 22
+      - 日本 ソフトバンク C11 500Mbps 1x Netflix
+      - 香港-日本 | 4 GAME
+      - 中国-日本 多协议标签交换虚拟专用网（三） J 1000Mbps
+      - 香港-韩国 | 1
+      - 中国-台湾桃园 IPLC 台湾固网 C10 Netflix 动画疯
+      - 香港-日本 | 5 GAME
+      - 新加坡 | 2
+      - 中国-日本 多协议标签交换虚拟专用网（三） A 1000Mbps
+      - 中国-台湾桃园 IPLC 台湾固网 C11 Netflix 动画疯
+      - 韩国 전라북도 전주시 商宽 C 04
+      - cns
+      - 中国-台湾 VPDN 嘉义游戏专线 C05 Netflix 动画疯
+      - 香港 油尖旺御金·国峯 環球全域電訊 C07
+      - 中国-台湾桃园 IPLC 台湾固网 C09 Netflix 动画疯
+      - 新加坡 | 1
+      - 中国-台湾彰化 IEPL HiNet固接 C05 Netflix 动画疯
+      - 中国-台湾桃园 IPLC 台湾固网 C02 Netflix 动画疯
+      - 中国-台湾 VPDN 嘉义游戏专线 C09 Netflix 动画疯
+      - 日本 ソフトバンク C08 500Mbps 1x Netflix
+      - 精简 27
+      - 日本 | 1
+      - 韩国 京畿道板桥 原生游戏解锁 C 08
+      - 中国-台湾 VPDN 嘉义游戏专线 C07 Netflix 动画疯
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C04 Netflix
+      - 日本阿伟科技@TG/油管
+      - 中国-韩国 IEPL（三）D 1Gbps
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C05 Netflix
+      - 日本 ソフトバンク C03 500Mbps 1x Netflix
+      - 湖南-马来西亚 | 3 STCP
+      - 中国-台湾彰化 IEPL HiNet固接 C08 Netflix 动画疯
+      - 中国-台湾 VPDN 嘉义游戏专线 C10 Netflix 动画疯
       - 中国-台湾桃园 IPLC 台湾固网 C01 Netflix 动画疯
+      - 免费日本AWS|80|轩赞助
+      - HK8|10G|HTTP|独享|1.5x
+      - 韩国 京畿道板桥 原生游戏解锁 C 02
+      - 中国-印度 班加罗尔 एयरटेल IPLC C01
+      - 中国-香港 IEPL Equinix HK8 C 07 1Gbps HBO TVB
+      - 香港 油尖旺御金·国峯 環球全域電訊 C04
+      - 韩国 京畿道板桥 原生游戏解锁 C 01
+      - 精简 24
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C08 Netflix
+      - 中国-印度 班加罗尔 एयरटेल IPLC C08
+      - 中国-印度 班加罗尔 एयरटेल IPLC C03
+      - 中国-日本 多协议标签交换虚拟专用网（三） F 1000Mbps
+      - 美国高级 IEPL 中继 C05
+      - 中国-日本 多协议标签交换虚拟专用网（三） C 1000Mbps
+      - 韩国-新加坡 | 1
+      - 中国-台湾桃园 IPLC 台湾固网 C03 Netflix 动画疯
+      - 韩国 전라북도 전주시 商宽 C 03
+      - 中国-台湾桃园 IPLC 台湾固网 C08 Netflix 动画疯
+      - 中国-法国 IPLC C05
+      - 韩国 京畿道板桥 原生游戏解锁 C 05
+      - 印度2-CN2-倍率1.0
+      - 中国-日本 多协议标签交换虚拟专用网（三） D 1000Mbps
+      - 韩国 전라북도 전주시 商宽 C 02
+      - 日本 ソフトバンク C01 500Mbps 1x Netflix
+      - 中国-韩国 IEPL（三）A 1Gbps
+      - 中国-台湾彰化 IEPL HiNet固接 C02 Netflix 动画疯
+      - 中国-日本 多协议标签交换虚拟专用网（三） G 1000Mbps
+      - 美国 x1⇨Az[Twitter]
+      - 美国 | 3 奈飞
+      - 中国-台湾桃园 IPLC 台湾固网 C07 Netflix 动画疯
+      - 中国-韩国 IEPL（三）B 1Gbps
+      - HK11|5G|HTTP
+      - 中国-台湾 VPDN 嘉义游戏专线 C06 Netflix 动画疯
+      - HK2|10G|HTTP
+      - 精简 25
+      - 精简 21
+      - 土耳其 | 1 无限流量！
+      - 中国-香港 IPLC Equinix HK2 C 04 1Gbps HBO TVB
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C06 Netflix
+      - 韩国 京畿道板桥 原生游戏解锁 C 07
+      - 中国-印度 班加罗尔 एयरटेल IPLC C06
+      - 中国-日本 多协议标签交换虚拟专用网（三） B 1000Mbps
+      - 美国 x0.8⇨Az
+      - 韩国 전라북도 전주시 商宽 C 01
+      - US | 72
+      - 美国高级 IEPL 中继 C01
+      - HK6|10G|HTTP
+      - 中国-台湾桃园 IPLC 台湾固网 C05 Netflix 动画疯
+      - 中国-韩国 IEPL（三）E 1Gbps
+      - 中国-印度 班加罗尔 एयरटेल IPLC C09
+      - 中国-澳大利亚 IPLC 悉尼 C04
+      - 韩国 京畿道板桥 原生游戏解锁 C 03
+      - 荷兰 x1⇨Az[Twitter]
+      - 德国 x1⇨长沙联通[Twitter]
+      - 日本 ソフトバンク C02 500Mbps 1x Netflix
+      - 香港 油尖旺御金·国峯 名氣通電訊 C07
+      - 俄罗斯1-CN2-倍率1.0
+      - 马来西亚 | 1
+      - 台湾 | 1 无限流量！
+      - 香港 油尖旺御金·国峯 環球全域電訊 C06
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C02 Netflix
+      - 韩国-日本 | 1
+      - HK14|10G|HTTP|809测试
+      - 日本阿伟科技@TG/油管 2
+      - 荷兰 x1⇨长沙联通[Twitter]
+      - 中国-英国伦敦 IPLC BBC C02
+      - 韩国 전라북도 전주시 商宽 C 05
+      - 美国阿伟科技@TG/油管
+      - TG售后群|复制浏览器打开|https://t.me/yyjsd
+      - 韩国 京畿道板桥 原生游戏解锁 C 10
+      - 美国高级 IEPL 中继 C02
+      - HK9|10G|WS|独享|1.5x
+      - 新加坡4-IEPL-倍率1.0
+      - 德国 x1⇨Az[Twitter]
+      - 日本 ソフトバンク C12 500Mbps 1x Netflix
+      - 免费美国AWS|TCP80|轩赞助
+      - 韩国 京畿道板桥 原生游戏解锁 C 04
+      - 美国高级 IEPL 中继 C04
+      - 中国-法国 IPLC C02
+      - 台湾 x1⇨长沙联通[原生][Netflix]
+      - 英国 x1⇨Az[Twitter]
+      - 中国-台湾彰化 IEPL HiNet固接 C03 Netflix 动画疯
       - 德国1-CN2-倍率1.0
       - 中国-英国伦敦 IPLC BBC C04
-      - 中国-日本 多协议标签交换虚拟专用网（三） G 1000Mbps
+      - 澳大利亚2-CN2-倍率1.0
+      - 新加坡 x1 Az直连
+      - 印度1-CN2-倍率1.0
+      - 印度阿伟科技@TG/油管
+      - 美国阿伟科技@TG/油管 2
+      - 美国实验性 IEPL 中继 C03
+      - 土耳其1-CN2-倍率1.0
+      - 中国-香港 IEPL Equinix HK8 C 03 1Gbps HBO TVB
       - 美国阿伟科技@TG/油管 3
-      - 美国实验性 IEPL 中继 C01
-      - 日本 ソフトバンク C11 500Mbps 1x Netflix
-      - 新加坡 Magic IEPL 中继 C04 Netflix
-      - 新加坡 Legacy Magic IEPL 中继 C02 Netflix
-      - 中国-英国伦敦 IPLC BBC C03
-      - 中国-英国伦敦 IPLC BBC C02
-      - 新加坡 Magic IEPL 中继 C02 Netflix
+      - 免费美国AWS|80|轩赞助①
+      - 美国 | 4
+      - 韩国 京畿道板桥 原生游戏解锁 C 09
+      - 中国-印度 班加罗尔 एयरटेल IPLC C07
+      - 新加坡 Legacy Magic IEPL 中继 C01 Netflix
+      - 中国-加拿大 IPLC C04
       - 美国阿伟科技@TG/油管 4
+      - 中国-印度 班加罗尔 एयरटेल IPLC C05
       - 中国-英国伦敦 IPLC BBC C06
-      - 【V2】美国·芝加哥·200Mbps
-      - 中国-澳大利亚 IPLC 悉尼 C04
-      - 俄罗斯1-CN2-倍率1.0
-      - 新加坡 Legacy Magic IEPL 中继 C03 Netflix
-      - 新加坡 Magic IEPL 中继 C03 Netflix
+      - 美国实验性 IEPL 中继 C02
       - 美国阿伟科技@TG/油管 5
       - 美国阿伟科技@TG/油管 6
-      - 土耳其1-CN2-倍率1.0
-      - 美国高级 IEPL 中继 C01
-      - 美国高级 IEPL 中继 C02
-      - 美国阿伟科技@TG/油管 7
-      - 土耳其2-CN2-倍率1.0
+      - 【V2】韩国·150Mbps | 流媒体
       - 新加坡 Magic IEPL 中继 C05 Netflix
-      - 中国-加拿大 IPLC C05
-      - 美国阿伟科技@TG/油管 8
       - 中国-加拿大 IPLC C01
-      - 美国阿伟科技@TG/油管 9
-      - 中国-香港 IPLC Equinix HK2 C 02 1Gbps HBO TVB
-      - 新加坡 Legacy Magic IEPL 中继 C01 Netflix
-      - 香港阿伟科技@TG/油管
       - 中国-加拿大 IPLC C03
-      - 中国-印度 班加罗尔 एयरटेल IPLC C01
-      - 美国阿伟科技@TG/油管 10
-      - 中国-韩国 IEPL（三）E 1Gbps
-      - 美国阿伟科技@TG/油管 11
-      - 香港 油尖旺御金·国峯 環球全域電訊 C02
-      - 中国-爱尔兰 IPLC C05
-      - 新加坡高级 IEPL 中继 C02 Netflix
       - 澳大利亚1-CN2-倍率1.0
-      - 美国高级 IEPL 中继 C04
-      - 中国-加拿大 IPLC C04
-      - 新加坡高级 IEPL 中继 C01 Netflix
-      - 美国阿伟科技@TG/油管 12
-      - 美国实验性 IEPL 中继 C02
-      - 美国阿伟科技@TG/油管 13
-      - 澳大利亚2-CN2-倍率1.0
-      - 【V2】俄罗斯·150Mbps | 电信
-      - 【V3】台湾·1Gbps
-      - 美国高级 IEPL 中继 C05
-      - 中国-印度 班加罗尔 एयरटेल IPLC C06
-      - 新加坡高级 IEPL 中继 C03 Netflix
-      - 美国实验性 IEPL 中继 C03
+      - 中国-台湾彰化 IEPL HiNet固接 C06 Netflix 动画疯
+      - 土耳其2-CN2-倍率1.0
+      - 新加坡 Legacy Magic IEPL 中继 C02 Netflix
+      - 美国阿伟科技@TG/油管 7
+      - 美国阿伟科技@TG/油管 8
+      - 新加坡 Magic IEPL 中继 C03 Netflix
+      - 中国-英国伦敦 IPLC BBC C03
+      - 新加坡 Legacy Magic IEPL 中继 C03 Netflix
+      - 印度阿伟科技@TG/油管 2
+      - 新加坡 Magic IEPL 中继 C02 Netflix
+      - 新加坡 Magic IEPL 中继 C04 Netflix
+      - 中国-加拿大 IPLC C05
+      - 新加坡高级 IEPL 中继 C02 Netflix
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港 油尖旺御金·国峯 環球全域電訊 C09
-      - 香港 油尖旺御金·国峯 環球全域電訊 C05
-      - 香港4-IEPL-倍率1.0
-      - 香港5-IEPL-倍率1.0
-      - 中国-香港 IPLC Equinix HK2 C 01 1Gbps HBO TVB
-      - 中国-香港 IEPL Equinix HK8 C 07 1Gbps HBO TVB
-      - JP | 59
-      - 日本4-IEPL-倍率1.0
-      - 中国-爱尔兰 IPLC C03
-      - 中国-爱尔兰 IPLC C01
-      - 香港 油尖旺御金·国峯 名氣通電訊 C08
-      - 中国-香港 IEPL Equinix HK8 C 01 1Gbps HBO TVB
-      - 中国-香港 IPLC Equinix HK2 C 04 1Gbps HBO TVB
-      - 中国-香港 IPLC Equinix HK2 C 07 1Gbps HBO TVB
-      - 日本阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C06 Netflix
-      - 中国-香港 IEPL Equinix HK8 C 02 1Gbps HBO TVB
-      - 香港 油尖旺御金·国峯 名氣通電訊 C01
-      - 中国-台湾彰化 IEPL HiNet固接 C08 Netflix 动画疯
-      - 香港 油尖旺御金·国峯 名氣通電訊 C09
-      - 日本阿伟科技@TG/油管 2
-      - 香港 油尖旺御金·国峯 名氣通電訊 C04
-      - 中国-法国 IPLC C03
-      - 韩国 전라북도 전주시 商宽 C 01
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C02 Netflix
-      - 中国-日本 多协议标签交换虚拟专用网（三） I 1000Mbps
-      - 中国-香港 IEPL Equinix HK8 C 08 1Gbps HBO TVB
-      - 日本阿伟科技@TG/油管 3
-      - 美国阿伟科技@TG/油管 2
-      - 香港 油尖旺御金·国峯 環球全域電訊 C04
-      - 韩国 京畿道板桥 原生游戏解锁 C 04
-      - ASYNCHRONOUS TRANSFERMODE 永久虚通路连接PVCC C01
-      - 香港 油尖旺御金·国峯 名氣通電訊 C02
-      - 香港 油尖旺御金·国峯 環球全域電訊 C07
-      - 中国-爱尔兰 IPLC C04
-      - 中国-香港 IEPL Equinix HK8 C 10 1Gbps HBO TVB
-      - 中国-法国 IPLC C02
-      - 日本 ソフトバンク C05 500Mbps 1x Netflix
-      - 中国-台湾桃园 IPLC 台湾固网 C06 Netflix 动画疯
-      - 日本 ソフトバンク C02 500Mbps 1x Netflix
-      - 日本 ソフトバンク C12 500Mbps 1x Netflix
-      - 日本1-IEPL-倍率1.0
-      - 中国-台湾桃园 IPLC 台湾固网 C03 Netflix 动画疯
-      - 中国-日本 多协议标签交换虚拟专用网（三） D 1000Mbps
-      - 中国-爱尔兰 IPLC C02
-      - 中国-香港 IEPL Equinix HK8 C 06 1Gbps HBO TVB
-      - 精简 27
-      - 中国-法国 IPLC C01
-      - 香港 油尖旺御金·国峯 環球全域電訊 C08
-      - 中国-法国 IPLC C04
-      - 韩国 京畿道板桥 原生游戏解锁 C 01
-      - 韩国 京畿道板桥 原生游戏解锁 C 08
-      - 中国-台湾 VPDN 嘉义游戏专线 C01 Netflix 动画疯
-      - 日本 ソフトバンク C01 500Mbps 1x Netflix
-      - 中国-日本 多协议标签交换虚拟专用网（三） B 1000Mbps
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C04 Netflix
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C01 Netflix
-      - 韩国 전라북도 전주시 商宽 C 05
-      - 日本 ソフトバンク C08 500Mbps 1x Netflix
-      - 中国-台湾 VPDN 嘉义游戏专线 C03 Netflix 动画疯
-      - 中国-香港 IPLC Equinix HK2 C 03 1Gbps HBO TVB
-      - 香港 油尖旺御金·国峯 環球全域電訊 C06
-      - 精简 24
-      - 韩国 전라북도 전주시 商宽 C 02
-      - 韩国 京畿道板桥 原生游戏解锁 C 05
-      - 韩国 京畿道板桥 原生游戏解锁 C 10
-      - 中国-韩国 IEPL（三）A 1Gbps
-      - 香港 油尖旺御金·国峯 名氣通電訊 C07
-      - 中国-日本 多协议标签交换虚拟专用网（三） E 1000Mbps
-      - 中国-日本 多协议标签交换虚拟专用网（三） J 1000Mbps
-      - 美国5-IEPL-倍率1.0
-      - 中国-台湾彰化 IEPL HiNet固接 C09 Netflix 动画疯
-      - 中国-香港 IEPL Equinix HK8 C 05 1Gbps HBO TVB
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C03 Netflix
-      - 中国-香港 IEPL Equinix HK8 C 03 1Gbps HBO TVB
-      - 中国-香港 IPLC Equinix HK2 C 09 1Gbps HBO TVB
-      - 中国-台湾桃园 IPLC 台湾固网 C10 Netflix 动画疯
-      - 中国-印度 班加罗尔 एयरटेल IPLC C08
-      - 中国-日本 多协议标签交换虚拟专用网（三） A 1000Mbps
-      - 台湾5-IEPL-倍率1.0
-      - 中国-台湾桃园 IPLC 台湾固网 C02 Netflix 动画疯
-      - 韩国 京畿道板桥 原生游戏解锁 C 03
-      - 日本6-IEPL-倍率1.0
-      - 日本阿伟科技@TG/油管 4
-      - 中国-法国 IPLC C05
-      - 香港 油尖旺御金·国峯 環球全域電訊 C03
-      - 中国-台湾彰化 IEPL HiNet固接 C06 Netflix 动画疯
-      - 中国-韩国 IEPL（三）D 1Gbps
-      - 中国-韩国 IEPL（三）C 1Gbps
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C05 Netflix
-      - 韩国 京畿道板桥 原生游戏解锁 C 07
-      - 中国-台湾 VPDN 嘉义游戏专线 C02 Netflix 动画疯
-      - 中国-日本 多协议标签交换虚拟专用网（三） C 1000Mbps
-      - 日本 ソフトバンク C07 500Mbps 1x Netflix
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C08 Netflix
-      - 中国-台湾桃园 IPLC 台湾固网 C05 Netflix 动画疯
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C07 Netflix
-      - 中国-印度 班加罗尔 एयरटेल IPLC C03
-      - 韩国 京畿道板桥 原生游戏解锁 C 02
-      - 日本 ソフトバンク C03 500Mbps 1x Netflix
-      - 中国-台湾桃园 IPLC 台湾固网 C07 Netflix 动画疯
-      - 韩国 전라북도 전주시 商宽 C 03
-      - 台湾3-IEPL-倍率1.0
-      - 美国1-IEPL-倍率1.0
-      - 精简 29
-      - 中国-台湾 VPDN 嘉义游戏专线 C05 Netflix 动画疯
-      - 中国-台湾 VPDN 嘉义游戏专线 C10 Netflix 动画疯
-      - 中国-印度 班加罗尔 एयरटेल IPLC C05
-      - 印度1-CN2-倍率1.0
-      - 中国-印度 班加罗尔 एयरटेल IPLC C07
-      - 新加坡1-IEPL-倍率1.0
-      - 中国-台湾桃园 IPLC 台湾固网 C04 Netflix 动画疯
-      - 中国-台湾 VPDN 嘉义游戏专线 C07 Netflix 动画疯
-      - 美国2-IEPL-倍率1.0
-      - 日本 ソフトバンク C06 500Mbps 1x Netflix
-      - 中国-韩国 IEPL（三）B 1Gbps
-      - 中国-台湾 VPDN 嘉义游戏专线 C06 Netflix 动画疯
-      - 中国-香港 IEPL Equinix HK8 C 04 1Gbps HBO TVB
-      - 中国-台湾 VPDN 嘉义游戏专线 C09 Netflix 动画疯
-      - 中国-台湾彰化 IEPL HiNet固接 C04 Netflix 动画疯
-      - 精简 28
-      - 精简 23
-      - 精简 21
+      - 香港阿伟科技@TG/油管
       - az-hk
-      - 中国-台湾桃园 IPLC 台湾固网 C09 Netflix 动画疯
-      - 中国-台湾彰化 IEPL HiNet固接 C07 Netflix 动画疯
-      - 中国-印度 班加罗尔 एयरटेल IPLC C09
-      - 新加坡4-IEPL-倍率1.0
-      - 日本 ソフトバンク C10 500Mbps 1x Netflix
-      - 中国-台湾彰化 IEPL HiNet固接 C10 Netflix 动画疯
-      - 中国-台湾 VPDN 嘉义游戏专线 C08 Netflix 动画疯
-      - 精简 22
-      - 香港 油尖旺御金·国峯 環球全域電訊 C01
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C01 Netflix
+      - 中国-法国 IPLC C04
+      - 中国-香港 IEPL Equinix HK8 C 04 1Gbps HBO TVB
+      - 香港 油尖旺御金·国峯 環球全域電訊 C03
+      - 中国-台湾桃园 IPLC 台湾固网 C06 Netflix 动画疯
+      - 香港 油尖旺御金·国峯 環球全域電訊 C09
+      - 中国-香港 IEPL Equinix HK8 C 01 1Gbps HBO TVB
+      - 杭州-德国 | 2 9929
+      - 中国-爱尔兰 IPLC C02
       - 中国-香港 IEPL Equinix HK8 C 09 1Gbps HBO TVB
-      - 中国-台湾桃园 IPLC 台湾固网 C11 Netflix 动画疯
-      - 精简 26
-      - 韩国 전라북도 전주시 商宽 C 04
-      - 中国-台湾 VPDN 嘉义游戏专线 C04 Netflix 动画疯
-      - 精简 25
-      - 中国-台湾桃园 IPLC 台湾固网 C08 Netflix 动画疯
-      - US | 72
-      - 香港 油尖旺御金·国峯 名氣通電訊 C06
-      - 中国-台湾彰化 IEPL HiNet固接 C05 Netflix 动画疯
-      - 日本 ソフトバンク C04 500Mbps 1x Netflix
+      - 韩国 x1 Az直连
+      - 中国-台湾 VPDN 嘉义游戏专线 C03 Netflix 动画疯
+      - 香港 油尖旺御金·国峯 名氣通電訊 C08
+      - 香港-美国 | 5
+      - 新加坡 x1⇨Az[Twitter]
+      - 日本 ソフトバンク C10 500Mbps 1x Netflix
+      - 中国-韩国 IEPL（三）C 1Gbps
       - 日本 ソフトバンク C09 500Mbps 1x Netflix
-      - 韩国 京畿道板桥 原生游戏解锁 C 09
-      - 印度阿伟科技@TG/油管
-      - 【V2】韩国·150Mbps | 流媒体
-      - 中国-台湾彰化 IEPL HiNet固接 C02 Netflix 动画疯
-      - 印度2-CN2-倍率1.0
-      - 中国-台湾彰化 IEPL HiNet固接 C03 Netflix 动画疯
-      - 印度阿伟科技@TG/油管 2
-      - 中国-澳大利亚 IPLC 悉尼 C02
-      - 中国-日本 多协议标签交换虚拟专用网（三） F 1000Mbps
+      - 日本 ソフトバンク C07 500Mbps 1x Netflix
+      - 中国-法国 IPLC C03
+      - 台湾 x1⇨Az[Netflix]
+      - 中国-台湾彰化 IEPL HiNet固接 C09 Netflix 动画疯
+      - 有问题发工单|不提供技术支持
+      - HK5|10G|WS
+      - 中国-台湾桃园 IPLC 台湾固网 C04 Netflix 动画疯
+      - 香港 油尖旺御金·国峯 名氣通電訊 C06
+      - 香港 油尖旺御金·国峯 環球全域電訊 C02
+      - 韩国 | 1
+      - 中国-爱尔兰 IPLC C01
+      - 香港HKT | 2 维护（明日）
+      - 中国-爱尔兰 IPLC C05
+      - 香港az | 4 同上
+      - 美国 | 1 奈飞
+      - 泰国 x1⇨Az[Netflix]
+      - 日本 | 2
+      - 中国-香港 IEPL Equinix HK8 C 05 1Gbps HBO TVB
+      - 中国-香港 IPLC Equinix HK2 C 02 1Gbps HBO TVB
+      - 中国-台湾 VPDN 嘉义游戏专线 C08 Netflix 动画疯
+      - 马来西亚 | 2
+      - 中国-台湾彰化 IEPL HiNet固接 C04 Netflix 动画疯
+      - 日本 ソフトバンク C04 500Mbps 1x Netflix
+      - HK10|5G|HTTP|自填混淆
+      - 英国 x1⇨长沙联通[Twitter]
+      - 中国-香港 IEPL Equinix HK8 C 08 1Gbps HBO TVB
+      - 日本 | 3 杭日隧道 STCP GAME
+      - 香港 油尖旺御金·国峯 環球全域電訊 C08
+      - 日本 x1⇨Az
+      - 美国2 | 奈飞
+      - 中国-日本 多协议标签交换虚拟专用网（三） I 1000Mbps
+      - 精简 29
+      - 中国-台湾彰化 IEPL HiNet固接 C07 Netflix 动画疯
+      - 台湾家宽|NetFlix|動畫瘋|解锁|8090
+      - 公告|所求皆所愿！所行皆坦途
+      - 香港 x1⇨Az[Netflix]
+      - 香港 油尖旺御金·国峯 環球全域電訊 C01
+      - Azure高速港A
+      - 印度 x1⇨Az[Twitter]
+      - 中国-法国 IPLC C01
+      - 中国-香港 IPLC Equinix HK2 C 09 1Gbps HBO TVB
+      - 台湾 | 2
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C03 Netflix
+      - 精简 26
+      - 韩国 | 2 皖港隧道 STCP
+      - 土耳其 | 2
+      - HK18|5G|WS|头条合作A
+      - 中国-台湾 VPDN 嘉义游戏专线 C04 Netflix 动画疯
+      - 中国-台湾 VPDN 嘉义游戏专线 C01 Netflix 动画疯
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C07 Netflix
+      - 中国-台湾 VPDN 嘉义游戏专线 C02 Netflix 动画疯
+      - 中国-台湾彰化 IEPL HiNet固接 C10 Netflix 动画疯
+      - 德国 | 1 9929
+      - 精简 22
+      - 日本 ソフトバンク C11 500Mbps 1x Netflix
+      - 香港-日本 | 4 GAME
+      - 中国-日本 多协议标签交换虚拟专用网（三） J 1000Mbps
+      - 香港-韩国 | 1
+      - 中国-台湾桃园 IPLC 台湾固网 C10 Netflix 动画疯
+      - 香港-日本 | 5 GAME
+      - 新加坡 | 2
+      - 中国-日本 多协议标签交换虚拟专用网（三） A 1000Mbps
+      - 中国-台湾桃园 IPLC 台湾固网 C11 Netflix 动画疯
+      - 韩国 전라북도 전주시 商宽 C 04
+      - cns
+      - 中国-台湾 VPDN 嘉义游戏专线 C05 Netflix 动画疯
+      - 香港 油尖旺御金·国峯 環球全域電訊 C07
+      - 中国-台湾桃园 IPLC 台湾固网 C09 Netflix 动画疯
+      - 新加坡 | 1
+      - 中国-台湾彰化 IEPL HiNet固接 C05 Netflix 动画疯
+      - 中国-台湾桃园 IPLC 台湾固网 C02 Netflix 动画疯
+      - 中国-台湾 VPDN 嘉义游戏专线 C09 Netflix 动画疯
+      - 日本 ソフトバンク C08 500Mbps 1x Netflix
+      - 精简 27
+      - 日本 | 1
+      - 韩国 京畿道板桥 原生游戏解锁 C 08
+      - 中国-台湾 VPDN 嘉义游戏专线 C07 Netflix 动画疯
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C04 Netflix
+      - 日本阿伟科技@TG/油管
+      - 中国-韩国 IEPL（三）D 1Gbps
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C05 Netflix
+      - 日本 ソフトバンク C03 500Mbps 1x Netflix
+      - 湖南-马来西亚 | 3 STCP
+      - 中国-台湾彰化 IEPL HiNet固接 C08 Netflix 动画疯
+      - 中国-台湾 VPDN 嘉义游戏专线 C10 Netflix 动画疯
       - 中国-台湾桃园 IPLC 台湾固网 C01 Netflix 动画疯
+      - 免费日本AWS|80|轩赞助
+      - HK8|10G|HTTP|独享|1.5x
+      - 韩国 京畿道板桥 原生游戏解锁 C 02
+      - 中国-印度 班加罗尔 एयरटेल IPLC C01
+      - 中国-香港 IEPL Equinix HK8 C 07 1Gbps HBO TVB
+      - 香港 油尖旺御金·国峯 環球全域電訊 C04
+      - 韩国 京畿道板桥 原生游戏解锁 C 01
+      - 精简 24
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C08 Netflix
+      - 中国-印度 班加罗尔 एयरटेल IPLC C08
+      - 中国-印度 班加罗尔 एयरटेल IPLC C03
+      - 中国-日本 多协议标签交换虚拟专用网（三） F 1000Mbps
+      - 美国高级 IEPL 中继 C05
+      - 中国-日本 多协议标签交换虚拟专用网（三） C 1000Mbps
+      - 韩国-新加坡 | 1
+      - 中国-台湾桃园 IPLC 台湾固网 C03 Netflix 动画疯
+      - 韩国 전라북도 전주시 商宽 C 03
+      - 中国-台湾桃园 IPLC 台湾固网 C08 Netflix 动画疯
+      - 中国-法国 IPLC C05
+      - 韩国 京畿道板桥 原生游戏解锁 C 05
+      - 印度2-CN2-倍率1.0
+      - 中国-日本 多协议标签交换虚拟专用网（三） D 1000Mbps
+      - 韩国 전라북도 전주시 商宽 C 02
+      - 日本 ソフトバンク C01 500Mbps 1x Netflix
+      - 中国-韩国 IEPL（三）A 1Gbps
+      - 中国-台湾彰化 IEPL HiNet固接 C02 Netflix 动画疯
+      - 中国-日本 多协议标签交换虚拟专用网（三） G 1000Mbps
+      - 美国 x1⇨Az[Twitter]
+      - 美国 | 3 奈飞
+      - 中国-台湾桃园 IPLC 台湾固网 C07 Netflix 动画疯
+      - 中国-韩国 IEPL（三）B 1Gbps
+      - HK11|5G|HTTP
+      - 中国-台湾 VPDN 嘉义游戏专线 C06 Netflix 动画疯
+      - HK2|10G|HTTP
+      - 精简 25
+      - 精简 21
+      - 土耳其 | 1 无限流量！
+      - 中国-香港 IPLC Equinix HK2 C 04 1Gbps HBO TVB
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C06 Netflix
+      - 韩国 京畿道板桥 原生游戏解锁 C 07
+      - 中国-印度 班加罗尔 एयरटेल IPLC C06
+      - 中国-日本 多协议标签交换虚拟专用网（三） B 1000Mbps
+      - 美国 x0.8⇨Az
+      - 韩国 전라북도 전주시 商宽 C 01
+      - US | 72
+      - 美国高级 IEPL 中继 C01
+      - HK6|10G|HTTP
+      - 中国-台湾桃园 IPLC 台湾固网 C05 Netflix 动画疯
+      - 中国-韩国 IEPL（三）E 1Gbps
+      - 中国-印度 班加罗尔 एयरटेल IPLC C09
+      - 中国-澳大利亚 IPLC 悉尼 C04
+      - 韩国 京畿道板桥 原生游戏解锁 C 03
+      - 荷兰 x1⇨Az[Twitter]
+      - 德国 x1⇨长沙联通[Twitter]
+      - 日本 ソフトバンク C02 500Mbps 1x Netflix
+      - 香港 油尖旺御金·国峯 名氣通電訊 C07
+      - 俄罗斯1-CN2-倍率1.0
+      - 马来西亚 | 1
+      - 台湾 | 1 无限流量！
+      - 香港 油尖旺御金·国峯 環球全域電訊 C06
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C02 Netflix
+      - 韩国-日本 | 1
+      - HK14|10G|HTTP|809测试
+      - 日本阿伟科技@TG/油管 2
+      - 荷兰 x1⇨长沙联通[Twitter]
+      - 中国-英国伦敦 IPLC BBC C02
+      - 韩国 전라북도 전주시 商宽 C 05
+      - 美国阿伟科技@TG/油管
+      - TG售后群|复制浏览器打开|https://t.me/yyjsd
+      - 韩国 京畿道板桥 原生游戏解锁 C 10
+      - 美国高级 IEPL 中继 C02
+      - HK9|10G|WS|独享|1.5x
+      - 新加坡4-IEPL-倍率1.0
+      - 德国 x1⇨Az[Twitter]
+      - 日本 ソフトバンク C12 500Mbps 1x Netflix
+      - 免费美国AWS|TCP80|轩赞助
+      - 韩国 京畿道板桥 原生游戏解锁 C 04
+      - 美国高级 IEPL 中继 C04
+      - 中国-法国 IPLC C02
+      - 台湾 x1⇨长沙联通[原生][Netflix]
+      - 英国 x1⇨Az[Twitter]
+      - 中国-台湾彰化 IEPL HiNet固接 C03 Netflix 动画疯
       - 德国1-CN2-倍率1.0
       - 中国-英国伦敦 IPLC BBC C04
-      - 中国-日本 多协议标签交换虚拟专用网（三） G 1000Mbps
+      - 澳大利亚2-CN2-倍率1.0
+      - 新加坡 x1 Az直连
+      - 印度1-CN2-倍率1.0
+      - 印度阿伟科技@TG/油管
+      - 美国阿伟科技@TG/油管 2
+      - 美国实验性 IEPL 中继 C03
+      - 土耳其1-CN2-倍率1.0
+      - 中国-香港 IEPL Equinix HK8 C 03 1Gbps HBO TVB
       - 美国阿伟科技@TG/油管 3
-      - 美国实验性 IEPL 中继 C01
-      - 日本 ソフトバンク C11 500Mbps 1x Netflix
-      - 新加坡 Magic IEPL 中继 C04 Netflix
-      - 新加坡 Legacy Magic IEPL 中继 C02 Netflix
-      - 中国-英国伦敦 IPLC BBC C03
-      - 中国-英国伦敦 IPLC BBC C02
-      - 新加坡 Magic IEPL 中继 C02 Netflix
+      - 免费美国AWS|80|轩赞助①
+      - 美国 | 4
+      - 韩国 京畿道板桥 原生游戏解锁 C 09
+      - 中国-印度 班加罗尔 एयरटेल IPLC C07
+      - 新加坡 Legacy Magic IEPL 中继 C01 Netflix
+      - 中国-加拿大 IPLC C04
       - 美国阿伟科技@TG/油管 4
+      - 中国-印度 班加罗尔 एयरटेल IPLC C05
       - 中国-英国伦敦 IPLC BBC C06
-      - 【V2】美国·芝加哥·200Mbps
-      - 中国-澳大利亚 IPLC 悉尼 C04
-      - 俄罗斯1-CN2-倍率1.0
-      - 新加坡 Legacy Magic IEPL 中继 C03 Netflix
-      - 新加坡 Magic IEPL 中继 C03 Netflix
+      - 美国实验性 IEPL 中继 C02
       - 美国阿伟科技@TG/油管 5
       - 美国阿伟科技@TG/油管 6
-      - 土耳其1-CN2-倍率1.0
-      - 美国高级 IEPL 中继 C01
-      - 美国高级 IEPL 中继 C02
-      - 美国阿伟科技@TG/油管 7
-      - 土耳其2-CN2-倍率1.0
+      - 【V2】韩国·150Mbps | 流媒体
       - 新加坡 Magic IEPL 中继 C05 Netflix
-      - 中国-加拿大 IPLC C05
-      - 美国阿伟科技@TG/油管 8
       - 中国-加拿大 IPLC C01
-      - 美国阿伟科技@TG/油管 9
-      - 中国-香港 IPLC Equinix HK2 C 02 1Gbps HBO TVB
-      - 新加坡 Legacy Magic IEPL 中继 C01 Netflix
-      - 香港阿伟科技@TG/油管
       - 中国-加拿大 IPLC C03
-      - 中国-印度 班加罗尔 एयरटेल IPLC C01
-      - 美国阿伟科技@TG/油管 10
-      - 中国-韩国 IEPL（三）E 1Gbps
-      - 美国阿伟科技@TG/油管 11
-      - 香港 油尖旺御金·国峯 環球全域電訊 C02
-      - 中国-爱尔兰 IPLC C05
-      - 新加坡高级 IEPL 中继 C02 Netflix
       - 澳大利亚1-CN2-倍率1.0
-      - 美国高级 IEPL 中继 C04
-      - 中国-加拿大 IPLC C04
-      - 新加坡高级 IEPL 中继 C01 Netflix
-      - 美国阿伟科技@TG/油管 12
-      - 美国实验性 IEPL 中继 C02
-      - 美国阿伟科技@TG/油管 13
-      - 澳大利亚2-CN2-倍率1.0
-      - 【V2】俄罗斯·150Mbps | 电信
-      - 【V3】台湾·1Gbps
-      - 美国高级 IEPL 中继 C05
-      - 中国-印度 班加罗尔 एयरटेल IPLC C06
-      - 新加坡高级 IEPL 中继 C03 Netflix
-      - 美国实验性 IEPL 中继 C03
+      - 中国-台湾彰化 IEPL HiNet固接 C06 Netflix 动画疯
+      - 土耳其2-CN2-倍率1.0
+      - 新加坡 Legacy Magic IEPL 中继 C02 Netflix
+      - 美国阿伟科技@TG/油管 7
+      - 美国阿伟科技@TG/油管 8
+      - 新加坡 Magic IEPL 中继 C03 Netflix
+      - 中国-英国伦敦 IPLC BBC C03
+      - 新加坡 Legacy Magic IEPL 中继 C03 Netflix
+      - 印度阿伟科技@TG/油管 2
+      - 新加坡 Magic IEPL 中继 C02 Netflix
+      - 新加坡 Magic IEPL 中继 C04 Netflix
+      - 中国-加拿大 IPLC C05
+      - 新加坡高级 IEPL 中继 C02 Netflix
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1833,217 +1975,235 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港 油尖旺御金·国峯 環球全域電訊 C09
-      - 香港 油尖旺御金·国峯 環球全域電訊 C05
-      - 香港4-IEPL-倍率1.0
-      - 香港5-IEPL-倍率1.0
-      - 中国-香港 IPLC Equinix HK2 C 01 1Gbps HBO TVB
-      - 中国-香港 IEPL Equinix HK8 C 07 1Gbps HBO TVB
-      - JP | 59
-      - 日本4-IEPL-倍率1.0
-      - 中国-爱尔兰 IPLC C03
-      - 中国-爱尔兰 IPLC C01
-      - 香港 油尖旺御金·国峯 名氣通電訊 C08
-      - 中国-香港 IEPL Equinix HK8 C 01 1Gbps HBO TVB
-      - 中国-香港 IPLC Equinix HK2 C 04 1Gbps HBO TVB
-      - 中国-香港 IPLC Equinix HK2 C 07 1Gbps HBO TVB
-      - 日本阿伟科技@TG/油管
-      - 美国阿伟科技@TG/油管
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C06 Netflix
-      - 中国-香港 IEPL Equinix HK8 C 02 1Gbps HBO TVB
-      - 香港 油尖旺御金·国峯 名氣通電訊 C01
-      - 中国-台湾彰化 IEPL HiNet固接 C08 Netflix 动画疯
-      - 香港 油尖旺御金·国峯 名氣通電訊 C09
-      - 日本阿伟科技@TG/油管 2
-      - 香港 油尖旺御金·国峯 名氣通電訊 C04
-      - 中国-法国 IPLC C03
-      - 韩国 전라북도 전주시 商宽 C 01
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C02 Netflix
-      - 中国-日本 多协议标签交换虚拟专用网（三） I 1000Mbps
-      - 中国-香港 IEPL Equinix HK8 C 08 1Gbps HBO TVB
-      - 日本阿伟科技@TG/油管 3
-      - 美国阿伟科技@TG/油管 2
-      - 香港 油尖旺御金·国峯 環球全域電訊 C04
-      - 韩国 京畿道板桥 原生游戏解锁 C 04
-      - ASYNCHRONOUS TRANSFERMODE 永久虚通路连接PVCC C01
-      - 香港 油尖旺御金·国峯 名氣通電訊 C02
-      - 香港 油尖旺御金·国峯 環球全域電訊 C07
-      - 中国-爱尔兰 IPLC C04
-      - 中国-香港 IEPL Equinix HK8 C 10 1Gbps HBO TVB
-      - 中国-法国 IPLC C02
-      - 日本 ソフトバンク C05 500Mbps 1x Netflix
-      - 中国-台湾桃园 IPLC 台湾固网 C06 Netflix 动画疯
-      - 日本 ソフトバンク C02 500Mbps 1x Netflix
-      - 日本 ソフトバンク C12 500Mbps 1x Netflix
-      - 日本1-IEPL-倍率1.0
-      - 中国-台湾桃园 IPLC 台湾固网 C03 Netflix 动画疯
-      - 中国-日本 多协议标签交换虚拟专用网（三） D 1000Mbps
-      - 中国-爱尔兰 IPLC C02
-      - 中国-香港 IEPL Equinix HK8 C 06 1Gbps HBO TVB
-      - 精简 27
-      - 中国-法国 IPLC C01
-      - 香港 油尖旺御金·国峯 環球全域電訊 C08
-      - 中国-法国 IPLC C04
-      - 韩国 京畿道板桥 原生游戏解锁 C 01
-      - 韩国 京畿道板桥 原生游戏解锁 C 08
-      - 中国-台湾 VPDN 嘉义游戏专线 C01 Netflix 动画疯
-      - 日本 ソフトバンク C01 500Mbps 1x Netflix
-      - 中国-日本 多协议标签交换虚拟专用网（三） B 1000Mbps
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C04 Netflix
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C01 Netflix
-      - 韩国 전라북도 전주시 商宽 C 05
-      - 日本 ソフトバンク C08 500Mbps 1x Netflix
-      - 中国-台湾 VPDN 嘉义游戏专线 C03 Netflix 动画疯
-      - 中国-香港 IPLC Equinix HK2 C 03 1Gbps HBO TVB
-      - 香港 油尖旺御金·国峯 環球全域電訊 C06
-      - 精简 24
-      - 韩国 전라북도 전주시 商宽 C 02
-      - 韩国 京畿道板桥 原生游戏解锁 C 05
-      - 韩国 京畿道板桥 原生游戏解锁 C 10
-      - 中国-韩国 IEPL（三）A 1Gbps
-      - 香港 油尖旺御金·国峯 名氣通電訊 C07
-      - 中国-日本 多协议标签交换虚拟专用网（三） E 1000Mbps
-      - 中国-日本 多协议标签交换虚拟专用网（三） J 1000Mbps
-      - 美国5-IEPL-倍率1.0
-      - 中国-台湾彰化 IEPL HiNet固接 C09 Netflix 动画疯
-      - 中国-香港 IEPL Equinix HK8 C 05 1Gbps HBO TVB
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C03 Netflix
-      - 中国-香港 IEPL Equinix HK8 C 03 1Gbps HBO TVB
-      - 中国-香港 IPLC Equinix HK2 C 09 1Gbps HBO TVB
-      - 中国-台湾桃园 IPLC 台湾固网 C10 Netflix 动画疯
-      - 中国-印度 班加罗尔 एयरटेल IPLC C08
-      - 中国-日本 多协议标签交换虚拟专用网（三） A 1000Mbps
-      - 台湾5-IEPL-倍率1.0
-      - 中国-台湾桃园 IPLC 台湾固网 C02 Netflix 动画疯
-      - 韩国 京畿道板桥 原生游戏解锁 C 03
-      - 日本6-IEPL-倍率1.0
-      - 日本阿伟科技@TG/油管 4
-      - 中国-法国 IPLC C05
-      - 香港 油尖旺御金·国峯 環球全域電訊 C03
-      - 中国-台湾彰化 IEPL HiNet固接 C06 Netflix 动画疯
-      - 中国-韩国 IEPL（三）D 1Gbps
-      - 中国-韩国 IEPL（三）C 1Gbps
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C05 Netflix
-      - 韩国 京畿道板桥 原生游戏解锁 C 07
-      - 中国-台湾 VPDN 嘉义游戏专线 C02 Netflix 动画疯
-      - 中国-日本 多协议标签交换虚拟专用网（三） C 1000Mbps
-      - 日本 ソフトバンク C07 500Mbps 1x Netflix
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C08 Netflix
-      - 中国-台湾桃园 IPLC 台湾固网 C05 Netflix 动画疯
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 C07 Netflix
-      - 中国-印度 班加罗尔 एयरटेल IPLC C03
-      - 韩国 京畿道板桥 原生游戏解锁 C 02
-      - 日本 ソフトバンク C03 500Mbps 1x Netflix
-      - 中国-台湾桃园 IPLC 台湾固网 C07 Netflix 动画疯
-      - 韩国 전라북도 전주시 商宽 C 03
-      - 台湾3-IEPL-倍率1.0
-      - 美国1-IEPL-倍率1.0
-      - 精简 29
-      - 中国-台湾 VPDN 嘉义游戏专线 C05 Netflix 动画疯
-      - 中国-台湾 VPDN 嘉义游戏专线 C10 Netflix 动画疯
-      - 中国-印度 班加罗尔 एयरटेल IPLC C05
-      - 印度1-CN2-倍率1.0
-      - 中国-印度 班加罗尔 एयरटेल IPLC C07
-      - 新加坡1-IEPL-倍率1.0
-      - 中国-台湾桃园 IPLC 台湾固网 C04 Netflix 动画疯
-      - 中国-台湾 VPDN 嘉义游戏专线 C07 Netflix 动画疯
-      - 美国2-IEPL-倍率1.0
-      - 日本 ソフトバンク C06 500Mbps 1x Netflix
-      - 中国-韩国 IEPL（三）B 1Gbps
-      - 中国-台湾 VPDN 嘉义游戏专线 C06 Netflix 动画疯
-      - 中国-香港 IEPL Equinix HK8 C 04 1Gbps HBO TVB
-      - 中国-台湾 VPDN 嘉义游戏专线 C09 Netflix 动画疯
-      - 中国-台湾彰化 IEPL HiNet固接 C04 Netflix 动画疯
-      - 精简 28
-      - 精简 23
-      - 精简 21
+      - 香港阿伟科技@TG/油管
       - az-hk
-      - 中国-台湾桃园 IPLC 台湾固网 C09 Netflix 动画疯
-      - 中国-台湾彰化 IEPL HiNet固接 C07 Netflix 动画疯
-      - 中国-印度 班加罗尔 एयरटेल IPLC C09
-      - 新加坡4-IEPL-倍率1.0
-      - 日本 ソフトバンク C10 500Mbps 1x Netflix
-      - 中国-台湾彰化 IEPL HiNet固接 C10 Netflix 动画疯
-      - 中国-台湾 VPDN 嘉义游戏专线 C08 Netflix 动画疯
-      - 精简 22
-      - 香港 油尖旺御金·国峯 環球全域電訊 C01
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C01 Netflix
+      - 中国-法国 IPLC C04
+      - 中国-香港 IEPL Equinix HK8 C 04 1Gbps HBO TVB
+      - 香港 油尖旺御金·国峯 環球全域電訊 C03
+      - 中国-台湾桃园 IPLC 台湾固网 C06 Netflix 动画疯
+      - 香港 油尖旺御金·国峯 環球全域電訊 C09
+      - 中国-香港 IEPL Equinix HK8 C 01 1Gbps HBO TVB
+      - 杭州-德国 | 2 9929
+      - 中国-爱尔兰 IPLC C02
       - 中国-香港 IEPL Equinix HK8 C 09 1Gbps HBO TVB
-      - 中国-台湾桃园 IPLC 台湾固网 C11 Netflix 动画疯
-      - 精简 26
-      - 韩国 전라북도 전주시 商宽 C 04
-      - 中国-台湾 VPDN 嘉义游戏专线 C04 Netflix 动画疯
-      - 精简 25
-      - 中国-台湾桃园 IPLC 台湾固网 C08 Netflix 动画疯
-      - US | 72
-      - 香港 油尖旺御金·国峯 名氣通電訊 C06
-      - 中国-台湾彰化 IEPL HiNet固接 C05 Netflix 动画疯
-      - 日本 ソフトバンク C04 500Mbps 1x Netflix
+      - 韩国 x1 Az直连
+      - 中国-台湾 VPDN 嘉义游戏专线 C03 Netflix 动画疯
+      - 香港 油尖旺御金·国峯 名氣通電訊 C08
+      - 香港-美国 | 5
+      - 新加坡 x1⇨Az[Twitter]
+      - 日本 ソフトバンク C10 500Mbps 1x Netflix
+      - 中国-韩国 IEPL（三）C 1Gbps
       - 日本 ソフトバンク C09 500Mbps 1x Netflix
-      - 韩国 京畿道板桥 原生游戏解锁 C 09
-      - 印度阿伟科技@TG/油管
-      - 【V2】韩国·150Mbps | 流媒体
-      - 中国-台湾彰化 IEPL HiNet固接 C02 Netflix 动画疯
-      - 印度2-CN2-倍率1.0
-      - 中国-台湾彰化 IEPL HiNet固接 C03 Netflix 动画疯
-      - 印度阿伟科技@TG/油管 2
-      - 中国-澳大利亚 IPLC 悉尼 C02
-      - 中国-日本 多协议标签交换虚拟专用网（三） F 1000Mbps
+      - 日本 ソフトバンク C07 500Mbps 1x Netflix
+      - 中国-法国 IPLC C03
+      - 台湾 x1⇨Az[Netflix]
+      - 中国-台湾彰化 IEPL HiNet固接 C09 Netflix 动画疯
+      - 有问题发工单|不提供技术支持
+      - HK5|10G|WS
+      - 中国-台湾桃园 IPLC 台湾固网 C04 Netflix 动画疯
+      - 香港 油尖旺御金·国峯 名氣通電訊 C06
+      - 香港 油尖旺御金·国峯 環球全域電訊 C02
+      - 韩国 | 1
+      - 中国-爱尔兰 IPLC C01
+      - 香港HKT | 2 维护（明日）
+      - 中国-爱尔兰 IPLC C05
+      - 香港az | 4 同上
+      - 美国 | 1 奈飞
+      - 泰国 x1⇨Az[Netflix]
+      - 日本 | 2
+      - 中国-香港 IEPL Equinix HK8 C 05 1Gbps HBO TVB
+      - 中国-香港 IPLC Equinix HK2 C 02 1Gbps HBO TVB
+      - 中国-台湾 VPDN 嘉义游戏专线 C08 Netflix 动画疯
+      - 马来西亚 | 2
+      - 中国-台湾彰化 IEPL HiNet固接 C04 Netflix 动画疯
+      - 日本 ソフトバンク C04 500Mbps 1x Netflix
+      - HK10|5G|HTTP|自填混淆
+      - 英国 x1⇨长沙联通[Twitter]
+      - 中国-香港 IEPL Equinix HK8 C 08 1Gbps HBO TVB
+      - 日本 | 3 杭日隧道 STCP GAME
+      - 香港 油尖旺御金·国峯 環球全域電訊 C08
+      - 日本 x1⇨Az
+      - 美国2 | 奈飞
+      - 中国-日本 多协议标签交换虚拟专用网（三） I 1000Mbps
+      - 精简 29
+      - 中国-台湾彰化 IEPL HiNet固接 C07 Netflix 动画疯
+      - 台湾家宽|NetFlix|動畫瘋|解锁|8090
+      - 公告|所求皆所愿！所行皆坦途
+      - 香港 x1⇨Az[Netflix]
+      - 香港 油尖旺御金·国峯 環球全域電訊 C01
+      - Azure高速港A
+      - 印度 x1⇨Az[Twitter]
+      - 中国-法国 IPLC C01
+      - 中国-香港 IPLC Equinix HK2 C 09 1Gbps HBO TVB
+      - 台湾 | 2
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C03 Netflix
+      - 精简 26
+      - 韩国 | 2 皖港隧道 STCP
+      - 土耳其 | 2
+      - HK18|5G|WS|头条合作A
+      - 中国-台湾 VPDN 嘉义游戏专线 C04 Netflix 动画疯
+      - 中国-台湾 VPDN 嘉义游戏专线 C01 Netflix 动画疯
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C07 Netflix
+      - 中国-台湾 VPDN 嘉义游戏专线 C02 Netflix 动画疯
+      - 中国-台湾彰化 IEPL HiNet固接 C10 Netflix 动画疯
+      - 德国 | 1 9929
+      - 精简 22
+      - 日本 ソフトバンク C11 500Mbps 1x Netflix
+      - 香港-日本 | 4 GAME
+      - 中国-日本 多协议标签交换虚拟专用网（三） J 1000Mbps
+      - 香港-韩国 | 1
+      - 中国-台湾桃园 IPLC 台湾固网 C10 Netflix 动画疯
+      - 香港-日本 | 5 GAME
+      - 新加坡 | 2
+      - 中国-日本 多协议标签交换虚拟专用网（三） A 1000Mbps
+      - 中国-台湾桃园 IPLC 台湾固网 C11 Netflix 动画疯
+      - 韩国 전라북도 전주시 商宽 C 04
+      - cns
+      - 中国-台湾 VPDN 嘉义游戏专线 C05 Netflix 动画疯
+      - 香港 油尖旺御金·国峯 環球全域電訊 C07
+      - 中国-台湾桃园 IPLC 台湾固网 C09 Netflix 动画疯
+      - 新加坡 | 1
+      - 中国-台湾彰化 IEPL HiNet固接 C05 Netflix 动画疯
+      - 中国-台湾桃园 IPLC 台湾固网 C02 Netflix 动画疯
+      - 中国-台湾 VPDN 嘉义游戏专线 C09 Netflix 动画疯
+      - 日本 ソフトバンク C08 500Mbps 1x Netflix
+      - 精简 27
+      - 日本 | 1
+      - 韩国 京畿道板桥 原生游戏解锁 C 08
+      - 中国-台湾 VPDN 嘉义游戏专线 C07 Netflix 动画疯
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C04 Netflix
+      - 日本阿伟科技@TG/油管
+      - 中国-韩国 IEPL（三）D 1Gbps
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C05 Netflix
+      - 日本 ソフトバンク C03 500Mbps 1x Netflix
+      - 湖南-马来西亚 | 3 STCP
+      - 中国-台湾彰化 IEPL HiNet固接 C08 Netflix 动画疯
+      - 中国-台湾 VPDN 嘉义游戏专线 C10 Netflix 动画疯
       - 中国-台湾桃园 IPLC 台湾固网 C01 Netflix 动画疯
+      - 免费日本AWS|80|轩赞助
+      - HK8|10G|HTTP|独享|1.5x
+      - 韩国 京畿道板桥 原生游戏解锁 C 02
+      - 中国-印度 班加罗尔 एयरटेल IPLC C01
+      - 中国-香港 IEPL Equinix HK8 C 07 1Gbps HBO TVB
+      - 香港 油尖旺御金·国峯 環球全域電訊 C04
+      - 韩国 京畿道板桥 原生游戏解锁 C 01
+      - 精简 24
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C08 Netflix
+      - 中国-印度 班加罗尔 एयरटेल IPLC C08
+      - 中国-印度 班加罗尔 एयरटेल IPLC C03
+      - 中国-日本 多协议标签交换虚拟专用网（三） F 1000Mbps
+      - 美国高级 IEPL 中继 C05
+      - 中国-日本 多协议标签交换虚拟专用网（三） C 1000Mbps
+      - 韩国-新加坡 | 1
+      - 中国-台湾桃园 IPLC 台湾固网 C03 Netflix 动画疯
+      - 韩国 전라북도 전주시 商宽 C 03
+      - 中国-台湾桃园 IPLC 台湾固网 C08 Netflix 动画疯
+      - 中国-法国 IPLC C05
+      - 韩国 京畿道板桥 原生游戏解锁 C 05
+      - 印度2-CN2-倍率1.0
+      - 中国-日本 多协议标签交换虚拟专用网（三） D 1000Mbps
+      - 韩国 전라북도 전주시 商宽 C 02
+      - 日本 ソフトバンク C01 500Mbps 1x Netflix
+      - 中国-韩国 IEPL（三）A 1Gbps
+      - 中国-台湾彰化 IEPL HiNet固接 C02 Netflix 动画疯
+      - 中国-日本 多协议标签交换虚拟专用网（三） G 1000Mbps
+      - 美国 x1⇨Az[Twitter]
+      - 美国 | 3 奈飞
+      - 中国-台湾桃园 IPLC 台湾固网 C07 Netflix 动画疯
+      - 中国-韩国 IEPL（三）B 1Gbps
+      - HK11|5G|HTTP
+      - 中国-台湾 VPDN 嘉义游戏专线 C06 Netflix 动画疯
+      - HK2|10G|HTTP
+      - 精简 25
+      - 精简 21
+      - 土耳其 | 1 无限流量！
+      - 中国-香港 IPLC Equinix HK2 C 04 1Gbps HBO TVB
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C06 Netflix
+      - 韩国 京畿道板桥 原生游戏解锁 C 07
+      - 中国-印度 班加罗尔 एयरटेल IPLC C06
+      - 中国-日本 多协议标签交换虚拟专用网（三） B 1000Mbps
+      - 美国 x0.8⇨Az
+      - 韩国 전라북도 전주시 商宽 C 01
+      - US | 72
+      - 美国高级 IEPL 中继 C01
+      - HK6|10G|HTTP
+      - 中国-台湾桃园 IPLC 台湾固网 C05 Netflix 动画疯
+      - 中国-韩国 IEPL（三）E 1Gbps
+      - 中国-印度 班加罗尔 एयरटेल IPLC C09
+      - 中国-澳大利亚 IPLC 悉尼 C04
+      - 韩国 京畿道板桥 原生游戏解锁 C 03
+      - 荷兰 x1⇨Az[Twitter]
+      - 德国 x1⇨长沙联通[Twitter]
+      - 日本 ソフトバンク C02 500Mbps 1x Netflix
+      - 香港 油尖旺御金·国峯 名氣通電訊 C07
+      - 俄罗斯1-CN2-倍率1.0
+      - 马来西亚 | 1
+      - 台湾 | 1 无限流量！
+      - 香港 油尖旺御金·国峯 環球全域電訊 C06
+      - 中国-日本 沪日IEPL传输 Equinix-TY8 C02 Netflix
+      - 韩国-日本 | 1
+      - HK14|10G|HTTP|809测试
+      - 日本阿伟科技@TG/油管 2
+      - 荷兰 x1⇨长沙联通[Twitter]
+      - 中国-英国伦敦 IPLC BBC C02
+      - 韩国 전라북도 전주시 商宽 C 05
+      - 美国阿伟科技@TG/油管
+      - TG售后群|复制浏览器打开|https://t.me/yyjsd
+      - 韩国 京畿道板桥 原生游戏解锁 C 10
+      - 美国高级 IEPL 中继 C02
+      - HK9|10G|WS|独享|1.5x
+      - 新加坡4-IEPL-倍率1.0
+      - 德国 x1⇨Az[Twitter]
+      - 日本 ソフトバンク C12 500Mbps 1x Netflix
+      - 免费美国AWS|TCP80|轩赞助
+      - 韩国 京畿道板桥 原生游戏解锁 C 04
+      - 美国高级 IEPL 中继 C04
+      - 中国-法国 IPLC C02
+      - 台湾 x1⇨长沙联通[原生][Netflix]
+      - 英国 x1⇨Az[Twitter]
+      - 中国-台湾彰化 IEPL HiNet固接 C03 Netflix 动画疯
       - 德国1-CN2-倍率1.0
       - 中国-英国伦敦 IPLC BBC C04
-      - 中国-日本 多协议标签交换虚拟专用网（三） G 1000Mbps
+      - 澳大利亚2-CN2-倍率1.0
+      - 新加坡 x1 Az直连
+      - 印度1-CN2-倍率1.0
+      - 印度阿伟科技@TG/油管
+      - 美国阿伟科技@TG/油管 2
+      - 美国实验性 IEPL 中继 C03
+      - 土耳其1-CN2-倍率1.0
+      - 中国-香港 IEPL Equinix HK8 C 03 1Gbps HBO TVB
       - 美国阿伟科技@TG/油管 3
-      - 美国实验性 IEPL 中继 C01
-      - 日本 ソフトバンク C11 500Mbps 1x Netflix
-      - 新加坡 Magic IEPL 中继 C04 Netflix
-      - 新加坡 Legacy Magic IEPL 中继 C02 Netflix
-      - 中国-英国伦敦 IPLC BBC C03
-      - 中国-英国伦敦 IPLC BBC C02
-      - 新加坡 Magic IEPL 中继 C02 Netflix
+      - 免费美国AWS|80|轩赞助①
+      - 美国 | 4
+      - 韩国 京畿道板桥 原生游戏解锁 C 09
+      - 中国-印度 班加罗尔 एयरटेल IPLC C07
+      - 新加坡 Legacy Magic IEPL 中继 C01 Netflix
+      - 中国-加拿大 IPLC C04
       - 美国阿伟科技@TG/油管 4
+      - 中国-印度 班加罗尔 एयरटेल IPLC C05
       - 中国-英国伦敦 IPLC BBC C06
-      - 【V2】美国·芝加哥·200Mbps
-      - 中国-澳大利亚 IPLC 悉尼 C04
-      - 俄罗斯1-CN2-倍率1.0
-      - 新加坡 Legacy Magic IEPL 中继 C03 Netflix
-      - 新加坡 Magic IEPL 中继 C03 Netflix
+      - 美国实验性 IEPL 中继 C02
       - 美国阿伟科技@TG/油管 5
       - 美国阿伟科技@TG/油管 6
-      - 土耳其1-CN2-倍率1.0
-      - 美国高级 IEPL 中继 C01
-      - 美国高级 IEPL 中继 C02
-      - 美国阿伟科技@TG/油管 7
-      - 土耳其2-CN2-倍率1.0
+      - 【V2】韩国·150Mbps | 流媒体
       - 新加坡 Magic IEPL 中继 C05 Netflix
-      - 中国-加拿大 IPLC C05
-      - 美国阿伟科技@TG/油管 8
       - 中国-加拿大 IPLC C01
-      - 美国阿伟科技@TG/油管 9
-      - 中国-香港 IPLC Equinix HK2 C 02 1Gbps HBO TVB
-      - 新加坡 Legacy Magic IEPL 中继 C01 Netflix
-      - 香港阿伟科技@TG/油管
       - 中国-加拿大 IPLC C03
-      - 中国-印度 班加罗尔 एयरटेल IPLC C01
-      - 美国阿伟科技@TG/油管 10
-      - 中国-韩国 IEPL（三）E 1Gbps
-      - 美国阿伟科技@TG/油管 11
-      - 香港 油尖旺御金·国峯 環球全域電訊 C02
-      - 中国-爱尔兰 IPLC C05
-      - 新加坡高级 IEPL 中继 C02 Netflix
       - 澳大利亚1-CN2-倍率1.0
-      - 美国高级 IEPL 中继 C04
-      - 中国-加拿大 IPLC C04
-      - 新加坡高级 IEPL 中继 C01 Netflix
-      - 美国阿伟科技@TG/油管 12
-      - 美国实验性 IEPL 中继 C02
-      - 美国阿伟科技@TG/油管 13
-      - 澳大利亚2-CN2-倍率1.0
-      - 【V2】俄罗斯·150Mbps | 电信
-      - 【V3】台湾·1Gbps
-      - 美国高级 IEPL 中继 C05
-      - 中国-印度 班加罗尔 एयरटेल IPLC C06
-      - 新加坡高级 IEPL 中继 C03 Netflix
-      - 美国实验性 IEPL 中继 C03
+      - 中国-台湾彰化 IEPL HiNet固接 C06 Netflix 动画疯
+      - 土耳其2-CN2-倍率1.0
+      - 新加坡 Legacy Magic IEPL 中继 C02 Netflix
+      - 美国阿伟科技@TG/油管 7
+      - 美国阿伟科技@TG/油管 8
+      - 新加坡 Magic IEPL 中继 C03 Netflix
+      - 中国-英国伦敦 IPLC BBC C03
+      - 新加坡 Legacy Magic IEPL 中继 C03 Netflix
+      - 印度阿伟科技@TG/油管 2
+      - 新加坡 Magic IEPL 中继 C02 Netflix
+      - 新加坡 Magic IEPL 中继 C04 Netflix
+      - 中国-加拿大 IPLC C05
+      - 新加坡高级 IEPL 中继 C02 Netflix
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
