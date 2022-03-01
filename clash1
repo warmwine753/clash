@@ -5,83 +5,243 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "NJ/US - 2 [LINODE][DIRECT]", server: 173.255.225.7, port: 11416, type: trojan, password: 99dcbc89-57ef-49de-b0af-8a1127a797d9, skip-cert-verify: true, udp: true}
-  - {name: HK_117.28.243.173:4173, server: 117.28.243.173, port: 4173, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: "HKG/CN - 2 [AZ][DIRECT]", server: 52.175.62.234, port: 10853, type: trojan, password: 99dcbc89-57ef-49de-b0af-8a1127a797d9, skip-cert-verify: true, udp: true}
+  - {name: 301破解_CN_中国_93, server: centralchina1.cloudlink123.com, port: 37006, type: ss, cipher: aes-128-gcm, password: ad983854-167d-478f-88eb-5d494d3b2c24, udp: true}
   - {name: JP_131 @WangCai_1, server: 131.wowogg.cyou, port: 52331, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: JP_86 @WangCai_1, server: 86.wowogg.cyou, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: JP_136 @WangCai_1, server: 136.wowogg.cyou, port: 52436, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 301破解_SG_新加坡_7, server: 51.79.236.186, port: 6666, type: vmess, uuid: 8e56e4bb-02e6-48ea-ac2a-5c4355bc6e16, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 301破解_US_美国_18, server: 167.88.61.175, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 301破解_US_美国_20, server: 167.88.61.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 301破解_US_美国_33, server: 38.114.114.19, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 301破解_US_美国_36, server: 38.75.136.102, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 301破解_KR_韩国_86, server: 158.247.219.68, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 301破解_KR_韩国_23, server: 158.247.203.168, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: JP_134 @WangCai_1, server: 134.wowogg.cyou, port: 52334, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "HKG/CN - 3 [AZ][DIRECT][STREAM]", server: 65.52.178.149, port: 12049, type: trojan, password: 99dcbc89-57ef-49de-b0af-8a1127a797d9, skip-cert-verify: true, udp: true}
-  - {name: JP_127 @WangCai_1, server: 127.wowogg.cyou, port: 52227, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: JP_94 @WangCai_1, server: 94.wowogg.cyou, port: 52294, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: JP_96 @WangCai_1, server: 96.wowogg.cyou, port: 52296, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_45.91.83.25:8228, server: 45.91.83.25, port: 8228, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: JP_115 @WangCai_1, server: 115.wowogg.cyou, port: 52215, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "SIN/SG - 2 [LINODE][DIRECT]", server: 139.162.29.4, port: 11733, type: trojan, password: 99dcbc89-57ef-49de-b0af-8a1127a797d9, skip-cert-verify: true, udp: true}
+  - {name: JP_86 @WangCai_1, server: 86.wowogg.cyou, port: 52286, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 301破解_US_美国_34, server: 38.114.114.19, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 301破解_KR_韩国_30, server: 158.247.226.61, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 301破解_KR_韩国_88, server: 158.247.224.121, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: JP_83 @WangCai_1, server: 83.wowogg.cyou, port: 52283, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 301破解_KR_韩国_31, server: 158.247.219.68, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 301破解_US_美国_29, server: 38.75.136.102, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 301破解_US_美国_27, server: 38.114.114.67, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 301破解_GB_英国_76, server: 145.239.7.164, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 301破解_KR_韩国_87, server: 158.247.224.121, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 301破解_KR_韩国_94, server: 141.164.57.134, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 301破解_US_美国_28, server: 38.68.134.85, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: JP_115 @WangCai_1, server: 115.wowogg.cyou, port: 52215, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 301破解_US_美国_19, server: 38.91.100.102, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 301破解_US_美国_25, server: 142.202.48.58, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 301破解_US_美国_35, server: 167.88.63.71, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 301破解_US_美国_26, server: 142.202.48.108, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 301破解_US_美国_12, server: 142.202.48.108, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 301破解_CN_中国_110, server: 116.162.33.223, port: 37000, type: ss, cipher: aes-128-gcm, password: ad983854-167d-478f-88eb-5d494d3b2c24, udp: true}
+  - {name: 301破解_US_美国_38, server: 142.202.48.108, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 301破解_US_美国_42, server: 38.68.134.85, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 301破解_US_美国_21, server: 38.143.66.71, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 301破解_CA_加拿大_8, server: 198.57.27.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 301破解_US_美国_92, server: 38.86.135.36, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 301破解_GB_英国_75, server: 145.239.7.164, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 301破解_CN_中国_107, server: 116.162.33.223, port: 37010, type: ss, cipher: aes-128-gcm, password: ad983854-167d-478f-88eb-5d494d3b2c24, udp: true}
+  - {name: 301破解_CA_加拿大_58, server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 301破解_CN_中国_108, server: centralchina1.cloudlink123.com, port: 37000, type: ss, cipher: aes-128-gcm, password: ad983854-167d-478f-88eb-5d494d3b2c24, udp: true}
+  - {name: 301破解_US_美国_14, server: 167.88.63.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 301破解_US_美国_13, server: 142.202.48.108, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 301破解_FR_法国_2, server: 149.202.82.172, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: "SIN/SG - 2 [LINODE][DIRECT]", server: 139.162.29.4, port: 11733, type: trojan, password: 99dcbc89-57ef-49de-b0af-8a1127a797d9, skip-cert-verify: true, udp: true}
+  - {name: 301破解_FR_法国_3, server: 149.202.82.172, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 301破解_GB_英国_89, server: 172.99.190.92, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: "NJ/US - 2 [LINODE][DIRECT]", server: 173.255.225.7, port: 11416, type: trojan, password: 99dcbc89-57ef-49de-b0af-8a1127a797d9, skip-cert-verify: true, udp: true}
+  - {name: 301破解_US_美国_39, server: 38.86.135.36, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 301破解_FR_法国_6, server: 62.210.209.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 301破解_FR_法国_5, server: 149.202.82.172, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 301破解_US_美国_37, server: 142.202.48.108, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 301破解_CA_加拿大_55, server: 134.195.196.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 301破解_FR_法国_4, server: 149.202.82.172, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 301破解_SG_新加坡_102, server: 14.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 14.earths.team, skip-cert-verify: true, udp: true}
+  - {name: Hax EU13, server: icook.hk, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: suitable-nightmare-met-matched.trycloudflare.com}, udp: true}
+  - {name: 频道主@Jsnzkpg, server: 158.247.226.61, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 301破解_CN_中国_73, server: centralchina1.cloudlink123.com, port: 37010, type: ss, cipher: aes-128-gcm, password: ad983854-167d-478f-88eb-5d494d3b2c24, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - NJ/US - 2 [LINODE][DIRECT]
-      - HK_117.28.243.173:4173
-      - HKG/CN - 2 [AZ][DIRECT]
+      - 301破解_CN_中国_93
       - JP_131 @WangCai_1
-      - JP_86 @WangCai_1
-      - JP_136 @WangCai_1
+      - 301破解_SG_新加坡_7
+      - 301破解_US_美国_18
+      - 301破解_US_美国_20
+      - 301破解_US_美国_33
+      - 301破解_US_美国_36
+      - 301破解_KR_韩国_86
+      - 301破解_KR_韩国_23
       - JP_134 @WangCai_1
-      - HKG/CN - 3 [AZ][DIRECT][STREAM]
-      - JP_127 @WangCai_1
-      - JP_94 @WangCai_1
-      - JP_96 @WangCai_1
-      - US_45.91.83.25:8228
-      - JP_115 @WangCai_1
-      - SIN/SG - 2 [LINODE][DIRECT]
+      - JP_86 @WangCai_1
+      - 301破解_US_美国_34
+      - 301破解_KR_韩国_30
+      - 301破解_KR_韩国_88
       - JP_83 @WangCai_1
+      - 301破解_KR_韩国_31
+      - 301破解_US_美国_29
+      - 301破解_US_美国_27
+      - 301破解_GB_英国_76
+      - 301破解_KR_韩国_87
+      - 301破解_KR_韩国_94
+      - 301破解_US_美国_28
+      - JP_115 @WangCai_1
+      - 301破解_US_美国_19
+      - 301破解_US_美国_25
+      - 301破解_US_美国_35
+      - 301破解_US_美国_26
+      - 301破解_US_美国_12
+      - 301破解_CN_中国_110
+      - 301破解_US_美国_38
+      - 301破解_US_美国_42
+      - 301破解_US_美国_21
+      - 301破解_CA_加拿大_8
+      - 301破解_US_美国_92
+      - 301破解_GB_英国_75
+      - 301破解_CN_中国_107
+      - 301破解_CA_加拿大_58
+      - 301破解_CN_中国_108
+      - 301破解_US_美国_14
+      - 301破解_US_美国_13
+      - 301破解_FR_法国_2
+      - SIN/SG - 2 [LINODE][DIRECT]
+      - 301破解_FR_法国_3
+      - 301破解_GB_英国_89
+      - NJ/US - 2 [LINODE][DIRECT]
+      - 301破解_US_美国_39
+      - 301破解_FR_法国_6
+      - 301破解_FR_法国_5
+      - 301破解_US_美国_37
+      - 301破解_CA_加拿大_55
+      - 301破解_FR_法国_4
+      - 301破解_SG_新加坡_102
+      - Hax EU13
+      - 频道主@Jsnzkpg
+      - 301破解_CN_中国_73
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - NJ/US - 2 [LINODE][DIRECT]
-      - HK_117.28.243.173:4173
-      - HKG/CN - 2 [AZ][DIRECT]
+      - 301破解_CN_中国_93
       - JP_131 @WangCai_1
-      - JP_86 @WangCai_1
-      - JP_136 @WangCai_1
+      - 301破解_SG_新加坡_7
+      - 301破解_US_美国_18
+      - 301破解_US_美国_20
+      - 301破解_US_美国_33
+      - 301破解_US_美国_36
+      - 301破解_KR_韩国_86
+      - 301破解_KR_韩国_23
       - JP_134 @WangCai_1
-      - HKG/CN - 3 [AZ][DIRECT][STREAM]
-      - JP_127 @WangCai_1
-      - JP_94 @WangCai_1
-      - JP_96 @WangCai_1
-      - US_45.91.83.25:8228
-      - JP_115 @WangCai_1
-      - SIN/SG - 2 [LINODE][DIRECT]
+      - JP_86 @WangCai_1
+      - 301破解_US_美国_34
+      - 301破解_KR_韩国_30
+      - 301破解_KR_韩国_88
       - JP_83 @WangCai_1
+      - 301破解_KR_韩国_31
+      - 301破解_US_美国_29
+      - 301破解_US_美国_27
+      - 301破解_GB_英国_76
+      - 301破解_KR_韩国_87
+      - 301破解_KR_韩国_94
+      - 301破解_US_美国_28
+      - JP_115 @WangCai_1
+      - 301破解_US_美国_19
+      - 301破解_US_美国_25
+      - 301破解_US_美国_35
+      - 301破解_US_美国_26
+      - 301破解_US_美国_12
+      - 301破解_CN_中国_110
+      - 301破解_US_美国_38
+      - 301破解_US_美国_42
+      - 301破解_US_美国_21
+      - 301破解_CA_加拿大_8
+      - 301破解_US_美国_92
+      - 301破解_GB_英国_75
+      - 301破解_CN_中国_107
+      - 301破解_CA_加拿大_58
+      - 301破解_CN_中国_108
+      - 301破解_US_美国_14
+      - 301破解_US_美国_13
+      - 301破解_FR_法国_2
+      - SIN/SG - 2 [LINODE][DIRECT]
+      - 301破解_FR_法国_3
+      - 301破解_GB_英国_89
+      - NJ/US - 2 [LINODE][DIRECT]
+      - 301破解_US_美国_39
+      - 301破解_FR_法国_6
+      - 301破解_FR_法国_5
+      - 301破解_US_美国_37
+      - 301破解_CA_加拿大_55
+      - 301破解_FR_法国_4
+      - 301破解_SG_新加坡_102
+      - Hax EU13
+      - 频道主@Jsnzkpg
+      - 301破解_CN_中国_73
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - NJ/US - 2 [LINODE][DIRECT]
-      - HK_117.28.243.173:4173
-      - HKG/CN - 2 [AZ][DIRECT]
+      - 301破解_CN_中国_93
       - JP_131 @WangCai_1
-      - JP_86 @WangCai_1
-      - JP_136 @WangCai_1
+      - 301破解_SG_新加坡_7
+      - 301破解_US_美国_18
+      - 301破解_US_美国_20
+      - 301破解_US_美国_33
+      - 301破解_US_美国_36
+      - 301破解_KR_韩国_86
+      - 301破解_KR_韩国_23
       - JP_134 @WangCai_1
-      - HKG/CN - 3 [AZ][DIRECT][STREAM]
-      - JP_127 @WangCai_1
-      - JP_94 @WangCai_1
-      - JP_96 @WangCai_1
-      - US_45.91.83.25:8228
-      - JP_115 @WangCai_1
-      - SIN/SG - 2 [LINODE][DIRECT]
+      - JP_86 @WangCai_1
+      - 301破解_US_美国_34
+      - 301破解_KR_韩国_30
+      - 301破解_KR_韩国_88
       - JP_83 @WangCai_1
+      - 301破解_KR_韩国_31
+      - 301破解_US_美国_29
+      - 301破解_US_美国_27
+      - 301破解_GB_英国_76
+      - 301破解_KR_韩国_87
+      - 301破解_KR_韩国_94
+      - 301破解_US_美国_28
+      - JP_115 @WangCai_1
+      - 301破解_US_美国_19
+      - 301破解_US_美国_25
+      - 301破解_US_美国_35
+      - 301破解_US_美国_26
+      - 301破解_US_美国_12
+      - 301破解_CN_中国_110
+      - 301破解_US_美国_38
+      - 301破解_US_美国_42
+      - 301破解_US_美国_21
+      - 301破解_CA_加拿大_8
+      - 301破解_US_美国_92
+      - 301破解_GB_英国_75
+      - 301破解_CN_中国_107
+      - 301破解_CA_加拿大_58
+      - 301破解_CN_中国_108
+      - 301破解_US_美国_14
+      - 301破解_US_美国_13
+      - 301破解_FR_法国_2
+      - SIN/SG - 2 [LINODE][DIRECT]
+      - 301破解_FR_法国_3
+      - 301破解_GB_英国_89
+      - NJ/US - 2 [LINODE][DIRECT]
+      - 301破解_US_美国_39
+      - 301破解_FR_法国_6
+      - 301破解_FR_法国_5
+      - 301破解_US_美国_37
+      - 301破解_CA_加拿大_55
+      - 301破解_FR_法国_4
+      - 301破解_SG_新加坡_102
+      - Hax EU13
+      - 频道主@Jsnzkpg
+      - 301破解_CN_中国_73
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -100,21 +260,61 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - NJ/US - 2 [LINODE][DIRECT]
-      - HK_117.28.243.173:4173
-      - HKG/CN - 2 [AZ][DIRECT]
+      - 301破解_CN_中国_93
       - JP_131 @WangCai_1
-      - JP_86 @WangCai_1
-      - JP_136 @WangCai_1
+      - 301破解_SG_新加坡_7
+      - 301破解_US_美国_18
+      - 301破解_US_美国_20
+      - 301破解_US_美国_33
+      - 301破解_US_美国_36
+      - 301破解_KR_韩国_86
+      - 301破解_KR_韩国_23
       - JP_134 @WangCai_1
-      - HKG/CN - 3 [AZ][DIRECT][STREAM]
-      - JP_127 @WangCai_1
-      - JP_94 @WangCai_1
-      - JP_96 @WangCai_1
-      - US_45.91.83.25:8228
-      - JP_115 @WangCai_1
-      - SIN/SG - 2 [LINODE][DIRECT]
+      - JP_86 @WangCai_1
+      - 301破解_US_美国_34
+      - 301破解_KR_韩国_30
+      - 301破解_KR_韩国_88
       - JP_83 @WangCai_1
+      - 301破解_KR_韩国_31
+      - 301破解_US_美国_29
+      - 301破解_US_美国_27
+      - 301破解_GB_英国_76
+      - 301破解_KR_韩国_87
+      - 301破解_KR_韩国_94
+      - 301破解_US_美国_28
+      - JP_115 @WangCai_1
+      - 301破解_US_美国_19
+      - 301破解_US_美国_25
+      - 301破解_US_美国_35
+      - 301破解_US_美国_26
+      - 301破解_US_美国_12
+      - 301破解_CN_中国_110
+      - 301破解_US_美国_38
+      - 301破解_US_美国_42
+      - 301破解_US_美国_21
+      - 301破解_CA_加拿大_8
+      - 301破解_US_美国_92
+      - 301破解_GB_英国_75
+      - 301破解_CN_中国_107
+      - 301破解_CA_加拿大_58
+      - 301破解_CN_中国_108
+      - 301破解_US_美国_14
+      - 301破解_US_美国_13
+      - 301破解_FR_法国_2
+      - SIN/SG - 2 [LINODE][DIRECT]
+      - 301破解_FR_法国_3
+      - 301破解_GB_英国_89
+      - NJ/US - 2 [LINODE][DIRECT]
+      - 301破解_US_美国_39
+      - 301破解_FR_法国_6
+      - 301破解_FR_法国_5
+      - 301破解_US_美国_37
+      - 301破解_CA_加拿大_55
+      - 301破解_FR_法国_4
+      - 301破解_SG_新加坡_102
+      - Hax EU13
+      - 频道主@Jsnzkpg
+      - 301破解_CN_中国_73
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -125,62 +325,182 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - NJ/US - 2 [LINODE][DIRECT]
-      - HK_117.28.243.173:4173
-      - HKG/CN - 2 [AZ][DIRECT]
+      - 301破解_CN_中国_93
       - JP_131 @WangCai_1
-      - JP_86 @WangCai_1
-      - JP_136 @WangCai_1
+      - 301破解_SG_新加坡_7
+      - 301破解_US_美国_18
+      - 301破解_US_美国_20
+      - 301破解_US_美国_33
+      - 301破解_US_美国_36
+      - 301破解_KR_韩国_86
+      - 301破解_KR_韩国_23
       - JP_134 @WangCai_1
-      - HKG/CN - 3 [AZ][DIRECT][STREAM]
-      - JP_127 @WangCai_1
-      - JP_94 @WangCai_1
-      - JP_96 @WangCai_1
-      - US_45.91.83.25:8228
-      - JP_115 @WangCai_1
-      - SIN/SG - 2 [LINODE][DIRECT]
+      - JP_86 @WangCai_1
+      - 301破解_US_美国_34
+      - 301破解_KR_韩国_30
+      - 301破解_KR_韩国_88
       - JP_83 @WangCai_1
+      - 301破解_KR_韩国_31
+      - 301破解_US_美国_29
+      - 301破解_US_美国_27
+      - 301破解_GB_英国_76
+      - 301破解_KR_韩国_87
+      - 301破解_KR_韩国_94
+      - 301破解_US_美国_28
+      - JP_115 @WangCai_1
+      - 301破解_US_美国_19
+      - 301破解_US_美国_25
+      - 301破解_US_美国_35
+      - 301破解_US_美国_26
+      - 301破解_US_美国_12
+      - 301破解_CN_中国_110
+      - 301破解_US_美国_38
+      - 301破解_US_美国_42
+      - 301破解_US_美国_21
+      - 301破解_CA_加拿大_8
+      - 301破解_US_美国_92
+      - 301破解_GB_英国_75
+      - 301破解_CN_中国_107
+      - 301破解_CA_加拿大_58
+      - 301破解_CN_中国_108
+      - 301破解_US_美国_14
+      - 301破解_US_美国_13
+      - 301破解_FR_法国_2
+      - SIN/SG - 2 [LINODE][DIRECT]
+      - 301破解_FR_法国_3
+      - 301破解_GB_英国_89
+      - NJ/US - 2 [LINODE][DIRECT]
+      - 301破解_US_美国_39
+      - 301破解_FR_法国_6
+      - 301破解_FR_法国_5
+      - 301破解_US_美国_37
+      - 301破解_CA_加拿大_55
+      - 301破解_FR_法国_4
+      - 301破解_SG_新加坡_102
+      - Hax EU13
+      - 频道主@Jsnzkpg
+      - 301破解_CN_中国_73
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - NJ/US - 2 [LINODE][DIRECT]
-      - HK_117.28.243.173:4173
-      - HKG/CN - 2 [AZ][DIRECT]
+      - 301破解_CN_中国_93
       - JP_131 @WangCai_1
-      - JP_86 @WangCai_1
-      - JP_136 @WangCai_1
+      - 301破解_SG_新加坡_7
+      - 301破解_US_美国_18
+      - 301破解_US_美国_20
+      - 301破解_US_美国_33
+      - 301破解_US_美国_36
+      - 301破解_KR_韩国_86
+      - 301破解_KR_韩国_23
       - JP_134 @WangCai_1
-      - HKG/CN - 3 [AZ][DIRECT][STREAM]
-      - JP_127 @WangCai_1
-      - JP_94 @WangCai_1
-      - JP_96 @WangCai_1
-      - US_45.91.83.25:8228
-      - JP_115 @WangCai_1
-      - SIN/SG - 2 [LINODE][DIRECT]
+      - JP_86 @WangCai_1
+      - 301破解_US_美国_34
+      - 301破解_KR_韩国_30
+      - 301破解_KR_韩国_88
       - JP_83 @WangCai_1
+      - 301破解_KR_韩国_31
+      - 301破解_US_美国_29
+      - 301破解_US_美国_27
+      - 301破解_GB_英国_76
+      - 301破解_KR_韩国_87
+      - 301破解_KR_韩国_94
+      - 301破解_US_美国_28
+      - JP_115 @WangCai_1
+      - 301破解_US_美国_19
+      - 301破解_US_美国_25
+      - 301破解_US_美国_35
+      - 301破解_US_美国_26
+      - 301破解_US_美国_12
+      - 301破解_CN_中国_110
+      - 301破解_US_美国_38
+      - 301破解_US_美国_42
+      - 301破解_US_美国_21
+      - 301破解_CA_加拿大_8
+      - 301破解_US_美国_92
+      - 301破解_GB_英国_75
+      - 301破解_CN_中国_107
+      - 301破解_CA_加拿大_58
+      - 301破解_CN_中国_108
+      - 301破解_US_美国_14
+      - 301破解_US_美国_13
+      - 301破解_FR_法国_2
+      - SIN/SG - 2 [LINODE][DIRECT]
+      - 301破解_FR_法国_3
+      - 301破解_GB_英国_89
+      - NJ/US - 2 [LINODE][DIRECT]
+      - 301破解_US_美国_39
+      - 301破解_FR_法国_6
+      - 301破解_FR_法国_5
+      - 301破解_US_美国_37
+      - 301破解_CA_加拿大_55
+      - 301破解_FR_法国_4
+      - 301破解_SG_新加坡_102
+      - Hax EU13
+      - 频道主@Jsnzkpg
+      - 301破解_CN_中国_73
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - NJ/US - 2 [LINODE][DIRECT]
-      - HK_117.28.243.173:4173
-      - HKG/CN - 2 [AZ][DIRECT]
+      - 301破解_CN_中国_93
       - JP_131 @WangCai_1
-      - JP_86 @WangCai_1
-      - JP_136 @WangCai_1
+      - 301破解_SG_新加坡_7
+      - 301破解_US_美国_18
+      - 301破解_US_美国_20
+      - 301破解_US_美国_33
+      - 301破解_US_美国_36
+      - 301破解_KR_韩国_86
+      - 301破解_KR_韩国_23
       - JP_134 @WangCai_1
-      - HKG/CN - 3 [AZ][DIRECT][STREAM]
-      - JP_127 @WangCai_1
-      - JP_94 @WangCai_1
-      - JP_96 @WangCai_1
-      - US_45.91.83.25:8228
-      - JP_115 @WangCai_1
-      - SIN/SG - 2 [LINODE][DIRECT]
+      - JP_86 @WangCai_1
+      - 301破解_US_美国_34
+      - 301破解_KR_韩国_30
+      - 301破解_KR_韩国_88
       - JP_83 @WangCai_1
+      - 301破解_KR_韩国_31
+      - 301破解_US_美国_29
+      - 301破解_US_美国_27
+      - 301破解_GB_英国_76
+      - 301破解_KR_韩国_87
+      - 301破解_KR_韩国_94
+      - 301破解_US_美国_28
+      - JP_115 @WangCai_1
+      - 301破解_US_美国_19
+      - 301破解_US_美国_25
+      - 301破解_US_美国_35
+      - 301破解_US_美国_26
+      - 301破解_US_美国_12
+      - 301破解_CN_中国_110
+      - 301破解_US_美国_38
+      - 301破解_US_美国_42
+      - 301破解_US_美国_21
+      - 301破解_CA_加拿大_8
+      - 301破解_US_美国_92
+      - 301破解_GB_英国_75
+      - 301破解_CN_中国_107
+      - 301破解_CA_加拿大_58
+      - 301破解_CN_中国_108
+      - 301破解_US_美国_14
+      - 301破解_US_美国_13
+      - 301破解_FR_法国_2
+      - SIN/SG - 2 [LINODE][DIRECT]
+      - 301破解_FR_法国_3
+      - 301破解_GB_英国_89
+      - NJ/US - 2 [LINODE][DIRECT]
+      - 301破解_US_美国_39
+      - 301破解_FR_法国_6
+      - 301破解_FR_法国_5
+      - 301破解_US_美国_37
+      - 301破解_CA_加拿大_55
+      - 301破解_FR_法国_4
+      - 301破解_SG_新加坡_102
+      - Hax EU13
+      - 频道主@Jsnzkpg
+      - 301破解_CN_中国_73
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -196,21 +516,61 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - NJ/US - 2 [LINODE][DIRECT]
-      - HK_117.28.243.173:4173
-      - HKG/CN - 2 [AZ][DIRECT]
+      - 301破解_CN_中国_93
       - JP_131 @WangCai_1
-      - JP_86 @WangCai_1
-      - JP_136 @WangCai_1
+      - 301破解_SG_新加坡_7
+      - 301破解_US_美国_18
+      - 301破解_US_美国_20
+      - 301破解_US_美国_33
+      - 301破解_US_美国_36
+      - 301破解_KR_韩国_86
+      - 301破解_KR_韩国_23
       - JP_134 @WangCai_1
-      - HKG/CN - 3 [AZ][DIRECT][STREAM]
-      - JP_127 @WangCai_1
-      - JP_94 @WangCai_1
-      - JP_96 @WangCai_1
-      - US_45.91.83.25:8228
-      - JP_115 @WangCai_1
-      - SIN/SG - 2 [LINODE][DIRECT]
+      - JP_86 @WangCai_1
+      - 301破解_US_美国_34
+      - 301破解_KR_韩国_30
+      - 301破解_KR_韩国_88
       - JP_83 @WangCai_1
+      - 301破解_KR_韩国_31
+      - 301破解_US_美国_29
+      - 301破解_US_美国_27
+      - 301破解_GB_英国_76
+      - 301破解_KR_韩国_87
+      - 301破解_KR_韩国_94
+      - 301破解_US_美国_28
+      - JP_115 @WangCai_1
+      - 301破解_US_美国_19
+      - 301破解_US_美国_25
+      - 301破解_US_美国_35
+      - 301破解_US_美国_26
+      - 301破解_US_美国_12
+      - 301破解_CN_中国_110
+      - 301破解_US_美国_38
+      - 301破解_US_美国_42
+      - 301破解_US_美国_21
+      - 301破解_CA_加拿大_8
+      - 301破解_US_美国_92
+      - 301破解_GB_英国_75
+      - 301破解_CN_中国_107
+      - 301破解_CA_加拿大_58
+      - 301破解_CN_中国_108
+      - 301破解_US_美国_14
+      - 301破解_US_美国_13
+      - 301破解_FR_法国_2
+      - SIN/SG - 2 [LINODE][DIRECT]
+      - 301破解_FR_法国_3
+      - 301破解_GB_英国_89
+      - NJ/US - 2 [LINODE][DIRECT]
+      - 301破解_US_美国_39
+      - 301破解_FR_法国_6
+      - 301破解_FR_法国_5
+      - 301破解_US_美国_37
+      - 301破解_CA_加拿大_55
+      - 301破解_FR_法国_4
+      - 301破解_SG_新加坡_102
+      - Hax EU13
+      - 频道主@Jsnzkpg
+      - 301破解_CN_中国_73
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
