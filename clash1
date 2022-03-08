@@ -5,43 +5,159 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 专线 香港 03, server: iepl03.xbxb1122.xyz, port: 8563, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: bf45419206.microsoft.com}, udp: true}
-  - {name: 专线 日本 03, server: iepl01.xbxb1122.xyz, port: 8513, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: bf45419206.microsoft.com}, udp: true}
-  - {name: 专线 新加坡 02, server: iepl03.xbxb1122.xyz, port: 8522, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: bf45419206.microsoft.com}, udp: true}
-  - {name: 专线 马来西亚 02, server: iepl02.xbxb1122.xyz, port: 8522, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: bf45419206.microsoft.com}, udp: true}
-  - {name: 专线 新加坡 03, server: iepl01.xbxb1122.xyz, port: 8523, type: ss, cipher: aes-128-gcm, password: 9CU44I, plugin: obfs, plugin-opts: {mode: http, host: bf45419206.microsoft.com}, udp: true}
+  - {name: "[香港1]环球电讯 原生IP 广港IPLC入口 流媒体支持", server: hk-zone.checkmails.xyz, port: 26666, type: vmess, uuid: 76763f2a-7c79-498d-b0d3-986ad0f294cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[澳门2]澳门电讯 珠港澳专线海缆2号入口 流媒体支持", server: hk-azb1.uuuglass.co, port: 52999, type: vmess, uuid: 76763f2a-7c79-498d-b0d3-986ad0f294cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[香港5]HKT 广港IPLC入口 流媒体支持", server: hk-zone.checkmails.xyz, port: 29229, type: vmess, uuid: 76763f2a-7c79-498d-b0d3-986ad0f294cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[新加坡4]沪新BGP  隐私专线入口 NF", server: hk-zone.checkmails.xyz, port: 19222, type: vmess, uuid: 76763f2a-7c79-498d-b0d3-986ad0f294cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[日本2]东京Nico 上海CM入口 流媒体支持", server: shct.xn--mes98khzje07c.xyz, port: 12345, type: vmess, uuid: 76763f2a-7c79-498d-b0d3-986ad0f294cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[香港7-2]MS 三网CN2GIA入口 SS 超大带宽低延迟节点", server: hk-ms4.checkmails.xyz, port: 6056, type: ss, cipher: aes-256-gcm, password: 76763f2a-7c79-498d-b0d3-986ad0f294cf, udp: true}
+  - {name: "[马来1]长沙联通入口 国际优化 流媒", server: cs-pm.iqdnsio.co, port: 22125, type: ss, cipher: chacha20-ietf-poly1305, password: 76763f2a-7c79-498d-b0d3-986ad0f294cf, udp: true}
+  - {name: "[澳门1]澳门电讯 珠港澳专线海缆入口 流媒体支持", server: hk-zone.checkmails.xyz, port: 25656, type: vmess, uuid: 76763f2a-7c79-498d-b0d3-986ad0f294cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[台湾5]台北Hinet 港台VNC入口 流媒体支持", server: hk-azb1.uuuglass.co, port: 22666, type: vmess, uuid: 76763f2a-7c79-498d-b0d3-986ad0f294cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[香港3]NTT香港 广港BGP入口 流媒", server: hk-zone.checkmails.xyz, port: 27127, type: vmess, uuid: 76763f2a-7c79-498d-b0d3-986ad0f294cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[香港MS2]三网CN2GIA入口 SS 流媒体支持", server: hk-ms1.checkmails.xyz, port: 62222, type: ss, cipher: chacha20-ietf-poly1305, password: 76763f2a-7c79-498d-b0d3-986ad0f294cf, udp: true}
+  - {name: "[台湾3]新北中华电信 珠海移动入口 流媒体支持", server: st-cm.iqdnsio.co, port: 12529, type: vmess, uuid: 76763f2a-7c79-498d-b0d3-986ad0f294cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[美国6]Multa 沪美CN2GIA入口 流媒体支持", server: hk-zone.checkmails.xyz, port: 25666, type: vmess, uuid: 76763f2a-7c79-498d-b0d3-986ad0f294cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[香港7-BGP]MS 长沙BGP入口 SS", server: cs-pm.iqdnsio.co, port: 29999, type: ss, cipher: aes-256-gcm, password: 76763f2a-7c79-498d-b0d3-986ad0f294cf, udp: true}
+  - {name: "[香港11]香港宽频 广港IPLC入口", server: hk-zone.checkmails.xyz, port: 25129, type: vmess, uuid: 76763f2a-7c79-498d-b0d3-986ad0f294cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[美国2]ATT 广美CN2入口 流媒体支持", server: hk-azb1.uuuglass.co, port: 21222, type: vmess, uuid: 76763f2a-7c79-498d-b0d3-986ad0f294cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[美国5]DO 超大带宽 BGP入口 SS 流媒体支持", server: hk-azb1.uuuglass.co, port: 61226, type: ss, cipher: chacha20-ietf-poly1305, password: 76763f2a-7c79-498d-b0d3-986ad0f294cf, udp: true}
+  - {name: "[日本7]东京NTT 沪日IPLC入口 流媒体支持", server: hz2-cu.iqdnsio.co, port: 29222, type: vmess, uuid: 76763f2a-7c79-498d-b0d3-986ad0f294cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[香港8]DM香港 广港隧道入口 Trojan 流媒", server: hk-zone.checkmails.xyz, port: 22277, type: trojan, password: 76763f2a-7c79-498d-b0d3-986ad0f294cf, sni: hk-zone.checkmails.xyz, skip-cert-verify: true, udp: true}
+  - {name: "[加拿大1]iCloud多伦多 沪加入口 流媒体支持", server: hk-azb1.uuuglass.co, port: 62222, type: vmess, uuid: 76763f2a-7c79-498d-b0d3-986ad0f294cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[美国1]ATT 长沙9929 入口 流媒体支持", server: cs2-cu.iqdnsio.co, port: 19999, type: vmess, uuid: 76763f2a-7c79-498d-b0d3-986ad0f294cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[马来2]广港AGA入口  原生流媒", server: hk-azb1.uuuglass.co, port: 25125, type: ss, cipher: chacha20-ietf-poly1305, password: 76763f2a-7c79-498d-b0d3-986ad0f294cf, udp: true}
+  - {name: "[法国2]长沙联通入口 流媒体支持", server: cs-pm.iqdnsio.co, port: 52999, type: vmess, uuid: 76763f2a-7c79-498d-b0d3-986ad0f294cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[日本1]东京Nico 沪日IPLC入口 流媒体支持", server: hk-zone.checkmails.xyz, port: 26522, type: vmess, uuid: 76763f2a-7c79-498d-b0d3-986ad0f294cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[德国-希腊1]长沙BGP入口 流媒体支持", server: cs2-cu.iqdnsio.co, port: 65222, type: vmess, uuid: 76763f2a-7c79-498d-b0d3-986ad0f294cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[韩国1]首尔KT 珠海BGP入口 NF", server: st-cm.iqdnsio.co, port: 59222, type: vmess, uuid: 76763f2a-7c79-498d-b0d3-986ad0f294cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[韩国2]首尔KT 广港韩BGP入口 NF", server: hk-zone.checkmails.xyz, port: 25212, type: vmess, uuid: 76763f2a-7c79-498d-b0d3-986ad0f294cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[美国7]Multa 杭州BGP入口 流媒体支持", server: hz2-cu.iqdnsio.co, port: 19999, type: ss, cipher: chacha20-ietf-poly1305, password: 76763f2a-7c79-498d-b0d3-986ad0f294cf, udp: true}
+  - {name: "[荷兰VIP-2]10G 下载节点 深圳移动入口 流媒体支持", server: cs2-cu.iqdnsio.co, port: 25222, type: vmess, uuid: 76763f2a-7c79-498d-b0d3-986ad0f294cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[美国3]ATT 杭州BGP入口 流媒体支持", server: hz2-cu.iqdnsio.co, port: 52999, type: vmess, uuid: 76763f2a-7c79-498d-b0d3-986ad0f294cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[新加坡2]珠海移动  隐私专线入口2 NF", server: st-cm.iqdnsio.co, port: 29222, type: vmess, uuid: 76763f2a-7c79-498d-b0d3-986ad0f294cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[美国9]波特兰 长沙BGP入口 流媒体支持", server: cs-pm.iqdnsio.co, port: 29229, type: ss, cipher: aes-128-gcm, password: 76763f2a-7c79-498d-b0d3-986ad0f294cf, udp: true}
+  - {name: "[阿联酋1]迪拜节点 长沙BGP入口 流媒体支持", server: cs-pm.iqdnsio.co, port: 19999, type: vmess, uuid: 76763f2a-7c79-498d-b0d3-986ad0f294cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[香港10]DM香港 广港隧道入口 SS 流媒", server: hk-zone.checkmails.xyz, port: 22999, type: ss, cipher: chacha20-ietf-poly1305, password: 76763f2a-7c79-498d-b0d3-986ad0f294cf, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 专线 香港 03
-      - 专线 日本 03
-      - 专线 新加坡 02
-      - 专线 马来西亚 02
-      - 专线 新加坡 03
+      - "[香港1]环球电讯 原生IP 广港IPLC入口 流媒体支持"
+      - "[澳门2]澳门电讯 珠港澳专线海缆2号入口 流媒体支持"
+      - "[香港5]HKT 广港IPLC入口 流媒体支持"
+      - "[新加坡4]沪新BGP  隐私专线入口 NF"
+      - "[日本2]东京Nico 上海CM入口 流媒体支持"
+      - "[香港7-2]MS 三网CN2GIA入口 SS 超大带宽低延迟节点"
+      - "[马来1]长沙联通入口 国际优化 流媒"
+      - "[澳门1]澳门电讯 珠港澳专线海缆入口 流媒体支持"
+      - "[台湾5]台北Hinet 港台VNC入口 流媒体支持"
+      - "[香港3]NTT香港 广港BGP入口 流媒"
+      - "[香港MS2]三网CN2GIA入口 SS 流媒体支持"
+      - "[台湾3]新北中华电信 珠海移动入口 流媒体支持"
+      - "[美国6]Multa 沪美CN2GIA入口 流媒体支持"
+      - "[香港7-BGP]MS 长沙BGP入口 SS"
+      - "[香港11]香港宽频 广港IPLC入口"
+      - "[美国2]ATT 广美CN2入口 流媒体支持"
+      - "[美国5]DO 超大带宽 BGP入口 SS 流媒体支持"
+      - "[日本7]东京NTT 沪日IPLC入口 流媒体支持"
+      - "[香港8]DM香港 广港隧道入口 Trojan 流媒"
+      - "[加拿大1]iCloud多伦多 沪加入口 流媒体支持"
+      - "[美国1]ATT 长沙9929 入口 流媒体支持"
+      - "[马来2]广港AGA入口  原生流媒"
+      - "[法国2]长沙联通入口 流媒体支持"
+      - "[日本1]东京Nico 沪日IPLC入口 流媒体支持"
+      - "[德国-希腊1]长沙BGP入口 流媒体支持"
+      - "[韩国1]首尔KT 珠海BGP入口 NF"
+      - "[韩国2]首尔KT 广港韩BGP入口 NF"
+      - "[美国7]Multa 杭州BGP入口 流媒体支持"
+      - "[荷兰VIP-2]10G 下载节点 深圳移动入口 流媒体支持"
+      - "[美国3]ATT 杭州BGP入口 流媒体支持"
+      - "[新加坡2]珠海移动  隐私专线入口2 NF"
+      - "[美国9]波特兰 长沙BGP入口 流媒体支持"
+      - "[阿联酋1]迪拜节点 长沙BGP入口 流媒体支持"
+      - "[香港10]DM香港 广港隧道入口 SS 流媒"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 专线 香港 03
-      - 专线 日本 03
-      - 专线 新加坡 02
-      - 专线 马来西亚 02
-      - 专线 新加坡 03
+      - "[香港1]环球电讯 原生IP 广港IPLC入口 流媒体支持"
+      - "[澳门2]澳门电讯 珠港澳专线海缆2号入口 流媒体支持"
+      - "[香港5]HKT 广港IPLC入口 流媒体支持"
+      - "[新加坡4]沪新BGP  隐私专线入口 NF"
+      - "[日本2]东京Nico 上海CM入口 流媒体支持"
+      - "[香港7-2]MS 三网CN2GIA入口 SS 超大带宽低延迟节点"
+      - "[马来1]长沙联通入口 国际优化 流媒"
+      - "[澳门1]澳门电讯 珠港澳专线海缆入口 流媒体支持"
+      - "[台湾5]台北Hinet 港台VNC入口 流媒体支持"
+      - "[香港3]NTT香港 广港BGP入口 流媒"
+      - "[香港MS2]三网CN2GIA入口 SS 流媒体支持"
+      - "[台湾3]新北中华电信 珠海移动入口 流媒体支持"
+      - "[美国6]Multa 沪美CN2GIA入口 流媒体支持"
+      - "[香港7-BGP]MS 长沙BGP入口 SS"
+      - "[香港11]香港宽频 广港IPLC入口"
+      - "[美国2]ATT 广美CN2入口 流媒体支持"
+      - "[美国5]DO 超大带宽 BGP入口 SS 流媒体支持"
+      - "[日本7]东京NTT 沪日IPLC入口 流媒体支持"
+      - "[香港8]DM香港 广港隧道入口 Trojan 流媒"
+      - "[加拿大1]iCloud多伦多 沪加入口 流媒体支持"
+      - "[美国1]ATT 长沙9929 入口 流媒体支持"
+      - "[马来2]广港AGA入口  原生流媒"
+      - "[法国2]长沙联通入口 流媒体支持"
+      - "[日本1]东京Nico 沪日IPLC入口 流媒体支持"
+      - "[德国-希腊1]长沙BGP入口 流媒体支持"
+      - "[韩国1]首尔KT 珠海BGP入口 NF"
+      - "[韩国2]首尔KT 广港韩BGP入口 NF"
+      - "[美国7]Multa 杭州BGP入口 流媒体支持"
+      - "[荷兰VIP-2]10G 下载节点 深圳移动入口 流媒体支持"
+      - "[美国3]ATT 杭州BGP入口 流媒体支持"
+      - "[新加坡2]珠海移动  隐私专线入口2 NF"
+      - "[美国9]波特兰 长沙BGP入口 流媒体支持"
+      - "[阿联酋1]迪拜节点 长沙BGP入口 流媒体支持"
+      - "[香港10]DM香港 广港隧道入口 SS 流媒"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 专线 香港 03
-      - 专线 日本 03
-      - 专线 新加坡 02
-      - 专线 马来西亚 02
-      - 专线 新加坡 03
+      - "[香港1]环球电讯 原生IP 广港IPLC入口 流媒体支持"
+      - "[澳门2]澳门电讯 珠港澳专线海缆2号入口 流媒体支持"
+      - "[香港5]HKT 广港IPLC入口 流媒体支持"
+      - "[新加坡4]沪新BGP  隐私专线入口 NF"
+      - "[日本2]东京Nico 上海CM入口 流媒体支持"
+      - "[香港7-2]MS 三网CN2GIA入口 SS 超大带宽低延迟节点"
+      - "[马来1]长沙联通入口 国际优化 流媒"
+      - "[澳门1]澳门电讯 珠港澳专线海缆入口 流媒体支持"
+      - "[台湾5]台北Hinet 港台VNC入口 流媒体支持"
+      - "[香港3]NTT香港 广港BGP入口 流媒"
+      - "[香港MS2]三网CN2GIA入口 SS 流媒体支持"
+      - "[台湾3]新北中华电信 珠海移动入口 流媒体支持"
+      - "[美国6]Multa 沪美CN2GIA入口 流媒体支持"
+      - "[香港7-BGP]MS 长沙BGP入口 SS"
+      - "[香港11]香港宽频 广港IPLC入口"
+      - "[美国2]ATT 广美CN2入口 流媒体支持"
+      - "[美国5]DO 超大带宽 BGP入口 SS 流媒体支持"
+      - "[日本7]东京NTT 沪日IPLC入口 流媒体支持"
+      - "[香港8]DM香港 广港隧道入口 Trojan 流媒"
+      - "[加拿大1]iCloud多伦多 沪加入口 流媒体支持"
+      - "[美国1]ATT 长沙9929 入口 流媒体支持"
+      - "[马来2]广港AGA入口  原生流媒"
+      - "[法国2]长沙联通入口 流媒体支持"
+      - "[日本1]东京Nico 沪日IPLC入口 流媒体支持"
+      - "[德国-希腊1]长沙BGP入口 流媒体支持"
+      - "[韩国1]首尔KT 珠海BGP入口 NF"
+      - "[韩国2]首尔KT 广港韩BGP入口 NF"
+      - "[美国7]Multa 杭州BGP入口 流媒体支持"
+      - "[荷兰VIP-2]10G 下载节点 深圳移动入口 流媒体支持"
+      - "[美国3]ATT 杭州BGP入口 流媒体支持"
+      - "[新加坡2]珠海移动  隐私专线入口2 NF"
+      - "[美国9]波特兰 长沙BGP入口 流媒体支持"
+      - "[阿联酋1]迪拜节点 长沙BGP入口 流媒体支持"
+      - "[香港10]DM香港 广港隧道入口 SS 流媒"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -60,48 +176,178 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 专线 香港 03
-      - 专线 日本 03
-      - 专线 新加坡 02
-      - 专线 马来西亚 02
-      - 专线 新加坡 03
+      - "[香港1]环球电讯 原生IP 广港IPLC入口 流媒体支持"
+      - "[澳门2]澳门电讯 珠港澳专线海缆2号入口 流媒体支持"
+      - "[香港5]HKT 广港IPLC入口 流媒体支持"
+      - "[新加坡4]沪新BGP  隐私专线入口 NF"
+      - "[日本2]东京Nico 上海CM入口 流媒体支持"
+      - "[香港7-2]MS 三网CN2GIA入口 SS 超大带宽低延迟节点"
+      - "[马来1]长沙联通入口 国际优化 流媒"
+      - "[澳门1]澳门电讯 珠港澳专线海缆入口 流媒体支持"
+      - "[台湾5]台北Hinet 港台VNC入口 流媒体支持"
+      - "[香港3]NTT香港 广港BGP入口 流媒"
+      - "[香港MS2]三网CN2GIA入口 SS 流媒体支持"
+      - "[台湾3]新北中华电信 珠海移动入口 流媒体支持"
+      - "[美国6]Multa 沪美CN2GIA入口 流媒体支持"
+      - "[香港7-BGP]MS 长沙BGP入口 SS"
+      - "[香港11]香港宽频 广港IPLC入口"
+      - "[美国2]ATT 广美CN2入口 流媒体支持"
+      - "[美国5]DO 超大带宽 BGP入口 SS 流媒体支持"
+      - "[日本7]东京NTT 沪日IPLC入口 流媒体支持"
+      - "[香港8]DM香港 广港隧道入口 Trojan 流媒"
+      - "[加拿大1]iCloud多伦多 沪加入口 流媒体支持"
+      - "[美国1]ATT 长沙9929 入口 流媒体支持"
+      - "[马来2]广港AGA入口  原生流媒"
+      - "[法国2]长沙联通入口 流媒体支持"
+      - "[日本1]东京Nico 沪日IPLC入口 流媒体支持"
+      - "[德国-希腊1]长沙BGP入口 流媒体支持"
+      - "[韩国1]首尔KT 珠海BGP入口 NF"
+      - "[韩国2]首尔KT 广港韩BGP入口 NF"
+      - "[美国7]Multa 杭州BGP入口 流媒体支持"
+      - "[荷兰VIP-2]10G 下载节点 深圳移动入口 流媒体支持"
+      - "[美国3]ATT 杭州BGP入口 流媒体支持"
+      - "[新加坡2]珠海移动  隐私专线入口2 NF"
+      - "[美国9]波特兰 长沙BGP入口 流媒体支持"
+      - "[阿联酋1]迪拜节点 长沙BGP入口 流媒体支持"
+      - "[香港10]DM香港 广港隧道入口 SS 流媒"
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 专线 香港 03
+      - "[香港1]环球电讯 原生IP 广港IPLC入口 流媒体支持"
+      - "[澳门2]澳门电讯 珠港澳专线海缆2号入口 流媒体支持"
+      - "[香港5]HKT 广港IPLC入口 流媒体支持"
+      - "[香港7-2]MS 三网CN2GIA入口 SS 超大带宽低延迟节点"
+      - "[澳门1]澳门电讯 珠港澳专线海缆入口 流媒体支持"
+      - "[台湾5]台北Hinet 港台VNC入口 流媒体支持"
+      - "[香港3]NTT香港 广港BGP入口 流媒"
+      - "[香港MS2]三网CN2GIA入口 SS 流媒体支持"
+      - "[台湾3]新北中华电信 珠海移动入口 流媒体支持"
+      - "[香港7-BGP]MS 长沙BGP入口 SS"
+      - "[香港11]香港宽频 广港IPLC入口"
+      - "[香港8]DM香港 广港隧道入口 Trojan 流媒"
+      - "[马来2]广港AGA入口  原生流媒"
+      - "[韩国2]首尔KT 广港韩BGP入口 NF"
+      - "[香港10]DM香港 广港隧道入口 SS 流媒"
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 专线 香港 03
-      - 专线 日本 03
-      - 专线 新加坡 02
-      - 专线 马来西亚 02
-      - 专线 新加坡 03
+      - "[香港1]环球电讯 原生IP 广港IPLC入口 流媒体支持"
+      - "[澳门2]澳门电讯 珠港澳专线海缆2号入口 流媒体支持"
+      - "[香港5]HKT 广港IPLC入口 流媒体支持"
+      - "[新加坡4]沪新BGP  隐私专线入口 NF"
+      - "[日本2]东京Nico 上海CM入口 流媒体支持"
+      - "[香港7-2]MS 三网CN2GIA入口 SS 超大带宽低延迟节点"
+      - "[马来1]长沙联通入口 国际优化 流媒"
+      - "[澳门1]澳门电讯 珠港澳专线海缆入口 流媒体支持"
+      - "[台湾5]台北Hinet 港台VNC入口 流媒体支持"
+      - "[香港3]NTT香港 广港BGP入口 流媒"
+      - "[香港MS2]三网CN2GIA入口 SS 流媒体支持"
+      - "[台湾3]新北中华电信 珠海移动入口 流媒体支持"
+      - "[美国6]Multa 沪美CN2GIA入口 流媒体支持"
+      - "[香港7-BGP]MS 长沙BGP入口 SS"
+      - "[香港11]香港宽频 广港IPLC入口"
+      - "[美国2]ATT 广美CN2入口 流媒体支持"
+      - "[美国5]DO 超大带宽 BGP入口 SS 流媒体支持"
+      - "[日本7]东京NTT 沪日IPLC入口 流媒体支持"
+      - "[香港8]DM香港 广港隧道入口 Trojan 流媒"
+      - "[加拿大1]iCloud多伦多 沪加入口 流媒体支持"
+      - "[美国1]ATT 长沙9929 入口 流媒体支持"
+      - "[马来2]广港AGA入口  原生流媒"
+      - "[法国2]长沙联通入口 流媒体支持"
+      - "[日本1]东京Nico 沪日IPLC入口 流媒体支持"
+      - "[德国-希腊1]长沙BGP入口 流媒体支持"
+      - "[韩国1]首尔KT 珠海BGP入口 NF"
+      - "[韩国2]首尔KT 广港韩BGP入口 NF"
+      - "[美国7]Multa 杭州BGP入口 流媒体支持"
+      - "[荷兰VIP-2]10G 下载节点 深圳移动入口 流媒体支持"
+      - "[美国3]ATT 杭州BGP入口 流媒体支持"
+      - "[新加坡2]珠海移动  隐私专线入口2 NF"
+      - "[美国9]波特兰 长沙BGP入口 流媒体支持"
+      - "[阿联酋1]迪拜节点 长沙BGP入口 流媒体支持"
+      - "[香港10]DM香港 广港隧道入口 SS 流媒"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 专线 香港 03
-      - 专线 日本 03
-      - 专线 新加坡 02
-      - 专线 马来西亚 02
-      - 专线 新加坡 03
+      - "[香港1]环球电讯 原生IP 广港IPLC入口 流媒体支持"
+      - "[澳门2]澳门电讯 珠港澳专线海缆2号入口 流媒体支持"
+      - "[香港5]HKT 广港IPLC入口 流媒体支持"
+      - "[新加坡4]沪新BGP  隐私专线入口 NF"
+      - "[日本2]东京Nico 上海CM入口 流媒体支持"
+      - "[香港7-2]MS 三网CN2GIA入口 SS 超大带宽低延迟节点"
+      - "[马来1]长沙联通入口 国际优化 流媒"
+      - "[澳门1]澳门电讯 珠港澳专线海缆入口 流媒体支持"
+      - "[台湾5]台北Hinet 港台VNC入口 流媒体支持"
+      - "[香港3]NTT香港 广港BGP入口 流媒"
+      - "[香港MS2]三网CN2GIA入口 SS 流媒体支持"
+      - "[台湾3]新北中华电信 珠海移动入口 流媒体支持"
+      - "[美国6]Multa 沪美CN2GIA入口 流媒体支持"
+      - "[香港7-BGP]MS 长沙BGP入口 SS"
+      - "[香港11]香港宽频 广港IPLC入口"
+      - "[美国2]ATT 广美CN2入口 流媒体支持"
+      - "[美国5]DO 超大带宽 BGP入口 SS 流媒体支持"
+      - "[日本7]东京NTT 沪日IPLC入口 流媒体支持"
+      - "[香港8]DM香港 广港隧道入口 Trojan 流媒"
+      - "[加拿大1]iCloud多伦多 沪加入口 流媒体支持"
+      - "[美国1]ATT 长沙9929 入口 流媒体支持"
+      - "[马来2]广港AGA入口  原生流媒"
+      - "[法国2]长沙联通入口 流媒体支持"
+      - "[日本1]东京Nico 沪日IPLC入口 流媒体支持"
+      - "[德国-希腊1]长沙BGP入口 流媒体支持"
+      - "[韩国1]首尔KT 珠海BGP入口 NF"
+      - "[韩国2]首尔KT 广港韩BGP入口 NF"
+      - "[美国7]Multa 杭州BGP入口 流媒体支持"
+      - "[荷兰VIP-2]10G 下载节点 深圳移动入口 流媒体支持"
+      - "[美国3]ATT 杭州BGP入口 流媒体支持"
+      - "[新加坡2]珠海移动  隐私专线入口2 NF"
+      - "[美国9]波特兰 长沙BGP入口 流媒体支持"
+      - "[阿联酋1]迪拜节点 长沙BGP入口 流媒体支持"
+      - "[香港10]DM香港 广港隧道入口 SS 流媒"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 专线 香港 03
-      - 专线 日本 03
-      - 专线 新加坡 02
-      - 专线 马来西亚 02
-      - 专线 新加坡 03
+      - "[香港1]环球电讯 原生IP 广港IPLC入口 流媒体支持"
+      - "[澳门2]澳门电讯 珠港澳专线海缆2号入口 流媒体支持"
+      - "[香港5]HKT 广港IPLC入口 流媒体支持"
+      - "[新加坡4]沪新BGP  隐私专线入口 NF"
+      - "[日本2]东京Nico 上海CM入口 流媒体支持"
+      - "[香港7-2]MS 三网CN2GIA入口 SS 超大带宽低延迟节点"
+      - "[马来1]长沙联通入口 国际优化 流媒"
+      - "[澳门1]澳门电讯 珠港澳专线海缆入口 流媒体支持"
+      - "[台湾5]台北Hinet 港台VNC入口 流媒体支持"
+      - "[香港3]NTT香港 广港BGP入口 流媒"
+      - "[香港MS2]三网CN2GIA入口 SS 流媒体支持"
+      - "[台湾3]新北中华电信 珠海移动入口 流媒体支持"
+      - "[美国6]Multa 沪美CN2GIA入口 流媒体支持"
+      - "[香港7-BGP]MS 长沙BGP入口 SS"
+      - "[香港11]香港宽频 广港IPLC入口"
+      - "[美国2]ATT 广美CN2入口 流媒体支持"
+      - "[美国5]DO 超大带宽 BGP入口 SS 流媒体支持"
+      - "[日本7]东京NTT 沪日IPLC入口 流媒体支持"
+      - "[香港8]DM香港 广港隧道入口 Trojan 流媒"
+      - "[加拿大1]iCloud多伦多 沪加入口 流媒体支持"
+      - "[美国1]ATT 长沙9929 入口 流媒体支持"
+      - "[马来2]广港AGA入口  原生流媒"
+      - "[法国2]长沙联通入口 流媒体支持"
+      - "[日本1]东京Nico 沪日IPLC入口 流媒体支持"
+      - "[德国-希腊1]长沙BGP入口 流媒体支持"
+      - "[韩国1]首尔KT 珠海BGP入口 NF"
+      - "[韩国2]首尔KT 广港韩BGP入口 NF"
+      - "[美国7]Multa 杭州BGP入口 流媒体支持"
+      - "[荷兰VIP-2]10G 下载节点 深圳移动入口 流媒体支持"
+      - "[美国3]ATT 杭州BGP入口 流媒体支持"
+      - "[新加坡2]珠海移动  隐私专线入口2 NF"
+      - "[美国9]波特兰 长沙BGP入口 流媒体支持"
+      - "[阿联酋1]迪拜节点 长沙BGP入口 流媒体支持"
+      - "[香港10]DM香港 广港隧道入口 SS 流媒"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -117,11 +363,40 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 专线 香港 03
-      - 专线 日本 03
-      - 专线 新加坡 02
-      - 专线 马来西亚 02
-      - 专线 新加坡 03
+      - "[香港1]环球电讯 原生IP 广港IPLC入口 流媒体支持"
+      - "[澳门2]澳门电讯 珠港澳专线海缆2号入口 流媒体支持"
+      - "[香港5]HKT 广港IPLC入口 流媒体支持"
+      - "[新加坡4]沪新BGP  隐私专线入口 NF"
+      - "[日本2]东京Nico 上海CM入口 流媒体支持"
+      - "[香港7-2]MS 三网CN2GIA入口 SS 超大带宽低延迟节点"
+      - "[马来1]长沙联通入口 国际优化 流媒"
+      - "[澳门1]澳门电讯 珠港澳专线海缆入口 流媒体支持"
+      - "[台湾5]台北Hinet 港台VNC入口 流媒体支持"
+      - "[香港3]NTT香港 广港BGP入口 流媒"
+      - "[香港MS2]三网CN2GIA入口 SS 流媒体支持"
+      - "[台湾3]新北中华电信 珠海移动入口 流媒体支持"
+      - "[美国6]Multa 沪美CN2GIA入口 流媒体支持"
+      - "[香港7-BGP]MS 长沙BGP入口 SS"
+      - "[香港11]香港宽频 广港IPLC入口"
+      - "[美国2]ATT 广美CN2入口 流媒体支持"
+      - "[美国5]DO 超大带宽 BGP入口 SS 流媒体支持"
+      - "[日本7]东京NTT 沪日IPLC入口 流媒体支持"
+      - "[香港8]DM香港 广港隧道入口 Trojan 流媒"
+      - "[加拿大1]iCloud多伦多 沪加入口 流媒体支持"
+      - "[美国1]ATT 长沙9929 入口 流媒体支持"
+      - "[马来2]广港AGA入口  原生流媒"
+      - "[法国2]长沙联通入口 流媒体支持"
+      - "[日本1]东京Nico 沪日IPLC入口 流媒体支持"
+      - "[德国-希腊1]长沙BGP入口 流媒体支持"
+      - "[韩国1]首尔KT 珠海BGP入口 NF"
+      - "[韩国2]首尔KT 广港韩BGP入口 NF"
+      - "[美国7]Multa 杭州BGP入口 流媒体支持"
+      - "[荷兰VIP-2]10G 下载节点 深圳移动入口 流媒体支持"
+      - "[美国3]ATT 杭州BGP入口 流媒体支持"
+      - "[新加坡2]珠海移动  隐私专线入口2 NF"
+      - "[美国9]波特兰 长沙BGP入口 流媒体支持"
+      - "[阿联酋1]迪拜节点 长沙BGP入口 流媒体支持"
+      - "[香港10]DM香港 广港隧道入口 SS 流媒"
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
