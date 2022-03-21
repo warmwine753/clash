@@ -5,151 +5,123 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: V1-日本 多台负载均衡 中继D 1.5x, server: in04.dns2333.xyz, port: 64086, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: jp-balancer.myn1des.com}, udp: true}
   - {name: V1-香港 多台负载均衡 中继D | 2x, server: in04.dns2333.xyz, port: 64078, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
-  - {name: 魔戒.net1, server: cn05.mynode.me, port: 8125, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
-  - {name: 魔戒.net9, server: cn03.mynode.me, port: 8112, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
-  - {name: 魔戒.net2, server: cn05.mynode.me, port: 8121, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
-  - {name: 魔戒.net4, server: cn03.mynode.me, port: 8114, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
-  - {name: 魔戒.net5, server: cn05.mynode.me, port: 8124, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
-  - {name: V1-日本A组 直连 速度随缘 1x, server: jp-group-a-direct.node001.xyz, port: 8880, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: new.vip.weibo.cn}, udp: true}
-  - {name: 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan, server: jgwdj1.gaox.ml, port: 443, type: trojan, password: e8553fc5-f3a0-409c-ac06-1cd93b026cf4, sni: jgwdj1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: V1-台湾 多台负载均衡 中继C 1.5x, server: in03.dns2333.xyz, port: 64088, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: cdn.bootcdn.net}, udp: true}
-  - {name: 魔戒.net3, server: cn02.mynode.me, port: 8107, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
-  - {name: 魔戒.net8, server: cn02.mynode.me, port: 8108, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
-  - {name: 魔戒.net7, server: cn05.mynode.me, port: 8123, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
-  - {name: 魔戒.net6, server: cn02.mynode.me, port: 8110, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
-  - {name: V1-美国01 中继C | 1.5x, server: in03.dns2333.xyz, port: 64014, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: biteb-us01.covid19.rip}, udp: true}
-  - {name: V1-俄罗斯01 中继D 1.2x, server: in04.dns2333.xyz, port: 64071, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: biteb-ru01.myn1des.com}, udp: true}
-  - {name: 越南胡志明-三网优化, server: 0319hzm01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nmsl, ws-headers: {Host: 0319hzm01.fans8.xyz}, udp: true}
-  - {name: V1-香港HKT02 CDN 中继 2x, server: in05.dns2333.xyz, port: 64081, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hkt2-cdn.tencent.best}, udp: true}
-  - {name: V1-香港HKT03 CDN 中继 2x, server: in05.dns2333.xyz, port: 64082, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hkt3-cdn.tencent.best}, udp: true}
-  - {name: V1-美国01 中继D | 1.5x, server: in04.dns2333.xyz, port: 64014, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: biteb-us01.covid19.rip}, udp: true}
-  - {name: 魔戒.net杭锅, server: 141.164.39.146, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 台湾2-三网优化-强加密, server: 0314tw02.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0314tw02.fans8.xyz}, udp: true}
-  - {name: V1-英国01 CDN 中继 1.5x, server: in05.dns2333.xyz, port: 64021, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: uk01-cdn.airport-v2.com}, udp: true}
-  - {name: V1-德国01 CDN 中继 1.5x, server: in05.dns2333.xyz, port: 64084, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: de01-cdn.airport-v2.com}, udp: true}
-  - {name: V1-波兰01 CDN 中继 1.5x, server: in05.dns2333.xyz, port: 64077, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: pl01-cdn.myn0des.com}, udp: true}
-  - {name: V1-日本 多台负载均衡 中继B 1.5x, server: in02.dns2333.xyz, port: 64086, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: jp-balancer.myn1des.com}, udp: true}
-  - {name: V1-香港 多台负载均衡 中继A | 2x, server: in01.dns2333.xyz, port: 64078, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
-  - {name: V1-香港 多台负载均衡 中继B | 2x, server: in02.dns2333.xyz, port: 64078, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
   - {name: V1-台湾 多台负载均衡 中继B 1.5x, server: in02.dns2333.xyz, port: 64088, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: cdn.bootcdn.net}, udp: true}
-  - {name: V1-日本 多台负载均衡 中继A 1.5x, server: in01.dns2333.xyz, port: 64086, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: jp-balancer.myn1des.com}, udp: true}
-  - {name: 魔戒.net香港_R_316, server: iepl-gz.yyuuii.cyou, port: 10804, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
-  - {name: V1-台湾 多台负载均衡 中继A 1.5x, server: in01.dns2333.xyz, port: 64088, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: cdn.bootcdn.net}, udp: true}
+  - {name: V1-日本 多台负载均衡 中继D 1.5x, server: in04.dns2333.xyz, port: 64086, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: jp-balancer.myn1des.com}, udp: true}
+  - {name: SG_15015 @WangCai_1, server: 15.v2-ray.cyou, port: 15015, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: microsoft.com}, udp: true}
+  - {name: US_15014 @WangCai_1, server: 14.v2-ray.cyou, port: 15014, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: microsoft.com}, udp: true}
+  - {name: 香港02|厦门联通|高峰期稳定, server: lt.geia27.xyz, port: 21357, type: vmess, uuid: a0a0cd91-812a-4e3d-be39-052a9d16a776, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: V1-台湾 多台负载均衡 中继C 1.5x, server: in03.dns2333.xyz, port: 64088, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: cdn.bootcdn.net}, udp: true}
+  - {name: V1-香港 多台负载均衡 中继B | 2x, server: in02.dns2333.xyz, port: 64078, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
+  - {name: US_15074 @WangCai_1, server: 74.v2-ray.cyou, port: 36174, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: microsoft.com}, udp: true}
+  - {name: 日本01|厦门联通|解锁流媒体, server: lt.geia27.xyz, port: 60583, type: vmess, uuid: a0a0cd91-812a-4e3d-be39-052a9d16a776, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: JP_134 @WangCai_1, server: 134.wowogg.cyou, port: 52334, type: vmess, uuid: 7b0e18c2-7c79-370b-833d-5b2191ea112a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡01|azHK|解锁流媒体, server: azhk.geia27.xyz, port: 48755, type: vmess, uuid: a0a0cd91-812a-4e3d-be39-052a9d16a776, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: JP_114 @WangCai_1, server: 114.wowogg.cyou, port: 52214, type: vmess, uuid: 7b0e18c2-7c79-370b-833d-5b2191ea112a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V1-德国01 CDN 中继 1.5x, server: in05.dns2333.xyz, port: 64084, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: de01-cdn.airport-v2.com}, udp: true}
+  - {name: JP_15084 @WangCai_1, server: 84.v2-ray.cyou, port: 15084, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: microsoft.com}, udp: true}
+  - {name: 加拿大01|azHK|高峰期稳定, server: azhk.geia27.xyz, port: 26321, type: vmess, uuid: a0a0cd91-812a-4e3d-be39-052a9d16a776, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 英国01|azHK|解锁流媒体, server: azhk.geia27.xyz, port: 36439, type: vmess, uuid: a0a0cd91-812a-4e3d-be39-052a9d16a776, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 英国02|azhk|解锁流媒体, server: azhk.geia27.xyz, port: 31328, type: vmess, uuid: a0a0cd91-812a-4e3d-be39-052a9d16a776, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 美国01|azHK|解锁流媒体, server: azhk.geia27.xyz, port: 30854, type: vmess, uuid: a0a0cd91-812a-4e3d-be39-052a9d16a776, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ฅ^ΦωΦ^ฅ5༶ฅ^ΦωΦ^ฅ, server: jj01.nfeng6.pp.ua, port: 39050, type: vmess, uuid: a8554f20-45a7-3844-8fc5-c2ea1397d467, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ฅ^ΦωΦ^ฅ6༶ฅ^ΦωΦ^ฅ, server: jj01.nfeng6.pp.ua, port: 39065, type: vmess, uuid: a8554f20-45a7-3844-8fc5-c2ea1397d467, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ฅ^ΦωΦ^ฅ2༶ฅ^ΦωΦ^ฅ, server: jj01.nfeng6.pp.ua, port: 39049, type: vmess, uuid: a8554f20-45a7-3844-8fc5-c2ea1397d467, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: V1-波兰01 CDN 中继 1.5x, server: in05.dns2333.xyz, port: 64077, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: pl01-cdn.myn0des.com}, udp: true}
+  - {name: SG_15023 @WangCai_1, server: 23.v2-ray.cyou, port: 15023, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: microsoft.com}, udp: true}
+  - {name: 台湾2-三网优化-强加密, server: 0314tw02.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0314tw02.fans8.xyz}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - V1-日本 多台负载均衡 中继D 1.5x
       - V1-香港 多台负载均衡 中继D | 2x
-      - 魔戒.net1
-      - 魔戒.net9
-      - 魔戒.net2
-      - 魔戒.net4
-      - 魔戒.net5
-      - V1-日本A组 直连 速度随缘 1x
-      - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
-      - V1-台湾 多台负载均衡 中继C 1.5x
-      - 魔戒.net3
-      - 魔戒.net8
-      - 魔戒.net7
-      - 魔戒.net6
-      - V1-美国01 中继C | 1.5x
-      - V1-俄罗斯01 中继D 1.2x
-      - 越南胡志明-三网优化
-      - V1-香港HKT02 CDN 中继 2x
-      - V1-香港HKT03 CDN 中继 2x
-      - V1-美国01 中继D | 1.5x
-      - 魔戒.net杭锅
-      - 台湾2-三网优化-强加密
-      - V1-英国01 CDN 中继 1.5x
-      - V1-德国01 CDN 中继 1.5x
-      - V1-波兰01 CDN 中继 1.5x
-      - V1-日本 多台负载均衡 中继B 1.5x
-      - V1-香港 多台负载均衡 中继A | 2x
-      - V1-香港 多台负载均衡 中继B | 2x
       - V1-台湾 多台负载均衡 中继B 1.5x
-      - V1-日本 多台负载均衡 中继A 1.5x
-      - 魔戒.net香港_R_316
-      - V1-台湾 多台负载均衡 中继A 1.5x
+      - V1-日本 多台负载均衡 中继D 1.5x
+      - SG_15015 @WangCai_1
+      - US_15014 @WangCai_1
+      - 香港02|厦门联通|高峰期稳定
+      - V1-台湾 多台负载均衡 中继C 1.5x
+      - V1-香港 多台负载均衡 中继B | 2x
+      - US_15074 @WangCai_1
+      - 日本01|厦门联通|解锁流媒体
+      - JP_134 @WangCai_1
+      - 新加坡01|azHK|解锁流媒体
+      - JP_114 @WangCai_1
+      - V1-德国01 CDN 中继 1.5x
+      - JP_15084 @WangCai_1
+      - 加拿大01|azHK|高峰期稳定
+      - 英国01|azHK|解锁流媒体
+      - 英国02|azhk|解锁流媒体
+      - 美国01|azHK|解锁流媒体
+      - ฅ^ΦωΦ^ฅ5༶ฅ^ΦωΦ^ฅ
+      - ฅ^ΦωΦ^ฅ6༶ฅ^ΦωΦ^ฅ
+      - ฅ^ΦωΦ^ฅ2༶ฅ^ΦωΦ^ฅ
+      - V1-波兰01 CDN 中继 1.5x
+      - SG_15023 @WangCai_1
+      - 台湾2-三网优化-强加密
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - V1-日本 多台负载均衡 中继D 1.5x
       - V1-香港 多台负载均衡 中继D | 2x
-      - 魔戒.net1
-      - 魔戒.net9
-      - 魔戒.net2
-      - 魔戒.net4
-      - 魔戒.net5
-      - V1-日本A组 直连 速度随缘 1x
-      - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
-      - V1-台湾 多台负载均衡 中继C 1.5x
-      - 魔戒.net3
-      - 魔戒.net8
-      - 魔戒.net7
-      - 魔戒.net6
-      - V1-美国01 中继C | 1.5x
-      - V1-俄罗斯01 中继D 1.2x
-      - 越南胡志明-三网优化
-      - V1-香港HKT02 CDN 中继 2x
-      - V1-香港HKT03 CDN 中继 2x
-      - V1-美国01 中继D | 1.5x
-      - 魔戒.net杭锅
-      - 台湾2-三网优化-强加密
-      - V1-英国01 CDN 中继 1.5x
-      - V1-德国01 CDN 中继 1.5x
-      - V1-波兰01 CDN 中继 1.5x
-      - V1-日本 多台负载均衡 中继B 1.5x
-      - V1-香港 多台负载均衡 中继A | 2x
-      - V1-香港 多台负载均衡 中继B | 2x
       - V1-台湾 多台负载均衡 中继B 1.5x
-      - V1-日本 多台负载均衡 中继A 1.5x
-      - 魔戒.net香港_R_316
-      - V1-台湾 多台负载均衡 中继A 1.5x
+      - V1-日本 多台负载均衡 中继D 1.5x
+      - SG_15015 @WangCai_1
+      - US_15014 @WangCai_1
+      - 香港02|厦门联通|高峰期稳定
+      - V1-台湾 多台负载均衡 中继C 1.5x
+      - V1-香港 多台负载均衡 中继B | 2x
+      - US_15074 @WangCai_1
+      - 日本01|厦门联通|解锁流媒体
+      - JP_134 @WangCai_1
+      - 新加坡01|azHK|解锁流媒体
+      - JP_114 @WangCai_1
+      - V1-德国01 CDN 中继 1.5x
+      - JP_15084 @WangCai_1
+      - 加拿大01|azHK|高峰期稳定
+      - 英国01|azHK|解锁流媒体
+      - 英国02|azhk|解锁流媒体
+      - 美国01|azHK|解锁流媒体
+      - ฅ^ΦωΦ^ฅ5༶ฅ^ΦωΦ^ฅ
+      - ฅ^ΦωΦ^ฅ6༶ฅ^ΦωΦ^ฅ
+      - ฅ^ΦωΦ^ฅ2༶ฅ^ΦωΦ^ฅ
+      - V1-波兰01 CDN 中继 1.5x
+      - SG_15023 @WangCai_1
+      - 台湾2-三网优化-强加密
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - V1-日本 多台负载均衡 中继D 1.5x
       - V1-香港 多台负载均衡 中继D | 2x
-      - 魔戒.net1
-      - 魔戒.net9
-      - 魔戒.net2
-      - 魔戒.net4
-      - 魔戒.net5
-      - V1-日本A组 直连 速度随缘 1x
-      - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
-      - V1-台湾 多台负载均衡 中继C 1.5x
-      - 魔戒.net3
-      - 魔戒.net8
-      - 魔戒.net7
-      - 魔戒.net6
-      - V1-美国01 中继C | 1.5x
-      - V1-俄罗斯01 中继D 1.2x
-      - 越南胡志明-三网优化
-      - V1-香港HKT02 CDN 中继 2x
-      - V1-香港HKT03 CDN 中继 2x
-      - V1-美国01 中继D | 1.5x
-      - 魔戒.net杭锅
-      - 台湾2-三网优化-强加密
-      - V1-英国01 CDN 中继 1.5x
-      - V1-德国01 CDN 中继 1.5x
-      - V1-波兰01 CDN 中继 1.5x
-      - V1-日本 多台负载均衡 中继B 1.5x
-      - V1-香港 多台负载均衡 中继A | 2x
-      - V1-香港 多台负载均衡 中继B | 2x
       - V1-台湾 多台负载均衡 中继B 1.5x
-      - V1-日本 多台负载均衡 中继A 1.5x
-      - 魔戒.net香港_R_316
-      - V1-台湾 多台负载均衡 中继A 1.5x
+      - V1-日本 多台负载均衡 中继D 1.5x
+      - SG_15015 @WangCai_1
+      - US_15014 @WangCai_1
+      - 香港02|厦门联通|高峰期稳定
+      - V1-台湾 多台负载均衡 中继C 1.5x
+      - V1-香港 多台负载均衡 中继B | 2x
+      - US_15074 @WangCai_1
+      - 日本01|厦门联通|解锁流媒体
+      - JP_134 @WangCai_1
+      - 新加坡01|azHK|解锁流媒体
+      - JP_114 @WangCai_1
+      - V1-德国01 CDN 中继 1.5x
+      - JP_15084 @WangCai_1
+      - 加拿大01|azHK|高峰期稳定
+      - 英国01|azHK|解锁流媒体
+      - 英国02|azhk|解锁流媒体
+      - 美国01|azHK|解锁流媒体
+      - ฅ^ΦωΦ^ฅ5༶ฅ^ΦωΦ^ฅ
+      - ฅ^ΦωΦ^ฅ6༶ฅ^ΦωΦ^ฅ
+      - ฅ^ΦωΦ^ฅ2༶ฅ^ΦωΦ^ฅ
+      - V1-波兰01 CDN 中继 1.5x
+      - SG_15023 @WangCai_1
+      - 台湾2-三网优化-强加密
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -168,168 +140,135 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - V1-日本 多台负载均衡 中继D 1.5x
       - V1-香港 多台负载均衡 中继D | 2x
-      - 魔戒.net1
-      - 魔戒.net9
-      - 魔戒.net2
-      - 魔戒.net4
-      - 魔戒.net5
-      - V1-日本A组 直连 速度随缘 1x
-      - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
-      - V1-台湾 多台负载均衡 中继C 1.5x
-      - 魔戒.net3
-      - 魔戒.net8
-      - 魔戒.net7
-      - 魔戒.net6
-      - V1-美国01 中继C | 1.5x
-      - V1-俄罗斯01 中继D 1.2x
-      - 越南胡志明-三网优化
-      - V1-香港HKT02 CDN 中继 2x
-      - V1-香港HKT03 CDN 中继 2x
-      - V1-美国01 中继D | 1.5x
-      - 魔戒.net杭锅
-      - 台湾2-三网优化-强加密
-      - V1-英国01 CDN 中继 1.5x
-      - V1-德国01 CDN 中继 1.5x
-      - V1-波兰01 CDN 中继 1.5x
-      - V1-日本 多台负载均衡 中继B 1.5x
-      - V1-香港 多台负载均衡 中继A | 2x
-      - V1-香港 多台负载均衡 中继B | 2x
       - V1-台湾 多台负载均衡 中继B 1.5x
-      - V1-日本 多台负载均衡 中继A 1.5x
-      - 魔戒.net香港_R_316
-      - V1-台湾 多台负载均衡 中继A 1.5x
+      - V1-日本 多台负载均衡 中继D 1.5x
+      - SG_15015 @WangCai_1
+      - US_15014 @WangCai_1
+      - 香港02|厦门联通|高峰期稳定
+      - V1-台湾 多台负载均衡 中继C 1.5x
+      - V1-香港 多台负载均衡 中继B | 2x
+      - US_15074 @WangCai_1
+      - 日本01|厦门联通|解锁流媒体
+      - JP_134 @WangCai_1
+      - 新加坡01|azHK|解锁流媒体
+      - JP_114 @WangCai_1
+      - V1-德国01 CDN 中继 1.5x
+      - JP_15084 @WangCai_1
+      - 加拿大01|azHK|高峰期稳定
+      - 英国01|azHK|解锁流媒体
+      - 英国02|azhk|解锁流媒体
+      - 美国01|azHK|解锁流媒体
+      - ฅ^ΦωΦ^ฅ5༶ฅ^ΦωΦ^ฅ
+      - ฅ^ΦωΦ^ฅ6༶ฅ^ΦωΦ^ฅ
+      - ฅ^ΦωΦ^ฅ2༶ฅ^ΦωΦ^ฅ
+      - V1-波兰01 CDN 中继 1.5x
+      - SG_15023 @WangCai_1
+      - 台湾2-三网优化-强加密
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - V1-日本 多台负载均衡 中继D 1.5x
       - V1-香港 多台负载均衡 中继D | 2x
-      - V1-台湾 多台负载均衡 中继C 1.5x
-      - V1-香港HKT02 CDN 中继 2x
-      - V1-香港HKT03 CDN 中继 2x
-      - 台湾2-三网优化-强加密
-      - V1-日本 多台负载均衡 中继B 1.5x
-      - V1-香港 多台负载均衡 中继A | 2x
-      - V1-香港 多台负载均衡 中继B | 2x
       - V1-台湾 多台负载均衡 中继B 1.5x
-      - V1-日本 多台负载均衡 中继A 1.5x
-      - 魔戒.net香港_R_316
-      - V1-台湾 多台负载均衡 中继A 1.5x
+      - V1-日本 多台负载均衡 中继D 1.5x
+      - 香港02|厦门联通|高峰期稳定
+      - V1-台湾 多台负载均衡 中继C 1.5x
+      - V1-香港 多台负载均衡 中继B | 2x
+      - 英国02|azhk|解锁流媒体
+      - 台湾2-三网优化-强加密
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - V1-日本 多台负载均衡 中继D 1.5x
       - V1-香港 多台负载均衡 中继D | 2x
-      - 魔戒.net1
-      - 魔戒.net9
-      - 魔戒.net2
-      - 魔戒.net4
-      - 魔戒.net5
-      - V1-日本A组 直连 速度随缘 1x
-      - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
-      - V1-台湾 多台负载均衡 中继C 1.5x
-      - 魔戒.net3
-      - 魔戒.net8
-      - 魔戒.net7
-      - 魔戒.net6
-      - V1-美国01 中继C | 1.5x
-      - V1-俄罗斯01 中继D 1.2x
-      - 越南胡志明-三网优化
-      - V1-香港HKT02 CDN 中继 2x
-      - V1-香港HKT03 CDN 中继 2x
-      - V1-美国01 中继D | 1.5x
-      - 魔戒.net杭锅
-      - 台湾2-三网优化-强加密
-      - V1-英国01 CDN 中继 1.5x
-      - V1-德国01 CDN 中继 1.5x
-      - V1-波兰01 CDN 中继 1.5x
-      - V1-日本 多台负载均衡 中继B 1.5x
-      - V1-香港 多台负载均衡 中继A | 2x
-      - V1-香港 多台负载均衡 中继B | 2x
       - V1-台湾 多台负载均衡 中继B 1.5x
-      - V1-日本 多台负载均衡 中继A 1.5x
-      - 魔戒.net香港_R_316
-      - V1-台湾 多台负载均衡 中继A 1.5x
+      - V1-日本 多台负载均衡 中继D 1.5x
+      - SG_15015 @WangCai_1
+      - US_15014 @WangCai_1
+      - 香港02|厦门联通|高峰期稳定
+      - V1-台湾 多台负载均衡 中继C 1.5x
+      - V1-香港 多台负载均衡 中继B | 2x
+      - US_15074 @WangCai_1
+      - 日本01|厦门联通|解锁流媒体
+      - JP_134 @WangCai_1
+      - 新加坡01|azHK|解锁流媒体
+      - JP_114 @WangCai_1
+      - V1-德国01 CDN 中继 1.5x
+      - JP_15084 @WangCai_1
+      - 加拿大01|azHK|高峰期稳定
+      - 英国01|azHK|解锁流媒体
+      - 英国02|azhk|解锁流媒体
+      - 美国01|azHK|解锁流媒体
+      - ฅ^ΦωΦ^ฅ5༶ฅ^ΦωΦ^ฅ
+      - ฅ^ΦωΦ^ฅ6༶ฅ^ΦωΦ^ฅ
+      - ฅ^ΦωΦ^ฅ2༶ฅ^ΦωΦ^ฅ
+      - V1-波兰01 CDN 中继 1.5x
+      - SG_15023 @WangCai_1
+      - 台湾2-三网优化-强加密
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - V1-日本 多台负载均衡 中继D 1.5x
       - V1-香港 多台负载均衡 中继D | 2x
-      - 魔戒.net1
-      - 魔戒.net9
-      - 魔戒.net2
-      - 魔戒.net4
-      - 魔戒.net5
-      - V1-日本A组 直连 速度随缘 1x
-      - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
-      - V1-台湾 多台负载均衡 中继C 1.5x
-      - 魔戒.net3
-      - 魔戒.net8
-      - 魔戒.net7
-      - 魔戒.net6
-      - V1-美国01 中继C | 1.5x
-      - V1-俄罗斯01 中继D 1.2x
-      - 越南胡志明-三网优化
-      - V1-香港HKT02 CDN 中继 2x
-      - V1-香港HKT03 CDN 中继 2x
-      - V1-美国01 中继D | 1.5x
-      - 魔戒.net杭锅
-      - 台湾2-三网优化-强加密
-      - V1-英国01 CDN 中继 1.5x
-      - V1-德国01 CDN 中继 1.5x
-      - V1-波兰01 CDN 中继 1.5x
-      - V1-日本 多台负载均衡 中继B 1.5x
-      - V1-香港 多台负载均衡 中继A | 2x
-      - V1-香港 多台负载均衡 中继B | 2x
       - V1-台湾 多台负载均衡 中继B 1.5x
-      - V1-日本 多台负载均衡 中继A 1.5x
-      - 魔戒.net香港_R_316
-      - V1-台湾 多台负载均衡 中继A 1.5x
+      - V1-日本 多台负载均衡 中继D 1.5x
+      - SG_15015 @WangCai_1
+      - US_15014 @WangCai_1
+      - 香港02|厦门联通|高峰期稳定
+      - V1-台湾 多台负载均衡 中继C 1.5x
+      - V1-香港 多台负载均衡 中继B | 2x
+      - US_15074 @WangCai_1
+      - 日本01|厦门联通|解锁流媒体
+      - JP_134 @WangCai_1
+      - 新加坡01|azHK|解锁流媒体
+      - JP_114 @WangCai_1
+      - V1-德国01 CDN 中继 1.5x
+      - JP_15084 @WangCai_1
+      - 加拿大01|azHK|高峰期稳定
+      - 英国01|azHK|解锁流媒体
+      - 英国02|azhk|解锁流媒体
+      - 美国01|azHK|解锁流媒体
+      - ฅ^ΦωΦ^ฅ5༶ฅ^ΦωΦ^ฅ
+      - ฅ^ΦωΦ^ฅ6༶ฅ^ΦωΦ^ฅ
+      - ฅ^ΦωΦ^ฅ2༶ฅ^ΦωΦ^ฅ
+      - V1-波兰01 CDN 中继 1.5x
+      - SG_15023 @WangCai_1
+      - 台湾2-三网优化-强加密
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - V1-日本 多台负载均衡 中继D 1.5x
       - V1-香港 多台负载均衡 中继D | 2x
-      - 魔戒.net1
-      - 魔戒.net9
-      - 魔戒.net2
-      - 魔戒.net4
-      - 魔戒.net5
-      - V1-日本A组 直连 速度随缘 1x
-      - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
-      - V1-台湾 多台负载均衡 中继C 1.5x
-      - 魔戒.net3
-      - 魔戒.net8
-      - 魔戒.net7
-      - 魔戒.net6
-      - V1-美国01 中继C | 1.5x
-      - V1-俄罗斯01 中继D 1.2x
-      - 越南胡志明-三网优化
-      - V1-香港HKT02 CDN 中继 2x
-      - V1-香港HKT03 CDN 中继 2x
-      - V1-美国01 中继D | 1.5x
-      - 魔戒.net杭锅
-      - 台湾2-三网优化-强加密
-      - V1-英国01 CDN 中继 1.5x
-      - V1-德国01 CDN 中继 1.5x
-      - V1-波兰01 CDN 中继 1.5x
-      - V1-日本 多台负载均衡 中继B 1.5x
-      - V1-香港 多台负载均衡 中继A | 2x
-      - V1-香港 多台负载均衡 中继B | 2x
       - V1-台湾 多台负载均衡 中继B 1.5x
-      - V1-日本 多台负载均衡 中继A 1.5x
-      - 魔戒.net香港_R_316
-      - V1-台湾 多台负载均衡 中继A 1.5x
+      - V1-日本 多台负载均衡 中继D 1.5x
+      - SG_15015 @WangCai_1
+      - US_15014 @WangCai_1
+      - 香港02|厦门联通|高峰期稳定
+      - V1-台湾 多台负载均衡 中继C 1.5x
+      - V1-香港 多台负载均衡 中继B | 2x
+      - US_15074 @WangCai_1
+      - 日本01|厦门联通|解锁流媒体
+      - JP_134 @WangCai_1
+      - 新加坡01|azHK|解锁流媒体
+      - JP_114 @WangCai_1
+      - V1-德国01 CDN 中继 1.5x
+      - JP_15084 @WangCai_1
+      - 加拿大01|azHK|高峰期稳定
+      - 英国01|azHK|解锁流媒体
+      - 英国02|azhk|解锁流媒体
+      - 美国01|azHK|解锁流媒体
+      - ฅ^ΦωΦ^ฅ5༶ฅ^ΦωΦ^ฅ
+      - ฅ^ΦωΦ^ฅ6༶ฅ^ΦωΦ^ฅ
+      - ฅ^ΦωΦ^ฅ2༶ฅ^ΦωΦ^ฅ
+      - V1-波兰01 CDN 中继 1.5x
+      - SG_15023 @WangCai_1
+      - 台湾2-三网优化-强加密
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -345,38 +284,31 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - V1-日本 多台负载均衡 中继D 1.5x
       - V1-香港 多台负载均衡 中继D | 2x
-      - 魔戒.net1
-      - 魔戒.net9
-      - 魔戒.net2
-      - 魔戒.net4
-      - 魔戒.net5
-      - V1-日本A组 直连 速度随缘 1x
-      - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
-      - V1-台湾 多台负载均衡 中继C 1.5x
-      - 魔戒.net3
-      - 魔戒.net8
-      - 魔戒.net7
-      - 魔戒.net6
-      - V1-美国01 中继C | 1.5x
-      - V1-俄罗斯01 中继D 1.2x
-      - 越南胡志明-三网优化
-      - V1-香港HKT02 CDN 中继 2x
-      - V1-香港HKT03 CDN 中继 2x
-      - V1-美国01 中继D | 1.5x
-      - 魔戒.net杭锅
-      - 台湾2-三网优化-强加密
-      - V1-英国01 CDN 中继 1.5x
-      - V1-德国01 CDN 中继 1.5x
-      - V1-波兰01 CDN 中继 1.5x
-      - V1-日本 多台负载均衡 中继B 1.5x
-      - V1-香港 多台负载均衡 中继A | 2x
-      - V1-香港 多台负载均衡 中继B | 2x
       - V1-台湾 多台负载均衡 中继B 1.5x
-      - V1-日本 多台负载均衡 中继A 1.5x
-      - 魔戒.net香港_R_316
-      - V1-台湾 多台负载均衡 中继A 1.5x
+      - V1-日本 多台负载均衡 中继D 1.5x
+      - SG_15015 @WangCai_1
+      - US_15014 @WangCai_1
+      - 香港02|厦门联通|高峰期稳定
+      - V1-台湾 多台负载均衡 中继C 1.5x
+      - V1-香港 多台负载均衡 中继B | 2x
+      - US_15074 @WangCai_1
+      - 日本01|厦门联通|解锁流媒体
+      - JP_134 @WangCai_1
+      - 新加坡01|azHK|解锁流媒体
+      - JP_114 @WangCai_1
+      - V1-德国01 CDN 中继 1.5x
+      - JP_15084 @WangCai_1
+      - 加拿大01|azHK|高峰期稳定
+      - 英国01|azHK|解锁流媒体
+      - 英国02|azhk|解锁流媒体
+      - 美国01|azHK|解锁流媒体
+      - ฅ^ΦωΦ^ฅ5༶ฅ^ΦωΦ^ฅ
+      - ฅ^ΦωΦ^ฅ6༶ฅ^ΦωΦ^ฅ
+      - ฅ^ΦωΦ^ฅ2༶ฅ^ΦωΦ^ฅ
+      - V1-波兰01 CDN 中继 1.5x
+      - SG_15023 @WangCai_1
+      - 台湾2-三网优化-强加密
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
