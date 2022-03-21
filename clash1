@@ -5,923 +5,151 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 中国-香港 IEPL Equinix HK2 E 17, server: hk37.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 香港 油尖旺御金·国峯 網上行寬頻 E01, server: hkt01.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-法国 IPLC E05, server: fr05.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中港专线 IPLC E02 1000Mbps, server: hk02.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 日本 ソフトバンク E04 500Mbps 1x Netflix, server: jp34.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中港专线 IPLC E10 1000Mbps, server: hk10.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 日本 ソフトバンク E13 500Mbps 1x Netflix, server: jp43.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-香港 IEPL Equinix HK2 E 18, server: hk38.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-香港 IEPL Equinix HK2 E 19, server: hk39.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中港专线 IPLC E09 1000Mbps, server: hk09.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-日本 沪日IPLC传输 Equinix-TY8 E04 Netflix, server: jp16.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-香港 IEPL Equinix HK2 E 09, server: hk29.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中港专线 IPLC E20 1000Mbps, server: hk20.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 精简 49, server: 49.sapphirerapids.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 日本 ソフトバンク E18 500Mbps 1x Netflix, server: jp48.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-韩国 IEPL E 04, server: kr04.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 香港 油尖旺御金·国峯 網上行寬頻 E02, server: hkt02.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-香港 IEPL Equinix HK2 E 08, server: hk28.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 日本 ソフトバンク E15 500Mbps 1x Netflix, server: jp45.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-爱尔兰 IPLC E02, server: ir02.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-香港 IEPL Equinix HK2 E 15, server: hk35.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 香港 油尖旺御金·国峯 網上行寬頻 E09, server: hkt09.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-爱尔兰 IPLC E01, server: ir01.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-香港 IEPL Equinix HK2 E 01, server: hk21.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中港专线 IPLC E04 1000Mbps, server: hk04.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 香港D·0.6, server: b7a4e9f8.ddns.tokyo, port: 36265, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /c36b04f5-1ec5-43cb-a65c-9f3bec43fc67, ws-headers: {Host: health.jd.com}, udp: true}
-  - {name: 中港专线 IPLC E11 1000Mbps, server: hk11.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-香港 IEPL Equinix HK2 E 10, server: hk30.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中港专线 IPLC E06 1000Mbps, server: hk06.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 香港 油尖旺御金·国峯 香港寬頻 E08, server: hkbn08.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 狮城A·0.2, server: 0423f8f0.ddns.tokyo, port: 24367, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /e173dd13-6f88-45ab-a175-eb072135c69e, ws-headers: {Host: wt.jd.com}, udp: true}
-  - {name: 香港 油尖旺御金·国峯 香港寬頻 E10, server: hkbn10.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中港专线 IPLC E12 1000Mbps, server: hk12.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 日本 ソフトバンク E16 500Mbps 1x Netflix, server: jp46.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 日本A·2.0, server: 0423f8f0.ddns.tokyo, port: 17430, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aa203b49-c78b-4397-987e-393d4ad0f2de, ws-headers: {Host: help.jd.com}, udp: true}
-  - {name: 中国-香港 IEPL Equinix HK2 E 13, server: hk33.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中港专线 IPLC E03 1000Mbps, server: hk03.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 香港 油尖旺御金·国峯 香港寬頻 E02, server: hkbn02.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 香港 油尖旺御金·国峯 香港寬頻 E07, server: hkbn07.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-日本 沪日IPLC传输 Equinix-TY8 E05 Netflix, server: jp17.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中港专线 IPLC E05 1000Mbps, server: hk05.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中港专线 IPLC E14 1000Mbps, server: hk14.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-香港 IEPL Equinix HK2 E 03, server: hk23.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 香港 油尖旺御金·国峯 香港寬頻 E01, server: hkbn01.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 日本 ソフトバンク E17 500Mbps 1x Netflix, server: jp47.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 狮城B·0.2, server: 0423f8f0.ddns.tokyo, port: 24591, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ab22b4c7-8336-4f2c-8ad4-60221bcd6d41, ws-headers: {Host: login.taobao.com}, udp: true}
-  - {name: 中国-香港 IEPL Equinix HK2 E 06, server: hk26.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 日本 まつやまし auひかり ホーム1ギガ E 02, server: jp20.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 香港 油尖旺御金·国峯 香港寬頻 E06, server: hkbn06.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-日本 沪日IEPL传输 Equinix-TY8 E01 Netflix, server: jp01.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-香港 IEPL Equinix HK2 E 11, server: hk31.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中港专线 IPLC E01 1000Mbps, server: hk01.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 精简 46, server: 46.sapphirerapids.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 香港 油尖旺御金·国峯 香港寬頻 E09, server: hkbn09.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中港专线 IPLC E18 1000Mbps, server: hk18.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 台湾B·0.6, server: 864e2e1a.ddns.tokyo, port: 57551, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /a18dfead-19ca-4e34-bcdf-fc15a17f9682, ws-headers: {Host: order.jd.com}, udp: true}
-  - {name: 香港 油尖旺御金·国峯 網上行寬頻 E06, server: hkt06.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 菲律宾A·3.0, server: 213bf07d.ddns.tokyo, port: 61610, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /f92f7ec6-c549-4eec-b1b0-a5e292c85860, ws-headers: {Host: news.qq.com}, udp: true}
-  - {name: 中国-香港 IEPL Equinix HK2 E 16, server: hk36.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中港专线 IPLC E08 1000Mbps, server: hk08.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 香港 油尖旺御金·国峯 網上行寬頻 E08, server: hkt08.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 香港B·1.0, server: b7a4e9f8.ddns.tokyo, port: 17905, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /b9ef321b-7f40-4417-a919-e593060769fa, ws-headers: {Host: ir.bilibili.com}, udp: true}
-  - {name: 香港C·1.0, server: b7a4e9f8.ddns.tokyo, port: 24564, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /b555d4e3-0ffa-4e01-818f-23bc41eeb168, ws-headers: {Host: lol.qq.com}, udp: true}
-  - {name: 中港专线 IPLC E16 1000Mbps, server: hk16.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-日本 沪日IEPL传输 Equinix-TY8 E09 Netflix, server: jp09.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 日本 ソフトバンク E11 500Mbps 1x Netflix, server: jp41.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 日本 まつやまし auひかり ホーム1ギガ E 01, server: jp19.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 香港F·2.0, server: 72c6f7e1.ddns.tokyo, port: 31104, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /c0a1687d-197a-4f56-8fd6-dabe74e514c5, ws-headers: {Host: www.tmall.com}, udp: true}
-  - {name: 中国-香港 IEPL Equinix HK2 E 12, server: hk32.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中港专线 IPLC E13 1000Mbps, server: hk13.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中港专线 IPLC E17 1000Mbps, server: hk17.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-香港 IEPL Equinix HK2 E 20, server: hk40.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 日本 まつやまし auひかり ホーム1ギガ E 08, server: jp26.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-香港 IEPL Equinix HK2 E 02, server: hk22.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 香港 油尖旺御金·国峯 網上行寬頻 E10, server: hkt10.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-日本 沪日IEPL传输 Equinix-TY8 E06 Netflix, server: jp06.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 日本 ソフトバンク E07 500Mbps 1x Netflix, server: jp37.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 日本 まつやまし auひかり ホーム1ギガ E 10, server: jp28.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-法国 IPLC E04, server: fr04.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中港专线 IPLC E15 1000Mbps, server: hk15.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 日本 ソフトバンク E14 500Mbps 1x Netflix, server: jp44.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 韩国 전라북도 전주시 商宽 E 08, server: kr18.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-台湾 IEPL HiNet固接 E03 Netflix 动画疯, server: tw03.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中港专线 IPLC E07 1000Mbps, server: hk07.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 日本 ソフトバンク E12 500Mbps 1x Netflix, server: jp42.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 日本 まつやまし auひかり ホーム1ギガ E 12, server: jp30.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 香港 油尖旺御金·国峯 香港寬頻 E04, server: hkbn04.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 日本 ソフトバンク E06 500Mbps 1x Netflix, server: jp36.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 香港 油尖旺御金·国峯 香港寬頻 E05, server: hkbn05.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-法国 IPLC E03, server: fr03.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-日本 沪日IEPL传输 Equinix-TY8 E05 Netflix, server: jp05.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 日本 ソフトバンク E10 500Mbps 1x Netflix, server: jp40.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 精简 42, server: 42.sapphirerapids.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-香港 IEPL Equinix HK2 E 14, server: hk34.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 日本 まつやまし auひかり ホーム1ギガ E 09, server: jp27.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 香港 油尖旺御金·国峯 香港寬頻 E03, server: hkbn03.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 香港 油尖旺御金·国峯 網上行寬頻 E07, server: hkt07.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-台湾 IPLC HiNet固接 E10 Netflix 动画疯, server: tw20.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 日本 ソフトバンク E05 500Mbps 1x Netflix, server: jp35.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-台湾 IEPL HiNet固接 E08 Netflix 动画疯, server: tw08.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-韩国 IEPL E 07, server: kr07.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 日本 ソフトバンク E03 500Mbps 1x Netflix, server: jp33.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-印度 班加罗尔 एयरटेल IPLC E01, server: in01.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-日本 沪日IEPL传输 Equinix-TY8 E07 Netflix, server: jp07.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-韩国 IEPL E 10, server: kr10.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 日本 まつやまし auひかり ホーム1ギガ E 04, server: jp22.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 日本 ソフトバンク E02 500Mbps 1x Netflix, server: jp32.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 日本 まつやまし auひかり ホーム1ギガ E 07, server: jp25.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 香港A·1.0, server: b7a4e9f8.ddns.tokyo, port: 10892, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /aca87d77-49b1-4944-a561-48f73ca73c85, ws-headers: {Host: phat.jd.com}, udp: true}
-  - {name: 中国-印度 班加罗尔 एयरटेल IPLC E03, server: in03.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 日本 ソフトバンク E08 500Mbps 1x Netflix, server: jp38.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-香港 IEPL Equinix HK2 E 04, server: hk24.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中港专线 IPLC E19 1000Mbps, server: hk19.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 精简 47, server: 47.sapphirerapids.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-日本 沪日IEPL传输 Equinix-TY8 E02 Netflix, server: jp02.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-韩国 IEPL E 09, server: kr09.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 日本 まつやまし auひかり ホーム1ギガ E 11, server: jp29.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 韩国 전라북도 전주시 商宽 E 01, server: kr11.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 韩国 전라북도 전주시 商宽 E 05, server: kr15.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-韩国 IEPL E 01, server: kr01.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 日本 ソフトバンク E09 500Mbps 1x Netflix, server: jp39.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 韩国A·1.0, server: 9c29ba40.ddns.tokyo, port: 46392, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /4b5b24ac-ddf3-42fd-a715-7bb5a6e3d59a, ws-headers: {Host: mail.qq.com}, udp: true}
-  - {name: 中国-日本 沪日IEPL传输 Equinix-TY8 E11 Netflix, server: jp11.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-日本 沪日IPLC传输 Equinix-TY8 E06 Netflix, server: jp18.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 香港 油尖旺御金·国峯 網上行寬頻 E05, server: hkt05.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-日本 沪日IEPL传输 Equinix-TY8 E08 Netflix, server: jp08.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-日本 沪日IEPL传输 Equinix-TY8 E04 Netflix, server: jp04.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 悉尼A·0.2, server: 0423f8f0.ddns.tokyo, port: 43007, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /05d1d979-3f25-4c88-bf50-cc3b0ce8de8f, ws-headers: {Host: www.zhihu.com}, udp: true}
-  - {name: 日本 まつやまし auひかり ホーム1ギガ E 05, server: jp23.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-印度 班加罗尔 एयरटेल IPLC E02, server: in02.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 韩国 전라북도 전주시 商宽 E 04, server: kr14.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 韩国 전라북도 전주시 商宽 E 02, server: kr12.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-韩国 IEPL E 05, server: kr05.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-韩国 IEPL E 08, server: kr08.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 韩国 전라북도 전주시 商宽 E 10, server: kr20.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-印度 班加罗尔 एयरटेल IPLC E08, server: in08.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 精简 43, server: 43.sapphirerapids.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 韩国 전라북도 전주시 商宽 E 03, server: kr13.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-印度 班加罗尔 एयरटेल IPLC E07, server: in07.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 韩国 전라북도 전주시 商宽 E 09, server: kr19.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-印度 班加罗尔 एयरटेल IPLC E06, server: in06.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-台湾 IEPL HiNet固接 E02 Netflix 动画疯, server: tw02.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-爱尔兰 IPLC E05, server: ir05.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 日本 ソフトバンク E01 500Mbps 1x Netflix, server: jp31.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-韩国 IEPL E 02, server: kr02.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 美国A·0.1, server: 213bf07d.ddns.tokyo, port: 56078, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /f0734828-f0ee-490c-bfe3-afca58296442, ws-headers: {Host: live.bilibili.com}, udp: true}
-  - {name: 中国-台湾 IPLC HiNet固接 E05 Netflix 动画疯, server: tw15.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-韩国 IEPL E 03, server: kr03.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-台湾宜兰 IPLC E06, server: tw26.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 香港E·2.0, server: 72c6f7e1.ddns.tokyo, port: 59075, type: ss, cipher: chacha20-ietf-poly1305, password: YQx0Ht, udp: true}
-  - {name: 中国-台湾 IPLC HiNet固接 E04 Netflix 动画疯, server: tw14.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-台湾宜兰 IPLC E03, server: tw23.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-日本 沪日IEPL传输 Equinix-TY8 E12 Netflix, server: jp12.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 日本B·1.0, server: 9c29ba40.ddns.tokyo, port: 43866, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ab34ee0a-1d02-4ed4-9194-47852f7848ec, ws-headers: {Host: browser.360.cn}, udp: true}
-  - {name: 中国-台湾 IEPL HiNet固接 E04 Netflix 动画疯, server: tw04.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-台湾 IEPL HiNet固接 E09 Netflix 动画疯, server: tw09.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 精简 50, server: 50.sapphirerapids.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 精简 44, server: 44.sapphirerapids.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-日本 沪日IEPL传输 Equinix-TY8 E03 Netflix, server: jp03.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-台湾 IEPL HiNet固接 E10 Netflix 动画疯, server: tw10.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-台湾宜兰 IPLC E08, server: tw28.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 美国B·0.1, server: 213bf07d.ddns.tokyo, port: 24016, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /42bc5912-b6fc-4f93-852a-f6297652c45d, ws-headers: {Host: news.baidu.com}, udp: true}
-  - {name: 中国-日本 沪日IPLC传输 Equinix-TY8 E01 Netflix, server: jp13.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 精简 45, server: 45.sapphirerapids.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 香港 油尖旺御金·国峯 網上行寬頻 E03, server: hkt03.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-台湾宜兰 IPLC E02, server: tw22.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 精简 41, server: 41.sapphirerapids.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-台湾 IPLC HiNet固接 E06 Netflix 动画疯, server: tw16.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 美国实验性 IEPL 中继 E04, server: us09.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 日本 まつやまし auひかり ホーム1ギガ E 06, server: jp24.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 美国高级 IEPL 中继 E02, server: us02.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-日本 沪日IEPL传输 Equinix-TY8 E10 Netflix, server: jp10.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-日本 沪日IPLC传输 Equinix-TY8 E02 Netflix, server: jp14.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-台湾宜兰 IPLC E09, server: tw29.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-日本 沪日IPLC传输 Equinix-TY8 E03 Netflix, server: jp15.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 美国高级 IEPL 中继 E04, server: us04.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 韩国 전라북도 전주시 商宽 E 07, server: kr17.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-韩国 IEPL E 06, server: kr06.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 韩国 전라북도 전주시 商宽 E 06, server: kr16.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 日本 まつやまし auひかり ホーム1ギガ E 03, server: jp21.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 阿根廷A·1.0, server: 9c29ba40.ddns.tokyo, port: 50452, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /721b6fe6-81d7-4f51-a50b-67fac8efb6d4, ws-headers: {Host: myjd.jd.com}, udp: true}
-  - {name: 精简 48, server: 48.sapphirerapids.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-印度 班加罗尔 एयरटेल IPLC E05, server: in05.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 美国实验性 IEPL 中继 E05, server: us10.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 美国实验性 IEPL 中继 E03, server: us08.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-印度 班加罗尔 एयरटेल IPLC E04, server: in04.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-台湾 IPLC HiNet固接 E02 Netflix 动画疯, server: tw12.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 美国C·0.5, server: 213bf07d.ddns.tokyo, port: 17991, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ea12ad5f-3db6-4307-b208-0cb3cee6bd16, ws-headers: {Host: lol.qq.com}, udp: true}
-  - {name: 台湾A·1.0, server: 864e2e1a.ddns.tokyo, port: 35030, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /e4b098a0-9095-4364-b5c7-c480040e1cc8, ws-headers: {Host: manga.bilibili.com}, udp: true}
-  - {name: 美国高级 IEPL 中继 E05, server: us05.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 伦敦A·0.2, server: 0423f8f0.ddns.tokyo, port: 18760, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /b518a1a3-898a-4a20-99a7-74246519adf7, ws-headers: {Host: vip.jd.com}, udp: true}
-  - {name: 俄罗斯 04, server: ru04.serenazuma.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 美国高级 IEPL 中继 E01, server: us01.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 美国实验性 IEPL 中继 E01, server: us06.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-澳大利亚 IPLC 悉尼 E05, server: au05.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 新加坡 Legacy Magic IEPL 中继 E01 Netflix, server: sgp01.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 美国实验性 IEPL 中继 E02, server: us07.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 美国高级 IEPL 中继 E03, server: us03.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-澳大利亚 IPLC 悉尼 E04, server: au04.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 俄罗斯 02, server: ru02.serenazuma.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 土耳其A·1.0, server: 864e2e1a.ddns.tokyo, port: 42727, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /d0810c7f-ae6a-4a50-aeec-5398a9f545a6, ws-headers: {Host: image.baidu.com}, udp: true}
-  - {name: 中国-台湾 IEPL HiNet固接 E05 Netflix 动画疯, server: tw05.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 新加坡 Legacy Magic IEPL 中继 E04 Netflix, server: sgp04.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 俄罗斯A·0.5, server: 864e2e1a.ddns.tokyo, port: 39696, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /bd028c97-07e5-4a5d-a4f7-445efd56be1f, ws-headers: {Host: weibo.com}, udp: true}
-  - {name: 中国-台湾 IEPL HiNet固接 E07 Netflix 动画疯, server: tw07.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 新加坡 Magic IEPL 中继 E01 Netflix, server: sgp06.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 印度A·2.0, server: 864e2e1a.ddns.tokyo, port: 22713, type: vmess, uuid: 8484b0a8-ab51-34a9-8ee0-cc166408c690, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /b7bf8ebd-ed03-4759-8481-d781b7c371b8, ws-headers: {Host: lol.qq.com}, udp: true}
-  - {name: 中国-加拿大 IPLC E04, server: ca04.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-澳大利亚 IPLC 悉尼 E03, server: au03.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-台湾宜兰 IPLC E05, server: tw25.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-台湾 IEPL HiNet固接 E06 Netflix 动画疯, server: tw06.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-台湾 IPLC HiNet固接 E03 Netflix 动画疯, server: tw13.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-澳大利亚 IPLC 悉尼 E02, server: au02.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 新加坡 Magic IEPL 中继 E04 Netflix, server: sgp09.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-澳大利亚 IPLC 悉尼 E01, server: au01.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-台湾 IPLC HiNet固接 E08 Netflix 动画疯, server: tw18.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-加拿大 IPLC E02, server: ca02.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-台湾宜兰 IPLC E10, server: tw30.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-加拿大 IPLC E05, server: ca05.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-加拿大 IPLC E03, server: ca03.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 新加坡 Legacy Magic IEPL 中继 E03 Netflix, server: sgp03.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 中国-加拿大 IPLC E01, server: ca01.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: 新加坡 Magic IEPL 中继 E05 Netflix, server: sgp10.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: imkcp白嫖, server: 104.24.34.233, port: 443, type: vmess, uuid: 1c8f1d5c-c9b1-46be-d034-c649b006b15d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: kcpblog.tk}, udp: true}
-  - {name: 中国-台湾宜兰 IPLC E01, server: tw21.advancedvectorextensions.com, port: 14328, type: ssr, cipher: rc4-md5, password: eHy72n, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
+  - {name: V1-日本 多台负载均衡 中继D 1.5x, server: in04.dns2333.xyz, port: 64086, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: jp-balancer.myn1des.com}, udp: true}
+  - {name: V1-香港 多台负载均衡 中继D | 2x, server: in04.dns2333.xyz, port: 64078, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
+  - {name: 魔戒.net1, server: cn05.mynode.me, port: 8125, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
+  - {name: 魔戒.net9, server: cn03.mynode.me, port: 8112, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
+  - {name: 魔戒.net2, server: cn05.mynode.me, port: 8121, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
+  - {name: 魔戒.net4, server: cn03.mynode.me, port: 8114, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
+  - {name: 魔戒.net5, server: cn05.mynode.me, port: 8124, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
+  - {name: V1-日本A组 直连 速度随缘 1x, server: jp-group-a-direct.node001.xyz, port: 8880, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: new.vip.weibo.cn}, udp: true}
+  - {name: 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan, server: jgwdj1.gaox.ml, port: 443, type: trojan, password: e8553fc5-f3a0-409c-ac06-1cd93b026cf4, sni: jgwdj1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: V1-台湾 多台负载均衡 中继C 1.5x, server: in03.dns2333.xyz, port: 64088, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: cdn.bootcdn.net}, udp: true}
+  - {name: 魔戒.net3, server: cn02.mynode.me, port: 8107, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
+  - {name: 魔戒.net8, server: cn02.mynode.me, port: 8108, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
+  - {name: 魔戒.net7, server: cn05.mynode.me, port: 8123, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
+  - {name: 魔戒.net6, server: cn02.mynode.me, port: 8110, type: ssr, cipher: rc4-md5, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 24451-EtQwZz5m.download.microsoft.com, udp: true}
+  - {name: V1-美国01 中继C | 1.5x, server: in03.dns2333.xyz, port: 64014, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: biteb-us01.covid19.rip}, udp: true}
+  - {name: V1-俄罗斯01 中继D 1.2x, server: in04.dns2333.xyz, port: 64071, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: biteb-ru01.myn1des.com}, udp: true}
+  - {name: 越南胡志明-三网优化, server: 0319hzm01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nmsl, ws-headers: {Host: 0319hzm01.fans8.xyz}, udp: true}
+  - {name: V1-香港HKT02 CDN 中继 2x, server: in05.dns2333.xyz, port: 64081, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hkt2-cdn.tencent.best}, udp: true}
+  - {name: V1-香港HKT03 CDN 中继 2x, server: in05.dns2333.xyz, port: 64082, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hkt3-cdn.tencent.best}, udp: true}
+  - {name: V1-美国01 中继D | 1.5x, server: in04.dns2333.xyz, port: 64014, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: biteb-us01.covid19.rip}, udp: true}
+  - {name: 魔戒.net杭锅, server: 141.164.39.146, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 台湾2-三网优化-强加密, server: 0314tw02.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0314tw02.fans8.xyz}, udp: true}
+  - {name: V1-英国01 CDN 中继 1.5x, server: in05.dns2333.xyz, port: 64021, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: uk01-cdn.airport-v2.com}, udp: true}
+  - {name: V1-德国01 CDN 中继 1.5x, server: in05.dns2333.xyz, port: 64084, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: de01-cdn.airport-v2.com}, udp: true}
+  - {name: V1-波兰01 CDN 中继 1.5x, server: in05.dns2333.xyz, port: 64077, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: pl01-cdn.myn0des.com}, udp: true}
+  - {name: V1-日本 多台负载均衡 中继B 1.5x, server: in02.dns2333.xyz, port: 64086, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: jp-balancer.myn1des.com}, udp: true}
+  - {name: V1-香港 多台负载均衡 中继A | 2x, server: in01.dns2333.xyz, port: 64078, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
+  - {name: V1-香港 多台负载均衡 中继B | 2x, server: in02.dns2333.xyz, port: 64078, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
+  - {name: V1-台湾 多台负载均衡 中继B 1.5x, server: in02.dns2333.xyz, port: 64088, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: cdn.bootcdn.net}, udp: true}
+  - {name: V1-日本 多台负载均衡 中继A 1.5x, server: in01.dns2333.xyz, port: 64086, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: jp-balancer.myn1des.com}, udp: true}
+  - {name: 魔戒.net香港_R_316, server: iepl-gz.yyuuii.cyou, port: 10804, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: V1-台湾 多台负载均衡 中继A 1.5x, server: in01.dns2333.xyz, port: 64088, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: cdn.bootcdn.net}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中国-香港 IEPL Equinix HK2 E 17
-      - 香港 油尖旺御金·国峯 網上行寬頻 E01
-      - 中国-法国 IPLC E05
-      - 中港专线 IPLC E02 1000Mbps
-      - 日本 ソフトバンク E04 500Mbps 1x Netflix
-      - 中港专线 IPLC E10 1000Mbps
-      - 日本 ソフトバンク E13 500Mbps 1x Netflix
-      - 中国-香港 IEPL Equinix HK2 E 18
-      - 中国-香港 IEPL Equinix HK2 E 19
-      - 中港专线 IPLC E09 1000Mbps
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E04 Netflix
-      - 中国-香港 IEPL Equinix HK2 E 09
-      - 中港专线 IPLC E20 1000Mbps
-      - 精简 49
-      - 日本 ソフトバンク E18 500Mbps 1x Netflix
-      - 中国-韩国 IEPL E 04
-      - 香港 油尖旺御金·国峯 網上行寬頻 E02
-      - 中国-香港 IEPL Equinix HK2 E 08
-      - 日本 ソフトバンク E15 500Mbps 1x Netflix
-      - 中国-爱尔兰 IPLC E02
-      - 中国-香港 IEPL Equinix HK2 E 15
-      - 香港 油尖旺御金·国峯 網上行寬頻 E09
-      - 中国-爱尔兰 IPLC E01
-      - 中国-香港 IEPL Equinix HK2 E 01
-      - 中港专线 IPLC E04 1000Mbps
-      - 香港D·0.6
-      - 中港专线 IPLC E11 1000Mbps
-      - 中国-香港 IEPL Equinix HK2 E 10
-      - 中港专线 IPLC E06 1000Mbps
-      - 香港 油尖旺御金·国峯 香港寬頻 E08
-      - 狮城A·0.2
-      - 香港 油尖旺御金·国峯 香港寬頻 E10
-      - 中港专线 IPLC E12 1000Mbps
-      - 日本 ソフトバンク E16 500Mbps 1x Netflix
-      - 日本A·2.0
-      - 中国-香港 IEPL Equinix HK2 E 13
-      - 中港专线 IPLC E03 1000Mbps
-      - 香港 油尖旺御金·国峯 香港寬頻 E02
-      - 香港 油尖旺御金·国峯 香港寬頻 E07
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E05 Netflix
-      - 中港专线 IPLC E05 1000Mbps
-      - 中港专线 IPLC E14 1000Mbps
-      - 中国-香港 IEPL Equinix HK2 E 03
-      - 香港 油尖旺御金·国峯 香港寬頻 E01
-      - 日本 ソフトバンク E17 500Mbps 1x Netflix
-      - 狮城B·0.2
-      - 中国-香港 IEPL Equinix HK2 E 06
-      - 日本 まつやまし auひかり ホーム1ギガ E 02
-      - 香港 油尖旺御金·国峯 香港寬頻 E06
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E01 Netflix
-      - 中国-香港 IEPL Equinix HK2 E 11
-      - 中港专线 IPLC E01 1000Mbps
-      - 精简 46
-      - 香港 油尖旺御金·国峯 香港寬頻 E09
-      - 中港专线 IPLC E18 1000Mbps
-      - 台湾B·0.6
-      - 香港 油尖旺御金·国峯 網上行寬頻 E06
-      - 菲律宾A·3.0
-      - 中国-香港 IEPL Equinix HK2 E 16
-      - 中港专线 IPLC E08 1000Mbps
-      - 香港 油尖旺御金·国峯 網上行寬頻 E08
-      - 香港B·1.0
-      - 香港C·1.0
-      - 中港专线 IPLC E16 1000Mbps
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E09 Netflix
-      - 日本 ソフトバンク E11 500Mbps 1x Netflix
-      - 日本 まつやまし auひかり ホーム1ギガ E 01
-      - 香港F·2.0
-      - 中国-香港 IEPL Equinix HK2 E 12
-      - 中港专线 IPLC E13 1000Mbps
-      - 中港专线 IPLC E17 1000Mbps
-      - 中国-香港 IEPL Equinix HK2 E 20
-      - 日本 まつやまし auひかり ホーム1ギガ E 08
-      - 中国-香港 IEPL Equinix HK2 E 02
-      - 香港 油尖旺御金·国峯 網上行寬頻 E10
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E06 Netflix
-      - 日本 ソフトバンク E07 500Mbps 1x Netflix
-      - 日本 まつやまし auひかり ホーム1ギガ E 10
-      - 中国-法国 IPLC E04
-      - 中港专线 IPLC E15 1000Mbps
-      - 日本 ソフトバンク E14 500Mbps 1x Netflix
-      - 韩国 전라북도 전주시 商宽 E 08
-      - 中国-台湾 IEPL HiNet固接 E03 Netflix 动画疯
-      - 中港专线 IPLC E07 1000Mbps
-      - 日本 ソフトバンク E12 500Mbps 1x Netflix
-      - 日本 まつやまし auひかり ホーム1ギガ E 12
-      - 香港 油尖旺御金·国峯 香港寬頻 E04
-      - 日本 ソフトバンク E06 500Mbps 1x Netflix
-      - 香港 油尖旺御金·国峯 香港寬頻 E05
-      - 中国-法国 IPLC E03
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E05 Netflix
-      - 日本 ソフトバンク E10 500Mbps 1x Netflix
-      - 精简 42
-      - 中国-香港 IEPL Equinix HK2 E 14
-      - 日本 まつやまし auひかり ホーム1ギガ E 09
-      - 香港 油尖旺御金·国峯 香港寬頻 E03
-      - 香港 油尖旺御金·国峯 網上行寬頻 E07
-      - 中国-台湾 IPLC HiNet固接 E10 Netflix 动画疯
-      - 日本 ソフトバンク E05 500Mbps 1x Netflix
-      - 中国-台湾 IEPL HiNet固接 E08 Netflix 动画疯
-      - 中国-韩国 IEPL E 07
-      - 日本 ソフトバンク E03 500Mbps 1x Netflix
-      - 中国-印度 班加罗尔 एयरटेल IPLC E01
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E07 Netflix
-      - 中国-韩国 IEPL E 10
-      - 日本 まつやまし auひかり ホーム1ギガ E 04
-      - 日本 ソフトバンク E02 500Mbps 1x Netflix
-      - 日本 まつやまし auひかり ホーム1ギガ E 07
-      - 香港A·1.0
-      - 中国-印度 班加罗尔 एयरटेल IPLC E03
-      - 日本 ソフトバンク E08 500Mbps 1x Netflix
-      - 中国-香港 IEPL Equinix HK2 E 04
-      - 中港专线 IPLC E19 1000Mbps
-      - 精简 47
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E02 Netflix
-      - 中国-韩国 IEPL E 09
-      - 日本 まつやまし auひかり ホーム1ギガ E 11
-      - 韩国 전라북도 전주시 商宽 E 01
-      - 韩国 전라북도 전주시 商宽 E 05
-      - 中国-韩国 IEPL E 01
-      - 日本 ソフトバンク E09 500Mbps 1x Netflix
-      - 韩国A·1.0
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E11 Netflix
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E06 Netflix
-      - 香港 油尖旺御金·国峯 網上行寬頻 E05
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E08 Netflix
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E04 Netflix
-      - 悉尼A·0.2
-      - 日本 まつやまし auひかり ホーム1ギガ E 05
-      - 中国-印度 班加罗尔 एयरटेल IPLC E02
-      - 韩国 전라북도 전주시 商宽 E 04
-      - 韩国 전라북도 전주시 商宽 E 02
-      - 中国-韩国 IEPL E 05
-      - 中国-韩国 IEPL E 08
-      - 韩国 전라북도 전주시 商宽 E 10
-      - 中国-印度 班加罗尔 एयरटेल IPLC E08
-      - 精简 43
-      - 韩国 전라북도 전주시 商宽 E 03
-      - 中国-印度 班加罗尔 एयरटेल IPLC E07
-      - 韩国 전라북도 전주시 商宽 E 09
-      - 中国-印度 班加罗尔 एयरटेल IPLC E06
-      - 中国-台湾 IEPL HiNet固接 E02 Netflix 动画疯
-      - 中国-爱尔兰 IPLC E05
-      - 日本 ソフトバンク E01 500Mbps 1x Netflix
-      - 中国-韩国 IEPL E 02
-      - 美国A·0.1
-      - 中国-台湾 IPLC HiNet固接 E05 Netflix 动画疯
-      - 中国-韩国 IEPL E 03
-      - 中国-台湾宜兰 IPLC E06
-      - 香港E·2.0
-      - 中国-台湾 IPLC HiNet固接 E04 Netflix 动画疯
-      - 中国-台湾宜兰 IPLC E03
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E12 Netflix
-      - 日本B·1.0
-      - 中国-台湾 IEPL HiNet固接 E04 Netflix 动画疯
-      - 中国-台湾 IEPL HiNet固接 E09 Netflix 动画疯
-      - 精简 50
-      - 精简 44
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E03 Netflix
-      - 中国-台湾 IEPL HiNet固接 E10 Netflix 动画疯
-      - 中国-台湾宜兰 IPLC E08
-      - 美国B·0.1
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E01 Netflix
-      - 精简 45
-      - 香港 油尖旺御金·国峯 網上行寬頻 E03
-      - 中国-台湾宜兰 IPLC E02
-      - 精简 41
-      - 中国-台湾 IPLC HiNet固接 E06 Netflix 动画疯
-      - 美国实验性 IEPL 中继 E04
-      - 日本 まつやまし auひかり ホーム1ギガ E 06
-      - 美国高级 IEPL 中继 E02
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E10 Netflix
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E02 Netflix
-      - 中国-台湾宜兰 IPLC E09
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E03 Netflix
-      - 美国高级 IEPL 中继 E04
-      - 韩国 전라북도 전주시 商宽 E 07
-      - 中国-韩国 IEPL E 06
-      - 韩国 전라북도 전주시 商宽 E 06
-      - 日本 まつやまし auひかり ホーム1ギガ E 03
-      - 阿根廷A·1.0
-      - 精简 48
-      - 中国-印度 班加罗尔 एयरटेल IPLC E05
-      - 美国实验性 IEPL 中继 E05
-      - 美国实验性 IEPL 中继 E03
-      - 中国-印度 班加罗尔 एयरटेल IPLC E04
-      - 中国-台湾 IPLC HiNet固接 E02 Netflix 动画疯
-      - 美国C·0.5
-      - 台湾A·1.0
-      - 美国高级 IEPL 中继 E05
-      - 伦敦A·0.2
-      - 俄罗斯 04
-      - 美国高级 IEPL 中继 E01
-      - 美国实验性 IEPL 中继 E01
-      - 中国-澳大利亚 IPLC 悉尼 E05
-      - 新加坡 Legacy Magic IEPL 中继 E01 Netflix
-      - 美国实验性 IEPL 中继 E02
-      - 美国高级 IEPL 中继 E03
-      - 中国-澳大利亚 IPLC 悉尼 E04
-      - 俄罗斯 02
-      - 土耳其A·1.0
-      - 中国-台湾 IEPL HiNet固接 E05 Netflix 动画疯
-      - 新加坡 Legacy Magic IEPL 中继 E04 Netflix
-      - 俄罗斯A·0.5
-      - 中国-台湾 IEPL HiNet固接 E07 Netflix 动画疯
-      - 新加坡 Magic IEPL 中继 E01 Netflix
-      - 印度A·2.0
-      - 中国-加拿大 IPLC E04
-      - 中国-澳大利亚 IPLC 悉尼 E03
-      - 中国-台湾宜兰 IPLC E05
-      - 中国-台湾 IEPL HiNet固接 E06 Netflix 动画疯
-      - 中国-台湾 IPLC HiNet固接 E03 Netflix 动画疯
-      - 中国-澳大利亚 IPLC 悉尼 E02
-      - 新加坡 Magic IEPL 中继 E04 Netflix
-      - 中国-澳大利亚 IPLC 悉尼 E01
-      - 中国-台湾 IPLC HiNet固接 E08 Netflix 动画疯
-      - 中国-加拿大 IPLC E02
-      - 中国-台湾宜兰 IPLC E10
-      - 中国-加拿大 IPLC E05
-      - 中国-加拿大 IPLC E03
-      - 新加坡 Legacy Magic IEPL 中继 E03 Netflix
-      - 中国-加拿大 IPLC E01
-      - 新加坡 Magic IEPL 中继 E05 Netflix
-      - imkcp白嫖
-      - 中国-台湾宜兰 IPLC E01
+      - V1-日本 多台负载均衡 中继D 1.5x
+      - V1-香港 多台负载均衡 中继D | 2x
+      - 魔戒.net1
+      - 魔戒.net9
+      - 魔戒.net2
+      - 魔戒.net4
+      - 魔戒.net5
+      - V1-日本A组 直连 速度随缘 1x
+      - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
+      - V1-台湾 多台负载均衡 中继C 1.5x
+      - 魔戒.net3
+      - 魔戒.net8
+      - 魔戒.net7
+      - 魔戒.net6
+      - V1-美国01 中继C | 1.5x
+      - V1-俄罗斯01 中继D 1.2x
+      - 越南胡志明-三网优化
+      - V1-香港HKT02 CDN 中继 2x
+      - V1-香港HKT03 CDN 中继 2x
+      - V1-美国01 中继D | 1.5x
+      - 魔戒.net杭锅
+      - 台湾2-三网优化-强加密
+      - V1-英国01 CDN 中继 1.5x
+      - V1-德国01 CDN 中继 1.5x
+      - V1-波兰01 CDN 中继 1.5x
+      - V1-日本 多台负载均衡 中继B 1.5x
+      - V1-香港 多台负载均衡 中继A | 2x
+      - V1-香港 多台负载均衡 中继B | 2x
+      - V1-台湾 多台负载均衡 中继B 1.5x
+      - V1-日本 多台负载均衡 中继A 1.5x
+      - 魔戒.net香港_R_316
+      - V1-台湾 多台负载均衡 中继A 1.5x
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 中国-香港 IEPL Equinix HK2 E 17
-      - 香港 油尖旺御金·国峯 網上行寬頻 E01
-      - 中国-法国 IPLC E05
-      - 中港专线 IPLC E02 1000Mbps
-      - 日本 ソフトバンク E04 500Mbps 1x Netflix
-      - 中港专线 IPLC E10 1000Mbps
-      - 日本 ソフトバンク E13 500Mbps 1x Netflix
-      - 中国-香港 IEPL Equinix HK2 E 18
-      - 中国-香港 IEPL Equinix HK2 E 19
-      - 中港专线 IPLC E09 1000Mbps
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E04 Netflix
-      - 中国-香港 IEPL Equinix HK2 E 09
-      - 中港专线 IPLC E20 1000Mbps
-      - 精简 49
-      - 日本 ソフトバンク E18 500Mbps 1x Netflix
-      - 中国-韩国 IEPL E 04
-      - 香港 油尖旺御金·国峯 網上行寬頻 E02
-      - 中国-香港 IEPL Equinix HK2 E 08
-      - 日本 ソフトバンク E15 500Mbps 1x Netflix
-      - 中国-爱尔兰 IPLC E02
-      - 中国-香港 IEPL Equinix HK2 E 15
-      - 香港 油尖旺御金·国峯 網上行寬頻 E09
-      - 中国-爱尔兰 IPLC E01
-      - 中国-香港 IEPL Equinix HK2 E 01
-      - 中港专线 IPLC E04 1000Mbps
-      - 香港D·0.6
-      - 中港专线 IPLC E11 1000Mbps
-      - 中国-香港 IEPL Equinix HK2 E 10
-      - 中港专线 IPLC E06 1000Mbps
-      - 香港 油尖旺御金·国峯 香港寬頻 E08
-      - 狮城A·0.2
-      - 香港 油尖旺御金·国峯 香港寬頻 E10
-      - 中港专线 IPLC E12 1000Mbps
-      - 日本 ソフトバンク E16 500Mbps 1x Netflix
-      - 日本A·2.0
-      - 中国-香港 IEPL Equinix HK2 E 13
-      - 中港专线 IPLC E03 1000Mbps
-      - 香港 油尖旺御金·国峯 香港寬頻 E02
-      - 香港 油尖旺御金·国峯 香港寬頻 E07
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E05 Netflix
-      - 中港专线 IPLC E05 1000Mbps
-      - 中港专线 IPLC E14 1000Mbps
-      - 中国-香港 IEPL Equinix HK2 E 03
-      - 香港 油尖旺御金·国峯 香港寬頻 E01
-      - 日本 ソフトバンク E17 500Mbps 1x Netflix
-      - 狮城B·0.2
-      - 中国-香港 IEPL Equinix HK2 E 06
-      - 日本 まつやまし auひかり ホーム1ギガ E 02
-      - 香港 油尖旺御金·国峯 香港寬頻 E06
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E01 Netflix
-      - 中国-香港 IEPL Equinix HK2 E 11
-      - 中港专线 IPLC E01 1000Mbps
-      - 精简 46
-      - 香港 油尖旺御金·国峯 香港寬頻 E09
-      - 中港专线 IPLC E18 1000Mbps
-      - 台湾B·0.6
-      - 香港 油尖旺御金·国峯 網上行寬頻 E06
-      - 菲律宾A·3.0
-      - 中国-香港 IEPL Equinix HK2 E 16
-      - 中港专线 IPLC E08 1000Mbps
-      - 香港 油尖旺御金·国峯 網上行寬頻 E08
-      - 香港B·1.0
-      - 香港C·1.0
-      - 中港专线 IPLC E16 1000Mbps
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E09 Netflix
-      - 日本 ソフトバンク E11 500Mbps 1x Netflix
-      - 日本 まつやまし auひかり ホーム1ギガ E 01
-      - 香港F·2.0
-      - 中国-香港 IEPL Equinix HK2 E 12
-      - 中港专线 IPLC E13 1000Mbps
-      - 中港专线 IPLC E17 1000Mbps
-      - 中国-香港 IEPL Equinix HK2 E 20
-      - 日本 まつやまし auひかり ホーム1ギガ E 08
-      - 中国-香港 IEPL Equinix HK2 E 02
-      - 香港 油尖旺御金·国峯 網上行寬頻 E10
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E06 Netflix
-      - 日本 ソフトバンク E07 500Mbps 1x Netflix
-      - 日本 まつやまし auひかり ホーム1ギガ E 10
-      - 中国-法国 IPLC E04
-      - 中港专线 IPLC E15 1000Mbps
-      - 日本 ソフトバンク E14 500Mbps 1x Netflix
-      - 韩国 전라북도 전주시 商宽 E 08
-      - 中国-台湾 IEPL HiNet固接 E03 Netflix 动画疯
-      - 中港专线 IPLC E07 1000Mbps
-      - 日本 ソフトバンク E12 500Mbps 1x Netflix
-      - 日本 まつやまし auひかり ホーム1ギガ E 12
-      - 香港 油尖旺御金·国峯 香港寬頻 E04
-      - 日本 ソフトバンク E06 500Mbps 1x Netflix
-      - 香港 油尖旺御金·国峯 香港寬頻 E05
-      - 中国-法国 IPLC E03
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E05 Netflix
-      - 日本 ソフトバンク E10 500Mbps 1x Netflix
-      - 精简 42
-      - 中国-香港 IEPL Equinix HK2 E 14
-      - 日本 まつやまし auひかり ホーム1ギガ E 09
-      - 香港 油尖旺御金·国峯 香港寬頻 E03
-      - 香港 油尖旺御金·国峯 網上行寬頻 E07
-      - 中国-台湾 IPLC HiNet固接 E10 Netflix 动画疯
-      - 日本 ソフトバンク E05 500Mbps 1x Netflix
-      - 中国-台湾 IEPL HiNet固接 E08 Netflix 动画疯
-      - 中国-韩国 IEPL E 07
-      - 日本 ソフトバンク E03 500Mbps 1x Netflix
-      - 中国-印度 班加罗尔 एयरटेल IPLC E01
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E07 Netflix
-      - 中国-韩国 IEPL E 10
-      - 日本 まつやまし auひかり ホーム1ギガ E 04
-      - 日本 ソフトバンク E02 500Mbps 1x Netflix
-      - 日本 まつやまし auひかり ホーム1ギガ E 07
-      - 香港A·1.0
-      - 中国-印度 班加罗尔 एयरटेल IPLC E03
-      - 日本 ソフトバンク E08 500Mbps 1x Netflix
-      - 中国-香港 IEPL Equinix HK2 E 04
-      - 中港专线 IPLC E19 1000Mbps
-      - 精简 47
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E02 Netflix
-      - 中国-韩国 IEPL E 09
-      - 日本 まつやまし auひかり ホーム1ギガ E 11
-      - 韩国 전라북도 전주시 商宽 E 01
-      - 韩国 전라북도 전주시 商宽 E 05
-      - 中国-韩国 IEPL E 01
-      - 日本 ソフトバンク E09 500Mbps 1x Netflix
-      - 韩国A·1.0
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E11 Netflix
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E06 Netflix
-      - 香港 油尖旺御金·国峯 網上行寬頻 E05
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E08 Netflix
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E04 Netflix
-      - 悉尼A·0.2
-      - 日本 まつやまし auひかり ホーム1ギガ E 05
-      - 中国-印度 班加罗尔 एयरटेल IPLC E02
-      - 韩国 전라북도 전주시 商宽 E 04
-      - 韩国 전라북도 전주시 商宽 E 02
-      - 中国-韩国 IEPL E 05
-      - 中国-韩国 IEPL E 08
-      - 韩国 전라북도 전주시 商宽 E 10
-      - 中国-印度 班加罗尔 एयरटेल IPLC E08
-      - 精简 43
-      - 韩国 전라북도 전주시 商宽 E 03
-      - 中国-印度 班加罗尔 एयरटेल IPLC E07
-      - 韩国 전라북도 전주시 商宽 E 09
-      - 中国-印度 班加罗尔 एयरटेल IPLC E06
-      - 中国-台湾 IEPL HiNet固接 E02 Netflix 动画疯
-      - 中国-爱尔兰 IPLC E05
-      - 日本 ソフトバンク E01 500Mbps 1x Netflix
-      - 中国-韩国 IEPL E 02
-      - 美国A·0.1
-      - 中国-台湾 IPLC HiNet固接 E05 Netflix 动画疯
-      - 中国-韩国 IEPL E 03
-      - 中国-台湾宜兰 IPLC E06
-      - 香港E·2.0
-      - 中国-台湾 IPLC HiNet固接 E04 Netflix 动画疯
-      - 中国-台湾宜兰 IPLC E03
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E12 Netflix
-      - 日本B·1.0
-      - 中国-台湾 IEPL HiNet固接 E04 Netflix 动画疯
-      - 中国-台湾 IEPL HiNet固接 E09 Netflix 动画疯
-      - 精简 50
-      - 精简 44
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E03 Netflix
-      - 中国-台湾 IEPL HiNet固接 E10 Netflix 动画疯
-      - 中国-台湾宜兰 IPLC E08
-      - 美国B·0.1
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E01 Netflix
-      - 精简 45
-      - 香港 油尖旺御金·国峯 網上行寬頻 E03
-      - 中国-台湾宜兰 IPLC E02
-      - 精简 41
-      - 中国-台湾 IPLC HiNet固接 E06 Netflix 动画疯
-      - 美国实验性 IEPL 中继 E04
-      - 日本 まつやまし auひかり ホーム1ギガ E 06
-      - 美国高级 IEPL 中继 E02
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E10 Netflix
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E02 Netflix
-      - 中国-台湾宜兰 IPLC E09
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E03 Netflix
-      - 美国高级 IEPL 中继 E04
-      - 韩国 전라북도 전주시 商宽 E 07
-      - 中国-韩国 IEPL E 06
-      - 韩国 전라북도 전주시 商宽 E 06
-      - 日本 まつやまし auひかり ホーム1ギガ E 03
-      - 阿根廷A·1.0
-      - 精简 48
-      - 中国-印度 班加罗尔 एयरटेल IPLC E05
-      - 美国实验性 IEPL 中继 E05
-      - 美国实验性 IEPL 中继 E03
-      - 中国-印度 班加罗尔 एयरटेल IPLC E04
-      - 中国-台湾 IPLC HiNet固接 E02 Netflix 动画疯
-      - 美国C·0.5
-      - 台湾A·1.0
-      - 美国高级 IEPL 中继 E05
-      - 伦敦A·0.2
-      - 俄罗斯 04
-      - 美国高级 IEPL 中继 E01
-      - 美国实验性 IEPL 中继 E01
-      - 中国-澳大利亚 IPLC 悉尼 E05
-      - 新加坡 Legacy Magic IEPL 中继 E01 Netflix
-      - 美国实验性 IEPL 中继 E02
-      - 美国高级 IEPL 中继 E03
-      - 中国-澳大利亚 IPLC 悉尼 E04
-      - 俄罗斯 02
-      - 土耳其A·1.0
-      - 中国-台湾 IEPL HiNet固接 E05 Netflix 动画疯
-      - 新加坡 Legacy Magic IEPL 中继 E04 Netflix
-      - 俄罗斯A·0.5
-      - 中国-台湾 IEPL HiNet固接 E07 Netflix 动画疯
-      - 新加坡 Magic IEPL 中继 E01 Netflix
-      - 印度A·2.0
-      - 中国-加拿大 IPLC E04
-      - 中国-澳大利亚 IPLC 悉尼 E03
-      - 中国-台湾宜兰 IPLC E05
-      - 中国-台湾 IEPL HiNet固接 E06 Netflix 动画疯
-      - 中国-台湾 IPLC HiNet固接 E03 Netflix 动画疯
-      - 中国-澳大利亚 IPLC 悉尼 E02
-      - 新加坡 Magic IEPL 中继 E04 Netflix
-      - 中国-澳大利亚 IPLC 悉尼 E01
-      - 中国-台湾 IPLC HiNet固接 E08 Netflix 动画疯
-      - 中国-加拿大 IPLC E02
-      - 中国-台湾宜兰 IPLC E10
-      - 中国-加拿大 IPLC E05
-      - 中国-加拿大 IPLC E03
-      - 新加坡 Legacy Magic IEPL 中继 E03 Netflix
-      - 中国-加拿大 IPLC E01
-      - 新加坡 Magic IEPL 中继 E05 Netflix
-      - imkcp白嫖
-      - 中国-台湾宜兰 IPLC E01
+      - V1-日本 多台负载均衡 中继D 1.5x
+      - V1-香港 多台负载均衡 中继D | 2x
+      - 魔戒.net1
+      - 魔戒.net9
+      - 魔戒.net2
+      - 魔戒.net4
+      - 魔戒.net5
+      - V1-日本A组 直连 速度随缘 1x
+      - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
+      - V1-台湾 多台负载均衡 中继C 1.5x
+      - 魔戒.net3
+      - 魔戒.net8
+      - 魔戒.net7
+      - 魔戒.net6
+      - V1-美国01 中继C | 1.5x
+      - V1-俄罗斯01 中继D 1.2x
+      - 越南胡志明-三网优化
+      - V1-香港HKT02 CDN 中继 2x
+      - V1-香港HKT03 CDN 中继 2x
+      - V1-美国01 中继D | 1.5x
+      - 魔戒.net杭锅
+      - 台湾2-三网优化-强加密
+      - V1-英国01 CDN 中继 1.5x
+      - V1-德国01 CDN 中继 1.5x
+      - V1-波兰01 CDN 中继 1.5x
+      - V1-日本 多台负载均衡 中继B 1.5x
+      - V1-香港 多台负载均衡 中继A | 2x
+      - V1-香港 多台负载均衡 中继B | 2x
+      - V1-台湾 多台负载均衡 中继B 1.5x
+      - V1-日本 多台负载均衡 中继A 1.5x
+      - 魔戒.net香港_R_316
+      - V1-台湾 多台负载均衡 中继A 1.5x
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中国-香港 IEPL Equinix HK2 E 17
-      - 香港 油尖旺御金·国峯 網上行寬頻 E01
-      - 中国-法国 IPLC E05
-      - 中港专线 IPLC E02 1000Mbps
-      - 日本 ソフトバンク E04 500Mbps 1x Netflix
-      - 中港专线 IPLC E10 1000Mbps
-      - 日本 ソフトバンク E13 500Mbps 1x Netflix
-      - 中国-香港 IEPL Equinix HK2 E 18
-      - 中国-香港 IEPL Equinix HK2 E 19
-      - 中港专线 IPLC E09 1000Mbps
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E04 Netflix
-      - 中国-香港 IEPL Equinix HK2 E 09
-      - 中港专线 IPLC E20 1000Mbps
-      - 精简 49
-      - 日本 ソフトバンク E18 500Mbps 1x Netflix
-      - 中国-韩国 IEPL E 04
-      - 香港 油尖旺御金·国峯 網上行寬頻 E02
-      - 中国-香港 IEPL Equinix HK2 E 08
-      - 日本 ソフトバンク E15 500Mbps 1x Netflix
-      - 中国-爱尔兰 IPLC E02
-      - 中国-香港 IEPL Equinix HK2 E 15
-      - 香港 油尖旺御金·国峯 網上行寬頻 E09
-      - 中国-爱尔兰 IPLC E01
-      - 中国-香港 IEPL Equinix HK2 E 01
-      - 中港专线 IPLC E04 1000Mbps
-      - 香港D·0.6
-      - 中港专线 IPLC E11 1000Mbps
-      - 中国-香港 IEPL Equinix HK2 E 10
-      - 中港专线 IPLC E06 1000Mbps
-      - 香港 油尖旺御金·国峯 香港寬頻 E08
-      - 狮城A·0.2
-      - 香港 油尖旺御金·国峯 香港寬頻 E10
-      - 中港专线 IPLC E12 1000Mbps
-      - 日本 ソフトバンク E16 500Mbps 1x Netflix
-      - 日本A·2.0
-      - 中国-香港 IEPL Equinix HK2 E 13
-      - 中港专线 IPLC E03 1000Mbps
-      - 香港 油尖旺御金·国峯 香港寬頻 E02
-      - 香港 油尖旺御金·国峯 香港寬頻 E07
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E05 Netflix
-      - 中港专线 IPLC E05 1000Mbps
-      - 中港专线 IPLC E14 1000Mbps
-      - 中国-香港 IEPL Equinix HK2 E 03
-      - 香港 油尖旺御金·国峯 香港寬頻 E01
-      - 日本 ソフトバンク E17 500Mbps 1x Netflix
-      - 狮城B·0.2
-      - 中国-香港 IEPL Equinix HK2 E 06
-      - 日本 まつやまし auひかり ホーム1ギガ E 02
-      - 香港 油尖旺御金·国峯 香港寬頻 E06
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E01 Netflix
-      - 中国-香港 IEPL Equinix HK2 E 11
-      - 中港专线 IPLC E01 1000Mbps
-      - 精简 46
-      - 香港 油尖旺御金·国峯 香港寬頻 E09
-      - 中港专线 IPLC E18 1000Mbps
-      - 台湾B·0.6
-      - 香港 油尖旺御金·国峯 網上行寬頻 E06
-      - 菲律宾A·3.0
-      - 中国-香港 IEPL Equinix HK2 E 16
-      - 中港专线 IPLC E08 1000Mbps
-      - 香港 油尖旺御金·国峯 網上行寬頻 E08
-      - 香港B·1.0
-      - 香港C·1.0
-      - 中港专线 IPLC E16 1000Mbps
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E09 Netflix
-      - 日本 ソフトバンク E11 500Mbps 1x Netflix
-      - 日本 まつやまし auひかり ホーム1ギガ E 01
-      - 香港F·2.0
-      - 中国-香港 IEPL Equinix HK2 E 12
-      - 中港专线 IPLC E13 1000Mbps
-      - 中港专线 IPLC E17 1000Mbps
-      - 中国-香港 IEPL Equinix HK2 E 20
-      - 日本 まつやまし auひかり ホーム1ギガ E 08
-      - 中国-香港 IEPL Equinix HK2 E 02
-      - 香港 油尖旺御金·国峯 網上行寬頻 E10
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E06 Netflix
-      - 日本 ソフトバンク E07 500Mbps 1x Netflix
-      - 日本 まつやまし auひかり ホーム1ギガ E 10
-      - 中国-法国 IPLC E04
-      - 中港专线 IPLC E15 1000Mbps
-      - 日本 ソフトバンク E14 500Mbps 1x Netflix
-      - 韩国 전라북도 전주시 商宽 E 08
-      - 中国-台湾 IEPL HiNet固接 E03 Netflix 动画疯
-      - 中港专线 IPLC E07 1000Mbps
-      - 日本 ソフトバンク E12 500Mbps 1x Netflix
-      - 日本 まつやまし auひかり ホーム1ギガ E 12
-      - 香港 油尖旺御金·国峯 香港寬頻 E04
-      - 日本 ソフトバンク E06 500Mbps 1x Netflix
-      - 香港 油尖旺御金·国峯 香港寬頻 E05
-      - 中国-法国 IPLC E03
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E05 Netflix
-      - 日本 ソフトバンク E10 500Mbps 1x Netflix
-      - 精简 42
-      - 中国-香港 IEPL Equinix HK2 E 14
-      - 日本 まつやまし auひかり ホーム1ギガ E 09
-      - 香港 油尖旺御金·国峯 香港寬頻 E03
-      - 香港 油尖旺御金·国峯 網上行寬頻 E07
-      - 中国-台湾 IPLC HiNet固接 E10 Netflix 动画疯
-      - 日本 ソフトバンク E05 500Mbps 1x Netflix
-      - 中国-台湾 IEPL HiNet固接 E08 Netflix 动画疯
-      - 中国-韩国 IEPL E 07
-      - 日本 ソフトバンク E03 500Mbps 1x Netflix
-      - 中国-印度 班加罗尔 एयरटेल IPLC E01
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E07 Netflix
-      - 中国-韩国 IEPL E 10
-      - 日本 まつやまし auひかり ホーム1ギガ E 04
-      - 日本 ソフトバンク E02 500Mbps 1x Netflix
-      - 日本 まつやまし auひかり ホーム1ギガ E 07
-      - 香港A·1.0
-      - 中国-印度 班加罗尔 एयरटेल IPLC E03
-      - 日本 ソフトバンク E08 500Mbps 1x Netflix
-      - 中国-香港 IEPL Equinix HK2 E 04
-      - 中港专线 IPLC E19 1000Mbps
-      - 精简 47
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E02 Netflix
-      - 中国-韩国 IEPL E 09
-      - 日本 まつやまし auひかり ホーム1ギガ E 11
-      - 韩国 전라북도 전주시 商宽 E 01
-      - 韩国 전라북도 전주시 商宽 E 05
-      - 中国-韩国 IEPL E 01
-      - 日本 ソフトバンク E09 500Mbps 1x Netflix
-      - 韩国A·1.0
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E11 Netflix
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E06 Netflix
-      - 香港 油尖旺御金·国峯 網上行寬頻 E05
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E08 Netflix
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E04 Netflix
-      - 悉尼A·0.2
-      - 日本 まつやまし auひかり ホーム1ギガ E 05
-      - 中国-印度 班加罗尔 एयरटेल IPLC E02
-      - 韩国 전라북도 전주시 商宽 E 04
-      - 韩国 전라북도 전주시 商宽 E 02
-      - 中国-韩国 IEPL E 05
-      - 中国-韩国 IEPL E 08
-      - 韩国 전라북도 전주시 商宽 E 10
-      - 中国-印度 班加罗尔 एयरटेल IPLC E08
-      - 精简 43
-      - 韩国 전라북도 전주시 商宽 E 03
-      - 中国-印度 班加罗尔 एयरटेल IPLC E07
-      - 韩国 전라북도 전주시 商宽 E 09
-      - 中国-印度 班加罗尔 एयरटेल IPLC E06
-      - 中国-台湾 IEPL HiNet固接 E02 Netflix 动画疯
-      - 中国-爱尔兰 IPLC E05
-      - 日本 ソフトバンク E01 500Mbps 1x Netflix
-      - 中国-韩国 IEPL E 02
-      - 美国A·0.1
-      - 中国-台湾 IPLC HiNet固接 E05 Netflix 动画疯
-      - 中国-韩国 IEPL E 03
-      - 中国-台湾宜兰 IPLC E06
-      - 香港E·2.0
-      - 中国-台湾 IPLC HiNet固接 E04 Netflix 动画疯
-      - 中国-台湾宜兰 IPLC E03
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E12 Netflix
-      - 日本B·1.0
-      - 中国-台湾 IEPL HiNet固接 E04 Netflix 动画疯
-      - 中国-台湾 IEPL HiNet固接 E09 Netflix 动画疯
-      - 精简 50
-      - 精简 44
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E03 Netflix
-      - 中国-台湾 IEPL HiNet固接 E10 Netflix 动画疯
-      - 中国-台湾宜兰 IPLC E08
-      - 美国B·0.1
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E01 Netflix
-      - 精简 45
-      - 香港 油尖旺御金·国峯 網上行寬頻 E03
-      - 中国-台湾宜兰 IPLC E02
-      - 精简 41
-      - 中国-台湾 IPLC HiNet固接 E06 Netflix 动画疯
-      - 美国实验性 IEPL 中继 E04
-      - 日本 まつやまし auひかり ホーム1ギガ E 06
-      - 美国高级 IEPL 中继 E02
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E10 Netflix
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E02 Netflix
-      - 中国-台湾宜兰 IPLC E09
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E03 Netflix
-      - 美国高级 IEPL 中继 E04
-      - 韩国 전라북도 전주시 商宽 E 07
-      - 中国-韩国 IEPL E 06
-      - 韩国 전라북도 전주시 商宽 E 06
-      - 日本 まつやまし auひかり ホーム1ギガ E 03
-      - 阿根廷A·1.0
-      - 精简 48
-      - 中国-印度 班加罗尔 एयरटेल IPLC E05
-      - 美国实验性 IEPL 中继 E05
-      - 美国实验性 IEPL 中继 E03
-      - 中国-印度 班加罗尔 एयरटेल IPLC E04
-      - 中国-台湾 IPLC HiNet固接 E02 Netflix 动画疯
-      - 美国C·0.5
-      - 台湾A·1.0
-      - 美国高级 IEPL 中继 E05
-      - 伦敦A·0.2
-      - 俄罗斯 04
-      - 美国高级 IEPL 中继 E01
-      - 美国实验性 IEPL 中继 E01
-      - 中国-澳大利亚 IPLC 悉尼 E05
-      - 新加坡 Legacy Magic IEPL 中继 E01 Netflix
-      - 美国实验性 IEPL 中继 E02
-      - 美国高级 IEPL 中继 E03
-      - 中国-澳大利亚 IPLC 悉尼 E04
-      - 俄罗斯 02
-      - 土耳其A·1.0
-      - 中国-台湾 IEPL HiNet固接 E05 Netflix 动画疯
-      - 新加坡 Legacy Magic IEPL 中继 E04 Netflix
-      - 俄罗斯A·0.5
-      - 中国-台湾 IEPL HiNet固接 E07 Netflix 动画疯
-      - 新加坡 Magic IEPL 中继 E01 Netflix
-      - 印度A·2.0
-      - 中国-加拿大 IPLC E04
-      - 中国-澳大利亚 IPLC 悉尼 E03
-      - 中国-台湾宜兰 IPLC E05
-      - 中国-台湾 IEPL HiNet固接 E06 Netflix 动画疯
-      - 中国-台湾 IPLC HiNet固接 E03 Netflix 动画疯
-      - 中国-澳大利亚 IPLC 悉尼 E02
-      - 新加坡 Magic IEPL 中继 E04 Netflix
-      - 中国-澳大利亚 IPLC 悉尼 E01
-      - 中国-台湾 IPLC HiNet固接 E08 Netflix 动画疯
-      - 中国-加拿大 IPLC E02
-      - 中国-台湾宜兰 IPLC E10
-      - 中国-加拿大 IPLC E05
-      - 中国-加拿大 IPLC E03
-      - 新加坡 Legacy Magic IEPL 中继 E03 Netflix
-      - 中国-加拿大 IPLC E01
-      - 新加坡 Magic IEPL 中继 E05 Netflix
-      - imkcp白嫖
-      - 中国-台湾宜兰 IPLC E01
+      - V1-日本 多台负载均衡 中继D 1.5x
+      - V1-香港 多台负载均衡 中继D | 2x
+      - 魔戒.net1
+      - 魔戒.net9
+      - 魔戒.net2
+      - 魔戒.net4
+      - 魔戒.net5
+      - V1-日本A组 直连 速度随缘 1x
+      - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
+      - V1-台湾 多台负载均衡 中继C 1.5x
+      - 魔戒.net3
+      - 魔戒.net8
+      - 魔戒.net7
+      - 魔戒.net6
+      - V1-美国01 中继C | 1.5x
+      - V1-俄罗斯01 中继D 1.2x
+      - 越南胡志明-三网优化
+      - V1-香港HKT02 CDN 中继 2x
+      - V1-香港HKT03 CDN 中继 2x
+      - V1-美国01 中继D | 1.5x
+      - 魔戒.net杭锅
+      - 台湾2-三网优化-强加密
+      - V1-英国01 CDN 中继 1.5x
+      - V1-德国01 CDN 中继 1.5x
+      - V1-波兰01 CDN 中继 1.5x
+      - V1-日本 多台负载均衡 中继B 1.5x
+      - V1-香港 多台负载均衡 中继A | 2x
+      - V1-香港 多台负载均衡 中继B | 2x
+      - V1-台湾 多台负载均衡 中继B 1.5x
+      - V1-日本 多台负载均衡 中继A 1.5x
+      - 魔戒.net香港_R_316
+      - V1-台湾 多台负载均衡 中继A 1.5x
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -940,1016 +168,168 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中国-香港 IEPL Equinix HK2 E 17
-      - 香港 油尖旺御金·国峯 網上行寬頻 E01
-      - 中国-法国 IPLC E05
-      - 中港专线 IPLC E02 1000Mbps
-      - 日本 ソフトバンク E04 500Mbps 1x Netflix
-      - 中港专线 IPLC E10 1000Mbps
-      - 日本 ソフトバンク E13 500Mbps 1x Netflix
-      - 中国-香港 IEPL Equinix HK2 E 18
-      - 中国-香港 IEPL Equinix HK2 E 19
-      - 中港专线 IPLC E09 1000Mbps
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E04 Netflix
-      - 中国-香港 IEPL Equinix HK2 E 09
-      - 中港专线 IPLC E20 1000Mbps
-      - 精简 49
-      - 日本 ソフトバンク E18 500Mbps 1x Netflix
-      - 中国-韩国 IEPL E 04
-      - 香港 油尖旺御金·国峯 網上行寬頻 E02
-      - 中国-香港 IEPL Equinix HK2 E 08
-      - 日本 ソフトバンク E15 500Mbps 1x Netflix
-      - 中国-爱尔兰 IPLC E02
-      - 中国-香港 IEPL Equinix HK2 E 15
-      - 香港 油尖旺御金·国峯 網上行寬頻 E09
-      - 中国-爱尔兰 IPLC E01
-      - 中国-香港 IEPL Equinix HK2 E 01
-      - 中港专线 IPLC E04 1000Mbps
-      - 香港D·0.6
-      - 中港专线 IPLC E11 1000Mbps
-      - 中国-香港 IEPL Equinix HK2 E 10
-      - 中港专线 IPLC E06 1000Mbps
-      - 香港 油尖旺御金·国峯 香港寬頻 E08
-      - 狮城A·0.2
-      - 香港 油尖旺御金·国峯 香港寬頻 E10
-      - 中港专线 IPLC E12 1000Mbps
-      - 日本 ソフトバンク E16 500Mbps 1x Netflix
-      - 日本A·2.0
-      - 中国-香港 IEPL Equinix HK2 E 13
-      - 中港专线 IPLC E03 1000Mbps
-      - 香港 油尖旺御金·国峯 香港寬頻 E02
-      - 香港 油尖旺御金·国峯 香港寬頻 E07
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E05 Netflix
-      - 中港专线 IPLC E05 1000Mbps
-      - 中港专线 IPLC E14 1000Mbps
-      - 中国-香港 IEPL Equinix HK2 E 03
-      - 香港 油尖旺御金·国峯 香港寬頻 E01
-      - 日本 ソフトバンク E17 500Mbps 1x Netflix
-      - 狮城B·0.2
-      - 中国-香港 IEPL Equinix HK2 E 06
-      - 日本 まつやまし auひかり ホーム1ギガ E 02
-      - 香港 油尖旺御金·国峯 香港寬頻 E06
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E01 Netflix
-      - 中国-香港 IEPL Equinix HK2 E 11
-      - 中港专线 IPLC E01 1000Mbps
-      - 精简 46
-      - 香港 油尖旺御金·国峯 香港寬頻 E09
-      - 中港专线 IPLC E18 1000Mbps
-      - 台湾B·0.6
-      - 香港 油尖旺御金·国峯 網上行寬頻 E06
-      - 菲律宾A·3.0
-      - 中国-香港 IEPL Equinix HK2 E 16
-      - 中港专线 IPLC E08 1000Mbps
-      - 香港 油尖旺御金·国峯 網上行寬頻 E08
-      - 香港B·1.0
-      - 香港C·1.0
-      - 中港专线 IPLC E16 1000Mbps
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E09 Netflix
-      - 日本 ソフトバンク E11 500Mbps 1x Netflix
-      - 日本 まつやまし auひかり ホーム1ギガ E 01
-      - 香港F·2.0
-      - 中国-香港 IEPL Equinix HK2 E 12
-      - 中港专线 IPLC E13 1000Mbps
-      - 中港专线 IPLC E17 1000Mbps
-      - 中国-香港 IEPL Equinix HK2 E 20
-      - 日本 まつやまし auひかり ホーム1ギガ E 08
-      - 中国-香港 IEPL Equinix HK2 E 02
-      - 香港 油尖旺御金·国峯 網上行寬頻 E10
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E06 Netflix
-      - 日本 ソフトバンク E07 500Mbps 1x Netflix
-      - 日本 まつやまし auひかり ホーム1ギガ E 10
-      - 中国-法国 IPLC E04
-      - 中港专线 IPLC E15 1000Mbps
-      - 日本 ソフトバンク E14 500Mbps 1x Netflix
-      - 韩国 전라북도 전주시 商宽 E 08
-      - 中国-台湾 IEPL HiNet固接 E03 Netflix 动画疯
-      - 中港专线 IPLC E07 1000Mbps
-      - 日本 ソフトバンク E12 500Mbps 1x Netflix
-      - 日本 まつやまし auひかり ホーム1ギガ E 12
-      - 香港 油尖旺御金·国峯 香港寬頻 E04
-      - 日本 ソフトバンク E06 500Mbps 1x Netflix
-      - 香港 油尖旺御金·国峯 香港寬頻 E05
-      - 中国-法国 IPLC E03
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E05 Netflix
-      - 日本 ソフトバンク E10 500Mbps 1x Netflix
-      - 精简 42
-      - 中国-香港 IEPL Equinix HK2 E 14
-      - 日本 まつやまし auひかり ホーム1ギガ E 09
-      - 香港 油尖旺御金·国峯 香港寬頻 E03
-      - 香港 油尖旺御金·国峯 網上行寬頻 E07
-      - 中国-台湾 IPLC HiNet固接 E10 Netflix 动画疯
-      - 日本 ソフトバンク E05 500Mbps 1x Netflix
-      - 中国-台湾 IEPL HiNet固接 E08 Netflix 动画疯
-      - 中国-韩国 IEPL E 07
-      - 日本 ソフトバンク E03 500Mbps 1x Netflix
-      - 中国-印度 班加罗尔 एयरटेल IPLC E01
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E07 Netflix
-      - 中国-韩国 IEPL E 10
-      - 日本 まつやまし auひかり ホーム1ギガ E 04
-      - 日本 ソフトバンク E02 500Mbps 1x Netflix
-      - 日本 まつやまし auひかり ホーム1ギガ E 07
-      - 香港A·1.0
-      - 中国-印度 班加罗尔 एयरटेल IPLC E03
-      - 日本 ソフトバンク E08 500Mbps 1x Netflix
-      - 中国-香港 IEPL Equinix HK2 E 04
-      - 中港专线 IPLC E19 1000Mbps
-      - 精简 47
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E02 Netflix
-      - 中国-韩国 IEPL E 09
-      - 日本 まつやまし auひかり ホーム1ギガ E 11
-      - 韩国 전라북도 전주시 商宽 E 01
-      - 韩国 전라북도 전주시 商宽 E 05
-      - 中国-韩国 IEPL E 01
-      - 日本 ソフトバンク E09 500Mbps 1x Netflix
-      - 韩国A·1.0
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E11 Netflix
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E06 Netflix
-      - 香港 油尖旺御金·国峯 網上行寬頻 E05
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E08 Netflix
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E04 Netflix
-      - 悉尼A·0.2
-      - 日本 まつやまし auひかり ホーム1ギガ E 05
-      - 中国-印度 班加罗尔 एयरटेल IPLC E02
-      - 韩国 전라북도 전주시 商宽 E 04
-      - 韩国 전라북도 전주시 商宽 E 02
-      - 中国-韩国 IEPL E 05
-      - 中国-韩国 IEPL E 08
-      - 韩国 전라북도 전주시 商宽 E 10
-      - 中国-印度 班加罗尔 एयरटेल IPLC E08
-      - 精简 43
-      - 韩国 전라북도 전주시 商宽 E 03
-      - 中国-印度 班加罗尔 एयरटेल IPLC E07
-      - 韩国 전라북도 전주시 商宽 E 09
-      - 中国-印度 班加罗尔 एयरटेल IPLC E06
-      - 中国-台湾 IEPL HiNet固接 E02 Netflix 动画疯
-      - 中国-爱尔兰 IPLC E05
-      - 日本 ソフトバンク E01 500Mbps 1x Netflix
-      - 中国-韩国 IEPL E 02
-      - 美国A·0.1
-      - 中国-台湾 IPLC HiNet固接 E05 Netflix 动画疯
-      - 中国-韩国 IEPL E 03
-      - 中国-台湾宜兰 IPLC E06
-      - 香港E·2.0
-      - 中国-台湾 IPLC HiNet固接 E04 Netflix 动画疯
-      - 中国-台湾宜兰 IPLC E03
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E12 Netflix
-      - 日本B·1.0
-      - 中国-台湾 IEPL HiNet固接 E04 Netflix 动画疯
-      - 中国-台湾 IEPL HiNet固接 E09 Netflix 动画疯
-      - 精简 50
-      - 精简 44
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E03 Netflix
-      - 中国-台湾 IEPL HiNet固接 E10 Netflix 动画疯
-      - 中国-台湾宜兰 IPLC E08
-      - 美国B·0.1
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E01 Netflix
-      - 精简 45
-      - 香港 油尖旺御金·国峯 網上行寬頻 E03
-      - 中国-台湾宜兰 IPLC E02
-      - 精简 41
-      - 中国-台湾 IPLC HiNet固接 E06 Netflix 动画疯
-      - 美国实验性 IEPL 中继 E04
-      - 日本 まつやまし auひかり ホーム1ギガ E 06
-      - 美国高级 IEPL 中继 E02
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E10 Netflix
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E02 Netflix
-      - 中国-台湾宜兰 IPLC E09
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E03 Netflix
-      - 美国高级 IEPL 中继 E04
-      - 韩国 전라북도 전주시 商宽 E 07
-      - 中国-韩国 IEPL E 06
-      - 韩国 전라북도 전주시 商宽 E 06
-      - 日本 まつやまし auひかり ホーム1ギガ E 03
-      - 阿根廷A·1.0
-      - 精简 48
-      - 中国-印度 班加罗尔 एयरटेल IPLC E05
-      - 美国实验性 IEPL 中继 E05
-      - 美国实验性 IEPL 中继 E03
-      - 中国-印度 班加罗尔 एयरटेल IPLC E04
-      - 中国-台湾 IPLC HiNet固接 E02 Netflix 动画疯
-      - 美国C·0.5
-      - 台湾A·1.0
-      - 美国高级 IEPL 中继 E05
-      - 伦敦A·0.2
-      - 俄罗斯 04
-      - 美国高级 IEPL 中继 E01
-      - 美国实验性 IEPL 中继 E01
-      - 中国-澳大利亚 IPLC 悉尼 E05
-      - 新加坡 Legacy Magic IEPL 中继 E01 Netflix
-      - 美国实验性 IEPL 中继 E02
-      - 美国高级 IEPL 中继 E03
-      - 中国-澳大利亚 IPLC 悉尼 E04
-      - 俄罗斯 02
-      - 土耳其A·1.0
-      - 中国-台湾 IEPL HiNet固接 E05 Netflix 动画疯
-      - 新加坡 Legacy Magic IEPL 中继 E04 Netflix
-      - 俄罗斯A·0.5
-      - 中国-台湾 IEPL HiNet固接 E07 Netflix 动画疯
-      - 新加坡 Magic IEPL 中继 E01 Netflix
-      - 印度A·2.0
-      - 中国-加拿大 IPLC E04
-      - 中国-澳大利亚 IPLC 悉尼 E03
-      - 中国-台湾宜兰 IPLC E05
-      - 中国-台湾 IEPL HiNet固接 E06 Netflix 动画疯
-      - 中国-台湾 IPLC HiNet固接 E03 Netflix 动画疯
-      - 中国-澳大利亚 IPLC 悉尼 E02
-      - 新加坡 Magic IEPL 中继 E04 Netflix
-      - 中国-澳大利亚 IPLC 悉尼 E01
-      - 中国-台湾 IPLC HiNet固接 E08 Netflix 动画疯
-      - 中国-加拿大 IPLC E02
-      - 中国-台湾宜兰 IPLC E10
-      - 中国-加拿大 IPLC E05
-      - 中国-加拿大 IPLC E03
-      - 新加坡 Legacy Magic IEPL 中继 E03 Netflix
-      - 中国-加拿大 IPLC E01
-      - 新加坡 Magic IEPL 中继 E05 Netflix
-      - imkcp白嫖
-      - 中国-台湾宜兰 IPLC E01
+      - V1-日本 多台负载均衡 中继D 1.5x
+      - V1-香港 多台负载均衡 中继D | 2x
+      - 魔戒.net1
+      - 魔戒.net9
+      - 魔戒.net2
+      - 魔戒.net4
+      - 魔戒.net5
+      - V1-日本A组 直连 速度随缘 1x
+      - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
+      - V1-台湾 多台负载均衡 中继C 1.5x
+      - 魔戒.net3
+      - 魔戒.net8
+      - 魔戒.net7
+      - 魔戒.net6
+      - V1-美国01 中继C | 1.5x
+      - V1-俄罗斯01 中继D 1.2x
+      - 越南胡志明-三网优化
+      - V1-香港HKT02 CDN 中继 2x
+      - V1-香港HKT03 CDN 中继 2x
+      - V1-美国01 中继D | 1.5x
+      - 魔戒.net杭锅
+      - 台湾2-三网优化-强加密
+      - V1-英国01 CDN 中继 1.5x
+      - V1-德国01 CDN 中继 1.5x
+      - V1-波兰01 CDN 中继 1.5x
+      - V1-日本 多台负载均衡 中继B 1.5x
+      - V1-香港 多台负载均衡 中继A | 2x
+      - V1-香港 多台负载均衡 中继B | 2x
+      - V1-台湾 多台负载均衡 中继B 1.5x
+      - V1-日本 多台负载均衡 中继A 1.5x
+      - 魔戒.net香港_R_316
+      - V1-台湾 多台负载均衡 中继A 1.5x
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 中国-香港 IEPL Equinix HK2 E 17
-      - 香港 油尖旺御金·国峯 網上行寬頻 E01
-      - 中港专线 IPLC E02 1000Mbps
-      - 中港专线 IPLC E10 1000Mbps
-      - 中国-香港 IEPL Equinix HK2 E 18
-      - 中国-香港 IEPL Equinix HK2 E 19
-      - 中港专线 IPLC E09 1000Mbps
-      - 中国-香港 IEPL Equinix HK2 E 09
-      - 中港专线 IPLC E20 1000Mbps
-      - 香港 油尖旺御金·国峯 網上行寬頻 E02
-      - 中国-香港 IEPL Equinix HK2 E 08
-      - 中国-香港 IEPL Equinix HK2 E 15
-      - 香港 油尖旺御金·国峯 網上行寬頻 E09
-      - 中国-香港 IEPL Equinix HK2 E 01
-      - 中港专线 IPLC E04 1000Mbps
-      - 香港D·0.6
-      - 中港专线 IPLC E11 1000Mbps
-      - 中国-香港 IEPL Equinix HK2 E 10
-      - 中港专线 IPLC E06 1000Mbps
-      - 香港 油尖旺御金·国峯 香港寬頻 E08
-      - 香港 油尖旺御金·国峯 香港寬頻 E10
-      - 中港专线 IPLC E12 1000Mbps
-      - 中国-香港 IEPL Equinix HK2 E 13
-      - 中港专线 IPLC E03 1000Mbps
-      - 香港 油尖旺御金·国峯 香港寬頻 E02
-      - 香港 油尖旺御金·国峯 香港寬頻 E07
-      - 中港专线 IPLC E05 1000Mbps
-      - 中港专线 IPLC E14 1000Mbps
-      - 中国-香港 IEPL Equinix HK2 E 03
-      - 香港 油尖旺御金·国峯 香港寬頻 E01
-      - 中国-香港 IEPL Equinix HK2 E 06
-      - 香港 油尖旺御金·国峯 香港寬頻 E06
-      - 中国-香港 IEPL Equinix HK2 E 11
-      - 中港专线 IPLC E01 1000Mbps
-      - 香港 油尖旺御金·国峯 香港寬頻 E09
-      - 中港专线 IPLC E18 1000Mbps
-      - 台湾B·0.6
-      - 香港 油尖旺御金·国峯 網上行寬頻 E06
-      - 中国-香港 IEPL Equinix HK2 E 16
-      - 中港专线 IPLC E08 1000Mbps
-      - 香港 油尖旺御金·国峯 網上行寬頻 E08
-      - 香港B·1.0
-      - 香港C·1.0
-      - 中港专线 IPLC E16 1000Mbps
-      - 香港F·2.0
-      - 中国-香港 IEPL Equinix HK2 E 12
-      - 中港专线 IPLC E13 1000Mbps
-      - 中港专线 IPLC E17 1000Mbps
-      - 中国-香港 IEPL Equinix HK2 E 20
-      - 中国-香港 IEPL Equinix HK2 E 02
-      - 香港 油尖旺御金·国峯 網上行寬頻 E10
-      - 中港专线 IPLC E15 1000Mbps
-      - 中国-台湾 IEPL HiNet固接 E03 Netflix 动画疯
-      - 中港专线 IPLC E07 1000Mbps
-      - 香港 油尖旺御金·国峯 香港寬頻 E04
-      - 香港 油尖旺御金·国峯 香港寬頻 E05
-      - 中国-香港 IEPL Equinix HK2 E 14
-      - 香港 油尖旺御金·国峯 香港寬頻 E03
-      - 香港 油尖旺御金·国峯 網上行寬頻 E07
-      - 中国-台湾 IPLC HiNet固接 E10 Netflix 动画疯
-      - 中国-台湾 IEPL HiNet固接 E08 Netflix 动画疯
-      - 香港A·1.0
-      - 中国-香港 IEPL Equinix HK2 E 04
-      - 中港专线 IPLC E19 1000Mbps
-      - 香港 油尖旺御金·国峯 網上行寬頻 E05
-      - 中国-台湾 IEPL HiNet固接 E02 Netflix 动画疯
-      - 中国-台湾 IPLC HiNet固接 E05 Netflix 动画疯
-      - 中国-台湾宜兰 IPLC E06
-      - 香港E·2.0
-      - 中国-台湾 IPLC HiNet固接 E04 Netflix 动画疯
-      - 中国-台湾宜兰 IPLC E03
-      - 中国-台湾 IEPL HiNet固接 E04 Netflix 动画疯
-      - 中国-台湾 IEPL HiNet固接 E09 Netflix 动画疯
-      - 中国-台湾 IEPL HiNet固接 E10 Netflix 动画疯
-      - 中国-台湾宜兰 IPLC E08
-      - 香港 油尖旺御金·国峯 網上行寬頻 E03
-      - 中国-台湾宜兰 IPLC E02
-      - 中国-台湾 IPLC HiNet固接 E06 Netflix 动画疯
-      - 中国-台湾宜兰 IPLC E09
-      - 中国-台湾 IPLC HiNet固接 E02 Netflix 动画疯
-      - 台湾A·1.0
-      - 中国-台湾 IEPL HiNet固接 E05 Netflix 动画疯
-      - 中国-台湾 IEPL HiNet固接 E07 Netflix 动画疯
-      - 中国-台湾宜兰 IPLC E05
-      - 中国-台湾 IEPL HiNet固接 E06 Netflix 动画疯
-      - 中国-台湾 IPLC HiNet固接 E03 Netflix 动画疯
-      - 中国-台湾 IPLC HiNet固接 E08 Netflix 动画疯
-      - 中国-台湾宜兰 IPLC E10
-      - 中国-台湾宜兰 IPLC E01
+      - V1-日本 多台负载均衡 中继D 1.5x
+      - V1-香港 多台负载均衡 中继D | 2x
+      - V1-台湾 多台负载均衡 中继C 1.5x
+      - V1-香港HKT02 CDN 中继 2x
+      - V1-香港HKT03 CDN 中继 2x
+      - 台湾2-三网优化-强加密
+      - V1-日本 多台负载均衡 中继B 1.5x
+      - V1-香港 多台负载均衡 中继A | 2x
+      - V1-香港 多台负载均衡 中继B | 2x
+      - V1-台湾 多台负载均衡 中继B 1.5x
+      - V1-日本 多台负载均衡 中继A 1.5x
+      - 魔戒.net香港_R_316
+      - V1-台湾 多台负载均衡 中继A 1.5x
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 中国-香港 IEPL Equinix HK2 E 17
-      - 香港 油尖旺御金·国峯 網上行寬頻 E01
-      - 中国-法国 IPLC E05
-      - 中港专线 IPLC E02 1000Mbps
-      - 日本 ソフトバンク E04 500Mbps 1x Netflix
-      - 中港专线 IPLC E10 1000Mbps
-      - 日本 ソフトバンク E13 500Mbps 1x Netflix
-      - 中国-香港 IEPL Equinix HK2 E 18
-      - 中国-香港 IEPL Equinix HK2 E 19
-      - 中港专线 IPLC E09 1000Mbps
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E04 Netflix
-      - 中国-香港 IEPL Equinix HK2 E 09
-      - 中港专线 IPLC E20 1000Mbps
-      - 精简 49
-      - 日本 ソフトバンク E18 500Mbps 1x Netflix
-      - 中国-韩国 IEPL E 04
-      - 香港 油尖旺御金·国峯 網上行寬頻 E02
-      - 中国-香港 IEPL Equinix HK2 E 08
-      - 日本 ソフトバンク E15 500Mbps 1x Netflix
-      - 中国-爱尔兰 IPLC E02
-      - 中国-香港 IEPL Equinix HK2 E 15
-      - 香港 油尖旺御金·国峯 網上行寬頻 E09
-      - 中国-爱尔兰 IPLC E01
-      - 中国-香港 IEPL Equinix HK2 E 01
-      - 中港专线 IPLC E04 1000Mbps
-      - 香港D·0.6
-      - 中港专线 IPLC E11 1000Mbps
-      - 中国-香港 IEPL Equinix HK2 E 10
-      - 中港专线 IPLC E06 1000Mbps
-      - 香港 油尖旺御金·国峯 香港寬頻 E08
-      - 狮城A·0.2
-      - 香港 油尖旺御金·国峯 香港寬頻 E10
-      - 中港专线 IPLC E12 1000Mbps
-      - 日本 ソフトバンク E16 500Mbps 1x Netflix
-      - 日本A·2.0
-      - 中国-香港 IEPL Equinix HK2 E 13
-      - 中港专线 IPLC E03 1000Mbps
-      - 香港 油尖旺御金·国峯 香港寬頻 E02
-      - 香港 油尖旺御金·国峯 香港寬頻 E07
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E05 Netflix
-      - 中港专线 IPLC E05 1000Mbps
-      - 中港专线 IPLC E14 1000Mbps
-      - 中国-香港 IEPL Equinix HK2 E 03
-      - 香港 油尖旺御金·国峯 香港寬頻 E01
-      - 日本 ソフトバンク E17 500Mbps 1x Netflix
-      - 狮城B·0.2
-      - 中国-香港 IEPL Equinix HK2 E 06
-      - 日本 まつやまし auひかり ホーム1ギガ E 02
-      - 香港 油尖旺御金·国峯 香港寬頻 E06
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E01 Netflix
-      - 中国-香港 IEPL Equinix HK2 E 11
-      - 中港专线 IPLC E01 1000Mbps
-      - 精简 46
-      - 香港 油尖旺御金·国峯 香港寬頻 E09
-      - 中港专线 IPLC E18 1000Mbps
-      - 台湾B·0.6
-      - 香港 油尖旺御金·国峯 網上行寬頻 E06
-      - 菲律宾A·3.0
-      - 中国-香港 IEPL Equinix HK2 E 16
-      - 中港专线 IPLC E08 1000Mbps
-      - 香港 油尖旺御金·国峯 網上行寬頻 E08
-      - 香港B·1.0
-      - 香港C·1.0
-      - 中港专线 IPLC E16 1000Mbps
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E09 Netflix
-      - 日本 ソフトバンク E11 500Mbps 1x Netflix
-      - 日本 まつやまし auひかり ホーム1ギガ E 01
-      - 香港F·2.0
-      - 中国-香港 IEPL Equinix HK2 E 12
-      - 中港专线 IPLC E13 1000Mbps
-      - 中港专线 IPLC E17 1000Mbps
-      - 中国-香港 IEPL Equinix HK2 E 20
-      - 日本 まつやまし auひかり ホーム1ギガ E 08
-      - 中国-香港 IEPL Equinix HK2 E 02
-      - 香港 油尖旺御金·国峯 網上行寬頻 E10
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E06 Netflix
-      - 日本 ソフトバンク E07 500Mbps 1x Netflix
-      - 日本 まつやまし auひかり ホーム1ギガ E 10
-      - 中国-法国 IPLC E04
-      - 中港专线 IPLC E15 1000Mbps
-      - 日本 ソフトバンク E14 500Mbps 1x Netflix
-      - 韩国 전라북도 전주시 商宽 E 08
-      - 中国-台湾 IEPL HiNet固接 E03 Netflix 动画疯
-      - 中港专线 IPLC E07 1000Mbps
-      - 日本 ソフトバンク E12 500Mbps 1x Netflix
-      - 日本 まつやまし auひかり ホーム1ギガ E 12
-      - 香港 油尖旺御金·国峯 香港寬頻 E04
-      - 日本 ソフトバンク E06 500Mbps 1x Netflix
-      - 香港 油尖旺御金·国峯 香港寬頻 E05
-      - 中国-法国 IPLC E03
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E05 Netflix
-      - 日本 ソフトバンク E10 500Mbps 1x Netflix
-      - 精简 42
-      - 中国-香港 IEPL Equinix HK2 E 14
-      - 日本 まつやまし auひかり ホーム1ギガ E 09
-      - 香港 油尖旺御金·国峯 香港寬頻 E03
-      - 香港 油尖旺御金·国峯 網上行寬頻 E07
-      - 中国-台湾 IPLC HiNet固接 E10 Netflix 动画疯
-      - 日本 ソフトバンク E05 500Mbps 1x Netflix
-      - 中国-台湾 IEPL HiNet固接 E08 Netflix 动画疯
-      - 中国-韩国 IEPL E 07
-      - 日本 ソフトバンク E03 500Mbps 1x Netflix
-      - 中国-印度 班加罗尔 एयरटेल IPLC E01
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E07 Netflix
-      - 中国-韩国 IEPL E 10
-      - 日本 まつやまし auひかり ホーム1ギガ E 04
-      - 日本 ソフトバンク E02 500Mbps 1x Netflix
-      - 日本 まつやまし auひかり ホーム1ギガ E 07
-      - 香港A·1.0
-      - 中国-印度 班加罗尔 एयरटेल IPLC E03
-      - 日本 ソフトバンク E08 500Mbps 1x Netflix
-      - 中国-香港 IEPL Equinix HK2 E 04
-      - 中港专线 IPLC E19 1000Mbps
-      - 精简 47
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E02 Netflix
-      - 中国-韩国 IEPL E 09
-      - 日本 まつやまし auひかり ホーム1ギガ E 11
-      - 韩国 전라북도 전주시 商宽 E 01
-      - 韩国 전라북도 전주시 商宽 E 05
-      - 中国-韩国 IEPL E 01
-      - 日本 ソフトバンク E09 500Mbps 1x Netflix
-      - 韩国A·1.0
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E11 Netflix
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E06 Netflix
-      - 香港 油尖旺御金·国峯 網上行寬頻 E05
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E08 Netflix
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E04 Netflix
-      - 悉尼A·0.2
-      - 日本 まつやまし auひかり ホーム1ギガ E 05
-      - 中国-印度 班加罗尔 एयरटेल IPLC E02
-      - 韩国 전라북도 전주시 商宽 E 04
-      - 韩国 전라북도 전주시 商宽 E 02
-      - 中国-韩国 IEPL E 05
-      - 中国-韩国 IEPL E 08
-      - 韩国 전라북도 전주시 商宽 E 10
-      - 中国-印度 班加罗尔 एयरटेल IPLC E08
-      - 精简 43
-      - 韩国 전라북도 전주시 商宽 E 03
-      - 中国-印度 班加罗尔 एयरटेल IPLC E07
-      - 韩国 전라북도 전주시 商宽 E 09
-      - 中国-印度 班加罗尔 एयरटेल IPLC E06
-      - 中国-台湾 IEPL HiNet固接 E02 Netflix 动画疯
-      - 中国-爱尔兰 IPLC E05
-      - 日本 ソフトバンク E01 500Mbps 1x Netflix
-      - 中国-韩国 IEPL E 02
-      - 美国A·0.1
-      - 中国-台湾 IPLC HiNet固接 E05 Netflix 动画疯
-      - 中国-韩国 IEPL E 03
-      - 中国-台湾宜兰 IPLC E06
-      - 香港E·2.0
-      - 中国-台湾 IPLC HiNet固接 E04 Netflix 动画疯
-      - 中国-台湾宜兰 IPLC E03
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E12 Netflix
-      - 日本B·1.0
-      - 中国-台湾 IEPL HiNet固接 E04 Netflix 动画疯
-      - 中国-台湾 IEPL HiNet固接 E09 Netflix 动画疯
-      - 精简 50
-      - 精简 44
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E03 Netflix
-      - 中国-台湾 IEPL HiNet固接 E10 Netflix 动画疯
-      - 中国-台湾宜兰 IPLC E08
-      - 美国B·0.1
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E01 Netflix
-      - 精简 45
-      - 香港 油尖旺御金·国峯 網上行寬頻 E03
-      - 中国-台湾宜兰 IPLC E02
-      - 精简 41
-      - 中国-台湾 IPLC HiNet固接 E06 Netflix 动画疯
-      - 美国实验性 IEPL 中继 E04
-      - 日本 まつやまし auひかり ホーム1ギガ E 06
-      - 美国高级 IEPL 中继 E02
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E10 Netflix
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E02 Netflix
-      - 中国-台湾宜兰 IPLC E09
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E03 Netflix
-      - 美国高级 IEPL 中继 E04
-      - 韩国 전라북도 전주시 商宽 E 07
-      - 中国-韩国 IEPL E 06
-      - 韩国 전라북도 전주시 商宽 E 06
-      - 日本 まつやまし auひかり ホーム1ギガ E 03
-      - 阿根廷A·1.0
-      - 精简 48
-      - 中国-印度 班加罗尔 एयरटेल IPLC E05
-      - 美国实验性 IEPL 中继 E05
-      - 美国实验性 IEPL 中继 E03
-      - 中国-印度 班加罗尔 एयरटेल IPLC E04
-      - 中国-台湾 IPLC HiNet固接 E02 Netflix 动画疯
-      - 美国C·0.5
-      - 台湾A·1.0
-      - 美国高级 IEPL 中继 E05
-      - 伦敦A·0.2
-      - 俄罗斯 04
-      - 美国高级 IEPL 中继 E01
-      - 美国实验性 IEPL 中继 E01
-      - 中国-澳大利亚 IPLC 悉尼 E05
-      - 新加坡 Legacy Magic IEPL 中继 E01 Netflix
-      - 美国实验性 IEPL 中继 E02
-      - 美国高级 IEPL 中继 E03
-      - 中国-澳大利亚 IPLC 悉尼 E04
-      - 俄罗斯 02
-      - 土耳其A·1.0
-      - 中国-台湾 IEPL HiNet固接 E05 Netflix 动画疯
-      - 新加坡 Legacy Magic IEPL 中继 E04 Netflix
-      - 俄罗斯A·0.5
-      - 中国-台湾 IEPL HiNet固接 E07 Netflix 动画疯
-      - 新加坡 Magic IEPL 中继 E01 Netflix
-      - 印度A·2.0
-      - 中国-加拿大 IPLC E04
-      - 中国-澳大利亚 IPLC 悉尼 E03
-      - 中国-台湾宜兰 IPLC E05
-      - 中国-台湾 IEPL HiNet固接 E06 Netflix 动画疯
-      - 中国-台湾 IPLC HiNet固接 E03 Netflix 动画疯
-      - 中国-澳大利亚 IPLC 悉尼 E02
-      - 新加坡 Magic IEPL 中继 E04 Netflix
-      - 中国-澳大利亚 IPLC 悉尼 E01
-      - 中国-台湾 IPLC HiNet固接 E08 Netflix 动画疯
-      - 中国-加拿大 IPLC E02
-      - 中国-台湾宜兰 IPLC E10
-      - 中国-加拿大 IPLC E05
-      - 中国-加拿大 IPLC E03
-      - 新加坡 Legacy Magic IEPL 中继 E03 Netflix
-      - 中国-加拿大 IPLC E01
-      - 新加坡 Magic IEPL 中继 E05 Netflix
-      - imkcp白嫖
-      - 中国-台湾宜兰 IPLC E01
+      - V1-日本 多台负载均衡 中继D 1.5x
+      - V1-香港 多台负载均衡 中继D | 2x
+      - 魔戒.net1
+      - 魔戒.net9
+      - 魔戒.net2
+      - 魔戒.net4
+      - 魔戒.net5
+      - V1-日本A组 直连 速度随缘 1x
+      - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
+      - V1-台湾 多台负载均衡 中继C 1.5x
+      - 魔戒.net3
+      - 魔戒.net8
+      - 魔戒.net7
+      - 魔戒.net6
+      - V1-美国01 中继C | 1.5x
+      - V1-俄罗斯01 中继D 1.2x
+      - 越南胡志明-三网优化
+      - V1-香港HKT02 CDN 中继 2x
+      - V1-香港HKT03 CDN 中继 2x
+      - V1-美国01 中继D | 1.5x
+      - 魔戒.net杭锅
+      - 台湾2-三网优化-强加密
+      - V1-英国01 CDN 中继 1.5x
+      - V1-德国01 CDN 中继 1.5x
+      - V1-波兰01 CDN 中继 1.5x
+      - V1-日本 多台负载均衡 中继B 1.5x
+      - V1-香港 多台负载均衡 中继A | 2x
+      - V1-香港 多台负载均衡 中继B | 2x
+      - V1-台湾 多台负载均衡 中继B 1.5x
+      - V1-日本 多台负载均衡 中继A 1.5x
+      - 魔戒.net香港_R_316
+      - V1-台湾 多台负载均衡 中继A 1.5x
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 中国-香港 IEPL Equinix HK2 E 17
-      - 香港 油尖旺御金·国峯 網上行寬頻 E01
-      - 中国-法国 IPLC E05
-      - 中港专线 IPLC E02 1000Mbps
-      - 日本 ソフトバンク E04 500Mbps 1x Netflix
-      - 中港专线 IPLC E10 1000Mbps
-      - 日本 ソフトバンク E13 500Mbps 1x Netflix
-      - 中国-香港 IEPL Equinix HK2 E 18
-      - 中国-香港 IEPL Equinix HK2 E 19
-      - 中港专线 IPLC E09 1000Mbps
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E04 Netflix
-      - 中国-香港 IEPL Equinix HK2 E 09
-      - 中港专线 IPLC E20 1000Mbps
-      - 精简 49
-      - 日本 ソフトバンク E18 500Mbps 1x Netflix
-      - 中国-韩国 IEPL E 04
-      - 香港 油尖旺御金·国峯 網上行寬頻 E02
-      - 中国-香港 IEPL Equinix HK2 E 08
-      - 日本 ソフトバンク E15 500Mbps 1x Netflix
-      - 中国-爱尔兰 IPLC E02
-      - 中国-香港 IEPL Equinix HK2 E 15
-      - 香港 油尖旺御金·国峯 網上行寬頻 E09
-      - 中国-爱尔兰 IPLC E01
-      - 中国-香港 IEPL Equinix HK2 E 01
-      - 中港专线 IPLC E04 1000Mbps
-      - 香港D·0.6
-      - 中港专线 IPLC E11 1000Mbps
-      - 中国-香港 IEPL Equinix HK2 E 10
-      - 中港专线 IPLC E06 1000Mbps
-      - 香港 油尖旺御金·国峯 香港寬頻 E08
-      - 狮城A·0.2
-      - 香港 油尖旺御金·国峯 香港寬頻 E10
-      - 中港专线 IPLC E12 1000Mbps
-      - 日本 ソフトバンク E16 500Mbps 1x Netflix
-      - 日本A·2.0
-      - 中国-香港 IEPL Equinix HK2 E 13
-      - 中港专线 IPLC E03 1000Mbps
-      - 香港 油尖旺御金·国峯 香港寬頻 E02
-      - 香港 油尖旺御金·国峯 香港寬頻 E07
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E05 Netflix
-      - 中港专线 IPLC E05 1000Mbps
-      - 中港专线 IPLC E14 1000Mbps
-      - 中国-香港 IEPL Equinix HK2 E 03
-      - 香港 油尖旺御金·国峯 香港寬頻 E01
-      - 日本 ソフトバンク E17 500Mbps 1x Netflix
-      - 狮城B·0.2
-      - 中国-香港 IEPL Equinix HK2 E 06
-      - 日本 まつやまし auひかり ホーム1ギガ E 02
-      - 香港 油尖旺御金·国峯 香港寬頻 E06
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E01 Netflix
-      - 中国-香港 IEPL Equinix HK2 E 11
-      - 中港专线 IPLC E01 1000Mbps
-      - 精简 46
-      - 香港 油尖旺御金·国峯 香港寬頻 E09
-      - 中港专线 IPLC E18 1000Mbps
-      - 台湾B·0.6
-      - 香港 油尖旺御金·国峯 網上行寬頻 E06
-      - 菲律宾A·3.0
-      - 中国-香港 IEPL Equinix HK2 E 16
-      - 中港专线 IPLC E08 1000Mbps
-      - 香港 油尖旺御金·国峯 網上行寬頻 E08
-      - 香港B·1.0
-      - 香港C·1.0
-      - 中港专线 IPLC E16 1000Mbps
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E09 Netflix
-      - 日本 ソフトバンク E11 500Mbps 1x Netflix
-      - 日本 まつやまし auひかり ホーム1ギガ E 01
-      - 香港F·2.0
-      - 中国-香港 IEPL Equinix HK2 E 12
-      - 中港专线 IPLC E13 1000Mbps
-      - 中港专线 IPLC E17 1000Mbps
-      - 中国-香港 IEPL Equinix HK2 E 20
-      - 日本 まつやまし auひかり ホーム1ギガ E 08
-      - 中国-香港 IEPL Equinix HK2 E 02
-      - 香港 油尖旺御金·国峯 網上行寬頻 E10
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E06 Netflix
-      - 日本 ソフトバンク E07 500Mbps 1x Netflix
-      - 日本 まつやまし auひかり ホーム1ギガ E 10
-      - 中国-法国 IPLC E04
-      - 中港专线 IPLC E15 1000Mbps
-      - 日本 ソフトバンク E14 500Mbps 1x Netflix
-      - 韩国 전라북도 전주시 商宽 E 08
-      - 中国-台湾 IEPL HiNet固接 E03 Netflix 动画疯
-      - 中港专线 IPLC E07 1000Mbps
-      - 日本 ソフトバンク E12 500Mbps 1x Netflix
-      - 日本 まつやまし auひかり ホーム1ギガ E 12
-      - 香港 油尖旺御金·国峯 香港寬頻 E04
-      - 日本 ソフトバンク E06 500Mbps 1x Netflix
-      - 香港 油尖旺御金·国峯 香港寬頻 E05
-      - 中国-法国 IPLC E03
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E05 Netflix
-      - 日本 ソフトバンク E10 500Mbps 1x Netflix
-      - 精简 42
-      - 中国-香港 IEPL Equinix HK2 E 14
-      - 日本 まつやまし auひかり ホーム1ギガ E 09
-      - 香港 油尖旺御金·国峯 香港寬頻 E03
-      - 香港 油尖旺御金·国峯 網上行寬頻 E07
-      - 中国-台湾 IPLC HiNet固接 E10 Netflix 动画疯
-      - 日本 ソフトバンク E05 500Mbps 1x Netflix
-      - 中国-台湾 IEPL HiNet固接 E08 Netflix 动画疯
-      - 中国-韩国 IEPL E 07
-      - 日本 ソフトバンク E03 500Mbps 1x Netflix
-      - 中国-印度 班加罗尔 एयरटेल IPLC E01
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E07 Netflix
-      - 中国-韩国 IEPL E 10
-      - 日本 まつやまし auひかり ホーム1ギガ E 04
-      - 日本 ソフトバンク E02 500Mbps 1x Netflix
-      - 日本 まつやまし auひかり ホーム1ギガ E 07
-      - 香港A·1.0
-      - 中国-印度 班加罗尔 एयरटेल IPLC E03
-      - 日本 ソフトバンク E08 500Mbps 1x Netflix
-      - 中国-香港 IEPL Equinix HK2 E 04
-      - 中港专线 IPLC E19 1000Mbps
-      - 精简 47
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E02 Netflix
-      - 中国-韩国 IEPL E 09
-      - 日本 まつやまし auひかり ホーム1ギガ E 11
-      - 韩国 전라북도 전주시 商宽 E 01
-      - 韩国 전라북도 전주시 商宽 E 05
-      - 中国-韩国 IEPL E 01
-      - 日本 ソフトバンク E09 500Mbps 1x Netflix
-      - 韩国A·1.0
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E11 Netflix
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E06 Netflix
-      - 香港 油尖旺御金·国峯 網上行寬頻 E05
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E08 Netflix
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E04 Netflix
-      - 悉尼A·0.2
-      - 日本 まつやまし auひかり ホーム1ギガ E 05
-      - 中国-印度 班加罗尔 एयरटेल IPLC E02
-      - 韩国 전라북도 전주시 商宽 E 04
-      - 韩国 전라북도 전주시 商宽 E 02
-      - 中国-韩国 IEPL E 05
-      - 中国-韩国 IEPL E 08
-      - 韩国 전라북도 전주시 商宽 E 10
-      - 中国-印度 班加罗尔 एयरटेल IPLC E08
-      - 精简 43
-      - 韩国 전라북도 전주시 商宽 E 03
-      - 中国-印度 班加罗尔 एयरटेल IPLC E07
-      - 韩国 전라북도 전주시 商宽 E 09
-      - 中国-印度 班加罗尔 एयरटेल IPLC E06
-      - 中国-台湾 IEPL HiNet固接 E02 Netflix 动画疯
-      - 中国-爱尔兰 IPLC E05
-      - 日本 ソフトバンク E01 500Mbps 1x Netflix
-      - 中国-韩国 IEPL E 02
-      - 美国A·0.1
-      - 中国-台湾 IPLC HiNet固接 E05 Netflix 动画疯
-      - 中国-韩国 IEPL E 03
-      - 中国-台湾宜兰 IPLC E06
-      - 香港E·2.0
-      - 中国-台湾 IPLC HiNet固接 E04 Netflix 动画疯
-      - 中国-台湾宜兰 IPLC E03
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E12 Netflix
-      - 日本B·1.0
-      - 中国-台湾 IEPL HiNet固接 E04 Netflix 动画疯
-      - 中国-台湾 IEPL HiNet固接 E09 Netflix 动画疯
-      - 精简 50
-      - 精简 44
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E03 Netflix
-      - 中国-台湾 IEPL HiNet固接 E10 Netflix 动画疯
-      - 中国-台湾宜兰 IPLC E08
-      - 美国B·0.1
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E01 Netflix
-      - 精简 45
-      - 香港 油尖旺御金·国峯 網上行寬頻 E03
-      - 中国-台湾宜兰 IPLC E02
-      - 精简 41
-      - 中国-台湾 IPLC HiNet固接 E06 Netflix 动画疯
-      - 美国实验性 IEPL 中继 E04
-      - 日本 まつやまし auひかり ホーム1ギガ E 06
-      - 美国高级 IEPL 中继 E02
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E10 Netflix
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E02 Netflix
-      - 中国-台湾宜兰 IPLC E09
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E03 Netflix
-      - 美国高级 IEPL 中继 E04
-      - 韩国 전라북도 전주시 商宽 E 07
-      - 中国-韩国 IEPL E 06
-      - 韩国 전라북도 전주시 商宽 E 06
-      - 日本 まつやまし auひかり ホーム1ギガ E 03
-      - 阿根廷A·1.0
-      - 精简 48
-      - 中国-印度 班加罗尔 एयरटेल IPLC E05
-      - 美国实验性 IEPL 中继 E05
-      - 美国实验性 IEPL 中继 E03
-      - 中国-印度 班加罗尔 एयरटेल IPLC E04
-      - 中国-台湾 IPLC HiNet固接 E02 Netflix 动画疯
-      - 美国C·0.5
-      - 台湾A·1.0
-      - 美国高级 IEPL 中继 E05
-      - 伦敦A·0.2
-      - 俄罗斯 04
-      - 美国高级 IEPL 中继 E01
-      - 美国实验性 IEPL 中继 E01
-      - 中国-澳大利亚 IPLC 悉尼 E05
-      - 新加坡 Legacy Magic IEPL 中继 E01 Netflix
-      - 美国实验性 IEPL 中继 E02
-      - 美国高级 IEPL 中继 E03
-      - 中国-澳大利亚 IPLC 悉尼 E04
-      - 俄罗斯 02
-      - 土耳其A·1.0
-      - 中国-台湾 IEPL HiNet固接 E05 Netflix 动画疯
-      - 新加坡 Legacy Magic IEPL 中继 E04 Netflix
-      - 俄罗斯A·0.5
-      - 中国-台湾 IEPL HiNet固接 E07 Netflix 动画疯
-      - 新加坡 Magic IEPL 中继 E01 Netflix
-      - 印度A·2.0
-      - 中国-加拿大 IPLC E04
-      - 中国-澳大利亚 IPLC 悉尼 E03
-      - 中国-台湾宜兰 IPLC E05
-      - 中国-台湾 IEPL HiNet固接 E06 Netflix 动画疯
-      - 中国-台湾 IPLC HiNet固接 E03 Netflix 动画疯
-      - 中国-澳大利亚 IPLC 悉尼 E02
-      - 新加坡 Magic IEPL 中继 E04 Netflix
-      - 中国-澳大利亚 IPLC 悉尼 E01
-      - 中国-台湾 IPLC HiNet固接 E08 Netflix 动画疯
-      - 中国-加拿大 IPLC E02
-      - 中国-台湾宜兰 IPLC E10
-      - 中国-加拿大 IPLC E05
-      - 中国-加拿大 IPLC E03
-      - 新加坡 Legacy Magic IEPL 中继 E03 Netflix
-      - 中国-加拿大 IPLC E01
-      - 新加坡 Magic IEPL 中继 E05 Netflix
-      - imkcp白嫖
-      - 中国-台湾宜兰 IPLC E01
+      - V1-日本 多台负载均衡 中继D 1.5x
+      - V1-香港 多台负载均衡 中继D | 2x
+      - 魔戒.net1
+      - 魔戒.net9
+      - 魔戒.net2
+      - 魔戒.net4
+      - 魔戒.net5
+      - V1-日本A组 直连 速度随缘 1x
+      - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
+      - V1-台湾 多台负载均衡 中继C 1.5x
+      - 魔戒.net3
+      - 魔戒.net8
+      - 魔戒.net7
+      - 魔戒.net6
+      - V1-美国01 中继C | 1.5x
+      - V1-俄罗斯01 中继D 1.2x
+      - 越南胡志明-三网优化
+      - V1-香港HKT02 CDN 中继 2x
+      - V1-香港HKT03 CDN 中继 2x
+      - V1-美国01 中继D | 1.5x
+      - 魔戒.net杭锅
+      - 台湾2-三网优化-强加密
+      - V1-英国01 CDN 中继 1.5x
+      - V1-德国01 CDN 中继 1.5x
+      - V1-波兰01 CDN 中继 1.5x
+      - V1-日本 多台负载均衡 中继B 1.5x
+      - V1-香港 多台负载均衡 中继A | 2x
+      - V1-香港 多台负载均衡 中继B | 2x
+      - V1-台湾 多台负载均衡 中继B 1.5x
+      - V1-日本 多台负载均衡 中继A 1.5x
+      - 魔戒.net香港_R_316
+      - V1-台湾 多台负载均衡 中继A 1.5x
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 中国-香港 IEPL Equinix HK2 E 17
-      - 香港 油尖旺御金·国峯 網上行寬頻 E01
-      - 中国-法国 IPLC E05
-      - 中港专线 IPLC E02 1000Mbps
-      - 日本 ソフトバンク E04 500Mbps 1x Netflix
-      - 中港专线 IPLC E10 1000Mbps
-      - 日本 ソフトバンク E13 500Mbps 1x Netflix
-      - 中国-香港 IEPL Equinix HK2 E 18
-      - 中国-香港 IEPL Equinix HK2 E 19
-      - 中港专线 IPLC E09 1000Mbps
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E04 Netflix
-      - 中国-香港 IEPL Equinix HK2 E 09
-      - 中港专线 IPLC E20 1000Mbps
-      - 精简 49
-      - 日本 ソフトバンク E18 500Mbps 1x Netflix
-      - 中国-韩国 IEPL E 04
-      - 香港 油尖旺御金·国峯 網上行寬頻 E02
-      - 中国-香港 IEPL Equinix HK2 E 08
-      - 日本 ソフトバンク E15 500Mbps 1x Netflix
-      - 中国-爱尔兰 IPLC E02
-      - 中国-香港 IEPL Equinix HK2 E 15
-      - 香港 油尖旺御金·国峯 網上行寬頻 E09
-      - 中国-爱尔兰 IPLC E01
-      - 中国-香港 IEPL Equinix HK2 E 01
-      - 中港专线 IPLC E04 1000Mbps
-      - 香港D·0.6
-      - 中港专线 IPLC E11 1000Mbps
-      - 中国-香港 IEPL Equinix HK2 E 10
-      - 中港专线 IPLC E06 1000Mbps
-      - 香港 油尖旺御金·国峯 香港寬頻 E08
-      - 狮城A·0.2
-      - 香港 油尖旺御金·国峯 香港寬頻 E10
-      - 中港专线 IPLC E12 1000Mbps
-      - 日本 ソフトバンク E16 500Mbps 1x Netflix
-      - 日本A·2.0
-      - 中国-香港 IEPL Equinix HK2 E 13
-      - 中港专线 IPLC E03 1000Mbps
-      - 香港 油尖旺御金·国峯 香港寬頻 E02
-      - 香港 油尖旺御金·国峯 香港寬頻 E07
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E05 Netflix
-      - 中港专线 IPLC E05 1000Mbps
-      - 中港专线 IPLC E14 1000Mbps
-      - 中国-香港 IEPL Equinix HK2 E 03
-      - 香港 油尖旺御金·国峯 香港寬頻 E01
-      - 日本 ソフトバンク E17 500Mbps 1x Netflix
-      - 狮城B·0.2
-      - 中国-香港 IEPL Equinix HK2 E 06
-      - 日本 まつやまし auひかり ホーム1ギガ E 02
-      - 香港 油尖旺御金·国峯 香港寬頻 E06
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E01 Netflix
-      - 中国-香港 IEPL Equinix HK2 E 11
-      - 中港专线 IPLC E01 1000Mbps
-      - 精简 46
-      - 香港 油尖旺御金·国峯 香港寬頻 E09
-      - 中港专线 IPLC E18 1000Mbps
-      - 台湾B·0.6
-      - 香港 油尖旺御金·国峯 網上行寬頻 E06
-      - 菲律宾A·3.0
-      - 中国-香港 IEPL Equinix HK2 E 16
-      - 中港专线 IPLC E08 1000Mbps
-      - 香港 油尖旺御金·国峯 網上行寬頻 E08
-      - 香港B·1.0
-      - 香港C·1.0
-      - 中港专线 IPLC E16 1000Mbps
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E09 Netflix
-      - 日本 ソフトバンク E11 500Mbps 1x Netflix
-      - 日本 まつやまし auひかり ホーム1ギガ E 01
-      - 香港F·2.0
-      - 中国-香港 IEPL Equinix HK2 E 12
-      - 中港专线 IPLC E13 1000Mbps
-      - 中港专线 IPLC E17 1000Mbps
-      - 中国-香港 IEPL Equinix HK2 E 20
-      - 日本 まつやまし auひかり ホーム1ギガ E 08
-      - 中国-香港 IEPL Equinix HK2 E 02
-      - 香港 油尖旺御金·国峯 網上行寬頻 E10
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E06 Netflix
-      - 日本 ソフトバンク E07 500Mbps 1x Netflix
-      - 日本 まつやまし auひかり ホーム1ギガ E 10
-      - 中国-法国 IPLC E04
-      - 中港专线 IPLC E15 1000Mbps
-      - 日本 ソフトバンク E14 500Mbps 1x Netflix
-      - 韩国 전라북도 전주시 商宽 E 08
-      - 中国-台湾 IEPL HiNet固接 E03 Netflix 动画疯
-      - 中港专线 IPLC E07 1000Mbps
-      - 日本 ソフトバンク E12 500Mbps 1x Netflix
-      - 日本 まつやまし auひかり ホーム1ギガ E 12
-      - 香港 油尖旺御金·国峯 香港寬頻 E04
-      - 日本 ソフトバンク E06 500Mbps 1x Netflix
-      - 香港 油尖旺御金·国峯 香港寬頻 E05
-      - 中国-法国 IPLC E03
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E05 Netflix
-      - 日本 ソフトバンク E10 500Mbps 1x Netflix
-      - 精简 42
-      - 中国-香港 IEPL Equinix HK2 E 14
-      - 日本 まつやまし auひかり ホーム1ギガ E 09
-      - 香港 油尖旺御金·国峯 香港寬頻 E03
-      - 香港 油尖旺御金·国峯 網上行寬頻 E07
-      - 中国-台湾 IPLC HiNet固接 E10 Netflix 动画疯
-      - 日本 ソフトバンク E05 500Mbps 1x Netflix
-      - 中国-台湾 IEPL HiNet固接 E08 Netflix 动画疯
-      - 中国-韩国 IEPL E 07
-      - 日本 ソフトバンク E03 500Mbps 1x Netflix
-      - 中国-印度 班加罗尔 एयरटेल IPLC E01
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E07 Netflix
-      - 中国-韩国 IEPL E 10
-      - 日本 まつやまし auひかり ホーム1ギガ E 04
-      - 日本 ソフトバンク E02 500Mbps 1x Netflix
-      - 日本 まつやまし auひかり ホーム1ギガ E 07
-      - 香港A·1.0
-      - 中国-印度 班加罗尔 एयरटेल IPLC E03
-      - 日本 ソフトバンク E08 500Mbps 1x Netflix
-      - 中国-香港 IEPL Equinix HK2 E 04
-      - 中港专线 IPLC E19 1000Mbps
-      - 精简 47
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E02 Netflix
-      - 中国-韩国 IEPL E 09
-      - 日本 まつやまし auひかり ホーム1ギガ E 11
-      - 韩国 전라북도 전주시 商宽 E 01
-      - 韩国 전라북도 전주시 商宽 E 05
-      - 中国-韩国 IEPL E 01
-      - 日本 ソフトバンク E09 500Mbps 1x Netflix
-      - 韩国A·1.0
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E11 Netflix
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E06 Netflix
-      - 香港 油尖旺御金·国峯 網上行寬頻 E05
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E08 Netflix
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E04 Netflix
-      - 悉尼A·0.2
-      - 日本 まつやまし auひかり ホーム1ギガ E 05
-      - 中国-印度 班加罗尔 एयरटेल IPLC E02
-      - 韩国 전라북도 전주시 商宽 E 04
-      - 韩国 전라북도 전주시 商宽 E 02
-      - 中国-韩国 IEPL E 05
-      - 中国-韩国 IEPL E 08
-      - 韩国 전라북도 전주시 商宽 E 10
-      - 中国-印度 班加罗尔 एयरटेल IPLC E08
-      - 精简 43
-      - 韩国 전라북도 전주시 商宽 E 03
-      - 中国-印度 班加罗尔 एयरटेल IPLC E07
-      - 韩国 전라북도 전주시 商宽 E 09
-      - 中国-印度 班加罗尔 एयरटेल IPLC E06
-      - 中国-台湾 IEPL HiNet固接 E02 Netflix 动画疯
-      - 中国-爱尔兰 IPLC E05
-      - 日本 ソフトバンク E01 500Mbps 1x Netflix
-      - 中国-韩国 IEPL E 02
-      - 美国A·0.1
-      - 中国-台湾 IPLC HiNet固接 E05 Netflix 动画疯
-      - 中国-韩国 IEPL E 03
-      - 中国-台湾宜兰 IPLC E06
-      - 香港E·2.0
-      - 中国-台湾 IPLC HiNet固接 E04 Netflix 动画疯
-      - 中国-台湾宜兰 IPLC E03
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E12 Netflix
-      - 日本B·1.0
-      - 中国-台湾 IEPL HiNet固接 E04 Netflix 动画疯
-      - 中国-台湾 IEPL HiNet固接 E09 Netflix 动画疯
-      - 精简 50
-      - 精简 44
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E03 Netflix
-      - 中国-台湾 IEPL HiNet固接 E10 Netflix 动画疯
-      - 中国-台湾宜兰 IPLC E08
-      - 美国B·0.1
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E01 Netflix
-      - 精简 45
-      - 香港 油尖旺御金·国峯 網上行寬頻 E03
-      - 中国-台湾宜兰 IPLC E02
-      - 精简 41
-      - 中国-台湾 IPLC HiNet固接 E06 Netflix 动画疯
-      - 美国实验性 IEPL 中继 E04
-      - 日本 まつやまし auひかり ホーム1ギガ E 06
-      - 美国高级 IEPL 中继 E02
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E10 Netflix
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E02 Netflix
-      - 中国-台湾宜兰 IPLC E09
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E03 Netflix
-      - 美国高级 IEPL 中继 E04
-      - 韩国 전라북도 전주시 商宽 E 07
-      - 中国-韩国 IEPL E 06
-      - 韩国 전라북도 전주시 商宽 E 06
-      - 日本 まつやまし auひかり ホーム1ギガ E 03
-      - 阿根廷A·1.0
-      - 精简 48
-      - 中国-印度 班加罗尔 एयरटेल IPLC E05
-      - 美国实验性 IEPL 中继 E05
-      - 美国实验性 IEPL 中继 E03
-      - 中国-印度 班加罗尔 एयरटेल IPLC E04
-      - 中国-台湾 IPLC HiNet固接 E02 Netflix 动画疯
-      - 美国C·0.5
-      - 台湾A·1.0
-      - 美国高级 IEPL 中继 E05
-      - 伦敦A·0.2
-      - 俄罗斯 04
-      - 美国高级 IEPL 中继 E01
-      - 美国实验性 IEPL 中继 E01
-      - 中国-澳大利亚 IPLC 悉尼 E05
-      - 新加坡 Legacy Magic IEPL 中继 E01 Netflix
-      - 美国实验性 IEPL 中继 E02
-      - 美国高级 IEPL 中继 E03
-      - 中国-澳大利亚 IPLC 悉尼 E04
-      - 俄罗斯 02
-      - 土耳其A·1.0
-      - 中国-台湾 IEPL HiNet固接 E05 Netflix 动画疯
-      - 新加坡 Legacy Magic IEPL 中继 E04 Netflix
-      - 俄罗斯A·0.5
-      - 中国-台湾 IEPL HiNet固接 E07 Netflix 动画疯
-      - 新加坡 Magic IEPL 中继 E01 Netflix
-      - 印度A·2.0
-      - 中国-加拿大 IPLC E04
-      - 中国-澳大利亚 IPLC 悉尼 E03
-      - 中国-台湾宜兰 IPLC E05
-      - 中国-台湾 IEPL HiNet固接 E06 Netflix 动画疯
-      - 中国-台湾 IPLC HiNet固接 E03 Netflix 动画疯
-      - 中国-澳大利亚 IPLC 悉尼 E02
-      - 新加坡 Magic IEPL 中继 E04 Netflix
-      - 中国-澳大利亚 IPLC 悉尼 E01
-      - 中国-台湾 IPLC HiNet固接 E08 Netflix 动画疯
-      - 中国-加拿大 IPLC E02
-      - 中国-台湾宜兰 IPLC E10
-      - 中国-加拿大 IPLC E05
-      - 中国-加拿大 IPLC E03
-      - 新加坡 Legacy Magic IEPL 中继 E03 Netflix
-      - 中国-加拿大 IPLC E01
-      - 新加坡 Magic IEPL 中继 E05 Netflix
-      - imkcp白嫖
-      - 中国-台湾宜兰 IPLC E01
+      - V1-日本 多台负载均衡 中继D 1.5x
+      - V1-香港 多台负载均衡 中继D | 2x
+      - 魔戒.net1
+      - 魔戒.net9
+      - 魔戒.net2
+      - 魔戒.net4
+      - 魔戒.net5
+      - V1-日本A组 直连 速度随缘 1x
+      - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
+      - V1-台湾 多台负载均衡 中继C 1.5x
+      - 魔戒.net3
+      - 魔戒.net8
+      - 魔戒.net7
+      - 魔戒.net6
+      - V1-美国01 中继C | 1.5x
+      - V1-俄罗斯01 中继D 1.2x
+      - 越南胡志明-三网优化
+      - V1-香港HKT02 CDN 中继 2x
+      - V1-香港HKT03 CDN 中继 2x
+      - V1-美国01 中继D | 1.5x
+      - 魔戒.net杭锅
+      - 台湾2-三网优化-强加密
+      - V1-英国01 CDN 中继 1.5x
+      - V1-德国01 CDN 中继 1.5x
+      - V1-波兰01 CDN 中继 1.5x
+      - V1-日本 多台负载均衡 中继B 1.5x
+      - V1-香港 多台负载均衡 中继A | 2x
+      - V1-香港 多台负载均衡 中继B | 2x
+      - V1-台湾 多台负载均衡 中继B 1.5x
+      - V1-日本 多台负载均衡 中继A 1.5x
+      - 魔戒.net香港_R_316
+      - V1-台湾 多台负载均衡 中继A 1.5x
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1965,231 +345,38 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 中国-香港 IEPL Equinix HK2 E 17
-      - 香港 油尖旺御金·国峯 網上行寬頻 E01
-      - 中国-法国 IPLC E05
-      - 中港专线 IPLC E02 1000Mbps
-      - 日本 ソフトバンク E04 500Mbps 1x Netflix
-      - 中港专线 IPLC E10 1000Mbps
-      - 日本 ソフトバンク E13 500Mbps 1x Netflix
-      - 中国-香港 IEPL Equinix HK2 E 18
-      - 中国-香港 IEPL Equinix HK2 E 19
-      - 中港专线 IPLC E09 1000Mbps
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E04 Netflix
-      - 中国-香港 IEPL Equinix HK2 E 09
-      - 中港专线 IPLC E20 1000Mbps
-      - 精简 49
-      - 日本 ソフトバンク E18 500Mbps 1x Netflix
-      - 中国-韩国 IEPL E 04
-      - 香港 油尖旺御金·国峯 網上行寬頻 E02
-      - 中国-香港 IEPL Equinix HK2 E 08
-      - 日本 ソフトバンク E15 500Mbps 1x Netflix
-      - 中国-爱尔兰 IPLC E02
-      - 中国-香港 IEPL Equinix HK2 E 15
-      - 香港 油尖旺御金·国峯 網上行寬頻 E09
-      - 中国-爱尔兰 IPLC E01
-      - 中国-香港 IEPL Equinix HK2 E 01
-      - 中港专线 IPLC E04 1000Mbps
-      - 香港D·0.6
-      - 中港专线 IPLC E11 1000Mbps
-      - 中国-香港 IEPL Equinix HK2 E 10
-      - 中港专线 IPLC E06 1000Mbps
-      - 香港 油尖旺御金·国峯 香港寬頻 E08
-      - 狮城A·0.2
-      - 香港 油尖旺御金·国峯 香港寬頻 E10
-      - 中港专线 IPLC E12 1000Mbps
-      - 日本 ソフトバンク E16 500Mbps 1x Netflix
-      - 日本A·2.0
-      - 中国-香港 IEPL Equinix HK2 E 13
-      - 中港专线 IPLC E03 1000Mbps
-      - 香港 油尖旺御金·国峯 香港寬頻 E02
-      - 香港 油尖旺御金·国峯 香港寬頻 E07
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E05 Netflix
-      - 中港专线 IPLC E05 1000Mbps
-      - 中港专线 IPLC E14 1000Mbps
-      - 中国-香港 IEPL Equinix HK2 E 03
-      - 香港 油尖旺御金·国峯 香港寬頻 E01
-      - 日本 ソフトバンク E17 500Mbps 1x Netflix
-      - 狮城B·0.2
-      - 中国-香港 IEPL Equinix HK2 E 06
-      - 日本 まつやまし auひかり ホーム1ギガ E 02
-      - 香港 油尖旺御金·国峯 香港寬頻 E06
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E01 Netflix
-      - 中国-香港 IEPL Equinix HK2 E 11
-      - 中港专线 IPLC E01 1000Mbps
-      - 精简 46
-      - 香港 油尖旺御金·国峯 香港寬頻 E09
-      - 中港专线 IPLC E18 1000Mbps
-      - 台湾B·0.6
-      - 香港 油尖旺御金·国峯 網上行寬頻 E06
-      - 菲律宾A·3.0
-      - 中国-香港 IEPL Equinix HK2 E 16
-      - 中港专线 IPLC E08 1000Mbps
-      - 香港 油尖旺御金·国峯 網上行寬頻 E08
-      - 香港B·1.0
-      - 香港C·1.0
-      - 中港专线 IPLC E16 1000Mbps
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E09 Netflix
-      - 日本 ソフトバンク E11 500Mbps 1x Netflix
-      - 日本 まつやまし auひかり ホーム1ギガ E 01
-      - 香港F·2.0
-      - 中国-香港 IEPL Equinix HK2 E 12
-      - 中港专线 IPLC E13 1000Mbps
-      - 中港专线 IPLC E17 1000Mbps
-      - 中国-香港 IEPL Equinix HK2 E 20
-      - 日本 まつやまし auひかり ホーム1ギガ E 08
-      - 中国-香港 IEPL Equinix HK2 E 02
-      - 香港 油尖旺御金·国峯 網上行寬頻 E10
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E06 Netflix
-      - 日本 ソフトバンク E07 500Mbps 1x Netflix
-      - 日本 まつやまし auひかり ホーム1ギガ E 10
-      - 中国-法国 IPLC E04
-      - 中港专线 IPLC E15 1000Mbps
-      - 日本 ソフトバンク E14 500Mbps 1x Netflix
-      - 韩国 전라북도 전주시 商宽 E 08
-      - 中国-台湾 IEPL HiNet固接 E03 Netflix 动画疯
-      - 中港专线 IPLC E07 1000Mbps
-      - 日本 ソフトバンク E12 500Mbps 1x Netflix
-      - 日本 まつやまし auひかり ホーム1ギガ E 12
-      - 香港 油尖旺御金·国峯 香港寬頻 E04
-      - 日本 ソフトバンク E06 500Mbps 1x Netflix
-      - 香港 油尖旺御金·国峯 香港寬頻 E05
-      - 中国-法国 IPLC E03
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E05 Netflix
-      - 日本 ソフトバンク E10 500Mbps 1x Netflix
-      - 精简 42
-      - 中国-香港 IEPL Equinix HK2 E 14
-      - 日本 まつやまし auひかり ホーム1ギガ E 09
-      - 香港 油尖旺御金·国峯 香港寬頻 E03
-      - 香港 油尖旺御金·国峯 網上行寬頻 E07
-      - 中国-台湾 IPLC HiNet固接 E10 Netflix 动画疯
-      - 日本 ソフトバンク E05 500Mbps 1x Netflix
-      - 中国-台湾 IEPL HiNet固接 E08 Netflix 动画疯
-      - 中国-韩国 IEPL E 07
-      - 日本 ソフトバンク E03 500Mbps 1x Netflix
-      - 中国-印度 班加罗尔 एयरटेल IPLC E01
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E07 Netflix
-      - 中国-韩国 IEPL E 10
-      - 日本 まつやまし auひかり ホーム1ギガ E 04
-      - 日本 ソフトバンク E02 500Mbps 1x Netflix
-      - 日本 まつやまし auひかり ホーム1ギガ E 07
-      - 香港A·1.0
-      - 中国-印度 班加罗尔 एयरटेल IPLC E03
-      - 日本 ソフトバンク E08 500Mbps 1x Netflix
-      - 中国-香港 IEPL Equinix HK2 E 04
-      - 中港专线 IPLC E19 1000Mbps
-      - 精简 47
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E02 Netflix
-      - 中国-韩国 IEPL E 09
-      - 日本 まつやまし auひかり ホーム1ギガ E 11
-      - 韩国 전라북도 전주시 商宽 E 01
-      - 韩国 전라북도 전주시 商宽 E 05
-      - 中国-韩国 IEPL E 01
-      - 日本 ソフトバンク E09 500Mbps 1x Netflix
-      - 韩国A·1.0
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E11 Netflix
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E06 Netflix
-      - 香港 油尖旺御金·国峯 網上行寬頻 E05
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E08 Netflix
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E04 Netflix
-      - 悉尼A·0.2
-      - 日本 まつやまし auひかり ホーム1ギガ E 05
-      - 中国-印度 班加罗尔 एयरटेल IPLC E02
-      - 韩国 전라북도 전주시 商宽 E 04
-      - 韩国 전라북도 전주시 商宽 E 02
-      - 中国-韩国 IEPL E 05
-      - 中国-韩国 IEPL E 08
-      - 韩国 전라북도 전주시 商宽 E 10
-      - 中国-印度 班加罗尔 एयरटेल IPLC E08
-      - 精简 43
-      - 韩国 전라북도 전주시 商宽 E 03
-      - 中国-印度 班加罗尔 एयरटेल IPLC E07
-      - 韩国 전라북도 전주시 商宽 E 09
-      - 中国-印度 班加罗尔 एयरटेल IPLC E06
-      - 中国-台湾 IEPL HiNet固接 E02 Netflix 动画疯
-      - 中国-爱尔兰 IPLC E05
-      - 日本 ソフトバンク E01 500Mbps 1x Netflix
-      - 中国-韩国 IEPL E 02
-      - 美国A·0.1
-      - 中国-台湾 IPLC HiNet固接 E05 Netflix 动画疯
-      - 中国-韩国 IEPL E 03
-      - 中国-台湾宜兰 IPLC E06
-      - 香港E·2.0
-      - 中国-台湾 IPLC HiNet固接 E04 Netflix 动画疯
-      - 中国-台湾宜兰 IPLC E03
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E12 Netflix
-      - 日本B·1.0
-      - 中国-台湾 IEPL HiNet固接 E04 Netflix 动画疯
-      - 中国-台湾 IEPL HiNet固接 E09 Netflix 动画疯
-      - 精简 50
-      - 精简 44
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E03 Netflix
-      - 中国-台湾 IEPL HiNet固接 E10 Netflix 动画疯
-      - 中国-台湾宜兰 IPLC E08
-      - 美国B·0.1
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E01 Netflix
-      - 精简 45
-      - 香港 油尖旺御金·国峯 網上行寬頻 E03
-      - 中国-台湾宜兰 IPLC E02
-      - 精简 41
-      - 中国-台湾 IPLC HiNet固接 E06 Netflix 动画疯
-      - 美国实验性 IEPL 中继 E04
-      - 日本 まつやまし auひかり ホーム1ギガ E 06
-      - 美国高级 IEPL 中继 E02
-      - 中国-日本 沪日IEPL传输 Equinix-TY8 E10 Netflix
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E02 Netflix
-      - 中国-台湾宜兰 IPLC E09
-      - 中国-日本 沪日IPLC传输 Equinix-TY8 E03 Netflix
-      - 美国高级 IEPL 中继 E04
-      - 韩国 전라북도 전주시 商宽 E 07
-      - 中国-韩国 IEPL E 06
-      - 韩国 전라북도 전주시 商宽 E 06
-      - 日本 まつやまし auひかり ホーム1ギガ E 03
-      - 阿根廷A·1.0
-      - 精简 48
-      - 中国-印度 班加罗尔 एयरटेल IPLC E05
-      - 美国实验性 IEPL 中继 E05
-      - 美国实验性 IEPL 中继 E03
-      - 中国-印度 班加罗尔 एयरटेल IPLC E04
-      - 中国-台湾 IPLC HiNet固接 E02 Netflix 动画疯
-      - 美国C·0.5
-      - 台湾A·1.0
-      - 美国高级 IEPL 中继 E05
-      - 伦敦A·0.2
-      - 俄罗斯 04
-      - 美国高级 IEPL 中继 E01
-      - 美国实验性 IEPL 中继 E01
-      - 中国-澳大利亚 IPLC 悉尼 E05
-      - 新加坡 Legacy Magic IEPL 中继 E01 Netflix
-      - 美国实验性 IEPL 中继 E02
-      - 美国高级 IEPL 中继 E03
-      - 中国-澳大利亚 IPLC 悉尼 E04
-      - 俄罗斯 02
-      - 土耳其A·1.0
-      - 中国-台湾 IEPL HiNet固接 E05 Netflix 动画疯
-      - 新加坡 Legacy Magic IEPL 中继 E04 Netflix
-      - 俄罗斯A·0.5
-      - 中国-台湾 IEPL HiNet固接 E07 Netflix 动画疯
-      - 新加坡 Magic IEPL 中继 E01 Netflix
-      - 印度A·2.0
-      - 中国-加拿大 IPLC E04
-      - 中国-澳大利亚 IPLC 悉尼 E03
-      - 中国-台湾宜兰 IPLC E05
-      - 中国-台湾 IEPL HiNet固接 E06 Netflix 动画疯
-      - 中国-台湾 IPLC HiNet固接 E03 Netflix 动画疯
-      - 中国-澳大利亚 IPLC 悉尼 E02
-      - 新加坡 Magic IEPL 中继 E04 Netflix
-      - 中国-澳大利亚 IPLC 悉尼 E01
-      - 中国-台湾 IPLC HiNet固接 E08 Netflix 动画疯
-      - 中国-加拿大 IPLC E02
-      - 中国-台湾宜兰 IPLC E10
-      - 中国-加拿大 IPLC E05
-      - 中国-加拿大 IPLC E03
-      - 新加坡 Legacy Magic IEPL 中继 E03 Netflix
-      - 中国-加拿大 IPLC E01
-      - 新加坡 Magic IEPL 中继 E05 Netflix
-      - imkcp白嫖
-      - 中国-台湾宜兰 IPLC E01
+      - V1-日本 多台负载均衡 中继D 1.5x
+      - V1-香港 多台负载均衡 中继D | 2x
+      - 魔戒.net1
+      - 魔戒.net9
+      - 魔戒.net2
+      - 魔戒.net4
+      - 魔戒.net5
+      - V1-日本A组 直连 速度随缘 1x
+      - 机场👉魔戒.net- 🇯🇵 甲骨文-东京-AMD1-trojan
+      - V1-台湾 多台负载均衡 中继C 1.5x
+      - 魔戒.net3
+      - 魔戒.net8
+      - 魔戒.net7
+      - 魔戒.net6
+      - V1-美国01 中继C | 1.5x
+      - V1-俄罗斯01 中继D 1.2x
+      - 越南胡志明-三网优化
+      - V1-香港HKT02 CDN 中继 2x
+      - V1-香港HKT03 CDN 中继 2x
+      - V1-美国01 中继D | 1.5x
+      - 魔戒.net杭锅
+      - 台湾2-三网优化-强加密
+      - V1-英国01 CDN 中继 1.5x
+      - V1-德国01 CDN 中继 1.5x
+      - V1-波兰01 CDN 中继 1.5x
+      - V1-日本 多台负载均衡 中继B 1.5x
+      - V1-香港 多台负载均衡 中继A | 2x
+      - V1-香港 多台负载均衡 中继B | 2x
+      - V1-台湾 多台负载均衡 中继B 1.5x
+      - V1-日本 多台负载均衡 中继A 1.5x
+      - 魔戒.net香港_R_316
+      - V1-台湾 多台负载均衡 中继A 1.5x
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
