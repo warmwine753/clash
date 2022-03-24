@@ -5,123 +5,103 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: V1-香港 多台负载均衡 中继D | 2x, server: in04.dns2333.xyz, port: 64078, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
-  - {name: V1-台湾 多台负载均衡 中继B 1.5x, server: in02.dns2333.xyz, port: 64088, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: cdn.bootcdn.net}, udp: true}
-  - {name: V1-日本 多台负载均衡 中继D 1.5x, server: in04.dns2333.xyz, port: 64086, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: jp-balancer.myn1des.com}, udp: true}
-  - {name: SG_15015 @WangCai_1, server: 15.v2-ray.cyou, port: 15015, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: microsoft.com}, udp: true}
-  - {name: US_15014 @WangCai_1, server: 14.v2-ray.cyou, port: 15014, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: microsoft.com}, udp: true}
-  - {name: 香港02|厦门联通|高峰期稳定, server: lt.geia27.xyz, port: 21357, type: vmess, uuid: a0a0cd91-812a-4e3d-be39-052a9d16a776, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: V1-台湾 多台负载均衡 中继C 1.5x, server: in03.dns2333.xyz, port: 64088, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: cdn.bootcdn.net}, udp: true}
-  - {name: V1-香港 多台负载均衡 中继B | 2x, server: in02.dns2333.xyz, port: 64078, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
-  - {name: US_15074 @WangCai_1, server: 74.v2-ray.cyou, port: 36174, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: microsoft.com}, udp: true}
-  - {name: 日本01|厦门联通|解锁流媒体, server: lt.geia27.xyz, port: 60583, type: vmess, uuid: a0a0cd91-812a-4e3d-be39-052a9d16a776, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: JP_134 @WangCai_1, server: 134.wowogg.cyou, port: 52334, type: vmess, uuid: 7b0e18c2-7c79-370b-833d-5b2191ea112a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡01|azHK|解锁流媒体, server: azhk.geia27.xyz, port: 48755, type: vmess, uuid: a0a0cd91-812a-4e3d-be39-052a9d16a776, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: JP_114 @WangCai_1, server: 114.wowogg.cyou, port: 52214, type: vmess, uuid: 7b0e18c2-7c79-370b-833d-5b2191ea112a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: V1-德国01 CDN 中继 1.5x, server: in05.dns2333.xyz, port: 64084, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: de01-cdn.airport-v2.com}, udp: true}
-  - {name: JP_15084 @WangCai_1, server: 84.v2-ray.cyou, port: 15084, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: microsoft.com}, udp: true}
-  - {name: 加拿大01|azHK|高峰期稳定, server: azhk.geia27.xyz, port: 26321, type: vmess, uuid: a0a0cd91-812a-4e3d-be39-052a9d16a776, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 英国01|azHK|解锁流媒体, server: azhk.geia27.xyz, port: 36439, type: vmess, uuid: a0a0cd91-812a-4e3d-be39-052a9d16a776, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 英国02|azhk|解锁流媒体, server: azhk.geia27.xyz, port: 31328, type: vmess, uuid: a0a0cd91-812a-4e3d-be39-052a9d16a776, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 美国01|azHK|解锁流媒体, server: azhk.geia27.xyz, port: 30854, type: vmess, uuid: a0a0cd91-812a-4e3d-be39-052a9d16a776, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: ฅ^ΦωΦ^ฅ5༶ฅ^ΦωΦ^ฅ, server: jj01.nfeng6.pp.ua, port: 39050, type: vmess, uuid: a8554f20-45a7-3844-8fc5-c2ea1397d467, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ฅ^ΦωΦ^ฅ6༶ฅ^ΦωΦ^ฅ, server: jj01.nfeng6.pp.ua, port: 39065, type: vmess, uuid: a8554f20-45a7-3844-8fc5-c2ea1397d467, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ฅ^ΦωΦ^ฅ2༶ฅ^ΦωΦ^ฅ, server: jj01.nfeng6.pp.ua, port: 39049, type: vmess, uuid: a8554f20-45a7-3844-8fc5-c2ea1397d467, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: V1-波兰01 CDN 中继 1.5x, server: in05.dns2333.xyz, port: 64077, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: pl01-cdn.myn0des.com}, udp: true}
-  - {name: SG_15023 @WangCai_1, server: 23.v2-ray.cyou, port: 15023, type: vmess, uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: microsoft.com}, udp: true}
-  - {name: 台湾2-三网优化-强加密, server: 0314tw02.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 3, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 0314tw02.fans8.xyz}, udp: true}
+  - {name: 香港_1, server: hk4.qingyun123.xyz, port: 10050, type: trojan, password: 7ba98947-ea44-4682-ae1a-79b0ba1ec98a, sni: hk4.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_8009 @WangCai_1, server: 38.75.137.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_8008 @WangCai_1, server: 38.75.137.66, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_5500 @WangCai_1, server: 38.75.137.66, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_7002 @WangCai_1, server: 38.75.137.187, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_5001 @WangCai_1, server: 38.75.137.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_0443 @WangCai_1, server: 38.75.137.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_8118 @WangCai_1, server: 38.75.137.187, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_9102 @WangCai_1, server: 38.75.137.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_7001 @WangCai_1, server: 38.75.137.66, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_6379 @WangCai_1, server: 38.75.137.66, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US_8000 @WangCai_1, server: 38.75.137.66, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_8881 @WangCai_1, server: 38.75.137.187, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_7002 @WangCai_1 2, server: 38.75.137.66, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_8882 @WangCai_1, server: 38.75.137.66, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 印 A | 沪联通中继 | Prepaid Users, server: cu2.worldmuseum.buzz, port: 12100, type: vmess, uuid: ff52c519-91fb-3ca3-9b55-f96e75201532, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /in, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: US_5001 @WangCai_1 2, server: 38.75.137.66, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_8888 @WangCai_1, server: 38.75.137.66, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_5601 @WangCai_1, server: 38.75.137.66, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 日 A | 粤移动中继 | Prepaid Users, server: cm1.worldmuseum.buzz, port: 12100, type: vmess, uuid: ff52c519-91fb-3ca3-9b55-f96e75201532, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jp1, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - V1-香港 多台负载均衡 中继D | 2x
-      - V1-台湾 多台负载均衡 中继B 1.5x
-      - V1-日本 多台负载均衡 中继D 1.5x
-      - SG_15015 @WangCai_1
-      - US_15014 @WangCai_1
-      - 香港02|厦门联通|高峰期稳定
-      - V1-台湾 多台负载均衡 中继C 1.5x
-      - V1-香港 多台负载均衡 中继B | 2x
-      - US_15074 @WangCai_1
-      - 日本01|厦门联通|解锁流媒体
-      - JP_134 @WangCai_1
-      - 新加坡01|azHK|解锁流媒体
-      - JP_114 @WangCai_1
-      - V1-德国01 CDN 中继 1.5x
-      - JP_15084 @WangCai_1
-      - 加拿大01|azHK|高峰期稳定
-      - 英国01|azHK|解锁流媒体
-      - 英国02|azhk|解锁流媒体
-      - 美国01|azHK|解锁流媒体
-      - ฅ^ΦωΦ^ฅ5༶ฅ^ΦωΦ^ฅ
-      - ฅ^ΦωΦ^ฅ6༶ฅ^ΦωΦ^ฅ
-      - ฅ^ΦωΦ^ฅ2༶ฅ^ΦωΦ^ฅ
-      - V1-波兰01 CDN 中继 1.5x
-      - SG_15023 @WangCai_1
-      - 台湾2-三网优化-强加密
+      - 香港_1
+      - US_8009 @WangCai_1
+      - US_8008 @WangCai_1
+      - US_5500 @WangCai_1
+      - US_7002 @WangCai_1
+      - US_5001 @WangCai_1
+      - US_0443 @WangCai_1
+      - US_8118 @WangCai_1
+      - US_9102 @WangCai_1
+      - US_7001 @WangCai_1
+      - US_6379 @WangCai_1
+      - US_8000 @WangCai_1
+      - US_8881 @WangCai_1
+      - US_7002 @WangCai_1 2
+      - US_8882 @WangCai_1
+      - 印 A | 沪联通中继 | Prepaid Users
+      - US_5001 @WangCai_1 2
+      - US_8888 @WangCai_1
+      - US_5601 @WangCai_1
+      - 日 A | 粤移动中继 | Prepaid Users
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - V1-香港 多台负载均衡 中继D | 2x
-      - V1-台湾 多台负载均衡 中继B 1.5x
-      - V1-日本 多台负载均衡 中继D 1.5x
-      - SG_15015 @WangCai_1
-      - US_15014 @WangCai_1
-      - 香港02|厦门联通|高峰期稳定
-      - V1-台湾 多台负载均衡 中继C 1.5x
-      - V1-香港 多台负载均衡 中继B | 2x
-      - US_15074 @WangCai_1
-      - 日本01|厦门联通|解锁流媒体
-      - JP_134 @WangCai_1
-      - 新加坡01|azHK|解锁流媒体
-      - JP_114 @WangCai_1
-      - V1-德国01 CDN 中继 1.5x
-      - JP_15084 @WangCai_1
-      - 加拿大01|azHK|高峰期稳定
-      - 英国01|azHK|解锁流媒体
-      - 英国02|azhk|解锁流媒体
-      - 美国01|azHK|解锁流媒体
-      - ฅ^ΦωΦ^ฅ5༶ฅ^ΦωΦ^ฅ
-      - ฅ^ΦωΦ^ฅ6༶ฅ^ΦωΦ^ฅ
-      - ฅ^ΦωΦ^ฅ2༶ฅ^ΦωΦ^ฅ
-      - V1-波兰01 CDN 中继 1.5x
-      - SG_15023 @WangCai_1
-      - 台湾2-三网优化-强加密
+      - 香港_1
+      - US_8009 @WangCai_1
+      - US_8008 @WangCai_1
+      - US_5500 @WangCai_1
+      - US_7002 @WangCai_1
+      - US_5001 @WangCai_1
+      - US_0443 @WangCai_1
+      - US_8118 @WangCai_1
+      - US_9102 @WangCai_1
+      - US_7001 @WangCai_1
+      - US_6379 @WangCai_1
+      - US_8000 @WangCai_1
+      - US_8881 @WangCai_1
+      - US_7002 @WangCai_1 2
+      - US_8882 @WangCai_1
+      - 印 A | 沪联通中继 | Prepaid Users
+      - US_5001 @WangCai_1 2
+      - US_8888 @WangCai_1
+      - US_5601 @WangCai_1
+      - 日 A | 粤移动中继 | Prepaid Users
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - V1-香港 多台负载均衡 中继D | 2x
-      - V1-台湾 多台负载均衡 中继B 1.5x
-      - V1-日本 多台负载均衡 中继D 1.5x
-      - SG_15015 @WangCai_1
-      - US_15014 @WangCai_1
-      - 香港02|厦门联通|高峰期稳定
-      - V1-台湾 多台负载均衡 中继C 1.5x
-      - V1-香港 多台负载均衡 中继B | 2x
-      - US_15074 @WangCai_1
-      - 日本01|厦门联通|解锁流媒体
-      - JP_134 @WangCai_1
-      - 新加坡01|azHK|解锁流媒体
-      - JP_114 @WangCai_1
-      - V1-德国01 CDN 中继 1.5x
-      - JP_15084 @WangCai_1
-      - 加拿大01|azHK|高峰期稳定
-      - 英国01|azHK|解锁流媒体
-      - 英国02|azhk|解锁流媒体
-      - 美国01|azHK|解锁流媒体
-      - ฅ^ΦωΦ^ฅ5༶ฅ^ΦωΦ^ฅ
-      - ฅ^ΦωΦ^ฅ6༶ฅ^ΦωΦ^ฅ
-      - ฅ^ΦωΦ^ฅ2༶ฅ^ΦωΦ^ฅ
-      - V1-波兰01 CDN 中继 1.5x
-      - SG_15023 @WangCai_1
-      - 台湾2-三网优化-强加密
+      - 香港_1
+      - US_8009 @WangCai_1
+      - US_8008 @WangCai_1
+      - US_5500 @WangCai_1
+      - US_7002 @WangCai_1
+      - US_5001 @WangCai_1
+      - US_0443 @WangCai_1
+      - US_8118 @WangCai_1
+      - US_9102 @WangCai_1
+      - US_7001 @WangCai_1
+      - US_6379 @WangCai_1
+      - US_8000 @WangCai_1
+      - US_8881 @WangCai_1
+      - US_7002 @WangCai_1 2
+      - US_8882 @WangCai_1
+      - 印 A | 沪联通中继 | Prepaid Users
+      - US_5001 @WangCai_1 2
+      - US_8888 @WangCai_1
+      - US_5601 @WangCai_1
+      - 日 A | 粤移动中继 | Prepaid Users
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -140,135 +120,108 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - V1-香港 多台负载均衡 中继D | 2x
-      - V1-台湾 多台负载均衡 中继B 1.5x
-      - V1-日本 多台负载均衡 中继D 1.5x
-      - SG_15015 @WangCai_1
-      - US_15014 @WangCai_1
-      - 香港02|厦门联通|高峰期稳定
-      - V1-台湾 多台负载均衡 中继C 1.5x
-      - V1-香港 多台负载均衡 中继B | 2x
-      - US_15074 @WangCai_1
-      - 日本01|厦门联通|解锁流媒体
-      - JP_134 @WangCai_1
-      - 新加坡01|azHK|解锁流媒体
-      - JP_114 @WangCai_1
-      - V1-德国01 CDN 中继 1.5x
-      - JP_15084 @WangCai_1
-      - 加拿大01|azHK|高峰期稳定
-      - 英国01|azHK|解锁流媒体
-      - 英国02|azhk|解锁流媒体
-      - 美国01|azHK|解锁流媒体
-      - ฅ^ΦωΦ^ฅ5༶ฅ^ΦωΦ^ฅ
-      - ฅ^ΦωΦ^ฅ6༶ฅ^ΦωΦ^ฅ
-      - ฅ^ΦωΦ^ฅ2༶ฅ^ΦωΦ^ฅ
-      - V1-波兰01 CDN 中继 1.5x
-      - SG_15023 @WangCai_1
-      - 台湾2-三网优化-强加密
+      - 香港_1
+      - US_8009 @WangCai_1
+      - US_8008 @WangCai_1
+      - US_5500 @WangCai_1
+      - US_7002 @WangCai_1
+      - US_5001 @WangCai_1
+      - US_0443 @WangCai_1
+      - US_8118 @WangCai_1
+      - US_9102 @WangCai_1
+      - US_7001 @WangCai_1
+      - US_6379 @WangCai_1
+      - US_8000 @WangCai_1
+      - US_8881 @WangCai_1
+      - US_7002 @WangCai_1 2
+      - US_8882 @WangCai_1
+      - 印 A | 沪联通中继 | Prepaid Users
+      - US_5001 @WangCai_1 2
+      - US_8888 @WangCai_1
+      - US_5601 @WangCai_1
+      - 日 A | 粤移动中继 | Prepaid Users
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - V1-香港 多台负载均衡 中继D | 2x
-      - V1-台湾 多台负载均衡 中继B 1.5x
-      - V1-日本 多台负载均衡 中继D 1.5x
-      - 香港02|厦门联通|高峰期稳定
-      - V1-台湾 多台负载均衡 中继C 1.5x
-      - V1-香港 多台负载均衡 中继B | 2x
-      - 英国02|azhk|解锁流媒体
-      - 台湾2-三网优化-强加密
+      - 香港_1
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - V1-香港 多台负载均衡 中继D | 2x
-      - V1-台湾 多台负载均衡 中继B 1.5x
-      - V1-日本 多台负载均衡 中继D 1.5x
-      - SG_15015 @WangCai_1
-      - US_15014 @WangCai_1
-      - 香港02|厦门联通|高峰期稳定
-      - V1-台湾 多台负载均衡 中继C 1.5x
-      - V1-香港 多台负载均衡 中继B | 2x
-      - US_15074 @WangCai_1
-      - 日本01|厦门联通|解锁流媒体
-      - JP_134 @WangCai_1
-      - 新加坡01|azHK|解锁流媒体
-      - JP_114 @WangCai_1
-      - V1-德国01 CDN 中继 1.5x
-      - JP_15084 @WangCai_1
-      - 加拿大01|azHK|高峰期稳定
-      - 英国01|azHK|解锁流媒体
-      - 英国02|azhk|解锁流媒体
-      - 美国01|azHK|解锁流媒体
-      - ฅ^ΦωΦ^ฅ5༶ฅ^ΦωΦ^ฅ
-      - ฅ^ΦωΦ^ฅ6༶ฅ^ΦωΦ^ฅ
-      - ฅ^ΦωΦ^ฅ2༶ฅ^ΦωΦ^ฅ
-      - V1-波兰01 CDN 中继 1.5x
-      - SG_15023 @WangCai_1
-      - 台湾2-三网优化-强加密
+      - 香港_1
+      - US_8009 @WangCai_1
+      - US_8008 @WangCai_1
+      - US_5500 @WangCai_1
+      - US_7002 @WangCai_1
+      - US_5001 @WangCai_1
+      - US_0443 @WangCai_1
+      - US_8118 @WangCai_1
+      - US_9102 @WangCai_1
+      - US_7001 @WangCai_1
+      - US_6379 @WangCai_1
+      - US_8000 @WangCai_1
+      - US_8881 @WangCai_1
+      - US_7002 @WangCai_1 2
+      - US_8882 @WangCai_1
+      - 印 A | 沪联通中继 | Prepaid Users
+      - US_5001 @WangCai_1 2
+      - US_8888 @WangCai_1
+      - US_5601 @WangCai_1
+      - 日 A | 粤移动中继 | Prepaid Users
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - V1-香港 多台负载均衡 中继D | 2x
-      - V1-台湾 多台负载均衡 中继B 1.5x
-      - V1-日本 多台负载均衡 中继D 1.5x
-      - SG_15015 @WangCai_1
-      - US_15014 @WangCai_1
-      - 香港02|厦门联通|高峰期稳定
-      - V1-台湾 多台负载均衡 中继C 1.5x
-      - V1-香港 多台负载均衡 中继B | 2x
-      - US_15074 @WangCai_1
-      - 日本01|厦门联通|解锁流媒体
-      - JP_134 @WangCai_1
-      - 新加坡01|azHK|解锁流媒体
-      - JP_114 @WangCai_1
-      - V1-德国01 CDN 中继 1.5x
-      - JP_15084 @WangCai_1
-      - 加拿大01|azHK|高峰期稳定
-      - 英国01|azHK|解锁流媒体
-      - 英国02|azhk|解锁流媒体
-      - 美国01|azHK|解锁流媒体
-      - ฅ^ΦωΦ^ฅ5༶ฅ^ΦωΦ^ฅ
-      - ฅ^ΦωΦ^ฅ6༶ฅ^ΦωΦ^ฅ
-      - ฅ^ΦωΦ^ฅ2༶ฅ^ΦωΦ^ฅ
-      - V1-波兰01 CDN 中继 1.5x
-      - SG_15023 @WangCai_1
-      - 台湾2-三网优化-强加密
+      - 香港_1
+      - US_8009 @WangCai_1
+      - US_8008 @WangCai_1
+      - US_5500 @WangCai_1
+      - US_7002 @WangCai_1
+      - US_5001 @WangCai_1
+      - US_0443 @WangCai_1
+      - US_8118 @WangCai_1
+      - US_9102 @WangCai_1
+      - US_7001 @WangCai_1
+      - US_6379 @WangCai_1
+      - US_8000 @WangCai_1
+      - US_8881 @WangCai_1
+      - US_7002 @WangCai_1 2
+      - US_8882 @WangCai_1
+      - 印 A | 沪联通中继 | Prepaid Users
+      - US_5001 @WangCai_1 2
+      - US_8888 @WangCai_1
+      - US_5601 @WangCai_1
+      - 日 A | 粤移动中继 | Prepaid Users
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - V1-香港 多台负载均衡 中继D | 2x
-      - V1-台湾 多台负载均衡 中继B 1.5x
-      - V1-日本 多台负载均衡 中继D 1.5x
-      - SG_15015 @WangCai_1
-      - US_15014 @WangCai_1
-      - 香港02|厦门联通|高峰期稳定
-      - V1-台湾 多台负载均衡 中继C 1.5x
-      - V1-香港 多台负载均衡 中继B | 2x
-      - US_15074 @WangCai_1
-      - 日本01|厦门联通|解锁流媒体
-      - JP_134 @WangCai_1
-      - 新加坡01|azHK|解锁流媒体
-      - JP_114 @WangCai_1
-      - V1-德国01 CDN 中继 1.5x
-      - JP_15084 @WangCai_1
-      - 加拿大01|azHK|高峰期稳定
-      - 英国01|azHK|解锁流媒体
-      - 英国02|azhk|解锁流媒体
-      - 美国01|azHK|解锁流媒体
-      - ฅ^ΦωΦ^ฅ5༶ฅ^ΦωΦ^ฅ
-      - ฅ^ΦωΦ^ฅ6༶ฅ^ΦωΦ^ฅ
-      - ฅ^ΦωΦ^ฅ2༶ฅ^ΦωΦ^ฅ
-      - V1-波兰01 CDN 中继 1.5x
-      - SG_15023 @WangCai_1
-      - 台湾2-三网优化-强加密
+      - 香港_1
+      - US_8009 @WangCai_1
+      - US_8008 @WangCai_1
+      - US_5500 @WangCai_1
+      - US_7002 @WangCai_1
+      - US_5001 @WangCai_1
+      - US_0443 @WangCai_1
+      - US_8118 @WangCai_1
+      - US_9102 @WangCai_1
+      - US_7001 @WangCai_1
+      - US_6379 @WangCai_1
+      - US_8000 @WangCai_1
+      - US_8881 @WangCai_1
+      - US_7002 @WangCai_1 2
+      - US_8882 @WangCai_1
+      - 印 A | 沪联通中继 | Prepaid Users
+      - US_5001 @WangCai_1 2
+      - US_8888 @WangCai_1
+      - US_5601 @WangCai_1
+      - 日 A | 粤移动中继 | Prepaid Users
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -284,31 +237,26 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - V1-香港 多台负载均衡 中继D | 2x
-      - V1-台湾 多台负载均衡 中继B 1.5x
-      - V1-日本 多台负载均衡 中继D 1.5x
-      - SG_15015 @WangCai_1
-      - US_15014 @WangCai_1
-      - 香港02|厦门联通|高峰期稳定
-      - V1-台湾 多台负载均衡 中继C 1.5x
-      - V1-香港 多台负载均衡 中继B | 2x
-      - US_15074 @WangCai_1
-      - 日本01|厦门联通|解锁流媒体
-      - JP_134 @WangCai_1
-      - 新加坡01|azHK|解锁流媒体
-      - JP_114 @WangCai_1
-      - V1-德国01 CDN 中继 1.5x
-      - JP_15084 @WangCai_1
-      - 加拿大01|azHK|高峰期稳定
-      - 英国01|azHK|解锁流媒体
-      - 英国02|azhk|解锁流媒体
-      - 美国01|azHK|解锁流媒体
-      - ฅ^ΦωΦ^ฅ5༶ฅ^ΦωΦ^ฅ
-      - ฅ^ΦωΦ^ฅ6༶ฅ^ΦωΦ^ฅ
-      - ฅ^ΦωΦ^ฅ2༶ฅ^ΦωΦ^ฅ
-      - V1-波兰01 CDN 中继 1.5x
-      - SG_15023 @WangCai_1
-      - 台湾2-三网优化-强加密
+      - 香港_1
+      - US_8009 @WangCai_1
+      - US_8008 @WangCai_1
+      - US_5500 @WangCai_1
+      - US_7002 @WangCai_1
+      - US_5001 @WangCai_1
+      - US_0443 @WangCai_1
+      - US_8118 @WangCai_1
+      - US_9102 @WangCai_1
+      - US_7001 @WangCai_1
+      - US_6379 @WangCai_1
+      - US_8000 @WangCai_1
+      - US_8881 @WangCai_1
+      - US_7002 @WangCai_1 2
+      - US_8882 @WangCai_1
+      - 印 A | 沪联通中继 | Prepaid Users
+      - US_5001 @WangCai_1 2
+      - US_8888 @WangCai_1
+      - US_5601 @WangCai_1
+      - 日 A | 粤移动中继 | Prepaid Users
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
