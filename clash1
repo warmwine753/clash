@@ -5,103 +5,35 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港_1, server: hk4.qingyun123.xyz, port: 10050, type: trojan, password: 7ba98947-ea44-4682-ae1a-79b0ba1ec98a, sni: hk4.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: US_8009 @WangCai_1, server: 38.75.137.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_8008 @WangCai_1, server: 38.75.137.66, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: US_5500 @WangCai_1, server: 38.75.137.66, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_7002 @WangCai_1, server: 38.75.137.187, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_5001 @WangCai_1, server: 38.75.137.187, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_0443 @WangCai_1, server: 38.75.137.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_8118 @WangCai_1, server: 38.75.137.187, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_9102 @WangCai_1, server: 38.75.137.187, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: US_7001 @WangCai_1, server: 38.75.137.66, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_6379 @WangCai_1, server: 38.75.137.66, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US_8000 @WangCai_1, server: 38.75.137.66, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_8881 @WangCai_1, server: 38.75.137.187, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US_7002 @WangCai_1 2, server: 38.75.137.66, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_8882 @WangCai_1, server: 38.75.137.66, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 印 A | 沪联通中继 | Prepaid Users, server: cu2.worldmuseum.buzz, port: 12100, type: vmess, uuid: ff52c519-91fb-3ca3-9b55-f96e75201532, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /in, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
-  - {name: US_5001 @WangCai_1 2, server: 38.75.137.66, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_8888 @WangCai_1, server: 38.75.137.66, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_5601 @WangCai_1, server: 38.75.137.66, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 日 A | 粤移动中继 | Prepaid Users, server: cm1.worldmuseum.buzz, port: 12100, type: vmess, uuid: ff52c519-91fb-3ca3-9b55-f96e75201532, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jp1, ws-headers: {Host: telegram.channel.p2psharing}, udp: true}
+  - {name: 频道, server: 104.208.72.87, port: 18247, type: vmess, uuid: c76115e6-2ad7-4b4b-f544-1e3e337e71e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港_1
-      - US_8009 @WangCai_1
-      - US_8008 @WangCai_1
       - US_5500 @WangCai_1
-      - US_7002 @WangCai_1
-      - US_5001 @WangCai_1
-      - US_0443 @WangCai_1
-      - US_8118 @WangCai_1
-      - US_9102 @WangCai_1
       - US_7001 @WangCai_1
-      - US_6379 @WangCai_1
-      - US_8000 @WangCai_1
-      - US_8881 @WangCai_1
-      - US_7002 @WangCai_1 2
-      - US_8882 @WangCai_1
-      - 印 A | 沪联通中继 | Prepaid Users
-      - US_5001 @WangCai_1 2
-      - US_8888 @WangCai_1
-      - US_5601 @WangCai_1
-      - 日 A | 粤移动中继 | Prepaid Users
+      - 频道
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港_1
-      - US_8009 @WangCai_1
-      - US_8008 @WangCai_1
       - US_5500 @WangCai_1
-      - US_7002 @WangCai_1
-      - US_5001 @WangCai_1
-      - US_0443 @WangCai_1
-      - US_8118 @WangCai_1
-      - US_9102 @WangCai_1
       - US_7001 @WangCai_1
-      - US_6379 @WangCai_1
-      - US_8000 @WangCai_1
-      - US_8881 @WangCai_1
-      - US_7002 @WangCai_1 2
-      - US_8882 @WangCai_1
-      - 印 A | 沪联通中继 | Prepaid Users
-      - US_5001 @WangCai_1 2
-      - US_8888 @WangCai_1
-      - US_5601 @WangCai_1
-      - 日 A | 粤移动中继 | Prepaid Users
+      - 频道
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港_1
-      - US_8009 @WangCai_1
-      - US_8008 @WangCai_1
       - US_5500 @WangCai_1
-      - US_7002 @WangCai_1
-      - US_5001 @WangCai_1
-      - US_0443 @WangCai_1
-      - US_8118 @WangCai_1
-      - US_9102 @WangCai_1
       - US_7001 @WangCai_1
-      - US_6379 @WangCai_1
-      - US_8000 @WangCai_1
-      - US_8881 @WangCai_1
-      - US_7002 @WangCai_1 2
-      - US_8882 @WangCai_1
-      - 印 A | 沪联通中继 | Prepaid Users
-      - US_5001 @WangCai_1 2
-      - US_8888 @WangCai_1
-      - US_5601 @WangCai_1
-      - 日 A | 粤移动中继 | Prepaid Users
+      - 频道
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -120,108 +52,39 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港_1
-      - US_8009 @WangCai_1
-      - US_8008 @WangCai_1
       - US_5500 @WangCai_1
-      - US_7002 @WangCai_1
-      - US_5001 @WangCai_1
-      - US_0443 @WangCai_1
-      - US_8118 @WangCai_1
-      - US_9102 @WangCai_1
       - US_7001 @WangCai_1
-      - US_6379 @WangCai_1
-      - US_8000 @WangCai_1
-      - US_8881 @WangCai_1
-      - US_7002 @WangCai_1 2
-      - US_8882 @WangCai_1
-      - 印 A | 沪联通中继 | Prepaid Users
-      - US_5001 @WangCai_1 2
-      - US_8888 @WangCai_1
-      - US_5601 @WangCai_1
-      - 日 A | 粤移动中继 | Prepaid Users
+      - 频道
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港_1
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港_1
-      - US_8009 @WangCai_1
-      - US_8008 @WangCai_1
       - US_5500 @WangCai_1
-      - US_7002 @WangCai_1
-      - US_5001 @WangCai_1
-      - US_0443 @WangCai_1
-      - US_8118 @WangCai_1
-      - US_9102 @WangCai_1
       - US_7001 @WangCai_1
-      - US_6379 @WangCai_1
-      - US_8000 @WangCai_1
-      - US_8881 @WangCai_1
-      - US_7002 @WangCai_1 2
-      - US_8882 @WangCai_1
-      - 印 A | 沪联通中继 | Prepaid Users
-      - US_5001 @WangCai_1 2
-      - US_8888 @WangCai_1
-      - US_5601 @WangCai_1
-      - 日 A | 粤移动中继 | Prepaid Users
+      - 频道
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 香港_1
-      - US_8009 @WangCai_1
-      - US_8008 @WangCai_1
       - US_5500 @WangCai_1
-      - US_7002 @WangCai_1
-      - US_5001 @WangCai_1
-      - US_0443 @WangCai_1
-      - US_8118 @WangCai_1
-      - US_9102 @WangCai_1
       - US_7001 @WangCai_1
-      - US_6379 @WangCai_1
-      - US_8000 @WangCai_1
-      - US_8881 @WangCai_1
-      - US_7002 @WangCai_1 2
-      - US_8882 @WangCai_1
-      - 印 A | 沪联通中继 | Prepaid Users
-      - US_5001 @WangCai_1 2
-      - US_8888 @WangCai_1
-      - US_5601 @WangCai_1
-      - 日 A | 粤移动中继 | Prepaid Users
+      - 频道
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港_1
-      - US_8009 @WangCai_1
-      - US_8008 @WangCai_1
       - US_5500 @WangCai_1
-      - US_7002 @WangCai_1
-      - US_5001 @WangCai_1
-      - US_0443 @WangCai_1
-      - US_8118 @WangCai_1
-      - US_9102 @WangCai_1
       - US_7001 @WangCai_1
-      - US_6379 @WangCai_1
-      - US_8000 @WangCai_1
-      - US_8881 @WangCai_1
-      - US_7002 @WangCai_1 2
-      - US_8882 @WangCai_1
-      - 印 A | 沪联通中继 | Prepaid Users
-      - US_5001 @WangCai_1 2
-      - US_8888 @WangCai_1
-      - US_5601 @WangCai_1
-      - 日 A | 粤移动中继 | Prepaid Users
+      - 频道
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -237,26 +100,9 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港_1
-      - US_8009 @WangCai_1
-      - US_8008 @WangCai_1
       - US_5500 @WangCai_1
-      - US_7002 @WangCai_1
-      - US_5001 @WangCai_1
-      - US_0443 @WangCai_1
-      - US_8118 @WangCai_1
-      - US_9102 @WangCai_1
       - US_7001 @WangCai_1
-      - US_6379 @WangCai_1
-      - US_8000 @WangCai_1
-      - US_8881 @WangCai_1
-      - US_7002 @WangCai_1 2
-      - US_8882 @WangCai_1
-      - 印 A | 沪联通中继 | Prepaid Users
-      - US_5001 @WangCai_1 2
-      - US_8888 @WangCai_1
-      - US_5601 @WangCai_1
-      - 日 A | 粤移动中继 | Prepaid Users
+      - 频道
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
