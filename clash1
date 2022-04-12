@@ -5,155 +5,147 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CN 10, server: fs.keaiyun.xyz, port: 55154, type: vmess, uuid: 8d2afe1b-0b96-3390-9258-36ff22e0d023, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: HK(TG/atyzcloud)_1, server: gy.sharecentrepro.tk, port: 13397, type: trojan, password: d3b04e55-f2ae-4500-b317-e23946dde463, sni: gy.sharecentrepro.tk, skip-cert-verify: true, udp: true}
-  - {name: AU(TG/atyzcloud)_1, server: 185.167.116.38, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
-  - {name: Pool_🇹🇼TW_723, server: 211.72.35.153, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
   - {name: CN_21 | 3.20Mb, server: cn1.iepl.starlink.st, port: 50500, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
-  - {name: Relay_🇨🇳CN-🇷🇺RU_23 | 6.57Mb, server: cn1.iepl.starlink.st, port: 50700, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
-  - {name: Relay_🇨🇳CN-🇮🇸IS_25 | 5.09Mb, server: cn1.iepl.starlink.st, port: 50600, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
-  - {name: Relay_🇨🇳CN-🇩🇪DE_73 |14.39Mb, server: mmwagasgp.ggboynextdoor.best, port: 37995, type: ssr, cipher: rc4-md5, password: lGBMNO, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 4173:OrUbgB, obfs-param: 9f7c44173.download.windowsupdate.com, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_74 |30.31Mb, server: bgptouk.ggboynextdoor.best, port: 22411, type: ssr, cipher: rc4-md5, password: lGBMNO, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 4173:OrUbgB, obfs-param: 9f7c44173.download.windowsupdate.com, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_76 |30.55Mb, server: kriplcnat.ggboynextdoor.best, port: 23401, type: ssr, cipher: rc4-md5, password: lGBMNO, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 4173:OrUbgB, obfs-param: 9f7c44173.download.windowsupdate.com, udp: true}
-  - {name: Relay_🇨🇳CN-🇷🇴RO_83 | 8.39Mb, server: cncmgztojpntt.ggboynextdoor.best, port: 56299, type: ssr, cipher: rc4-md5, password: lGBMNO, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 4173:OrUbgB, obfs-param: 9f7c44173.download.windowsupdate.com, udp: true}
+  - {name: Pool_🇹🇼TW_723, server: 211.72.35.153, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
+  - {name: JP, server: 139.162.122.205, port: 3845, type: vmess, uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: JP 2, server: nfjp1.qingyun123.xyz, port: 10000, type: trojan, password: b0dd80f5-2e66-4d3c-b41e-f3b10534fd90, sni: nfjp1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: Pool_🇹🇼TW_1674, server: 211.72.35.153, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: true, udp: true}
   - {name: Relay_🇨🇳CN-🇩🇪DE_90 |29.02Mb, server: fsdxtotcsgp2.ggboynextdoor.best, port: 49046, type: ssr, cipher: rc4-md5, password: lGBMNO, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 4173:OrUbgB, obfs-param: 9f7c44173.download.windowsupdate.com, udp: true}
+  - {name: TW, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 330tw.fans8.xyz}, udp: true}
+  - {name: US, server: kr2.qingyun123.xyz, port: 10050, type: trojan, password: 16d4a396-b4f7-4297-9c4a-bb03428a8c86, sni: kr2.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: US 2, server: 104.243.30.59, port: 247, type: ss, cipher: aes-256-cfb, password: bwhskrskr05, udp: true}
   - {name: Relay_🇨🇳CN-🇩🇪DE_113 |16.53Mb, server: bgptovn2.ggboynextdoor.best, port: 30819, type: ssr, cipher: rc4-md5, password: lGBMNO, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 4173:OrUbgB, obfs-param: 9f7c44173.download.windowsupdate.com, udp: true}
-  - {name: Relay_🇨🇳CN-🇷🇺RU_115 |26.23Mb, server: download.cn.connecat.com, port: 60022, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: download.cn.connecat.com}, udp: true}
-  - {name: Relay_🇨🇳CN-🇲🇴MO_116 | 7.57Mb, server: download.cn.connecat.com, port: 60011, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: download.cn.connecat.com}, udp: true}
-  - {name: Relay_🇨🇳CN-🇲🇴MO_117 | 6.97Mb, server: download.cn.connecat.com, port: 60012, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: download.cn.connecat.com}, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_118 |44.98Mb, server: download.cn.connecat.com, port: 60019, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: download.cn.connecat.com}, udp: true}
-  - {name: Relay_🇨🇳CN-🇷🇴RO_119 | 9.63Mb, server: download.cn.connecat.com, port: 60005, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: download.cn.connecat.com}, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_122 |21.86Mb, server: download.cn.connecat.com, port: 60016, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: download.cn.connecat.com}, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_123 |63.72Mb, server: download.cn.connecat.com, port: 60003, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: download.cn.connecat.com}, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_124 |63.99Mb, server: download.cn.connecat.com, port: 60004, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: download.cn.connecat.com}, udp: true}
-  - {name: Relay_🇨🇳CN-🇰🇷KR_130 |44.04Mb, server: download.cn.connecat.com, port: 60017, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: download.cn.connecat.com}, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_131, server: download.cn.connecat.com, port: 60015, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: download.cn.connecat.com}, udp: true}
-  - {name: Relay_🇨🇳CN-🇷🇺RU_136 |25.49Mb, server: download.cn.connecat.com, port: 60014, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: download.cn.connecat.com}, udp: true}
-  - {name: Relay_🇨🇳CN-🇷🇺RU_137 |11.63Mb, server: download.cn.connecat.com, port: 60013, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: download.cn.connecat.com}, udp: true}
-  - {name: Relay_🇨🇳CN-🇰🇷KR_140 |42.99Mb, server: download.cn.connecat.com, port: 60018, type: vmess, uuid: d8b51f0b-8d4a-34ef-bc02-9c729c253e96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: download.cn.connecat.com}, udp: true}
-  - {name: Relay_🇨🇳CN-🇮🇳IN_141 |14.14Mb, server: 119.147.2.245, port: 58812, type: trojan, password: 246e1d4c-ac18-35cc-8f55-0b70bee0da56, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_143 |101.28Mb, server: 119.147.2.245, port: 58819, type: trojan, password: 246e1d4c-ac18-35cc-8f55-0b70bee0da56, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🏁ZZ_146, server: 119.147.2.245, port: 58829, type: trojan, password: 246e1d4c-ac18-35cc-8f55-0b70bee0da56, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_147 |61.55Mb, server: 119.147.2.245, port: 58804, type: trojan, password: 246e1d4c-ac18-35cc-8f55-0b70bee0da56, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇰🇷KR_148 |20.89Mb, server: 119.147.2.245, port: 58809, type: trojan, password: 246e1d4c-ac18-35cc-8f55-0b70bee0da56, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇷🇴RO_149 | 4.17Mb, server: 119.147.2.245, port: 58806, type: trojan, password: 246e1d4c-ac18-35cc-8f55-0b70bee0da56, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_150 |10.46Mb, server: 119.147.2.245, port: 58818, type: trojan, password: 246e1d4c-ac18-35cc-8f55-0b70bee0da56, skip-cert-verify: true, udp: true}
+  - {name: US 3, server: hk1.qingyun123.xyz, port: 10050, type: trojan, password: 16d4a396-b4f7-4297-9c4a-bb03428a8c86, sni: hk1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_76 |30.55Mb, server: kriplcnat.ggboynextdoor.best, port: 23401, type: ssr, cipher: rc4-md5, password: lGBMNO, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 4173:OrUbgB, obfs-param: 9f7c44173.download.windowsupdate.com, udp: true}
+  - {name: CN, server: cn1.iepl.starlink.st, port: 50300, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_74 |30.31Mb, server: bgptouk.ggboynextdoor.best, port: 22411, type: ssr, cipher: rc4-md5, password: lGBMNO, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 4173:OrUbgB, obfs-param: 9f7c44173.download.windowsupdate.com, udp: true}
+  - {name: HK, server: 165.154.225.231, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 330hk02.fans8.xyz}, udp: true}
+  - {name: CN 2, server: 120.233.10.230, port: 50500, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
+  - {name: US 4, server: in1.qingyun123.xyz, port: 443, type: trojan, password: b0dd80f5-2e66-4d3c-b41e-f3b10534fd90, sni: in1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: US 5, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: ea53a296-b3c3-11ec-876b-5254001b7b42, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /yUxLk70F/, ws-headers: {Host: v2ray.ifuckgfw.ga}, udp: true}
+  - {name: DE, server: 5.183.179.148, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: DE 2, server: 5.183.179.148, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: US 6, server: 54.202.209.134, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: CN 3, server: 120.233.10.230, port: 50300, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
+  - {name: US 7, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: f40c594a-b3c3-11ec-876b-5254001b7b42, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /yUxLk70F/, ws-headers: {Host: v2ray.ifuckgfw.ga}, udp: true}
+  - {name: CN 4, server: cn1.iepl.starlink.st, port: 50400, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
+  - {name: _CA_加拿大, server: 134.195.198.252, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: JP 3, server: 54.168.241.213, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: Relay_🇨🇳CN-🇷🇺RU_23 | 6.57Mb, server: cn1.iepl.starlink.st, port: 50700, type: ss, cipher: aes-128-gcm, password: ced52354-bec2-4209-9121-b57d3dfb59e9, udp: true}
+  - {name: US 8, server: v2ray.788644.xyz, port: 443, type: vmess, uuid: 000fe881-b655-4212-b804-b00f9970d5aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /happy, ws-headers: {Host: v2ray.788644.xyz}, udp: true}
+  - {name: Relay_🇨🇳CN-🇩🇪DE_73 |14.39Mb, server: mmwagasgp.ggboynextdoor.best, port: 37995, type: ssr, cipher: rc4-md5, password: lGBMNO, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 4173:OrUbgB, obfs-param: 9f7c44173.download.windowsupdate.com, udp: true}
+  - {name: default_name, server: v2ray.788644.xyz, port: 443, type: vmess, uuid: 000fe881-b655-4212-b804-b00f9970d5aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /happy, ws-headers: {Host: v2ray.788644.xyz}, udp: true}
+  - {name: 103.172.116.8:9037, server: 103.172.116.8, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN 10
-      - HK(TG/atyzcloud)_1
-      - AU(TG/atyzcloud)_1
-      - Pool_🇹🇼TW_723
       - CN_21 | 3.20Mb
-      - Relay_🇨🇳CN-🇷🇺RU_23 | 6.57Mb
-      - Relay_🇨🇳CN-🇮🇸IS_25 | 5.09Mb
-      - Relay_🇨🇳CN-🇩🇪DE_73 |14.39Mb
-      - Relay_🇨🇳CN-🇺🇸US_74 |30.31Mb
-      - Relay_🇨🇳CN-🇺🇸US_76 |30.55Mb
-      - Relay_🇨🇳CN-🇷🇴RO_83 | 8.39Mb
+      - Pool_🇹🇼TW_723
+      - JP
+      - JP 2
+      - Pool_🇹🇼TW_1674
       - Relay_🇨🇳CN-🇩🇪DE_90 |29.02Mb
+      - TW
+      - US
+      - US 2
       - Relay_🇨🇳CN-🇩🇪DE_113 |16.53Mb
-      - Relay_🇨🇳CN-🇷🇺RU_115 |26.23Mb
-      - Relay_🇨🇳CN-🇲🇴MO_116 | 7.57Mb
-      - Relay_🇨🇳CN-🇲🇴MO_117 | 6.97Mb
-      - Relay_🇨🇳CN-🇺🇸US_118 |44.98Mb
-      - Relay_🇨🇳CN-🇷🇴RO_119 | 9.63Mb
-      - Relay_🇨🇳CN-🇺🇸US_122 |21.86Mb
-      - Relay_🇨🇳CN-🇹🇼TW_123 |63.72Mb
-      - Relay_🇨🇳CN-🇹🇼TW_124 |63.99Mb
-      - Relay_🇨🇳CN-🇰🇷KR_130 |44.04Mb
-      - Relay_🇨🇳CN-🇺🇸US_131
-      - Relay_🇨🇳CN-🇷🇺RU_136 |25.49Mb
-      - Relay_🇨🇳CN-🇷🇺RU_137 |11.63Mb
-      - Relay_🇨🇳CN-🇰🇷KR_140 |42.99Mb
-      - Relay_🇨🇳CN-🇮🇳IN_141 |14.14Mb
-      - Relay_🇨🇳CN-🇭🇰HK_143 |101.28Mb
-      - Relay_🇨🇳CN-🏁ZZ_146
-      - Relay_🇨🇳CN-🇭🇰HK_147 |61.55Mb
-      - Relay_🇨🇳CN-🇰🇷KR_148 |20.89Mb
-      - Relay_🇨🇳CN-🇷🇴RO_149 | 4.17Mb
-      - Relay_🇨🇳CN-🇺🇸US_150 |10.46Mb
+      - US 3
+      - Relay_🇨🇳CN-🇺🇸US_76 |30.55Mb
+      - CN
+      - Relay_🇨🇳CN-🇺🇸US_74 |30.31Mb
+      - HK
+      - CN 2
+      - US 4
+      - US 5
+      - DE
+      - DE 2
+      - US 6
+      - CN 3
+      - US 7
+      - CN 4
+      - _CA_加拿大
+      - JP 3
+      - Relay_🇨🇳CN-🇷🇺RU_23 | 6.57Mb
+      - US 8
+      - Relay_🇨🇳CN-🇩🇪DE_73 |14.39Mb
+      - default_name
+      - 103.172.116.8:9037
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CN 10
-      - HK(TG/atyzcloud)_1
-      - AU(TG/atyzcloud)_1
-      - Pool_🇹🇼TW_723
       - CN_21 | 3.20Mb
-      - Relay_🇨🇳CN-🇷🇺RU_23 | 6.57Mb
-      - Relay_🇨🇳CN-🇮🇸IS_25 | 5.09Mb
-      - Relay_🇨🇳CN-🇩🇪DE_73 |14.39Mb
-      - Relay_🇨🇳CN-🇺🇸US_74 |30.31Mb
-      - Relay_🇨🇳CN-🇺🇸US_76 |30.55Mb
-      - Relay_🇨🇳CN-🇷🇴RO_83 | 8.39Mb
+      - Pool_🇹🇼TW_723
+      - JP
+      - JP 2
+      - Pool_🇹🇼TW_1674
       - Relay_🇨🇳CN-🇩🇪DE_90 |29.02Mb
+      - TW
+      - US
+      - US 2
       - Relay_🇨🇳CN-🇩🇪DE_113 |16.53Mb
-      - Relay_🇨🇳CN-🇷🇺RU_115 |26.23Mb
-      - Relay_🇨🇳CN-🇲🇴MO_116 | 7.57Mb
-      - Relay_🇨🇳CN-🇲🇴MO_117 | 6.97Mb
-      - Relay_🇨🇳CN-🇺🇸US_118 |44.98Mb
-      - Relay_🇨🇳CN-🇷🇴RO_119 | 9.63Mb
-      - Relay_🇨🇳CN-🇺🇸US_122 |21.86Mb
-      - Relay_🇨🇳CN-🇹🇼TW_123 |63.72Mb
-      - Relay_🇨🇳CN-🇹🇼TW_124 |63.99Mb
-      - Relay_🇨🇳CN-🇰🇷KR_130 |44.04Mb
-      - Relay_🇨🇳CN-🇺🇸US_131
-      - Relay_🇨🇳CN-🇷🇺RU_136 |25.49Mb
-      - Relay_🇨🇳CN-🇷🇺RU_137 |11.63Mb
-      - Relay_🇨🇳CN-🇰🇷KR_140 |42.99Mb
-      - Relay_🇨🇳CN-🇮🇳IN_141 |14.14Mb
-      - Relay_🇨🇳CN-🇭🇰HK_143 |101.28Mb
-      - Relay_🇨🇳CN-🏁ZZ_146
-      - Relay_🇨🇳CN-🇭🇰HK_147 |61.55Mb
-      - Relay_🇨🇳CN-🇰🇷KR_148 |20.89Mb
-      - Relay_🇨🇳CN-🇷🇴RO_149 | 4.17Mb
-      - Relay_🇨🇳CN-🇺🇸US_150 |10.46Mb
+      - US 3
+      - Relay_🇨🇳CN-🇺🇸US_76 |30.55Mb
+      - CN
+      - Relay_🇨🇳CN-🇺🇸US_74 |30.31Mb
+      - HK
+      - CN 2
+      - US 4
+      - US 5
+      - DE
+      - DE 2
+      - US 6
+      - CN 3
+      - US 7
+      - CN 4
+      - _CA_加拿大
+      - JP 3
+      - Relay_🇨🇳CN-🇷🇺RU_23 | 6.57Mb
+      - US 8
+      - Relay_🇨🇳CN-🇩🇪DE_73 |14.39Mb
+      - default_name
+      - 103.172.116.8:9037
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN 10
-      - HK(TG/atyzcloud)_1
-      - AU(TG/atyzcloud)_1
-      - Pool_🇹🇼TW_723
       - CN_21 | 3.20Mb
-      - Relay_🇨🇳CN-🇷🇺RU_23 | 6.57Mb
-      - Relay_🇨🇳CN-🇮🇸IS_25 | 5.09Mb
-      - Relay_🇨🇳CN-🇩🇪DE_73 |14.39Mb
-      - Relay_🇨🇳CN-🇺🇸US_74 |30.31Mb
-      - Relay_🇨🇳CN-🇺🇸US_76 |30.55Mb
-      - Relay_🇨🇳CN-🇷🇴RO_83 | 8.39Mb
+      - Pool_🇹🇼TW_723
+      - JP
+      - JP 2
+      - Pool_🇹🇼TW_1674
       - Relay_🇨🇳CN-🇩🇪DE_90 |29.02Mb
+      - TW
+      - US
+      - US 2
       - Relay_🇨🇳CN-🇩🇪DE_113 |16.53Mb
-      - Relay_🇨🇳CN-🇷🇺RU_115 |26.23Mb
-      - Relay_🇨🇳CN-🇲🇴MO_116 | 7.57Mb
-      - Relay_🇨🇳CN-🇲🇴MO_117 | 6.97Mb
-      - Relay_🇨🇳CN-🇺🇸US_118 |44.98Mb
-      - Relay_🇨🇳CN-🇷🇴RO_119 | 9.63Mb
-      - Relay_🇨🇳CN-🇺🇸US_122 |21.86Mb
-      - Relay_🇨🇳CN-🇹🇼TW_123 |63.72Mb
-      - Relay_🇨🇳CN-🇹🇼TW_124 |63.99Mb
-      - Relay_🇨🇳CN-🇰🇷KR_130 |44.04Mb
-      - Relay_🇨🇳CN-🇺🇸US_131
-      - Relay_🇨🇳CN-🇷🇺RU_136 |25.49Mb
-      - Relay_🇨🇳CN-🇷🇺RU_137 |11.63Mb
-      - Relay_🇨🇳CN-🇰🇷KR_140 |42.99Mb
-      - Relay_🇨🇳CN-🇮🇳IN_141 |14.14Mb
-      - Relay_🇨🇳CN-🇭🇰HK_143 |101.28Mb
-      - Relay_🇨🇳CN-🏁ZZ_146
-      - Relay_🇨🇳CN-🇭🇰HK_147 |61.55Mb
-      - Relay_🇨🇳CN-🇰🇷KR_148 |20.89Mb
-      - Relay_🇨🇳CN-🇷🇴RO_149 | 4.17Mb
-      - Relay_🇨🇳CN-🇺🇸US_150 |10.46Mb
+      - US 3
+      - Relay_🇨🇳CN-🇺🇸US_76 |30.55Mb
+      - CN
+      - Relay_🇨🇳CN-🇺🇸US_74 |30.31Mb
+      - HK
+      - CN 2
+      - US 4
+      - US 5
+      - DE
+      - DE 2
+      - US 6
+      - CN 3
+      - US 7
+      - CN 4
+      - _CA_加拿大
+      - JP 3
+      - Relay_🇨🇳CN-🇷🇺RU_23 | 6.57Mb
+      - US 8
+      - Relay_🇨🇳CN-🇩🇪DE_73 |14.39Mb
+      - default_name
+      - 103.172.116.8:9037
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -172,39 +164,37 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN 10
-      - HK(TG/atyzcloud)_1
-      - AU(TG/atyzcloud)_1
-      - Pool_🇹🇼TW_723
       - CN_21 | 3.20Mb
-      - Relay_🇨🇳CN-🇷🇺RU_23 | 6.57Mb
-      - Relay_🇨🇳CN-🇮🇸IS_25 | 5.09Mb
-      - Relay_🇨🇳CN-🇩🇪DE_73 |14.39Mb
-      - Relay_🇨🇳CN-🇺🇸US_74 |30.31Mb
-      - Relay_🇨🇳CN-🇺🇸US_76 |30.55Mb
-      - Relay_🇨🇳CN-🇷🇴RO_83 | 8.39Mb
+      - Pool_🇹🇼TW_723
+      - JP
+      - JP 2
+      - Pool_🇹🇼TW_1674
       - Relay_🇨🇳CN-🇩🇪DE_90 |29.02Mb
+      - TW
+      - US
+      - US 2
       - Relay_🇨🇳CN-🇩🇪DE_113 |16.53Mb
-      - Relay_🇨🇳CN-🇷🇺RU_115 |26.23Mb
-      - Relay_🇨🇳CN-🇲🇴MO_116 | 7.57Mb
-      - Relay_🇨🇳CN-🇲🇴MO_117 | 6.97Mb
-      - Relay_🇨🇳CN-🇺🇸US_118 |44.98Mb
-      - Relay_🇨🇳CN-🇷🇴RO_119 | 9.63Mb
-      - Relay_🇨🇳CN-🇺🇸US_122 |21.86Mb
-      - Relay_🇨🇳CN-🇹🇼TW_123 |63.72Mb
-      - Relay_🇨🇳CN-🇹🇼TW_124 |63.99Mb
-      - Relay_🇨🇳CN-🇰🇷KR_130 |44.04Mb
-      - Relay_🇨🇳CN-🇺🇸US_131
-      - Relay_🇨🇳CN-🇷🇺RU_136 |25.49Mb
-      - Relay_🇨🇳CN-🇷🇺RU_137 |11.63Mb
-      - Relay_🇨🇳CN-🇰🇷KR_140 |42.99Mb
-      - Relay_🇨🇳CN-🇮🇳IN_141 |14.14Mb
-      - Relay_🇨🇳CN-🇭🇰HK_143 |101.28Mb
-      - Relay_🇨🇳CN-🏁ZZ_146
-      - Relay_🇨🇳CN-🇭🇰HK_147 |61.55Mb
-      - Relay_🇨🇳CN-🇰🇷KR_148 |20.89Mb
-      - Relay_🇨🇳CN-🇷🇴RO_149 | 4.17Mb
-      - Relay_🇨🇳CN-🇺🇸US_150 |10.46Mb
+      - US 3
+      - Relay_🇨🇳CN-🇺🇸US_76 |30.55Mb
+      - CN
+      - Relay_🇨🇳CN-🇺🇸US_74 |30.31Mb
+      - HK
+      - CN 2
+      - US 4
+      - US 5
+      - DE
+      - DE 2
+      - US 6
+      - CN 3
+      - US 7
+      - CN 4
+      - _CA_加拿大
+      - JP 3
+      - Relay_🇨🇳CN-🇷🇺RU_23 | 6.57Mb
+      - US 8
+      - Relay_🇨🇳CN-🇩🇪DE_73 |14.39Mb
+      - default_name
+      - 103.172.116.8:9037
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -215,116 +205,110 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CN 10
-      - HK(TG/atyzcloud)_1
-      - AU(TG/atyzcloud)_1
-      - Pool_🇹🇼TW_723
       - CN_21 | 3.20Mb
-      - Relay_🇨🇳CN-🇷🇺RU_23 | 6.57Mb
-      - Relay_🇨🇳CN-🇮🇸IS_25 | 5.09Mb
-      - Relay_🇨🇳CN-🇩🇪DE_73 |14.39Mb
-      - Relay_🇨🇳CN-🇺🇸US_74 |30.31Mb
-      - Relay_🇨🇳CN-🇺🇸US_76 |30.55Mb
-      - Relay_🇨🇳CN-🇷🇴RO_83 | 8.39Mb
+      - Pool_🇹🇼TW_723
+      - JP
+      - JP 2
+      - Pool_🇹🇼TW_1674
       - Relay_🇨🇳CN-🇩🇪DE_90 |29.02Mb
+      - TW
+      - US
+      - US 2
       - Relay_🇨🇳CN-🇩🇪DE_113 |16.53Mb
-      - Relay_🇨🇳CN-🇷🇺RU_115 |26.23Mb
-      - Relay_🇨🇳CN-🇲🇴MO_116 | 7.57Mb
-      - Relay_🇨🇳CN-🇲🇴MO_117 | 6.97Mb
-      - Relay_🇨🇳CN-🇺🇸US_118 |44.98Mb
-      - Relay_🇨🇳CN-🇷🇴RO_119 | 9.63Mb
-      - Relay_🇨🇳CN-🇺🇸US_122 |21.86Mb
-      - Relay_🇨🇳CN-🇹🇼TW_123 |63.72Mb
-      - Relay_🇨🇳CN-🇹🇼TW_124 |63.99Mb
-      - Relay_🇨🇳CN-🇰🇷KR_130 |44.04Mb
-      - Relay_🇨🇳CN-🇺🇸US_131
-      - Relay_🇨🇳CN-🇷🇺RU_136 |25.49Mb
-      - Relay_🇨🇳CN-🇷🇺RU_137 |11.63Mb
-      - Relay_🇨🇳CN-🇰🇷KR_140 |42.99Mb
-      - Relay_🇨🇳CN-🇮🇳IN_141 |14.14Mb
-      - Relay_🇨🇳CN-🇭🇰HK_143 |101.28Mb
-      - Relay_🇨🇳CN-🏁ZZ_146
-      - Relay_🇨🇳CN-🇭🇰HK_147 |61.55Mb
-      - Relay_🇨🇳CN-🇰🇷KR_148 |20.89Mb
-      - Relay_🇨🇳CN-🇷🇴RO_149 | 4.17Mb
-      - Relay_🇨🇳CN-🇺🇸US_150 |10.46Mb
+      - US 3
+      - Relay_🇨🇳CN-🇺🇸US_76 |30.55Mb
+      - CN
+      - Relay_🇨🇳CN-🇺🇸US_74 |30.31Mb
+      - HK
+      - CN 2
+      - US 4
+      - US 5
+      - DE
+      - DE 2
+      - US 6
+      - CN 3
+      - US 7
+      - CN 4
+      - _CA_加拿大
+      - JP 3
+      - Relay_🇨🇳CN-🇷🇺RU_23 | 6.57Mb
+      - US 8
+      - Relay_🇨🇳CN-🇩🇪DE_73 |14.39Mb
+      - default_name
+      - 103.172.116.8:9037
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - CN 10
-      - HK(TG/atyzcloud)_1
-      - AU(TG/atyzcloud)_1
-      - Pool_🇹🇼TW_723
       - CN_21 | 3.20Mb
-      - Relay_🇨🇳CN-🇷🇺RU_23 | 6.57Mb
-      - Relay_🇨🇳CN-🇮🇸IS_25 | 5.09Mb
-      - Relay_🇨🇳CN-🇩🇪DE_73 |14.39Mb
-      - Relay_🇨🇳CN-🇺🇸US_74 |30.31Mb
-      - Relay_🇨🇳CN-🇺🇸US_76 |30.55Mb
-      - Relay_🇨🇳CN-🇷🇴RO_83 | 8.39Mb
+      - Pool_🇹🇼TW_723
+      - JP
+      - JP 2
+      - Pool_🇹🇼TW_1674
       - Relay_🇨🇳CN-🇩🇪DE_90 |29.02Mb
+      - TW
+      - US
+      - US 2
       - Relay_🇨🇳CN-🇩🇪DE_113 |16.53Mb
-      - Relay_🇨🇳CN-🇷🇺RU_115 |26.23Mb
-      - Relay_🇨🇳CN-🇲🇴MO_116 | 7.57Mb
-      - Relay_🇨🇳CN-🇲🇴MO_117 | 6.97Mb
-      - Relay_🇨🇳CN-🇺🇸US_118 |44.98Mb
-      - Relay_🇨🇳CN-🇷🇴RO_119 | 9.63Mb
-      - Relay_🇨🇳CN-🇺🇸US_122 |21.86Mb
-      - Relay_🇨🇳CN-🇹🇼TW_123 |63.72Mb
-      - Relay_🇨🇳CN-🇹🇼TW_124 |63.99Mb
-      - Relay_🇨🇳CN-🇰🇷KR_130 |44.04Mb
-      - Relay_🇨🇳CN-🇺🇸US_131
-      - Relay_🇨🇳CN-🇷🇺RU_136 |25.49Mb
-      - Relay_🇨🇳CN-🇷🇺RU_137 |11.63Mb
-      - Relay_🇨🇳CN-🇰🇷KR_140 |42.99Mb
-      - Relay_🇨🇳CN-🇮🇳IN_141 |14.14Mb
-      - Relay_🇨🇳CN-🇭🇰HK_143 |101.28Mb
-      - Relay_🇨🇳CN-🏁ZZ_146
-      - Relay_🇨🇳CN-🇭🇰HK_147 |61.55Mb
-      - Relay_🇨🇳CN-🇰🇷KR_148 |20.89Mb
-      - Relay_🇨🇳CN-🇷🇴RO_149 | 4.17Mb
-      - Relay_🇨🇳CN-🇺🇸US_150 |10.46Mb
+      - US 3
+      - Relay_🇨🇳CN-🇺🇸US_76 |30.55Mb
+      - CN
+      - Relay_🇨🇳CN-🇺🇸US_74 |30.31Mb
+      - HK
+      - CN 2
+      - US 4
+      - US 5
+      - DE
+      - DE 2
+      - US 6
+      - CN 3
+      - US 7
+      - CN 4
+      - _CA_加拿大
+      - JP 3
+      - Relay_🇨🇳CN-🇷🇺RU_23 | 6.57Mb
+      - US 8
+      - Relay_🇨🇳CN-🇩🇪DE_73 |14.39Mb
+      - default_name
+      - 103.172.116.8:9037
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN 10
-      - HK(TG/atyzcloud)_1
-      - AU(TG/atyzcloud)_1
-      - Pool_🇹🇼TW_723
       - CN_21 | 3.20Mb
-      - Relay_🇨🇳CN-🇷🇺RU_23 | 6.57Mb
-      - Relay_🇨🇳CN-🇮🇸IS_25 | 5.09Mb
-      - Relay_🇨🇳CN-🇩🇪DE_73 |14.39Mb
-      - Relay_🇨🇳CN-🇺🇸US_74 |30.31Mb
-      - Relay_🇨🇳CN-🇺🇸US_76 |30.55Mb
-      - Relay_🇨🇳CN-🇷🇴RO_83 | 8.39Mb
+      - Pool_🇹🇼TW_723
+      - JP
+      - JP 2
+      - Pool_🇹🇼TW_1674
       - Relay_🇨🇳CN-🇩🇪DE_90 |29.02Mb
+      - TW
+      - US
+      - US 2
       - Relay_🇨🇳CN-🇩🇪DE_113 |16.53Mb
-      - Relay_🇨🇳CN-🇷🇺RU_115 |26.23Mb
-      - Relay_🇨🇳CN-🇲🇴MO_116 | 7.57Mb
-      - Relay_🇨🇳CN-🇲🇴MO_117 | 6.97Mb
-      - Relay_🇨🇳CN-🇺🇸US_118 |44.98Mb
-      - Relay_🇨🇳CN-🇷🇴RO_119 | 9.63Mb
-      - Relay_🇨🇳CN-🇺🇸US_122 |21.86Mb
-      - Relay_🇨🇳CN-🇹🇼TW_123 |63.72Mb
-      - Relay_🇨🇳CN-🇹🇼TW_124 |63.99Mb
-      - Relay_🇨🇳CN-🇰🇷KR_130 |44.04Mb
-      - Relay_🇨🇳CN-🇺🇸US_131
-      - Relay_🇨🇳CN-🇷🇺RU_136 |25.49Mb
-      - Relay_🇨🇳CN-🇷🇺RU_137 |11.63Mb
-      - Relay_🇨🇳CN-🇰🇷KR_140 |42.99Mb
-      - Relay_🇨🇳CN-🇮🇳IN_141 |14.14Mb
-      - Relay_🇨🇳CN-🇭🇰HK_143 |101.28Mb
-      - Relay_🇨🇳CN-🏁ZZ_146
-      - Relay_🇨🇳CN-🇭🇰HK_147 |61.55Mb
-      - Relay_🇨🇳CN-🇰🇷KR_148 |20.89Mb
-      - Relay_🇨🇳CN-🇷🇴RO_149 | 4.17Mb
-      - Relay_🇨🇳CN-🇺🇸US_150 |10.46Mb
+      - US 3
+      - Relay_🇨🇳CN-🇺🇸US_76 |30.55Mb
+      - CN
+      - Relay_🇨🇳CN-🇺🇸US_74 |30.31Mb
+      - HK
+      - CN 2
+      - US 4
+      - US 5
+      - DE
+      - DE 2
+      - US 6
+      - CN 3
+      - US 7
+      - CN 4
+      - _CA_加拿大
+      - JP 3
+      - Relay_🇨🇳CN-🇷🇺RU_23 | 6.57Mb
+      - US 8
+      - Relay_🇨🇳CN-🇩🇪DE_73 |14.39Mb
+      - default_name
+      - 103.172.116.8:9037
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -340,39 +324,37 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN 10
-      - HK(TG/atyzcloud)_1
-      - AU(TG/atyzcloud)_1
-      - Pool_🇹🇼TW_723
       - CN_21 | 3.20Mb
-      - Relay_🇨🇳CN-🇷🇺RU_23 | 6.57Mb
-      - Relay_🇨🇳CN-🇮🇸IS_25 | 5.09Mb
-      - Relay_🇨🇳CN-🇩🇪DE_73 |14.39Mb
-      - Relay_🇨🇳CN-🇺🇸US_74 |30.31Mb
-      - Relay_🇨🇳CN-🇺🇸US_76 |30.55Mb
-      - Relay_🇨🇳CN-🇷🇴RO_83 | 8.39Mb
+      - Pool_🇹🇼TW_723
+      - JP
+      - JP 2
+      - Pool_🇹🇼TW_1674
       - Relay_🇨🇳CN-🇩🇪DE_90 |29.02Mb
+      - TW
+      - US
+      - US 2
       - Relay_🇨🇳CN-🇩🇪DE_113 |16.53Mb
-      - Relay_🇨🇳CN-🇷🇺RU_115 |26.23Mb
-      - Relay_🇨🇳CN-🇲🇴MO_116 | 7.57Mb
-      - Relay_🇨🇳CN-🇲🇴MO_117 | 6.97Mb
-      - Relay_🇨🇳CN-🇺🇸US_118 |44.98Mb
-      - Relay_🇨🇳CN-🇷🇴RO_119 | 9.63Mb
-      - Relay_🇨🇳CN-🇺🇸US_122 |21.86Mb
-      - Relay_🇨🇳CN-🇹🇼TW_123 |63.72Mb
-      - Relay_🇨🇳CN-🇹🇼TW_124 |63.99Mb
-      - Relay_🇨🇳CN-🇰🇷KR_130 |44.04Mb
-      - Relay_🇨🇳CN-🇺🇸US_131
-      - Relay_🇨🇳CN-🇷🇺RU_136 |25.49Mb
-      - Relay_🇨🇳CN-🇷🇺RU_137 |11.63Mb
-      - Relay_🇨🇳CN-🇰🇷KR_140 |42.99Mb
-      - Relay_🇨🇳CN-🇮🇳IN_141 |14.14Mb
-      - Relay_🇨🇳CN-🇭🇰HK_143 |101.28Mb
-      - Relay_🇨🇳CN-🏁ZZ_146
-      - Relay_🇨🇳CN-🇭🇰HK_147 |61.55Mb
-      - Relay_🇨🇳CN-🇰🇷KR_148 |20.89Mb
-      - Relay_🇨🇳CN-🇷🇴RO_149 | 4.17Mb
-      - Relay_🇨🇳CN-🇺🇸US_150 |10.46Mb
+      - US 3
+      - Relay_🇨🇳CN-🇺🇸US_76 |30.55Mb
+      - CN
+      - Relay_🇨🇳CN-🇺🇸US_74 |30.31Mb
+      - HK
+      - CN 2
+      - US 4
+      - US 5
+      - DE
+      - DE 2
+      - US 6
+      - CN 3
+      - US 7
+      - CN 4
+      - _CA_加拿大
+      - JP 3
+      - Relay_🇨🇳CN-🇷🇺RU_23 | 6.57Mb
+      - US 8
+      - Relay_🇨🇳CN-🇩🇪DE_73 |14.39Mb
+      - default_name
+      - 103.172.116.8:9037
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
