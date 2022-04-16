@@ -5,807 +5,171 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: S4全解·日本02| IEPL |, server: aih7aso6.nodeinfo.icu, port: 2602, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S3全解·香港06| MIEPL |, server: iux7shis.nodeinfo.icu, port: 6006, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S2台湾|NetFlix|01, server: tw1.okzdns.com, port: 45000, type: trojan, password: aa5bf2dd-6977-4be9-bac7-02d43a08175c, sni: tw1.okzdns.com, skip-cert-verify: true, udp: true}
-  - {name: S3全解·香港04| MIEPL |, server: queigh5h.nodeinfo.icu, port: 6004, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S3全解·香港02| MIEPL |, server: ooqu0eep.nodeinfo.icu, port: 6002, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S3全解·香港11| IEPL |, server: aezee4ea.nodeinfo.icu, port: 6011, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S5新加坡01| MIEPL |, server: oexu8yee.nodeinfo.icu, port: 1125, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S3全解·香港24| IEPL |, server: phahx7xo.nodeinfo.icu, port: 3726, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S4全解·香港02| IEPL |, server: lae2keu8.nodeinfo.icu, port: 2102, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S4全解·香港07| IEPL |, server: hee4bieh.nodeinfo.icu, port: 2107, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: ^tw台湾TW 2 *hi-moon.pw, server: y143t2wt.ted1.xyz, port: 26572, type: trojan, password: dc838a4f-4b2d-3cca-a82f-8f1f0963929e, sni: y143t2wt.ted1.xyz, skip-cert-verify: true, udp: true}
-  - {name: S3全解·日本02| IEPL |, server: wi6ru6zo.nodeinfo.icu, port: 6302, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S4全解·日本03| IEPL |, server: tev5aes5.nodeinfo.icu, port: 2603, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: JP, server: 54.168.241.213, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: S3全解·新加坡07| IEPL |, server: eer9iqu7.nodeinfo.icu, port: 1003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S4全解·菲律宾01| IEPL |, server: xugeed0e.nodeinfo.icu, port: 1105, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S3全解·新加坡06| IEPL |, server: phoo6aem.nodeinfo.icu, port: 1002, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: 新加坡肉骨茶, server: jx.samshui.cn, port: 20245, type: trojan, password: 5m4TPMV6UO, sni: jx.samshui.cn, skip-cert-verify: true, udp: true}
-  - {name: S4全解·香港05| IEPL |, server: lia7nosh.nodeinfo.icu, port: 2105, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S4全解·新加坡02| IEPL |, server: eip7ahzi.nodeinfo.icu, port: 2202, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S5日本02| IEPL |, server: wah0euyi.nodeinfo.icu, port: 1129, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S2台湾|NetFlix|02, server: ddns.5icc.eu, port: 45000, type: trojan, password: aa5bf2dd-6977-4be9-bac7-02d43a08175c, sni: ddns.5icc.eu, skip-cert-verify: true, udp: true}
-  - {name: S4全解·日本04| IEPL |, server: puf6no0k.nodeinfo.icu, port: 2604, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S4全解·日本05| IEPL |, server: rangahr6.nodeinfo.icu, port: 2605, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S4全解·台湾03| IEPL |, server: uthaez1i.nodeinfo.icu, port: 1113, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S4全解·台湾05| IEPL |, server: einoo4ai.nodeinfo.icu, port: 1115, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: 香港鸡蛋仔, server: bgp.samshui.cn, port: 20244, type: trojan, password: 927ef156-c813-45fd-8eb6-47372cb4a245, sni: bgp.samshui.cn, skip-cert-verify: true, udp: true}
-  - {name: S5台湾01| MIEPL |, server: ohm9aizu.nodeinfo.icu, port: 1122, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S1日本 03 |直连|NetFlix, server: jp03.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 443, type: trojan, password: e8004550-7f09-4c2a-90e3-d1b553fccf61, sni: jp03.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, skip-cert-verify: true, udp: true}
-  - {name: S2俄罗斯01, server: russia.okzdns.com, port: 33306, type: trojan, password: aa5bf2dd-6977-4be9-bac7-02d43a08175c, sni: russia.okzdns.com, skip-cert-verify: true, udp: true}
-  - {name: 日本赤豚骨拉面, server: bgp.samshui.cn, port: 20243, type: trojan, password: co61rwoeb, sni: bgp.samshui.cn, skip-cert-verify: true, udp: true}
-  - {name: S2香港02, server: sh.cu.01.211129.xyz, port: 54277, type: ss, cipher: aes-256-gcm, password: aa5bf2dd-6977-4be9-bac7-02d43a08175c, udp: true}
-  - {name: US, server: 20.222.84.185, port: 443, type: trojan, password: 12a1bf8b-8f39-4b06-82f5-3b6bd4d354f9, skip-cert-verify: true, udp: true}
-  - {name: ^hk香港HK 2 *hi-moon.pw, server: y137h2kt.ted1.xyz, port: 26562, type: trojan, password: dc838a4f-4b2d-3cca-a82f-8f1f0963929e, sni: y137h2kt.ted1.xyz, skip-cert-verify: true, udp: true}
-  - {name: S4全解·香港01| IEPL |, server: ua2ahgha.nodeinfo.icu, port: 2101, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: ^sg新加坡SG 3 *hi-moon.pw, server: y119s3gt.ted1.xyz, port: 26523, type: trojan, password: dc838a4f-4b2d-3cca-a82f-8f1f0963929e, sni: y119s3gt.ted1.xyz, skip-cert-verify: true, udp: true}
-  - {name: ^kr韩国KR 1 *hi-moon.pw, server: y155k1rt.ted1.xyz, port: 26586, type: trojan, password: dc838a4f-4b2d-3cca-a82f-8f1f0963929e, sni: y155k1rt.ted1.xyz, skip-cert-verify: true, udp: true}
-  - {name: S4全解·香港12| IEPL |, server: oohas7ou.nodeinfo.icu, port: 2112, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: ^hk香港HK 1 *hi-moon.pw, server: y136h1kt.ted1.xyz, port: 26561, type: trojan, password: dc838a4f-4b2d-3cca-a82f-8f1f0963929e, sni: y136h1kt.ted1.xyz, skip-cert-verify: true, udp: true}
-  - {name: S3全解·新加坡01| IEPL |, server: aigha5ay.nodeinfo.icu, port: 3201, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S3全解·香港14| MIEPL |, server: utai3iw1.nodeinfo.icu, port: 6014, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S3全解·新加坡05| IEPL |, server: aebek1oo.nodeinfo.icu, port: 1001, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S4全解·香港10| IEPL |, server: eek8yahv.nodeinfo.icu, port: 2110, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S5香港03| MIEPL |, server: vahv9diw.nodeinfo.icu, port: 7003, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S3全解·台灣02| IEPL |, server: yeen3opa.nodeinfo.icu, port: 6502, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S3全解·香港18| IEPL |, server: vieghei0.nodeinfo.icu, port: 6018, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S1日本 06 |直连|NetFlix, server: jp06.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 443, type: trojan, password: e8004550-7f09-4c2a-90e3-d1b553fccf61, sni: jp06.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, skip-cert-verify: true, udp: true}
-  - {name: S1日本 04 |中转|NetFlix, server: zz03.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 10724, type: trojan, password: e8004550-7f09-4c2a-90e3-d1b553fccf61, sni: zz03.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, skip-cert-verify: true, udp: true}
-  - {name: S3全解·香港05| MIEPL |, server: keixai3u.nodeinfo.icu, port: 6005, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S4全解·韩国05| IEPL |, server: iemeith7.nodeinfo.icu, port: 2507, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S3全解·香港17| IEPL |, server: inu8azei.nodeinfo.icu, port: 6017, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S1日本 01 |普通|NetFlix, server: zz02.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 10721, type: trojan, password: e8004550-7f09-4c2a-90e3-d1b553fccf61, sni: zz02.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, skip-cert-verify: true, udp: true}
-  - {name: S1日本 05 |中转|NetFlix, server: zz03.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 10725, type: trojan, password: e8004550-7f09-4c2a-90e3-d1b553fccf61, sni: zz03.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, skip-cert-verify: true, udp: true}
-  - {name: S1香港 04 |直连|NetFlix, server: hk04.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 443, type: trojan, password: e8004550-7f09-4c2a-90e3-d1b553fccf61, sni: hk04.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, skip-cert-verify: true, udp: true}
-  - {name: S1日本 05 |直连|NetFlix, server: jp05.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 443, type: trojan, password: e8004550-7f09-4c2a-90e3-d1b553fccf61, sni: jp05.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, skip-cert-verify: true, udp: true}
-  - {name: S3全解·新加坡04| MIEPL |, server: ainetu9e.nodeinfo.icu, port: 3204, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S3全解·香港08| IEPL |, server: ie2ohyai.nodeinfo.icu, port: 6008, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S3全解·新加坡12| IEPL |, server: iephu5so.nodeinfo.icu, port: 3212, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S3全解·香港12| IEPL |, server: ahheil5u.nodeinfo.icu, port: 6012, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S3全解·香港03| MIEPL |, server: wu3gadam.nodeinfo.icu, port: 6003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S1日本 01 |中转|NetFlix, server: zz03.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 10721, type: trojan, password: e8004550-7f09-4c2a-90e3-d1b553fccf61, sni: zz03.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, skip-cert-verify: true, udp: true}
-  - {name: ^in印度IN 2 *hi-moon.pw, server: l153i2nt.ted1.xyz, port: 26585, type: trojan, password: dc838a4f-4b2d-3cca-a82f-8f1f0963929e, sni: l153i2nt.ted1.xyz, skip-cert-verify: true, udp: true}
-  - {name: S2香港04, server: azhk006.okzdns.com, port: 3388, type: trojan, password: aa5bf2dd-6977-4be9-bac7-02d43a08175c, sni: azhk006.okzdns.com, skip-cert-verify: true, udp: true}
-  - {name: S5香港07| IEPL |, server: jaibio5c.nodeinfo.icu, port: 7007, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S3全解·新加坡11| IEPL |, server: quo7chie.nodeinfo.icu, port: 3211, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S4全解·韩国04| IEPL |, server: ohchaeb8.nodeinfo.icu, port: 2506, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: 极速香港|IPLC|01, server: snode-14.nmp.pw, port: 11328, type: vmess, uuid: c30c1407-456f-4817-85f3-73f2e0d6ff9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: S1日本 03 |中转|NetFlix, server: zz03.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 10723, type: trojan, password: e8004550-7f09-4c2a-90e3-d1b553fccf61, sni: zz03.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, skip-cert-verify: true, udp: true}
-  - {name: S3全解·日本04| IEPL |, server: ib7uge9u.nodeinfo.icu, port: 6304, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S1日本 07 |直连|NetFlix, server: jp07.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 443, type: trojan, password: e8004550-7f09-4c2a-90e3-d1b553fccf61, sni: jp07.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, skip-cert-verify: true, udp: true}
-  - {name: S4全解·香港09| IEPL |, server: aighai2r.nodeinfo.icu, port: 2109, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: CN, server: 8388adc0-1548-43b5-9a4e-c1fbccb4dd61.404sx.com, port: 41003, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
-  - {name: S4全解·台湾06| IEPL |, server: phi4thuo.nodeinfo.icu, port: 1116, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S2新加坡|NetFlix|02, server: azpf.okzdns.com, port: 26277, type: ss, cipher: aes-256-gcm, password: aa5bf2dd-6977-4be9-bac7-02d43a08175c, udp: true}
-  - {name: S2台湾|NetFlix|03, server: azpf.okzdns.com, port: 37126, type: trojan, password: aa5bf2dd-6977-4be9-bac7-02d43a08175c, sni: azpf.okzdns.com, skip-cert-verify: true, udp: true}
-  - {name: S4全解·香港04| IEPL |, server: yeet4iel.nodeinfo.icu, port: 2104, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: 有问题请您更新订阅, server: snode-14.nmp.pw, port: 11280, type: vmess, uuid: c30c1407-456f-4817-85f3-73f2e0d6ff9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN 2, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 21005, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
-  - {name: S1日本 04 |直连|NetFlix, server: jp04.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 443, type: trojan, password: e8004550-7f09-4c2a-90e3-d1b553fccf61, sni: jp04.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, skip-cert-verify: true, udp: true}
-  - {name: S4全解·美国10| IEPL |, server: fai3ahch.nodeinfo.icu, port: 1159, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S3全解·台灣04| IEPL |, server: zahre8ai.nodeinfo.icu, port: 699, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S3全解·香港20| IEPL |, server: ti5mulix.nodeinfo.icu, port: 6020, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S4全解·新加坡01| IEPL |, server: goash5ae.nodeinfo.icu, port: 2201, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S4全解·日本01| IEPL |, server: weiyoh2u.nodeinfo.icu, port: 2601, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S5香港08| IEPL |, server: aemoo9wi.nodeinfo.icu, port: 7008, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S4全解·美国03| IEPL |, server: iethie6i.nodeinfo.icu, port: 1152, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S3全解·香港13| IEPL |, server: koo3cuiz.nodeinfo.icu, port: 6013, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S4全解·美国06| IEPL |, server: imohy4to.nodeinfo.icu, port: 1155, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: ^sg新加坡SG1 *hi-moon.pw, server: y117s1gt.ted1.xyz, port: 26521, type: trojan, password: dc838a4f-4b2d-3cca-a82f-8f1f0963929e, sni: y117s1gt.ted1.xyz, skip-cert-verify: true, udp: true}
-  - {name: S3全解·香港21| MIEPL |, server: aic5ucu1.nodeinfo.icu, port: 6021, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S4全解·德国02| IEPL |, server: eyahg2ai.nodeinfo.icu, port: 2402, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S3全解·台灣05| IEPL |, server: eu1she3s.nodeinfo.icu, port: 700, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S1日本 03 |普通|NetFlix, server: zz02.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 10723, type: trojan, password: e8004550-7f09-4c2a-90e3-d1b553fccf61, sni: zz02.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, skip-cert-verify: true, udp: true}
-  - {name: S4全解·美国02| IEPL |, server: quienu0o.nodeinfo.icu, port: 1151, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S4全解·美国05| IEPL |, server: uth8waiw.nodeinfo.icu, port: 1154, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: ^tw台湾TW 1 *hi-moon.pw, server: y142t1wt.ted1.xyz, port: 26571, type: trojan, password: dc838a4f-4b2d-3cca-a82f-8f1f0963929e, sni: y142t1wt.ted1.xyz, skip-cert-verify: true, udp: true}
-  - {name: S4全解·韩国03| IEPL |, server: eihie4vi.nodeinfo.icu, port: 2303, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S3全解·美国05| IEPL |, server: athe0ugh.nodeinfo.icu, port: 1801, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S4全解·德国01| IEPL |, server: avee5je0.nodeinfo.icu, port: 2401, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: ^sg新加坡SG 2 *hi-moon.pw, server: y118s2gt.ted1.xyz, port: 26522, type: trojan, password: dc838a4f-4b2d-3cca-a82f-8f1f0963929e, sni: y118s2gt.ted1.xyz, skip-cert-verify: true, udp: true}
-  - {name: S3全解·新加坡09| IEPL |, server: meeku3zi.nodeinfo.icu, port: 3209, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: CN 3, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21010, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
-  - {name: S4全解·台湾04| IEPL |, server: iemath0i.nodeinfo.icu, port: 1114, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S4全解·台湾01| IEPL |, server: aesohch8.nodeinfo.icu, port: 1111, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: HK|香港|10G|TR|01, server: hk.456url.com, port: 10086, type: trojan, password: 50ca3c7f-383d-4097-b9f3-3d2f76d84400, sni: hk.456url.com, skip-cert-verify: true, udp: true}
-  - {name: HK|香港|10G|SS|01, server: hk.456url.com, port: 10088, type: ss, cipher: chacha20-ietf-poly1305, password: 50ca3c7f-383d-4097-b9f3-3d2f76d84400, udp: true}
-  - {name: The Sandbox香港|01, server: snode-14.nmp.pw, port: 11328, type: vmess, uuid: c30c1407-456f-4817-85f3-73f2e0d6ff9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: S3全解·日本03| IEPL |, server: eeth0aey.nodeinfo.icu, port: 6303, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S4全解·英国03| IEPL |, server: jeik8oop.nodeinfo.icu, port: 1603, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S5香港02| MIEPL |, server: feeco8oo.nodeinfo.icu, port: 7002, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S2新加坡01, server: azhk-pf.okzdns.com, port: 50007, type: trojan, password: aa5bf2dd-6977-4be9-bac7-02d43a08175c, sni: azhk-pf.okzdns.com, skip-cert-verify: true, udp: true}
-  - {name: S5香港04| MIEPL |, server: vureuva3.nodeinfo.icu, port: 7004, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: 极速香港|IPLC|02, server: snode-14.nmp.pw, port: 11280, type: vmess, uuid: c30c1407-456f-4817-85f3-73f2e0d6ff9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: S2香港05, server: azpf.okzdns.com, port: 39424, type: trojan, password: aa5bf2dd-6977-4be9-bac7-02d43a08175c, sni: azpf.okzdns.com, skip-cert-verify: true, udp: true}
-  - {name: S2韩国|NetFlix|03, server: azhk-pf.okzdns.com, port: 50003, type: trojan, password: aa5bf2dd-6977-4be9-bac7-02d43a08175c, sni: azhk-pf.okzdns.com, skip-cert-verify: true, udp: true}
-  - {name: S4全解·美国08| IEPL |, server: soh5quik.nodeinfo.icu, port: 1157, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: US 2, server: 20.222.84.185, port: 443, type: trojan, password: 26c6e9fc-0c9c-438d-98f1-38a07ae08cdb, skip-cert-verify: true, udp: true}
-  - {name: S4全解·印度01| IEPL |, server: thina8ae.nodeinfo.icu, port: 2701, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S4全解·新加坡03| IEPL |, server: ohd8oi6c.nodeinfo.icu, port: 2203, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: ^us美国US 2 *hi-moon.pw, server: l129u2st.ted1.xyz, port: 26552, type: trojan, password: dc838a4f-4b2d-3cca-a82f-8f1f0963929e, sni: l129u2st.ted1.xyz, skip-cert-verify: true, udp: true}
-  - {name: S4全解·新加坡05| IEPL |, server: axeed0uh.nodeinfo.icu, port: 2003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S4全解·英国04| IEPL |, server: thu0thei.nodeinfo.icu, port: 1604, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S2美国|NetFlix|01, server: a2.okz2.com, port: 50001, type: trojan, password: aa5bf2dd-6977-4be9-bac7-02d43a08175c, sni: a2.okz2.com, skip-cert-verify: true, udp: true}
-  - {name: S5美国03| MIEPL|, server: ahc1beib.nodeinfo.icu, port: 1132, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S5香港06| IEPL |, server: iqu5ujio.nodeinfo.icu, port: 7006, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: 荷兰1, server: in05.dns2333.xyz, port: 63062, type: vmess, uuid: 982227b6-fb48-3c17-b44f-b41daa88afab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: nl01-cdn.tencent.best}, udp: true}
-  - {name: S4全解·美国09| IEPL |, server: unah2wel.nodeinfo.icu, port: 1158, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: ^ru俄罗斯RU 1 *hi-moon.pw, server: l149r1ut.ted1.xyz, port: 26581, type: trojan, password: dc838a4f-4b2d-3cca-a82f-8f1f0963929e, sni: l149r1ut.ted1.xyz, skip-cert-verify: true, udp: true}
-  - {name: S3全解·日本05| IEPL |, server: powa8agh.nodeinfo.icu, port: 6305, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S4全解·美国01| IEPL |, server: vopeic0v.nodeinfo.icu, port: 1150, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S4全解·英国06| IEPL |, server: giefaiz4.nodeinfo.icu, port: 1606, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: CN 4, server: 7f98cedf-c70b-48e4-b7ec-4c2394ced310.404sx.com, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
-  - {name: S2香港|NetFlix|01, server: azhk-pf.okzdns.com, port: 50002, type: trojan, password: aa5bf2dd-6977-4be9-bac7-02d43a08175c, sni: azhk-pf.okzdns.com, skip-cert-verify: true, udp: true}
-  - {name: S4全解·英国05| IEPL |, server: queipo3w.nodeinfo.icu, port: 1605, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S3全解·美国04| IEPL |, server: heeth5va.nodeinfo.icu, port: 1800, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: 台湾彰化肉圆, server: bgp.samshui.cn, port: 20242, type: trojan, password: o35mmxpsw, sni: bgp.samshui.cn, skip-cert-verify: true, udp: true}
-  - {name: S5美国02| MIEPL |, server: euchei9j.nodeinfo.icu, port: 1121, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S3全解·香港09| IEPL |, server: eevahb9v.nodeinfo.icu, port: 6009, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: CN 5, server: 5e0af12d-db5e-42e8-b88e-98aff594dd5e.404sx.com, port: 41003, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
-  - {name: 极速台湾|IEPL|01, server: 120.232.173.177, port: 49496, type: vmess, uuid: c30c1407-456f-4817-85f3-73f2e0d6ff9a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: S3全解·新加坡02| IEPL |, server: roog5tee.nodeinfo.icu, port: 3202, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S4全解·美国07| IEPL |, server: ohjei8ph.nodeinfo.icu, port: 1156, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S1香港 03 |直连|NetFlix, server: hk03.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 443, type: trojan, password: e8004550-7f09-4c2a-90e3-d1b553fccf61, sni: hk03.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, skip-cert-verify: true, udp: true}
-  - {name: S3全解·美国02| IEPL |, server: hahw2qui.nodeinfo.icu, port: 6202, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: US|美国|IP6|SS|02, server: us.456url.com, port: 10089, type: ss, cipher: chacha20-ietf-poly1305, password: 50ca3c7f-383d-4097-b9f3-3d2f76d84400, udp: true}
-  - {name: HK|香港|10G|TR|02, server: hk.456url.com, port: 10087, type: trojan, password: 50ca3c7f-383d-4097-b9f3-3d2f76d84400, sni: hk.456url.com, skip-cert-verify: true, udp: true}
-  - {name: S2美国|NetFlix|03, server: azhk-pf.okzdns.com, port: 50011, type: trojan, password: aa5bf2dd-6977-4be9-bac7-02d43a08175c, sni: azhk-pf.okzdns.com, skip-cert-verify: true, udp: true}
-  - {name: S4全解·美国04| IEPL |, server: sah3neey.nodeinfo.icu, port: 1153, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S4全解·韩国01| IEPL |, server: uo6zook8.nodeinfo.icu, port: 2301, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S4全解·英国01| IEPL |, server: ahtai3ie.nodeinfo.icu, port: 1601, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: -GB-0415-恢复更新_3, server: 152.89.210.84, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: S4全解·荷兰01| IEPL |, server: choay2ae.nodeinfo.icu, port: 1700, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: S2新加坡|NetFlix|01, server: cn-hk-az-2.okss.us, port: 54786, type: trojan, password: aa5bf2dd-6977-4be9-bac7-02d43a08175c, sni: cn-hk-az-2.okss.us, skip-cert-verify: true, udp: true}
-  - {name: 极速日本|IEPL|01, server: snode-6.nmp.pw, port: 8001, type: vmess, uuid: c30c1407-456f-4817-85f3-73f2e0d6ff9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: 103.140.136.171.ipssh.net}, udp: true}
-  - {name: -GB-0415-恢复更新_4, server: 152.89.210.84, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
-  - {name: S2英国01, server: azhk-pf.okzdns.com, port: 50008, type: trojan, password: aa5bf2dd-6977-4be9-bac7-02d43a08175c, sni: azhk-pf.okzdns.com, skip-cert-verify: true, udp: true}
-  - {name: S2韩国|NetFlix|01, server: azpf.okzdns.com, port: 48015, type: trojan, password: aa5bf2dd-6977-4be9-bac7-02d43a08175c, sni: azpf.okzdns.com, skip-cert-verify: true, udp: true}
-  - {name: S5美国04| MIEPL |, server: meb1aibe.nodeinfo.icu, port: 1133, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: -GB-0415-恢复更新_8, server: 152.89.210.84, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: HK|香港|10G|SS|02, server: hk.456url.com, port: 10089, type: ss, cipher: chacha20-ietf-poly1305, password: 50ca3c7f-383d-4097-b9f3-3d2f76d84400, udp: true}
-  - {name: US 3, server: 20.212.197.126, port: 443, type: trojan, password: 12a1bf8b-8f39-4b06-82f5-3b6bd4d354f9, skip-cert-verify: true, udp: true}
-  - {name: S2韩国|NetFlix|02, server: cn-hk-az-2.okss.us, port: 50003, type: trojan, password: aa5bf2dd-6977-4be9-bac7-02d43a08175c, sni: cn-hk-az-2.okss.us, skip-cert-verify: true, udp: true}
-  - {name: US|美国|IP6|TR|02, server: us.456url.com, port: 10087, type: trojan, password: 50ca3c7f-383d-4097-b9f3-3d2f76d84400, sni: us.456url.com, skip-cert-verify: true, udp: true}
-  - {name: -GB-0415-恢复更新_2, server: 152.89.210.84, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: US|美国|IP6|SS|01, server: us.456url.com, port: 10088, type: ss, cipher: chacha20-ietf-poly1305, password: 50ca3c7f-383d-4097-b9f3-3d2f76d84400, udp: true}
-  - {name: S2美国|NetFlix|02, server: azhk-pf.okzdns.com, port: 50010, type: trojan, password: aa5bf2dd-6977-4be9-bac7-02d43a08175c, sni: azhk-pf.okzdns.com, skip-cert-verify: true, udp: true}
-  - {name: S2土耳其01, server: azhk-pf.okzdns.com, port: 50012, type: trojan, password: aa5bf2dd-6977-4be9-bac7-02d43a08175c, sni: azhk-pf.okzdns.com, skip-cert-verify: true, udp: true}
-  - {name: -GB-0415-恢复更新_1, server: 152.89.210.84, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: ^in印度IN 3 *hi-moon.pw, server: l154i3nt.ted1.xyz, port: 26580, type: trojan, password: dc838a4f-4b2d-3cca-a82f-8f1f0963929e, sni: l154i3nt.ted1.xyz, skip-cert-verify: true, udp: true}
-  - {name: S3全解·美国03| IEPL |, server: ail8bie0.nodeinfo.icu, port: 6203, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: 美国烟熏牛前胸, server: jx.samshui.cn, port: 18580, type: trojan, password: ac8dvtgl6, sni: jx.samshui.cn, skip-cert-verify: true, udp: true}
-  - {name: 德国1, server: in05.dns2333.xyz, port: 63084, type: vmess, uuid: 982227b6-fb48-3c17-b44f-b41daa88afab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: de01-cdn.airport-v2.com}, udp: true}
+  - {name: CN, server: v3-node29.mimemi-y7ez.com, port: 13139, type: ssr, cipher: aes-256-ctr, password: mimemi, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 9525:QxHsQf, obfs-param: hk2sch70d9e9525.wns.windows.com, udp: true}
+  - {name: CN 2, server: v4-node9.mimemi-9mih.com, port: 13109, type: ssr, cipher: aes-256-ctr, password: mimemi, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 9525:QxHsQf, obfs-param: hk2sch70d9e9525.wns.windows.com, udp: true}
+  - {name: CN 3, server: v4-node66.mimemi-9mih.com, port: 13114, type: ssr, cipher: aes-256-ctr, password: mimemi, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 9525:QxHsQf, obfs-param: hk2sch70d9e9525.wns.windows.com, udp: true}
+  - {name: CN 4, server: v3-node28.mimemi-y7ez.com, port: 13116, type: ssr, cipher: aes-256-ctr, password: mimemi, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 9525:QxHsQf, obfs-param: hk2sch70d9e9525.wns.windows.com, udp: true}
+  - {name: CN 5, server: v3-node99.mimemi-y7ez.com, port: 7001, type: ssr, cipher: aes-256-ctr, password: mimemi, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 9525:QxHsQf, obfs-param: hk2sch70d9e9525.wns.windows.com, udp: true}
+  - {name: US, server: jp02.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 443, type: trojan, password: 214bb2d0-7309-4649-a398-0fbf7ac387fa, sni: jp02.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, skip-cert-verify: true, udp: true}
+  - {name: CN 6, server: v3-node27.mimemi-9mih.com, port: 13141, type: ssr, cipher: aes-256-ctr, password: mimemi, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 9525:QxHsQf, obfs-param: hk2sch70d9e9525.wns.windows.com, udp: true}
+  - {name: CN 7, server: v4-node47.mimemi-9mih.com, port: 13107, type: ssr, cipher: aes-256-ctr, password: mimemi, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 9525:QxHsQf, obfs-param: hk2sch70d9e9525.wns.windows.com, udp: true}
+  - {name: US 2, server: 45.77.126.179, port: 57745, type: vmess, uuid: e8b99f3e-bc07-11ec-bc51-560003f2ac4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /SfqyKoZu/, ws-headers: {Host: 45.77.126.179}, udp: true}
+  - {name: US 3, server: 45.77.126.179, port: 57745, type: vmess, uuid: e8b99f3e-bc07-11ec-bc51-560003f2ac4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /SfqyKoZu/, ws-headers: {Host: 45.77.126.179}, udp: true}
+  - {name: CN 8, server: fs.keaiyun.xyz, port: 48520, type: vmess, uuid: 0aebc864-b680-3ff9-ba91-27479c658201, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}, udp: true}
+  - {name: US 4, server: 140.82.22.122, port: 37572, type: vmess, uuid: 81e3f426-bc02-11ec-b4df-560003f2aa40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qgbdnHwN/, ws-headers: {Host: 140.82.22.122}, udp: true}
+  - {name: JP, server: nfjp1.qingyun123.xyz, port: 10000, type: trojan, password: 32ba9f2a-0a02-42aa-9e1c-040bc9813f12, sni: nfjp1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: US 5, server: kr2.qingyun123.xyz, port: 10050, type: trojan, password: 32ba9f2a-0a02-42aa-9e1c-040bc9813f12, sni: kr2.qingyun123.xyz, skip-cert-verify: true, udp: true}
   - {name: -GB-0415-恢复更新_16, server: 152.89.210.84, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-  - {name: S5台湾04| IEPL |, server: piizoh3x.nodeinfo.icu, port: 1131, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: 加拿大, server: tfguf.ryan610.ml, port: 80, type: vmess, uuid: 80910848-1571-4998-9a6e-52977565da10, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tfguf.ryan610.ml}, udp: true}
-  - {name: S4全解·巴西01| IEPL |, server: ohquoo9h.nodeinfo.icu, port: 1107, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
+  - {name: CN 9, server: fs.keaiyun.xyz, port: 48520, type: vmess, uuid: 0aebc864-b680-3ff9-ba91-27479c658201, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: fs.keaiyun.xyz}, udp: true}
+  - {name: "@SSRSUB-V16-付费推荐:suo.yt/ssrsub", server: 165.154.225.231, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 330hk02.fans8.xyz}, udp: true}
+  - {name: US 6, server: www.zhangss.xyz, port: 59627, type: vmess, uuid: 7cb9b8c1-ddc8-4bdc-b365-d8b73aafa0ec, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: www.zhangss.xyz}, udp: true}
+  - {name: JP 2, server: jp06.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 443, type: trojan, password: 214bb2d0-7309-4649-a398-0fbf7ac387fa, sni: jp06.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, skip-cert-verify: true, udp: true}
+  - {name: HK, server: hknf2.qingyun123.xyz, port: 10070, type: trojan, password: bdc418fa-8124-40af-b932-ed9a3282961b, sni: hknf2.qingyun123.xyz, skip-cert-verify: true, udp: true}
   - {name: -GB-0415-恢复更新_14, server: 152.89.210.84, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: The Sandbox香港|02, server: snode-14.nmp.pw, port: 11280, type: vmess, uuid: c30c1407-456f-4817-85f3-73f2e0d6ff9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -GB-0415-恢复更新_5, server: 152.89.210.84, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
-  - {name: -GB-0415-恢复更新_6, server: 152.89.210.84, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: -GB-0415-恢复更新_7, server: 152.89.210.84, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: -GB-0415-恢复更新_13, server: 152.89.210.84, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: 印度1, server: in05.dns2333.xyz, port: 63051, type: vmess, uuid: 982227b6-fb48-3c17-b44f-b41daa88afab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: mugua-in01.airport-v2.com}, udp: true}
-  - {name: -GB-0415-恢复更新_11, server: 152.89.210.84, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: S4全解·台湾02| IEPL |, server: phaiqu4l.nodeinfo.icu, port: 1112, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
-  - {name: US|美国|IP6|TR|01, server: us.456url.com, port: 10086, type: trojan, password: 50ca3c7f-383d-4097-b9f3-3d2f76d84400, sni: us.456url.com, skip-cert-verify: true, udp: true}
-  - {name: -GB-0415-恢复更新_9, server: 152.89.210.84, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: 英国1, server: in05.dns2333.xyz, port: 63021, type: vmess, uuid: e701a942-fba5-3381-b15e-2838689b9c23, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: uk01-cdn.airport-v2.com}, udp: true}
   - {name: -GB-0415-恢复更新_15, server: 152.89.210.84, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: -GB-0415-恢复更新_18, server: 152.89.210.84, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
-  - {name: CN 6, server: f074f635-439e-4eb5-8d62-b3369bd7264d.404sx.com, port: 21003, type: ss, cipher: chacha20-ietf-poly1305, password: ee90ef42-2363-4d88-a434-afb9d8f679f8, udp: true}
-  - {name: -GB-0415-恢复更新_17, server: 152.89.210.84, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
-  - {name: 波兰1, server: in05.dns2333.xyz, port: 63077, type: vmess, uuid: 982227b6-fb48-3c17-b44f-b41daa88afab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: pl01-cdn.myn0des.com}, udp: true}
   - {name: -GB-0415-恢复更新_12, server: 152.89.210.84, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: 节点变红请切换节点, server: snode-14.nmp.pw, port: 11328, type: vmess, uuid: c30c1407-456f-4817-85f3-73f2e0d6ff9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: S1日本 07 |中转|NetFlix, server: zz03.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 10727, type: trojan, password: e8004550-7f09-4c2a-90e3-d1b553fccf61, sni: zz03.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, skip-cert-verify: true, udp: true}
+  - {name: KR, server: jgw4.gaox.ml, port: 443, type: trojan, password: b7e0e71f-070c-437a-9826-6e23caeb0307, sni: jgw4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: -GB-0415-恢复更新_8, server: 152.89.210.84, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: -GB-0415-恢复更新_3, server: 152.89.210.84, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: IR, server: irancell.android-club.ir, port: 80, type: vmess, uuid: e2c5779c-76b1-4077-d829-9c7c31ef1a28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /apiws, ws-headers: {Host: irancell.android-club.ir}, udp: true}
+  - {name: -GB-0415-恢复更新_18, server: 152.89.210.84, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: CN 10, server: cn1.iepl.starlink.st, port: 50500, type: ss, cipher: aes-128-gcm, password: 82f947e0-79e5-4d87-a964-113b4f881865, udp: true}
+  - {name: CN 11, server: zz03.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 10726, type: trojan, password: 214bb2d0-7309-4649-a398-0fbf7ac387fa, sni: zz03.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, skip-cert-verify: true, udp: true}
+  - {name: -GB-0415-恢复更新_1, server: 152.89.210.84, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: -GB-0415-恢复更新_9, server: 152.89.210.84, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: -GB-0415-恢复更新_11, server: 152.89.210.84, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: -GB-0415-恢复更新_6, server: 152.89.210.84, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: -GB-0415-恢复更新_2, server: 152.89.210.84, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: -GB-0415-恢复更新_7, server: 152.89.210.84, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: -GB-0415-恢复更新_5, server: 152.89.210.84, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - S4全解·日本02| IEPL |
-      - S3全解·香港06| MIEPL |
-      - S2台湾|NetFlix|01
-      - S3全解·香港04| MIEPL |
-      - S3全解·香港02| MIEPL |
-      - S3全解·香港11| IEPL |
-      - S5新加坡01| MIEPL |
-      - S3全解·香港24| IEPL |
-      - S4全解·香港02| IEPL |
-      - S4全解·香港07| IEPL |
-      - ^tw台湾TW 2 *hi-moon.pw
-      - S3全解·日本02| IEPL |
-      - S4全解·日本03| IEPL |
-      - JP
-      - S3全解·新加坡07| IEPL |
-      - S4全解·菲律宾01| IEPL |
-      - S3全解·新加坡06| IEPL |
-      - 新加坡肉骨茶
-      - S4全解·香港05| IEPL |
-      - S4全解·新加坡02| IEPL |
-      - S5日本02| IEPL |
-      - S2台湾|NetFlix|02
-      - S4全解·日本04| IEPL |
-      - S4全解·日本05| IEPL |
-      - S4全解·台湾03| IEPL |
-      - S4全解·台湾05| IEPL |
-      - 香港鸡蛋仔
-      - S5台湾01| MIEPL |
-      - S1日本 03 |直连|NetFlix
-      - S2俄罗斯01
-      - 日本赤豚骨拉面
-      - S2香港02
-      - US
-      - ^hk香港HK 2 *hi-moon.pw
-      - S4全解·香港01| IEPL |
-      - ^sg新加坡SG 3 *hi-moon.pw
-      - ^kr韩国KR 1 *hi-moon.pw
-      - S4全解·香港12| IEPL |
-      - ^hk香港HK 1 *hi-moon.pw
-      - S3全解·新加坡01| IEPL |
-      - S3全解·香港14| MIEPL |
-      - S3全解·新加坡05| IEPL |
-      - S4全解·香港10| IEPL |
-      - S5香港03| MIEPL |
-      - S3全解·台灣02| IEPL |
-      - S3全解·香港18| IEPL |
-      - S1日本 06 |直连|NetFlix
-      - S1日本 04 |中转|NetFlix
-      - S3全解·香港05| MIEPL |
-      - S4全解·韩国05| IEPL |
-      - S3全解·香港17| IEPL |
-      - S1日本 01 |普通|NetFlix
-      - S1日本 05 |中转|NetFlix
-      - S1香港 04 |直连|NetFlix
-      - S1日本 05 |直连|NetFlix
-      - S3全解·新加坡04| MIEPL |
-      - S3全解·香港08| IEPL |
-      - S3全解·新加坡12| IEPL |
-      - S3全解·香港12| IEPL |
-      - S3全解·香港03| MIEPL |
-      - S1日本 01 |中转|NetFlix
-      - ^in印度IN 2 *hi-moon.pw
-      - S2香港04
-      - S5香港07| IEPL |
-      - S3全解·新加坡11| IEPL |
-      - S4全解·韩国04| IEPL |
-      - 极速香港|IPLC|01
-      - S1日本 03 |中转|NetFlix
-      - S3全解·日本04| IEPL |
-      - S1日本 07 |直连|NetFlix
-      - S4全解·香港09| IEPL |
       - CN
-      - S4全解·台湾06| IEPL |
-      - S2新加坡|NetFlix|02
-      - S2台湾|NetFlix|03
-      - S4全解·香港04| IEPL |
-      - 有问题请您更新订阅
       - CN 2
-      - S1日本 04 |直连|NetFlix
-      - S4全解·美国10| IEPL |
-      - S3全解·台灣04| IEPL |
-      - S3全解·香港20| IEPL |
-      - S4全解·新加坡01| IEPL |
-      - S4全解·日本01| IEPL |
-      - S5香港08| IEPL |
-      - S4全解·美国03| IEPL |
-      - S3全解·香港13| IEPL |
-      - S4全解·美国06| IEPL |
-      - ^sg新加坡SG1 *hi-moon.pw
-      - S3全解·香港21| MIEPL |
-      - S4全解·德国02| IEPL |
-      - S3全解·台灣05| IEPL |
-      - S1日本 03 |普通|NetFlix
-      - S4全解·美国02| IEPL |
-      - S4全解·美国05| IEPL |
-      - ^tw台湾TW 1 *hi-moon.pw
-      - S4全解·韩国03| IEPL |
-      - S3全解·美国05| IEPL |
-      - S4全解·德国01| IEPL |
-      - ^sg新加坡SG 2 *hi-moon.pw
-      - S3全解·新加坡09| IEPL |
       - CN 3
-      - S4全解·台湾04| IEPL |
-      - S4全解·台湾01| IEPL |
-      - HK|香港|10G|TR|01
-      - HK|香港|10G|SS|01
-      - The Sandbox香港|01
-      - S3全解·日本03| IEPL |
-      - S4全解·英国03| IEPL |
-      - S5香港02| MIEPL |
-      - S2新加坡01
-      - S5香港04| MIEPL |
-      - 极速香港|IPLC|02
-      - S2香港05
-      - S2韩国|NetFlix|03
-      - S4全解·美国08| IEPL |
-      - US 2
-      - S4全解·印度01| IEPL |
-      - S4全解·新加坡03| IEPL |
-      - ^us美国US 2 *hi-moon.pw
-      - S4全解·新加坡05| IEPL |
-      - S4全解·英国04| IEPL |
-      - S2美国|NetFlix|01
-      - S5美国03| MIEPL|
-      - S5香港06| IEPL |
-      - 荷兰1
-      - S4全解·美国09| IEPL |
-      - ^ru俄罗斯RU 1 *hi-moon.pw
-      - S3全解·日本05| IEPL |
-      - S4全解·美国01| IEPL |
-      - S4全解·英国06| IEPL |
       - CN 4
-      - S2香港|NetFlix|01
-      - S4全解·英国05| IEPL |
-      - S3全解·美国04| IEPL |
-      - 台湾彰化肉圆
-      - S5美国02| MIEPL |
-      - S3全解·香港09| IEPL |
       - CN 5
-      - 极速台湾|IEPL|01
-      - S3全解·新加坡02| IEPL |
-      - S4全解·美国07| IEPL |
-      - S1香港 03 |直连|NetFlix
-      - S3全解·美国02| IEPL |
-      - US|美国|IP6|SS|02
-      - HK|香港|10G|TR|02
-      - S2美国|NetFlix|03
-      - S4全解·美国04| IEPL |
-      - S4全解·韩国01| IEPL |
-      - S4全解·英国01| IEPL |
-      - -GB-0415-恢复更新_3
-      - S4全解·荷兰01| IEPL |
-      - S2新加坡|NetFlix|01
-      - 极速日本|IEPL|01
-      - -GB-0415-恢复更新_4
-      - S2英国01
-      - S2韩国|NetFlix|01
-      - S5美国04| MIEPL |
-      - -GB-0415-恢复更新_8
-      - HK|香港|10G|SS|02
-      - US 3
-      - S2韩国|NetFlix|02
-      - US|美国|IP6|TR|02
-      - -GB-0415-恢复更新_2
-      - US|美国|IP6|SS|01
-      - S2美国|NetFlix|02
-      - S2土耳其01
-      - -GB-0415-恢复更新_1
-      - ^in印度IN 3 *hi-moon.pw
-      - S3全解·美国03| IEPL |
-      - 美国烟熏牛前胸
-      - 德国1
-      - -GB-0415-恢复更新_16
-      - S5台湾04| IEPL |
-      - 加拿大
-      - S4全解·巴西01| IEPL |
-      - -GB-0415-恢复更新_14
-      - The Sandbox香港|02
-      - -GB-0415-恢复更新_5
-      - -GB-0415-恢复更新_6
-      - -GB-0415-恢复更新_7
-      - -GB-0415-恢复更新_13
-      - 印度1
-      - -GB-0415-恢复更新_11
-      - S4全解·台湾02| IEPL |
-      - US|美国|IP6|TR|01
-      - -GB-0415-恢复更新_9
-      - 英国1
-      - -GB-0415-恢复更新_15
-      - -GB-0415-恢复更新_18
+      - US
       - CN 6
-      - -GB-0415-恢复更新_17
-      - 波兰1
+      - CN 7
+      - US 2
+      - US 3
+      - CN 8
+      - US 4
+      - JP
+      - US 5
+      - -GB-0415-恢复更新_16
+      - CN 9
+      - "@SSRSUB-V16-付费推荐:suo.yt/ssrsub"
+      - US 6
+      - JP 2
+      - HK
+      - -GB-0415-恢复更新_14
+      - -GB-0415-恢复更新_15
       - -GB-0415-恢复更新_12
-      - 节点变红请切换节点
-      - S1日本 07 |中转|NetFlix
+      - KR
+      - -GB-0415-恢复更新_8
+      - -GB-0415-恢复更新_3
+      - IR
+      - -GB-0415-恢复更新_18
+      - CN 10
+      - CN 11
+      - -GB-0415-恢复更新_1
+      - -GB-0415-恢复更新_9
+      - -GB-0415-恢复更新_11
+      - -GB-0415-恢复更新_6
+      - -GB-0415-恢复更新_2
+      - -GB-0415-恢复更新_7
+      - -GB-0415-恢复更新_5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - S4全解·日本02| IEPL |
-      - S3全解·香港06| MIEPL |
-      - S2台湾|NetFlix|01
-      - S3全解·香港04| MIEPL |
-      - S3全解·香港02| MIEPL |
-      - S3全解·香港11| IEPL |
-      - S5新加坡01| MIEPL |
-      - S3全解·香港24| IEPL |
-      - S4全解·香港02| IEPL |
-      - S4全解·香港07| IEPL |
-      - ^tw台湾TW 2 *hi-moon.pw
-      - S3全解·日本02| IEPL |
-      - S4全解·日本03| IEPL |
-      - JP
-      - S3全解·新加坡07| IEPL |
-      - S4全解·菲律宾01| IEPL |
-      - S3全解·新加坡06| IEPL |
-      - 新加坡肉骨茶
-      - S4全解·香港05| IEPL |
-      - S4全解·新加坡02| IEPL |
-      - S5日本02| IEPL |
-      - S2台湾|NetFlix|02
-      - S4全解·日本04| IEPL |
-      - S4全解·日本05| IEPL |
-      - S4全解·台湾03| IEPL |
-      - S4全解·台湾05| IEPL |
-      - 香港鸡蛋仔
-      - S5台湾01| MIEPL |
-      - S1日本 03 |直连|NetFlix
-      - S2俄罗斯01
-      - 日本赤豚骨拉面
-      - S2香港02
-      - US
-      - ^hk香港HK 2 *hi-moon.pw
-      - S4全解·香港01| IEPL |
-      - ^sg新加坡SG 3 *hi-moon.pw
-      - ^kr韩国KR 1 *hi-moon.pw
-      - S4全解·香港12| IEPL |
-      - ^hk香港HK 1 *hi-moon.pw
-      - S3全解·新加坡01| IEPL |
-      - S3全解·香港14| MIEPL |
-      - S3全解·新加坡05| IEPL |
-      - S4全解·香港10| IEPL |
-      - S5香港03| MIEPL |
-      - S3全解·台灣02| IEPL |
-      - S3全解·香港18| IEPL |
-      - S1日本 06 |直连|NetFlix
-      - S1日本 04 |中转|NetFlix
-      - S3全解·香港05| MIEPL |
-      - S4全解·韩国05| IEPL |
-      - S3全解·香港17| IEPL |
-      - S1日本 01 |普通|NetFlix
-      - S1日本 05 |中转|NetFlix
-      - S1香港 04 |直连|NetFlix
-      - S1日本 05 |直连|NetFlix
-      - S3全解·新加坡04| MIEPL |
-      - S3全解·香港08| IEPL |
-      - S3全解·新加坡12| IEPL |
-      - S3全解·香港12| IEPL |
-      - S3全解·香港03| MIEPL |
-      - S1日本 01 |中转|NetFlix
-      - ^in印度IN 2 *hi-moon.pw
-      - S2香港04
-      - S5香港07| IEPL |
-      - S3全解·新加坡11| IEPL |
-      - S4全解·韩国04| IEPL |
-      - 极速香港|IPLC|01
-      - S1日本 03 |中转|NetFlix
-      - S3全解·日本04| IEPL |
-      - S1日本 07 |直连|NetFlix
-      - S4全解·香港09| IEPL |
       - CN
-      - S4全解·台湾06| IEPL |
-      - S2新加坡|NetFlix|02
-      - S2台湾|NetFlix|03
-      - S4全解·香港04| IEPL |
-      - 有问题请您更新订阅
       - CN 2
-      - S1日本 04 |直连|NetFlix
-      - S4全解·美国10| IEPL |
-      - S3全解·台灣04| IEPL |
-      - S3全解·香港20| IEPL |
-      - S4全解·新加坡01| IEPL |
-      - S4全解·日本01| IEPL |
-      - S5香港08| IEPL |
-      - S4全解·美国03| IEPL |
-      - S3全解·香港13| IEPL |
-      - S4全解·美国06| IEPL |
-      - ^sg新加坡SG1 *hi-moon.pw
-      - S3全解·香港21| MIEPL |
-      - S4全解·德国02| IEPL |
-      - S3全解·台灣05| IEPL |
-      - S1日本 03 |普通|NetFlix
-      - S4全解·美国02| IEPL |
-      - S4全解·美国05| IEPL |
-      - ^tw台湾TW 1 *hi-moon.pw
-      - S4全解·韩国03| IEPL |
-      - S3全解·美国05| IEPL |
-      - S4全解·德国01| IEPL |
-      - ^sg新加坡SG 2 *hi-moon.pw
-      - S3全解·新加坡09| IEPL |
       - CN 3
-      - S4全解·台湾04| IEPL |
-      - S4全解·台湾01| IEPL |
-      - HK|香港|10G|TR|01
-      - HK|香港|10G|SS|01
-      - The Sandbox香港|01
-      - S3全解·日本03| IEPL |
-      - S4全解·英国03| IEPL |
-      - S5香港02| MIEPL |
-      - S2新加坡01
-      - S5香港04| MIEPL |
-      - 极速香港|IPLC|02
-      - S2香港05
-      - S2韩国|NetFlix|03
-      - S4全解·美国08| IEPL |
-      - US 2
-      - S4全解·印度01| IEPL |
-      - S4全解·新加坡03| IEPL |
-      - ^us美国US 2 *hi-moon.pw
-      - S4全解·新加坡05| IEPL |
-      - S4全解·英国04| IEPL |
-      - S2美国|NetFlix|01
-      - S5美国03| MIEPL|
-      - S5香港06| IEPL |
-      - 荷兰1
-      - S4全解·美国09| IEPL |
-      - ^ru俄罗斯RU 1 *hi-moon.pw
-      - S3全解·日本05| IEPL |
-      - S4全解·美国01| IEPL |
-      - S4全解·英国06| IEPL |
       - CN 4
-      - S2香港|NetFlix|01
-      - S4全解·英国05| IEPL |
-      - S3全解·美国04| IEPL |
-      - 台湾彰化肉圆
-      - S5美国02| MIEPL |
-      - S3全解·香港09| IEPL |
       - CN 5
-      - 极速台湾|IEPL|01
-      - S3全解·新加坡02| IEPL |
-      - S4全解·美国07| IEPL |
-      - S1香港 03 |直连|NetFlix
-      - S3全解·美国02| IEPL |
-      - US|美国|IP6|SS|02
-      - HK|香港|10G|TR|02
-      - S2美国|NetFlix|03
-      - S4全解·美国04| IEPL |
-      - S4全解·韩国01| IEPL |
-      - S4全解·英国01| IEPL |
-      - -GB-0415-恢复更新_3
-      - S4全解·荷兰01| IEPL |
-      - S2新加坡|NetFlix|01
-      - 极速日本|IEPL|01
-      - -GB-0415-恢复更新_4
-      - S2英国01
-      - S2韩国|NetFlix|01
-      - S5美国04| MIEPL |
-      - -GB-0415-恢复更新_8
-      - HK|香港|10G|SS|02
-      - US 3
-      - S2韩国|NetFlix|02
-      - US|美国|IP6|TR|02
-      - -GB-0415-恢复更新_2
-      - US|美国|IP6|SS|01
-      - S2美国|NetFlix|02
-      - S2土耳其01
-      - -GB-0415-恢复更新_1
-      - ^in印度IN 3 *hi-moon.pw
-      - S3全解·美国03| IEPL |
-      - 美国烟熏牛前胸
-      - 德国1
-      - -GB-0415-恢复更新_16
-      - S5台湾04| IEPL |
-      - 加拿大
-      - S4全解·巴西01| IEPL |
-      - -GB-0415-恢复更新_14
-      - The Sandbox香港|02
-      - -GB-0415-恢复更新_5
-      - -GB-0415-恢复更新_6
-      - -GB-0415-恢复更新_7
-      - -GB-0415-恢复更新_13
-      - 印度1
-      - -GB-0415-恢复更新_11
-      - S4全解·台湾02| IEPL |
-      - US|美国|IP6|TR|01
-      - -GB-0415-恢复更新_9
-      - 英国1
-      - -GB-0415-恢复更新_15
-      - -GB-0415-恢复更新_18
+      - US
       - CN 6
-      - -GB-0415-恢复更新_17
-      - 波兰1
+      - CN 7
+      - US 2
+      - US 3
+      - CN 8
+      - US 4
+      - JP
+      - US 5
+      - -GB-0415-恢复更新_16
+      - CN 9
+      - "@SSRSUB-V16-付费推荐:suo.yt/ssrsub"
+      - US 6
+      - JP 2
+      - HK
+      - -GB-0415-恢复更新_14
+      - -GB-0415-恢复更新_15
       - -GB-0415-恢复更新_12
-      - 节点变红请切换节点
-      - S1日本 07 |中转|NetFlix
+      - KR
+      - -GB-0415-恢复更新_8
+      - -GB-0415-恢复更新_3
+      - IR
+      - -GB-0415-恢复更新_18
+      - CN 10
+      - CN 11
+      - -GB-0415-恢复更新_1
+      - -GB-0415-恢复更新_9
+      - -GB-0415-恢复更新_11
+      - -GB-0415-恢复更新_6
+      - -GB-0415-恢复更新_2
+      - -GB-0415-恢复更新_7
+      - -GB-0415-恢复更新_5
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - S4全解·日本02| IEPL |
-      - S3全解·香港06| MIEPL |
-      - S2台湾|NetFlix|01
-      - S3全解·香港04| MIEPL |
-      - S3全解·香港02| MIEPL |
-      - S3全解·香港11| IEPL |
-      - S5新加坡01| MIEPL |
-      - S3全解·香港24| IEPL |
-      - S4全解·香港02| IEPL |
-      - S4全解·香港07| IEPL |
-      - ^tw台湾TW 2 *hi-moon.pw
-      - S3全解·日本02| IEPL |
-      - S4全解·日本03| IEPL |
-      - JP
-      - S3全解·新加坡07| IEPL |
-      - S4全解·菲律宾01| IEPL |
-      - S3全解·新加坡06| IEPL |
-      - 新加坡肉骨茶
-      - S4全解·香港05| IEPL |
-      - S4全解·新加坡02| IEPL |
-      - S5日本02| IEPL |
-      - S2台湾|NetFlix|02
-      - S4全解·日本04| IEPL |
-      - S4全解·日本05| IEPL |
-      - S4全解·台湾03| IEPL |
-      - S4全解·台湾05| IEPL |
-      - 香港鸡蛋仔
-      - S5台湾01| MIEPL |
-      - S1日本 03 |直连|NetFlix
-      - S2俄罗斯01
-      - 日本赤豚骨拉面
-      - S2香港02
-      - US
-      - ^hk香港HK 2 *hi-moon.pw
-      - S4全解·香港01| IEPL |
-      - ^sg新加坡SG 3 *hi-moon.pw
-      - ^kr韩国KR 1 *hi-moon.pw
-      - S4全解·香港12| IEPL |
-      - ^hk香港HK 1 *hi-moon.pw
-      - S3全解·新加坡01| IEPL |
-      - S3全解·香港14| MIEPL |
-      - S3全解·新加坡05| IEPL |
-      - S4全解·香港10| IEPL |
-      - S5香港03| MIEPL |
-      - S3全解·台灣02| IEPL |
-      - S3全解·香港18| IEPL |
-      - S1日本 06 |直连|NetFlix
-      - S1日本 04 |中转|NetFlix
-      - S3全解·香港05| MIEPL |
-      - S4全解·韩国05| IEPL |
-      - S3全解·香港17| IEPL |
-      - S1日本 01 |普通|NetFlix
-      - S1日本 05 |中转|NetFlix
-      - S1香港 04 |直连|NetFlix
-      - S1日本 05 |直连|NetFlix
-      - S3全解·新加坡04| MIEPL |
-      - S3全解·香港08| IEPL |
-      - S3全解·新加坡12| IEPL |
-      - S3全解·香港12| IEPL |
-      - S3全解·香港03| MIEPL |
-      - S1日本 01 |中转|NetFlix
-      - ^in印度IN 2 *hi-moon.pw
-      - S2香港04
-      - S5香港07| IEPL |
-      - S3全解·新加坡11| IEPL |
-      - S4全解·韩国04| IEPL |
-      - 极速香港|IPLC|01
-      - S1日本 03 |中转|NetFlix
-      - S3全解·日本04| IEPL |
-      - S1日本 07 |直连|NetFlix
-      - S4全解·香港09| IEPL |
       - CN
-      - S4全解·台湾06| IEPL |
-      - S2新加坡|NetFlix|02
-      - S2台湾|NetFlix|03
-      - S4全解·香港04| IEPL |
-      - 有问题请您更新订阅
       - CN 2
-      - S1日本 04 |直连|NetFlix
-      - S4全解·美国10| IEPL |
-      - S3全解·台灣04| IEPL |
-      - S3全解·香港20| IEPL |
-      - S4全解·新加坡01| IEPL |
-      - S4全解·日本01| IEPL |
-      - S5香港08| IEPL |
-      - S4全解·美国03| IEPL |
-      - S3全解·香港13| IEPL |
-      - S4全解·美国06| IEPL |
-      - ^sg新加坡SG1 *hi-moon.pw
-      - S3全解·香港21| MIEPL |
-      - S4全解·德国02| IEPL |
-      - S3全解·台灣05| IEPL |
-      - S1日本 03 |普通|NetFlix
-      - S4全解·美国02| IEPL |
-      - S4全解·美国05| IEPL |
-      - ^tw台湾TW 1 *hi-moon.pw
-      - S4全解·韩国03| IEPL |
-      - S3全解·美国05| IEPL |
-      - S4全解·德国01| IEPL |
-      - ^sg新加坡SG 2 *hi-moon.pw
-      - S3全解·新加坡09| IEPL |
       - CN 3
-      - S4全解·台湾04| IEPL |
-      - S4全解·台湾01| IEPL |
-      - HK|香港|10G|TR|01
-      - HK|香港|10G|SS|01
-      - The Sandbox香港|01
-      - S3全解·日本03| IEPL |
-      - S4全解·英国03| IEPL |
-      - S5香港02| MIEPL |
-      - S2新加坡01
-      - S5香港04| MIEPL |
-      - 极速香港|IPLC|02
-      - S2香港05
-      - S2韩国|NetFlix|03
-      - S4全解·美国08| IEPL |
-      - US 2
-      - S4全解·印度01| IEPL |
-      - S4全解·新加坡03| IEPL |
-      - ^us美国US 2 *hi-moon.pw
-      - S4全解·新加坡05| IEPL |
-      - S4全解·英国04| IEPL |
-      - S2美国|NetFlix|01
-      - S5美国03| MIEPL|
-      - S5香港06| IEPL |
-      - 荷兰1
-      - S4全解·美国09| IEPL |
-      - ^ru俄罗斯RU 1 *hi-moon.pw
-      - S3全解·日本05| IEPL |
-      - S4全解·美国01| IEPL |
-      - S4全解·英国06| IEPL |
       - CN 4
-      - S2香港|NetFlix|01
-      - S4全解·英国05| IEPL |
-      - S3全解·美国04| IEPL |
-      - 台湾彰化肉圆
-      - S5美国02| MIEPL |
-      - S3全解·香港09| IEPL |
       - CN 5
-      - 极速台湾|IEPL|01
-      - S3全解·新加坡02| IEPL |
-      - S4全解·美国07| IEPL |
-      - S1香港 03 |直连|NetFlix
-      - S3全解·美国02| IEPL |
-      - US|美国|IP6|SS|02
-      - HK|香港|10G|TR|02
-      - S2美国|NetFlix|03
-      - S4全解·美国04| IEPL |
-      - S4全解·韩国01| IEPL |
-      - S4全解·英国01| IEPL |
-      - -GB-0415-恢复更新_3
-      - S4全解·荷兰01| IEPL |
-      - S2新加坡|NetFlix|01
-      - 极速日本|IEPL|01
-      - -GB-0415-恢复更新_4
-      - S2英国01
-      - S2韩国|NetFlix|01
-      - S5美国04| MIEPL |
-      - -GB-0415-恢复更新_8
-      - HK|香港|10G|SS|02
-      - US 3
-      - S2韩国|NetFlix|02
-      - US|美国|IP6|TR|02
-      - -GB-0415-恢复更新_2
-      - US|美国|IP6|SS|01
-      - S2美国|NetFlix|02
-      - S2土耳其01
-      - -GB-0415-恢复更新_1
-      - ^in印度IN 3 *hi-moon.pw
-      - S3全解·美国03| IEPL |
-      - 美国烟熏牛前胸
-      - 德国1
-      - -GB-0415-恢复更新_16
-      - S5台湾04| IEPL |
-      - 加拿大
-      - S4全解·巴西01| IEPL |
-      - -GB-0415-恢复更新_14
-      - The Sandbox香港|02
-      - -GB-0415-恢复更新_5
-      - -GB-0415-恢复更新_6
-      - -GB-0415-恢复更新_7
-      - -GB-0415-恢复更新_13
-      - 印度1
-      - -GB-0415-恢复更新_11
-      - S4全解·台湾02| IEPL |
-      - US|美国|IP6|TR|01
-      - -GB-0415-恢复更新_9
-      - 英国1
-      - -GB-0415-恢复更新_15
-      - -GB-0415-恢复更新_18
+      - US
       - CN 6
-      - -GB-0415-恢复更新_17
-      - 波兰1
+      - CN 7
+      - US 2
+      - US 3
+      - CN 8
+      - US 4
+      - JP
+      - US 5
+      - -GB-0415-恢复更新_16
+      - CN 9
+      - "@SSRSUB-V16-付费推荐:suo.yt/ssrsub"
+      - US 6
+      - JP 2
+      - HK
+      - -GB-0415-恢复更新_14
+      - -GB-0415-恢复更新_15
       - -GB-0415-恢复更新_12
-      - 节点变红请切换节点
-      - S1日本 07 |中转|NetFlix
+      - KR
+      - -GB-0415-恢复更新_8
+      - -GB-0415-恢复更新_3
+      - IR
+      - -GB-0415-恢复更新_18
+      - CN 10
+      - CN 11
+      - -GB-0415-恢复更新_1
+      - -GB-0415-恢复更新_9
+      - -GB-0415-恢复更新_11
+      - -GB-0415-恢复更新_6
+      - -GB-0415-恢复更新_2
+      - -GB-0415-恢复更新_7
+      - -GB-0415-恢复更新_5
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -824,876 +188,175 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - S4全解·日本02| IEPL |
-      - S3全解·香港06| MIEPL |
-      - S2台湾|NetFlix|01
-      - S3全解·香港04| MIEPL |
-      - S3全解·香港02| MIEPL |
-      - S3全解·香港11| IEPL |
-      - S5新加坡01| MIEPL |
-      - S3全解·香港24| IEPL |
-      - S4全解·香港02| IEPL |
-      - S4全解·香港07| IEPL |
-      - ^tw台湾TW 2 *hi-moon.pw
-      - S3全解·日本02| IEPL |
-      - S4全解·日本03| IEPL |
-      - JP
-      - S3全解·新加坡07| IEPL |
-      - S4全解·菲律宾01| IEPL |
-      - S3全解·新加坡06| IEPL |
-      - 新加坡肉骨茶
-      - S4全解·香港05| IEPL |
-      - S4全解·新加坡02| IEPL |
-      - S5日本02| IEPL |
-      - S2台湾|NetFlix|02
-      - S4全解·日本04| IEPL |
-      - S4全解·日本05| IEPL |
-      - S4全解·台湾03| IEPL |
-      - S4全解·台湾05| IEPL |
-      - 香港鸡蛋仔
-      - S5台湾01| MIEPL |
-      - S1日本 03 |直连|NetFlix
-      - S2俄罗斯01
-      - 日本赤豚骨拉面
-      - S2香港02
-      - US
-      - ^hk香港HK 2 *hi-moon.pw
-      - S4全解·香港01| IEPL |
-      - ^sg新加坡SG 3 *hi-moon.pw
-      - ^kr韩国KR 1 *hi-moon.pw
-      - S4全解·香港12| IEPL |
-      - ^hk香港HK 1 *hi-moon.pw
-      - S3全解·新加坡01| IEPL |
-      - S3全解·香港14| MIEPL |
-      - S3全解·新加坡05| IEPL |
-      - S4全解·香港10| IEPL |
-      - S5香港03| MIEPL |
-      - S3全解·台灣02| IEPL |
-      - S3全解·香港18| IEPL |
-      - S1日本 06 |直连|NetFlix
-      - S1日本 04 |中转|NetFlix
-      - S3全解·香港05| MIEPL |
-      - S4全解·韩国05| IEPL |
-      - S3全解·香港17| IEPL |
-      - S1日本 01 |普通|NetFlix
-      - S1日本 05 |中转|NetFlix
-      - S1香港 04 |直连|NetFlix
-      - S1日本 05 |直连|NetFlix
-      - S3全解·新加坡04| MIEPL |
-      - S3全解·香港08| IEPL |
-      - S3全解·新加坡12| IEPL |
-      - S3全解·香港12| IEPL |
-      - S3全解·香港03| MIEPL |
-      - S1日本 01 |中转|NetFlix
-      - ^in印度IN 2 *hi-moon.pw
-      - S2香港04
-      - S5香港07| IEPL |
-      - S3全解·新加坡11| IEPL |
-      - S4全解·韩国04| IEPL |
-      - 极速香港|IPLC|01
-      - S1日本 03 |中转|NetFlix
-      - S3全解·日本04| IEPL |
-      - S1日本 07 |直连|NetFlix
-      - S4全解·香港09| IEPL |
       - CN
-      - S4全解·台湾06| IEPL |
-      - S2新加坡|NetFlix|02
-      - S2台湾|NetFlix|03
-      - S4全解·香港04| IEPL |
-      - 有问题请您更新订阅
       - CN 2
-      - S1日本 04 |直连|NetFlix
-      - S4全解·美国10| IEPL |
-      - S3全解·台灣04| IEPL |
-      - S3全解·香港20| IEPL |
-      - S4全解·新加坡01| IEPL |
-      - S4全解·日本01| IEPL |
-      - S5香港08| IEPL |
-      - S4全解·美国03| IEPL |
-      - S3全解·香港13| IEPL |
-      - S4全解·美国06| IEPL |
-      - ^sg新加坡SG1 *hi-moon.pw
-      - S3全解·香港21| MIEPL |
-      - S4全解·德国02| IEPL |
-      - S3全解·台灣05| IEPL |
-      - S1日本 03 |普通|NetFlix
-      - S4全解·美国02| IEPL |
-      - S4全解·美国05| IEPL |
-      - ^tw台湾TW 1 *hi-moon.pw
-      - S4全解·韩国03| IEPL |
-      - S3全解·美国05| IEPL |
-      - S4全解·德国01| IEPL |
-      - ^sg新加坡SG 2 *hi-moon.pw
-      - S3全解·新加坡09| IEPL |
       - CN 3
-      - S4全解·台湾04| IEPL |
-      - S4全解·台湾01| IEPL |
-      - HK|香港|10G|TR|01
-      - HK|香港|10G|SS|01
-      - The Sandbox香港|01
-      - S3全解·日本03| IEPL |
-      - S4全解·英国03| IEPL |
-      - S5香港02| MIEPL |
-      - S2新加坡01
-      - S5香港04| MIEPL |
-      - 极速香港|IPLC|02
-      - S2香港05
-      - S2韩国|NetFlix|03
-      - S4全解·美国08| IEPL |
-      - US 2
-      - S4全解·印度01| IEPL |
-      - S4全解·新加坡03| IEPL |
-      - ^us美国US 2 *hi-moon.pw
-      - S4全解·新加坡05| IEPL |
-      - S4全解·英国04| IEPL |
-      - S2美国|NetFlix|01
-      - S5美国03| MIEPL|
-      - S5香港06| IEPL |
-      - 荷兰1
-      - S4全解·美国09| IEPL |
-      - ^ru俄罗斯RU 1 *hi-moon.pw
-      - S3全解·日本05| IEPL |
-      - S4全解·美国01| IEPL |
-      - S4全解·英国06| IEPL |
       - CN 4
-      - S2香港|NetFlix|01
-      - S4全解·英国05| IEPL |
-      - S3全解·美国04| IEPL |
-      - 台湾彰化肉圆
-      - S5美国02| MIEPL |
-      - S3全解·香港09| IEPL |
       - CN 5
-      - 极速台湾|IEPL|01
-      - S3全解·新加坡02| IEPL |
-      - S4全解·美国07| IEPL |
-      - S1香港 03 |直连|NetFlix
-      - S3全解·美国02| IEPL |
-      - US|美国|IP6|SS|02
-      - HK|香港|10G|TR|02
-      - S2美国|NetFlix|03
-      - S4全解·美国04| IEPL |
-      - S4全解·韩国01| IEPL |
-      - S4全解·英国01| IEPL |
-      - -GB-0415-恢复更新_3
-      - S4全解·荷兰01| IEPL |
-      - S2新加坡|NetFlix|01
-      - 极速日本|IEPL|01
-      - -GB-0415-恢复更新_4
-      - S2英国01
-      - S2韩国|NetFlix|01
-      - S5美国04| MIEPL |
-      - -GB-0415-恢复更新_8
-      - HK|香港|10G|SS|02
-      - US 3
-      - S2韩国|NetFlix|02
-      - US|美国|IP6|TR|02
-      - -GB-0415-恢复更新_2
-      - US|美国|IP6|SS|01
-      - S2美国|NetFlix|02
-      - S2土耳其01
-      - -GB-0415-恢复更新_1
-      - ^in印度IN 3 *hi-moon.pw
-      - S3全解·美国03| IEPL |
-      - 美国烟熏牛前胸
-      - 德国1
-      - -GB-0415-恢复更新_16
-      - S5台湾04| IEPL |
-      - 加拿大
-      - S4全解·巴西01| IEPL |
-      - -GB-0415-恢复更新_14
-      - The Sandbox香港|02
-      - -GB-0415-恢复更新_5
-      - -GB-0415-恢复更新_6
-      - -GB-0415-恢复更新_7
-      - -GB-0415-恢复更新_13
-      - 印度1
-      - -GB-0415-恢复更新_11
-      - S4全解·台湾02| IEPL |
-      - US|美国|IP6|TR|01
-      - -GB-0415-恢复更新_9
-      - 英国1
-      - -GB-0415-恢复更新_15
-      - -GB-0415-恢复更新_18
+      - US
       - CN 6
-      - -GB-0415-恢复更新_17
-      - 波兰1
+      - CN 7
+      - US 2
+      - US 3
+      - CN 8
+      - US 4
+      - JP
+      - US 5
+      - -GB-0415-恢复更新_16
+      - CN 9
+      - "@SSRSUB-V16-付费推荐:suo.yt/ssrsub"
+      - US 6
+      - JP 2
+      - HK
+      - -GB-0415-恢复更新_14
+      - -GB-0415-恢复更新_15
       - -GB-0415-恢复更新_12
-      - 节点变红请切换节点
-      - S1日本 07 |中转|NetFlix
+      - KR
+      - -GB-0415-恢复更新_8
+      - -GB-0415-恢复更新_3
+      - IR
+      - -GB-0415-恢复更新_18
+      - CN 10
+      - CN 11
+      - -GB-0415-恢复更新_1
+      - -GB-0415-恢复更新_9
+      - -GB-0415-恢复更新_11
+      - -GB-0415-恢复更新_6
+      - -GB-0415-恢复更新_2
+      - -GB-0415-恢复更新_7
+      - -GB-0415-恢复更新_5
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - S3全解·香港06| MIEPL |
-      - S2台湾|NetFlix|01
-      - S3全解·香港04| MIEPL |
-      - S3全解·香港02| MIEPL |
-      - S3全解·香港11| IEPL |
-      - S3全解·香港24| IEPL |
-      - S4全解·香港02| IEPL |
-      - S4全解·香港07| IEPL |
-      - ^tw台湾TW 2 *hi-moon.pw
-      - S4全解·香港05| IEPL |
-      - S2台湾|NetFlix|02
-      - S4全解·台湾03| IEPL |
-      - S4全解·台湾05| IEPL |
-      - 香港鸡蛋仔
-      - S5台湾01| MIEPL |
-      - S2香港02
-      - ^hk香港HK 2 *hi-moon.pw
-      - S4全解·香港01| IEPL |
-      - S4全解·香港12| IEPL |
-      - ^hk香港HK 1 *hi-moon.pw
-      - S3全解·香港14| MIEPL |
-      - S4全解·香港10| IEPL |
-      - S5香港03| MIEPL |
-      - S3全解·台灣02| IEPL |
-      - S3全解·香港18| IEPL |
-      - S3全解·香港05| MIEPL |
-      - S3全解·香港17| IEPL |
-      - S1香港 04 |直连|NetFlix
-      - S3全解·香港08| IEPL |
-      - S3全解·香港12| IEPL |
-      - S3全解·香港03| MIEPL |
-      - S2香港04
-      - S5香港07| IEPL |
-      - 极速香港|IPLC|01
-      - S4全解·香港09| IEPL |
-      - S4全解·台湾06| IEPL |
-      - S2台湾|NetFlix|03
-      - S4全解·香港04| IEPL |
-      - S3全解·台灣04| IEPL |
-      - S3全解·香港20| IEPL |
-      - S5香港08| IEPL |
-      - S3全解·香港13| IEPL |
-      - S3全解·香港21| MIEPL |
-      - S3全解·台灣05| IEPL |
-      - ^tw台湾TW 1 *hi-moon.pw
-      - S4全解·台湾04| IEPL |
-      - S4全解·台湾01| IEPL |
-      - HK|香港|10G|TR|01
-      - HK|香港|10G|SS|01
-      - The Sandbox香港|01
-      - S5香港02| MIEPL |
-      - S5香港04| MIEPL |
-      - 极速香港|IPLC|02
-      - S2香港05
-      - S5香港06| IEPL |
-      - S2香港|NetFlix|01
-      - 台湾彰化肉圆
-      - S3全解·香港09| IEPL |
-      - 极速台湾|IEPL|01
-      - S1香港 03 |直连|NetFlix
-      - HK|香港|10G|TR|02
-      - HK|香港|10G|SS|02
-      - S5台湾04| IEPL |
-      - The Sandbox香港|02
-      - S4全解·台湾02| IEPL |
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - S4全解·日本02| IEPL |
-      - S3全解·香港06| MIEPL |
-      - S2台湾|NetFlix|01
-      - S3全解·香港04| MIEPL |
-      - S3全解·香港02| MIEPL |
-      - S3全解·香港11| IEPL |
-      - S5新加坡01| MIEPL |
-      - S3全解·香港24| IEPL |
-      - S4全解·香港02| IEPL |
-      - S4全解·香港07| IEPL |
-      - ^tw台湾TW 2 *hi-moon.pw
-      - S3全解·日本02| IEPL |
-      - S4全解·日本03| IEPL |
-      - JP
-      - S3全解·新加坡07| IEPL |
-      - S4全解·菲律宾01| IEPL |
-      - S3全解·新加坡06| IEPL |
-      - 新加坡肉骨茶
-      - S4全解·香港05| IEPL |
-      - S4全解·新加坡02| IEPL |
-      - S5日本02| IEPL |
-      - S2台湾|NetFlix|02
-      - S4全解·日本04| IEPL |
-      - S4全解·日本05| IEPL |
-      - S4全解·台湾03| IEPL |
-      - S4全解·台湾05| IEPL |
-      - 香港鸡蛋仔
-      - S5台湾01| MIEPL |
-      - S1日本 03 |直连|NetFlix
-      - S2俄罗斯01
-      - 日本赤豚骨拉面
-      - S2香港02
-      - US
-      - ^hk香港HK 2 *hi-moon.pw
-      - S4全解·香港01| IEPL |
-      - ^sg新加坡SG 3 *hi-moon.pw
-      - ^kr韩国KR 1 *hi-moon.pw
-      - S4全解·香港12| IEPL |
-      - ^hk香港HK 1 *hi-moon.pw
-      - S3全解·新加坡01| IEPL |
-      - S3全解·香港14| MIEPL |
-      - S3全解·新加坡05| IEPL |
-      - S4全解·香港10| IEPL |
-      - S5香港03| MIEPL |
-      - S3全解·台灣02| IEPL |
-      - S3全解·香港18| IEPL |
-      - S1日本 06 |直连|NetFlix
-      - S1日本 04 |中转|NetFlix
-      - S3全解·香港05| MIEPL |
-      - S4全解·韩国05| IEPL |
-      - S3全解·香港17| IEPL |
-      - S1日本 01 |普通|NetFlix
-      - S1日本 05 |中转|NetFlix
-      - S1香港 04 |直连|NetFlix
-      - S1日本 05 |直连|NetFlix
-      - S3全解·新加坡04| MIEPL |
-      - S3全解·香港08| IEPL |
-      - S3全解·新加坡12| IEPL |
-      - S3全解·香港12| IEPL |
-      - S3全解·香港03| MIEPL |
-      - S1日本 01 |中转|NetFlix
-      - ^in印度IN 2 *hi-moon.pw
-      - S2香港04
-      - S5香港07| IEPL |
-      - S3全解·新加坡11| IEPL |
-      - S4全解·韩国04| IEPL |
-      - 极速香港|IPLC|01
-      - S1日本 03 |中转|NetFlix
-      - S3全解·日本04| IEPL |
-      - S1日本 07 |直连|NetFlix
-      - S4全解·香港09| IEPL |
       - CN
-      - S4全解·台湾06| IEPL |
-      - S2新加坡|NetFlix|02
-      - S2台湾|NetFlix|03
-      - S4全解·香港04| IEPL |
-      - 有问题请您更新订阅
       - CN 2
-      - S1日本 04 |直连|NetFlix
-      - S4全解·美国10| IEPL |
-      - S3全解·台灣04| IEPL |
-      - S3全解·香港20| IEPL |
-      - S4全解·新加坡01| IEPL |
-      - S4全解·日本01| IEPL |
-      - S5香港08| IEPL |
-      - S4全解·美国03| IEPL |
-      - S3全解·香港13| IEPL |
-      - S4全解·美国06| IEPL |
-      - ^sg新加坡SG1 *hi-moon.pw
-      - S3全解·香港21| MIEPL |
-      - S4全解·德国02| IEPL |
-      - S3全解·台灣05| IEPL |
-      - S1日本 03 |普通|NetFlix
-      - S4全解·美国02| IEPL |
-      - S4全解·美国05| IEPL |
-      - ^tw台湾TW 1 *hi-moon.pw
-      - S4全解·韩国03| IEPL |
-      - S3全解·美国05| IEPL |
-      - S4全解·德国01| IEPL |
-      - ^sg新加坡SG 2 *hi-moon.pw
-      - S3全解·新加坡09| IEPL |
       - CN 3
-      - S4全解·台湾04| IEPL |
-      - S4全解·台湾01| IEPL |
-      - HK|香港|10G|TR|01
-      - HK|香港|10G|SS|01
-      - The Sandbox香港|01
-      - S3全解·日本03| IEPL |
-      - S4全解·英国03| IEPL |
-      - S5香港02| MIEPL |
-      - S2新加坡01
-      - S5香港04| MIEPL |
-      - 极速香港|IPLC|02
-      - S2香港05
-      - S2韩国|NetFlix|03
-      - S4全解·美国08| IEPL |
-      - US 2
-      - S4全解·印度01| IEPL |
-      - S4全解·新加坡03| IEPL |
-      - ^us美国US 2 *hi-moon.pw
-      - S4全解·新加坡05| IEPL |
-      - S4全解·英国04| IEPL |
-      - S2美国|NetFlix|01
-      - S5美国03| MIEPL|
-      - S5香港06| IEPL |
-      - 荷兰1
-      - S4全解·美国09| IEPL |
-      - ^ru俄罗斯RU 1 *hi-moon.pw
-      - S3全解·日本05| IEPL |
-      - S4全解·美国01| IEPL |
-      - S4全解·英国06| IEPL |
       - CN 4
-      - S2香港|NetFlix|01
-      - S4全解·英国05| IEPL |
-      - S3全解·美国04| IEPL |
-      - 台湾彰化肉圆
-      - S5美国02| MIEPL |
-      - S3全解·香港09| IEPL |
       - CN 5
-      - 极速台湾|IEPL|01
-      - S3全解·新加坡02| IEPL |
-      - S4全解·美国07| IEPL |
-      - S1香港 03 |直连|NetFlix
-      - S3全解·美国02| IEPL |
-      - US|美国|IP6|SS|02
-      - HK|香港|10G|TR|02
-      - S2美国|NetFlix|03
-      - S4全解·美国04| IEPL |
-      - S4全解·韩国01| IEPL |
-      - S4全解·英国01| IEPL |
-      - -GB-0415-恢复更新_3
-      - S4全解·荷兰01| IEPL |
-      - S2新加坡|NetFlix|01
-      - 极速日本|IEPL|01
-      - -GB-0415-恢复更新_4
-      - S2英国01
-      - S2韩国|NetFlix|01
-      - S5美国04| MIEPL |
-      - -GB-0415-恢复更新_8
-      - HK|香港|10G|SS|02
-      - US 3
-      - S2韩国|NetFlix|02
-      - US|美国|IP6|TR|02
-      - -GB-0415-恢复更新_2
-      - US|美国|IP6|SS|01
-      - S2美国|NetFlix|02
-      - S2土耳其01
-      - -GB-0415-恢复更新_1
-      - ^in印度IN 3 *hi-moon.pw
-      - S3全解·美国03| IEPL |
-      - 美国烟熏牛前胸
-      - 德国1
-      - -GB-0415-恢复更新_16
-      - S5台湾04| IEPL |
-      - 加拿大
-      - S4全解·巴西01| IEPL |
-      - -GB-0415-恢复更新_14
-      - The Sandbox香港|02
-      - -GB-0415-恢复更新_5
-      - -GB-0415-恢复更新_6
-      - -GB-0415-恢复更新_7
-      - -GB-0415-恢复更新_13
-      - 印度1
-      - -GB-0415-恢复更新_11
-      - S4全解·台湾02| IEPL |
-      - US|美国|IP6|TR|01
-      - -GB-0415-恢复更新_9
-      - 英国1
-      - -GB-0415-恢复更新_15
-      - -GB-0415-恢复更新_18
+      - US
       - CN 6
-      - -GB-0415-恢复更新_17
-      - 波兰1
+      - CN 7
+      - US 2
+      - US 3
+      - CN 8
+      - US 4
+      - JP
+      - US 5
+      - -GB-0415-恢复更新_16
+      - CN 9
+      - "@SSRSUB-V16-付费推荐:suo.yt/ssrsub"
+      - US 6
+      - JP 2
+      - HK
+      - -GB-0415-恢复更新_14
+      - -GB-0415-恢复更新_15
       - -GB-0415-恢复更新_12
-      - 节点变红请切换节点
-      - S1日本 07 |中转|NetFlix
+      - KR
+      - -GB-0415-恢复更新_8
+      - -GB-0415-恢复更新_3
+      - IR
+      - -GB-0415-恢复更新_18
+      - CN 10
+      - CN 11
+      - -GB-0415-恢复更新_1
+      - -GB-0415-恢复更新_9
+      - -GB-0415-恢复更新_11
+      - -GB-0415-恢复更新_6
+      - -GB-0415-恢复更新_2
+      - -GB-0415-恢复更新_7
+      - -GB-0415-恢复更新_5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - S4全解·日本02| IEPL |
-      - S3全解·香港06| MIEPL |
-      - S2台湾|NetFlix|01
-      - S3全解·香港04| MIEPL |
-      - S3全解·香港02| MIEPL |
-      - S3全解·香港11| IEPL |
-      - S5新加坡01| MIEPL |
-      - S3全解·香港24| IEPL |
-      - S4全解·香港02| IEPL |
-      - S4全解·香港07| IEPL |
-      - ^tw台湾TW 2 *hi-moon.pw
-      - S3全解·日本02| IEPL |
-      - S4全解·日本03| IEPL |
-      - JP
-      - S3全解·新加坡07| IEPL |
-      - S4全解·菲律宾01| IEPL |
-      - S3全解·新加坡06| IEPL |
-      - 新加坡肉骨茶
-      - S4全解·香港05| IEPL |
-      - S4全解·新加坡02| IEPL |
-      - S5日本02| IEPL |
-      - S2台湾|NetFlix|02
-      - S4全解·日本04| IEPL |
-      - S4全解·日本05| IEPL |
-      - S4全解·台湾03| IEPL |
-      - S4全解·台湾05| IEPL |
-      - 香港鸡蛋仔
-      - S5台湾01| MIEPL |
-      - S1日本 03 |直连|NetFlix
-      - S2俄罗斯01
-      - 日本赤豚骨拉面
-      - S2香港02
-      - US
-      - ^hk香港HK 2 *hi-moon.pw
-      - S4全解·香港01| IEPL |
-      - ^sg新加坡SG 3 *hi-moon.pw
-      - ^kr韩国KR 1 *hi-moon.pw
-      - S4全解·香港12| IEPL |
-      - ^hk香港HK 1 *hi-moon.pw
-      - S3全解·新加坡01| IEPL |
-      - S3全解·香港14| MIEPL |
-      - S3全解·新加坡05| IEPL |
-      - S4全解·香港10| IEPL |
-      - S5香港03| MIEPL |
-      - S3全解·台灣02| IEPL |
-      - S3全解·香港18| IEPL |
-      - S1日本 06 |直连|NetFlix
-      - S1日本 04 |中转|NetFlix
-      - S3全解·香港05| MIEPL |
-      - S4全解·韩国05| IEPL |
-      - S3全解·香港17| IEPL |
-      - S1日本 01 |普通|NetFlix
-      - S1日本 05 |中转|NetFlix
-      - S1香港 04 |直连|NetFlix
-      - S1日本 05 |直连|NetFlix
-      - S3全解·新加坡04| MIEPL |
-      - S3全解·香港08| IEPL |
-      - S3全解·新加坡12| IEPL |
-      - S3全解·香港12| IEPL |
-      - S3全解·香港03| MIEPL |
-      - S1日本 01 |中转|NetFlix
-      - ^in印度IN 2 *hi-moon.pw
-      - S2香港04
-      - S5香港07| IEPL |
-      - S3全解·新加坡11| IEPL |
-      - S4全解·韩国04| IEPL |
-      - 极速香港|IPLC|01
-      - S1日本 03 |中转|NetFlix
-      - S3全解·日本04| IEPL |
-      - S1日本 07 |直连|NetFlix
-      - S4全解·香港09| IEPL |
       - CN
-      - S4全解·台湾06| IEPL |
-      - S2新加坡|NetFlix|02
-      - S2台湾|NetFlix|03
-      - S4全解·香港04| IEPL |
-      - 有问题请您更新订阅
       - CN 2
-      - S1日本 04 |直连|NetFlix
-      - S4全解·美国10| IEPL |
-      - S3全解·台灣04| IEPL |
-      - S3全解·香港20| IEPL |
-      - S4全解·新加坡01| IEPL |
-      - S4全解·日本01| IEPL |
-      - S5香港08| IEPL |
-      - S4全解·美国03| IEPL |
-      - S3全解·香港13| IEPL |
-      - S4全解·美国06| IEPL |
-      - ^sg新加坡SG1 *hi-moon.pw
-      - S3全解·香港21| MIEPL |
-      - S4全解·德国02| IEPL |
-      - S3全解·台灣05| IEPL |
-      - S1日本 03 |普通|NetFlix
-      - S4全解·美国02| IEPL |
-      - S4全解·美国05| IEPL |
-      - ^tw台湾TW 1 *hi-moon.pw
-      - S4全解·韩国03| IEPL |
-      - S3全解·美国05| IEPL |
-      - S4全解·德国01| IEPL |
-      - ^sg新加坡SG 2 *hi-moon.pw
-      - S3全解·新加坡09| IEPL |
       - CN 3
-      - S4全解·台湾04| IEPL |
-      - S4全解·台湾01| IEPL |
-      - HK|香港|10G|TR|01
-      - HK|香港|10G|SS|01
-      - The Sandbox香港|01
-      - S3全解·日本03| IEPL |
-      - S4全解·英国03| IEPL |
-      - S5香港02| MIEPL |
-      - S2新加坡01
-      - S5香港04| MIEPL |
-      - 极速香港|IPLC|02
-      - S2香港05
-      - S2韩国|NetFlix|03
-      - S4全解·美国08| IEPL |
-      - US 2
-      - S4全解·印度01| IEPL |
-      - S4全解·新加坡03| IEPL |
-      - ^us美国US 2 *hi-moon.pw
-      - S4全解·新加坡05| IEPL |
-      - S4全解·英国04| IEPL |
-      - S2美国|NetFlix|01
-      - S5美国03| MIEPL|
-      - S5香港06| IEPL |
-      - 荷兰1
-      - S4全解·美国09| IEPL |
-      - ^ru俄罗斯RU 1 *hi-moon.pw
-      - S3全解·日本05| IEPL |
-      - S4全解·美国01| IEPL |
-      - S4全解·英国06| IEPL |
       - CN 4
-      - S2香港|NetFlix|01
-      - S4全解·英国05| IEPL |
-      - S3全解·美国04| IEPL |
-      - 台湾彰化肉圆
-      - S5美国02| MIEPL |
-      - S3全解·香港09| IEPL |
       - CN 5
-      - 极速台湾|IEPL|01
-      - S3全解·新加坡02| IEPL |
-      - S4全解·美国07| IEPL |
-      - S1香港 03 |直连|NetFlix
-      - S3全解·美国02| IEPL |
-      - US|美国|IP6|SS|02
-      - HK|香港|10G|TR|02
-      - S2美国|NetFlix|03
-      - S4全解·美国04| IEPL |
-      - S4全解·韩国01| IEPL |
-      - S4全解·英国01| IEPL |
-      - -GB-0415-恢复更新_3
-      - S4全解·荷兰01| IEPL |
-      - S2新加坡|NetFlix|01
-      - 极速日本|IEPL|01
-      - -GB-0415-恢复更新_4
-      - S2英国01
-      - S2韩国|NetFlix|01
-      - S5美国04| MIEPL |
-      - -GB-0415-恢复更新_8
-      - HK|香港|10G|SS|02
-      - US 3
-      - S2韩国|NetFlix|02
-      - US|美国|IP6|TR|02
-      - -GB-0415-恢复更新_2
-      - US|美国|IP6|SS|01
-      - S2美国|NetFlix|02
-      - S2土耳其01
-      - -GB-0415-恢复更新_1
-      - ^in印度IN 3 *hi-moon.pw
-      - S3全解·美国03| IEPL |
-      - 美国烟熏牛前胸
-      - 德国1
-      - -GB-0415-恢复更新_16
-      - S5台湾04| IEPL |
-      - 加拿大
-      - S4全解·巴西01| IEPL |
-      - -GB-0415-恢复更新_14
-      - The Sandbox香港|02
-      - -GB-0415-恢复更新_5
-      - -GB-0415-恢复更新_6
-      - -GB-0415-恢复更新_7
-      - -GB-0415-恢复更新_13
-      - 印度1
-      - -GB-0415-恢复更新_11
-      - S4全解·台湾02| IEPL |
-      - US|美国|IP6|TR|01
-      - -GB-0415-恢复更新_9
-      - 英国1
-      - -GB-0415-恢复更新_15
-      - -GB-0415-恢复更新_18
+      - US
       - CN 6
-      - -GB-0415-恢复更新_17
-      - 波兰1
+      - CN 7
+      - US 2
+      - US 3
+      - CN 8
+      - US 4
+      - JP
+      - US 5
+      - -GB-0415-恢复更新_16
+      - CN 9
+      - "@SSRSUB-V16-付费推荐:suo.yt/ssrsub"
+      - US 6
+      - JP 2
+      - HK
+      - -GB-0415-恢复更新_14
+      - -GB-0415-恢复更新_15
       - -GB-0415-恢复更新_12
-      - 节点变红请切换节点
-      - S1日本 07 |中转|NetFlix
+      - KR
+      - -GB-0415-恢复更新_8
+      - -GB-0415-恢复更新_3
+      - IR
+      - -GB-0415-恢复更新_18
+      - CN 10
+      - CN 11
+      - -GB-0415-恢复更新_1
+      - -GB-0415-恢复更新_9
+      - -GB-0415-恢复更新_11
+      - -GB-0415-恢复更新_6
+      - -GB-0415-恢复更新_2
+      - -GB-0415-恢复更新_7
+      - -GB-0415-恢复更新_5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - S4全解·日本02| IEPL |
-      - S3全解·香港06| MIEPL |
-      - S2台湾|NetFlix|01
-      - S3全解·香港04| MIEPL |
-      - S3全解·香港02| MIEPL |
-      - S3全解·香港11| IEPL |
-      - S5新加坡01| MIEPL |
-      - S3全解·香港24| IEPL |
-      - S4全解·香港02| IEPL |
-      - S4全解·香港07| IEPL |
-      - ^tw台湾TW 2 *hi-moon.pw
-      - S3全解·日本02| IEPL |
-      - S4全解·日本03| IEPL |
-      - JP
-      - S3全解·新加坡07| IEPL |
-      - S4全解·菲律宾01| IEPL |
-      - S3全解·新加坡06| IEPL |
-      - 新加坡肉骨茶
-      - S4全解·香港05| IEPL |
-      - S4全解·新加坡02| IEPL |
-      - S5日本02| IEPL |
-      - S2台湾|NetFlix|02
-      - S4全解·日本04| IEPL |
-      - S4全解·日本05| IEPL |
-      - S4全解·台湾03| IEPL |
-      - S4全解·台湾05| IEPL |
-      - 香港鸡蛋仔
-      - S5台湾01| MIEPL |
-      - S1日本 03 |直连|NetFlix
-      - S2俄罗斯01
-      - 日本赤豚骨拉面
-      - S2香港02
-      - US
-      - ^hk香港HK 2 *hi-moon.pw
-      - S4全解·香港01| IEPL |
-      - ^sg新加坡SG 3 *hi-moon.pw
-      - ^kr韩国KR 1 *hi-moon.pw
-      - S4全解·香港12| IEPL |
-      - ^hk香港HK 1 *hi-moon.pw
-      - S3全解·新加坡01| IEPL |
-      - S3全解·香港14| MIEPL |
-      - S3全解·新加坡05| IEPL |
-      - S4全解·香港10| IEPL |
-      - S5香港03| MIEPL |
-      - S3全解·台灣02| IEPL |
-      - S3全解·香港18| IEPL |
-      - S1日本 06 |直连|NetFlix
-      - S1日本 04 |中转|NetFlix
-      - S3全解·香港05| MIEPL |
-      - S4全解·韩国05| IEPL |
-      - S3全解·香港17| IEPL |
-      - S1日本 01 |普通|NetFlix
-      - S1日本 05 |中转|NetFlix
-      - S1香港 04 |直连|NetFlix
-      - S1日本 05 |直连|NetFlix
-      - S3全解·新加坡04| MIEPL |
-      - S3全解·香港08| IEPL |
-      - S3全解·新加坡12| IEPL |
-      - S3全解·香港12| IEPL |
-      - S3全解·香港03| MIEPL |
-      - S1日本 01 |中转|NetFlix
-      - ^in印度IN 2 *hi-moon.pw
-      - S2香港04
-      - S5香港07| IEPL |
-      - S3全解·新加坡11| IEPL |
-      - S4全解·韩国04| IEPL |
-      - 极速香港|IPLC|01
-      - S1日本 03 |中转|NetFlix
-      - S3全解·日本04| IEPL |
-      - S1日本 07 |直连|NetFlix
-      - S4全解·香港09| IEPL |
       - CN
-      - S4全解·台湾06| IEPL |
-      - S2新加坡|NetFlix|02
-      - S2台湾|NetFlix|03
-      - S4全解·香港04| IEPL |
-      - 有问题请您更新订阅
       - CN 2
-      - S1日本 04 |直连|NetFlix
-      - S4全解·美国10| IEPL |
-      - S3全解·台灣04| IEPL |
-      - S3全解·香港20| IEPL |
-      - S4全解·新加坡01| IEPL |
-      - S4全解·日本01| IEPL |
-      - S5香港08| IEPL |
-      - S4全解·美国03| IEPL |
-      - S3全解·香港13| IEPL |
-      - S4全解·美国06| IEPL |
-      - ^sg新加坡SG1 *hi-moon.pw
-      - S3全解·香港21| MIEPL |
-      - S4全解·德国02| IEPL |
-      - S3全解·台灣05| IEPL |
-      - S1日本 03 |普通|NetFlix
-      - S4全解·美国02| IEPL |
-      - S4全解·美国05| IEPL |
-      - ^tw台湾TW 1 *hi-moon.pw
-      - S4全解·韩国03| IEPL |
-      - S3全解·美国05| IEPL |
-      - S4全解·德国01| IEPL |
-      - ^sg新加坡SG 2 *hi-moon.pw
-      - S3全解·新加坡09| IEPL |
       - CN 3
-      - S4全解·台湾04| IEPL |
-      - S4全解·台湾01| IEPL |
-      - HK|香港|10G|TR|01
-      - HK|香港|10G|SS|01
-      - The Sandbox香港|01
-      - S3全解·日本03| IEPL |
-      - S4全解·英国03| IEPL |
-      - S5香港02| MIEPL |
-      - S2新加坡01
-      - S5香港04| MIEPL |
-      - 极速香港|IPLC|02
-      - S2香港05
-      - S2韩国|NetFlix|03
-      - S4全解·美国08| IEPL |
-      - US 2
-      - S4全解·印度01| IEPL |
-      - S4全解·新加坡03| IEPL |
-      - ^us美国US 2 *hi-moon.pw
-      - S4全解·新加坡05| IEPL |
-      - S4全解·英国04| IEPL |
-      - S2美国|NetFlix|01
-      - S5美国03| MIEPL|
-      - S5香港06| IEPL |
-      - 荷兰1
-      - S4全解·美国09| IEPL |
-      - ^ru俄罗斯RU 1 *hi-moon.pw
-      - S3全解·日本05| IEPL |
-      - S4全解·美国01| IEPL |
-      - S4全解·英国06| IEPL |
       - CN 4
-      - S2香港|NetFlix|01
-      - S4全解·英国05| IEPL |
-      - S3全解·美国04| IEPL |
-      - 台湾彰化肉圆
-      - S5美国02| MIEPL |
-      - S3全解·香港09| IEPL |
       - CN 5
-      - 极速台湾|IEPL|01
-      - S3全解·新加坡02| IEPL |
-      - S4全解·美国07| IEPL |
-      - S1香港 03 |直连|NetFlix
-      - S3全解·美国02| IEPL |
-      - US|美国|IP6|SS|02
-      - HK|香港|10G|TR|02
-      - S2美国|NetFlix|03
-      - S4全解·美国04| IEPL |
-      - S4全解·韩国01| IEPL |
-      - S4全解·英国01| IEPL |
-      - -GB-0415-恢复更新_3
-      - S4全解·荷兰01| IEPL |
-      - S2新加坡|NetFlix|01
-      - 极速日本|IEPL|01
-      - -GB-0415-恢复更新_4
-      - S2英国01
-      - S2韩国|NetFlix|01
-      - S5美国04| MIEPL |
-      - -GB-0415-恢复更新_8
-      - HK|香港|10G|SS|02
-      - US 3
-      - S2韩国|NetFlix|02
-      - US|美国|IP6|TR|02
-      - -GB-0415-恢复更新_2
-      - US|美国|IP6|SS|01
-      - S2美国|NetFlix|02
-      - S2土耳其01
-      - -GB-0415-恢复更新_1
-      - ^in印度IN 3 *hi-moon.pw
-      - S3全解·美国03| IEPL |
-      - 美国烟熏牛前胸
-      - 德国1
-      - -GB-0415-恢复更新_16
-      - S5台湾04| IEPL |
-      - 加拿大
-      - S4全解·巴西01| IEPL |
-      - -GB-0415-恢复更新_14
-      - The Sandbox香港|02
-      - -GB-0415-恢复更新_5
-      - -GB-0415-恢复更新_6
-      - -GB-0415-恢复更新_7
-      - -GB-0415-恢复更新_13
-      - 印度1
-      - -GB-0415-恢复更新_11
-      - S4全解·台湾02| IEPL |
-      - US|美国|IP6|TR|01
-      - -GB-0415-恢复更新_9
-      - 英国1
-      - -GB-0415-恢复更新_15
-      - -GB-0415-恢复更新_18
+      - US
       - CN 6
-      - -GB-0415-恢复更新_17
-      - 波兰1
+      - CN 7
+      - US 2
+      - US 3
+      - CN 8
+      - US 4
+      - JP
+      - US 5
+      - -GB-0415-恢复更新_16
+      - CN 9
+      - "@SSRSUB-V16-付费推荐:suo.yt/ssrsub"
+      - US 6
+      - JP 2
+      - HK
+      - -GB-0415-恢复更新_14
+      - -GB-0415-恢复更新_15
       - -GB-0415-恢复更新_12
-      - 节点变红请切换节点
-      - S1日本 07 |中转|NetFlix
+      - KR
+      - -GB-0415-恢复更新_8
+      - -GB-0415-恢复更新_3
+      - IR
+      - -GB-0415-恢复更新_18
+      - CN 10
+      - CN 11
+      - -GB-0415-恢复更新_1
+      - -GB-0415-恢复更新_9
+      - -GB-0415-恢复更新_11
+      - -GB-0415-恢复更新_6
+      - -GB-0415-恢复更新_2
+      - -GB-0415-恢复更新_7
+      - -GB-0415-恢复更新_5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1709,202 +372,43 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - S4全解·日本02| IEPL |
-      - S3全解·香港06| MIEPL |
-      - S2台湾|NetFlix|01
-      - S3全解·香港04| MIEPL |
-      - S3全解·香港02| MIEPL |
-      - S3全解·香港11| IEPL |
-      - S5新加坡01| MIEPL |
-      - S3全解·香港24| IEPL |
-      - S4全解·香港02| IEPL |
-      - S4全解·香港07| IEPL |
-      - ^tw台湾TW 2 *hi-moon.pw
-      - S3全解·日本02| IEPL |
-      - S4全解·日本03| IEPL |
-      - JP
-      - S3全解·新加坡07| IEPL |
-      - S4全解·菲律宾01| IEPL |
-      - S3全解·新加坡06| IEPL |
-      - 新加坡肉骨茶
-      - S4全解·香港05| IEPL |
-      - S4全解·新加坡02| IEPL |
-      - S5日本02| IEPL |
-      - S2台湾|NetFlix|02
-      - S4全解·日本04| IEPL |
-      - S4全解·日本05| IEPL |
-      - S4全解·台湾03| IEPL |
-      - S4全解·台湾05| IEPL |
-      - 香港鸡蛋仔
-      - S5台湾01| MIEPL |
-      - S1日本 03 |直连|NetFlix
-      - S2俄罗斯01
-      - 日本赤豚骨拉面
-      - S2香港02
-      - US
-      - ^hk香港HK 2 *hi-moon.pw
-      - S4全解·香港01| IEPL |
-      - ^sg新加坡SG 3 *hi-moon.pw
-      - ^kr韩国KR 1 *hi-moon.pw
-      - S4全解·香港12| IEPL |
-      - ^hk香港HK 1 *hi-moon.pw
-      - S3全解·新加坡01| IEPL |
-      - S3全解·香港14| MIEPL |
-      - S3全解·新加坡05| IEPL |
-      - S4全解·香港10| IEPL |
-      - S5香港03| MIEPL |
-      - S3全解·台灣02| IEPL |
-      - S3全解·香港18| IEPL |
-      - S1日本 06 |直连|NetFlix
-      - S1日本 04 |中转|NetFlix
-      - S3全解·香港05| MIEPL |
-      - S4全解·韩国05| IEPL |
-      - S3全解·香港17| IEPL |
-      - S1日本 01 |普通|NetFlix
-      - S1日本 05 |中转|NetFlix
-      - S1香港 04 |直连|NetFlix
-      - S1日本 05 |直连|NetFlix
-      - S3全解·新加坡04| MIEPL |
-      - S3全解·香港08| IEPL |
-      - S3全解·新加坡12| IEPL |
-      - S3全解·香港12| IEPL |
-      - S3全解·香港03| MIEPL |
-      - S1日本 01 |中转|NetFlix
-      - ^in印度IN 2 *hi-moon.pw
-      - S2香港04
-      - S5香港07| IEPL |
-      - S3全解·新加坡11| IEPL |
-      - S4全解·韩国04| IEPL |
-      - 极速香港|IPLC|01
-      - S1日本 03 |中转|NetFlix
-      - S3全解·日本04| IEPL |
-      - S1日本 07 |直连|NetFlix
-      - S4全解·香港09| IEPL |
       - CN
-      - S4全解·台湾06| IEPL |
-      - S2新加坡|NetFlix|02
-      - S2台湾|NetFlix|03
-      - S4全解·香港04| IEPL |
-      - 有问题请您更新订阅
       - CN 2
-      - S1日本 04 |直连|NetFlix
-      - S4全解·美国10| IEPL |
-      - S3全解·台灣04| IEPL |
-      - S3全解·香港20| IEPL |
-      - S4全解·新加坡01| IEPL |
-      - S4全解·日本01| IEPL |
-      - S5香港08| IEPL |
-      - S4全解·美国03| IEPL |
-      - S3全解·香港13| IEPL |
-      - S4全解·美国06| IEPL |
-      - ^sg新加坡SG1 *hi-moon.pw
-      - S3全解·香港21| MIEPL |
-      - S4全解·德国02| IEPL |
-      - S3全解·台灣05| IEPL |
-      - S1日本 03 |普通|NetFlix
-      - S4全解·美国02| IEPL |
-      - S4全解·美国05| IEPL |
-      - ^tw台湾TW 1 *hi-moon.pw
-      - S4全解·韩国03| IEPL |
-      - S3全解·美国05| IEPL |
-      - S4全解·德国01| IEPL |
-      - ^sg新加坡SG 2 *hi-moon.pw
-      - S3全解·新加坡09| IEPL |
       - CN 3
-      - S4全解·台湾04| IEPL |
-      - S4全解·台湾01| IEPL |
-      - HK|香港|10G|TR|01
-      - HK|香港|10G|SS|01
-      - The Sandbox香港|01
-      - S3全解·日本03| IEPL |
-      - S4全解·英国03| IEPL |
-      - S5香港02| MIEPL |
-      - S2新加坡01
-      - S5香港04| MIEPL |
-      - 极速香港|IPLC|02
-      - S2香港05
-      - S2韩国|NetFlix|03
-      - S4全解·美国08| IEPL |
-      - US 2
-      - S4全解·印度01| IEPL |
-      - S4全解·新加坡03| IEPL |
-      - ^us美国US 2 *hi-moon.pw
-      - S4全解·新加坡05| IEPL |
-      - S4全解·英国04| IEPL |
-      - S2美国|NetFlix|01
-      - S5美国03| MIEPL|
-      - S5香港06| IEPL |
-      - 荷兰1
-      - S4全解·美国09| IEPL |
-      - ^ru俄罗斯RU 1 *hi-moon.pw
-      - S3全解·日本05| IEPL |
-      - S4全解·美国01| IEPL |
-      - S4全解·英国06| IEPL |
       - CN 4
-      - S2香港|NetFlix|01
-      - S4全解·英国05| IEPL |
-      - S3全解·美国04| IEPL |
-      - 台湾彰化肉圆
-      - S5美国02| MIEPL |
-      - S3全解·香港09| IEPL |
       - CN 5
-      - 极速台湾|IEPL|01
-      - S3全解·新加坡02| IEPL |
-      - S4全解·美国07| IEPL |
-      - S1香港 03 |直连|NetFlix
-      - S3全解·美国02| IEPL |
-      - US|美国|IP6|SS|02
-      - HK|香港|10G|TR|02
-      - S2美国|NetFlix|03
-      - S4全解·美国04| IEPL |
-      - S4全解·韩国01| IEPL |
-      - S4全解·英国01| IEPL |
-      - -GB-0415-恢复更新_3
-      - S4全解·荷兰01| IEPL |
-      - S2新加坡|NetFlix|01
-      - 极速日本|IEPL|01
-      - -GB-0415-恢复更新_4
-      - S2英国01
-      - S2韩国|NetFlix|01
-      - S5美国04| MIEPL |
-      - -GB-0415-恢复更新_8
-      - HK|香港|10G|SS|02
-      - US 3
-      - S2韩国|NetFlix|02
-      - US|美国|IP6|TR|02
-      - -GB-0415-恢复更新_2
-      - US|美国|IP6|SS|01
-      - S2美国|NetFlix|02
-      - S2土耳其01
-      - -GB-0415-恢复更新_1
-      - ^in印度IN 3 *hi-moon.pw
-      - S3全解·美国03| IEPL |
-      - 美国烟熏牛前胸
-      - 德国1
-      - -GB-0415-恢复更新_16
-      - S5台湾04| IEPL |
-      - 加拿大
-      - S4全解·巴西01| IEPL |
-      - -GB-0415-恢复更新_14
-      - The Sandbox香港|02
-      - -GB-0415-恢复更新_5
-      - -GB-0415-恢复更新_6
-      - -GB-0415-恢复更新_7
-      - -GB-0415-恢复更新_13
-      - 印度1
-      - -GB-0415-恢复更新_11
-      - S4全解·台湾02| IEPL |
-      - US|美国|IP6|TR|01
-      - -GB-0415-恢复更新_9
-      - 英国1
-      - -GB-0415-恢复更新_15
-      - -GB-0415-恢复更新_18
+      - US
       - CN 6
-      - -GB-0415-恢复更新_17
-      - 波兰1
+      - CN 7
+      - US 2
+      - US 3
+      - CN 8
+      - US 4
+      - JP
+      - US 5
+      - -GB-0415-恢复更新_16
+      - CN 9
+      - "@SSRSUB-V16-付费推荐:suo.yt/ssrsub"
+      - US 6
+      - JP 2
+      - HK
+      - -GB-0415-恢复更新_14
+      - -GB-0415-恢复更新_15
       - -GB-0415-恢复更新_12
-      - 节点变红请切换节点
-      - S1日本 07 |中转|NetFlix
+      - KR
+      - -GB-0415-恢复更新_8
+      - -GB-0415-恢复更新_3
+      - IR
+      - -GB-0415-恢复更新_18
+      - CN 10
+      - CN 11
+      - -GB-0415-恢复更新_1
+      - -GB-0415-恢复更新_9
+      - -GB-0415-恢复更新_11
+      - -GB-0415-恢复更新_6
+      - -GB-0415-恢复更新_2
+      - -GB-0415-恢复更新_7
+      - -GB-0415-恢复更新_5
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
