@@ -5,299 +5,207 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: TW_8du.shop, server: 211.72.35.153, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop, server: 123.59.87.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: PL, server: 217.30.10.68, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
-  - {name: CN_8du.shop 2, server: 116.129.253.201, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: TW, server: 60.249.3.226, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 3, server: 120.232.192.250, port: 3384, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: TW_8du.shop 2, server: 60.249.3.125, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: PL 2, server: 217.30.10.65, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: JP_8du.shop, server: jgwdb1.gaox.ml, port: 443, type: trojan, password: a580d839-ee41-4df1-bf03-6789dca32e30, sni: jgwdb1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: PL 3, server: 217.30.10.65, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: PL 4, server: 217.30.10.66, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: CN_8du.shop 4, server: 116.129.253.187, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: PL_8du.shop, server: 217.30.10.66, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: PL 5, server: 217.30.10.68, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
-  - {name: PL 6, server: 217.30.10.68, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: PL 7, server: 217.30.10.64, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: PL 8, server: 217.30.10.65, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: PL 9, server: 217.30.10.64, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
-  - {name: PL 10, server: 217.30.10.68, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: PL 11, server: 217.30.10.68, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: PL 12, server: 217.30.10.65, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
-  - {name: PL 13, server: 217.30.10.67, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: CN_8du.shop 5, server: 116.129.253.227, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: PL 14, server: 217.30.10.67, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
-  - {name: PL 15, server: 217.30.10.67, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
-  - {name: PL 16, server: 217.30.10.64, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: PL 17, server: 217.30.10.64, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: CN_8du.shop 6, server: 116.129.253.177, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN, server: 116.129.253.130, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN 2, server: 120.232.192.250, port: 3385, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 7, server: 116.129.253.191, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: PL 18, server: 217.30.10.68, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
-  - {name: PL 19, server: 217.30.10.68, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
-  - {name: PL 20, server: 217.30.10.68, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: PL 21, server: 217.30.10.68, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: CN 3, server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 8, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 912ebb9f-7c7a-4ee2-b9c9-5c2a87280c2e, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: TW_8du.shop 3, server: 60.249.3.231, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: PL 22, server: 217.30.10.67, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-  - {name: PL_8du.shop 2, server: 217.30.10.66, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: PL 23, server: 217.30.10.64, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
-  - {name: PL 24, server: 217.30.10.67, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: PL 25, server: 217.30.10.68, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: PL 26, server: 217.30.10.67, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: PL 27, server: 217.30.10.64, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: PL 28, server: 217.30.10.67, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
-  - {name: CN 4, server: 116.129.253.134, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop 9, server: 116.129.254.47, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: PL 29, server: 217.30.10.67, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: JP_8du.shop 2, server: nfjp1.qingyun123.xyz, port: 10000, type: trojan, password: 599d9e75-08dc-4e9c-b93a-5e455fb5ec42, sni: nfjp1.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: US_8du.shop, server: 45.76.168.79, port: 62969, type: vmess, uuid: 14c7249a-bda0-11ec-9317-560003f3536b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /W40anfFp/, ws-headers: {Host: 45.76.168.79}, udp: true}
-  - {name: PL 30, server: 217.30.10.67, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: ES, server: 212.102.48.249, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: PL 31, server: 217.30.10.68, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
-  - {name: PL 32, server: 217.30.10.67, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: PL_8du.shop 3, server: 217.30.10.66, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-  - {name: PL 33, server: 217.30.10.65, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
-  - {name: NL, server: 88.208.7.199, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: PL 34, server: 217.30.10.65, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-  - {name: US_8du.shop 2, server: vpna1.herokuapp.com, port: 443, type: vmess, uuid: 8ccdfb2e-e039-47f9-a460-8ca6183d701c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: vpna1.herokuapp.com}, udp: true}
-  - {name: 8du.shop, server: 103.172.116.113, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: PL 35, server: 217.30.10.68, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
-  - {name: PL 36, server: 217.30.10.67, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: CN_8du.shop 10, server: shhkmmw.ggboynextdoor.best, port: 11009, type: vmess, uuid: 81289f6e-81d9-3ff8-b158-0f71d4028788, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: PL 37, server: 217.30.10.67, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: CN_8du.shop 11, server: shhkmmw.ggboynextdoor.best, port: 11106, type: vmess, uuid: 81289f6e-81d9-3ff8-b158-0f71d4028788, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: PL 38, server: 217.30.10.64, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: -AU-0416节点14:00-52_52, server: 185.167.116.252, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: CN_8du.shop 12, server: shhkmmw.ggboynextdoor.best, port: 11011, type: vmess, uuid: 81289f6e-81d9-3ff8-b158-0f71d4028788, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN, server: 116.129.254.29, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop, server: 116.129.254.47, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: CN 2, server: 116.129.253.227, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: CN 3, server: 116.129.253.191, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: CN 4, server: 116.129.253.177, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: CN 5, server: 116.129.254.29, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: CN 6, server: 116.129.253.130, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop 2, server: 116.129.253.191, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: AU_8du.shop, server: 185.167.116.253, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
+  - {name: CN 7, server: 116.129.253.134, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop 3, server: shhkmmw.ggboynextdoor.best, port: 11106, type: vmess, uuid: 81289f6e-81d9-3ff8-b158-0f71d4028788, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop 4, server: 116.129.253.177, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop 5, server: cn1.relay.iepl.pw, port: 50300, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
+  - {name: CN_8du.shop 6, server: 116.129.253.187, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: PL, server: 217.30.10.65, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: CN_8du.shop 7, server: 116.129.253.227, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: PL 2, server: 217.30.10.64, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: PL_8du.shop, server: 217.30.10.65, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: CN_8du.shop 8, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: 0f77db87-854c-428c-a725-c56f548fcc1a, udp: true}
+  - {name: PL_8du.shop 2, server: 217.30.10.65, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: CN_8du.shop 9, server: shhkmmw.ggboynextdoor.best, port: 11009, type: vmess, uuid: 81289f6e-81d9-3ff8-b158-0f71d4028788, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN 8, server: 116.129.253.130, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: PL_8du.shop 3, server: 217.30.10.64, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: PL 3, server: 217.30.10.66, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: PL 4, server: 217.30.10.64, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: PL_8du.shop 4, server: 217.30.10.64, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: PL 5, server: 217.30.10.64, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: PL_8du.shop 5, server: 217.30.10.65, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: PL 6, server: 217.30.10.64, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: CN 9, server: 120.232.192.250, port: 3385, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: PL_8du.shop 6, server: 217.30.10.64, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: PL_8du.shop 7, server: 217.30.10.65, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
+  - {name: PL 7, server: 217.30.10.64, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: PL_8du.shop 8, server: 217.30.10.66, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: PL_8du.shop 9, server: 217.30.10.65, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: PL 8, server: 217.30.10.64, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
+  - {name: PL_8du.shop 10, server: 217.30.10.65, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: PL_8du.shop 11, server: 217.30.10.66, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: CN_8du.shop 10, server: shhkmmw.ggboynextdoor.best, port: 11011, type: vmess, uuid: 81289f6e-81d9-3ff8-b158-0f71d4028788, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: AU_8du.shop 2, server: 185.167.116.253, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: US, server: 138.197.236.77, port: 443, type: vmess, uuid: 3579436c-b37e-11eb-8529-0242ac130003, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 138.197.236.77}, udp: true}
+  - {name: US_8du.shop, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: PL 9, server: 217.30.10.65, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: PL_8du.shop 12, server: 217.30.10.65, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: PL_8du.shop 13, server: 217.30.10.66, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: PL 10, server: 217.30.10.65, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TW_8du.shop
+      - CN
       - CN_8du.shop
-      - PL
+      - CN 2
+      - CN 3
+      - CN 4
+      - CN 5
+      - CN 6
       - CN_8du.shop 2
-      - TW
+      - AU_8du.shop
+      - CN 7
       - CN_8du.shop 3
-      - TW_8du.shop 2
+      - CN_8du.shop 4
+      - CN_8du.shop 5
+      - CN_8du.shop 6
+      - PL
+      - CN_8du.shop 7
       - PL 2
-      - JP_8du.shop
+      - PL_8du.shop
+      - CN_8du.shop 8
+      - PL_8du.shop 2
+      - CN_8du.shop 9
+      - CN 8
+      - PL_8du.shop 3
       - PL 3
       - PL 4
-      - CN_8du.shop 4
-      - PL_8du.shop
+      - PL_8du.shop 4
       - PL 5
+      - PL_8du.shop 5
       - PL 6
+      - CN 9
+      - PL_8du.shop 6
+      - PL_8du.shop 7
       - PL 7
+      - PL_8du.shop 8
+      - PL_8du.shop 9
       - PL 8
-      - PL 9
-      - PL 10
-      - PL 11
-      - PL 12
-      - PL 13
-      - CN_8du.shop 5
-      - PL 14
-      - PL 15
-      - PL 16
-      - PL 17
-      - CN_8du.shop 6
-      - CN
-      - CN 2
-      - CN_8du.shop 7
-      - PL 18
-      - PL 19
-      - PL 20
-      - PL 21
-      - CN 3
-      - CN_8du.shop 8
-      - TW_8du.shop 3
-      - PL 22
-      - PL_8du.shop 2
-      - PL 23
-      - PL 24
-      - PL 25
-      - PL 26
-      - PL 27
-      - PL 28
-      - CN 4
-      - CN_8du.shop 9
-      - PL 29
-      - JP_8du.shop 2
-      - US_8du.shop
-      - PL 30
-      - ES
-      - PL 31
-      - PL 32
-      - PL_8du.shop 3
-      - PL 33
-      - NL
-      - PL 34
-      - US_8du.shop 2
-      - 8du.shop
-      - PL 35
-      - PL 36
+      - PL_8du.shop 10
+      - PL_8du.shop 11
       - CN_8du.shop 10
-      - PL 37
-      - CN_8du.shop 11
-      - PL 38
-      - -AU-0416节点14:00-52_52
-      - CN_8du.shop 12
+      - AU_8du.shop 2
+      - US
+      - US_8du.shop
+      - PL 9
+      - PL_8du.shop 12
+      - PL_8du.shop 13
+      - PL 10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - TW_8du.shop
+      - CN
       - CN_8du.shop
-      - PL
+      - CN 2
+      - CN 3
+      - CN 4
+      - CN 5
+      - CN 6
       - CN_8du.shop 2
-      - TW
+      - AU_8du.shop
+      - CN 7
       - CN_8du.shop 3
-      - TW_8du.shop 2
+      - CN_8du.shop 4
+      - CN_8du.shop 5
+      - CN_8du.shop 6
+      - PL
+      - CN_8du.shop 7
       - PL 2
-      - JP_8du.shop
+      - PL_8du.shop
+      - CN_8du.shop 8
+      - PL_8du.shop 2
+      - CN_8du.shop 9
+      - CN 8
+      - PL_8du.shop 3
       - PL 3
       - PL 4
-      - CN_8du.shop 4
-      - PL_8du.shop
+      - PL_8du.shop 4
       - PL 5
+      - PL_8du.shop 5
       - PL 6
+      - CN 9
+      - PL_8du.shop 6
+      - PL_8du.shop 7
       - PL 7
+      - PL_8du.shop 8
+      - PL_8du.shop 9
       - PL 8
-      - PL 9
-      - PL 10
-      - PL 11
-      - PL 12
-      - PL 13
-      - CN_8du.shop 5
-      - PL 14
-      - PL 15
-      - PL 16
-      - PL 17
-      - CN_8du.shop 6
-      - CN
-      - CN 2
-      - CN_8du.shop 7
-      - PL 18
-      - PL 19
-      - PL 20
-      - PL 21
-      - CN 3
-      - CN_8du.shop 8
-      - TW_8du.shop 3
-      - PL 22
-      - PL_8du.shop 2
-      - PL 23
-      - PL 24
-      - PL 25
-      - PL 26
-      - PL 27
-      - PL 28
-      - CN 4
-      - CN_8du.shop 9
-      - PL 29
-      - JP_8du.shop 2
-      - US_8du.shop
-      - PL 30
-      - ES
-      - PL 31
-      - PL 32
-      - PL_8du.shop 3
-      - PL 33
-      - NL
-      - PL 34
-      - US_8du.shop 2
-      - 8du.shop
-      - PL 35
-      - PL 36
+      - PL_8du.shop 10
+      - PL_8du.shop 11
       - CN_8du.shop 10
-      - PL 37
-      - CN_8du.shop 11
-      - PL 38
-      - -AU-0416节点14:00-52_52
-      - CN_8du.shop 12
+      - AU_8du.shop 2
+      - US
+      - US_8du.shop
+      - PL 9
+      - PL_8du.shop 12
+      - PL_8du.shop 13
+      - PL 10
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TW_8du.shop
+      - CN
       - CN_8du.shop
-      - PL
+      - CN 2
+      - CN 3
+      - CN 4
+      - CN 5
+      - CN 6
       - CN_8du.shop 2
-      - TW
+      - AU_8du.shop
+      - CN 7
       - CN_8du.shop 3
-      - TW_8du.shop 2
+      - CN_8du.shop 4
+      - CN_8du.shop 5
+      - CN_8du.shop 6
+      - PL
+      - CN_8du.shop 7
       - PL 2
-      - JP_8du.shop
+      - PL_8du.shop
+      - CN_8du.shop 8
+      - PL_8du.shop 2
+      - CN_8du.shop 9
+      - CN 8
+      - PL_8du.shop 3
       - PL 3
       - PL 4
-      - CN_8du.shop 4
-      - PL_8du.shop
+      - PL_8du.shop 4
       - PL 5
+      - PL_8du.shop 5
       - PL 6
+      - CN 9
+      - PL_8du.shop 6
+      - PL_8du.shop 7
       - PL 7
+      - PL_8du.shop 8
+      - PL_8du.shop 9
       - PL 8
-      - PL 9
-      - PL 10
-      - PL 11
-      - PL 12
-      - PL 13
-      - CN_8du.shop 5
-      - PL 14
-      - PL 15
-      - PL 16
-      - PL 17
-      - CN_8du.shop 6
-      - CN
-      - CN 2
-      - CN_8du.shop 7
-      - PL 18
-      - PL 19
-      - PL 20
-      - PL 21
-      - CN 3
-      - CN_8du.shop 8
-      - TW_8du.shop 3
-      - PL 22
-      - PL_8du.shop 2
-      - PL 23
-      - PL 24
-      - PL 25
-      - PL 26
-      - PL 27
-      - PL 28
-      - CN 4
-      - CN_8du.shop 9
-      - PL 29
-      - JP_8du.shop 2
-      - US_8du.shop
-      - PL 30
-      - ES
-      - PL 31
-      - PL 32
-      - PL_8du.shop 3
-      - PL 33
-      - NL
-      - PL 34
-      - US_8du.shop 2
-      - 8du.shop
-      - PL 35
-      - PL 36
+      - PL_8du.shop 10
+      - PL_8du.shop 11
       - CN_8du.shop 10
-      - PL 37
-      - CN_8du.shop 11
-      - PL 38
-      - -AU-0416节点14:00-52_52
-      - CN_8du.shop 12
+      - AU_8du.shop 2
+      - US
+      - US_8du.shop
+      - PL 9
+      - PL_8du.shop 12
+      - PL_8du.shop 13
+      - PL 10
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -316,75 +224,52 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TW_8du.shop
+      - CN
       - CN_8du.shop
-      - PL
+      - CN 2
+      - CN 3
+      - CN 4
+      - CN 5
+      - CN 6
       - CN_8du.shop 2
-      - TW
+      - AU_8du.shop
+      - CN 7
       - CN_8du.shop 3
-      - TW_8du.shop 2
+      - CN_8du.shop 4
+      - CN_8du.shop 5
+      - CN_8du.shop 6
+      - PL
+      - CN_8du.shop 7
       - PL 2
-      - JP_8du.shop
+      - PL_8du.shop
+      - CN_8du.shop 8
+      - PL_8du.shop 2
+      - CN_8du.shop 9
+      - CN 8
+      - PL_8du.shop 3
       - PL 3
       - PL 4
-      - CN_8du.shop 4
-      - PL_8du.shop
+      - PL_8du.shop 4
       - PL 5
+      - PL_8du.shop 5
       - PL 6
+      - CN 9
+      - PL_8du.shop 6
+      - PL_8du.shop 7
       - PL 7
+      - PL_8du.shop 8
+      - PL_8du.shop 9
       - PL 8
-      - PL 9
-      - PL 10
-      - PL 11
-      - PL 12
-      - PL 13
-      - CN_8du.shop 5
-      - PL 14
-      - PL 15
-      - PL 16
-      - PL 17
-      - CN_8du.shop 6
-      - CN
-      - CN 2
-      - CN_8du.shop 7
-      - PL 18
-      - PL 19
-      - PL 20
-      - PL 21
-      - CN 3
-      - CN_8du.shop 8
-      - TW_8du.shop 3
-      - PL 22
-      - PL_8du.shop 2
-      - PL 23
-      - PL 24
-      - PL 25
-      - PL 26
-      - PL 27
-      - PL 28
-      - CN 4
-      - CN_8du.shop 9
-      - PL 29
-      - JP_8du.shop 2
-      - US_8du.shop
-      - PL 30
-      - ES
-      - PL 31
-      - PL 32
-      - PL_8du.shop 3
-      - PL 33
-      - NL
-      - PL 34
-      - US_8du.shop 2
-      - 8du.shop
-      - PL 35
-      - PL 36
+      - PL_8du.shop 10
+      - PL_8du.shop 11
       - CN_8du.shop 10
-      - PL 37
-      - CN_8du.shop 11
-      - PL 38
-      - -AU-0416节点14:00-52_52
-      - CN_8du.shop 12
+      - AU_8du.shop 2
+      - US
+      - US_8du.shop
+      - PL 9
+      - PL_8du.shop 12
+      - PL_8du.shop 13
+      - PL 10
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -395,224 +280,155 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - TW_8du.shop
+      - CN
       - CN_8du.shop
-      - PL
+      - CN 2
+      - CN 3
+      - CN 4
+      - CN 5
+      - CN 6
       - CN_8du.shop 2
-      - TW
+      - AU_8du.shop
+      - CN 7
       - CN_8du.shop 3
-      - TW_8du.shop 2
+      - CN_8du.shop 4
+      - CN_8du.shop 5
+      - CN_8du.shop 6
+      - PL
+      - CN_8du.shop 7
       - PL 2
-      - JP_8du.shop
+      - PL_8du.shop
+      - CN_8du.shop 8
+      - PL_8du.shop 2
+      - CN_8du.shop 9
+      - CN 8
+      - PL_8du.shop 3
       - PL 3
       - PL 4
-      - CN_8du.shop 4
-      - PL_8du.shop
+      - PL_8du.shop 4
       - PL 5
+      - PL_8du.shop 5
       - PL 6
+      - CN 9
+      - PL_8du.shop 6
+      - PL_8du.shop 7
       - PL 7
+      - PL_8du.shop 8
+      - PL_8du.shop 9
       - PL 8
-      - PL 9
-      - PL 10
-      - PL 11
-      - PL 12
-      - PL 13
-      - CN_8du.shop 5
-      - PL 14
-      - PL 15
-      - PL 16
-      - PL 17
-      - CN_8du.shop 6
-      - CN
-      - CN 2
-      - CN_8du.shop 7
-      - PL 18
-      - PL 19
-      - PL 20
-      - PL 21
-      - CN 3
-      - CN_8du.shop 8
-      - TW_8du.shop 3
-      - PL 22
-      - PL_8du.shop 2
-      - PL 23
-      - PL 24
-      - PL 25
-      - PL 26
-      - PL 27
-      - PL 28
-      - CN 4
-      - CN_8du.shop 9
-      - PL 29
-      - JP_8du.shop 2
-      - US_8du.shop
-      - PL 30
-      - ES
-      - PL 31
-      - PL 32
-      - PL_8du.shop 3
-      - PL 33
-      - NL
-      - PL 34
-      - US_8du.shop 2
-      - 8du.shop
-      - PL 35
-      - PL 36
+      - PL_8du.shop 10
+      - PL_8du.shop 11
       - CN_8du.shop 10
-      - PL 37
-      - CN_8du.shop 11
-      - PL 38
-      - -AU-0416节点14:00-52_52
-      - CN_8du.shop 12
+      - AU_8du.shop 2
+      - US
+      - US_8du.shop
+      - PL 9
+      - PL_8du.shop 12
+      - PL_8du.shop 13
+      - PL 10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - TW_8du.shop
+      - CN
       - CN_8du.shop
-      - PL
+      - CN 2
+      - CN 3
+      - CN 4
+      - CN 5
+      - CN 6
       - CN_8du.shop 2
-      - TW
+      - AU_8du.shop
+      - CN 7
       - CN_8du.shop 3
-      - TW_8du.shop 2
+      - CN_8du.shop 4
+      - CN_8du.shop 5
+      - CN_8du.shop 6
+      - PL
+      - CN_8du.shop 7
       - PL 2
-      - JP_8du.shop
+      - PL_8du.shop
+      - CN_8du.shop 8
+      - PL_8du.shop 2
+      - CN_8du.shop 9
+      - CN 8
+      - PL_8du.shop 3
       - PL 3
       - PL 4
-      - CN_8du.shop 4
-      - PL_8du.shop
+      - PL_8du.shop 4
       - PL 5
+      - PL_8du.shop 5
       - PL 6
+      - CN 9
+      - PL_8du.shop 6
+      - PL_8du.shop 7
       - PL 7
+      - PL_8du.shop 8
+      - PL_8du.shop 9
       - PL 8
-      - PL 9
-      - PL 10
-      - PL 11
-      - PL 12
-      - PL 13
-      - CN_8du.shop 5
-      - PL 14
-      - PL 15
-      - PL 16
-      - PL 17
-      - CN_8du.shop 6
-      - CN
-      - CN 2
-      - CN_8du.shop 7
-      - PL 18
-      - PL 19
-      - PL 20
-      - PL 21
-      - CN 3
-      - CN_8du.shop 8
-      - TW_8du.shop 3
-      - PL 22
-      - PL_8du.shop 2
-      - PL 23
-      - PL 24
-      - PL 25
-      - PL 26
-      - PL 27
-      - PL 28
-      - CN 4
-      - CN_8du.shop 9
-      - PL 29
-      - JP_8du.shop 2
-      - US_8du.shop
-      - PL 30
-      - ES
-      - PL 31
-      - PL 32
-      - PL_8du.shop 3
-      - PL 33
-      - NL
-      - PL 34
-      - US_8du.shop 2
-      - 8du.shop
-      - PL 35
-      - PL 36
+      - PL_8du.shop 10
+      - PL_8du.shop 11
       - CN_8du.shop 10
-      - PL 37
-      - CN_8du.shop 11
-      - PL 38
-      - -AU-0416节点14:00-52_52
-      - CN_8du.shop 12
+      - AU_8du.shop 2
+      - US
+      - US_8du.shop
+      - PL 9
+      - PL_8du.shop 12
+      - PL_8du.shop 13
+      - PL 10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TW_8du.shop
+      - CN
       - CN_8du.shop
-      - PL
+      - CN 2
+      - CN 3
+      - CN 4
+      - CN 5
+      - CN 6
       - CN_8du.shop 2
-      - TW
+      - AU_8du.shop
+      - CN 7
       - CN_8du.shop 3
-      - TW_8du.shop 2
+      - CN_8du.shop 4
+      - CN_8du.shop 5
+      - CN_8du.shop 6
+      - PL
+      - CN_8du.shop 7
       - PL 2
-      - JP_8du.shop
+      - PL_8du.shop
+      - CN_8du.shop 8
+      - PL_8du.shop 2
+      - CN_8du.shop 9
+      - CN 8
+      - PL_8du.shop 3
       - PL 3
       - PL 4
-      - CN_8du.shop 4
-      - PL_8du.shop
+      - PL_8du.shop 4
       - PL 5
+      - PL_8du.shop 5
       - PL 6
+      - CN 9
+      - PL_8du.shop 6
+      - PL_8du.shop 7
       - PL 7
+      - PL_8du.shop 8
+      - PL_8du.shop 9
       - PL 8
-      - PL 9
-      - PL 10
-      - PL 11
-      - PL 12
-      - PL 13
-      - CN_8du.shop 5
-      - PL 14
-      - PL 15
-      - PL 16
-      - PL 17
-      - CN_8du.shop 6
-      - CN
-      - CN 2
-      - CN_8du.shop 7
-      - PL 18
-      - PL 19
-      - PL 20
-      - PL 21
-      - CN 3
-      - CN_8du.shop 8
-      - TW_8du.shop 3
-      - PL 22
-      - PL_8du.shop 2
-      - PL 23
-      - PL 24
-      - PL 25
-      - PL 26
-      - PL 27
-      - PL 28
-      - CN 4
-      - CN_8du.shop 9
-      - PL 29
-      - JP_8du.shop 2
-      - US_8du.shop
-      - PL 30
-      - ES
-      - PL 31
-      - PL 32
-      - PL_8du.shop 3
-      - PL 33
-      - NL
-      - PL 34
-      - US_8du.shop 2
-      - 8du.shop
-      - PL 35
-      - PL 36
+      - PL_8du.shop 10
+      - PL_8du.shop 11
       - CN_8du.shop 10
-      - PL 37
-      - CN_8du.shop 11
-      - PL 38
-      - -AU-0416节点14:00-52_52
-      - CN_8du.shop 12
+      - AU_8du.shop 2
+      - US
+      - US_8du.shop
+      - PL 9
+      - PL_8du.shop 12
+      - PL_8du.shop 13
+      - PL 10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -628,75 +444,52 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TW_8du.shop
+      - CN
       - CN_8du.shop
-      - PL
+      - CN 2
+      - CN 3
+      - CN 4
+      - CN 5
+      - CN 6
       - CN_8du.shop 2
-      - TW
+      - AU_8du.shop
+      - CN 7
       - CN_8du.shop 3
-      - TW_8du.shop 2
+      - CN_8du.shop 4
+      - CN_8du.shop 5
+      - CN_8du.shop 6
+      - PL
+      - CN_8du.shop 7
       - PL 2
-      - JP_8du.shop
+      - PL_8du.shop
+      - CN_8du.shop 8
+      - PL_8du.shop 2
+      - CN_8du.shop 9
+      - CN 8
+      - PL_8du.shop 3
       - PL 3
       - PL 4
-      - CN_8du.shop 4
-      - PL_8du.shop
+      - PL_8du.shop 4
       - PL 5
+      - PL_8du.shop 5
       - PL 6
+      - CN 9
+      - PL_8du.shop 6
+      - PL_8du.shop 7
       - PL 7
+      - PL_8du.shop 8
+      - PL_8du.shop 9
       - PL 8
-      - PL 9
-      - PL 10
-      - PL 11
-      - PL 12
-      - PL 13
-      - CN_8du.shop 5
-      - PL 14
-      - PL 15
-      - PL 16
-      - PL 17
-      - CN_8du.shop 6
-      - CN
-      - CN 2
-      - CN_8du.shop 7
-      - PL 18
-      - PL 19
-      - PL 20
-      - PL 21
-      - CN 3
-      - CN_8du.shop 8
-      - TW_8du.shop 3
-      - PL 22
-      - PL_8du.shop 2
-      - PL 23
-      - PL 24
-      - PL 25
-      - PL 26
-      - PL 27
-      - PL 28
-      - CN 4
-      - CN_8du.shop 9
-      - PL 29
-      - JP_8du.shop 2
-      - US_8du.shop
-      - PL 30
-      - ES
-      - PL 31
-      - PL 32
-      - PL_8du.shop 3
-      - PL 33
-      - NL
-      - PL 34
-      - US_8du.shop 2
-      - 8du.shop
-      - PL 35
-      - PL 36
+      - PL_8du.shop 10
+      - PL_8du.shop 11
       - CN_8du.shop 10
-      - PL 37
-      - CN_8du.shop 11
-      - PL 38
-      - -AU-0416节点14:00-52_52
-      - CN_8du.shop 12
+      - AU_8du.shop 2
+      - US
+      - US_8du.shop
+      - PL 9
+      - PL_8du.shop 12
+      - PL_8du.shop 13
+      - PL 10
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
