@@ -5,51 +5,71 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US_8du.shop, server: lzq02.ugatk.ml, port: 443, type: vmess, uuid: 71a222de-6ec9-4bfb-872f-a0b39a10028f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /7cd2305/, ws-headers: {Host: lzq02.ugatk.ml}, udp: true}
-  - {name: GB_8du.shop, server: 2.hmykr1.tk, port: 58739, type: trojan, password: 7b567rw1Bp, sni: 2.hmykr1.tk, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop, server: 1.0-hk.a.bp2022.top, port: 13324, type: vmess, uuid: 292c8c43-5234-4987-8466-b3b233533971, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_8du.shop 2, server: 45.66.157.174, port: 49192, type: vmess, uuid: 9451e6e0-c125-11ec-8012-00163c76ea30, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /atG37YNW/, ws-headers: {Host: 45.66.157.174}, udp: true}
-  - {name: CN_8du.shop 2, server: fkgfw-prod.i.sxl.cn, port: 443, type: ss, cipher: aes-256-cfb, password: E4DNMf73kHPrd8Qq7aqGPf7f, udp: true}
-  - {name: CN_8du.shop 3, server: dns.ysguanggang.xyz, port: 41804, type: vmess, uuid: f1886be0-5338-493d-ae5e-2cfea20a73b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /yunsunode, ws-headers: {Host: dns.ysguanggang.xyz}, udp: true}
-  - {name: SG_8du.shop, server: v2-2.godlight.xyz, port: 30523, type: vmess, uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /54f634fs, ws-headers: {Host: v2-2.godlight.xyz}, udp: true}
+  - {name: 法国Do-广东移动负载聚合双线_25, server: gzyd.xxcv.cc, port: 20005, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, sni: gzyd.xxcv.cc, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop, server: sg2603.cloudmatrix.xyz, port: 2603, type: vmess, uuid: a992be42-bed4-3037-8788-9e860cd635d3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 2, server: hnt.stashbox.best, port: 50050, type: vmess, uuid: 65aa9fbd-4185-47ee-80be-34721dee1ff0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hnt.stashbox.best}, udp: true}
+  - {name: CN_8du.shop 3, server: us24052.cloudmatrix.xyz, port: 24052, type: vmess, uuid: a992be42-bed4-3037-8788-9e860cd635d3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 4, server: us2406.cloudmatrix.xyz, port: 2406, type: vmess, uuid: a992be42-bed4-3037-8788-9e860cd635d3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 5, server: jp21301.cloudmatrix.xyz, port: 21301, type: vmess, uuid: a992be42-bed4-3037-8788-9e860cd635d3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 6, server: sg2604.cloudmatrix.xyz, port: 2604, type: vmess, uuid: a992be42-bed4-3037-8788-9e860cd635d3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: US_8du.shop, server: 104.25.234.170, port: 443, type: vmess, uuid: f78db9ae-24c2-4a83-9d96-e8def79d0379, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: jp02.884899.cf}, udp: true}
+  - {name: US_8du.shop 2, server: us1.qingyun123.xyz, port: 10050, type: trojan, password: 869d7217-8ad4-4265-be69-5a848afadebf, sni: us1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: HK_8du.shop, server: hkt.zhongyun.xyz, port: 43312, type: vmess, uuid: 2eae0876-b17f-4f57-af38-c138668db626, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /c, ws-headers: {Host: hkt.zhongyun.xyz}, udp: true}
+  - {name: US_8du.shop 3, server: 1chuan.top, port: 443, type: vmess, uuid: fa8f90e0-2fae-4b05-df7a-ea325bc517d8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /evo, ws-headers: {Host: 1chuan.top}, udp: true}
+  - {name: VN_8du.shop, server: vn01v2.datapn.net, port: 443, type: trojan, password: 2c7489bd-6968-4105-8f56-83ceb1590e7b, sni: vn01v2.datapn.net, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_8du.shop
-      - GB_8du.shop
+      - 法国Do-广东移动负载聚合双线_25
       - CN_8du.shop
-      - US_8du.shop 2
       - CN_8du.shop 2
       - CN_8du.shop 3
-      - SG_8du.shop
+      - CN_8du.shop 4
+      - CN_8du.shop 5
+      - CN_8du.shop 6
+      - US_8du.shop
+      - US_8du.shop 2
+      - HK_8du.shop
+      - US_8du.shop 3
+      - VN_8du.shop
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - US_8du.shop
-      - GB_8du.shop
+      - 法国Do-广东移动负载聚合双线_25
       - CN_8du.shop
-      - US_8du.shop 2
       - CN_8du.shop 2
       - CN_8du.shop 3
-      - SG_8du.shop
+      - CN_8du.shop 4
+      - CN_8du.shop 5
+      - CN_8du.shop 6
+      - US_8du.shop
+      - US_8du.shop 2
+      - HK_8du.shop
+      - US_8du.shop 3
+      - VN_8du.shop
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_8du.shop
-      - GB_8du.shop
+      - 法国Do-广东移动负载聚合双线_25
       - CN_8du.shop
-      - US_8du.shop 2
       - CN_8du.shop 2
       - CN_8du.shop 3
-      - SG_8du.shop
+      - CN_8du.shop 4
+      - CN_8du.shop 5
+      - CN_8du.shop 6
+      - US_8du.shop
+      - US_8du.shop 2
+      - HK_8du.shop
+      - US_8du.shop 3
+      - VN_8du.shop
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -68,13 +88,18 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_8du.shop
-      - GB_8du.shop
+      - 法国Do-广东移动负载聚合双线_25
       - CN_8du.shop
-      - US_8du.shop 2
       - CN_8du.shop 2
       - CN_8du.shop 3
-      - SG_8du.shop
+      - CN_8du.shop 4
+      - CN_8du.shop 5
+      - CN_8du.shop 6
+      - US_8du.shop
+      - US_8du.shop 2
+      - HK_8du.shop
+      - US_8du.shop 3
+      - VN_8du.shop
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -85,38 +110,53 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - US_8du.shop
-      - GB_8du.shop
+      - 法国Do-广东移动负载聚合双线_25
       - CN_8du.shop
-      - US_8du.shop 2
       - CN_8du.shop 2
       - CN_8du.shop 3
-      - SG_8du.shop
+      - CN_8du.shop 4
+      - CN_8du.shop 5
+      - CN_8du.shop 6
+      - US_8du.shop
+      - US_8du.shop 2
+      - HK_8du.shop
+      - US_8du.shop 3
+      - VN_8du.shop
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - US_8du.shop
-      - GB_8du.shop
+      - 法国Do-广东移动负载聚合双线_25
       - CN_8du.shop
-      - US_8du.shop 2
       - CN_8du.shop 2
       - CN_8du.shop 3
-      - SG_8du.shop
+      - CN_8du.shop 4
+      - CN_8du.shop 5
+      - CN_8du.shop 6
+      - US_8du.shop
+      - US_8du.shop 2
+      - HK_8du.shop
+      - US_8du.shop 3
+      - VN_8du.shop
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_8du.shop
-      - GB_8du.shop
+      - 法国Do-广东移动负载聚合双线_25
       - CN_8du.shop
-      - US_8du.shop 2
       - CN_8du.shop 2
       - CN_8du.shop 3
-      - SG_8du.shop
+      - CN_8du.shop 4
+      - CN_8du.shop 5
+      - CN_8du.shop 6
+      - US_8du.shop
+      - US_8du.shop 2
+      - HK_8du.shop
+      - US_8du.shop 3
+      - VN_8du.shop
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -132,13 +172,18 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_8du.shop
-      - GB_8du.shop
+      - 法国Do-广东移动负载聚合双线_25
       - CN_8du.shop
-      - US_8du.shop 2
       - CN_8du.shop 2
       - CN_8du.shop 3
-      - SG_8du.shop
+      - CN_8du.shop 4
+      - CN_8du.shop 5
+      - CN_8du.shop 6
+      - US_8du.shop
+      - US_8du.shop 2
+      - HK_8du.shop
+      - US_8du.shop 3
+      - VN_8du.shop
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
