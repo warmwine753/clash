@@ -5,71 +5,171 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 法国Do-广东移动负载聚合双线_25, server: gzyd.xxcv.cc, port: 20005, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, sni: gzyd.xxcv.cc, skip-cert-verify: true, udp: true}
-  - {name: CN_8du.shop, server: sg2603.cloudmatrix.xyz, port: 2603, type: vmess, uuid: a992be42-bed4-3037-8788-9e860cd635d3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: CN_8du.shop 2, server: hnt.stashbox.best, port: 50050, type: vmess, uuid: 65aa9fbd-4185-47ee-80be-34721dee1ff0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hnt.stashbox.best}, udp: true}
-  - {name: CN_8du.shop 3, server: us24052.cloudmatrix.xyz, port: 24052, type: vmess, uuid: a992be42-bed4-3037-8788-9e860cd635d3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: CN_8du.shop 4, server: us2406.cloudmatrix.xyz, port: 2406, type: vmess, uuid: a992be42-bed4-3037-8788-9e860cd635d3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: CN_8du.shop 5, server: jp21301.cloudmatrix.xyz, port: 21301, type: vmess, uuid: a992be42-bed4-3037-8788-9e860cd635d3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: CN_8du.shop 6, server: sg2604.cloudmatrix.xyz, port: 2604, type: vmess, uuid: a992be42-bed4-3037-8788-9e860cd635d3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: US_8du.shop, server: 104.25.234.170, port: 443, type: vmess, uuid: f78db9ae-24c2-4a83-9d96-e8def79d0379, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Support-Putin-Kill-all-Ukrainians_vws, ws-headers: {Host: jp02.884899.cf}, udp: true}
-  - {name: US_8du.shop 2, server: us1.qingyun123.xyz, port: 10050, type: trojan, password: 869d7217-8ad4-4265-be69-5a848afadebf, sni: us1.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: HK_8du.shop, server: hkt.zhongyun.xyz, port: 43312, type: vmess, uuid: 2eae0876-b17f-4f57-af38-c138668db626, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /c, ws-headers: {Host: hkt.zhongyun.xyz}, udp: true}
-  - {name: US_8du.shop 3, server: 1chuan.top, port: 443, type: vmess, uuid: fa8f90e0-2fae-4b05-df7a-ea325bc517d8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /evo, ws-headers: {Host: 1chuan.top}, udp: true}
-  - {name: VN_8du.shop, server: vn01v2.datapn.net, port: 443, type: trojan, password: 2c7489bd-6968-4105-8f56-83ceb1590e7b, sni: vn01v2.datapn.net, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop, server: cs.anoob.icu, port: 12001, type: ss, cipher: chacha20-ietf-poly1305, password: 72b8aca3-ddcc-4c84-980a-98e853b3b10c, udp: true}
+  - {name: CN_8du.shop 2, server: 183.232.163.120, port: 21125, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: "Singapore, SS - B Group", server: ss-node-3-b.gfwairport.net, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 8f19a2d0-4fd0-4a7d-816d-761e1f5d87d7, udp: true}
+  - {name: CN_8du.shop 3, server: cn1.relay.iepl.pw, port: 50500, type: ss, cipher: aes-128-gcm, password: fd7d22dc-e0e4-436a-8f70-b873d4d95236, udp: true}
+  - {name: HK_8du.shop, server: 104.208.88.1, port: 80, type: vmess, uuid: 985dc171-40f8-4daf-b1ca-c8fb6aecdb72, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}, udp: true}
+  - {name: CN_8du.shop 4, server: 183.232.163.120, port: 21122, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 5, server: shcu.relay01.insnow.xyz, port: 19912, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: shcu.relay01.insnow.xyz, skip-cert-verify: true, udp: true}
+  - {name: "Incheon, Tj - B Group", server: tj-node-2-b.gfwairport.net, port: 50001, type: trojan, password: 8f19a2d0-4fd0-4a7d-816d-761e1f5d87d7, sni: tj-node-2-b.gfwairport.net, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop 6, server: in04.dns2333.xyz, port: 64078, type: vmess, uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: in04.dns2333.xyz}, udp: true}
+  - {name: CN_8du.shop 7, server: 183.240.181.36, port: 12504, type: ss, cipher: chacha20-ietf-poly1305, password: 354b8f96-75a1-4488-9aaf-25329f8a36ff, udp: true}
+  - {name: CN_8du.shop 8, server: shcu.relay01.insnow.xyz, port: 19901, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: shcu.relay01.insnow.xyz, skip-cert-verify: true, udp: true}
+  - {name: "Tokyo, V2 - B Group", server: V2-NODE-1-B.GFWAIRPORT.NET, port: 50001, type: vmess, uuid: 8f19a2d0-4fd0-4a7d-816d-761e1f5d87d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: V2-NODE-1-B.GFWAIRPORT.NET}, udp: true}
+  - {name: CN_8du.shop 9, server: 183.232.163.120, port: 21113, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 10, server: 183.232.163.120, port: 21133, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 11, server: 183.232.163.120, port: 21124, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: 8du.shop, server: www.digitalocean.com, port: 443, type: vmess, uuid: 589756d8-2214-49d5-995b-ed3b43f8cb78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cctvvws, ws-headers: {Host: olo.aoyyds.tk}, udp: true}
+  - {name: "Incheon, SS - B Group", server: ss-node-2-b.gfwairport.net, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 8f19a2d0-4fd0-4a7d-816d-761e1f5d87d7, udp: true}
+  - {name: T01-IPLC 深港 A NF-HK, server: trohka.qtoh.xyz, port: 13001, type: trojan, password: c7d93aa8-4cde-3694-a79f-bbde12f42139, sni: trohka.qtoh.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop 12, server: 183.232.163.120, port: 21114, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: T01-IPLC 深港 D, server: trohkd.qtoh.xyz, port: 13004, type: trojan, password: c7d93aa8-4cde-3694-a79f-bbde12f42139, sni: trohkd.qtoh.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop 13, server: shcu.relay01.insnow.xyz, port: 19919, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: shcu.relay01.insnow.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop 14, server: 120.233.10.230, port: 50200, type: ss, cipher: aes-128-gcm, password: fd7d22dc-e0e4-436a-8f70-b873d4d95236, udp: true}
+  - {name: CN_8du.shop 15, server: 183.232.163.120, port: 21140, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: T09 -BGP 新加坡 A, server: trobgpsga.qtoh.xyz, port: 14008, type: trojan, password: c7d93aa8-4cde-3694-a79f-bbde12f42139, sni: trobgpsga.qtoh.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop 16, server: 183.232.163.120, port: 21126, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 17, server: 120.233.10.230, port: 50500, type: ss, cipher: aes-128-gcm, password: fd7d22dc-e0e4-436a-8f70-b873d4d95236, udp: true}
+  - {name: CN_8du.shop 18, server: 183.232.163.120, port: 21139, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 19, server: 183.232.163.120, port: 21116, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: "Singapore, V2", server: V2-NODE-3.GFWAIRPORT.NET, port: 50001, type: vmess, uuid: 9cfba0f2-9fe6-4874-841c-6ecedfde5d4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: V2-NODE-3.GFWAIRPORT.NET}, udp: true}
+  - {name: CN_8du.shop 20, server: 116.163.14.127, port: 65450, type: vmess, uuid: d9183468-6297-4d41-a74a-d73fadfd6283, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop 21, server: 116.163.14.127, port: 65450, type: vmess, uuid: d9183468-6297-4d41-a74a-d73fadfd6283, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: US_8du.shop, server: node.774.gs, port: 8443, type: vmess, uuid: 28f6159e-ed46-4bfe-b893-0e7531c28143, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: node.774.gs}, udp: true}
+  - {name: CN_8du.shop 22, server: 183.232.163.120, port: 21134, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8du.shop 23, server: 120.233.10.230, port: 50700, type: ss, cipher: aes-128-gcm, password: fd7d22dc-e0e4-436a-8f70-b873d4d95236, udp: true}
+  - {name: IN_8du.shop, server: doin.node003.insnow.xyz, port: 9933, type: trojan, password: 9a057015-6dfb-4b57-9f69-877423598741, sni: doin.node003.insnow.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN_8du.shop 24, server: 183.232.163.120, port: 21136, type: vmess, uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: "Tokyo, Tj - B Group", server: tj-node-1-b.gfwairport.net, port: 50001, type: trojan, password: 8f19a2d0-4fd0-4a7d-816d-761e1f5d87d7, sni: tj-node-1-b.gfwairport.net, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 法国Do-广东移动负载聚合双线_25
       - CN_8du.shop
       - CN_8du.shop 2
+      - Singapore, SS - B Group
       - CN_8du.shop 3
+      - HK_8du.shop
       - CN_8du.shop 4
       - CN_8du.shop 5
+      - Incheon, Tj - B Group
       - CN_8du.shop 6
+      - CN_8du.shop 7
+      - CN_8du.shop 8
+      - Tokyo, V2 - B Group
+      - CN_8du.shop 9
+      - CN_8du.shop 10
+      - CN_8du.shop 11
+      - 8du.shop
+      - Incheon, SS - B Group
+      - T01-IPLC 深港 A NF-HK
+      - CN_8du.shop 12
+      - T01-IPLC 深港 D
+      - CN_8du.shop 13
+      - CN_8du.shop 14
+      - CN_8du.shop 15
+      - T09 -BGP 新加坡 A
+      - CN_8du.shop 16
+      - CN_8du.shop 17
+      - CN_8du.shop 18
+      - CN_8du.shop 19
+      - Singapore, V2
+      - CN_8du.shop 20
+      - CN_8du.shop 21
       - US_8du.shop
-      - US_8du.shop 2
-      - HK_8du.shop
-      - US_8du.shop 3
-      - VN_8du.shop
+      - CN_8du.shop 22
+      - CN_8du.shop 23
+      - IN_8du.shop
+      - CN_8du.shop 24
+      - Tokyo, Tj - B Group
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 法国Do-广东移动负载聚合双线_25
       - CN_8du.shop
       - CN_8du.shop 2
+      - Singapore, SS - B Group
       - CN_8du.shop 3
+      - HK_8du.shop
       - CN_8du.shop 4
       - CN_8du.shop 5
+      - Incheon, Tj - B Group
       - CN_8du.shop 6
+      - CN_8du.shop 7
+      - CN_8du.shop 8
+      - Tokyo, V2 - B Group
+      - CN_8du.shop 9
+      - CN_8du.shop 10
+      - CN_8du.shop 11
+      - 8du.shop
+      - Incheon, SS - B Group
+      - T01-IPLC 深港 A NF-HK
+      - CN_8du.shop 12
+      - T01-IPLC 深港 D
+      - CN_8du.shop 13
+      - CN_8du.shop 14
+      - CN_8du.shop 15
+      - T09 -BGP 新加坡 A
+      - CN_8du.shop 16
+      - CN_8du.shop 17
+      - CN_8du.shop 18
+      - CN_8du.shop 19
+      - Singapore, V2
+      - CN_8du.shop 20
+      - CN_8du.shop 21
       - US_8du.shop
-      - US_8du.shop 2
-      - HK_8du.shop
-      - US_8du.shop 3
-      - VN_8du.shop
+      - CN_8du.shop 22
+      - CN_8du.shop 23
+      - IN_8du.shop
+      - CN_8du.shop 24
+      - Tokyo, Tj - B Group
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 法国Do-广东移动负载聚合双线_25
       - CN_8du.shop
       - CN_8du.shop 2
+      - Singapore, SS - B Group
       - CN_8du.shop 3
+      - HK_8du.shop
       - CN_8du.shop 4
       - CN_8du.shop 5
+      - Incheon, Tj - B Group
       - CN_8du.shop 6
+      - CN_8du.shop 7
+      - CN_8du.shop 8
+      - Tokyo, V2 - B Group
+      - CN_8du.shop 9
+      - CN_8du.shop 10
+      - CN_8du.shop 11
+      - 8du.shop
+      - Incheon, SS - B Group
+      - T01-IPLC 深港 A NF-HK
+      - CN_8du.shop 12
+      - T01-IPLC 深港 D
+      - CN_8du.shop 13
+      - CN_8du.shop 14
+      - CN_8du.shop 15
+      - T09 -BGP 新加坡 A
+      - CN_8du.shop 16
+      - CN_8du.shop 17
+      - CN_8du.shop 18
+      - CN_8du.shop 19
+      - Singapore, V2
+      - CN_8du.shop 20
+      - CN_8du.shop 21
       - US_8du.shop
-      - US_8du.shop 2
-      - HK_8du.shop
-      - US_8du.shop 3
-      - VN_8du.shop
+      - CN_8du.shop 22
+      - CN_8du.shop 23
+      - IN_8du.shop
+      - CN_8du.shop 24
+      - Tokyo, Tj - B Group
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -88,75 +188,177 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 法国Do-广东移动负载聚合双线_25
       - CN_8du.shop
       - CN_8du.shop 2
+      - Singapore, SS - B Group
       - CN_8du.shop 3
+      - HK_8du.shop
       - CN_8du.shop 4
       - CN_8du.shop 5
+      - Incheon, Tj - B Group
       - CN_8du.shop 6
+      - CN_8du.shop 7
+      - CN_8du.shop 8
+      - Tokyo, V2 - B Group
+      - CN_8du.shop 9
+      - CN_8du.shop 10
+      - CN_8du.shop 11
+      - 8du.shop
+      - Incheon, SS - B Group
+      - T01-IPLC 深港 A NF-HK
+      - CN_8du.shop 12
+      - T01-IPLC 深港 D
+      - CN_8du.shop 13
+      - CN_8du.shop 14
+      - CN_8du.shop 15
+      - T09 -BGP 新加坡 A
+      - CN_8du.shop 16
+      - CN_8du.shop 17
+      - CN_8du.shop 18
+      - CN_8du.shop 19
+      - Singapore, V2
+      - CN_8du.shop 20
+      - CN_8du.shop 21
       - US_8du.shop
-      - US_8du.shop 2
-      - HK_8du.shop
-      - US_8du.shop 3
-      - VN_8du.shop
+      - CN_8du.shop 22
+      - CN_8du.shop 23
+      - IN_8du.shop
+      - CN_8du.shop 24
+      - Tokyo, Tj - B Group
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - T01-IPLC 深港 A NF-HK
+      - T01-IPLC 深港 D
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 法国Do-广东移动负载聚合双线_25
       - CN_8du.shop
       - CN_8du.shop 2
+      - Singapore, SS - B Group
       - CN_8du.shop 3
+      - HK_8du.shop
       - CN_8du.shop 4
       - CN_8du.shop 5
+      - Incheon, Tj - B Group
       - CN_8du.shop 6
+      - CN_8du.shop 7
+      - CN_8du.shop 8
+      - Tokyo, V2 - B Group
+      - CN_8du.shop 9
+      - CN_8du.shop 10
+      - CN_8du.shop 11
+      - 8du.shop
+      - Incheon, SS - B Group
+      - T01-IPLC 深港 A NF-HK
+      - CN_8du.shop 12
+      - T01-IPLC 深港 D
+      - CN_8du.shop 13
+      - CN_8du.shop 14
+      - CN_8du.shop 15
+      - T09 -BGP 新加坡 A
+      - CN_8du.shop 16
+      - CN_8du.shop 17
+      - CN_8du.shop 18
+      - CN_8du.shop 19
+      - Singapore, V2
+      - CN_8du.shop 20
+      - CN_8du.shop 21
       - US_8du.shop
-      - US_8du.shop 2
-      - HK_8du.shop
-      - US_8du.shop 3
-      - VN_8du.shop
+      - CN_8du.shop 22
+      - CN_8du.shop 23
+      - IN_8du.shop
+      - CN_8du.shop 24
+      - Tokyo, Tj - B Group
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 法国Do-广东移动负载聚合双线_25
       - CN_8du.shop
       - CN_8du.shop 2
+      - Singapore, SS - B Group
       - CN_8du.shop 3
+      - HK_8du.shop
       - CN_8du.shop 4
       - CN_8du.shop 5
+      - Incheon, Tj - B Group
       - CN_8du.shop 6
+      - CN_8du.shop 7
+      - CN_8du.shop 8
+      - Tokyo, V2 - B Group
+      - CN_8du.shop 9
+      - CN_8du.shop 10
+      - CN_8du.shop 11
+      - 8du.shop
+      - Incheon, SS - B Group
+      - T01-IPLC 深港 A NF-HK
+      - CN_8du.shop 12
+      - T01-IPLC 深港 D
+      - CN_8du.shop 13
+      - CN_8du.shop 14
+      - CN_8du.shop 15
+      - T09 -BGP 新加坡 A
+      - CN_8du.shop 16
+      - CN_8du.shop 17
+      - CN_8du.shop 18
+      - CN_8du.shop 19
+      - Singapore, V2
+      - CN_8du.shop 20
+      - CN_8du.shop 21
       - US_8du.shop
-      - US_8du.shop 2
-      - HK_8du.shop
-      - US_8du.shop 3
-      - VN_8du.shop
+      - CN_8du.shop 22
+      - CN_8du.shop 23
+      - IN_8du.shop
+      - CN_8du.shop 24
+      - Tokyo, Tj - B Group
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 法国Do-广东移动负载聚合双线_25
       - CN_8du.shop
       - CN_8du.shop 2
+      - Singapore, SS - B Group
       - CN_8du.shop 3
+      - HK_8du.shop
       - CN_8du.shop 4
       - CN_8du.shop 5
+      - Incheon, Tj - B Group
       - CN_8du.shop 6
+      - CN_8du.shop 7
+      - CN_8du.shop 8
+      - Tokyo, V2 - B Group
+      - CN_8du.shop 9
+      - CN_8du.shop 10
+      - CN_8du.shop 11
+      - 8du.shop
+      - Incheon, SS - B Group
+      - T01-IPLC 深港 A NF-HK
+      - CN_8du.shop 12
+      - T01-IPLC 深港 D
+      - CN_8du.shop 13
+      - CN_8du.shop 14
+      - CN_8du.shop 15
+      - T09 -BGP 新加坡 A
+      - CN_8du.shop 16
+      - CN_8du.shop 17
+      - CN_8du.shop 18
+      - CN_8du.shop 19
+      - Singapore, V2
+      - CN_8du.shop 20
+      - CN_8du.shop 21
       - US_8du.shop
-      - US_8du.shop 2
-      - HK_8du.shop
-      - US_8du.shop 3
-      - VN_8du.shop
+      - CN_8du.shop 22
+      - CN_8du.shop 23
+      - IN_8du.shop
+      - CN_8du.shop 24
+      - Tokyo, Tj - B Group
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -172,18 +374,43 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 法国Do-广东移动负载聚合双线_25
       - CN_8du.shop
       - CN_8du.shop 2
+      - Singapore, SS - B Group
       - CN_8du.shop 3
+      - HK_8du.shop
       - CN_8du.shop 4
       - CN_8du.shop 5
+      - Incheon, Tj - B Group
       - CN_8du.shop 6
+      - CN_8du.shop 7
+      - CN_8du.shop 8
+      - Tokyo, V2 - B Group
+      - CN_8du.shop 9
+      - CN_8du.shop 10
+      - CN_8du.shop 11
+      - 8du.shop
+      - Incheon, SS - B Group
+      - T01-IPLC 深港 A NF-HK
+      - CN_8du.shop 12
+      - T01-IPLC 深港 D
+      - CN_8du.shop 13
+      - CN_8du.shop 14
+      - CN_8du.shop 15
+      - T09 -BGP 新加坡 A
+      - CN_8du.shop 16
+      - CN_8du.shop 17
+      - CN_8du.shop 18
+      - CN_8du.shop 19
+      - Singapore, V2
+      - CN_8du.shop 20
+      - CN_8du.shop 21
       - US_8du.shop
-      - US_8du.shop 2
-      - HK_8du.shop
-      - US_8du.shop 3
-      - VN_8du.shop
+      - CN_8du.shop 22
+      - CN_8du.shop 23
+      - IN_8du.shop
+      - CN_8du.shop 24
+      - Tokyo, Tj - B Group
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
