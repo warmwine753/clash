@@ -5,71 +5,123 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: TW_8度商店 8du.shop 2, server: tw.thissitesucks.top, port: 443, type: vmess, uuid: 2d5076a5-acab-4f85-b875-9989a39a9577, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9dbd0/, ws-headers: {Host: tw.thissitesucks.top}, udp: true}
-  - {name: CN_8度商店 8du.shop, server: v3-node28.mimemi-y7et.com, port: 13116, type: ssr, cipher: aes-256-ctr, password: mimemi, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 256:ySh8ar, obfs-param: hk2sch7dd6f256.wns.windows.com, udp: true}
-  - {name: CN_8度商店 8du.shop 3, server: hncu.relay.qchwnd.moe, port: 10201, type: trojan, password: 5b059403-c05c-4609-ab01-a9352041d2e4, sni: hncu.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "1: SS: <CM,HK> rate 1.0", server: in4ba0929902b470.404sx.com, port: 62071, type: ss, cipher: aes-256-gcm, password: b2b351aa-700d-4454-ba4b-a08d0fd17fef, udp: true}
-  - {name: HKBGP 80 钉钉, server: 46.20.109.139, port: 80, type: vmess, uuid: e8559b1d-c4ba-4752-9901-34f8135b2c6e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index.php, ws-headers: {Host: tms.dingtalk.com}, udp: true}
-  - {name: "3: SS: <CM,JP> rate 1.0", server: in4ba0929902b470.404sx.com, port: 62093, type: ss, cipher: aes-256-gcm, password: b2b351aa-700d-4454-ba4b-a08d0fd17fef, udp: true}
-  - {name: "2: SS: <CM,US> rate 1.0", server: in4ba0929902b470.404sx.com, port: 62082, type: ss, cipher: aes-256-gcm, password: b2b351aa-700d-4454-ba4b-a08d0fd17fef, udp: true}
-  - {name: "3: SS: <CM,US> rate 1.0", server: in4ba0929902b470.404sx.com, port: 62083, type: ss, cipher: aes-256-gcm, password: b2b351aa-700d-4454-ba4b-a08d0fd17fef, udp: true}
-  - {name: DE_8度商店 8du.shop, server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s3.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: US_8度商店 8du.shop 9, server: 208.85.23.137, port: 27297, type: ss, cipher: aes-256-cfb, password: 67d4e302ac8f47bf92c42afe6f085221, udp: true}
-  - {name: CN_8度商店 8du.shop 10, server: cm-jm.okvpn.xyz, port: 20003, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: CN_8度商店 8du.shop 17, server: cm-jm.okvpn.xyz, port: 20005, type: trojan, password: da650643-87d3-4279-9b19-c8aa68568d16, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: _US_美国, server: 38.68.135.19, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: +HK_38010+@WangCai_1+16, server: ggiplc03.jfjfhg.com, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: 香港（Meteor） 14, server: ulose.win, port: 24787, type: vmess, uuid: 319fc6fc-a715-4763-f44e-eae525ebdc18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ulose.win}, udp: true}
+  - {name: +HK_38009+@WangCai_1, server: 120.232.82.202, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: +HK_38009+@WangCai_1+8, server: aflzz-us.yixuedianzishu.com, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: +HK_38009+@WangCai_1+19, server: huaweibgp.hntgxxjc.com, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: +HK_38010+@WangCai_1, server: 120.232.82.202, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: _GB_英国, server: 172.99.190.153, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: +HK_38010+@WangCai_1+20, server: sgiplc01.hntgxxjc.com, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: _GB_英国 2, server: 152.89.210.84, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: CN, server: gz-1.jiasugou.one, port: 15004, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/news, ws-headers: {Host: gz-1.jiasugou.one}, udp: true}
+  - {name: _US_美国 2, server: 169.197.142.99, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国（Meteor） 3, server: hmysanjose.tk, port: 22939, type: trojan, password: ncr8wxKXSS, sni: hmysanjose.tk, skip-cert-verify: true, udp: true}
+  - {name: _JP_日本, server: 85.208.108.234, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CN 2, server: gz-1.jiasugou.one, port: 15004, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/news, ws-headers: {Host: www.msn.cn}, udp: true}
+  - {name: +HK_38010+@WangCai_1+13, server: fliplc.getxlx.com, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: +HK_38010+@WangCai_1+19, server: huaweibgp.hntgxxjc.com, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: +DE_38607+@WangCai_1+9, server: aflzzul.yixuedianzishu.com, port: 38607, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: +HK_38009+@WangCai_1+13, server: fliplc.getxlx.com, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: +HK_38010+@WangCai_1+8, server: aflzz-us.yixuedianzishu.com, port: 38010, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: +HK_38009+@WangCai_1+17, server: gzjpiplc.hntgxxjc.com, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: US_油管频道 全网最强白嫖, server: v2ray.wefuckgfw.ga, port: 8443, type: vmess, uuid: 135284c6-b353-11ec-a378-52ac00ea1411, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /E94olUFf/, ws-headers: {Host: v2ray.wefuckgfw.ga}, udp: true}
+  - {name: +DE_38607+@WangCai_1+17, server: gzjpiplc.hntgxxjc.com, port: 38607, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: +FR_38609+@WangCai_1+20, server: sgiplc01.hntgxxjc.com, port: 38609, type: ss, cipher: chacha20-ietf-poly1305, password: 71e5c050-aea8-42ab-b6d4-8255172dd3be, udp: true}
+  - {name: _US_美国 3, server: 169.197.142.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TW_8度商店 8du.shop 2
-      - CN_8度商店 8du.shop
-      - CN_8度商店 8du.shop 3
-      - "1: SS: <CM,HK> rate 1.0"
-      - HKBGP 80 钉钉
-      - "3: SS: <CM,JP> rate 1.0"
-      - "2: SS: <CM,US> rate 1.0"
-      - "3: SS: <CM,US> rate 1.0"
-      - DE_8度商店 8du.shop
-      - US_8度商店 8du.shop 9
-      - CN_8度商店 8du.shop 10
-      - CN_8度商店 8du.shop 17
+      - _US_美国
+      - +HK_38010+@WangCai_1+16
+      - 香港（Meteor） 14
+      - +HK_38009+@WangCai_1
+      - +HK_38009+@WangCai_1+8
+      - +HK_38009+@WangCai_1+19
+      - +HK_38010+@WangCai_1
+      - _GB_英国
+      - +HK_38010+@WangCai_1+20
+      - _GB_英国 2
+      - CN
+      - _US_美国 2
+      - 美国（Meteor） 3
+      - _JP_日本
+      - CN 2
+      - +HK_38010+@WangCai_1+13
+      - +HK_38010+@WangCai_1+19
+      - +DE_38607+@WangCai_1+9
+      - +HK_38009+@WangCai_1+13
+      - +HK_38010+@WangCai_1+8
+      - +HK_38009+@WangCai_1+17
+      - US_油管频道 全网最强白嫖
+      - +DE_38607+@WangCai_1+17
+      - +FR_38609+@WangCai_1+20
+      - _US_美国 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - TW_8度商店 8du.shop 2
-      - CN_8度商店 8du.shop
-      - CN_8度商店 8du.shop 3
-      - "1: SS: <CM,HK> rate 1.0"
-      - HKBGP 80 钉钉
-      - "3: SS: <CM,JP> rate 1.0"
-      - "2: SS: <CM,US> rate 1.0"
-      - "3: SS: <CM,US> rate 1.0"
-      - DE_8度商店 8du.shop
-      - US_8度商店 8du.shop 9
-      - CN_8度商店 8du.shop 10
-      - CN_8度商店 8du.shop 17
+      - _US_美国
+      - +HK_38010+@WangCai_1+16
+      - 香港（Meteor） 14
+      - +HK_38009+@WangCai_1
+      - +HK_38009+@WangCai_1+8
+      - +HK_38009+@WangCai_1+19
+      - +HK_38010+@WangCai_1
+      - _GB_英国
+      - +HK_38010+@WangCai_1+20
+      - _GB_英国 2
+      - CN
+      - _US_美国 2
+      - 美国（Meteor） 3
+      - _JP_日本
+      - CN 2
+      - +HK_38010+@WangCai_1+13
+      - +HK_38010+@WangCai_1+19
+      - +DE_38607+@WangCai_1+9
+      - +HK_38009+@WangCai_1+13
+      - +HK_38010+@WangCai_1+8
+      - +HK_38009+@WangCai_1+17
+      - US_油管频道 全网最强白嫖
+      - +DE_38607+@WangCai_1+17
+      - +FR_38609+@WangCai_1+20
+      - _US_美国 3
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TW_8度商店 8du.shop 2
-      - CN_8度商店 8du.shop
-      - CN_8度商店 8du.shop 3
-      - "1: SS: <CM,HK> rate 1.0"
-      - HKBGP 80 钉钉
-      - "3: SS: <CM,JP> rate 1.0"
-      - "2: SS: <CM,US> rate 1.0"
-      - "3: SS: <CM,US> rate 1.0"
-      - DE_8度商店 8du.shop
-      - US_8度商店 8du.shop 9
-      - CN_8度商店 8du.shop 10
-      - CN_8度商店 8du.shop 17
+      - _US_美国
+      - +HK_38010+@WangCai_1+16
+      - 香港（Meteor） 14
+      - +HK_38009+@WangCai_1
+      - +HK_38009+@WangCai_1+8
+      - +HK_38009+@WangCai_1+19
+      - +HK_38010+@WangCai_1
+      - _GB_英国
+      - +HK_38010+@WangCai_1+20
+      - _GB_英国 2
+      - CN
+      - _US_美国 2
+      - 美国（Meteor） 3
+      - _JP_日本
+      - CN 2
+      - +HK_38010+@WangCai_1+13
+      - +HK_38010+@WangCai_1+19
+      - +DE_38607+@WangCai_1+9
+      - +HK_38009+@WangCai_1+13
+      - +HK_38010+@WangCai_1+8
+      - +HK_38009+@WangCai_1+17
+      - US_油管频道 全网最强白嫖
+      - +DE_38607+@WangCai_1+17
+      - +FR_38609+@WangCai_1+20
+      - _US_美国 3
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -88,75 +140,128 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TW_8度商店 8du.shop 2
-      - CN_8度商店 8du.shop
-      - CN_8度商店 8du.shop 3
-      - "1: SS: <CM,HK> rate 1.0"
-      - HKBGP 80 钉钉
-      - "3: SS: <CM,JP> rate 1.0"
-      - "2: SS: <CM,US> rate 1.0"
-      - "3: SS: <CM,US> rate 1.0"
-      - DE_8度商店 8du.shop
-      - US_8度商店 8du.shop 9
-      - CN_8度商店 8du.shop 10
-      - CN_8度商店 8du.shop 17
+      - _US_美国
+      - +HK_38010+@WangCai_1+16
+      - 香港（Meteor） 14
+      - +HK_38009+@WangCai_1
+      - +HK_38009+@WangCai_1+8
+      - +HK_38009+@WangCai_1+19
+      - +HK_38010+@WangCai_1
+      - _GB_英国
+      - +HK_38010+@WangCai_1+20
+      - _GB_英国 2
+      - CN
+      - _US_美国 2
+      - 美国（Meteor） 3
+      - _JP_日本
+      - CN 2
+      - +HK_38010+@WangCai_1+13
+      - +HK_38010+@WangCai_1+19
+      - +DE_38607+@WangCai_1+9
+      - +HK_38009+@WangCai_1+13
+      - +HK_38010+@WangCai_1+8
+      - +HK_38009+@WangCai_1+17
+      - US_油管频道 全网最强白嫖
+      - +DE_38607+@WangCai_1+17
+      - +FR_38609+@WangCai_1+20
+      - _US_美国 3
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港（Meteor） 14
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - TW_8度商店 8du.shop 2
-      - CN_8度商店 8du.shop
-      - CN_8度商店 8du.shop 3
-      - "1: SS: <CM,HK> rate 1.0"
-      - HKBGP 80 钉钉
-      - "3: SS: <CM,JP> rate 1.0"
-      - "2: SS: <CM,US> rate 1.0"
-      - "3: SS: <CM,US> rate 1.0"
-      - DE_8度商店 8du.shop
-      - US_8度商店 8du.shop 9
-      - CN_8度商店 8du.shop 10
-      - CN_8度商店 8du.shop 17
+      - _US_美国
+      - +HK_38010+@WangCai_1+16
+      - 香港（Meteor） 14
+      - +HK_38009+@WangCai_1
+      - +HK_38009+@WangCai_1+8
+      - +HK_38009+@WangCai_1+19
+      - +HK_38010+@WangCai_1
+      - _GB_英国
+      - +HK_38010+@WangCai_1+20
+      - _GB_英国 2
+      - CN
+      - _US_美国 2
+      - 美国（Meteor） 3
+      - _JP_日本
+      - CN 2
+      - +HK_38010+@WangCai_1+13
+      - +HK_38010+@WangCai_1+19
+      - +DE_38607+@WangCai_1+9
+      - +HK_38009+@WangCai_1+13
+      - +HK_38010+@WangCai_1+8
+      - +HK_38009+@WangCai_1+17
+      - US_油管频道 全网最强白嫖
+      - +DE_38607+@WangCai_1+17
+      - +FR_38609+@WangCai_1+20
+      - _US_美国 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - TW_8度商店 8du.shop 2
-      - CN_8度商店 8du.shop
-      - CN_8度商店 8du.shop 3
-      - "1: SS: <CM,HK> rate 1.0"
-      - HKBGP 80 钉钉
-      - "3: SS: <CM,JP> rate 1.0"
-      - "2: SS: <CM,US> rate 1.0"
-      - "3: SS: <CM,US> rate 1.0"
-      - DE_8度商店 8du.shop
-      - US_8度商店 8du.shop 9
-      - CN_8度商店 8du.shop 10
-      - CN_8度商店 8du.shop 17
+      - _US_美国
+      - +HK_38010+@WangCai_1+16
+      - 香港（Meteor） 14
+      - +HK_38009+@WangCai_1
+      - +HK_38009+@WangCai_1+8
+      - +HK_38009+@WangCai_1+19
+      - +HK_38010+@WangCai_1
+      - _GB_英国
+      - +HK_38010+@WangCai_1+20
+      - _GB_英国 2
+      - CN
+      - _US_美国 2
+      - 美国（Meteor） 3
+      - _JP_日本
+      - CN 2
+      - +HK_38010+@WangCai_1+13
+      - +HK_38010+@WangCai_1+19
+      - +DE_38607+@WangCai_1+9
+      - +HK_38009+@WangCai_1+13
+      - +HK_38010+@WangCai_1+8
+      - +HK_38009+@WangCai_1+17
+      - US_油管频道 全网最强白嫖
+      - +DE_38607+@WangCai_1+17
+      - +FR_38609+@WangCai_1+20
+      - _US_美国 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TW_8度商店 8du.shop 2
-      - CN_8度商店 8du.shop
-      - CN_8度商店 8du.shop 3
-      - "1: SS: <CM,HK> rate 1.0"
-      - HKBGP 80 钉钉
-      - "3: SS: <CM,JP> rate 1.0"
-      - "2: SS: <CM,US> rate 1.0"
-      - "3: SS: <CM,US> rate 1.0"
-      - DE_8度商店 8du.shop
-      - US_8度商店 8du.shop 9
-      - CN_8度商店 8du.shop 10
-      - CN_8度商店 8du.shop 17
+      - _US_美国
+      - +HK_38010+@WangCai_1+16
+      - 香港（Meteor） 14
+      - +HK_38009+@WangCai_1
+      - +HK_38009+@WangCai_1+8
+      - +HK_38009+@WangCai_1+19
+      - +HK_38010+@WangCai_1
+      - _GB_英国
+      - +HK_38010+@WangCai_1+20
+      - _GB_英国 2
+      - CN
+      - _US_美国 2
+      - 美国（Meteor） 3
+      - _JP_日本
+      - CN 2
+      - +HK_38010+@WangCai_1+13
+      - +HK_38010+@WangCai_1+19
+      - +DE_38607+@WangCai_1+9
+      - +HK_38009+@WangCai_1+13
+      - +HK_38010+@WangCai_1+8
+      - +HK_38009+@WangCai_1+17
+      - US_油管频道 全网最强白嫖
+      - +DE_38607+@WangCai_1+17
+      - +FR_38609+@WangCai_1+20
+      - _US_美国 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -172,18 +277,31 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TW_8度商店 8du.shop 2
-      - CN_8度商店 8du.shop
-      - CN_8度商店 8du.shop 3
-      - "1: SS: <CM,HK> rate 1.0"
-      - HKBGP 80 钉钉
-      - "3: SS: <CM,JP> rate 1.0"
-      - "2: SS: <CM,US> rate 1.0"
-      - "3: SS: <CM,US> rate 1.0"
-      - DE_8度商店 8du.shop
-      - US_8度商店 8du.shop 9
-      - CN_8度商店 8du.shop 10
-      - CN_8度商店 8du.shop 17
+      - _US_美国
+      - +HK_38010+@WangCai_1+16
+      - 香港（Meteor） 14
+      - +HK_38009+@WangCai_1
+      - +HK_38009+@WangCai_1+8
+      - +HK_38009+@WangCai_1+19
+      - +HK_38010+@WangCai_1
+      - _GB_英国
+      - +HK_38010+@WangCai_1+20
+      - _GB_英国 2
+      - CN
+      - _US_美国 2
+      - 美国（Meteor） 3
+      - _JP_日本
+      - CN 2
+      - +HK_38010+@WangCai_1+13
+      - +HK_38010+@WangCai_1+19
+      - +DE_38607+@WangCai_1+9
+      - +HK_38009+@WangCai_1+13
+      - +HK_38010+@WangCai_1+8
+      - +HK_38009+@WangCai_1+17
+      - US_油管频道 全网最强白嫖
+      - +DE_38607+@WangCai_1+17
+      - +FR_38609+@WangCai_1+20
+      - _US_美国 3
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
