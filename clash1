@@ -5,391 +5,191 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: JP-18|公益节点www.paopao.dog|1x, server: jp-d.vmess.top, port: 39133, type: vmess, uuid: a26bf01f-72bf-47df-a953-49b461c22701, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdaxsadasasduexsadi, ws-headers: {Host: jp-d.vmess.top}, udp: true}
+  - {name: EXTM3U-Seoul-Choopa, server: 120.233.10.163, port: 15305, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: t.me/vpnhat, udp: true}
+  - {name: 日本东京20G口, server: 20.210.240.228, port: 80, type: vmess, uuid: fa0702f4-8ec9-48e5-9b53-a0afb7c3717e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: dm.toutiao.com}, udp: true}
   - {name: vpnpool-Seoul-Choopa, server: 120.232.215.218, port: 15302, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: t.me/vpnhat, udp: true}
   - {name: vpnpool-Seoul-Choopa 2, server: 120.232.215.218, port: 15304, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: t.me/vpnhat, udp: true}
-  - {name: vpnpool-彰化Hinet-dip, server: 120.232.215.218, port: 15505, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: t.me/vpnhat, udp: true}
-  - {name: EXTM3U-Seoul-Choopa, server: 120.233.10.163, port: 15308, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: t.me/vpnhat, udp: true}
-  - {name: JP-6|公益节点www.paopao.dog|1x, server: jp-b.vmess.top, port: 39133, type: vmess, uuid: a26bf01f-72bf-47df-a953-49b461c22701, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdxasdaexsadi, ws-headers: {Host: jp-b.vmess.top}, udp: true}
-  - {name: EXTM3U-Seoul-Choopa 2, server: 120.233.10.163, port: 15305, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: t.me/vpnhat, udp: true}
-  - {name: JP-17|公益节点www.paopao.dog|1x, server: jp-d.vmess.top, port: 39123, type: trojan, password: a26bf01f-72bf-47df-a953-49b461c22701, sni: jp-d.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: US_5500+@WangCai_1, server: 38.68.135.19, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: JP-5|公益节点www.paopao.dog|1x, server: jp-b.vmess.top, port: 39123, type: trojan, password: a26bf01f-72bf-47df-a953-49b461c22701, sni: jp-b.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: EXTM3U-Seoul-Choopa 3, server: 120.233.10.163, port: 15306, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: t.me/vpnhat, udp: true}
-  - {name: CA, server: 198.57.27.225, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: BG, server: 213.183.63.219, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
-  - {name: 美国+10, server: 45.78.8.236, port: 29369, type: ss, cipher: aes-256-gcm, password: XB9Xj5EXtsn5ZwbA, udp: true}
+  - {name: BG, server: 213.183.63.219, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: 香港 10g口带宽, server: 104.208.86.137, port: 80, type: vmess, uuid: fa0702f4-8ec9-48e5-9b53-a0afb7c3717e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: dm.toutiao.com}, udp: true}
+  - {name: 原生美国.圣何塞 500M 流媒体解锁 可淘宝 1.5, server: 192.9.234.231, port: 80, type: vmess, uuid: fa0702f4-8ec9-48e5-9b53-a0afb7c3717e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: dm.toutiao.com}, udp: true}
   - {name: BG 2, server: 213.183.63.219, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: CA 2, server: 198.57.27.225, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US, server: hknf1.qingyun123.xyz, port: 10050, type: trojan, password: 50e23a9c-d2b0-4e36-b2d9-85fe3646ca05, sni: hknf1.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: DE, server: 5.183.179.167, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: BG 3, server: 213.183.63.219, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: CA 3, server: 198.57.27.225, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CA 4, server: 198.57.27.225, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: Metoer 30, server: ssr.ssrfree1.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: BG 4, server: 213.183.63.219, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
-  - {name: BG 5, server: 213.183.63.219, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: ایرلند🇮🇪_5, server: 185.108.129.77, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: CA 5, server: 198.57.27.225, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: BG 6, server: 213.183.63.219, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: DE 2, server: 5.183.179.167, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
-  - {name: BG 7, server: 213.183.63.219, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: CA 6, server: 198.57.27.225, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US-1|公益节点www.paopao.dog|1x, server: us-a.vmess.top, port: 39123, type: trojan, password: a26bf01f-72bf-47df-a953-49b461c22701, sni: us-a.vmess.top, skip-cert-verify: true, udp: true}
-  - {name: 185.167.117.171:9038, server: 185.167.117.171, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: CN, server: x.gotout.work, port: 30041, type: ss, cipher: aes-256-gcm, password: e0uyakendg7, udp: true}
-  - {name: DE 3, server: 5.183.179.167, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: BG 3, server: 213.183.63.219, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: az香港10G口B 钉钉, server: 20.222.101.175, port: 80, type: vmess, uuid: fa0702f4-8ec9-48e5-9b53-a0afb7c3717e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
+  - {name: DE, server: 5.183.179.167, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: BG 4, server: 213.183.63.219, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: BG 5, server: 213.183.63.219, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: BG 6, server: 213.183.63.219, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: BG 7, server: 213.183.63.219, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: 原生韩国春川 4g带宽 流媒体解锁可上淘宝1.5, server: 138.2.125.157, port: 80, type: vmess, uuid: fa0702f4-8ec9-48e5-9b53-a0afb7c3717e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: dm.toutiao.com}, udp: true}
   - {name: BG 8, server: 213.183.63.219, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: HK-2|公益节点www.paopao.dog|2x, server: free-hk.vmess.top, port: 39133, type: vmess, uuid: a26bf01f-72bf-47df-a953-49b461c22701, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sasdwdwads, ws-headers: {Host: free-hk.vmess.top}, udp: true}
-  - {name: DE 4, server: 5.183.179.167, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: US-2|公益节点www.paopao.dog|1x, server: us-a.vmess.top, port: 39133, type: vmess, uuid: a26bf01f-72bf-47df-a953-49b461c22701, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /xasda65464uexi, ws-headers: {Host: us-a.vmess.top}, udp: true}
-  - {name: CA 7, server: 198.57.27.225, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: PL, server: 217.30.10.65, port: 9061, type: ss, cipher: aes-256-cfb, password: 4R3hUfZ2FHhDmNcP, udp: true}
-  - {name: 185.167.117.171:9007, server: 185.167.117.171, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
-  - {name: GB, server: 152.89.210.84, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: DE 5, server: 5.183.179.167, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: US, server: 107.174.172.154, port: 447, type: vmess, uuid: bc548c11-461a-4b46-b87f-05bc842bc1b8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /kFb4nwXU, ws-headers: {Host: 107.174.172.154}, udp: true}
   - {name: BG 9, server: 213.183.63.219, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
-  - {name: PL 2, server: 217.30.10.65, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: EXTM3U-Seoul-Choopa 4, server: 120.233.10.163, port: 15303, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: t.me/vpnhat, udp: true}
-  - {name: BG 10, server: 213.183.63.219, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: GB 2, server: 152.89.210.84, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: CA 8, server: 198.57.27.225, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: BG 11, server: 213.183.63.219, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
-  - {name: NL, server: 213.183.59.229, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: PL 3, server: 217.30.10.65, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: US 2, server: 107.174.172.154, port: 447, type: vmess, uuid: bc548c11-461a-4b46-b87f-05bc842bc1b8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /kFb4nwXU, ws-headers: {Host: 107.174.172.154}, udp: true}
-  - {name: DE 6, server: 5.183.179.167, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: US_2376+@WangCai_1, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: DE 7, server: 5.183.179.146, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: US_8008+@WangCai_1, server: 38.68.135.19, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: DE 8, server: 5.183.179.167, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
-  - {name: PL 4, server: 217.30.10.65, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: US_8118+@WangCai_1, server: 38.68.135.19, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: CA 9, server: 198.57.27.225, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: GB 3, server: 152.89.210.84, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: DE 9, server: 5.183.179.140, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: DE 10, server: 5.183.179.167, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: PL 5, server: 217.30.10.65, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: US_5003+@WangCai_1, server: 38.68.135.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: DE 11, server: 5.183.179.167, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
-  - {name: DE 12, server: 5.183.179.146, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: BG 12, server: 213.183.63.219, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: CA 10, server: 198.57.27.225, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: TW.广州台湾-3.移动.200M.NF, server: gdcm-2.onescloud.top, port: 22026, type: ssr, cipher: rc4-md5, password: fNqa6f, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 27192:PlfAQi, obfs-param: 7cca427192.microsoft.com, udp: true}
-  - {name: DE 13, server: 5.183.179.140, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
-  - {name: NL 2, server: 213.183.59.229, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
-  - {name: 美国+7, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: EXTM3U-Seoul-Choopa 5, server: 120.233.10.163, port: 15309, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: t.me/vpnhat, udp: true}
-  - {name: NL 3, server: 213.183.59.229, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: vpnpool-Seoul-Choopa 3, server: 120.232.215.218, port: 15301, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: t.me/vpnhat, udp: true}
-  - {name: DE 14, server: 5.183.179.140, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: DE 15, server: 5.183.179.146, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: US_8009+@WangCai_1, server: 38.68.135.19, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_6379+@WangCai_1, server: 38.68.135.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 美国 15, server: e-gzcm.linkdns.xyz, port: 40247, type: vmess, uuid: 9ec9c44b-13a6-3b7d-b318-d44a6e66fd4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /test, ws-headers: {Host: aweikeji-YouTube-TG}, udp: true}
-  - {name: 美国+6, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: vpnpool-Seoul-Choopa 4, server: 120.232.215.218, port: 15303, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: t.me/vpnhat, udp: true}
-  - {name: NL 4, server: 213.183.59.229, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: NL 5, server: 213.183.59.229, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: BG 13, server: 213.183.63.219, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: US_5000+@WangCai_1, server: 38.68.135.19, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: BG 14, server: 213.183.63.219, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: US_6679+@WangCai_1, server: 38.68.135.19, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US 3, server: 169.197.142.99, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US 4, server: us3.31vpn.com, port: 443, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /fastssh/3102637493qqcom/626cf7d8bd49b/, ws-headers: {Host: us3.31vpn.com}, udp: true}
+  - {name: PL, server: 217.30.10.65, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: EXTM3U-Seoul-Choopa 2, server: 120.233.10.163, port: 15303, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: t.me/vpnhat, udp: true}
+  - {name: BG 10, server: 213.183.63.219, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: BG 11, server: 213.183.63.219, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: BG 12, server: 213.183.63.219, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: BG 13, server: 213.183.63.219, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: DE 2, server: 5.183.179.167, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: DE 3, server: 5.183.179.167, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: DE 4, server: 5.183.179.167, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: DE 5, server: 5.183.179.167, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: DE 6, server: 5.183.179.167, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: DE 7, server: 5.183.179.167, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: DE 8, server: 5.183.179.146, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: 原生日本.东京 500M 流媒体解锁 可淘宝 1.5, server: 138.3.211.38, port: 80, type: vmess, uuid: fa0702f4-8ec9-48e5-9b53-a0afb7c3717e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: dm.toutiao.com}, udp: true}
+  - {name: DE 9, server: 5.183.179.140, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
+  - {name: BG 14, server: 213.183.63.219, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: DE 10, server: 5.183.179.167, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: DE 11, server: 5.183.179.140, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: US 2, server: us3.31vpn.com, port: 443, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /fastssh/3102637493qqcom/626cf7d8bd49b/, ws-headers: {Host: us3.31vpn.com}, udp: true}
+  - {name: DE 12, server: 5.183.179.167, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: PL 2, server: 217.30.10.65, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: PL 3, server: 217.30.10.65, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: ایرلند🇮🇪_5, server: 185.108.129.77, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - JP-18|公益节点www.paopao.dog|1x
+      - EXTM3U-Seoul-Choopa
+      - 日本东京20G口
       - vpnpool-Seoul-Choopa
       - vpnpool-Seoul-Choopa 2
-      - vpnpool-彰化Hinet-dip
-      - EXTM3U-Seoul-Choopa
-      - JP-6|公益节点www.paopao.dog|1x
-      - EXTM3U-Seoul-Choopa 2
-      - JP-17|公益节点www.paopao.dog|1x
-      - US_5500+@WangCai_1
-      - JP-5|公益节点www.paopao.dog|1x
-      - EXTM3U-Seoul-Choopa 3
-      - CA
       - BG
-      - 美国+10
+      - 香港 10g口带宽
+      - 原生美国.圣何塞 500M 流媒体解锁 可淘宝 1.5
       - BG 2
-      - CA 2
-      - US
-      - DE
       - BG 3
-      - CA 3
-      - CA 4
-      - Metoer 30
+      - az香港10G口B 钉钉
+      - DE
       - BG 4
       - BG 5
-      - ایرلند🇮🇪_5
-      - CA 5
       - BG 6
-      - DE 2
       - BG 7
-      - CA 6
-      - US-1|公益节点www.paopao.dog|1x
-      - 185.167.117.171:9038
-      - CN
-      - DE 3
+      - 原生韩国春川 4g带宽 流媒体解锁可上淘宝1.5
       - BG 8
-      - HK-2|公益节点www.paopao.dog|2x
-      - DE 4
-      - US-2|公益节点www.paopao.dog|1x
-      - CA 7
-      - PL
-      - 185.167.117.171:9007
-      - GB
-      - DE 5
+      - US
       - BG 9
-      - PL 2
-      - EXTM3U-Seoul-Choopa 4
+      - PL
+      - EXTM3U-Seoul-Choopa 2
       - BG 10
-      - GB 2
-      - CA 8
       - BG 11
-      - NL
-      - PL 3
-      - US 2
-      - DE 6
-      - US_2376+@WangCai_1
-      - DE 7
-      - US_8008+@WangCai_1
-      - DE 8
-      - PL 4
-      - US_8118+@WangCai_1
-      - CA 9
-      - GB 3
-      - DE 9
-      - DE 10
-      - PL 5
-      - US_5003+@WangCai_1
-      - DE 11
-      - DE 12
       - BG 12
-      - CA 10
-      - TW.广州台湾-3.移动.200M.NF
-      - DE 13
-      - NL 2
-      - 美国+7
-      - EXTM3U-Seoul-Choopa 5
-      - NL 3
-      - vpnpool-Seoul-Choopa 3
-      - DE 14
-      - DE 15
-      - US_8009+@WangCai_1
-      - US_6379+@WangCai_1
-      - 美国 15
-      - 美国+6
-      - vpnpool-Seoul-Choopa 4
-      - NL 4
-      - NL 5
       - BG 13
-      - US_5000+@WangCai_1
+      - DE 2
+      - DE 3
+      - DE 4
+      - DE 5
+      - DE 6
+      - DE 7
+      - DE 8
+      - 原生日本.东京 500M 流媒体解锁 可淘宝 1.5
+      - DE 9
       - BG 14
-      - US_6679+@WangCai_1
-      - US 3
-      - US 4
+      - DE 10
+      - DE 11
+      - US 2
+      - DE 12
+      - PL 2
+      - PL 3
+      - ایرلند🇮🇪_5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - JP-18|公益节点www.paopao.dog|1x
+      - EXTM3U-Seoul-Choopa
+      - 日本东京20G口
       - vpnpool-Seoul-Choopa
       - vpnpool-Seoul-Choopa 2
-      - vpnpool-彰化Hinet-dip
-      - EXTM3U-Seoul-Choopa
-      - JP-6|公益节点www.paopao.dog|1x
-      - EXTM3U-Seoul-Choopa 2
-      - JP-17|公益节点www.paopao.dog|1x
-      - US_5500+@WangCai_1
-      - JP-5|公益节点www.paopao.dog|1x
-      - EXTM3U-Seoul-Choopa 3
-      - CA
       - BG
-      - 美国+10
+      - 香港 10g口带宽
+      - 原生美国.圣何塞 500M 流媒体解锁 可淘宝 1.5
       - BG 2
-      - CA 2
-      - US
-      - DE
       - BG 3
-      - CA 3
-      - CA 4
-      - Metoer 30
+      - az香港10G口B 钉钉
+      - DE
       - BG 4
       - BG 5
-      - ایرلند🇮🇪_5
-      - CA 5
       - BG 6
-      - DE 2
       - BG 7
-      - CA 6
-      - US-1|公益节点www.paopao.dog|1x
-      - 185.167.117.171:9038
-      - CN
-      - DE 3
+      - 原生韩国春川 4g带宽 流媒体解锁可上淘宝1.5
       - BG 8
-      - HK-2|公益节点www.paopao.dog|2x
-      - DE 4
-      - US-2|公益节点www.paopao.dog|1x
-      - CA 7
-      - PL
-      - 185.167.117.171:9007
-      - GB
-      - DE 5
+      - US
       - BG 9
-      - PL 2
-      - EXTM3U-Seoul-Choopa 4
+      - PL
+      - EXTM3U-Seoul-Choopa 2
       - BG 10
-      - GB 2
-      - CA 8
       - BG 11
-      - NL
-      - PL 3
-      - US 2
-      - DE 6
-      - US_2376+@WangCai_1
-      - DE 7
-      - US_8008+@WangCai_1
-      - DE 8
-      - PL 4
-      - US_8118+@WangCai_1
-      - CA 9
-      - GB 3
-      - DE 9
-      - DE 10
-      - PL 5
-      - US_5003+@WangCai_1
-      - DE 11
-      - DE 12
       - BG 12
-      - CA 10
-      - TW.广州台湾-3.移动.200M.NF
-      - DE 13
-      - NL 2
-      - 美国+7
-      - EXTM3U-Seoul-Choopa 5
-      - NL 3
-      - vpnpool-Seoul-Choopa 3
-      - DE 14
-      - DE 15
-      - US_8009+@WangCai_1
-      - US_6379+@WangCai_1
-      - 美国 15
-      - 美国+6
-      - vpnpool-Seoul-Choopa 4
-      - NL 4
-      - NL 5
       - BG 13
-      - US_5000+@WangCai_1
+      - DE 2
+      - DE 3
+      - DE 4
+      - DE 5
+      - DE 6
+      - DE 7
+      - DE 8
+      - 原生日本.东京 500M 流媒体解锁 可淘宝 1.5
+      - DE 9
       - BG 14
-      - US_6679+@WangCai_1
-      - US 3
-      - US 4
+      - DE 10
+      - DE 11
+      - US 2
+      - DE 12
+      - PL 2
+      - PL 3
+      - ایرلند🇮🇪_5
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - JP-18|公益节点www.paopao.dog|1x
+      - EXTM3U-Seoul-Choopa
+      - 日本东京20G口
       - vpnpool-Seoul-Choopa
       - vpnpool-Seoul-Choopa 2
-      - vpnpool-彰化Hinet-dip
-      - EXTM3U-Seoul-Choopa
-      - JP-6|公益节点www.paopao.dog|1x
-      - EXTM3U-Seoul-Choopa 2
-      - JP-17|公益节点www.paopao.dog|1x
-      - US_5500+@WangCai_1
-      - JP-5|公益节点www.paopao.dog|1x
-      - EXTM3U-Seoul-Choopa 3
-      - CA
       - BG
-      - 美国+10
+      - 香港 10g口带宽
+      - 原生美国.圣何塞 500M 流媒体解锁 可淘宝 1.5
       - BG 2
-      - CA 2
-      - US
-      - DE
       - BG 3
-      - CA 3
-      - CA 4
-      - Metoer 30
+      - az香港10G口B 钉钉
+      - DE
       - BG 4
       - BG 5
-      - ایرلند🇮🇪_5
-      - CA 5
       - BG 6
-      - DE 2
       - BG 7
-      - CA 6
-      - US-1|公益节点www.paopao.dog|1x
-      - 185.167.117.171:9038
-      - CN
-      - DE 3
+      - 原生韩国春川 4g带宽 流媒体解锁可上淘宝1.5
       - BG 8
-      - HK-2|公益节点www.paopao.dog|2x
-      - DE 4
-      - US-2|公益节点www.paopao.dog|1x
-      - CA 7
-      - PL
-      - 185.167.117.171:9007
-      - GB
-      - DE 5
+      - US
       - BG 9
-      - PL 2
-      - EXTM3U-Seoul-Choopa 4
+      - PL
+      - EXTM3U-Seoul-Choopa 2
       - BG 10
-      - GB 2
-      - CA 8
       - BG 11
-      - NL
-      - PL 3
-      - US 2
-      - DE 6
-      - US_2376+@WangCai_1
-      - DE 7
-      - US_8008+@WangCai_1
-      - DE 8
-      - PL 4
-      - US_8118+@WangCai_1
-      - CA 9
-      - GB 3
-      - DE 9
-      - DE 10
-      - PL 5
-      - US_5003+@WangCai_1
-      - DE 11
-      - DE 12
       - BG 12
-      - CA 10
-      - TW.广州台湾-3.移动.200M.NF
-      - DE 13
-      - NL 2
-      - 美国+7
-      - EXTM3U-Seoul-Choopa 5
-      - NL 3
-      - vpnpool-Seoul-Choopa 3
-      - DE 14
-      - DE 15
-      - US_8009+@WangCai_1
-      - US_6379+@WangCai_1
-      - 美国 15
-      - 美国+6
-      - vpnpool-Seoul-Choopa 4
-      - NL 4
-      - NL 5
       - BG 13
-      - US_5000+@WangCai_1
+      - DE 2
+      - DE 3
+      - DE 4
+      - DE 5
+      - DE 6
+      - DE 7
+      - DE 8
+      - 原生日本.东京 500M 流媒体解锁 可淘宝 1.5
+      - DE 9
       - BG 14
-      - US_6679+@WangCai_1
-      - US 3
-      - US 4
+      - DE 10
+      - DE 11
+      - US 2
+      - DE 12
+      - PL 2
+      - PL 3
+      - ایرلند🇮🇪_5
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -408,397 +208,197 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - JP-18|公益节点www.paopao.dog|1x
+      - EXTM3U-Seoul-Choopa
+      - 日本东京20G口
       - vpnpool-Seoul-Choopa
       - vpnpool-Seoul-Choopa 2
-      - vpnpool-彰化Hinet-dip
-      - EXTM3U-Seoul-Choopa
-      - JP-6|公益节点www.paopao.dog|1x
-      - EXTM3U-Seoul-Choopa 2
-      - JP-17|公益节点www.paopao.dog|1x
-      - US_5500+@WangCai_1
-      - JP-5|公益节点www.paopao.dog|1x
-      - EXTM3U-Seoul-Choopa 3
-      - CA
       - BG
-      - 美国+10
+      - 香港 10g口带宽
+      - 原生美国.圣何塞 500M 流媒体解锁 可淘宝 1.5
       - BG 2
-      - CA 2
-      - US
-      - DE
       - BG 3
-      - CA 3
-      - CA 4
-      - Metoer 30
+      - az香港10G口B 钉钉
+      - DE
       - BG 4
       - BG 5
-      - ایرلند🇮🇪_5
-      - CA 5
       - BG 6
-      - DE 2
       - BG 7
-      - CA 6
-      - US-1|公益节点www.paopao.dog|1x
-      - 185.167.117.171:9038
-      - CN
-      - DE 3
+      - 原生韩国春川 4g带宽 流媒体解锁可上淘宝1.5
       - BG 8
-      - HK-2|公益节点www.paopao.dog|2x
-      - DE 4
-      - US-2|公益节点www.paopao.dog|1x
-      - CA 7
-      - PL
-      - 185.167.117.171:9007
-      - GB
-      - DE 5
+      - US
       - BG 9
-      - PL 2
-      - EXTM3U-Seoul-Choopa 4
+      - PL
+      - EXTM3U-Seoul-Choopa 2
       - BG 10
-      - GB 2
-      - CA 8
       - BG 11
-      - NL
-      - PL 3
-      - US 2
-      - DE 6
-      - US_2376+@WangCai_1
-      - DE 7
-      - US_8008+@WangCai_1
-      - DE 8
-      - PL 4
-      - US_8118+@WangCai_1
-      - CA 9
-      - GB 3
-      - DE 9
-      - DE 10
-      - PL 5
-      - US_5003+@WangCai_1
-      - DE 11
-      - DE 12
       - BG 12
-      - CA 10
-      - TW.广州台湾-3.移动.200M.NF
-      - DE 13
-      - NL 2
-      - 美国+7
-      - EXTM3U-Seoul-Choopa 5
-      - NL 3
-      - vpnpool-Seoul-Choopa 3
-      - DE 14
-      - DE 15
-      - US_8009+@WangCai_1
-      - US_6379+@WangCai_1
-      - 美国 15
-      - 美国+6
-      - vpnpool-Seoul-Choopa 4
-      - NL 4
-      - NL 5
       - BG 13
-      - US_5000+@WangCai_1
+      - DE 2
+      - DE 3
+      - DE 4
+      - DE 5
+      - DE 6
+      - DE 7
+      - DE 8
+      - 原生日本.东京 500M 流媒体解锁 可淘宝 1.5
+      - DE 9
       - BG 14
-      - US_6679+@WangCai_1
-      - US 3
-      - US 4
+      - DE 10
+      - DE 11
+      - US 2
+      - DE 12
+      - PL 2
+      - PL 3
+      - ایرلند🇮🇪_5
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - vpnpool-彰化Hinet-dip
-      - TW.广州台湾-3.移动.200M.NF
+      - 香港 10g口带宽
+      - az香港10G口B 钉钉
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - JP-18|公益节点www.paopao.dog|1x
+      - EXTM3U-Seoul-Choopa
+      - 日本东京20G口
       - vpnpool-Seoul-Choopa
       - vpnpool-Seoul-Choopa 2
-      - vpnpool-彰化Hinet-dip
-      - EXTM3U-Seoul-Choopa
-      - JP-6|公益节点www.paopao.dog|1x
-      - EXTM3U-Seoul-Choopa 2
-      - JP-17|公益节点www.paopao.dog|1x
-      - US_5500+@WangCai_1
-      - JP-5|公益节点www.paopao.dog|1x
-      - EXTM3U-Seoul-Choopa 3
-      - CA
       - BG
-      - 美国+10
+      - 香港 10g口带宽
+      - 原生美国.圣何塞 500M 流媒体解锁 可淘宝 1.5
       - BG 2
-      - CA 2
-      - US
-      - DE
       - BG 3
-      - CA 3
-      - CA 4
-      - Metoer 30
+      - az香港10G口B 钉钉
+      - DE
       - BG 4
       - BG 5
-      - ایرلند🇮🇪_5
-      - CA 5
       - BG 6
-      - DE 2
       - BG 7
-      - CA 6
-      - US-1|公益节点www.paopao.dog|1x
-      - 185.167.117.171:9038
-      - CN
-      - DE 3
+      - 原生韩国春川 4g带宽 流媒体解锁可上淘宝1.5
       - BG 8
-      - HK-2|公益节点www.paopao.dog|2x
-      - DE 4
-      - US-2|公益节点www.paopao.dog|1x
-      - CA 7
-      - PL
-      - 185.167.117.171:9007
-      - GB
-      - DE 5
+      - US
       - BG 9
-      - PL 2
-      - EXTM3U-Seoul-Choopa 4
+      - PL
+      - EXTM3U-Seoul-Choopa 2
       - BG 10
-      - GB 2
-      - CA 8
       - BG 11
-      - NL
-      - PL 3
-      - US 2
-      - DE 6
-      - US_2376+@WangCai_1
-      - DE 7
-      - US_8008+@WangCai_1
-      - DE 8
-      - PL 4
-      - US_8118+@WangCai_1
-      - CA 9
-      - GB 3
-      - DE 9
-      - DE 10
-      - PL 5
-      - US_5003+@WangCai_1
-      - DE 11
-      - DE 12
       - BG 12
-      - CA 10
-      - TW.广州台湾-3.移动.200M.NF
-      - DE 13
-      - NL 2
-      - 美国+7
-      - EXTM3U-Seoul-Choopa 5
-      - NL 3
-      - vpnpool-Seoul-Choopa 3
-      - DE 14
-      - DE 15
-      - US_8009+@WangCai_1
-      - US_6379+@WangCai_1
-      - 美国 15
-      - 美国+6
-      - vpnpool-Seoul-Choopa 4
-      - NL 4
-      - NL 5
       - BG 13
-      - US_5000+@WangCai_1
+      - DE 2
+      - DE 3
+      - DE 4
+      - DE 5
+      - DE 6
+      - DE 7
+      - DE 8
+      - 原生日本.东京 500M 流媒体解锁 可淘宝 1.5
+      - DE 9
       - BG 14
-      - US_6679+@WangCai_1
-      - US 3
-      - US 4
+      - DE 10
+      - DE 11
+      - US 2
+      - DE 12
+      - PL 2
+      - PL 3
+      - ایرلند🇮🇪_5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - JP-18|公益节点www.paopao.dog|1x
+      - EXTM3U-Seoul-Choopa
+      - 日本东京20G口
       - vpnpool-Seoul-Choopa
       - vpnpool-Seoul-Choopa 2
-      - vpnpool-彰化Hinet-dip
-      - EXTM3U-Seoul-Choopa
-      - JP-6|公益节点www.paopao.dog|1x
-      - EXTM3U-Seoul-Choopa 2
-      - JP-17|公益节点www.paopao.dog|1x
-      - US_5500+@WangCai_1
-      - JP-5|公益节点www.paopao.dog|1x
-      - EXTM3U-Seoul-Choopa 3
-      - CA
       - BG
-      - 美国+10
+      - 香港 10g口带宽
+      - 原生美国.圣何塞 500M 流媒体解锁 可淘宝 1.5
       - BG 2
-      - CA 2
-      - US
-      - DE
       - BG 3
-      - CA 3
-      - CA 4
-      - Metoer 30
+      - az香港10G口B 钉钉
+      - DE
       - BG 4
       - BG 5
-      - ایرلند🇮🇪_5
-      - CA 5
       - BG 6
-      - DE 2
       - BG 7
-      - CA 6
-      - US-1|公益节点www.paopao.dog|1x
-      - 185.167.117.171:9038
-      - CN
-      - DE 3
+      - 原生韩国春川 4g带宽 流媒体解锁可上淘宝1.5
       - BG 8
-      - HK-2|公益节点www.paopao.dog|2x
-      - DE 4
-      - US-2|公益节点www.paopao.dog|1x
-      - CA 7
-      - PL
-      - 185.167.117.171:9007
-      - GB
-      - DE 5
+      - US
       - BG 9
-      - PL 2
-      - EXTM3U-Seoul-Choopa 4
+      - PL
+      - EXTM3U-Seoul-Choopa 2
       - BG 10
-      - GB 2
-      - CA 8
       - BG 11
-      - NL
-      - PL 3
-      - US 2
-      - DE 6
-      - US_2376+@WangCai_1
-      - DE 7
-      - US_8008+@WangCai_1
-      - DE 8
-      - PL 4
-      - US_8118+@WangCai_1
-      - CA 9
-      - GB 3
-      - DE 9
-      - DE 10
-      - PL 5
-      - US_5003+@WangCai_1
-      - DE 11
-      - DE 12
       - BG 12
-      - CA 10
-      - TW.广州台湾-3.移动.200M.NF
-      - DE 13
-      - NL 2
-      - 美国+7
-      - EXTM3U-Seoul-Choopa 5
-      - NL 3
-      - vpnpool-Seoul-Choopa 3
-      - DE 14
-      - DE 15
-      - US_8009+@WangCai_1
-      - US_6379+@WangCai_1
-      - 美国 15
-      - 美国+6
-      - vpnpool-Seoul-Choopa 4
-      - NL 4
-      - NL 5
       - BG 13
-      - US_5000+@WangCai_1
+      - DE 2
+      - DE 3
+      - DE 4
+      - DE 5
+      - DE 6
+      - DE 7
+      - DE 8
+      - 原生日本.东京 500M 流媒体解锁 可淘宝 1.5
+      - DE 9
       - BG 14
-      - US_6679+@WangCai_1
-      - US 3
-      - US 4
+      - DE 10
+      - DE 11
+      - US 2
+      - DE 12
+      - PL 2
+      - PL 3
+      - ایرلند🇮🇪_5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - JP-18|公益节点www.paopao.dog|1x
+      - EXTM3U-Seoul-Choopa
+      - 日本东京20G口
       - vpnpool-Seoul-Choopa
       - vpnpool-Seoul-Choopa 2
-      - vpnpool-彰化Hinet-dip
-      - EXTM3U-Seoul-Choopa
-      - JP-6|公益节点www.paopao.dog|1x
-      - EXTM3U-Seoul-Choopa 2
-      - JP-17|公益节点www.paopao.dog|1x
-      - US_5500+@WangCai_1
-      - JP-5|公益节点www.paopao.dog|1x
-      - EXTM3U-Seoul-Choopa 3
-      - CA
       - BG
-      - 美国+10
+      - 香港 10g口带宽
+      - 原生美国.圣何塞 500M 流媒体解锁 可淘宝 1.5
       - BG 2
-      - CA 2
-      - US
-      - DE
       - BG 3
-      - CA 3
-      - CA 4
-      - Metoer 30
+      - az香港10G口B 钉钉
+      - DE
       - BG 4
       - BG 5
-      - ایرلند🇮🇪_5
-      - CA 5
       - BG 6
-      - DE 2
       - BG 7
-      - CA 6
-      - US-1|公益节点www.paopao.dog|1x
-      - 185.167.117.171:9038
-      - CN
-      - DE 3
+      - 原生韩国春川 4g带宽 流媒体解锁可上淘宝1.5
       - BG 8
-      - HK-2|公益节点www.paopao.dog|2x
-      - DE 4
-      - US-2|公益节点www.paopao.dog|1x
-      - CA 7
-      - PL
-      - 185.167.117.171:9007
-      - GB
-      - DE 5
+      - US
       - BG 9
-      - PL 2
-      - EXTM3U-Seoul-Choopa 4
+      - PL
+      - EXTM3U-Seoul-Choopa 2
       - BG 10
-      - GB 2
-      - CA 8
       - BG 11
-      - NL
-      - PL 3
-      - US 2
-      - DE 6
-      - US_2376+@WangCai_1
-      - DE 7
-      - US_8008+@WangCai_1
-      - DE 8
-      - PL 4
-      - US_8118+@WangCai_1
-      - CA 9
-      - GB 3
-      - DE 9
-      - DE 10
-      - PL 5
-      - US_5003+@WangCai_1
-      - DE 11
-      - DE 12
       - BG 12
-      - CA 10
-      - TW.广州台湾-3.移动.200M.NF
-      - DE 13
-      - NL 2
-      - 美国+7
-      - EXTM3U-Seoul-Choopa 5
-      - NL 3
-      - vpnpool-Seoul-Choopa 3
-      - DE 14
-      - DE 15
-      - US_8009+@WangCai_1
-      - US_6379+@WangCai_1
-      - 美国 15
-      - 美国+6
-      - vpnpool-Seoul-Choopa 4
-      - NL 4
-      - NL 5
       - BG 13
-      - US_5000+@WangCai_1
+      - DE 2
+      - DE 3
+      - DE 4
+      - DE 5
+      - DE 6
+      - DE 7
+      - DE 8
+      - 原生日本.东京 500M 流媒体解锁 可淘宝 1.5
+      - DE 9
       - BG 14
-      - US_6679+@WangCai_1
-      - US 3
-      - US 4
+      - DE 10
+      - DE 11
+      - US 2
+      - DE 12
+      - PL 2
+      - PL 3
+      - ایرلند🇮🇪_5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -814,98 +414,48 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - JP-18|公益节点www.paopao.dog|1x
+      - EXTM3U-Seoul-Choopa
+      - 日本东京20G口
       - vpnpool-Seoul-Choopa
       - vpnpool-Seoul-Choopa 2
-      - vpnpool-彰化Hinet-dip
-      - EXTM3U-Seoul-Choopa
-      - JP-6|公益节点www.paopao.dog|1x
-      - EXTM3U-Seoul-Choopa 2
-      - JP-17|公益节点www.paopao.dog|1x
-      - US_5500+@WangCai_1
-      - JP-5|公益节点www.paopao.dog|1x
-      - EXTM3U-Seoul-Choopa 3
-      - CA
       - BG
-      - 美国+10
+      - 香港 10g口带宽
+      - 原生美国.圣何塞 500M 流媒体解锁 可淘宝 1.5
       - BG 2
-      - CA 2
-      - US
-      - DE
       - BG 3
-      - CA 3
-      - CA 4
-      - Metoer 30
+      - az香港10G口B 钉钉
+      - DE
       - BG 4
       - BG 5
-      - ایرلند🇮🇪_5
-      - CA 5
       - BG 6
-      - DE 2
       - BG 7
-      - CA 6
-      - US-1|公益节点www.paopao.dog|1x
-      - 185.167.117.171:9038
-      - CN
-      - DE 3
+      - 原生韩国春川 4g带宽 流媒体解锁可上淘宝1.5
       - BG 8
-      - HK-2|公益节点www.paopao.dog|2x
-      - DE 4
-      - US-2|公益节点www.paopao.dog|1x
-      - CA 7
-      - PL
-      - 185.167.117.171:9007
-      - GB
-      - DE 5
+      - US
       - BG 9
-      - PL 2
-      - EXTM3U-Seoul-Choopa 4
+      - PL
+      - EXTM3U-Seoul-Choopa 2
       - BG 10
-      - GB 2
-      - CA 8
       - BG 11
-      - NL
-      - PL 3
-      - US 2
-      - DE 6
-      - US_2376+@WangCai_1
-      - DE 7
-      - US_8008+@WangCai_1
-      - DE 8
-      - PL 4
-      - US_8118+@WangCai_1
-      - CA 9
-      - GB 3
-      - DE 9
-      - DE 10
-      - PL 5
-      - US_5003+@WangCai_1
-      - DE 11
-      - DE 12
       - BG 12
-      - CA 10
-      - TW.广州台湾-3.移动.200M.NF
-      - DE 13
-      - NL 2
-      - 美国+7
-      - EXTM3U-Seoul-Choopa 5
-      - NL 3
-      - vpnpool-Seoul-Choopa 3
-      - DE 14
-      - DE 15
-      - US_8009+@WangCai_1
-      - US_6379+@WangCai_1
-      - 美国 15
-      - 美国+6
-      - vpnpool-Seoul-Choopa 4
-      - NL 4
-      - NL 5
       - BG 13
-      - US_5000+@WangCai_1
+      - DE 2
+      - DE 3
+      - DE 4
+      - DE 5
+      - DE 6
+      - DE 7
+      - DE 8
+      - 原生日本.东京 500M 流媒体解锁 可淘宝 1.5
+      - DE 9
       - BG 14
-      - US_6679+@WangCai_1
-      - US 3
-      - US 4
+      - DE 10
+      - DE 11
+      - US 2
+      - DE 12
+      - PL 2
+      - PL 3
+      - ایرلند🇮🇪_5
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
