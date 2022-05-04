@@ -5,191 +5,155 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: EXTM3U-Seoul-Choopa, server: 120.233.10.163, port: 15305, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: t.me/vpnhat, udp: true}
-  - {name: 日本东京20G口, server: 20.210.240.228, port: 80, type: vmess, uuid: fa0702f4-8ec9-48e5-9b53-a0afb7c3717e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: dm.toutiao.com}, udp: true}
-  - {name: vpnpool-Seoul-Choopa, server: 120.232.215.218, port: 15302, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: t.me/vpnhat, udp: true}
-  - {name: vpnpool-Seoul-Choopa 2, server: 120.232.215.218, port: 15304, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: t.me/vpnhat, udp: true}
-  - {name: BG, server: 213.183.63.219, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: 香港 10g口带宽, server: 104.208.86.137, port: 80, type: vmess, uuid: fa0702f4-8ec9-48e5-9b53-a0afb7c3717e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: dm.toutiao.com}, udp: true}
-  - {name: 原生美国.圣何塞 500M 流媒体解锁 可淘宝 1.5, server: 192.9.234.231, port: 80, type: vmess, uuid: fa0702f4-8ec9-48e5-9b53-a0afb7c3717e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: dm.toutiao.com}, udp: true}
-  - {name: BG 2, server: 213.183.63.219, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: BG 3, server: 213.183.63.219, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: az香港10G口B 钉钉, server: 20.222.101.175, port: 80, type: vmess, uuid: fa0702f4-8ec9-48e5-9b53-a0afb7c3717e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
-  - {name: DE, server: 5.183.179.167, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
-  - {name: BG 4, server: 213.183.63.219, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: BG 5, server: 213.183.63.219, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: BG 6, server: 213.183.63.219, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
-  - {name: BG 7, server: 213.183.63.219, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: 原生韩国春川 4g带宽 流媒体解锁可上淘宝1.5, server: 138.2.125.157, port: 80, type: vmess, uuid: fa0702f4-8ec9-48e5-9b53-a0afb7c3717e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: dm.toutiao.com}, udp: true}
-  - {name: BG 8, server: 213.183.63.219, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: US, server: 107.174.172.154, port: 447, type: vmess, uuid: bc548c11-461a-4b46-b87f-05bc842bc1b8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /kFb4nwXU, ws-headers: {Host: 107.174.172.154}, udp: true}
-  - {name: BG 9, server: 213.183.63.219, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
-  - {name: PL, server: 217.30.10.65, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: EXTM3U-Seoul-Choopa 2, server: 120.233.10.163, port: 15303, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: t.me/vpnhat, udp: true}
-  - {name: BG 10, server: 213.183.63.219, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
-  - {name: BG 11, server: 213.183.63.219, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: BG 12, server: 213.183.63.219, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
-  - {name: BG 13, server: 213.183.63.219, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: DE 2, server: 5.183.179.167, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: DE 3, server: 5.183.179.167, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: DE 4, server: 5.183.179.167, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: DE 5, server: 5.183.179.167, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: DE, server: 5.183.179.167, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: DE 2, server: 5.183.179.167, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: DE 3, server: 5.183.179.167, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: DE 4, server: 5.183.179.167, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: DE 5, server: 5.183.179.167, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
   - {name: DE 6, server: 5.183.179.167, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
-  - {name: DE 7, server: 5.183.179.167, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: BG, server: 213.183.63.219, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: BG 2, server: 213.183.63.219, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: BG 3, server: 213.183.63.219, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: BG 4, server: 213.183.63.219, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: DE 7, server: 5.183.179.167, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: BG 5, server: 213.183.63.219, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
   - {name: DE 8, server: 5.183.179.146, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: 原生日本.东京 500M 流媒体解锁 可淘宝 1.5, server: 138.3.211.38, port: 80, type: vmess, uuid: fa0702f4-8ec9-48e5-9b53-a0afb7c3717e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: dm.toutiao.com}, udp: true}
-  - {name: DE 9, server: 5.183.179.140, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
-  - {name: BG 14, server: 213.183.63.219, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: DE 10, server: 5.183.179.167, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
-  - {name: DE 11, server: 5.183.179.140, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: US 2, server: us3.31vpn.com, port: 443, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /fastssh/3102637493qqcom/626cf7d8bd49b/, ws-headers: {Host: us3.31vpn.com}, udp: true}
-  - {name: DE 12, server: 5.183.179.167, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: DE 9, server: 5.183.179.140, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: ایرلند🇮🇪_5, server: 185.108.129.77, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: BG 6, server: 213.183.63.219, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: BG 7, server: 213.183.63.219, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: BG 8, server: 213.183.63.219, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: BG 9, server: 213.183.63.219, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: BG 10, server: 213.183.63.219, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: BG 11, server: 213.183.63.219, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: BG 12, server: 213.183.63.219, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: BG 13, server: 213.183.63.219, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: PL, server: 217.30.10.65, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: BG 14, server: 213.183.63.219, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: EXTM3U-Seoul-Choopa, server: 120.233.10.163, port: 15303, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: t.me/vpnhat, udp: true}
   - {name: PL 2, server: 217.30.10.65, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
   - {name: PL 3, server: 217.30.10.65, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: ایرلند🇮🇪_5, server: 185.108.129.77, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: vpnpool-Seoul-Choopa, server: 120.232.215.218, port: 15302, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: t.me/vpnhat, udp: true}
+  - {name: vpnpool-Seoul-Choopa 2, server: 120.232.215.218, port: 15304, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: t.me/vpnhat, udp: true}
+  - {name: US, server: us3.31vpn.com, port: 443, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /fastssh/3102637493qqcom/626cf7d8bd49b/, ws-headers: {Host: us3.31vpn.com}, udp: true}
+  - {name: DE 10, server: 5.183.179.167, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: US 2, server: 107.174.172.154, port: 447, type: vmess, uuid: bc548c11-461a-4b46-b87f-05bc842bc1b8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /kFb4nwXU, ws-headers: {Host: 107.174.172.154}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - EXTM3U-Seoul-Choopa
-      - 日本东京20G口
-      - vpnpool-Seoul-Choopa
-      - vpnpool-Seoul-Choopa 2
-      - BG
-      - 香港 10g口带宽
-      - 原生美国.圣何塞 500M 流媒体解锁 可淘宝 1.5
-      - BG 2
-      - BG 3
-      - az香港10G口B 钉钉
       - DE
-      - BG 4
-      - BG 5
-      - BG 6
-      - BG 7
-      - 原生韩国春川 4g带宽 流媒体解锁可上淘宝1.5
-      - BG 8
-      - US
-      - BG 9
-      - PL
-      - EXTM3U-Seoul-Choopa 2
-      - BG 10
-      - BG 11
-      - BG 12
-      - BG 13
       - DE 2
       - DE 3
       - DE 4
       - DE 5
       - DE 6
+      - BG
+      - BG 2
+      - BG 3
+      - BG 4
       - DE 7
+      - BG 5
       - DE 8
-      - 原生日本.东京 500M 流媒体解锁 可淘宝 1.5
       - DE 9
+      - ایرلند🇮🇪_5
+      - BG 6
+      - BG 7
+      - BG 8
+      - BG 9
+      - BG 10
+      - BG 11
+      - BG 12
+      - BG 13
+      - PL
       - BG 14
-      - DE 10
-      - DE 11
-      - US 2
-      - DE 12
+      - EXTM3U-Seoul-Choopa
       - PL 2
       - PL 3
-      - ایرلند🇮🇪_5
+      - vpnpool-Seoul-Choopa
+      - vpnpool-Seoul-Choopa 2
+      - US
+      - DE 10
+      - US 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - EXTM3U-Seoul-Choopa
-      - 日本东京20G口
-      - vpnpool-Seoul-Choopa
-      - vpnpool-Seoul-Choopa 2
-      - BG
-      - 香港 10g口带宽
-      - 原生美国.圣何塞 500M 流媒体解锁 可淘宝 1.5
-      - BG 2
-      - BG 3
-      - az香港10G口B 钉钉
       - DE
-      - BG 4
-      - BG 5
-      - BG 6
-      - BG 7
-      - 原生韩国春川 4g带宽 流媒体解锁可上淘宝1.5
-      - BG 8
-      - US
-      - BG 9
-      - PL
-      - EXTM3U-Seoul-Choopa 2
-      - BG 10
-      - BG 11
-      - BG 12
-      - BG 13
       - DE 2
       - DE 3
       - DE 4
       - DE 5
       - DE 6
+      - BG
+      - BG 2
+      - BG 3
+      - BG 4
       - DE 7
+      - BG 5
       - DE 8
-      - 原生日本.东京 500M 流媒体解锁 可淘宝 1.5
       - DE 9
+      - ایرلند🇮🇪_5
+      - BG 6
+      - BG 7
+      - BG 8
+      - BG 9
+      - BG 10
+      - BG 11
+      - BG 12
+      - BG 13
+      - PL
       - BG 14
-      - DE 10
-      - DE 11
-      - US 2
-      - DE 12
+      - EXTM3U-Seoul-Choopa
       - PL 2
       - PL 3
-      - ایرلند🇮🇪_5
+      - vpnpool-Seoul-Choopa
+      - vpnpool-Seoul-Choopa 2
+      - US
+      - DE 10
+      - US 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - EXTM3U-Seoul-Choopa
-      - 日本东京20G口
-      - vpnpool-Seoul-Choopa
-      - vpnpool-Seoul-Choopa 2
-      - BG
-      - 香港 10g口带宽
-      - 原生美国.圣何塞 500M 流媒体解锁 可淘宝 1.5
-      - BG 2
-      - BG 3
-      - az香港10G口B 钉钉
       - DE
-      - BG 4
-      - BG 5
-      - BG 6
-      - BG 7
-      - 原生韩国春川 4g带宽 流媒体解锁可上淘宝1.5
-      - BG 8
-      - US
-      - BG 9
-      - PL
-      - EXTM3U-Seoul-Choopa 2
-      - BG 10
-      - BG 11
-      - BG 12
-      - BG 13
       - DE 2
       - DE 3
       - DE 4
       - DE 5
       - DE 6
+      - BG
+      - BG 2
+      - BG 3
+      - BG 4
       - DE 7
+      - BG 5
       - DE 8
-      - 原生日本.东京 500M 流媒体解锁 可淘宝 1.5
       - DE 9
+      - ایرلند🇮🇪_5
+      - BG 6
+      - BG 7
+      - BG 8
+      - BG 9
+      - BG 10
+      - BG 11
+      - BG 12
+      - BG 13
+      - PL
       - BG 14
-      - DE 10
-      - DE 11
-      - US 2
-      - DE 12
+      - EXTM3U-Seoul-Choopa
       - PL 2
       - PL 3
-      - ایرلند🇮🇪_5
+      - vpnpool-Seoul-Choopa
+      - vpnpool-Seoul-Choopa 2
+      - US
+      - DE 10
+      - US 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -208,197 +172,159 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - EXTM3U-Seoul-Choopa
-      - 日本东京20G口
-      - vpnpool-Seoul-Choopa
-      - vpnpool-Seoul-Choopa 2
-      - BG
-      - 香港 10g口带宽
-      - 原生美国.圣何塞 500M 流媒体解锁 可淘宝 1.5
-      - BG 2
-      - BG 3
-      - az香港10G口B 钉钉
       - DE
-      - BG 4
-      - BG 5
-      - BG 6
-      - BG 7
-      - 原生韩国春川 4g带宽 流媒体解锁可上淘宝1.5
-      - BG 8
-      - US
-      - BG 9
-      - PL
-      - EXTM3U-Seoul-Choopa 2
-      - BG 10
-      - BG 11
-      - BG 12
-      - BG 13
       - DE 2
       - DE 3
       - DE 4
       - DE 5
       - DE 6
+      - BG
+      - BG 2
+      - BG 3
+      - BG 4
       - DE 7
+      - BG 5
       - DE 8
-      - 原生日本.东京 500M 流媒体解锁 可淘宝 1.5
       - DE 9
+      - ایرلند🇮🇪_5
+      - BG 6
+      - BG 7
+      - BG 8
+      - BG 9
+      - BG 10
+      - BG 11
+      - BG 12
+      - BG 13
+      - PL
       - BG 14
-      - DE 10
-      - DE 11
-      - US 2
-      - DE 12
+      - EXTM3U-Seoul-Choopa
       - PL 2
       - PL 3
-      - ایرلند🇮🇪_5
+      - vpnpool-Seoul-Choopa
+      - vpnpool-Seoul-Choopa 2
+      - US
+      - DE 10
+      - US 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港 10g口带宽
-      - az香港10G口B 钉钉
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - EXTM3U-Seoul-Choopa
-      - 日本东京20G口
-      - vpnpool-Seoul-Choopa
-      - vpnpool-Seoul-Choopa 2
-      - BG
-      - 香港 10g口带宽
-      - 原生美国.圣何塞 500M 流媒体解锁 可淘宝 1.5
-      - BG 2
-      - BG 3
-      - az香港10G口B 钉钉
       - DE
-      - BG 4
-      - BG 5
-      - BG 6
-      - BG 7
-      - 原生韩国春川 4g带宽 流媒体解锁可上淘宝1.5
-      - BG 8
-      - US
-      - BG 9
-      - PL
-      - EXTM3U-Seoul-Choopa 2
-      - BG 10
-      - BG 11
-      - BG 12
-      - BG 13
       - DE 2
       - DE 3
       - DE 4
       - DE 5
       - DE 6
+      - BG
+      - BG 2
+      - BG 3
+      - BG 4
       - DE 7
+      - BG 5
       - DE 8
-      - 原生日本.东京 500M 流媒体解锁 可淘宝 1.5
       - DE 9
+      - ایرلند🇮🇪_5
+      - BG 6
+      - BG 7
+      - BG 8
+      - BG 9
+      - BG 10
+      - BG 11
+      - BG 12
+      - BG 13
+      - PL
       - BG 14
-      - DE 10
-      - DE 11
-      - US 2
-      - DE 12
+      - EXTM3U-Seoul-Choopa
       - PL 2
       - PL 3
-      - ایرلند🇮🇪_5
+      - vpnpool-Seoul-Choopa
+      - vpnpool-Seoul-Choopa 2
+      - US
+      - DE 10
+      - US 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - EXTM3U-Seoul-Choopa
-      - 日本东京20G口
-      - vpnpool-Seoul-Choopa
-      - vpnpool-Seoul-Choopa 2
-      - BG
-      - 香港 10g口带宽
-      - 原生美国.圣何塞 500M 流媒体解锁 可淘宝 1.5
-      - BG 2
-      - BG 3
-      - az香港10G口B 钉钉
       - DE
-      - BG 4
-      - BG 5
-      - BG 6
-      - BG 7
-      - 原生韩国春川 4g带宽 流媒体解锁可上淘宝1.5
-      - BG 8
-      - US
-      - BG 9
-      - PL
-      - EXTM3U-Seoul-Choopa 2
-      - BG 10
-      - BG 11
-      - BG 12
-      - BG 13
       - DE 2
       - DE 3
       - DE 4
       - DE 5
       - DE 6
+      - BG
+      - BG 2
+      - BG 3
+      - BG 4
       - DE 7
+      - BG 5
       - DE 8
-      - 原生日本.东京 500M 流媒体解锁 可淘宝 1.5
       - DE 9
+      - ایرلند🇮🇪_5
+      - BG 6
+      - BG 7
+      - BG 8
+      - BG 9
+      - BG 10
+      - BG 11
+      - BG 12
+      - BG 13
+      - PL
       - BG 14
-      - DE 10
-      - DE 11
-      - US 2
-      - DE 12
+      - EXTM3U-Seoul-Choopa
       - PL 2
       - PL 3
-      - ایرلند🇮🇪_5
+      - vpnpool-Seoul-Choopa
+      - vpnpool-Seoul-Choopa 2
+      - US
+      - DE 10
+      - US 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - EXTM3U-Seoul-Choopa
-      - 日本东京20G口
-      - vpnpool-Seoul-Choopa
-      - vpnpool-Seoul-Choopa 2
-      - BG
-      - 香港 10g口带宽
-      - 原生美国.圣何塞 500M 流媒体解锁 可淘宝 1.5
-      - BG 2
-      - BG 3
-      - az香港10G口B 钉钉
       - DE
-      - BG 4
-      - BG 5
-      - BG 6
-      - BG 7
-      - 原生韩国春川 4g带宽 流媒体解锁可上淘宝1.5
-      - BG 8
-      - US
-      - BG 9
-      - PL
-      - EXTM3U-Seoul-Choopa 2
-      - BG 10
-      - BG 11
-      - BG 12
-      - BG 13
       - DE 2
       - DE 3
       - DE 4
       - DE 5
       - DE 6
+      - BG
+      - BG 2
+      - BG 3
+      - BG 4
       - DE 7
+      - BG 5
       - DE 8
-      - 原生日本.东京 500M 流媒体解锁 可淘宝 1.5
       - DE 9
+      - ایرلند🇮🇪_5
+      - BG 6
+      - BG 7
+      - BG 8
+      - BG 9
+      - BG 10
+      - BG 11
+      - BG 12
+      - BG 13
+      - PL
       - BG 14
-      - DE 10
-      - DE 11
-      - US 2
-      - DE 12
+      - EXTM3U-Seoul-Choopa
       - PL 2
       - PL 3
-      - ایرلند🇮🇪_5
+      - vpnpool-Seoul-Choopa
+      - vpnpool-Seoul-Choopa 2
+      - US
+      - DE 10
+      - US 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -414,48 +340,39 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - EXTM3U-Seoul-Choopa
-      - 日本东京20G口
-      - vpnpool-Seoul-Choopa
-      - vpnpool-Seoul-Choopa 2
-      - BG
-      - 香港 10g口带宽
-      - 原生美国.圣何塞 500M 流媒体解锁 可淘宝 1.5
-      - BG 2
-      - BG 3
-      - az香港10G口B 钉钉
       - DE
-      - BG 4
-      - BG 5
-      - BG 6
-      - BG 7
-      - 原生韩国春川 4g带宽 流媒体解锁可上淘宝1.5
-      - BG 8
-      - US
-      - BG 9
-      - PL
-      - EXTM3U-Seoul-Choopa 2
-      - BG 10
-      - BG 11
-      - BG 12
-      - BG 13
       - DE 2
       - DE 3
       - DE 4
       - DE 5
       - DE 6
+      - BG
+      - BG 2
+      - BG 3
+      - BG 4
       - DE 7
+      - BG 5
       - DE 8
-      - 原生日本.东京 500M 流媒体解锁 可淘宝 1.5
       - DE 9
+      - ایرلند🇮🇪_5
+      - BG 6
+      - BG 7
+      - BG 8
+      - BG 9
+      - BG 10
+      - BG 11
+      - BG 12
+      - BG 13
+      - PL
       - BG 14
-      - DE 10
-      - DE 11
-      - US 2
-      - DE 12
+      - EXTM3U-Seoul-Choopa
       - PL 2
       - PL 3
-      - ایرلند🇮🇪_5
+      - vpnpool-Seoul-Choopa
+      - vpnpool-Seoul-Choopa 2
+      - US
+      - DE 10
+      - US 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
