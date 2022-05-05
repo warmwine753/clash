@@ -19,11 +19,8 @@ proxies:
   - {name: BG 12, server: 213.183.63.219, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
   - {name: BG 13, server: 213.183.63.219, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
   - {name: BG 14, server: 213.183.63.219, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: vpnpool-Seoul-Choopa, server: 120.232.215.218, port: 15302, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: t.me/vpnhat, udp: true}
-  - {name: vpnpool-Seoul-Choopa 2, server: 120.232.215.218, port: 15304, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: http_simple, protocol-param: 1596:vsqvobohcqs, obfs-param: t.me/vpnhat, udp: true}
   - {name: US, server: us3.31vpn.com, port: 443, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /fastssh/3102637493qqcom/626cf7d8bd49b/, ws-headers: {Host: us3.31vpn.com}, udp: true}
   - {name: US 2, server: 107.174.172.154, port: 447, type: vmess, uuid: bc548c11-461a-4b46-b87f-05bc842bc1b8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /kFb4nwXU, ws-headers: {Host: 107.174.172.154}, udp: true}
-  - {name: DE德国(TG频道:@poduvjd), server: de1.poduv.tk, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
   - {name: DE德国(TG频道:@poduvjd) 2, server: de1.poduv.tk, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
   - {name: DE德国(TG频道:@poduvjd) 3, server: de1.poduv.tk, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
   - {name: DE德国(TG频道:@poduvjd) 4, server: de1.poduv.tk, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
@@ -32,7 +29,6 @@ proxies:
   - {name: DE德国(TG频道:@poduvjd) 7, server: de1.poduv.tk, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
   - {name: DE德国(TG频道:@poduvjd) 8, server: de1.poduv.tk, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
   - {name: DE德国(TG频道:@poduvjd) 9, server: de1.poduv.tk, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 10, server: de1.poduv.tk, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
   - {name: DE德国(TG频道:@poduvjd) 11, server: de1.poduv.tk, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
   - {name: DE德国(TG频道:@poduvjd) 12, server: de1.poduv.tk, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
   - {name: DE德国(TG频道:@poduvjd) 13, server: de1.poduv.tk, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
@@ -47,25 +43,6 @@ proxies:
   - {name: DE德国(TG频道:@poduvjd) 22, server: de1.poduv.tk, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
   - {name: DE德国(TG频道:@poduvjd) 23, server: de1.poduv.tk, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
   - {name: DE德国(TG频道:@poduvjd) 24, server: de1.poduv.tk, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 25, server: de1.poduv.tk, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 26, server: de1.poduv.tk, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 27, server: de1.poduv.tk, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 28, server: de1.poduv.tk, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 29, server: de1.poduv.tk, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 30, server: de1.poduv.tk, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 31, server: de1.poduv.tk, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 32, server: de1.poduv.tk, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 33, server: de1.poduv.tk, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 34, server: de1.poduv.tk, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 35, server: de1.poduv.tk, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 36, server: de1.poduv.tk, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 37, server: de1.poduv.tk, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 38, server: de1.poduv.tk, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 39, server: de1.poduv.tk, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 40, server: de1.poduv.tk, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 41, server: de1.poduv.tk, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 42, server: de1.poduv.tk, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 43, server: de1.poduv.tk, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -86,11 +63,8 @@ proxy-groups:
       - BG 12
       - BG 13
       - BG 14
-      - vpnpool-Seoul-Choopa
-      - vpnpool-Seoul-Choopa 2
       - US
       - US 2
-      - DE德国(TG频道:@poduvjd)
       - DE德国(TG频道:@poduvjd) 2
       - DE德国(TG频道:@poduvjd) 3
       - DE德国(TG频道:@poduvjd) 4
@@ -99,7 +73,6 @@ proxy-groups:
       - DE德国(TG频道:@poduvjd) 7
       - DE德国(TG频道:@poduvjd) 8
       - DE德国(TG频道:@poduvjd) 9
-      - DE德国(TG频道:@poduvjd) 10
       - DE德国(TG频道:@poduvjd) 11
       - DE德国(TG频道:@poduvjd) 12
       - DE德国(TG频道:@poduvjd) 13
@@ -114,25 +87,6 @@ proxy-groups:
       - DE德国(TG频道:@poduvjd) 22
       - DE德国(TG频道:@poduvjd) 23
       - DE德国(TG频道:@poduvjd) 24
-      - DE德国(TG频道:@poduvjd) 25
-      - DE德国(TG频道:@poduvjd) 26
-      - DE德国(TG频道:@poduvjd) 27
-      - DE德国(TG频道:@poduvjd) 28
-      - DE德国(TG频道:@poduvjd) 29
-      - DE德国(TG频道:@poduvjd) 30
-      - DE德国(TG频道:@poduvjd) 31
-      - DE德国(TG频道:@poduvjd) 32
-      - DE德国(TG频道:@poduvjd) 33
-      - DE德国(TG频道:@poduvjd) 34
-      - DE德国(TG频道:@poduvjd) 35
-      - DE德国(TG频道:@poduvjd) 36
-      - DE德国(TG频道:@poduvjd) 37
-      - DE德国(TG频道:@poduvjd) 38
-      - DE德国(TG频道:@poduvjd) 39
-      - DE德国(TG频道:@poduvjd) 40
-      - DE德国(TG频道:@poduvjd) 41
-      - DE德国(TG频道:@poduvjd) 42
-      - DE德国(TG频道:@poduvjd) 43
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -152,11 +106,8 @@ proxy-groups:
       - BG 12
       - BG 13
       - BG 14
-      - vpnpool-Seoul-Choopa
-      - vpnpool-Seoul-Choopa 2
       - US
       - US 2
-      - DE德国(TG频道:@poduvjd)
       - DE德国(TG频道:@poduvjd) 2
       - DE德国(TG频道:@poduvjd) 3
       - DE德国(TG频道:@poduvjd) 4
@@ -165,7 +116,6 @@ proxy-groups:
       - DE德国(TG频道:@poduvjd) 7
       - DE德国(TG频道:@poduvjd) 8
       - DE德国(TG频道:@poduvjd) 9
-      - DE德国(TG频道:@poduvjd) 10
       - DE德国(TG频道:@poduvjd) 11
       - DE德国(TG频道:@poduvjd) 12
       - DE德国(TG频道:@poduvjd) 13
@@ -180,25 +130,6 @@ proxy-groups:
       - DE德国(TG频道:@poduvjd) 22
       - DE德国(TG频道:@poduvjd) 23
       - DE德国(TG频道:@poduvjd) 24
-      - DE德国(TG频道:@poduvjd) 25
-      - DE德国(TG频道:@poduvjd) 26
-      - DE德国(TG频道:@poduvjd) 27
-      - DE德国(TG频道:@poduvjd) 28
-      - DE德国(TG频道:@poduvjd) 29
-      - DE德国(TG频道:@poduvjd) 30
-      - DE德国(TG频道:@poduvjd) 31
-      - DE德国(TG频道:@poduvjd) 32
-      - DE德国(TG频道:@poduvjd) 33
-      - DE德国(TG频道:@poduvjd) 34
-      - DE德国(TG频道:@poduvjd) 35
-      - DE德国(TG频道:@poduvjd) 36
-      - DE德国(TG频道:@poduvjd) 37
-      - DE德国(TG频道:@poduvjd) 38
-      - DE德国(TG频道:@poduvjd) 39
-      - DE德国(TG频道:@poduvjd) 40
-      - DE德国(TG频道:@poduvjd) 41
-      - DE德国(TG频道:@poduvjd) 42
-      - DE德国(TG频道:@poduvjd) 43
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -219,11 +150,8 @@ proxy-groups:
       - BG 12
       - BG 13
       - BG 14
-      - vpnpool-Seoul-Choopa
-      - vpnpool-Seoul-Choopa 2
       - US
       - US 2
-      - DE德国(TG频道:@poduvjd)
       - DE德国(TG频道:@poduvjd) 2
       - DE德国(TG频道:@poduvjd) 3
       - DE德国(TG频道:@poduvjd) 4
@@ -232,7 +160,6 @@ proxy-groups:
       - DE德国(TG频道:@poduvjd) 7
       - DE德国(TG频道:@poduvjd) 8
       - DE德国(TG频道:@poduvjd) 9
-      - DE德国(TG频道:@poduvjd) 10
       - DE德国(TG频道:@poduvjd) 11
       - DE德国(TG频道:@poduvjd) 12
       - DE德国(TG频道:@poduvjd) 13
@@ -247,25 +174,6 @@ proxy-groups:
       - DE德国(TG频道:@poduvjd) 22
       - DE德国(TG频道:@poduvjd) 23
       - DE德国(TG频道:@poduvjd) 24
-      - DE德国(TG频道:@poduvjd) 25
-      - DE德国(TG频道:@poduvjd) 26
-      - DE德国(TG频道:@poduvjd) 27
-      - DE德国(TG频道:@poduvjd) 28
-      - DE德国(TG频道:@poduvjd) 29
-      - DE德国(TG频道:@poduvjd) 30
-      - DE德国(TG频道:@poduvjd) 31
-      - DE德国(TG频道:@poduvjd) 32
-      - DE德国(TG频道:@poduvjd) 33
-      - DE德国(TG频道:@poduvjd) 34
-      - DE德国(TG频道:@poduvjd) 35
-      - DE德国(TG频道:@poduvjd) 36
-      - DE德国(TG频道:@poduvjd) 37
-      - DE德国(TG频道:@poduvjd) 38
-      - DE德国(TG频道:@poduvjd) 39
-      - DE德国(TG频道:@poduvjd) 40
-      - DE德国(TG频道:@poduvjd) 41
-      - DE德国(TG频道:@poduvjd) 42
-      - DE德国(TG频道:@poduvjd) 43
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -298,11 +206,8 @@ proxy-groups:
       - BG 12
       - BG 13
       - BG 14
-      - vpnpool-Seoul-Choopa
-      - vpnpool-Seoul-Choopa 2
       - US
       - US 2
-      - DE德国(TG频道:@poduvjd)
       - DE德国(TG频道:@poduvjd) 2
       - DE德国(TG频道:@poduvjd) 3
       - DE德国(TG频道:@poduvjd) 4
@@ -311,7 +216,6 @@ proxy-groups:
       - DE德国(TG频道:@poduvjd) 7
       - DE德国(TG频道:@poduvjd) 8
       - DE德国(TG频道:@poduvjd) 9
-      - DE德国(TG频道:@poduvjd) 10
       - DE德国(TG频道:@poduvjd) 11
       - DE德国(TG频道:@poduvjd) 12
       - DE德国(TG频道:@poduvjd) 13
@@ -326,25 +230,6 @@ proxy-groups:
       - DE德国(TG频道:@poduvjd) 22
       - DE德国(TG频道:@poduvjd) 23
       - DE德国(TG频道:@poduvjd) 24
-      - DE德国(TG频道:@poduvjd) 25
-      - DE德国(TG频道:@poduvjd) 26
-      - DE德国(TG频道:@poduvjd) 27
-      - DE德国(TG频道:@poduvjd) 28
-      - DE德国(TG频道:@poduvjd) 29
-      - DE德国(TG频道:@poduvjd) 30
-      - DE德国(TG频道:@poduvjd) 31
-      - DE德国(TG频道:@poduvjd) 32
-      - DE德国(TG频道:@poduvjd) 33
-      - DE德国(TG频道:@poduvjd) 34
-      - DE德国(TG频道:@poduvjd) 35
-      - DE德国(TG频道:@poduvjd) 36
-      - DE德国(TG频道:@poduvjd) 37
-      - DE德国(TG频道:@poduvjd) 38
-      - DE德国(TG频道:@poduvjd) 39
-      - DE德国(TG频道:@poduvjd) 40
-      - DE德国(TG频道:@poduvjd) 41
-      - DE德国(TG频道:@poduvjd) 42
-      - DE德国(TG频道:@poduvjd) 43
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -369,11 +254,8 @@ proxy-groups:
       - BG 12
       - BG 13
       - BG 14
-      - vpnpool-Seoul-Choopa
-      - vpnpool-Seoul-Choopa 2
       - US
       - US 2
-      - DE德国(TG频道:@poduvjd)
       - DE德国(TG频道:@poduvjd) 2
       - DE德国(TG频道:@poduvjd) 3
       - DE德国(TG频道:@poduvjd) 4
@@ -382,7 +264,6 @@ proxy-groups:
       - DE德国(TG频道:@poduvjd) 7
       - DE德国(TG频道:@poduvjd) 8
       - DE德国(TG频道:@poduvjd) 9
-      - DE德国(TG频道:@poduvjd) 10
       - DE德国(TG频道:@poduvjd) 11
       - DE德国(TG频道:@poduvjd) 12
       - DE德国(TG频道:@poduvjd) 13
@@ -397,25 +278,6 @@ proxy-groups:
       - DE德国(TG频道:@poduvjd) 22
       - DE德国(TG频道:@poduvjd) 23
       - DE德国(TG频道:@poduvjd) 24
-      - DE德国(TG频道:@poduvjd) 25
-      - DE德国(TG频道:@poduvjd) 26
-      - DE德国(TG频道:@poduvjd) 27
-      - DE德国(TG频道:@poduvjd) 28
-      - DE德国(TG频道:@poduvjd) 29
-      - DE德国(TG频道:@poduvjd) 30
-      - DE德国(TG频道:@poduvjd) 31
-      - DE德国(TG频道:@poduvjd) 32
-      - DE德国(TG频道:@poduvjd) 33
-      - DE德国(TG频道:@poduvjd) 34
-      - DE德国(TG频道:@poduvjd) 35
-      - DE德国(TG频道:@poduvjd) 36
-      - DE德国(TG频道:@poduvjd) 37
-      - DE德国(TG频道:@poduvjd) 38
-      - DE德国(TG频道:@poduvjd) 39
-      - DE德国(TG频道:@poduvjd) 40
-      - DE德国(TG频道:@poduvjd) 41
-      - DE德国(TG频道:@poduvjd) 42
-      - DE德国(TG频道:@poduvjd) 43
   - name: 📲 电报信息
     type: select
     proxies:
@@ -435,11 +297,8 @@ proxy-groups:
       - BG 12
       - BG 13
       - BG 14
-      - vpnpool-Seoul-Choopa
-      - vpnpool-Seoul-Choopa 2
       - US
       - US 2
-      - DE德国(TG频道:@poduvjd)
       - DE德国(TG频道:@poduvjd) 2
       - DE德国(TG频道:@poduvjd) 3
       - DE德国(TG频道:@poduvjd) 4
@@ -448,7 +307,6 @@ proxy-groups:
       - DE德国(TG频道:@poduvjd) 7
       - DE德国(TG频道:@poduvjd) 8
       - DE德国(TG频道:@poduvjd) 9
-      - DE德国(TG频道:@poduvjd) 10
       - DE德国(TG频道:@poduvjd) 11
       - DE德国(TG频道:@poduvjd) 12
       - DE德国(TG频道:@poduvjd) 13
@@ -463,25 +321,6 @@ proxy-groups:
       - DE德国(TG频道:@poduvjd) 22
       - DE德国(TG频道:@poduvjd) 23
       - DE德国(TG频道:@poduvjd) 24
-      - DE德国(TG频道:@poduvjd) 25
-      - DE德国(TG频道:@poduvjd) 26
-      - DE德国(TG频道:@poduvjd) 27
-      - DE德国(TG频道:@poduvjd) 28
-      - DE德国(TG频道:@poduvjd) 29
-      - DE德国(TG频道:@poduvjd) 30
-      - DE德国(TG频道:@poduvjd) 31
-      - DE德国(TG频道:@poduvjd) 32
-      - DE德国(TG频道:@poduvjd) 33
-      - DE德国(TG频道:@poduvjd) 34
-      - DE德国(TG频道:@poduvjd) 35
-      - DE德国(TG频道:@poduvjd) 36
-      - DE德国(TG频道:@poduvjd) 37
-      - DE德国(TG频道:@poduvjd) 38
-      - DE德国(TG频道:@poduvjd) 39
-      - DE德国(TG频道:@poduvjd) 40
-      - DE德国(TG频道:@poduvjd) 41
-      - DE德国(TG频道:@poduvjd) 42
-      - DE德国(TG频道:@poduvjd) 43
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -502,11 +341,8 @@ proxy-groups:
       - BG 12
       - BG 13
       - BG 14
-      - vpnpool-Seoul-Choopa
-      - vpnpool-Seoul-Choopa 2
       - US
       - US 2
-      - DE德国(TG频道:@poduvjd)
       - DE德国(TG频道:@poduvjd) 2
       - DE德国(TG频道:@poduvjd) 3
       - DE德国(TG频道:@poduvjd) 4
@@ -515,7 +351,6 @@ proxy-groups:
       - DE德国(TG频道:@poduvjd) 7
       - DE德国(TG频道:@poduvjd) 8
       - DE德国(TG频道:@poduvjd) 9
-      - DE德国(TG频道:@poduvjd) 10
       - DE德国(TG频道:@poduvjd) 11
       - DE德国(TG频道:@poduvjd) 12
       - DE德国(TG频道:@poduvjd) 13
@@ -530,25 +365,6 @@ proxy-groups:
       - DE德国(TG频道:@poduvjd) 22
       - DE德国(TG频道:@poduvjd) 23
       - DE德国(TG频道:@poduvjd) 24
-      - DE德国(TG频道:@poduvjd) 25
-      - DE德国(TG频道:@poduvjd) 26
-      - DE德国(TG频道:@poduvjd) 27
-      - DE德国(TG频道:@poduvjd) 28
-      - DE德国(TG频道:@poduvjd) 29
-      - DE德国(TG频道:@poduvjd) 30
-      - DE德国(TG频道:@poduvjd) 31
-      - DE德国(TG频道:@poduvjd) 32
-      - DE德国(TG频道:@poduvjd) 33
-      - DE德国(TG频道:@poduvjd) 34
-      - DE德国(TG频道:@poduvjd) 35
-      - DE德国(TG频道:@poduvjd) 36
-      - DE德国(TG频道:@poduvjd) 37
-      - DE德国(TG频道:@poduvjd) 38
-      - DE德国(TG频道:@poduvjd) 39
-      - DE德国(TG频道:@poduvjd) 40
-      - DE德国(TG频道:@poduvjd) 41
-      - DE德国(TG频道:@poduvjd) 42
-      - DE德国(TG频道:@poduvjd) 43
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -578,11 +394,8 @@ proxy-groups:
       - BG 12
       - BG 13
       - BG 14
-      - vpnpool-Seoul-Choopa
-      - vpnpool-Seoul-Choopa 2
       - US
       - US 2
-      - DE德国(TG频道:@poduvjd)
       - DE德国(TG频道:@poduvjd) 2
       - DE德国(TG频道:@poduvjd) 3
       - DE德国(TG频道:@poduvjd) 4
@@ -591,7 +404,6 @@ proxy-groups:
       - DE德国(TG频道:@poduvjd) 7
       - DE德国(TG频道:@poduvjd) 8
       - DE德国(TG频道:@poduvjd) 9
-      - DE德国(TG频道:@poduvjd) 10
       - DE德国(TG频道:@poduvjd) 11
       - DE德国(TG频道:@poduvjd) 12
       - DE德国(TG频道:@poduvjd) 13
@@ -606,25 +418,6 @@ proxy-groups:
       - DE德国(TG频道:@poduvjd) 22
       - DE德国(TG频道:@poduvjd) 23
       - DE德国(TG频道:@poduvjd) 24
-      - DE德国(TG频道:@poduvjd) 25
-      - DE德国(TG频道:@poduvjd) 26
-      - DE德国(TG频道:@poduvjd) 27
-      - DE德国(TG频道:@poduvjd) 28
-      - DE德国(TG频道:@poduvjd) 29
-      - DE德国(TG频道:@poduvjd) 30
-      - DE德国(TG频道:@poduvjd) 31
-      - DE德国(TG频道:@poduvjd) 32
-      - DE德国(TG频道:@poduvjd) 33
-      - DE德国(TG频道:@poduvjd) 34
-      - DE德国(TG频道:@poduvjd) 35
-      - DE德国(TG频道:@poduvjd) 36
-      - DE德国(TG频道:@poduvjd) 37
-      - DE德国(TG频道:@poduvjd) 38
-      - DE德国(TG频道:@poduvjd) 39
-      - DE德国(TG频道:@poduvjd) 40
-      - DE德国(TG频道:@poduvjd) 41
-      - DE德国(TG频道:@poduvjd) 42
-      - DE德国(TG频道:@poduvjd) 43
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
