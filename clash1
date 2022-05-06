@@ -21,28 +21,54 @@ proxies:
   - {name: BG 14, server: 213.183.63.219, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
   - {name: US, server: us3.31vpn.com, port: 443, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /fastssh/3102637493qqcom/626cf7d8bd49b/, ws-headers: {Host: us3.31vpn.com}, udp: true}
   - {name: US 2, server: 107.174.172.154, port: 447, type: vmess, uuid: bc548c11-461a-4b46-b87f-05bc842bc1b8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /kFb4nwXU, ws-headers: {Host: 107.174.172.154}, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 2, server: de1.poduv.tk, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 3, server: de1.poduv.tk, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 4, server: de1.poduv.tk, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 5, server: de1.poduv.tk, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 6, server: de1.poduv.tk, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 7, server: de1.poduv.tk, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 8, server: de1.poduv.tk, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 9, server: de1.poduv.tk, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 11, server: de1.poduv.tk, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 12, server: de1.poduv.tk, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 13, server: de1.poduv.tk, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 14, server: de1.poduv.tk, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 15, server: de1.poduv.tk, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 16, server: de1.poduv.tk, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 17, server: de1.poduv.tk, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 18, server: de1.poduv.tk, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 19, server: de1.poduv.tk, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 20, server: de1.poduv.tk, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 21, server: de1.poduv.tk, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 22, server: de1.poduv.tk, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 23, server: de1.poduv.tk, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: DE德国(TG频道:@poduvjd) 24, server: de1.poduv.tk, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: CN_8度商店 8du.shop, server: 1.mo.zz.xxxxx.x-t-fuckword.network, port: 53943, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: JP_8度商店 8du.shop, server: v2.godlight.xyz, port: 26940, type: vmess, uuid: 1a059eff-ad8a-42ad-921c-465c5b31f183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dajdklw231f, ws-headers: {Host: v2.godlight.xyz}, udp: true}
+  - {name: HK_8度商店 8du.shop, server: hkbn.henyo.us, port: 44614, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: hkbn.henyo.us, skip-cert-verify: true, udp: true}
+  - {name: US_8度商店 8du.shop, server: azhk5.mayiyun.vip, port: 80, type: vmess, uuid: 036bbf92-f490-499e-8a5e-3d14f1644d48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: vali-dns.cp31.ott.cibntv.net}, udp: true}
+  - {name: CN_8度商店 8du.shop 2, server: 4.3.1.fuckppppp.today, port: 58418, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_8度商店 8du.shop 3, server: 3.game.speed.zz.001.oooooooooo.icu, port: 25841, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_8度商店 8du.shop 4, server: 7.hk.zz.xxxxx.x-t-fuckword.network, port: 58416, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 8度商店 8du.shop, server: 104.19.3.38, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chcar, ws-headers: {Host: v2fly.samrt.website}, udp: true}
+  - {name: 8度商店 8du.shop 2, server: 104.19.3.16, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chcar, ws-headers: {Host: v2fly.samrt.website}, udp: true}
+  - {name: US_8度商店 8du.shop 2, server: 50.114.56.20, port: 4440, type: vmess, uuid: 8d13dc0f-c4c9-3f66-b8de-d9a5d432842a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8度商店 8du.shop 5, server: 3.2.1.fuckppppp.today, port: 60302, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK_8度商店 8du.shop 2, server: azhk6.mayiyun.vip, port: 80, type: vmess, uuid: 036bbf92-f490-499e-8a5e-3d14f1644d48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: open.dingtalk.com}, udp: true}
+  - {name: TW_8度商店 8du.shop, server: tw.node.qchwnd.moe, port: 44608, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: tw.node.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: CN_8度商店 8du.shop 6, server: word.2.fuckword.club, port: 47831, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_8度商店 8du.shop 7, server: hk1.v3.zz.cn.fuckword.club, port: 47605, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_8度商店 8du.shop 8, server: in05.dns2333.xyz, port: 62081, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hkt2-cdn.tencent.best}, udp: true}
+  - {name: CN_8度商店 8du.shop 9, server: in05.dns2333.xyz, port: 62005, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /nbsd, ws-headers: {Host: nbsd-jp03.myn0des.com}, udp: true}
+  - {name: DE_9093+@WangCai_1, server: 5.183.179.137, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: CN_8度商店 8du.shop 10, server: 2.sg.zz.xxxxx.x-t-fuckword.network, port: 60301, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_8度商店 8du.shop 11, server: hkt01.hk.zz.xxxxx.x-t-fuckword.network, port: 56812, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_8度商店 8du.shop 12, server: 2.hk.zz.xxxxx.x-t-fuckword.network, port: 35419, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_8度商店 8du.shop 13, server: word.2.fuckword.club, port: 36678, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_8度商店+8du.shop, server: 38.68.135.19, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: DE_9037+@WangCai_1, server: 5.183.179.137, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: DE_9019+@WangCai_1, server: 5.183.179.137, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: DE_9015+@WangCai_1, server: 5.183.179.137, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: DE_9018+@WangCai_1, server: 5.183.179.137, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: DE_9032+@WangCai_1, server: 5.183.179.137, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: DE_9024+@WangCai_1, server: 5.183.179.137, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: DE_9057+@WangCai_1, server: 5.183.179.137, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: DE_9060+@WangCai_1, server: 5.183.179.137, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: CN_8度商店 8du.shop 14, server: iplc-9-8-7-6-5-4-3-2-1.001.zz.fuckword.club, port: 53941, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: PL_8度商店+8du.shop, server: 217.30.10.67, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: CN_8度商店 8du.shop 15, server: 3.sg.zz.xxxxx.x-t-fuckword.network, port: 36679, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_8度商店 8du.shop 16, server: word.12.1.fuckword.club, port: 48744, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_8度商店 8du.shop 17, server: us2.v3.zz.cn.fuckword.club, port: 58420, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_8度商店 8du.shop 18, server: 5.jp.zz.xxxxx.x-t-fuckword.network, port: 48752, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_8度商店 8du.shop 19, server: 116.211.197.79, port: 38104, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8度商店 8du.shop 20, server: 2.game.speed.zz.001.oooooooooo.icu, port: 53945, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_8度商店+8du.shop 2, server: 38.68.135.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: JP_8度商店+8du.shop, server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: PL_8度商店+8du.shop 2, server: 217.30.10.67, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: CN_8度商店 8du.shop 21, server: 1.tw.zz.xxxxx.x-t-fuckword.network, port: 53137, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_8度商店 8du.shop 22, server: 2.7.1.fuckppppp.today, port: 50002, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_8度商店 8du.shop 23, server: 1.hk.zz.xxxxx.x-t-fuckword.network, port: 36672, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_8度商店 8du.shop 24, server: hk1.v2.zz.cn.fuckword.club, port: 49511, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_8度商店 8du.shop 25, server: word.18.fuckword.club, port: 58417, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CA_8度商店+8du.shop, server: 198.57.27.225, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -65,28 +91,54 @@ proxy-groups:
       - BG 14
       - US
       - US 2
-      - DE德国(TG频道:@poduvjd) 2
-      - DE德国(TG频道:@poduvjd) 3
-      - DE德国(TG频道:@poduvjd) 4
-      - DE德国(TG频道:@poduvjd) 5
-      - DE德国(TG频道:@poduvjd) 6
-      - DE德国(TG频道:@poduvjd) 7
-      - DE德国(TG频道:@poduvjd) 8
-      - DE德国(TG频道:@poduvjd) 9
-      - DE德国(TG频道:@poduvjd) 11
-      - DE德国(TG频道:@poduvjd) 12
-      - DE德国(TG频道:@poduvjd) 13
-      - DE德国(TG频道:@poduvjd) 14
-      - DE德国(TG频道:@poduvjd) 15
-      - DE德国(TG频道:@poduvjd) 16
-      - DE德国(TG频道:@poduvjd) 17
-      - DE德国(TG频道:@poduvjd) 18
-      - DE德国(TG频道:@poduvjd) 19
-      - DE德国(TG频道:@poduvjd) 20
-      - DE德国(TG频道:@poduvjd) 21
-      - DE德国(TG频道:@poduvjd) 22
-      - DE德国(TG频道:@poduvjd) 23
-      - DE德国(TG频道:@poduvjd) 24
+      - CN_8度商店 8du.shop
+      - JP_8度商店 8du.shop
+      - HK_8度商店 8du.shop
+      - US_8度商店 8du.shop
+      - CN_8度商店 8du.shop 2
+      - CN_8度商店 8du.shop 3
+      - CN_8度商店 8du.shop 4
+      - 8度商店 8du.shop
+      - 8度商店 8du.shop 2
+      - US_8度商店 8du.shop 2
+      - CN_8度商店 8du.shop 5
+      - HK_8度商店 8du.shop 2
+      - TW_8度商店 8du.shop
+      - CN_8度商店 8du.shop 6
+      - CN_8度商店 8du.shop 7
+      - CN_8度商店 8du.shop 8
+      - CN_8度商店 8du.shop 9
+      - DE_9093+@WangCai_1
+      - CN_8度商店 8du.shop 10
+      - CN_8度商店 8du.shop 11
+      - CN_8度商店 8du.shop 12
+      - CN_8度商店 8du.shop 13
+      - US_8度商店+8du.shop
+      - DE_9037+@WangCai_1
+      - DE_9019+@WangCai_1
+      - DE_9015+@WangCai_1
+      - DE_9018+@WangCai_1
+      - DE_9032+@WangCai_1
+      - DE_9024+@WangCai_1
+      - DE_9057+@WangCai_1
+      - DE_9060+@WangCai_1
+      - CN_8度商店 8du.shop 14
+      - PL_8度商店+8du.shop
+      - CN_8度商店 8du.shop 15
+      - CN_8度商店 8du.shop 16
+      - CN_8度商店 8du.shop 17
+      - CN_8度商店 8du.shop 18
+      - CN_8度商店 8du.shop 19
+      - CN_8度商店 8du.shop 20
+      - US_8度商店+8du.shop 2
+      - JP_8度商店+8du.shop
+      - PL_8度商店+8du.shop 2
+      - CN_8度商店 8du.shop 21
+      - CN_8度商店 8du.shop 22
+      - CN_8度商店 8du.shop 23
+      - CN_8度商店 8du.shop 24
+      - CN_8度商店 8du.shop 25
+      - CA_8度商店+8du.shop
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -108,28 +160,54 @@ proxy-groups:
       - BG 14
       - US
       - US 2
-      - DE德国(TG频道:@poduvjd) 2
-      - DE德国(TG频道:@poduvjd) 3
-      - DE德国(TG频道:@poduvjd) 4
-      - DE德国(TG频道:@poduvjd) 5
-      - DE德国(TG频道:@poduvjd) 6
-      - DE德国(TG频道:@poduvjd) 7
-      - DE德国(TG频道:@poduvjd) 8
-      - DE德国(TG频道:@poduvjd) 9
-      - DE德国(TG频道:@poduvjd) 11
-      - DE德国(TG频道:@poduvjd) 12
-      - DE德国(TG频道:@poduvjd) 13
-      - DE德国(TG频道:@poduvjd) 14
-      - DE德国(TG频道:@poduvjd) 15
-      - DE德国(TG频道:@poduvjd) 16
-      - DE德国(TG频道:@poduvjd) 17
-      - DE德国(TG频道:@poduvjd) 18
-      - DE德国(TG频道:@poduvjd) 19
-      - DE德国(TG频道:@poduvjd) 20
-      - DE德国(TG频道:@poduvjd) 21
-      - DE德国(TG频道:@poduvjd) 22
-      - DE德国(TG频道:@poduvjd) 23
-      - DE德国(TG频道:@poduvjd) 24
+      - CN_8度商店 8du.shop
+      - JP_8度商店 8du.shop
+      - HK_8度商店 8du.shop
+      - US_8度商店 8du.shop
+      - CN_8度商店 8du.shop 2
+      - CN_8度商店 8du.shop 3
+      - CN_8度商店 8du.shop 4
+      - 8度商店 8du.shop
+      - 8度商店 8du.shop 2
+      - US_8度商店 8du.shop 2
+      - CN_8度商店 8du.shop 5
+      - HK_8度商店 8du.shop 2
+      - TW_8度商店 8du.shop
+      - CN_8度商店 8du.shop 6
+      - CN_8度商店 8du.shop 7
+      - CN_8度商店 8du.shop 8
+      - CN_8度商店 8du.shop 9
+      - DE_9093+@WangCai_1
+      - CN_8度商店 8du.shop 10
+      - CN_8度商店 8du.shop 11
+      - CN_8度商店 8du.shop 12
+      - CN_8度商店 8du.shop 13
+      - US_8度商店+8du.shop
+      - DE_9037+@WangCai_1
+      - DE_9019+@WangCai_1
+      - DE_9015+@WangCai_1
+      - DE_9018+@WangCai_1
+      - DE_9032+@WangCai_1
+      - DE_9024+@WangCai_1
+      - DE_9057+@WangCai_1
+      - DE_9060+@WangCai_1
+      - CN_8度商店 8du.shop 14
+      - PL_8度商店+8du.shop
+      - CN_8度商店 8du.shop 15
+      - CN_8度商店 8du.shop 16
+      - CN_8度商店 8du.shop 17
+      - CN_8度商店 8du.shop 18
+      - CN_8度商店 8du.shop 19
+      - CN_8度商店 8du.shop 20
+      - US_8度商店+8du.shop 2
+      - JP_8度商店+8du.shop
+      - PL_8度商店+8du.shop 2
+      - CN_8度商店 8du.shop 21
+      - CN_8度商店 8du.shop 22
+      - CN_8度商店 8du.shop 23
+      - CN_8度商店 8du.shop 24
+      - CN_8度商店 8du.shop 25
+      - CA_8度商店+8du.shop
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -152,28 +230,54 @@ proxy-groups:
       - BG 14
       - US
       - US 2
-      - DE德国(TG频道:@poduvjd) 2
-      - DE德国(TG频道:@poduvjd) 3
-      - DE德国(TG频道:@poduvjd) 4
-      - DE德国(TG频道:@poduvjd) 5
-      - DE德国(TG频道:@poduvjd) 6
-      - DE德国(TG频道:@poduvjd) 7
-      - DE德国(TG频道:@poduvjd) 8
-      - DE德国(TG频道:@poduvjd) 9
-      - DE德国(TG频道:@poduvjd) 11
-      - DE德国(TG频道:@poduvjd) 12
-      - DE德国(TG频道:@poduvjd) 13
-      - DE德国(TG频道:@poduvjd) 14
-      - DE德国(TG频道:@poduvjd) 15
-      - DE德国(TG频道:@poduvjd) 16
-      - DE德国(TG频道:@poduvjd) 17
-      - DE德国(TG频道:@poduvjd) 18
-      - DE德国(TG频道:@poduvjd) 19
-      - DE德国(TG频道:@poduvjd) 20
-      - DE德国(TG频道:@poduvjd) 21
-      - DE德国(TG频道:@poduvjd) 22
-      - DE德国(TG频道:@poduvjd) 23
-      - DE德国(TG频道:@poduvjd) 24
+      - CN_8度商店 8du.shop
+      - JP_8度商店 8du.shop
+      - HK_8度商店 8du.shop
+      - US_8度商店 8du.shop
+      - CN_8度商店 8du.shop 2
+      - CN_8度商店 8du.shop 3
+      - CN_8度商店 8du.shop 4
+      - 8度商店 8du.shop
+      - 8度商店 8du.shop 2
+      - US_8度商店 8du.shop 2
+      - CN_8度商店 8du.shop 5
+      - HK_8度商店 8du.shop 2
+      - TW_8度商店 8du.shop
+      - CN_8度商店 8du.shop 6
+      - CN_8度商店 8du.shop 7
+      - CN_8度商店 8du.shop 8
+      - CN_8度商店 8du.shop 9
+      - DE_9093+@WangCai_1
+      - CN_8度商店 8du.shop 10
+      - CN_8度商店 8du.shop 11
+      - CN_8度商店 8du.shop 12
+      - CN_8度商店 8du.shop 13
+      - US_8度商店+8du.shop
+      - DE_9037+@WangCai_1
+      - DE_9019+@WangCai_1
+      - DE_9015+@WangCai_1
+      - DE_9018+@WangCai_1
+      - DE_9032+@WangCai_1
+      - DE_9024+@WangCai_1
+      - DE_9057+@WangCai_1
+      - DE_9060+@WangCai_1
+      - CN_8度商店 8du.shop 14
+      - PL_8度商店+8du.shop
+      - CN_8度商店 8du.shop 15
+      - CN_8度商店 8du.shop 16
+      - CN_8度商店 8du.shop 17
+      - CN_8度商店 8du.shop 18
+      - CN_8度商店 8du.shop 19
+      - CN_8度商店 8du.shop 20
+      - US_8度商店+8du.shop 2
+      - JP_8度商店+8du.shop
+      - PL_8度商店+8du.shop 2
+      - CN_8度商店 8du.shop 21
+      - CN_8度商店 8du.shop 22
+      - CN_8度商店 8du.shop 23
+      - CN_8度商店 8du.shop 24
+      - CN_8度商店 8du.shop 25
+      - CA_8度商店+8du.shop
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -208,28 +312,54 @@ proxy-groups:
       - BG 14
       - US
       - US 2
-      - DE德国(TG频道:@poduvjd) 2
-      - DE德国(TG频道:@poduvjd) 3
-      - DE德国(TG频道:@poduvjd) 4
-      - DE德国(TG频道:@poduvjd) 5
-      - DE德国(TG频道:@poduvjd) 6
-      - DE德国(TG频道:@poduvjd) 7
-      - DE德国(TG频道:@poduvjd) 8
-      - DE德国(TG频道:@poduvjd) 9
-      - DE德国(TG频道:@poduvjd) 11
-      - DE德国(TG频道:@poduvjd) 12
-      - DE德国(TG频道:@poduvjd) 13
-      - DE德国(TG频道:@poduvjd) 14
-      - DE德国(TG频道:@poduvjd) 15
-      - DE德国(TG频道:@poduvjd) 16
-      - DE德国(TG频道:@poduvjd) 17
-      - DE德国(TG频道:@poduvjd) 18
-      - DE德国(TG频道:@poduvjd) 19
-      - DE德国(TG频道:@poduvjd) 20
-      - DE德国(TG频道:@poduvjd) 21
-      - DE德国(TG频道:@poduvjd) 22
-      - DE德国(TG频道:@poduvjd) 23
-      - DE德国(TG频道:@poduvjd) 24
+      - CN_8度商店 8du.shop
+      - JP_8度商店 8du.shop
+      - HK_8度商店 8du.shop
+      - US_8度商店 8du.shop
+      - CN_8度商店 8du.shop 2
+      - CN_8度商店 8du.shop 3
+      - CN_8度商店 8du.shop 4
+      - 8度商店 8du.shop
+      - 8度商店 8du.shop 2
+      - US_8度商店 8du.shop 2
+      - CN_8度商店 8du.shop 5
+      - HK_8度商店 8du.shop 2
+      - TW_8度商店 8du.shop
+      - CN_8度商店 8du.shop 6
+      - CN_8度商店 8du.shop 7
+      - CN_8度商店 8du.shop 8
+      - CN_8度商店 8du.shop 9
+      - DE_9093+@WangCai_1
+      - CN_8度商店 8du.shop 10
+      - CN_8度商店 8du.shop 11
+      - CN_8度商店 8du.shop 12
+      - CN_8度商店 8du.shop 13
+      - US_8度商店+8du.shop
+      - DE_9037+@WangCai_1
+      - DE_9019+@WangCai_1
+      - DE_9015+@WangCai_1
+      - DE_9018+@WangCai_1
+      - DE_9032+@WangCai_1
+      - DE_9024+@WangCai_1
+      - DE_9057+@WangCai_1
+      - DE_9060+@WangCai_1
+      - CN_8度商店 8du.shop 14
+      - PL_8度商店+8du.shop
+      - CN_8度商店 8du.shop 15
+      - CN_8度商店 8du.shop 16
+      - CN_8度商店 8du.shop 17
+      - CN_8度商店 8du.shop 18
+      - CN_8度商店 8du.shop 19
+      - CN_8度商店 8du.shop 20
+      - US_8度商店+8du.shop 2
+      - JP_8度商店+8du.shop
+      - PL_8度商店+8du.shop 2
+      - CN_8度商店 8du.shop 21
+      - CN_8度商店 8du.shop 22
+      - CN_8度商店 8du.shop 23
+      - CN_8度商店 8du.shop 24
+      - CN_8度商店 8du.shop 25
+      - CA_8度商店+8du.shop
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -256,28 +386,54 @@ proxy-groups:
       - BG 14
       - US
       - US 2
-      - DE德国(TG频道:@poduvjd) 2
-      - DE德国(TG频道:@poduvjd) 3
-      - DE德国(TG频道:@poduvjd) 4
-      - DE德国(TG频道:@poduvjd) 5
-      - DE德国(TG频道:@poduvjd) 6
-      - DE德国(TG频道:@poduvjd) 7
-      - DE德国(TG频道:@poduvjd) 8
-      - DE德国(TG频道:@poduvjd) 9
-      - DE德国(TG频道:@poduvjd) 11
-      - DE德国(TG频道:@poduvjd) 12
-      - DE德国(TG频道:@poduvjd) 13
-      - DE德国(TG频道:@poduvjd) 14
-      - DE德国(TG频道:@poduvjd) 15
-      - DE德国(TG频道:@poduvjd) 16
-      - DE德国(TG频道:@poduvjd) 17
-      - DE德国(TG频道:@poduvjd) 18
-      - DE德国(TG频道:@poduvjd) 19
-      - DE德国(TG频道:@poduvjd) 20
-      - DE德国(TG频道:@poduvjd) 21
-      - DE德国(TG频道:@poduvjd) 22
-      - DE德国(TG频道:@poduvjd) 23
-      - DE德国(TG频道:@poduvjd) 24
+      - CN_8度商店 8du.shop
+      - JP_8度商店 8du.shop
+      - HK_8度商店 8du.shop
+      - US_8度商店 8du.shop
+      - CN_8度商店 8du.shop 2
+      - CN_8度商店 8du.shop 3
+      - CN_8度商店 8du.shop 4
+      - 8度商店 8du.shop
+      - 8度商店 8du.shop 2
+      - US_8度商店 8du.shop 2
+      - CN_8度商店 8du.shop 5
+      - HK_8度商店 8du.shop 2
+      - TW_8度商店 8du.shop
+      - CN_8度商店 8du.shop 6
+      - CN_8度商店 8du.shop 7
+      - CN_8度商店 8du.shop 8
+      - CN_8度商店 8du.shop 9
+      - DE_9093+@WangCai_1
+      - CN_8度商店 8du.shop 10
+      - CN_8度商店 8du.shop 11
+      - CN_8度商店 8du.shop 12
+      - CN_8度商店 8du.shop 13
+      - US_8度商店+8du.shop
+      - DE_9037+@WangCai_1
+      - DE_9019+@WangCai_1
+      - DE_9015+@WangCai_1
+      - DE_9018+@WangCai_1
+      - DE_9032+@WangCai_1
+      - DE_9024+@WangCai_1
+      - DE_9057+@WangCai_1
+      - DE_9060+@WangCai_1
+      - CN_8度商店 8du.shop 14
+      - PL_8度商店+8du.shop
+      - CN_8度商店 8du.shop 15
+      - CN_8度商店 8du.shop 16
+      - CN_8度商店 8du.shop 17
+      - CN_8度商店 8du.shop 18
+      - CN_8度商店 8du.shop 19
+      - CN_8度商店 8du.shop 20
+      - US_8度商店+8du.shop 2
+      - JP_8度商店+8du.shop
+      - PL_8度商店+8du.shop 2
+      - CN_8度商店 8du.shop 21
+      - CN_8度商店 8du.shop 22
+      - CN_8度商店 8du.shop 23
+      - CN_8度商店 8du.shop 24
+      - CN_8度商店 8du.shop 25
+      - CA_8度商店+8du.shop
   - name: 📲 电报信息
     type: select
     proxies:
@@ -299,28 +455,54 @@ proxy-groups:
       - BG 14
       - US
       - US 2
-      - DE德国(TG频道:@poduvjd) 2
-      - DE德国(TG频道:@poduvjd) 3
-      - DE德国(TG频道:@poduvjd) 4
-      - DE德国(TG频道:@poduvjd) 5
-      - DE德国(TG频道:@poduvjd) 6
-      - DE德国(TG频道:@poduvjd) 7
-      - DE德国(TG频道:@poduvjd) 8
-      - DE德国(TG频道:@poduvjd) 9
-      - DE德国(TG频道:@poduvjd) 11
-      - DE德国(TG频道:@poduvjd) 12
-      - DE德国(TG频道:@poduvjd) 13
-      - DE德国(TG频道:@poduvjd) 14
-      - DE德国(TG频道:@poduvjd) 15
-      - DE德国(TG频道:@poduvjd) 16
-      - DE德国(TG频道:@poduvjd) 17
-      - DE德国(TG频道:@poduvjd) 18
-      - DE德国(TG频道:@poduvjd) 19
-      - DE德国(TG频道:@poduvjd) 20
-      - DE德国(TG频道:@poduvjd) 21
-      - DE德国(TG频道:@poduvjd) 22
-      - DE德国(TG频道:@poduvjd) 23
-      - DE德国(TG频道:@poduvjd) 24
+      - CN_8度商店 8du.shop
+      - JP_8度商店 8du.shop
+      - HK_8度商店 8du.shop
+      - US_8度商店 8du.shop
+      - CN_8度商店 8du.shop 2
+      - CN_8度商店 8du.shop 3
+      - CN_8度商店 8du.shop 4
+      - 8度商店 8du.shop
+      - 8度商店 8du.shop 2
+      - US_8度商店 8du.shop 2
+      - CN_8度商店 8du.shop 5
+      - HK_8度商店 8du.shop 2
+      - TW_8度商店 8du.shop
+      - CN_8度商店 8du.shop 6
+      - CN_8度商店 8du.shop 7
+      - CN_8度商店 8du.shop 8
+      - CN_8度商店 8du.shop 9
+      - DE_9093+@WangCai_1
+      - CN_8度商店 8du.shop 10
+      - CN_8度商店 8du.shop 11
+      - CN_8度商店 8du.shop 12
+      - CN_8度商店 8du.shop 13
+      - US_8度商店+8du.shop
+      - DE_9037+@WangCai_1
+      - DE_9019+@WangCai_1
+      - DE_9015+@WangCai_1
+      - DE_9018+@WangCai_1
+      - DE_9032+@WangCai_1
+      - DE_9024+@WangCai_1
+      - DE_9057+@WangCai_1
+      - DE_9060+@WangCai_1
+      - CN_8度商店 8du.shop 14
+      - PL_8度商店+8du.shop
+      - CN_8度商店 8du.shop 15
+      - CN_8度商店 8du.shop 16
+      - CN_8度商店 8du.shop 17
+      - CN_8度商店 8du.shop 18
+      - CN_8度商店 8du.shop 19
+      - CN_8度商店 8du.shop 20
+      - US_8度商店+8du.shop 2
+      - JP_8度商店+8du.shop
+      - PL_8度商店+8du.shop 2
+      - CN_8度商店 8du.shop 21
+      - CN_8度商店 8du.shop 22
+      - CN_8度商店 8du.shop 23
+      - CN_8度商店 8du.shop 24
+      - CN_8度商店 8du.shop 25
+      - CA_8度商店+8du.shop
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -343,28 +525,54 @@ proxy-groups:
       - BG 14
       - US
       - US 2
-      - DE德国(TG频道:@poduvjd) 2
-      - DE德国(TG频道:@poduvjd) 3
-      - DE德国(TG频道:@poduvjd) 4
-      - DE德国(TG频道:@poduvjd) 5
-      - DE德国(TG频道:@poduvjd) 6
-      - DE德国(TG频道:@poduvjd) 7
-      - DE德国(TG频道:@poduvjd) 8
-      - DE德国(TG频道:@poduvjd) 9
-      - DE德国(TG频道:@poduvjd) 11
-      - DE德国(TG频道:@poduvjd) 12
-      - DE德国(TG频道:@poduvjd) 13
-      - DE德国(TG频道:@poduvjd) 14
-      - DE德国(TG频道:@poduvjd) 15
-      - DE德国(TG频道:@poduvjd) 16
-      - DE德国(TG频道:@poduvjd) 17
-      - DE德国(TG频道:@poduvjd) 18
-      - DE德国(TG频道:@poduvjd) 19
-      - DE德国(TG频道:@poduvjd) 20
-      - DE德国(TG频道:@poduvjd) 21
-      - DE德国(TG频道:@poduvjd) 22
-      - DE德国(TG频道:@poduvjd) 23
-      - DE德国(TG频道:@poduvjd) 24
+      - CN_8度商店 8du.shop
+      - JP_8度商店 8du.shop
+      - HK_8度商店 8du.shop
+      - US_8度商店 8du.shop
+      - CN_8度商店 8du.shop 2
+      - CN_8度商店 8du.shop 3
+      - CN_8度商店 8du.shop 4
+      - 8度商店 8du.shop
+      - 8度商店 8du.shop 2
+      - US_8度商店 8du.shop 2
+      - CN_8度商店 8du.shop 5
+      - HK_8度商店 8du.shop 2
+      - TW_8度商店 8du.shop
+      - CN_8度商店 8du.shop 6
+      - CN_8度商店 8du.shop 7
+      - CN_8度商店 8du.shop 8
+      - CN_8度商店 8du.shop 9
+      - DE_9093+@WangCai_1
+      - CN_8度商店 8du.shop 10
+      - CN_8度商店 8du.shop 11
+      - CN_8度商店 8du.shop 12
+      - CN_8度商店 8du.shop 13
+      - US_8度商店+8du.shop
+      - DE_9037+@WangCai_1
+      - DE_9019+@WangCai_1
+      - DE_9015+@WangCai_1
+      - DE_9018+@WangCai_1
+      - DE_9032+@WangCai_1
+      - DE_9024+@WangCai_1
+      - DE_9057+@WangCai_1
+      - DE_9060+@WangCai_1
+      - CN_8度商店 8du.shop 14
+      - PL_8度商店+8du.shop
+      - CN_8度商店 8du.shop 15
+      - CN_8度商店 8du.shop 16
+      - CN_8度商店 8du.shop 17
+      - CN_8度商店 8du.shop 18
+      - CN_8度商店 8du.shop 19
+      - CN_8度商店 8du.shop 20
+      - US_8度商店+8du.shop 2
+      - JP_8度商店+8du.shop
+      - PL_8度商店+8du.shop 2
+      - CN_8度商店 8du.shop 21
+      - CN_8度商店 8du.shop 22
+      - CN_8度商店 8du.shop 23
+      - CN_8度商店 8du.shop 24
+      - CN_8度商店 8du.shop 25
+      - CA_8度商店+8du.shop
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -396,28 +604,54 @@ proxy-groups:
       - BG 14
       - US
       - US 2
-      - DE德国(TG频道:@poduvjd) 2
-      - DE德国(TG频道:@poduvjd) 3
-      - DE德国(TG频道:@poduvjd) 4
-      - DE德国(TG频道:@poduvjd) 5
-      - DE德国(TG频道:@poduvjd) 6
-      - DE德国(TG频道:@poduvjd) 7
-      - DE德国(TG频道:@poduvjd) 8
-      - DE德国(TG频道:@poduvjd) 9
-      - DE德国(TG频道:@poduvjd) 11
-      - DE德国(TG频道:@poduvjd) 12
-      - DE德国(TG频道:@poduvjd) 13
-      - DE德国(TG频道:@poduvjd) 14
-      - DE德国(TG频道:@poduvjd) 15
-      - DE德国(TG频道:@poduvjd) 16
-      - DE德国(TG频道:@poduvjd) 17
-      - DE德国(TG频道:@poduvjd) 18
-      - DE德国(TG频道:@poduvjd) 19
-      - DE德国(TG频道:@poduvjd) 20
-      - DE德国(TG频道:@poduvjd) 21
-      - DE德国(TG频道:@poduvjd) 22
-      - DE德国(TG频道:@poduvjd) 23
-      - DE德国(TG频道:@poduvjd) 24
+      - CN_8度商店 8du.shop
+      - JP_8度商店 8du.shop
+      - HK_8度商店 8du.shop
+      - US_8度商店 8du.shop
+      - CN_8度商店 8du.shop 2
+      - CN_8度商店 8du.shop 3
+      - CN_8度商店 8du.shop 4
+      - 8度商店 8du.shop
+      - 8度商店 8du.shop 2
+      - US_8度商店 8du.shop 2
+      - CN_8度商店 8du.shop 5
+      - HK_8度商店 8du.shop 2
+      - TW_8度商店 8du.shop
+      - CN_8度商店 8du.shop 6
+      - CN_8度商店 8du.shop 7
+      - CN_8度商店 8du.shop 8
+      - CN_8度商店 8du.shop 9
+      - DE_9093+@WangCai_1
+      - CN_8度商店 8du.shop 10
+      - CN_8度商店 8du.shop 11
+      - CN_8度商店 8du.shop 12
+      - CN_8度商店 8du.shop 13
+      - US_8度商店+8du.shop
+      - DE_9037+@WangCai_1
+      - DE_9019+@WangCai_1
+      - DE_9015+@WangCai_1
+      - DE_9018+@WangCai_1
+      - DE_9032+@WangCai_1
+      - DE_9024+@WangCai_1
+      - DE_9057+@WangCai_1
+      - DE_9060+@WangCai_1
+      - CN_8度商店 8du.shop 14
+      - PL_8度商店+8du.shop
+      - CN_8度商店 8du.shop 15
+      - CN_8度商店 8du.shop 16
+      - CN_8度商店 8du.shop 17
+      - CN_8度商店 8du.shop 18
+      - CN_8度商店 8du.shop 19
+      - CN_8度商店 8du.shop 20
+      - US_8度商店+8du.shop 2
+      - JP_8度商店+8du.shop
+      - PL_8度商店+8du.shop 2
+      - CN_8度商店 8du.shop 21
+      - CN_8度商店 8du.shop 22
+      - CN_8度商店 8du.shop 23
+      - CN_8度商店 8du.shop 24
+      - CN_8度商店 8du.shop 25
+      - CA_8度商店+8du.shop
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
