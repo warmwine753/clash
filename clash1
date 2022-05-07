@@ -19,56 +19,61 @@ proxies:
   - {name: BG 12, server: 213.183.63.219, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
   - {name: BG 13, server: 213.183.63.219, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
   - {name: BG 14, server: 213.183.63.219, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: US, server: us3.31vpn.com, port: 443, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /fastssh/3102637493qqcom/626cf7d8bd49b/, ws-headers: {Host: us3.31vpn.com}, udp: true}
-  - {name: US 2, server: 107.174.172.154, port: 447, type: vmess, uuid: bc548c11-461a-4b46-b87f-05bc842bc1b8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /kFb4nwXU, ws-headers: {Host: 107.174.172.154}, udp: true}
-  - {name: CN_8度商店 8du.shop, server: 1.mo.zz.xxxxx.x-t-fuckword.network, port: 53943, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: JP_8度商店 8du.shop, server: v2.godlight.xyz, port: 26940, type: vmess, uuid: 1a059eff-ad8a-42ad-921c-465c5b31f183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dajdklw231f, ws-headers: {Host: v2.godlight.xyz}, udp: true}
-  - {name: HK_8度商店 8du.shop, server: hkbn.henyo.us, port: 44614, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: hkbn.henyo.us, skip-cert-verify: true, udp: true}
-  - {name: US_8度商店 8du.shop, server: azhk5.mayiyun.vip, port: 80, type: vmess, uuid: 036bbf92-f490-499e-8a5e-3d14f1644d48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: vali-dns.cp31.ott.cibntv.net}, udp: true}
-  - {name: CN_8度商店 8du.shop 2, server: 4.3.1.fuckppppp.today, port: 58418, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_8度商店 8du.shop 3, server: 3.game.speed.zz.001.oooooooooo.icu, port: 25841, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_8度商店 8du.shop 4, server: 7.hk.zz.xxxxx.x-t-fuckword.network, port: 58416, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US, server: 107.174.172.154, port: 447, type: vmess, uuid: bc548c11-461a-4b46-b87f-05bc842bc1b8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /kFb4nwXU, ws-headers: {Host: 107.174.172.154}, udp: true}
+  - {name: CN_8度商店 8du.shop, server: 3.game.speed.zz.001.oooooooooo.icu, port: 25841, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 8度商店 8du.shop, server: 104.19.3.38, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chcar, ws-headers: {Host: v2fly.samrt.website}, udp: true}
   - {name: 8度商店 8du.shop 2, server: 104.19.3.16, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chcar, ws-headers: {Host: v2fly.samrt.website}, udp: true}
-  - {name: US_8度商店 8du.shop 2, server: 50.114.56.20, port: 4440, type: vmess, uuid: 8d13dc0f-c4c9-3f66-b8de-d9a5d432842a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: CN_8度商店 8du.shop 5, server: 3.2.1.fuckppppp.today, port: 60302, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK_8度商店 8du.shop 2, server: azhk6.mayiyun.vip, port: 80, type: vmess, uuid: 036bbf92-f490-499e-8a5e-3d14f1644d48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: open.dingtalk.com}, udp: true}
+  - {name: US_8度商店 8du.shop, server: 50.114.56.20, port: 4440, type: vmess, uuid: 8d13dc0f-c4c9-3f66-b8de-d9a5d432842a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8度商店 8du.shop 2, server: 3.2.1.fuckppppp.today, port: 60302, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: TW_8度商店 8du.shop, server: tw.node.qchwnd.moe, port: 44608, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: tw.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: CN_8度商店 8du.shop 6, server: word.2.fuckword.club, port: 47831, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_8度商店 8du.shop 7, server: hk1.v3.zz.cn.fuckword.club, port: 47605, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_8度商店 8du.shop 8, server: in05.dns2333.xyz, port: 62081, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hkt2-cdn.tencent.best}, udp: true}
-  - {name: CN_8度商店 8du.shop 9, server: in05.dns2333.xyz, port: 62005, type: vmess, uuid: 33f3d195-c604-388f-8903-5ac87f1fb59f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /nbsd, ws-headers: {Host: nbsd-jp03.myn0des.com}, udp: true}
-  - {name: DE_9093+@WangCai_1, server: 5.183.179.137, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: CN_8度商店 8du.shop 10, server: 2.sg.zz.xxxxx.x-t-fuckword.network, port: 60301, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_8度商店 8du.shop 11, server: hkt01.hk.zz.xxxxx.x-t-fuckword.network, port: 56812, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_8度商店 8du.shop 12, server: 2.hk.zz.xxxxx.x-t-fuckword.network, port: 35419, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_8度商店 8du.shop 13, server: word.2.fuckword.club, port: 36678, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_8度商店 8du.shop 3, server: word.2.fuckword.club, port: 47831, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_8度商店 8du.shop 4, server: 2.sg.zz.xxxxx.x-t-fuckword.network, port: 60301, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_8度商店 8du.shop 5, server: hkt01.hk.zz.xxxxx.x-t-fuckword.network, port: 56812, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_8度商店 8du.shop 6, server: 2.hk.zz.xxxxx.x-t-fuckword.network, port: 35419, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_8度商店 8du.shop 7, server: word.2.fuckword.club, port: 36678, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: US_8度商店+8du.shop, server: 38.68.135.19, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: DE_9037+@WangCai_1, server: 5.183.179.137, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: DE_9019+@WangCai_1, server: 5.183.179.137, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: DE_9015+@WangCai_1, server: 5.183.179.137, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: DE_9018+@WangCai_1, server: 5.183.179.137, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: DE_9032+@WangCai_1, server: 5.183.179.137, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: DE_9024+@WangCai_1, server: 5.183.179.137, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
-  - {name: DE_9057+@WangCai_1, server: 5.183.179.137, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: DE_9060+@WangCai_1, server: 5.183.179.137, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: CN_8度商店 8du.shop 14, server: iplc-9-8-7-6-5-4-3-2-1.001.zz.fuckword.club, port: 53941, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_8度商店 8du.shop 8, server: iplc-9-8-7-6-5-4-3-2-1.001.zz.fuckword.club, port: 53941, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: PL_8度商店+8du.shop, server: 217.30.10.67, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: CN_8度商店 8du.shop 15, server: 3.sg.zz.xxxxx.x-t-fuckword.network, port: 36679, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_8度商店 8du.shop 16, server: word.12.1.fuckword.club, port: 48744, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_8度商店 8du.shop 17, server: us2.v3.zz.cn.fuckword.club, port: 58420, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_8度商店 8du.shop 18, server: 5.jp.zz.xxxxx.x-t-fuckword.network, port: 48752, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_8度商店 8du.shop 19, server: 116.211.197.79, port: 38104, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: CN_8度商店 8du.shop 20, server: 2.game.speed.zz.001.oooooooooo.icu, port: 53945, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_8度商店 8du.shop 9, server: word.12.1.fuckword.club, port: 48744, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_8度商店 8du.shop 10, server: us2.v3.zz.cn.fuckword.club, port: 58420, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_8度商店 8du.shop 11, server: 116.211.197.79, port: 38104, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: CN_8度商店 8du.shop 12, server: 2.game.speed.zz.001.oooooooooo.icu, port: 53945, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: US_8度商店+8du.shop 2, server: 38.68.135.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: JP_8度商店+8du.shop, server: 85.208.108.58, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: PL_8度商店+8du.shop 2, server: 217.30.10.67, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: CN_8度商店 8du.shop 21, server: 1.tw.zz.xxxxx.x-t-fuckword.network, port: 53137, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_8度商店 8du.shop 22, server: 2.7.1.fuckppppp.today, port: 50002, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_8度商店 8du.shop 23, server: 1.hk.zz.xxxxx.x-t-fuckword.network, port: 36672, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_8度商店 8du.shop 24, server: hk1.v2.zz.cn.fuckword.club, port: 49511, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_8度商店 8du.shop 25, server: word.18.fuckword.club, port: 58417, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_8度商店 8du.shop 13, server: 1.tw.zz.xxxxx.x-t-fuckword.network, port: 53137, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_8度商店 8du.shop 14, server: 2.7.1.fuckppppp.today, port: 50002, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_8度商店 8du.shop 15, server: 1.hk.zz.xxxxx.x-t-fuckword.network, port: 36672, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_8度商店 8du.shop 16, server: word.18.fuckword.club, port: 58417, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: CA_8度商店+8du.shop, server: 198.57.27.225, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: IN_24, server: 172.105.58.152, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_43, server: 167.88.63.108, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_44, server: 167.88.63.108, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_46, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ZZ_88, server: 169.197.142.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: AU_03, server: 129.154.48.221, port: 37372, type: vmess, uuid: 6f4454a9-e732-46c6-c50f-73f13da31f7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: AU_05, server: 129.154.54.75, port: 33004, type: vmess, uuid: 4f14695c-31b9-45bf-ca34-1d82170fc100, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 129.154.54.75}, udp: true}
+  - {name: HK_22, server: 210.0.159.89, port: 6616, type: vmess, uuid: d83dae3e-c0ec-4aa2-9336-67ae5dd7d04c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 210.0.159.89}, udp: true}
+  - {name: IR_26, server: asr-farda.ir, port: 49110, type: vmess, uuid: 47bce6b8-c260-11ec-b514-000c297a3bfd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /pdOa1847/, ws-headers: {Host: asr-farda.ir}, udp: true}
+  - {name: JP_29, server: 146.56.112.141, port: 17776, type: vmess, uuid: aa990962-a99b-4aa7-fdb8-bdbd19f61a79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇰🇷KR-🇰🇷KR_34, server: v2-4.godlight.xyz, port: 50497, type: vmess, uuid: 07ea283e-bbe8-466f-a268-c5819763a9bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /g1641hvx, ws-headers: {Host: v2-4.godlight.xyz}, udp: true}
+  - {name: RU_37, server: 45.141.102.51, port: 33689, type: vmess, uuid: 5bff6f03-1d6f-4ef0-8320-3a4dd7eb4cc8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_47, server: 152.69.204.149, port: 50503, type: vmess, uuid: 11b8a8c2-3548-4424-88f8-26cde886230a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_48, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇳🇱NL_53, server: 172.67.140.112, port: 443, type: vmess, uuid: 4ac06183-feca-48f8-9f7d-3355bd950e2a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: yzjd01-ublubeu.koyeb.app}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_58, server: sanfranciscolafayette.club, port: 443, type: vmess, uuid: cc0b4469-c0e5-4efb-8f69-a6df64db24ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /neuromancer, ws-headers: {Host: sanfranciscolafayette.club}, udp: true}
+  - {name: US_59, server: 150.230.43.65, port: 14564, type: vmess, uuid: 1556e040-31d3-4c47-b0d2-ddf888010b4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇦🇺AU-🇦🇺AU_07, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: jgwxn2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇦🇺AU-🇦🇺AU_08, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, sni: jgwxn3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇬🇧GB-🇬🇧GB_19, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, sni: jgwld1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇬🇧GB-🇬🇧GB_21, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, sni: jgwcc1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇯🇵JP-🇯🇵JP_30, server: hgmf.speedcncnforward2.tk, port: 10004, type: trojan, password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c, sni: hgmf.speedcncnforward2.tk, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_67, server: usa-sr-106.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-106.mitoption.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_71, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_72, server: usd.scsevers.cf, port: 443, type: trojan, password: sharecentretest, sni: usd.scsevers.cf, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_74, server: zones.defun.us, port: 443, type: trojan, password: lpmMwDKeBbKKPq8K, sni: zones.defun.us, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_78, server: sg1.qingyun123.xyz, port: 10001, type: trojan, password: 1362a776-8b97-4707-91b9-4ae21d910462, sni: sg1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_79, server: aling.gq, port: 443, type: trojan, password: f727337d-52af-4cf9-b260-26ac9a23ddc2, sni: aling.gq, skip-cert-verify: true, udp: true}
+  - {name: Relay_🏁ZZ-🏁ZZ_94, server: hkmax08.170809.xyz, port: 10039, type: trojan, password: 09d2d2b3-dfce-4912-b943-e4b88f2de92c, sni: hkmax08.170809.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -90,55 +95,60 @@ proxy-groups:
       - BG 13
       - BG 14
       - US
-      - US 2
       - CN_8度商店 8du.shop
-      - JP_8度商店 8du.shop
-      - HK_8度商店 8du.shop
-      - US_8度商店 8du.shop
-      - CN_8度商店 8du.shop 2
-      - CN_8度商店 8du.shop 3
-      - CN_8度商店 8du.shop 4
       - 8度商店 8du.shop
       - 8度商店 8du.shop 2
-      - US_8度商店 8du.shop 2
-      - CN_8度商店 8du.shop 5
-      - HK_8度商店 8du.shop 2
+      - US_8度商店 8du.shop
+      - CN_8度商店 8du.shop 2
       - TW_8度商店 8du.shop
+      - CN_8度商店 8du.shop 3
+      - CN_8度商店 8du.shop 4
+      - CN_8度商店 8du.shop 5
       - CN_8度商店 8du.shop 6
       - CN_8度商店 8du.shop 7
+      - US_8度商店+8du.shop
       - CN_8度商店 8du.shop 8
+      - PL_8度商店+8du.shop
       - CN_8度商店 8du.shop 9
-      - DE_9093+@WangCai_1
       - CN_8度商店 8du.shop 10
       - CN_8度商店 8du.shop 11
       - CN_8度商店 8du.shop 12
+      - US_8度商店+8du.shop 2
+      - PL_8度商店+8du.shop 2
       - CN_8度商店 8du.shop 13
-      - US_8度商店+8du.shop
-      - DE_9037+@WangCai_1
-      - DE_9019+@WangCai_1
-      - DE_9015+@WangCai_1
-      - DE_9018+@WangCai_1
-      - DE_9032+@WangCai_1
-      - DE_9024+@WangCai_1
-      - DE_9057+@WangCai_1
-      - DE_9060+@WangCai_1
       - CN_8度商店 8du.shop 14
-      - PL_8度商店+8du.shop
       - CN_8度商店 8du.shop 15
       - CN_8度商店 8du.shop 16
-      - CN_8度商店 8du.shop 17
-      - CN_8度商店 8du.shop 18
-      - CN_8度商店 8du.shop 19
-      - CN_8度商店 8du.shop 20
-      - US_8度商店+8du.shop 2
-      - JP_8度商店+8du.shop
-      - PL_8度商店+8du.shop 2
-      - CN_8度商店 8du.shop 21
-      - CN_8度商店 8du.shop 22
-      - CN_8度商店 8du.shop 23
-      - CN_8度商店 8du.shop 24
-      - CN_8度商店 8du.shop 25
       - CA_8度商店+8du.shop
+      - IN_24
+      - US_43
+      - US_44
+      - US_46
+      - ZZ_88
+      - AU_03
+      - AU_05
+      - HK_22
+      - IR_26
+      - JP_29
+      - Relay_🇰🇷KR-🇰🇷KR_34
+      - RU_37
+      - US_47
+      - US_48
+      - Relay_🇺🇸US-🇳🇱NL_53
+      - Relay_🇺🇸US-🇺🇸US_58
+      - US_59
+      - Relay_🇦🇺AU-🇦🇺AU_07
+      - Relay_🇦🇺AU-🇦🇺AU_08
+      - Relay_🇬🇧GB-🇬🇧GB_19
+      - Relay_🇬🇧GB-🇬🇧GB_21
+      - Relay_🇯🇵JP-🇯🇵JP_30
+      - Relay_🇺🇸US-🇺🇸US_67
+      - Relay_🇺🇸US-🇺🇸US_71
+      - Relay_🇺🇸US-🇺🇸US_72
+      - Relay_🇺🇸US-🇺🇸US_74
+      - Relay_🇺🇸US-🇺🇸US_78
+      - Relay_🇺🇸US-🇺🇸US_79
+      - Relay_🏁ZZ-🏁ZZ_94
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -159,55 +169,60 @@ proxy-groups:
       - BG 13
       - BG 14
       - US
-      - US 2
       - CN_8度商店 8du.shop
-      - JP_8度商店 8du.shop
-      - HK_8度商店 8du.shop
-      - US_8度商店 8du.shop
-      - CN_8度商店 8du.shop 2
-      - CN_8度商店 8du.shop 3
-      - CN_8度商店 8du.shop 4
       - 8度商店 8du.shop
       - 8度商店 8du.shop 2
-      - US_8度商店 8du.shop 2
-      - CN_8度商店 8du.shop 5
-      - HK_8度商店 8du.shop 2
+      - US_8度商店 8du.shop
+      - CN_8度商店 8du.shop 2
       - TW_8度商店 8du.shop
+      - CN_8度商店 8du.shop 3
+      - CN_8度商店 8du.shop 4
+      - CN_8度商店 8du.shop 5
       - CN_8度商店 8du.shop 6
       - CN_8度商店 8du.shop 7
+      - US_8度商店+8du.shop
       - CN_8度商店 8du.shop 8
+      - PL_8度商店+8du.shop
       - CN_8度商店 8du.shop 9
-      - DE_9093+@WangCai_1
       - CN_8度商店 8du.shop 10
       - CN_8度商店 8du.shop 11
       - CN_8度商店 8du.shop 12
+      - US_8度商店+8du.shop 2
+      - PL_8度商店+8du.shop 2
       - CN_8度商店 8du.shop 13
-      - US_8度商店+8du.shop
-      - DE_9037+@WangCai_1
-      - DE_9019+@WangCai_1
-      - DE_9015+@WangCai_1
-      - DE_9018+@WangCai_1
-      - DE_9032+@WangCai_1
-      - DE_9024+@WangCai_1
-      - DE_9057+@WangCai_1
-      - DE_9060+@WangCai_1
       - CN_8度商店 8du.shop 14
-      - PL_8度商店+8du.shop
       - CN_8度商店 8du.shop 15
       - CN_8度商店 8du.shop 16
-      - CN_8度商店 8du.shop 17
-      - CN_8度商店 8du.shop 18
-      - CN_8度商店 8du.shop 19
-      - CN_8度商店 8du.shop 20
-      - US_8度商店+8du.shop 2
-      - JP_8度商店+8du.shop
-      - PL_8度商店+8du.shop 2
-      - CN_8度商店 8du.shop 21
-      - CN_8度商店 8du.shop 22
-      - CN_8度商店 8du.shop 23
-      - CN_8度商店 8du.shop 24
-      - CN_8度商店 8du.shop 25
       - CA_8度商店+8du.shop
+      - IN_24
+      - US_43
+      - US_44
+      - US_46
+      - ZZ_88
+      - AU_03
+      - AU_05
+      - HK_22
+      - IR_26
+      - JP_29
+      - Relay_🇰🇷KR-🇰🇷KR_34
+      - RU_37
+      - US_47
+      - US_48
+      - Relay_🇺🇸US-🇳🇱NL_53
+      - Relay_🇺🇸US-🇺🇸US_58
+      - US_59
+      - Relay_🇦🇺AU-🇦🇺AU_07
+      - Relay_🇦🇺AU-🇦🇺AU_08
+      - Relay_🇬🇧GB-🇬🇧GB_19
+      - Relay_🇬🇧GB-🇬🇧GB_21
+      - Relay_🇯🇵JP-🇯🇵JP_30
+      - Relay_🇺🇸US-🇺🇸US_67
+      - Relay_🇺🇸US-🇺🇸US_71
+      - Relay_🇺🇸US-🇺🇸US_72
+      - Relay_🇺🇸US-🇺🇸US_74
+      - Relay_🇺🇸US-🇺🇸US_78
+      - Relay_🇺🇸US-🇺🇸US_79
+      - Relay_🏁ZZ-🏁ZZ_94
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -229,55 +244,60 @@ proxy-groups:
       - BG 13
       - BG 14
       - US
-      - US 2
       - CN_8度商店 8du.shop
-      - JP_8度商店 8du.shop
-      - HK_8度商店 8du.shop
-      - US_8度商店 8du.shop
-      - CN_8度商店 8du.shop 2
-      - CN_8度商店 8du.shop 3
-      - CN_8度商店 8du.shop 4
       - 8度商店 8du.shop
       - 8度商店 8du.shop 2
-      - US_8度商店 8du.shop 2
-      - CN_8度商店 8du.shop 5
-      - HK_8度商店 8du.shop 2
+      - US_8度商店 8du.shop
+      - CN_8度商店 8du.shop 2
       - TW_8度商店 8du.shop
+      - CN_8度商店 8du.shop 3
+      - CN_8度商店 8du.shop 4
+      - CN_8度商店 8du.shop 5
       - CN_8度商店 8du.shop 6
       - CN_8度商店 8du.shop 7
+      - US_8度商店+8du.shop
       - CN_8度商店 8du.shop 8
+      - PL_8度商店+8du.shop
       - CN_8度商店 8du.shop 9
-      - DE_9093+@WangCai_1
       - CN_8度商店 8du.shop 10
       - CN_8度商店 8du.shop 11
       - CN_8度商店 8du.shop 12
+      - US_8度商店+8du.shop 2
+      - PL_8度商店+8du.shop 2
       - CN_8度商店 8du.shop 13
-      - US_8度商店+8du.shop
-      - DE_9037+@WangCai_1
-      - DE_9019+@WangCai_1
-      - DE_9015+@WangCai_1
-      - DE_9018+@WangCai_1
-      - DE_9032+@WangCai_1
-      - DE_9024+@WangCai_1
-      - DE_9057+@WangCai_1
-      - DE_9060+@WangCai_1
       - CN_8度商店 8du.shop 14
-      - PL_8度商店+8du.shop
       - CN_8度商店 8du.shop 15
       - CN_8度商店 8du.shop 16
-      - CN_8度商店 8du.shop 17
-      - CN_8度商店 8du.shop 18
-      - CN_8度商店 8du.shop 19
-      - CN_8度商店 8du.shop 20
-      - US_8度商店+8du.shop 2
-      - JP_8度商店+8du.shop
-      - PL_8度商店+8du.shop 2
-      - CN_8度商店 8du.shop 21
-      - CN_8度商店 8du.shop 22
-      - CN_8度商店 8du.shop 23
-      - CN_8度商店 8du.shop 24
-      - CN_8度商店 8du.shop 25
       - CA_8度商店+8du.shop
+      - IN_24
+      - US_43
+      - US_44
+      - US_46
+      - ZZ_88
+      - AU_03
+      - AU_05
+      - HK_22
+      - IR_26
+      - JP_29
+      - Relay_🇰🇷KR-🇰🇷KR_34
+      - RU_37
+      - US_47
+      - US_48
+      - Relay_🇺🇸US-🇳🇱NL_53
+      - Relay_🇺🇸US-🇺🇸US_58
+      - US_59
+      - Relay_🇦🇺AU-🇦🇺AU_07
+      - Relay_🇦🇺AU-🇦🇺AU_08
+      - Relay_🇬🇧GB-🇬🇧GB_19
+      - Relay_🇬🇧GB-🇬🇧GB_21
+      - Relay_🇯🇵JP-🇯🇵JP_30
+      - Relay_🇺🇸US-🇺🇸US_67
+      - Relay_🇺🇸US-🇺🇸US_71
+      - Relay_🇺🇸US-🇺🇸US_72
+      - Relay_🇺🇸US-🇺🇸US_74
+      - Relay_🇺🇸US-🇺🇸US_78
+      - Relay_🇺🇸US-🇺🇸US_79
+      - Relay_🏁ZZ-🏁ZZ_94
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -311,55 +331,60 @@ proxy-groups:
       - BG 13
       - BG 14
       - US
-      - US 2
       - CN_8度商店 8du.shop
-      - JP_8度商店 8du.shop
-      - HK_8度商店 8du.shop
-      - US_8度商店 8du.shop
-      - CN_8度商店 8du.shop 2
-      - CN_8度商店 8du.shop 3
-      - CN_8度商店 8du.shop 4
       - 8度商店 8du.shop
       - 8度商店 8du.shop 2
-      - US_8度商店 8du.shop 2
-      - CN_8度商店 8du.shop 5
-      - HK_8度商店 8du.shop 2
+      - US_8度商店 8du.shop
+      - CN_8度商店 8du.shop 2
       - TW_8度商店 8du.shop
+      - CN_8度商店 8du.shop 3
+      - CN_8度商店 8du.shop 4
+      - CN_8度商店 8du.shop 5
       - CN_8度商店 8du.shop 6
       - CN_8度商店 8du.shop 7
+      - US_8度商店+8du.shop
       - CN_8度商店 8du.shop 8
+      - PL_8度商店+8du.shop
       - CN_8度商店 8du.shop 9
-      - DE_9093+@WangCai_1
       - CN_8度商店 8du.shop 10
       - CN_8度商店 8du.shop 11
       - CN_8度商店 8du.shop 12
+      - US_8度商店+8du.shop 2
+      - PL_8度商店+8du.shop 2
       - CN_8度商店 8du.shop 13
-      - US_8度商店+8du.shop
-      - DE_9037+@WangCai_1
-      - DE_9019+@WangCai_1
-      - DE_9015+@WangCai_1
-      - DE_9018+@WangCai_1
-      - DE_9032+@WangCai_1
-      - DE_9024+@WangCai_1
-      - DE_9057+@WangCai_1
-      - DE_9060+@WangCai_1
       - CN_8度商店 8du.shop 14
-      - PL_8度商店+8du.shop
       - CN_8度商店 8du.shop 15
       - CN_8度商店 8du.shop 16
-      - CN_8度商店 8du.shop 17
-      - CN_8度商店 8du.shop 18
-      - CN_8度商店 8du.shop 19
-      - CN_8度商店 8du.shop 20
-      - US_8度商店+8du.shop 2
-      - JP_8度商店+8du.shop
-      - PL_8度商店+8du.shop 2
-      - CN_8度商店 8du.shop 21
-      - CN_8度商店 8du.shop 22
-      - CN_8度商店 8du.shop 23
-      - CN_8度商店 8du.shop 24
-      - CN_8度商店 8du.shop 25
       - CA_8度商店+8du.shop
+      - IN_24
+      - US_43
+      - US_44
+      - US_46
+      - ZZ_88
+      - AU_03
+      - AU_05
+      - HK_22
+      - IR_26
+      - JP_29
+      - Relay_🇰🇷KR-🇰🇷KR_34
+      - RU_37
+      - US_47
+      - US_48
+      - Relay_🇺🇸US-🇳🇱NL_53
+      - Relay_🇺🇸US-🇺🇸US_58
+      - US_59
+      - Relay_🇦🇺AU-🇦🇺AU_07
+      - Relay_🇦🇺AU-🇦🇺AU_08
+      - Relay_🇬🇧GB-🇬🇧GB_19
+      - Relay_🇬🇧GB-🇬🇧GB_21
+      - Relay_🇯🇵JP-🇯🇵JP_30
+      - Relay_🇺🇸US-🇺🇸US_67
+      - Relay_🇺🇸US-🇺🇸US_71
+      - Relay_🇺🇸US-🇺🇸US_72
+      - Relay_🇺🇸US-🇺🇸US_74
+      - Relay_🇺🇸US-🇺🇸US_78
+      - Relay_🇺🇸US-🇺🇸US_79
+      - Relay_🏁ZZ-🏁ZZ_94
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -385,55 +410,60 @@ proxy-groups:
       - BG 13
       - BG 14
       - US
-      - US 2
       - CN_8度商店 8du.shop
-      - JP_8度商店 8du.shop
-      - HK_8度商店 8du.shop
-      - US_8度商店 8du.shop
-      - CN_8度商店 8du.shop 2
-      - CN_8度商店 8du.shop 3
-      - CN_8度商店 8du.shop 4
       - 8度商店 8du.shop
       - 8度商店 8du.shop 2
-      - US_8度商店 8du.shop 2
-      - CN_8度商店 8du.shop 5
-      - HK_8度商店 8du.shop 2
+      - US_8度商店 8du.shop
+      - CN_8度商店 8du.shop 2
       - TW_8度商店 8du.shop
+      - CN_8度商店 8du.shop 3
+      - CN_8度商店 8du.shop 4
+      - CN_8度商店 8du.shop 5
       - CN_8度商店 8du.shop 6
       - CN_8度商店 8du.shop 7
+      - US_8度商店+8du.shop
       - CN_8度商店 8du.shop 8
+      - PL_8度商店+8du.shop
       - CN_8度商店 8du.shop 9
-      - DE_9093+@WangCai_1
       - CN_8度商店 8du.shop 10
       - CN_8度商店 8du.shop 11
       - CN_8度商店 8du.shop 12
+      - US_8度商店+8du.shop 2
+      - PL_8度商店+8du.shop 2
       - CN_8度商店 8du.shop 13
-      - US_8度商店+8du.shop
-      - DE_9037+@WangCai_1
-      - DE_9019+@WangCai_1
-      - DE_9015+@WangCai_1
-      - DE_9018+@WangCai_1
-      - DE_9032+@WangCai_1
-      - DE_9024+@WangCai_1
-      - DE_9057+@WangCai_1
-      - DE_9060+@WangCai_1
       - CN_8度商店 8du.shop 14
-      - PL_8度商店+8du.shop
       - CN_8度商店 8du.shop 15
       - CN_8度商店 8du.shop 16
-      - CN_8度商店 8du.shop 17
-      - CN_8度商店 8du.shop 18
-      - CN_8度商店 8du.shop 19
-      - CN_8度商店 8du.shop 20
-      - US_8度商店+8du.shop 2
-      - JP_8度商店+8du.shop
-      - PL_8度商店+8du.shop 2
-      - CN_8度商店 8du.shop 21
-      - CN_8度商店 8du.shop 22
-      - CN_8度商店 8du.shop 23
-      - CN_8度商店 8du.shop 24
-      - CN_8度商店 8du.shop 25
       - CA_8度商店+8du.shop
+      - IN_24
+      - US_43
+      - US_44
+      - US_46
+      - ZZ_88
+      - AU_03
+      - AU_05
+      - HK_22
+      - IR_26
+      - JP_29
+      - Relay_🇰🇷KR-🇰🇷KR_34
+      - RU_37
+      - US_47
+      - US_48
+      - Relay_🇺🇸US-🇳🇱NL_53
+      - Relay_🇺🇸US-🇺🇸US_58
+      - US_59
+      - Relay_🇦🇺AU-🇦🇺AU_07
+      - Relay_🇦🇺AU-🇦🇺AU_08
+      - Relay_🇬🇧GB-🇬🇧GB_19
+      - Relay_🇬🇧GB-🇬🇧GB_21
+      - Relay_🇯🇵JP-🇯🇵JP_30
+      - Relay_🇺🇸US-🇺🇸US_67
+      - Relay_🇺🇸US-🇺🇸US_71
+      - Relay_🇺🇸US-🇺🇸US_72
+      - Relay_🇺🇸US-🇺🇸US_74
+      - Relay_🇺🇸US-🇺🇸US_78
+      - Relay_🇺🇸US-🇺🇸US_79
+      - Relay_🏁ZZ-🏁ZZ_94
   - name: 📲 电报信息
     type: select
     proxies:
@@ -454,55 +484,60 @@ proxy-groups:
       - BG 13
       - BG 14
       - US
-      - US 2
       - CN_8度商店 8du.shop
-      - JP_8度商店 8du.shop
-      - HK_8度商店 8du.shop
-      - US_8度商店 8du.shop
-      - CN_8度商店 8du.shop 2
-      - CN_8度商店 8du.shop 3
-      - CN_8度商店 8du.shop 4
       - 8度商店 8du.shop
       - 8度商店 8du.shop 2
-      - US_8度商店 8du.shop 2
-      - CN_8度商店 8du.shop 5
-      - HK_8度商店 8du.shop 2
+      - US_8度商店 8du.shop
+      - CN_8度商店 8du.shop 2
       - TW_8度商店 8du.shop
+      - CN_8度商店 8du.shop 3
+      - CN_8度商店 8du.shop 4
+      - CN_8度商店 8du.shop 5
       - CN_8度商店 8du.shop 6
       - CN_8度商店 8du.shop 7
+      - US_8度商店+8du.shop
       - CN_8度商店 8du.shop 8
+      - PL_8度商店+8du.shop
       - CN_8度商店 8du.shop 9
-      - DE_9093+@WangCai_1
       - CN_8度商店 8du.shop 10
       - CN_8度商店 8du.shop 11
       - CN_8度商店 8du.shop 12
+      - US_8度商店+8du.shop 2
+      - PL_8度商店+8du.shop 2
       - CN_8度商店 8du.shop 13
-      - US_8度商店+8du.shop
-      - DE_9037+@WangCai_1
-      - DE_9019+@WangCai_1
-      - DE_9015+@WangCai_1
-      - DE_9018+@WangCai_1
-      - DE_9032+@WangCai_1
-      - DE_9024+@WangCai_1
-      - DE_9057+@WangCai_1
-      - DE_9060+@WangCai_1
       - CN_8度商店 8du.shop 14
-      - PL_8度商店+8du.shop
       - CN_8度商店 8du.shop 15
       - CN_8度商店 8du.shop 16
-      - CN_8度商店 8du.shop 17
-      - CN_8度商店 8du.shop 18
-      - CN_8度商店 8du.shop 19
-      - CN_8度商店 8du.shop 20
-      - US_8度商店+8du.shop 2
-      - JP_8度商店+8du.shop
-      - PL_8度商店+8du.shop 2
-      - CN_8度商店 8du.shop 21
-      - CN_8度商店 8du.shop 22
-      - CN_8度商店 8du.shop 23
-      - CN_8度商店 8du.shop 24
-      - CN_8度商店 8du.shop 25
       - CA_8度商店+8du.shop
+      - IN_24
+      - US_43
+      - US_44
+      - US_46
+      - ZZ_88
+      - AU_03
+      - AU_05
+      - HK_22
+      - IR_26
+      - JP_29
+      - Relay_🇰🇷KR-🇰🇷KR_34
+      - RU_37
+      - US_47
+      - US_48
+      - Relay_🇺🇸US-🇳🇱NL_53
+      - Relay_🇺🇸US-🇺🇸US_58
+      - US_59
+      - Relay_🇦🇺AU-🇦🇺AU_07
+      - Relay_🇦🇺AU-🇦🇺AU_08
+      - Relay_🇬🇧GB-🇬🇧GB_19
+      - Relay_🇬🇧GB-🇬🇧GB_21
+      - Relay_🇯🇵JP-🇯🇵JP_30
+      - Relay_🇺🇸US-🇺🇸US_67
+      - Relay_🇺🇸US-🇺🇸US_71
+      - Relay_🇺🇸US-🇺🇸US_72
+      - Relay_🇺🇸US-🇺🇸US_74
+      - Relay_🇺🇸US-🇺🇸US_78
+      - Relay_🇺🇸US-🇺🇸US_79
+      - Relay_🏁ZZ-🏁ZZ_94
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -524,55 +559,60 @@ proxy-groups:
       - BG 13
       - BG 14
       - US
-      - US 2
       - CN_8度商店 8du.shop
-      - JP_8度商店 8du.shop
-      - HK_8度商店 8du.shop
-      - US_8度商店 8du.shop
-      - CN_8度商店 8du.shop 2
-      - CN_8度商店 8du.shop 3
-      - CN_8度商店 8du.shop 4
       - 8度商店 8du.shop
       - 8度商店 8du.shop 2
-      - US_8度商店 8du.shop 2
-      - CN_8度商店 8du.shop 5
-      - HK_8度商店 8du.shop 2
+      - US_8度商店 8du.shop
+      - CN_8度商店 8du.shop 2
       - TW_8度商店 8du.shop
+      - CN_8度商店 8du.shop 3
+      - CN_8度商店 8du.shop 4
+      - CN_8度商店 8du.shop 5
       - CN_8度商店 8du.shop 6
       - CN_8度商店 8du.shop 7
+      - US_8度商店+8du.shop
       - CN_8度商店 8du.shop 8
+      - PL_8度商店+8du.shop
       - CN_8度商店 8du.shop 9
-      - DE_9093+@WangCai_1
       - CN_8度商店 8du.shop 10
       - CN_8度商店 8du.shop 11
       - CN_8度商店 8du.shop 12
+      - US_8度商店+8du.shop 2
+      - PL_8度商店+8du.shop 2
       - CN_8度商店 8du.shop 13
-      - US_8度商店+8du.shop
-      - DE_9037+@WangCai_1
-      - DE_9019+@WangCai_1
-      - DE_9015+@WangCai_1
-      - DE_9018+@WangCai_1
-      - DE_9032+@WangCai_1
-      - DE_9024+@WangCai_1
-      - DE_9057+@WangCai_1
-      - DE_9060+@WangCai_1
       - CN_8度商店 8du.shop 14
-      - PL_8度商店+8du.shop
       - CN_8度商店 8du.shop 15
       - CN_8度商店 8du.shop 16
-      - CN_8度商店 8du.shop 17
-      - CN_8度商店 8du.shop 18
-      - CN_8度商店 8du.shop 19
-      - CN_8度商店 8du.shop 20
-      - US_8度商店+8du.shop 2
-      - JP_8度商店+8du.shop
-      - PL_8度商店+8du.shop 2
-      - CN_8度商店 8du.shop 21
-      - CN_8度商店 8du.shop 22
-      - CN_8度商店 8du.shop 23
-      - CN_8度商店 8du.shop 24
-      - CN_8度商店 8du.shop 25
       - CA_8度商店+8du.shop
+      - IN_24
+      - US_43
+      - US_44
+      - US_46
+      - ZZ_88
+      - AU_03
+      - AU_05
+      - HK_22
+      - IR_26
+      - JP_29
+      - Relay_🇰🇷KR-🇰🇷KR_34
+      - RU_37
+      - US_47
+      - US_48
+      - Relay_🇺🇸US-🇳🇱NL_53
+      - Relay_🇺🇸US-🇺🇸US_58
+      - US_59
+      - Relay_🇦🇺AU-🇦🇺AU_07
+      - Relay_🇦🇺AU-🇦🇺AU_08
+      - Relay_🇬🇧GB-🇬🇧GB_19
+      - Relay_🇬🇧GB-🇬🇧GB_21
+      - Relay_🇯🇵JP-🇯🇵JP_30
+      - Relay_🇺🇸US-🇺🇸US_67
+      - Relay_🇺🇸US-🇺🇸US_71
+      - Relay_🇺🇸US-🇺🇸US_72
+      - Relay_🇺🇸US-🇺🇸US_74
+      - Relay_🇺🇸US-🇺🇸US_78
+      - Relay_🇺🇸US-🇺🇸US_79
+      - Relay_🏁ZZ-🏁ZZ_94
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -603,55 +643,60 @@ proxy-groups:
       - BG 13
       - BG 14
       - US
-      - US 2
       - CN_8度商店 8du.shop
-      - JP_8度商店 8du.shop
-      - HK_8度商店 8du.shop
-      - US_8度商店 8du.shop
-      - CN_8度商店 8du.shop 2
-      - CN_8度商店 8du.shop 3
-      - CN_8度商店 8du.shop 4
       - 8度商店 8du.shop
       - 8度商店 8du.shop 2
-      - US_8度商店 8du.shop 2
-      - CN_8度商店 8du.shop 5
-      - HK_8度商店 8du.shop 2
+      - US_8度商店 8du.shop
+      - CN_8度商店 8du.shop 2
       - TW_8度商店 8du.shop
+      - CN_8度商店 8du.shop 3
+      - CN_8度商店 8du.shop 4
+      - CN_8度商店 8du.shop 5
       - CN_8度商店 8du.shop 6
       - CN_8度商店 8du.shop 7
+      - US_8度商店+8du.shop
       - CN_8度商店 8du.shop 8
+      - PL_8度商店+8du.shop
       - CN_8度商店 8du.shop 9
-      - DE_9093+@WangCai_1
       - CN_8度商店 8du.shop 10
       - CN_8度商店 8du.shop 11
       - CN_8度商店 8du.shop 12
+      - US_8度商店+8du.shop 2
+      - PL_8度商店+8du.shop 2
       - CN_8度商店 8du.shop 13
-      - US_8度商店+8du.shop
-      - DE_9037+@WangCai_1
-      - DE_9019+@WangCai_1
-      - DE_9015+@WangCai_1
-      - DE_9018+@WangCai_1
-      - DE_9032+@WangCai_1
-      - DE_9024+@WangCai_1
-      - DE_9057+@WangCai_1
-      - DE_9060+@WangCai_1
       - CN_8度商店 8du.shop 14
-      - PL_8度商店+8du.shop
       - CN_8度商店 8du.shop 15
       - CN_8度商店 8du.shop 16
-      - CN_8度商店 8du.shop 17
-      - CN_8度商店 8du.shop 18
-      - CN_8度商店 8du.shop 19
-      - CN_8度商店 8du.shop 20
-      - US_8度商店+8du.shop 2
-      - JP_8度商店+8du.shop
-      - PL_8度商店+8du.shop 2
-      - CN_8度商店 8du.shop 21
-      - CN_8度商店 8du.shop 22
-      - CN_8度商店 8du.shop 23
-      - CN_8度商店 8du.shop 24
-      - CN_8度商店 8du.shop 25
       - CA_8度商店+8du.shop
+      - IN_24
+      - US_43
+      - US_44
+      - US_46
+      - ZZ_88
+      - AU_03
+      - AU_05
+      - HK_22
+      - IR_26
+      - JP_29
+      - Relay_🇰🇷KR-🇰🇷KR_34
+      - RU_37
+      - US_47
+      - US_48
+      - Relay_🇺🇸US-🇳🇱NL_53
+      - Relay_🇺🇸US-🇺🇸US_58
+      - US_59
+      - Relay_🇦🇺AU-🇦🇺AU_07
+      - Relay_🇦🇺AU-🇦🇺AU_08
+      - Relay_🇬🇧GB-🇬🇧GB_19
+      - Relay_🇬🇧GB-🇬🇧GB_21
+      - Relay_🇯🇵JP-🇯🇵JP_30
+      - Relay_🇺🇸US-🇺🇸US_67
+      - Relay_🇺🇸US-🇺🇸US_71
+      - Relay_🇺🇸US-🇺🇸US_72
+      - Relay_🇺🇸US-🇺🇸US_74
+      - Relay_🇺🇸US-🇺🇸US_78
+      - Relay_🇺🇸US-🇺🇸US_79
+      - Relay_🏁ZZ-🏁ZZ_94
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
