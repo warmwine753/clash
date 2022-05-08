@@ -19,61 +19,48 @@ proxies:
   - {name: BG 12, server: 213.183.63.219, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
   - {name: BG 13, server: 213.183.63.219, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
   - {name: BG 14, server: 213.183.63.219, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: US, server: 107.174.172.154, port: 447, type: vmess, uuid: bc548c11-461a-4b46-b87f-05bc842bc1b8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /kFb4nwXU, ws-headers: {Host: 107.174.172.154}, udp: true}
-  - {name: CN_8度商店 8du.shop, server: 3.game.speed.zz.001.oooooooooo.icu, port: 25841, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 8度商店 8du.shop, server: 104.19.3.38, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chcar, ws-headers: {Host: v2fly.samrt.website}, udp: true}
-  - {name: 8度商店 8du.shop 2, server: 104.19.3.16, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chcar, ws-headers: {Host: v2fly.samrt.website}, udp: true}
-  - {name: US_8度商店 8du.shop, server: 50.114.56.20, port: 4440, type: vmess, uuid: 8d13dc0f-c4c9-3f66-b8de-d9a5d432842a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: CN_8度商店 8du.shop 2, server: 3.2.1.fuckppppp.today, port: 60302, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TW_8度商店 8du.shop, server: tw.node.qchwnd.moe, port: 44608, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: tw.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: CN_8度商店 8du.shop 3, server: word.2.fuckword.club, port: 47831, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_8度商店 8du.shop 4, server: 2.sg.zz.xxxxx.x-t-fuckword.network, port: 60301, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_8度商店 8du.shop 5, server: hkt01.hk.zz.xxxxx.x-t-fuckword.network, port: 56812, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_8度商店 8du.shop 6, server: 2.hk.zz.xxxxx.x-t-fuckword.network, port: 35419, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_8度商店 8du.shop 7, server: word.2.fuckword.club, port: 36678, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_8度商店+8du.shop, server: 38.68.135.19, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CN_8度商店 8du.shop 8, server: iplc-9-8-7-6-5-4-3-2-1.001.zz.fuckword.club, port: 53941, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: PL_8度商店+8du.shop, server: 217.30.10.67, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: CN_8度商店 8du.shop 9, server: word.12.1.fuckword.club, port: 48744, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_8度商店 8du.shop 10, server: us2.v3.zz.cn.fuckword.club, port: 58420, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_8度商店 8du.shop 11, server: 116.211.197.79, port: 38104, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: CN_8度商店 8du.shop 12, server: 2.game.speed.zz.001.oooooooooo.icu, port: 53945, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_8度商店+8du.shop 2, server: 38.68.135.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: PL_8度商店+8du.shop 2, server: 217.30.10.67, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: CN_8度商店 8du.shop 13, server: 1.tw.zz.xxxxx.x-t-fuckword.network, port: 53137, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_8度商店 8du.shop 14, server: 2.7.1.fuckppppp.today, port: 50002, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_8度商店 8du.shop 15, server: 1.hk.zz.xxxxx.x-t-fuckword.network, port: 36672, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_8度商店 8du.shop 16, server: word.18.fuckword.club, port: 58417, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CA_8度商店+8du.shop, server: 198.57.27.225, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: IN_24, server: 172.105.58.152, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_43, server: 167.88.63.108, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_44, server: 167.88.63.108, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_46, server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ZZ_88, server: 169.197.142.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: AU_03, server: 129.154.48.221, port: 37372, type: vmess, uuid: 6f4454a9-e732-46c6-c50f-73f13da31f7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: AU_05, server: 129.154.54.75, port: 33004, type: vmess, uuid: 4f14695c-31b9-45bf-ca34-1d82170fc100, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 129.154.54.75}, udp: true}
-  - {name: HK_22, server: 210.0.159.89, port: 6616, type: vmess, uuid: d83dae3e-c0ec-4aa2-9336-67ae5dd7d04c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 210.0.159.89}, udp: true}
-  - {name: IR_26, server: asr-farda.ir, port: 49110, type: vmess, uuid: 47bce6b8-c260-11ec-b514-000c297a3bfd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /pdOa1847/, ws-headers: {Host: asr-farda.ir}, udp: true}
-  - {name: JP_29, server: 146.56.112.141, port: 17776, type: vmess, uuid: aa990962-a99b-4aa7-fdb8-bdbd19f61a79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇰🇷KR-🇰🇷KR_34, server: v2-4.godlight.xyz, port: 50497, type: vmess, uuid: 07ea283e-bbe8-466f-a268-c5819763a9bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /g1641hvx, ws-headers: {Host: v2-4.godlight.xyz}, udp: true}
-  - {name: RU_37, server: 45.141.102.51, port: 33689, type: vmess, uuid: 5bff6f03-1d6f-4ef0-8320-3a4dd7eb4cc8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_47, server: 152.69.204.149, port: 50503, type: vmess, uuid: 11b8a8c2-3548-4424-88f8-26cde886230a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_48, server: 155.248.202.203, port: 14564, type: vmess, uuid: 4a0da379-a7cc-4389-88d7-45514b896883, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇳🇱NL_53, server: 172.67.140.112, port: 443, type: vmess, uuid: 4ac06183-feca-48f8-9f7d-3355bd950e2a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: yzjd01-ublubeu.koyeb.app}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_58, server: sanfranciscolafayette.club, port: 443, type: vmess, uuid: cc0b4469-c0e5-4efb-8f69-a6df64db24ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /neuromancer, ws-headers: {Host: sanfranciscolafayette.club}, udp: true}
-  - {name: US_59, server: 150.230.43.65, port: 14564, type: vmess, uuid: 1556e040-31d3-4c47-b0d2-ddf888010b4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Relay_🇦🇺AU-🇦🇺AU_07, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: jgwxn2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇦🇺AU-🇦🇺AU_08, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, sni: jgwxn3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇬🇧GB-🇬🇧GB_19, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, sni: jgwld1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇬🇧GB-🇬🇧GB_21, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, sni: jgwcc1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇯🇵JP-🇯🇵JP_30, server: hgmf.speedcncnforward2.tk, port: 10004, type: trojan, password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c, sni: hgmf.speedcncnforward2.tk, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_67, server: usa-sr-106.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-106.mitoption.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_71, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
   - {name: Relay_🇺🇸US-🇺🇸US_72, server: usd.scsevers.cf, port: 443, type: trojan, password: sharecentretest, sni: usd.scsevers.cf, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_74, server: zones.defun.us, port: 443, type: trojan, password: lpmMwDKeBbKKPq8K, sni: zones.defun.us, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_78, server: sg1.qingyun123.xyz, port: 10001, type: trojan, password: 1362a776-8b97-4707-91b9-4ae21d910462, sni: sg1.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_79, server: aling.gq, port: 443, type: trojan, password: f727337d-52af-4cf9-b260-26ac9a23ddc2, sni: aling.gq, skip-cert-verify: true, udp: true}
-  - {name: Relay_🏁ZZ-🏁ZZ_94, server: hkmax08.170809.xyz, port: 10039, type: trojan, password: 09d2d2b3-dfce-4912-b943-e4b88f2de92c, sni: hkmax08.170809.xyz, skip-cert-verify: true, udp: true}
+  - {name: SG_6125, server: 20.205.125.236, port: 20004, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.205.125.236}, udp: true}
+  - {name: JP_4604, server: 20.205.125.236, port: 60005, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.205.125.236}, udp: true}
+  - {name: JP_4678, server: 20.24.77.204, port: 50009, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.77.204}, udp: true}
+  - {name: JP_4665, server: 20.24.77.204, port: 60010, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.77.204}, udp: true}
+  - {name: JP_4673, server: 20.205.125.236, port: 60012, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.205.125.236}, udp: true}
+  - {name: JP_4677, server: 20.205.125.236, port: 60013, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.205.125.236}, udp: true}
+  - {name: SG_6154, server: 20.24.77.204, port: 60014, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.77.204}, udp: true}
+  - {name: JP_4596, server: 20.24.77.204, port: 60015, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.77.204}, udp: true}
+  - {name: JP_4680, server: 20.24.77.204, port: 60016, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.77.204}, udp: true}
+  - {name: JP_4677 2, server: 20.24.77.204, port: 60017, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.77.204}, udp: true}
+  - {name: JP_4669, server: 20.205.125.236, port: 60018, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.205.125.236}, udp: true}
+  - {name: SG_6128, server: 20.205.125.236, port: 50019, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: JP_4676, server: 20.24.199.110, port: 60023, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: JP_4679, server: 20.24.199.110, port: 60024, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.199.110}, udp: true}
+  - {name: US_9745, server: 20.24.199.110, port: 60025, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.199.110}, udp: true}
+  - {name: JP_4671, server: 20.205.125.236, port: 60026, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.205.125.236}, udp: true}
+  - {name: US_9826, server: 20.24.199.110, port: 60027, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.199.110}, udp: true}
+  - {name: JP_4681, server: 20.24.77.204, port: 60028, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.77.204}, udp: true}
+  - {name: US_9746, server: 20.24.199.110, port: 60029, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.199.110}, udp: true}
+  - {name: JP_4685, server: 20.24.77.204, port: 60031, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.77.204}, udp: true}
+  - {name: SG_5986, server: 20.24.199.110, port: 60032, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: JP_4682, server: 20.24.77.204, port: 60034, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.77.204}, udp: true}
+  - {name: SG_5985, server: 20.24.199.110, port: 60036, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.199.110}, udp: true}
+  - {name: SG_6147, server: 20.24.199.110, port: 39940, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.199.110}, udp: true}
+  - {name: JP_4599, server: 20.205.125.236, port: 60041, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.205.125.236}, udp: true}
+  - {name: SG_6149, server: 20.205.11.55, port: 60042, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.205.11.55}, udp: true}
+  - {name: SG_5993, server: 20.205.11.55, port: 60044, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.205.11.55}, udp: true}
+  - {name: SG_6148, server: 20.205.11.55, port: 60045, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.205.11.55}, udp: true}
+  - {name: SG_6153, server: 20.205.11.55, port: 60046, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.205.11.55}, udp: true}
+  - {name: Relay_🇮🇪IE-🇮🇪IE_31, server: lluucc3.herokuapp.com, port: 443, type: vmess, uuid: 7ff3d9c9-2153-4d3c-939d-697850c95b21, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /f495ba1f, ws-headers: {Host: lluucc3.herokuapp.com}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_51, server: cloudflare-warp.fanqiangvpn.com, port: 443, type: vmess, uuid: 32eca3f7-e224-45bc-8b91-61b28ce0fea0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /www.fanqiangvpn.com, ws-headers: {Host: cloudflare-warp.fanqiangvpn.com}, udp: true}
+  - {name: US_54, server: 65.49.217.194, port: 16194, type: vmess, uuid: 9309d1bd-cda9-4baf-e769-a37ef630daac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_58, server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /go, ws-headers: {Host: us02.gogogoo.cyou}, udp: true}
+  - {name: Relay_🇺🇸US-🇳🇱NL_65, server: 172.67.140.112, port: 443, type: vmess, uuid: 4ac06183-feca-48f8-9f7d-3355bd950e2a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: yzjd01-ublubeu.koyeb.app}, udp: true}
+  - {name: Relay_🇬🇧GB-🇬🇧GB_28, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, sni: jgwcc1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_79, server: usa-sr-106.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-106.mitoption.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_80, server: ussc.scsevers.cf, port: 443, type: trojan, password: sharecentre, sni: ussc.scsevers.cf, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_84, server: usd.scsevers.cf, port: 443, type: trojan, password: sharecentretest, sni: usd.scsevers.cf, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_86, server: sg-sr-116.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: sg-sr-116.mitoption.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_88, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, sni: jgwhdlb1.gaox.ml, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -94,61 +81,48 @@ proxy-groups:
       - BG 12
       - BG 13
       - BG 14
-      - US
-      - CN_8度商店 8du.shop
-      - 8度商店 8du.shop
-      - 8度商店 8du.shop 2
-      - US_8度商店 8du.shop
-      - CN_8度商店 8du.shop 2
-      - TW_8度商店 8du.shop
-      - CN_8度商店 8du.shop 3
-      - CN_8度商店 8du.shop 4
-      - CN_8度商店 8du.shop 5
-      - CN_8度商店 8du.shop 6
-      - CN_8度商店 8du.shop 7
-      - US_8度商店+8du.shop
-      - CN_8度商店 8du.shop 8
-      - PL_8度商店+8du.shop
-      - CN_8度商店 8du.shop 9
-      - CN_8度商店 8du.shop 10
-      - CN_8度商店 8du.shop 11
-      - CN_8度商店 8du.shop 12
-      - US_8度商店+8du.shop 2
-      - PL_8度商店+8du.shop 2
-      - CN_8度商店 8du.shop 13
-      - CN_8度商店 8du.shop 14
-      - CN_8度商店 8du.shop 15
-      - CN_8度商店 8du.shop 16
-      - CA_8度商店+8du.shop
-      - IN_24
-      - US_43
-      - US_44
-      - US_46
-      - ZZ_88
-      - AU_03
-      - AU_05
-      - HK_22
-      - IR_26
-      - JP_29
-      - Relay_🇰🇷KR-🇰🇷KR_34
-      - RU_37
-      - US_47
-      - US_48
-      - Relay_🇺🇸US-🇳🇱NL_53
-      - Relay_🇺🇸US-🇺🇸US_58
-      - US_59
       - Relay_🇦🇺AU-🇦🇺AU_07
-      - Relay_🇦🇺AU-🇦🇺AU_08
-      - Relay_🇬🇧GB-🇬🇧GB_19
-      - Relay_🇬🇧GB-🇬🇧GB_21
-      - Relay_🇯🇵JP-🇯🇵JP_30
-      - Relay_🇺🇸US-🇺🇸US_67
-      - Relay_🇺🇸US-🇺🇸US_71
       - Relay_🇺🇸US-🇺🇸US_72
-      - Relay_🇺🇸US-🇺🇸US_74
-      - Relay_🇺🇸US-🇺🇸US_78
+      - SG_6125
+      - JP_4604
+      - JP_4678
+      - JP_4665
+      - JP_4673
+      - JP_4677
+      - SG_6154
+      - JP_4596
+      - JP_4680
+      - JP_4677 2
+      - JP_4669
+      - SG_6128
+      - JP_4676
+      - JP_4679
+      - US_9745
+      - JP_4671
+      - US_9826
+      - JP_4681
+      - US_9746
+      - JP_4685
+      - SG_5986
+      - JP_4682
+      - SG_5985
+      - SG_6147
+      - JP_4599
+      - SG_6149
+      - SG_5993
+      - SG_6148
+      - SG_6153
+      - Relay_🇮🇪IE-🇮🇪IE_31
+      - Relay_🇺🇸US-🇺🇸US_51
+      - US_54
+      - Relay_🇺🇸US-🇺🇸US_58
+      - Relay_🇺🇸US-🇳🇱NL_65
+      - Relay_🇬🇧GB-🇬🇧GB_28
       - Relay_🇺🇸US-🇺🇸US_79
-      - Relay_🏁ZZ-🏁ZZ_94
+      - Relay_🇺🇸US-🇺🇸US_80
+      - Relay_🇺🇸US-🇺🇸US_84
+      - Relay_🇺🇸US-🇺🇸US_86
+      - Relay_🇺🇸US-🇺🇸US_88
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -168,61 +142,48 @@ proxy-groups:
       - BG 12
       - BG 13
       - BG 14
-      - US
-      - CN_8度商店 8du.shop
-      - 8度商店 8du.shop
-      - 8度商店 8du.shop 2
-      - US_8度商店 8du.shop
-      - CN_8度商店 8du.shop 2
-      - TW_8度商店 8du.shop
-      - CN_8度商店 8du.shop 3
-      - CN_8度商店 8du.shop 4
-      - CN_8度商店 8du.shop 5
-      - CN_8度商店 8du.shop 6
-      - CN_8度商店 8du.shop 7
-      - US_8度商店+8du.shop
-      - CN_8度商店 8du.shop 8
-      - PL_8度商店+8du.shop
-      - CN_8度商店 8du.shop 9
-      - CN_8度商店 8du.shop 10
-      - CN_8度商店 8du.shop 11
-      - CN_8度商店 8du.shop 12
-      - US_8度商店+8du.shop 2
-      - PL_8度商店+8du.shop 2
-      - CN_8度商店 8du.shop 13
-      - CN_8度商店 8du.shop 14
-      - CN_8度商店 8du.shop 15
-      - CN_8度商店 8du.shop 16
-      - CA_8度商店+8du.shop
-      - IN_24
-      - US_43
-      - US_44
-      - US_46
-      - ZZ_88
-      - AU_03
-      - AU_05
-      - HK_22
-      - IR_26
-      - JP_29
-      - Relay_🇰🇷KR-🇰🇷KR_34
-      - RU_37
-      - US_47
-      - US_48
-      - Relay_🇺🇸US-🇳🇱NL_53
-      - Relay_🇺🇸US-🇺🇸US_58
-      - US_59
       - Relay_🇦🇺AU-🇦🇺AU_07
-      - Relay_🇦🇺AU-🇦🇺AU_08
-      - Relay_🇬🇧GB-🇬🇧GB_19
-      - Relay_🇬🇧GB-🇬🇧GB_21
-      - Relay_🇯🇵JP-🇯🇵JP_30
-      - Relay_🇺🇸US-🇺🇸US_67
-      - Relay_🇺🇸US-🇺🇸US_71
       - Relay_🇺🇸US-🇺🇸US_72
-      - Relay_🇺🇸US-🇺🇸US_74
-      - Relay_🇺🇸US-🇺🇸US_78
+      - SG_6125
+      - JP_4604
+      - JP_4678
+      - JP_4665
+      - JP_4673
+      - JP_4677
+      - SG_6154
+      - JP_4596
+      - JP_4680
+      - JP_4677 2
+      - JP_4669
+      - SG_6128
+      - JP_4676
+      - JP_4679
+      - US_9745
+      - JP_4671
+      - US_9826
+      - JP_4681
+      - US_9746
+      - JP_4685
+      - SG_5986
+      - JP_4682
+      - SG_5985
+      - SG_6147
+      - JP_4599
+      - SG_6149
+      - SG_5993
+      - SG_6148
+      - SG_6153
+      - Relay_🇮🇪IE-🇮🇪IE_31
+      - Relay_🇺🇸US-🇺🇸US_51
+      - US_54
+      - Relay_🇺🇸US-🇺🇸US_58
+      - Relay_🇺🇸US-🇳🇱NL_65
+      - Relay_🇬🇧GB-🇬🇧GB_28
       - Relay_🇺🇸US-🇺🇸US_79
-      - Relay_🏁ZZ-🏁ZZ_94
+      - Relay_🇺🇸US-🇺🇸US_80
+      - Relay_🇺🇸US-🇺🇸US_84
+      - Relay_🇺🇸US-🇺🇸US_86
+      - Relay_🇺🇸US-🇺🇸US_88
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -243,61 +204,48 @@ proxy-groups:
       - BG 12
       - BG 13
       - BG 14
-      - US
-      - CN_8度商店 8du.shop
-      - 8度商店 8du.shop
-      - 8度商店 8du.shop 2
-      - US_8度商店 8du.shop
-      - CN_8度商店 8du.shop 2
-      - TW_8度商店 8du.shop
-      - CN_8度商店 8du.shop 3
-      - CN_8度商店 8du.shop 4
-      - CN_8度商店 8du.shop 5
-      - CN_8度商店 8du.shop 6
-      - CN_8度商店 8du.shop 7
-      - US_8度商店+8du.shop
-      - CN_8度商店 8du.shop 8
-      - PL_8度商店+8du.shop
-      - CN_8度商店 8du.shop 9
-      - CN_8度商店 8du.shop 10
-      - CN_8度商店 8du.shop 11
-      - CN_8度商店 8du.shop 12
-      - US_8度商店+8du.shop 2
-      - PL_8度商店+8du.shop 2
-      - CN_8度商店 8du.shop 13
-      - CN_8度商店 8du.shop 14
-      - CN_8度商店 8du.shop 15
-      - CN_8度商店 8du.shop 16
-      - CA_8度商店+8du.shop
-      - IN_24
-      - US_43
-      - US_44
-      - US_46
-      - ZZ_88
-      - AU_03
-      - AU_05
-      - HK_22
-      - IR_26
-      - JP_29
-      - Relay_🇰🇷KR-🇰🇷KR_34
-      - RU_37
-      - US_47
-      - US_48
-      - Relay_🇺🇸US-🇳🇱NL_53
-      - Relay_🇺🇸US-🇺🇸US_58
-      - US_59
       - Relay_🇦🇺AU-🇦🇺AU_07
-      - Relay_🇦🇺AU-🇦🇺AU_08
-      - Relay_🇬🇧GB-🇬🇧GB_19
-      - Relay_🇬🇧GB-🇬🇧GB_21
-      - Relay_🇯🇵JP-🇯🇵JP_30
-      - Relay_🇺🇸US-🇺🇸US_67
-      - Relay_🇺🇸US-🇺🇸US_71
       - Relay_🇺🇸US-🇺🇸US_72
-      - Relay_🇺🇸US-🇺🇸US_74
-      - Relay_🇺🇸US-🇺🇸US_78
+      - SG_6125
+      - JP_4604
+      - JP_4678
+      - JP_4665
+      - JP_4673
+      - JP_4677
+      - SG_6154
+      - JP_4596
+      - JP_4680
+      - JP_4677 2
+      - JP_4669
+      - SG_6128
+      - JP_4676
+      - JP_4679
+      - US_9745
+      - JP_4671
+      - US_9826
+      - JP_4681
+      - US_9746
+      - JP_4685
+      - SG_5986
+      - JP_4682
+      - SG_5985
+      - SG_6147
+      - JP_4599
+      - SG_6149
+      - SG_5993
+      - SG_6148
+      - SG_6153
+      - Relay_🇮🇪IE-🇮🇪IE_31
+      - Relay_🇺🇸US-🇺🇸US_51
+      - US_54
+      - Relay_🇺🇸US-🇺🇸US_58
+      - Relay_🇺🇸US-🇳🇱NL_65
+      - Relay_🇬🇧GB-🇬🇧GB_28
       - Relay_🇺🇸US-🇺🇸US_79
-      - Relay_🏁ZZ-🏁ZZ_94
+      - Relay_🇺🇸US-🇺🇸US_80
+      - Relay_🇺🇸US-🇺🇸US_84
+      - Relay_🇺🇸US-🇺🇸US_86
+      - Relay_🇺🇸US-🇺🇸US_88
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -330,61 +278,48 @@ proxy-groups:
       - BG 12
       - BG 13
       - BG 14
-      - US
-      - CN_8度商店 8du.shop
-      - 8度商店 8du.shop
-      - 8度商店 8du.shop 2
-      - US_8度商店 8du.shop
-      - CN_8度商店 8du.shop 2
-      - TW_8度商店 8du.shop
-      - CN_8度商店 8du.shop 3
-      - CN_8度商店 8du.shop 4
-      - CN_8度商店 8du.shop 5
-      - CN_8度商店 8du.shop 6
-      - CN_8度商店 8du.shop 7
-      - US_8度商店+8du.shop
-      - CN_8度商店 8du.shop 8
-      - PL_8度商店+8du.shop
-      - CN_8度商店 8du.shop 9
-      - CN_8度商店 8du.shop 10
-      - CN_8度商店 8du.shop 11
-      - CN_8度商店 8du.shop 12
-      - US_8度商店+8du.shop 2
-      - PL_8度商店+8du.shop 2
-      - CN_8度商店 8du.shop 13
-      - CN_8度商店 8du.shop 14
-      - CN_8度商店 8du.shop 15
-      - CN_8度商店 8du.shop 16
-      - CA_8度商店+8du.shop
-      - IN_24
-      - US_43
-      - US_44
-      - US_46
-      - ZZ_88
-      - AU_03
-      - AU_05
-      - HK_22
-      - IR_26
-      - JP_29
-      - Relay_🇰🇷KR-🇰🇷KR_34
-      - RU_37
-      - US_47
-      - US_48
-      - Relay_🇺🇸US-🇳🇱NL_53
-      - Relay_🇺🇸US-🇺🇸US_58
-      - US_59
       - Relay_🇦🇺AU-🇦🇺AU_07
-      - Relay_🇦🇺AU-🇦🇺AU_08
-      - Relay_🇬🇧GB-🇬🇧GB_19
-      - Relay_🇬🇧GB-🇬🇧GB_21
-      - Relay_🇯🇵JP-🇯🇵JP_30
-      - Relay_🇺🇸US-🇺🇸US_67
-      - Relay_🇺🇸US-🇺🇸US_71
       - Relay_🇺🇸US-🇺🇸US_72
-      - Relay_🇺🇸US-🇺🇸US_74
-      - Relay_🇺🇸US-🇺🇸US_78
+      - SG_6125
+      - JP_4604
+      - JP_4678
+      - JP_4665
+      - JP_4673
+      - JP_4677
+      - SG_6154
+      - JP_4596
+      - JP_4680
+      - JP_4677 2
+      - JP_4669
+      - SG_6128
+      - JP_4676
+      - JP_4679
+      - US_9745
+      - JP_4671
+      - US_9826
+      - JP_4681
+      - US_9746
+      - JP_4685
+      - SG_5986
+      - JP_4682
+      - SG_5985
+      - SG_6147
+      - JP_4599
+      - SG_6149
+      - SG_5993
+      - SG_6148
+      - SG_6153
+      - Relay_🇮🇪IE-🇮🇪IE_31
+      - Relay_🇺🇸US-🇺🇸US_51
+      - US_54
+      - Relay_🇺🇸US-🇺🇸US_58
+      - Relay_🇺🇸US-🇳🇱NL_65
+      - Relay_🇬🇧GB-🇬🇧GB_28
       - Relay_🇺🇸US-🇺🇸US_79
-      - Relay_🏁ZZ-🏁ZZ_94
+      - Relay_🇺🇸US-🇺🇸US_80
+      - Relay_🇺🇸US-🇺🇸US_84
+      - Relay_🇺🇸US-🇺🇸US_86
+      - Relay_🇺🇸US-🇺🇸US_88
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -409,61 +344,48 @@ proxy-groups:
       - BG 12
       - BG 13
       - BG 14
-      - US
-      - CN_8度商店 8du.shop
-      - 8度商店 8du.shop
-      - 8度商店 8du.shop 2
-      - US_8度商店 8du.shop
-      - CN_8度商店 8du.shop 2
-      - TW_8度商店 8du.shop
-      - CN_8度商店 8du.shop 3
-      - CN_8度商店 8du.shop 4
-      - CN_8度商店 8du.shop 5
-      - CN_8度商店 8du.shop 6
-      - CN_8度商店 8du.shop 7
-      - US_8度商店+8du.shop
-      - CN_8度商店 8du.shop 8
-      - PL_8度商店+8du.shop
-      - CN_8度商店 8du.shop 9
-      - CN_8度商店 8du.shop 10
-      - CN_8度商店 8du.shop 11
-      - CN_8度商店 8du.shop 12
-      - US_8度商店+8du.shop 2
-      - PL_8度商店+8du.shop 2
-      - CN_8度商店 8du.shop 13
-      - CN_8度商店 8du.shop 14
-      - CN_8度商店 8du.shop 15
-      - CN_8度商店 8du.shop 16
-      - CA_8度商店+8du.shop
-      - IN_24
-      - US_43
-      - US_44
-      - US_46
-      - ZZ_88
-      - AU_03
-      - AU_05
-      - HK_22
-      - IR_26
-      - JP_29
-      - Relay_🇰🇷KR-🇰🇷KR_34
-      - RU_37
-      - US_47
-      - US_48
-      - Relay_🇺🇸US-🇳🇱NL_53
-      - Relay_🇺🇸US-🇺🇸US_58
-      - US_59
       - Relay_🇦🇺AU-🇦🇺AU_07
-      - Relay_🇦🇺AU-🇦🇺AU_08
-      - Relay_🇬🇧GB-🇬🇧GB_19
-      - Relay_🇬🇧GB-🇬🇧GB_21
-      - Relay_🇯🇵JP-🇯🇵JP_30
-      - Relay_🇺🇸US-🇺🇸US_67
-      - Relay_🇺🇸US-🇺🇸US_71
       - Relay_🇺🇸US-🇺🇸US_72
-      - Relay_🇺🇸US-🇺🇸US_74
-      - Relay_🇺🇸US-🇺🇸US_78
+      - SG_6125
+      - JP_4604
+      - JP_4678
+      - JP_4665
+      - JP_4673
+      - JP_4677
+      - SG_6154
+      - JP_4596
+      - JP_4680
+      - JP_4677 2
+      - JP_4669
+      - SG_6128
+      - JP_4676
+      - JP_4679
+      - US_9745
+      - JP_4671
+      - US_9826
+      - JP_4681
+      - US_9746
+      - JP_4685
+      - SG_5986
+      - JP_4682
+      - SG_5985
+      - SG_6147
+      - JP_4599
+      - SG_6149
+      - SG_5993
+      - SG_6148
+      - SG_6153
+      - Relay_🇮🇪IE-🇮🇪IE_31
+      - Relay_🇺🇸US-🇺🇸US_51
+      - US_54
+      - Relay_🇺🇸US-🇺🇸US_58
+      - Relay_🇺🇸US-🇳🇱NL_65
+      - Relay_🇬🇧GB-🇬🇧GB_28
       - Relay_🇺🇸US-🇺🇸US_79
-      - Relay_🏁ZZ-🏁ZZ_94
+      - Relay_🇺🇸US-🇺🇸US_80
+      - Relay_🇺🇸US-🇺🇸US_84
+      - Relay_🇺🇸US-🇺🇸US_86
+      - Relay_🇺🇸US-🇺🇸US_88
   - name: 📲 电报信息
     type: select
     proxies:
@@ -483,61 +405,48 @@ proxy-groups:
       - BG 12
       - BG 13
       - BG 14
-      - US
-      - CN_8度商店 8du.shop
-      - 8度商店 8du.shop
-      - 8度商店 8du.shop 2
-      - US_8度商店 8du.shop
-      - CN_8度商店 8du.shop 2
-      - TW_8度商店 8du.shop
-      - CN_8度商店 8du.shop 3
-      - CN_8度商店 8du.shop 4
-      - CN_8度商店 8du.shop 5
-      - CN_8度商店 8du.shop 6
-      - CN_8度商店 8du.shop 7
-      - US_8度商店+8du.shop
-      - CN_8度商店 8du.shop 8
-      - PL_8度商店+8du.shop
-      - CN_8度商店 8du.shop 9
-      - CN_8度商店 8du.shop 10
-      - CN_8度商店 8du.shop 11
-      - CN_8度商店 8du.shop 12
-      - US_8度商店+8du.shop 2
-      - PL_8度商店+8du.shop 2
-      - CN_8度商店 8du.shop 13
-      - CN_8度商店 8du.shop 14
-      - CN_8度商店 8du.shop 15
-      - CN_8度商店 8du.shop 16
-      - CA_8度商店+8du.shop
-      - IN_24
-      - US_43
-      - US_44
-      - US_46
-      - ZZ_88
-      - AU_03
-      - AU_05
-      - HK_22
-      - IR_26
-      - JP_29
-      - Relay_🇰🇷KR-🇰🇷KR_34
-      - RU_37
-      - US_47
-      - US_48
-      - Relay_🇺🇸US-🇳🇱NL_53
-      - Relay_🇺🇸US-🇺🇸US_58
-      - US_59
       - Relay_🇦🇺AU-🇦🇺AU_07
-      - Relay_🇦🇺AU-🇦🇺AU_08
-      - Relay_🇬🇧GB-🇬🇧GB_19
-      - Relay_🇬🇧GB-🇬🇧GB_21
-      - Relay_🇯🇵JP-🇯🇵JP_30
-      - Relay_🇺🇸US-🇺🇸US_67
-      - Relay_🇺🇸US-🇺🇸US_71
       - Relay_🇺🇸US-🇺🇸US_72
-      - Relay_🇺🇸US-🇺🇸US_74
-      - Relay_🇺🇸US-🇺🇸US_78
+      - SG_6125
+      - JP_4604
+      - JP_4678
+      - JP_4665
+      - JP_4673
+      - JP_4677
+      - SG_6154
+      - JP_4596
+      - JP_4680
+      - JP_4677 2
+      - JP_4669
+      - SG_6128
+      - JP_4676
+      - JP_4679
+      - US_9745
+      - JP_4671
+      - US_9826
+      - JP_4681
+      - US_9746
+      - JP_4685
+      - SG_5986
+      - JP_4682
+      - SG_5985
+      - SG_6147
+      - JP_4599
+      - SG_6149
+      - SG_5993
+      - SG_6148
+      - SG_6153
+      - Relay_🇮🇪IE-🇮🇪IE_31
+      - Relay_🇺🇸US-🇺🇸US_51
+      - US_54
+      - Relay_🇺🇸US-🇺🇸US_58
+      - Relay_🇺🇸US-🇳🇱NL_65
+      - Relay_🇬🇧GB-🇬🇧GB_28
       - Relay_🇺🇸US-🇺🇸US_79
-      - Relay_🏁ZZ-🏁ZZ_94
+      - Relay_🇺🇸US-🇺🇸US_80
+      - Relay_🇺🇸US-🇺🇸US_84
+      - Relay_🇺🇸US-🇺🇸US_86
+      - Relay_🇺🇸US-🇺🇸US_88
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -558,61 +467,48 @@ proxy-groups:
       - BG 12
       - BG 13
       - BG 14
-      - US
-      - CN_8度商店 8du.shop
-      - 8度商店 8du.shop
-      - 8度商店 8du.shop 2
-      - US_8度商店 8du.shop
-      - CN_8度商店 8du.shop 2
-      - TW_8度商店 8du.shop
-      - CN_8度商店 8du.shop 3
-      - CN_8度商店 8du.shop 4
-      - CN_8度商店 8du.shop 5
-      - CN_8度商店 8du.shop 6
-      - CN_8度商店 8du.shop 7
-      - US_8度商店+8du.shop
-      - CN_8度商店 8du.shop 8
-      - PL_8度商店+8du.shop
-      - CN_8度商店 8du.shop 9
-      - CN_8度商店 8du.shop 10
-      - CN_8度商店 8du.shop 11
-      - CN_8度商店 8du.shop 12
-      - US_8度商店+8du.shop 2
-      - PL_8度商店+8du.shop 2
-      - CN_8度商店 8du.shop 13
-      - CN_8度商店 8du.shop 14
-      - CN_8度商店 8du.shop 15
-      - CN_8度商店 8du.shop 16
-      - CA_8度商店+8du.shop
-      - IN_24
-      - US_43
-      - US_44
-      - US_46
-      - ZZ_88
-      - AU_03
-      - AU_05
-      - HK_22
-      - IR_26
-      - JP_29
-      - Relay_🇰🇷KR-🇰🇷KR_34
-      - RU_37
-      - US_47
-      - US_48
-      - Relay_🇺🇸US-🇳🇱NL_53
-      - Relay_🇺🇸US-🇺🇸US_58
-      - US_59
       - Relay_🇦🇺AU-🇦🇺AU_07
-      - Relay_🇦🇺AU-🇦🇺AU_08
-      - Relay_🇬🇧GB-🇬🇧GB_19
-      - Relay_🇬🇧GB-🇬🇧GB_21
-      - Relay_🇯🇵JP-🇯🇵JP_30
-      - Relay_🇺🇸US-🇺🇸US_67
-      - Relay_🇺🇸US-🇺🇸US_71
       - Relay_🇺🇸US-🇺🇸US_72
-      - Relay_🇺🇸US-🇺🇸US_74
-      - Relay_🇺🇸US-🇺🇸US_78
+      - SG_6125
+      - JP_4604
+      - JP_4678
+      - JP_4665
+      - JP_4673
+      - JP_4677
+      - SG_6154
+      - JP_4596
+      - JP_4680
+      - JP_4677 2
+      - JP_4669
+      - SG_6128
+      - JP_4676
+      - JP_4679
+      - US_9745
+      - JP_4671
+      - US_9826
+      - JP_4681
+      - US_9746
+      - JP_4685
+      - SG_5986
+      - JP_4682
+      - SG_5985
+      - SG_6147
+      - JP_4599
+      - SG_6149
+      - SG_5993
+      - SG_6148
+      - SG_6153
+      - Relay_🇮🇪IE-🇮🇪IE_31
+      - Relay_🇺🇸US-🇺🇸US_51
+      - US_54
+      - Relay_🇺🇸US-🇺🇸US_58
+      - Relay_🇺🇸US-🇳🇱NL_65
+      - Relay_🇬🇧GB-🇬🇧GB_28
       - Relay_🇺🇸US-🇺🇸US_79
-      - Relay_🏁ZZ-🏁ZZ_94
+      - Relay_🇺🇸US-🇺🇸US_80
+      - Relay_🇺🇸US-🇺🇸US_84
+      - Relay_🇺🇸US-🇺🇸US_86
+      - Relay_🇺🇸US-🇺🇸US_88
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -642,61 +538,48 @@ proxy-groups:
       - BG 12
       - BG 13
       - BG 14
-      - US
-      - CN_8度商店 8du.shop
-      - 8度商店 8du.shop
-      - 8度商店 8du.shop 2
-      - US_8度商店 8du.shop
-      - CN_8度商店 8du.shop 2
-      - TW_8度商店 8du.shop
-      - CN_8度商店 8du.shop 3
-      - CN_8度商店 8du.shop 4
-      - CN_8度商店 8du.shop 5
-      - CN_8度商店 8du.shop 6
-      - CN_8度商店 8du.shop 7
-      - US_8度商店+8du.shop
-      - CN_8度商店 8du.shop 8
-      - PL_8度商店+8du.shop
-      - CN_8度商店 8du.shop 9
-      - CN_8度商店 8du.shop 10
-      - CN_8度商店 8du.shop 11
-      - CN_8度商店 8du.shop 12
-      - US_8度商店+8du.shop 2
-      - PL_8度商店+8du.shop 2
-      - CN_8度商店 8du.shop 13
-      - CN_8度商店 8du.shop 14
-      - CN_8度商店 8du.shop 15
-      - CN_8度商店 8du.shop 16
-      - CA_8度商店+8du.shop
-      - IN_24
-      - US_43
-      - US_44
-      - US_46
-      - ZZ_88
-      - AU_03
-      - AU_05
-      - HK_22
-      - IR_26
-      - JP_29
-      - Relay_🇰🇷KR-🇰🇷KR_34
-      - RU_37
-      - US_47
-      - US_48
-      - Relay_🇺🇸US-🇳🇱NL_53
-      - Relay_🇺🇸US-🇺🇸US_58
-      - US_59
       - Relay_🇦🇺AU-🇦🇺AU_07
-      - Relay_🇦🇺AU-🇦🇺AU_08
-      - Relay_🇬🇧GB-🇬🇧GB_19
-      - Relay_🇬🇧GB-🇬🇧GB_21
-      - Relay_🇯🇵JP-🇯🇵JP_30
-      - Relay_🇺🇸US-🇺🇸US_67
-      - Relay_🇺🇸US-🇺🇸US_71
       - Relay_🇺🇸US-🇺🇸US_72
-      - Relay_🇺🇸US-🇺🇸US_74
-      - Relay_🇺🇸US-🇺🇸US_78
+      - SG_6125
+      - JP_4604
+      - JP_4678
+      - JP_4665
+      - JP_4673
+      - JP_4677
+      - SG_6154
+      - JP_4596
+      - JP_4680
+      - JP_4677 2
+      - JP_4669
+      - SG_6128
+      - JP_4676
+      - JP_4679
+      - US_9745
+      - JP_4671
+      - US_9826
+      - JP_4681
+      - US_9746
+      - JP_4685
+      - SG_5986
+      - JP_4682
+      - SG_5985
+      - SG_6147
+      - JP_4599
+      - SG_6149
+      - SG_5993
+      - SG_6148
+      - SG_6153
+      - Relay_🇮🇪IE-🇮🇪IE_31
+      - Relay_🇺🇸US-🇺🇸US_51
+      - US_54
+      - Relay_🇺🇸US-🇺🇸US_58
+      - Relay_🇺🇸US-🇳🇱NL_65
+      - Relay_🇬🇧GB-🇬🇧GB_28
       - Relay_🇺🇸US-🇺🇸US_79
-      - Relay_🏁ZZ-🏁ZZ_94
+      - Relay_🇺🇸US-🇺🇸US_80
+      - Relay_🇺🇸US-🇺🇸US_84
+      - Relay_🇺🇸US-🇺🇸US_86
+      - Relay_🇺🇸US-🇺🇸US_88
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
