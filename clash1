@@ -5,247 +5,127 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: BG, server: 213.183.63.219, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
-  - {name: BG 2, server: 213.183.63.219, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: BG 3, server: 213.183.63.219, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
-  - {name: BG 4, server: 213.183.63.219, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: BG 5, server: 213.183.63.219, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: BG 6, server: 213.183.63.219, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
-  - {name: BG 7, server: 213.183.63.219, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: BG 8, server: 213.183.63.219, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: BG 9, server: 213.183.63.219, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: BG 10, server: 213.183.63.219, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
-  - {name: BG 11, server: 213.183.63.219, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: BG 12, server: 213.183.63.219, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: BG 13, server: 213.183.63.219, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: BG 14, server: 213.183.63.219, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: Relay_🇦🇺AU-🇦🇺AU_07, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: jgwxn2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_72, server: usd.scsevers.cf, port: 443, type: trojan, password: sharecentretest, sni: usd.scsevers.cf, skip-cert-verify: true, udp: true}
-  - {name: SG_6125, server: 20.205.125.236, port: 20004, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.205.125.236}, udp: true}
-  - {name: JP_4604, server: 20.205.125.236, port: 60005, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.205.125.236}, udp: true}
-  - {name: JP_4678, server: 20.24.77.204, port: 50009, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.77.204}, udp: true}
-  - {name: JP_4665, server: 20.24.77.204, port: 60010, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.77.204}, udp: true}
-  - {name: JP_4673, server: 20.205.125.236, port: 60012, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.205.125.236}, udp: true}
-  - {name: JP_4677, server: 20.205.125.236, port: 60013, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.205.125.236}, udp: true}
-  - {name: SG_6154, server: 20.24.77.204, port: 60014, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.77.204}, udp: true}
-  - {name: JP_4596, server: 20.24.77.204, port: 60015, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.77.204}, udp: true}
-  - {name: JP_4680, server: 20.24.77.204, port: 60016, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.77.204}, udp: true}
-  - {name: JP_4677 2, server: 20.24.77.204, port: 60017, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.77.204}, udp: true}
-  - {name: JP_4669, server: 20.205.125.236, port: 60018, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.205.125.236}, udp: true}
-  - {name: SG_6128, server: 20.205.125.236, port: 50019, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: JP_4676, server: 20.24.199.110, port: 60023, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: JP_4679, server: 20.24.199.110, port: 60024, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.199.110}, udp: true}
-  - {name: US_9745, server: 20.24.199.110, port: 60025, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.199.110}, udp: true}
-  - {name: JP_4671, server: 20.205.125.236, port: 60026, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.205.125.236}, udp: true}
-  - {name: US_9826, server: 20.24.199.110, port: 60027, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.199.110}, udp: true}
-  - {name: JP_4681, server: 20.24.77.204, port: 60028, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.77.204}, udp: true}
-  - {name: US_9746, server: 20.24.199.110, port: 60029, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.199.110}, udp: true}
-  - {name: JP_4685, server: 20.24.77.204, port: 60031, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.77.204}, udp: true}
-  - {name: SG_5986, server: 20.24.199.110, port: 60032, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: JP_4682, server: 20.24.77.204, port: 60034, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.77.204}, udp: true}
-  - {name: SG_5985, server: 20.24.199.110, port: 60036, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.199.110}, udp: true}
-  - {name: SG_6147, server: 20.24.199.110, port: 39940, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.199.110}, udp: true}
-  - {name: JP_4599, server: 20.205.125.236, port: 60041, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.205.125.236}, udp: true}
   - {name: SG_6149, server: 20.205.11.55, port: 60042, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.205.11.55}, udp: true}
   - {name: SG_5993, server: 20.205.11.55, port: 60044, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.205.11.55}, udp: true}
   - {name: SG_6148, server: 20.205.11.55, port: 60045, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.205.11.55}, udp: true}
   - {name: SG_6153, server: 20.205.11.55, port: 60046, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.205.11.55}, udp: true}
-  - {name: Relay_🇮🇪IE-🇮🇪IE_31, server: lluucc3.herokuapp.com, port: 443, type: vmess, uuid: 7ff3d9c9-2153-4d3c-939d-697850c95b21, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /f495ba1f, ws-headers: {Host: lluucc3.herokuapp.com}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_51, server: cloudflare-warp.fanqiangvpn.com, port: 443, type: vmess, uuid: 32eca3f7-e224-45bc-8b91-61b28ce0fea0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /www.fanqiangvpn.com, ws-headers: {Host: cloudflare-warp.fanqiangvpn.com}, udp: true}
-  - {name: US_54, server: 65.49.217.194, port: 16194, type: vmess, uuid: 9309d1bd-cda9-4baf-e769-a37ef630daac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_58, server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /go, ws-headers: {Host: us02.gogogoo.cyou}, udp: true}
-  - {name: Relay_🇺🇸US-🇳🇱NL_65, server: 172.67.140.112, port: 443, type: vmess, uuid: 4ac06183-feca-48f8-9f7d-3355bd950e2a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: yzjd01-ublubeu.koyeb.app}, udp: true}
-  - {name: Relay_🇬🇧GB-🇬🇧GB_28, server: jgwcc1.gaox.ml, port: 443, type: trojan, password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a, sni: jgwcc1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_79, server: usa-sr-106.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: usa-sr-106.mitoption.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_80, server: ussc.scsevers.cf, port: 443, type: trojan, password: sharecentre, sni: ussc.scsevers.cf, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_84, server: usd.scsevers.cf, port: 443, type: trojan, password: sharecentretest, sni: usd.scsevers.cf, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_86, server: sg-sr-116.mitoption.com, port: 443, type: trojan, password: e5d46365e25e31d94279c2bcf93390a2, sni: sg-sr-116.mitoption.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_88, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, sni: jgwhdlb1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US-1|精力有限公益节点近期少维护|1x, server: us-a.vmess.top, port: 39123, type: trojan, password: d8f386ac-ebf3-4fd1-9397-5eaca4b5889d, sni: us-a.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: US-2|如果想要更高的服务清购买付套餐|1x, server: us-a.vmess.top, port: 39133, type: vmess, uuid: d8f386ac-ebf3-4fd1-9397-5eaca4b5889d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /xasda65464uexi, ws-headers: {Host: us-a.vmess.top}, udp: true}
+  - {name: HK-1|公益节点质量不代表付费服务质量|专线|1.5x, server: free-hk.vmess.top, port: 39123, type: trojan, password: d8f386ac-ebf3-4fd1-9397-5eaca4b5889d, sni: free-hk.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: HK-2|TG群组@paopaodog_group|专线|1.5x, server: free-hk.vmess.top, port: 39133, type: vmess, uuid: d8f386ac-ebf3-4fd1-9397-5eaca4b5889d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sasdwdwads, ws-headers: {Host: free-hk.vmess.top}, udp: true}
+  - {name: SG-9|付费节点倍率0.3-1.5|专线|1.5x, server: free-hk.vmess.top, port: 39012, type: trojan, password: d8f386ac-ebf3-4fd1-9397-5eaca4b5889d, sni: free-hk.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: SG-10|付费套餐赠送免费Tg代理哦 不走套餐流量|1.5x, server: free-hk.vmess.top, port: 39013, type: vmess, uuid: d8f386ac-ebf3-4fd1-9397-5eaca4b5889d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdaxsadasasduexsadi, ws-headers: {Host: free-hk.vmess.top}, udp: true}
+  - {name: JP-17|专线|请大家及时更新订阅|1.5x, server: free-jp-sd.vmess.top, port: 39191, type: trojan, password: d8f386ac-ebf3-4fd1-9397-5eaca4b5889d, sni: free-jp-sd.vmess.top, skip-cert-verify: true, udp: true}
+  - {name: JP-18|公益节点www.paopao.dog|1.5x, server: free-jp-sd.vmess.top, port: 39192, type: vmess, uuid: d8f386ac-ebf3-4fd1-9397-5eaca4b5889d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdasdxuasdeasdasdxi, ws-headers: {Host: free-jp-sd.vmess.top}, udp: true}
+  - {name: Alien, server: fliplc.getxlx.com, port: 59941, type: vmess, uuid: 3a9e460c-2f70-3688-9602-ad67a1f5efbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Alien 2, server: fliplc.getxlx.com, port: 59943, type: vmess, uuid: 3a9e460c-2f70-3688-9602-ad67a1f5efbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Alien 3, server: fliplc.getxlx.com, port: 59944, type: vmess, uuid: 3a9e460c-2f70-3688-9602-ad67a1f5efbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Alien 4, server: fliplc.getxlx.com, port: 59950, type: vmess, uuid: 3a9e460c-2f70-3688-9602-ad67a1f5efbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Alien 5, server: fliplc.getxlx.com, port: 59952, type: vmess, uuid: 3a9e460c-2f70-3688-9602-ad67a1f5efbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Alien 6, server: fliplc.getxlx.com, port: 59931, type: vmess, uuid: 3a9e460c-2f70-3688-9602-ad67a1f5efbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Alien 7, server: fliplc.getxlx.com, port: 59932, type: vmess, uuid: 3a9e460c-2f70-3688-9602-ad67a1f5efbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 福建省厦门市电信 2, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: github.com/freefq - 广东省惠州市电信 4, server: 3.game.speed.zz.001.oooooooooo.icu, port: 25841, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 日本东京Linode数据中心 7, server: crus2.gzfxd.xyz, port: 16616, type: vmess, uuid: b9f8eeb5-3707-4ade-97be-0cd551c06c2a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: crus2.gzfxd.xyz}, udp: true}
+  - {name: github.com/freefq - 俄罗斯  18, server: 92.38.184.228, port: 55231, type: ss, cipher: chacha20-ietf-poly1305, password: zidKl2rcLVBm, udp: true}
+  - {name: github.com/freefq - 保加利亚  20, server: fr.node.qchwnd.moe, port: 44612, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: fr.node.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 俄罗斯  27, server: ru.node.qchwnd.moe, port: 44606, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: ru.node.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 俄罗斯  42, server: 194.87.99.122, port: 62560, type: vmess, uuid: e19c03f6-97b9-4c2b-a42d-19daea18d849, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - BG
-      - BG 2
-      - BG 3
-      - BG 4
-      - BG 5
-      - BG 6
-      - BG 7
-      - BG 8
-      - BG 9
-      - BG 10
-      - BG 11
-      - BG 12
-      - BG 13
-      - BG 14
-      - Relay_🇦🇺AU-🇦🇺AU_07
-      - Relay_🇺🇸US-🇺🇸US_72
-      - SG_6125
-      - JP_4604
-      - JP_4678
-      - JP_4665
-      - JP_4673
-      - JP_4677
-      - SG_6154
-      - JP_4596
-      - JP_4680
-      - JP_4677 2
-      - JP_4669
-      - SG_6128
-      - JP_4676
-      - JP_4679
-      - US_9745
-      - JP_4671
-      - US_9826
-      - JP_4681
-      - US_9746
-      - JP_4685
-      - SG_5986
-      - JP_4682
-      - SG_5985
-      - SG_6147
-      - JP_4599
       - SG_6149
       - SG_5993
       - SG_6148
       - SG_6153
-      - Relay_🇮🇪IE-🇮🇪IE_31
-      - Relay_🇺🇸US-🇺🇸US_51
-      - US_54
-      - Relay_🇺🇸US-🇺🇸US_58
-      - Relay_🇺🇸US-🇳🇱NL_65
-      - Relay_🇬🇧GB-🇬🇧GB_28
-      - Relay_🇺🇸US-🇺🇸US_79
-      - Relay_🇺🇸US-🇺🇸US_80
-      - Relay_🇺🇸US-🇺🇸US_84
-      - Relay_🇺🇸US-🇺🇸US_86
-      - Relay_🇺🇸US-🇺🇸US_88
+      - US-1|精力有限公益节点近期少维护|1x
+      - US-2|如果想要更高的服务清购买付套餐|1x
+      - HK-1|公益节点质量不代表付费服务质量|专线|1.5x
+      - HK-2|TG群组@paopaodog_group|专线|1.5x
+      - SG-9|付费节点倍率0.3-1.5|专线|1.5x
+      - SG-10|付费套餐赠送免费Tg代理哦 不走套餐流量|1.5x
+      - JP-17|专线|请大家及时更新订阅|1.5x
+      - JP-18|公益节点www.paopao.dog|1.5x
+      - Alien
+      - Alien 2
+      - Alien 3
+      - Alien 4
+      - Alien 5
+      - Alien 6
+      - Alien 7
+      - github.com/freefq - 福建省厦门市电信 2
+      - github.com/freefq - 广东省惠州市电信 4
+      - github.com/freefq - 日本东京Linode数据中心 7
+      - github.com/freefq - 俄罗斯  18
+      - github.com/freefq - 保加利亚  20
+      - github.com/freefq - 俄罗斯  27
+      - github.com/freefq - 俄罗斯  42
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - BG
-      - BG 2
-      - BG 3
-      - BG 4
-      - BG 5
-      - BG 6
-      - BG 7
-      - BG 8
-      - BG 9
-      - BG 10
-      - BG 11
-      - BG 12
-      - BG 13
-      - BG 14
-      - Relay_🇦🇺AU-🇦🇺AU_07
-      - Relay_🇺🇸US-🇺🇸US_72
-      - SG_6125
-      - JP_4604
-      - JP_4678
-      - JP_4665
-      - JP_4673
-      - JP_4677
-      - SG_6154
-      - JP_4596
-      - JP_4680
-      - JP_4677 2
-      - JP_4669
-      - SG_6128
-      - JP_4676
-      - JP_4679
-      - US_9745
-      - JP_4671
-      - US_9826
-      - JP_4681
-      - US_9746
-      - JP_4685
-      - SG_5986
-      - JP_4682
-      - SG_5985
-      - SG_6147
-      - JP_4599
       - SG_6149
       - SG_5993
       - SG_6148
       - SG_6153
-      - Relay_🇮🇪IE-🇮🇪IE_31
-      - Relay_🇺🇸US-🇺🇸US_51
-      - US_54
-      - Relay_🇺🇸US-🇺🇸US_58
-      - Relay_🇺🇸US-🇳🇱NL_65
-      - Relay_🇬🇧GB-🇬🇧GB_28
-      - Relay_🇺🇸US-🇺🇸US_79
-      - Relay_🇺🇸US-🇺🇸US_80
-      - Relay_🇺🇸US-🇺🇸US_84
-      - Relay_🇺🇸US-🇺🇸US_86
-      - Relay_🇺🇸US-🇺🇸US_88
+      - US-1|精力有限公益节点近期少维护|1x
+      - US-2|如果想要更高的服务清购买付套餐|1x
+      - HK-1|公益节点质量不代表付费服务质量|专线|1.5x
+      - HK-2|TG群组@paopaodog_group|专线|1.5x
+      - SG-9|付费节点倍率0.3-1.5|专线|1.5x
+      - SG-10|付费套餐赠送免费Tg代理哦 不走套餐流量|1.5x
+      - JP-17|专线|请大家及时更新订阅|1.5x
+      - JP-18|公益节点www.paopao.dog|1.5x
+      - Alien
+      - Alien 2
+      - Alien 3
+      - Alien 4
+      - Alien 5
+      - Alien 6
+      - Alien 7
+      - github.com/freefq - 福建省厦门市电信 2
+      - github.com/freefq - 广东省惠州市电信 4
+      - github.com/freefq - 日本东京Linode数据中心 7
+      - github.com/freefq - 俄罗斯  18
+      - github.com/freefq - 保加利亚  20
+      - github.com/freefq - 俄罗斯  27
+      - github.com/freefq - 俄罗斯  42
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - BG
-      - BG 2
-      - BG 3
-      - BG 4
-      - BG 5
-      - BG 6
-      - BG 7
-      - BG 8
-      - BG 9
-      - BG 10
-      - BG 11
-      - BG 12
-      - BG 13
-      - BG 14
-      - Relay_🇦🇺AU-🇦🇺AU_07
-      - Relay_🇺🇸US-🇺🇸US_72
-      - SG_6125
-      - JP_4604
-      - JP_4678
-      - JP_4665
-      - JP_4673
-      - JP_4677
-      - SG_6154
-      - JP_4596
-      - JP_4680
-      - JP_4677 2
-      - JP_4669
-      - SG_6128
-      - JP_4676
-      - JP_4679
-      - US_9745
-      - JP_4671
-      - US_9826
-      - JP_4681
-      - US_9746
-      - JP_4685
-      - SG_5986
-      - JP_4682
-      - SG_5985
-      - SG_6147
-      - JP_4599
       - SG_6149
       - SG_5993
       - SG_6148
       - SG_6153
-      - Relay_🇮🇪IE-🇮🇪IE_31
-      - Relay_🇺🇸US-🇺🇸US_51
-      - US_54
-      - Relay_🇺🇸US-🇺🇸US_58
-      - Relay_🇺🇸US-🇳🇱NL_65
-      - Relay_🇬🇧GB-🇬🇧GB_28
-      - Relay_🇺🇸US-🇺🇸US_79
-      - Relay_🇺🇸US-🇺🇸US_80
-      - Relay_🇺🇸US-🇺🇸US_84
-      - Relay_🇺🇸US-🇺🇸US_86
-      - Relay_🇺🇸US-🇺🇸US_88
+      - US-1|精力有限公益节点近期少维护|1x
+      - US-2|如果想要更高的服务清购买付套餐|1x
+      - HK-1|公益节点质量不代表付费服务质量|专线|1.5x
+      - HK-2|TG群组@paopaodog_group|专线|1.5x
+      - SG-9|付费节点倍率0.3-1.5|专线|1.5x
+      - SG-10|付费套餐赠送免费Tg代理哦 不走套餐流量|1.5x
+      - JP-17|专线|请大家及时更新订阅|1.5x
+      - JP-18|公益节点www.paopao.dog|1.5x
+      - Alien
+      - Alien 2
+      - Alien 3
+      - Alien 4
+      - Alien 5
+      - Alien 6
+      - Alien 7
+      - github.com/freefq - 福建省厦门市电信 2
+      - github.com/freefq - 广东省惠州市电信 4
+      - github.com/freefq - 日本东京Linode数据中心 7
+      - github.com/freefq - 俄罗斯  18
+      - github.com/freefq - 保加利亚  20
+      - github.com/freefq - 俄罗斯  27
+      - github.com/freefq - 俄罗斯  42
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -264,62 +144,32 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - BG
-      - BG 2
-      - BG 3
-      - BG 4
-      - BG 5
-      - BG 6
-      - BG 7
-      - BG 8
-      - BG 9
-      - BG 10
-      - BG 11
-      - BG 12
-      - BG 13
-      - BG 14
-      - Relay_🇦🇺AU-🇦🇺AU_07
-      - Relay_🇺🇸US-🇺🇸US_72
-      - SG_6125
-      - JP_4604
-      - JP_4678
-      - JP_4665
-      - JP_4673
-      - JP_4677
-      - SG_6154
-      - JP_4596
-      - JP_4680
-      - JP_4677 2
-      - JP_4669
-      - SG_6128
-      - JP_4676
-      - JP_4679
-      - US_9745
-      - JP_4671
-      - US_9826
-      - JP_4681
-      - US_9746
-      - JP_4685
-      - SG_5986
-      - JP_4682
-      - SG_5985
-      - SG_6147
-      - JP_4599
       - SG_6149
       - SG_5993
       - SG_6148
       - SG_6153
-      - Relay_🇮🇪IE-🇮🇪IE_31
-      - Relay_🇺🇸US-🇺🇸US_51
-      - US_54
-      - Relay_🇺🇸US-🇺🇸US_58
-      - Relay_🇺🇸US-🇳🇱NL_65
-      - Relay_🇬🇧GB-🇬🇧GB_28
-      - Relay_🇺🇸US-🇺🇸US_79
-      - Relay_🇺🇸US-🇺🇸US_80
-      - Relay_🇺🇸US-🇺🇸US_84
-      - Relay_🇺🇸US-🇺🇸US_86
-      - Relay_🇺🇸US-🇺🇸US_88
+      - US-1|精力有限公益节点近期少维护|1x
+      - US-2|如果想要更高的服务清购买付套餐|1x
+      - HK-1|公益节点质量不代表付费服务质量|专线|1.5x
+      - HK-2|TG群组@paopaodog_group|专线|1.5x
+      - SG-9|付费节点倍率0.3-1.5|专线|1.5x
+      - SG-10|付费套餐赠送免费Tg代理哦 不走套餐流量|1.5x
+      - JP-17|专线|请大家及时更新订阅|1.5x
+      - JP-18|公益节点www.paopao.dog|1.5x
+      - Alien
+      - Alien 2
+      - Alien 3
+      - Alien 4
+      - Alien 5
+      - Alien 6
+      - Alien 7
+      - github.com/freefq - 福建省厦门市电信 2
+      - github.com/freefq - 广东省惠州市电信 4
+      - github.com/freefq - 日本东京Linode数据中心 7
+      - github.com/freefq - 俄罗斯  18
+      - github.com/freefq - 保加利亚  20
+      - github.com/freefq - 俄罗斯  27
+      - github.com/freefq - 俄罗斯  42
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -330,185 +180,95 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - BG
-      - BG 2
-      - BG 3
-      - BG 4
-      - BG 5
-      - BG 6
-      - BG 7
-      - BG 8
-      - BG 9
-      - BG 10
-      - BG 11
-      - BG 12
-      - BG 13
-      - BG 14
-      - Relay_🇦🇺AU-🇦🇺AU_07
-      - Relay_🇺🇸US-🇺🇸US_72
-      - SG_6125
-      - JP_4604
-      - JP_4678
-      - JP_4665
-      - JP_4673
-      - JP_4677
-      - SG_6154
-      - JP_4596
-      - JP_4680
-      - JP_4677 2
-      - JP_4669
-      - SG_6128
-      - JP_4676
-      - JP_4679
-      - US_9745
-      - JP_4671
-      - US_9826
-      - JP_4681
-      - US_9746
-      - JP_4685
-      - SG_5986
-      - JP_4682
-      - SG_5985
-      - SG_6147
-      - JP_4599
       - SG_6149
       - SG_5993
       - SG_6148
       - SG_6153
-      - Relay_🇮🇪IE-🇮🇪IE_31
-      - Relay_🇺🇸US-🇺🇸US_51
-      - US_54
-      - Relay_🇺🇸US-🇺🇸US_58
-      - Relay_🇺🇸US-🇳🇱NL_65
-      - Relay_🇬🇧GB-🇬🇧GB_28
-      - Relay_🇺🇸US-🇺🇸US_79
-      - Relay_🇺🇸US-🇺🇸US_80
-      - Relay_🇺🇸US-🇺🇸US_84
-      - Relay_🇺🇸US-🇺🇸US_86
-      - Relay_🇺🇸US-🇺🇸US_88
+      - US-1|精力有限公益节点近期少维护|1x
+      - US-2|如果想要更高的服务清购买付套餐|1x
+      - HK-1|公益节点质量不代表付费服务质量|专线|1.5x
+      - HK-2|TG群组@paopaodog_group|专线|1.5x
+      - SG-9|付费节点倍率0.3-1.5|专线|1.5x
+      - SG-10|付费套餐赠送免费Tg代理哦 不走套餐流量|1.5x
+      - JP-17|专线|请大家及时更新订阅|1.5x
+      - JP-18|公益节点www.paopao.dog|1.5x
+      - Alien
+      - Alien 2
+      - Alien 3
+      - Alien 4
+      - Alien 5
+      - Alien 6
+      - Alien 7
+      - github.com/freefq - 福建省厦门市电信 2
+      - github.com/freefq - 广东省惠州市电信 4
+      - github.com/freefq - 日本东京Linode数据中心 7
+      - github.com/freefq - 俄罗斯  18
+      - github.com/freefq - 保加利亚  20
+      - github.com/freefq - 俄罗斯  27
+      - github.com/freefq - 俄罗斯  42
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - BG
-      - BG 2
-      - BG 3
-      - BG 4
-      - BG 5
-      - BG 6
-      - BG 7
-      - BG 8
-      - BG 9
-      - BG 10
-      - BG 11
-      - BG 12
-      - BG 13
-      - BG 14
-      - Relay_🇦🇺AU-🇦🇺AU_07
-      - Relay_🇺🇸US-🇺🇸US_72
-      - SG_6125
-      - JP_4604
-      - JP_4678
-      - JP_4665
-      - JP_4673
-      - JP_4677
-      - SG_6154
-      - JP_4596
-      - JP_4680
-      - JP_4677 2
-      - JP_4669
-      - SG_6128
-      - JP_4676
-      - JP_4679
-      - US_9745
-      - JP_4671
-      - US_9826
-      - JP_4681
-      - US_9746
-      - JP_4685
-      - SG_5986
-      - JP_4682
-      - SG_5985
-      - SG_6147
-      - JP_4599
       - SG_6149
       - SG_5993
       - SG_6148
       - SG_6153
-      - Relay_🇮🇪IE-🇮🇪IE_31
-      - Relay_🇺🇸US-🇺🇸US_51
-      - US_54
-      - Relay_🇺🇸US-🇺🇸US_58
-      - Relay_🇺🇸US-🇳🇱NL_65
-      - Relay_🇬🇧GB-🇬🇧GB_28
-      - Relay_🇺🇸US-🇺🇸US_79
-      - Relay_🇺🇸US-🇺🇸US_80
-      - Relay_🇺🇸US-🇺🇸US_84
-      - Relay_🇺🇸US-🇺🇸US_86
-      - Relay_🇺🇸US-🇺🇸US_88
+      - US-1|精力有限公益节点近期少维护|1x
+      - US-2|如果想要更高的服务清购买付套餐|1x
+      - HK-1|公益节点质量不代表付费服务质量|专线|1.5x
+      - HK-2|TG群组@paopaodog_group|专线|1.5x
+      - SG-9|付费节点倍率0.3-1.5|专线|1.5x
+      - SG-10|付费套餐赠送免费Tg代理哦 不走套餐流量|1.5x
+      - JP-17|专线|请大家及时更新订阅|1.5x
+      - JP-18|公益节点www.paopao.dog|1.5x
+      - Alien
+      - Alien 2
+      - Alien 3
+      - Alien 4
+      - Alien 5
+      - Alien 6
+      - Alien 7
+      - github.com/freefq - 福建省厦门市电信 2
+      - github.com/freefq - 广东省惠州市电信 4
+      - github.com/freefq - 日本东京Linode数据中心 7
+      - github.com/freefq - 俄罗斯  18
+      - github.com/freefq - 保加利亚  20
+      - github.com/freefq - 俄罗斯  27
+      - github.com/freefq - 俄罗斯  42
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - BG
-      - BG 2
-      - BG 3
-      - BG 4
-      - BG 5
-      - BG 6
-      - BG 7
-      - BG 8
-      - BG 9
-      - BG 10
-      - BG 11
-      - BG 12
-      - BG 13
-      - BG 14
-      - Relay_🇦🇺AU-🇦🇺AU_07
-      - Relay_🇺🇸US-🇺🇸US_72
-      - SG_6125
-      - JP_4604
-      - JP_4678
-      - JP_4665
-      - JP_4673
-      - JP_4677
-      - SG_6154
-      - JP_4596
-      - JP_4680
-      - JP_4677 2
-      - JP_4669
-      - SG_6128
-      - JP_4676
-      - JP_4679
-      - US_9745
-      - JP_4671
-      - US_9826
-      - JP_4681
-      - US_9746
-      - JP_4685
-      - SG_5986
-      - JP_4682
-      - SG_5985
-      - SG_6147
-      - JP_4599
       - SG_6149
       - SG_5993
       - SG_6148
       - SG_6153
-      - Relay_🇮🇪IE-🇮🇪IE_31
-      - Relay_🇺🇸US-🇺🇸US_51
-      - US_54
-      - Relay_🇺🇸US-🇺🇸US_58
-      - Relay_🇺🇸US-🇳🇱NL_65
-      - Relay_🇬🇧GB-🇬🇧GB_28
-      - Relay_🇺🇸US-🇺🇸US_79
-      - Relay_🇺🇸US-🇺🇸US_80
-      - Relay_🇺🇸US-🇺🇸US_84
-      - Relay_🇺🇸US-🇺🇸US_86
-      - Relay_🇺🇸US-🇺🇸US_88
+      - US-1|精力有限公益节点近期少维护|1x
+      - US-2|如果想要更高的服务清购买付套餐|1x
+      - HK-1|公益节点质量不代表付费服务质量|专线|1.5x
+      - HK-2|TG群组@paopaodog_group|专线|1.5x
+      - SG-9|付费节点倍率0.3-1.5|专线|1.5x
+      - SG-10|付费套餐赠送免费Tg代理哦 不走套餐流量|1.5x
+      - JP-17|专线|请大家及时更新订阅|1.5x
+      - JP-18|公益节点www.paopao.dog|1.5x
+      - Alien
+      - Alien 2
+      - Alien 3
+      - Alien 4
+      - Alien 5
+      - Alien 6
+      - Alien 7
+      - github.com/freefq - 福建省厦门市电信 2
+      - github.com/freefq - 广东省惠州市电信 4
+      - github.com/freefq - 日本东京Linode数据中心 7
+      - github.com/freefq - 俄罗斯  18
+      - github.com/freefq - 保加利亚  20
+      - github.com/freefq - 俄罗斯  27
+      - github.com/freefq - 俄罗斯  42
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -524,62 +284,32 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - BG
-      - BG 2
-      - BG 3
-      - BG 4
-      - BG 5
-      - BG 6
-      - BG 7
-      - BG 8
-      - BG 9
-      - BG 10
-      - BG 11
-      - BG 12
-      - BG 13
-      - BG 14
-      - Relay_🇦🇺AU-🇦🇺AU_07
-      - Relay_🇺🇸US-🇺🇸US_72
-      - SG_6125
-      - JP_4604
-      - JP_4678
-      - JP_4665
-      - JP_4673
-      - JP_4677
-      - SG_6154
-      - JP_4596
-      - JP_4680
-      - JP_4677 2
-      - JP_4669
-      - SG_6128
-      - JP_4676
-      - JP_4679
-      - US_9745
-      - JP_4671
-      - US_9826
-      - JP_4681
-      - US_9746
-      - JP_4685
-      - SG_5986
-      - JP_4682
-      - SG_5985
-      - SG_6147
-      - JP_4599
       - SG_6149
       - SG_5993
       - SG_6148
       - SG_6153
-      - Relay_🇮🇪IE-🇮🇪IE_31
-      - Relay_🇺🇸US-🇺🇸US_51
-      - US_54
-      - Relay_🇺🇸US-🇺🇸US_58
-      - Relay_🇺🇸US-🇳🇱NL_65
-      - Relay_🇬🇧GB-🇬🇧GB_28
-      - Relay_🇺🇸US-🇺🇸US_79
-      - Relay_🇺🇸US-🇺🇸US_80
-      - Relay_🇺🇸US-🇺🇸US_84
-      - Relay_🇺🇸US-🇺🇸US_86
-      - Relay_🇺🇸US-🇺🇸US_88
+      - US-1|精力有限公益节点近期少维护|1x
+      - US-2|如果想要更高的服务清购买付套餐|1x
+      - HK-1|公益节点质量不代表付费服务质量|专线|1.5x
+      - HK-2|TG群组@paopaodog_group|专线|1.5x
+      - SG-9|付费节点倍率0.3-1.5|专线|1.5x
+      - SG-10|付费套餐赠送免费Tg代理哦 不走套餐流量|1.5x
+      - JP-17|专线|请大家及时更新订阅|1.5x
+      - JP-18|公益节点www.paopao.dog|1.5x
+      - Alien
+      - Alien 2
+      - Alien 3
+      - Alien 4
+      - Alien 5
+      - Alien 6
+      - Alien 7
+      - github.com/freefq - 福建省厦门市电信 2
+      - github.com/freefq - 广东省惠州市电信 4
+      - github.com/freefq - 日本东京Linode数据中心 7
+      - github.com/freefq - 俄罗斯  18
+      - github.com/freefq - 保加利亚  20
+      - github.com/freefq - 俄罗斯  27
+      - github.com/freefq - 俄罗斯  42
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
