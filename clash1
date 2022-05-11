@@ -7,35 +7,24 @@ external-controller: :9090
 proxies:
   - {name: github.com/freefq - 福建省厦门市电信 2, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
   - {name: github.com/freefq - 俄罗斯  18, server: 92.38.184.228, port: 55231, type: ss, cipher: chacha20-ietf-poly1305, password: zidKl2rcLVBm, udp: true}
-  - {name: github.com/freefq - 保加利亚  20, server: fr.node.qchwnd.moe, port: 44612, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: fr.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_3, server: ocikr.node.qchwnd.moe, port: 44600, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: ocikr.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 伦敦*vu*Mpls线路一, server: mplsgz1.ggbbba.xyz, port: 45785, type: ss, cipher: aes-256-gcm, password: gDQ8kr1HdHEK5DGU, udp: true}
   - {name: 加拿大*vu*Mpls线路二, server: mplsjs1.ggbbba.xyz, port: 45780, type: ss, cipher: aes-256-gcm, password: gDQ8kr1HdHEK5DGU, udp: true}
-  - {name: 美国*vu*Mpls*线路四, server: mplsgz1.ggbbba.xyz, port: 45787, type: ss, cipher: aes-256-gcm, password: gDQ8kr1HdHEK5DGU, udp: true}
   - {name: 荷兰*vu*Mpls线路一, server: mplsjs1.ggbbba.xyz, port: 30122, type: ss, cipher: aes-256-gcm, password: gDQ8kr1HdHEK5DGU, udp: true}
   - {name: 韩国*vu*Mpls线路一, server: mplsgz1.ggbbba.xyz, port: 45786, type: ss, cipher: aes-256-gcm, password: gDQ8kr1HdHEK5DGU, udp: true}
   - {name: 韩国*vu*Mpls线路五, server: mplsjs1.ggbbba.xyz, port: 45782, type: ss, cipher: aes-256-gcm, password: gDQ8kr1HdHEK5DGU, udp: true}
-  - {name: 8度商店：8du.shop, server: 159.27.115.21, port: 63069, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 159.27.115.21}, udp: true}
-  - {name: 8度商店：8du.shop 2, server: 120.240.168.118, port: 63086, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: 8度商店：8du.shop 3, server: 120.240.168.118, port: 63051, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: 8度商店：8du.shop 4, server: 183.232.56.108, port: 63051, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: 8度商店：8du.shop 5, server: 159.27.115.21, port: 63086, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: 8度商店：8du.shop 6, server: 120.240.168.118, port: 63014, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: 8度商店：8du.shop 7, server: 120.240.168.118, port: 63004, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 120.240.168.118}, udp: true}
-  - {name: 8度商店：8du.shop 8, server: 172.99.190.35, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 8度商店：8du.shop 9, server: 152.69.204.149, port: 50503, type: vmess, uuid: 11b8a8c2-3548-4424-88f8-26cde886230a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 8度商店：8du.shop 10, server: 183.232.56.108, port: 63041, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: 8度商店：8du.shop 11, server: 116.129.254.65, port: 63014, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: 8度商店：8du.shop 12, server: 120.232.82.139, port: 63051, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: 8度商店：8du.shop 13, server: 172.99.190.35, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 8度商店：8du.shop 14, server: 159.27.115.21, port: 63087, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: 8度商店：8du.shop 15, server: 112.64.53.217, port: 63087, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: 8度商店：8du.shop 16, server: 172.99.190.35, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 8度商店：8du.shop 17, server: 183.232.56.108, port: 63069, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 183.232.56.108}, udp: true}
-  - {name: 8度商店：8du.shop 18, server: 112.64.53.217, port: 63086, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: 8度商店：8du.shop 19, server: 223.166.129.29, port: 63087, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: 8度商店：8du.shop 20, server: 112.64.53.217, port: 63014, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: 8度商店：8du.shop 21, server: 183.232.56.108, port: 63004, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 183.232.56.108}, udp: true}
+  - {name: 8度商店：8du.shop, server: 172.99.190.35, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 8度商店：8du.shop 2, server: 172.99.190.35, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: HK商店：8du.shop, server: az1.chuangshi999.xyz, port: 39675, type: trojan, password: 830debf5-b6a5-47b7-ba6d-12d6227f3df3, sni: az1.chuangshi999.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN商店：8du.shop, server: hl1.liuliangzhuanfa.xyz, port: 45379, type: trojan, password: 830debf5-b6a5-47b7-ba6d-12d6227f3df3, sni: hl1.liuliangzhuanfa.xyz, skip-cert-verify: true, udp: true}
+  - {name: US商店：8du.shop, server: 20.239.68.187, port: 60006, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.239.68.187}, udp: true}
+  - {name: CN商店：8du.shop 2, server: hl1.liuliangzhuanfa.xyz, port: 47718, type: trojan, password: 830debf5-b6a5-47b7-ba6d-12d6227f3df3, sni: hl1.liuliangzhuanfa.xyz, skip-cert-verify: true, udp: true}
+  - {name: HK商店：8du.shop 2, server: az1.chuangshi999.xyz, port: 22818, type: trojan, password: 830debf5-b6a5-47b7-ba6d-12d6227f3df3, sni: az1.chuangshi999.xyz, skip-cert-verify: true, udp: true}
+  - {name: US商店：8du.shop 2, server: free.spcloud.us, port: 10001, type: trojan, password: fdb6f3a3-9d29-47c3-8c92-5a279626dc5b, sni: free.spcloud.us, skip-cert-verify: true, udp: true}
+  - {name: CN商店：8du.shop 3, server: hl1.liuliangzhuanfa.xyz, port: 45320, type: trojan, password: 830debf5-b6a5-47b7-ba6d-12d6227f3df3, sni: hl1.liuliangzhuanfa.xyz, skip-cert-verify: true, udp: true}
+  - {name: 商店：8du.shop, server: v2ray.wefuckgfw.ga, port: 8443, type: vmess, uuid: f20fd86a-ca89-11ec-9385-52ac00ea1411, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /E94olUFf/, ws-headers: {Host: v2ray.wefuckgfw.ga}, udp: true}
+  - {name: HK商店：8du.shop 3, server: az1.chuangshi999.xyz, port: 41535, type: trojan, password: 830debf5-b6a5-47b7-ba6d-12d6227f3df3, sni: az1.chuangshi999.xyz, skip-cert-verify: true, udp: true}
+  - {name: 商店：8du.shop 2, server: v2ray.wefuckgfw.ga, port: 8443, type: vmess, uuid: f9d8424e-ca89-11ec-9385-52ac00ea1411, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /E94olUFf/, ws-headers: {Host: v2ray.wefuckgfw.ga}, udp: true}
+  - {name: HK商店：8du.shop 4, server: az1.chuangshi999.xyz, port: 33346, type: trojan, password: 830debf5-b6a5-47b7-ba6d-12d6227f3df3, sni: az1.chuangshi999.xyz, skip-cert-verify: true, udp: true}
+  - {name: GB商店：8du.shop, server: 172.99.190.35, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -44,35 +33,24 @@ proxy-groups:
       - 🎯 全球直连
       - github.com/freefq - 福建省厦门市电信 2
       - github.com/freefq - 俄罗斯  18
-      - github.com/freefq - 保加利亚  20
-      - _US_美国_3
-      - 伦敦*vu*Mpls线路一
       - 加拿大*vu*Mpls线路二
-      - 美国*vu*Mpls*线路四
       - 荷兰*vu*Mpls线路一
       - 韩国*vu*Mpls线路一
       - 韩国*vu*Mpls线路五
       - 8度商店：8du.shop
       - 8度商店：8du.shop 2
-      - 8度商店：8du.shop 3
-      - 8度商店：8du.shop 4
-      - 8度商店：8du.shop 5
-      - 8度商店：8du.shop 6
-      - 8度商店：8du.shop 7
-      - 8度商店：8du.shop 8
-      - 8度商店：8du.shop 9
-      - 8度商店：8du.shop 10
-      - 8度商店：8du.shop 11
-      - 8度商店：8du.shop 12
-      - 8度商店：8du.shop 13
-      - 8度商店：8du.shop 14
-      - 8度商店：8du.shop 15
-      - 8度商店：8du.shop 16
-      - 8度商店：8du.shop 17
-      - 8度商店：8du.shop 18
-      - 8度商店：8du.shop 19
-      - 8度商店：8du.shop 20
-      - 8度商店：8du.shop 21
+      - HK商店：8du.shop
+      - CN商店：8du.shop
+      - US商店：8du.shop
+      - CN商店：8du.shop 2
+      - HK商店：8du.shop 2
+      - US商店：8du.shop 2
+      - CN商店：8du.shop 3
+      - 商店：8du.shop
+      - HK商店：8du.shop 3
+      - 商店：8du.shop 2
+      - HK商店：8du.shop 4
+      - GB商店：8du.shop
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -80,35 +58,24 @@ proxy-groups:
     proxies:
       - github.com/freefq - 福建省厦门市电信 2
       - github.com/freefq - 俄罗斯  18
-      - github.com/freefq - 保加利亚  20
-      - _US_美国_3
-      - 伦敦*vu*Mpls线路一
       - 加拿大*vu*Mpls线路二
-      - 美国*vu*Mpls*线路四
       - 荷兰*vu*Mpls线路一
       - 韩国*vu*Mpls线路一
       - 韩国*vu*Mpls线路五
       - 8度商店：8du.shop
       - 8度商店：8du.shop 2
-      - 8度商店：8du.shop 3
-      - 8度商店：8du.shop 4
-      - 8度商店：8du.shop 5
-      - 8度商店：8du.shop 6
-      - 8度商店：8du.shop 7
-      - 8度商店：8du.shop 8
-      - 8度商店：8du.shop 9
-      - 8度商店：8du.shop 10
-      - 8度商店：8du.shop 11
-      - 8度商店：8du.shop 12
-      - 8度商店：8du.shop 13
-      - 8度商店：8du.shop 14
-      - 8度商店：8du.shop 15
-      - 8度商店：8du.shop 16
-      - 8度商店：8du.shop 17
-      - 8度商店：8du.shop 18
-      - 8度商店：8du.shop 19
-      - 8度商店：8du.shop 20
-      - 8度商店：8du.shop 21
+      - HK商店：8du.shop
+      - CN商店：8du.shop
+      - US商店：8du.shop
+      - CN商店：8du.shop 2
+      - HK商店：8du.shop 2
+      - US商店：8du.shop 2
+      - CN商店：8du.shop 3
+      - 商店：8du.shop
+      - HK商店：8du.shop 3
+      - 商店：8du.shop 2
+      - HK商店：8du.shop 4
+      - GB商店：8du.shop
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -117,35 +84,24 @@ proxy-groups:
       - 🎯 全球直连
       - github.com/freefq - 福建省厦门市电信 2
       - github.com/freefq - 俄罗斯  18
-      - github.com/freefq - 保加利亚  20
-      - _US_美国_3
-      - 伦敦*vu*Mpls线路一
       - 加拿大*vu*Mpls线路二
-      - 美国*vu*Mpls*线路四
       - 荷兰*vu*Mpls线路一
       - 韩国*vu*Mpls线路一
       - 韩国*vu*Mpls线路五
       - 8度商店：8du.shop
       - 8度商店：8du.shop 2
-      - 8度商店：8du.shop 3
-      - 8度商店：8du.shop 4
-      - 8度商店：8du.shop 5
-      - 8度商店：8du.shop 6
-      - 8度商店：8du.shop 7
-      - 8度商店：8du.shop 8
-      - 8度商店：8du.shop 9
-      - 8度商店：8du.shop 10
-      - 8度商店：8du.shop 11
-      - 8度商店：8du.shop 12
-      - 8度商店：8du.shop 13
-      - 8度商店：8du.shop 14
-      - 8度商店：8du.shop 15
-      - 8度商店：8du.shop 16
-      - 8度商店：8du.shop 17
-      - 8度商店：8du.shop 18
-      - 8度商店：8du.shop 19
-      - 8度商店：8du.shop 20
-      - 8度商店：8du.shop 21
+      - HK商店：8du.shop
+      - CN商店：8du.shop
+      - US商店：8du.shop
+      - CN商店：8du.shop 2
+      - HK商店：8du.shop 2
+      - US商店：8du.shop 2
+      - CN商店：8du.shop 3
+      - 商店：8du.shop
+      - HK商店：8du.shop 3
+      - 商店：8du.shop 2
+      - HK商店：8du.shop 4
+      - GB商店：8du.shop
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -166,35 +122,24 @@ proxy-groups:
       - 🎯 全球直连
       - github.com/freefq - 福建省厦门市电信 2
       - github.com/freefq - 俄罗斯  18
-      - github.com/freefq - 保加利亚  20
-      - _US_美国_3
-      - 伦敦*vu*Mpls线路一
       - 加拿大*vu*Mpls线路二
-      - 美国*vu*Mpls*线路四
       - 荷兰*vu*Mpls线路一
       - 韩国*vu*Mpls线路一
       - 韩国*vu*Mpls线路五
       - 8度商店：8du.shop
       - 8度商店：8du.shop 2
-      - 8度商店：8du.shop 3
-      - 8度商店：8du.shop 4
-      - 8度商店：8du.shop 5
-      - 8度商店：8du.shop 6
-      - 8度商店：8du.shop 7
-      - 8度商店：8du.shop 8
-      - 8度商店：8du.shop 9
-      - 8度商店：8du.shop 10
-      - 8度商店：8du.shop 11
-      - 8度商店：8du.shop 12
-      - 8度商店：8du.shop 13
-      - 8度商店：8du.shop 14
-      - 8度商店：8du.shop 15
-      - 8度商店：8du.shop 16
-      - 8度商店：8du.shop 17
-      - 8度商店：8du.shop 18
-      - 8度商店：8du.shop 19
-      - 8度商店：8du.shop 20
-      - 8度商店：8du.shop 21
+      - HK商店：8du.shop
+      - CN商店：8du.shop
+      - US商店：8du.shop
+      - CN商店：8du.shop 2
+      - HK商店：8du.shop 2
+      - US商店：8du.shop 2
+      - CN商店：8du.shop 3
+      - 商店：8du.shop
+      - HK商店：8du.shop 3
+      - 商店：8du.shop 2
+      - HK商店：8du.shop 4
+      - GB商店：8du.shop
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -207,35 +152,24 @@ proxy-groups:
       - 🔰 节点选择
       - github.com/freefq - 福建省厦门市电信 2
       - github.com/freefq - 俄罗斯  18
-      - github.com/freefq - 保加利亚  20
-      - _US_美国_3
-      - 伦敦*vu*Mpls线路一
       - 加拿大*vu*Mpls线路二
-      - 美国*vu*Mpls*线路四
       - 荷兰*vu*Mpls线路一
       - 韩国*vu*Mpls线路一
       - 韩国*vu*Mpls线路五
       - 8度商店：8du.shop
       - 8度商店：8du.shop 2
-      - 8度商店：8du.shop 3
-      - 8度商店：8du.shop 4
-      - 8度商店：8du.shop 5
-      - 8度商店：8du.shop 6
-      - 8度商店：8du.shop 7
-      - 8度商店：8du.shop 8
-      - 8度商店：8du.shop 9
-      - 8度商店：8du.shop 10
-      - 8度商店：8du.shop 11
-      - 8度商店：8du.shop 12
-      - 8度商店：8du.shop 13
-      - 8度商店：8du.shop 14
-      - 8度商店：8du.shop 15
-      - 8度商店：8du.shop 16
-      - 8度商店：8du.shop 17
-      - 8度商店：8du.shop 18
-      - 8度商店：8du.shop 19
-      - 8度商店：8du.shop 20
-      - 8度商店：8du.shop 21
+      - HK商店：8du.shop
+      - CN商店：8du.shop
+      - US商店：8du.shop
+      - CN商店：8du.shop 2
+      - HK商店：8du.shop 2
+      - US商店：8du.shop 2
+      - CN商店：8du.shop 3
+      - 商店：8du.shop
+      - HK商店：8du.shop 3
+      - 商店：8du.shop 2
+      - HK商店：8du.shop 4
+      - GB商店：8du.shop
   - name: 📲 电报信息
     type: select
     proxies:
@@ -243,35 +177,24 @@ proxy-groups:
       - 🎯 全球直连
       - github.com/freefq - 福建省厦门市电信 2
       - github.com/freefq - 俄罗斯  18
-      - github.com/freefq - 保加利亚  20
-      - _US_美国_3
-      - 伦敦*vu*Mpls线路一
       - 加拿大*vu*Mpls线路二
-      - 美国*vu*Mpls*线路四
       - 荷兰*vu*Mpls线路一
       - 韩国*vu*Mpls线路一
       - 韩国*vu*Mpls线路五
       - 8度商店：8du.shop
       - 8度商店：8du.shop 2
-      - 8度商店：8du.shop 3
-      - 8度商店：8du.shop 4
-      - 8度商店：8du.shop 5
-      - 8度商店：8du.shop 6
-      - 8度商店：8du.shop 7
-      - 8度商店：8du.shop 8
-      - 8度商店：8du.shop 9
-      - 8度商店：8du.shop 10
-      - 8度商店：8du.shop 11
-      - 8度商店：8du.shop 12
-      - 8度商店：8du.shop 13
-      - 8度商店：8du.shop 14
-      - 8度商店：8du.shop 15
-      - 8度商店：8du.shop 16
-      - 8度商店：8du.shop 17
-      - 8度商店：8du.shop 18
-      - 8度商店：8du.shop 19
-      - 8度商店：8du.shop 20
-      - 8度商店：8du.shop 21
+      - HK商店：8du.shop
+      - CN商店：8du.shop
+      - US商店：8du.shop
+      - CN商店：8du.shop 2
+      - HK商店：8du.shop 2
+      - US商店：8du.shop 2
+      - CN商店：8du.shop 3
+      - 商店：8du.shop
+      - HK商店：8du.shop 3
+      - 商店：8du.shop 2
+      - HK商店：8du.shop 4
+      - GB商店：8du.shop
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -280,35 +203,24 @@ proxy-groups:
       - ♻️ 自动选择
       - github.com/freefq - 福建省厦门市电信 2
       - github.com/freefq - 俄罗斯  18
-      - github.com/freefq - 保加利亚  20
-      - _US_美国_3
-      - 伦敦*vu*Mpls线路一
       - 加拿大*vu*Mpls线路二
-      - 美国*vu*Mpls*线路四
       - 荷兰*vu*Mpls线路一
       - 韩国*vu*Mpls线路一
       - 韩国*vu*Mpls线路五
       - 8度商店：8du.shop
       - 8度商店：8du.shop 2
-      - 8度商店：8du.shop 3
-      - 8度商店：8du.shop 4
-      - 8度商店：8du.shop 5
-      - 8度商店：8du.shop 6
-      - 8度商店：8du.shop 7
-      - 8度商店：8du.shop 8
-      - 8度商店：8du.shop 9
-      - 8度商店：8du.shop 10
-      - 8度商店：8du.shop 11
-      - 8度商店：8du.shop 12
-      - 8度商店：8du.shop 13
-      - 8度商店：8du.shop 14
-      - 8度商店：8du.shop 15
-      - 8度商店：8du.shop 16
-      - 8度商店：8du.shop 17
-      - 8度商店：8du.shop 18
-      - 8度商店：8du.shop 19
-      - 8度商店：8du.shop 20
-      - 8度商店：8du.shop 21
+      - HK商店：8du.shop
+      - CN商店：8du.shop
+      - US商店：8du.shop
+      - CN商店：8du.shop 2
+      - HK商店：8du.shop 2
+      - US商店：8du.shop 2
+      - CN商店：8du.shop 3
+      - 商店：8du.shop
+      - HK商店：8du.shop 3
+      - 商店：8du.shop 2
+      - HK商店：8du.shop 4
+      - GB商店：8du.shop
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -326,35 +238,24 @@ proxy-groups:
       - ♻️ 自动选择
       - github.com/freefq - 福建省厦门市电信 2
       - github.com/freefq - 俄罗斯  18
-      - github.com/freefq - 保加利亚  20
-      - _US_美国_3
-      - 伦敦*vu*Mpls线路一
       - 加拿大*vu*Mpls线路二
-      - 美国*vu*Mpls*线路四
       - 荷兰*vu*Mpls线路一
       - 韩国*vu*Mpls线路一
       - 韩国*vu*Mpls线路五
       - 8度商店：8du.shop
       - 8度商店：8du.shop 2
-      - 8度商店：8du.shop 3
-      - 8度商店：8du.shop 4
-      - 8度商店：8du.shop 5
-      - 8度商店：8du.shop 6
-      - 8度商店：8du.shop 7
-      - 8度商店：8du.shop 8
-      - 8度商店：8du.shop 9
-      - 8度商店：8du.shop 10
-      - 8度商店：8du.shop 11
-      - 8度商店：8du.shop 12
-      - 8度商店：8du.shop 13
-      - 8度商店：8du.shop 14
-      - 8度商店：8du.shop 15
-      - 8度商店：8du.shop 16
-      - 8度商店：8du.shop 17
-      - 8度商店：8du.shop 18
-      - 8度商店：8du.shop 19
-      - 8度商店：8du.shop 20
-      - 8度商店：8du.shop 21
+      - HK商店：8du.shop
+      - CN商店：8du.shop
+      - US商店：8du.shop
+      - CN商店：8du.shop 2
+      - HK商店：8du.shop 2
+      - US商店：8du.shop 2
+      - CN商店：8du.shop 3
+      - 商店：8du.shop
+      - HK商店：8du.shop 3
+      - 商店：8du.shop 2
+      - HK商店：8du.shop 4
+      - GB商店：8du.shop
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
