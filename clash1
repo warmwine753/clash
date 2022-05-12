@@ -7,24 +7,126 @@ external-controller: :9090
 proxies:
   - {name: github.com/freefq - 福建省厦门市电信 2, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
   - {name: github.com/freefq - 俄罗斯  18, server: 92.38.184.228, port: 55231, type: ss, cipher: chacha20-ietf-poly1305, password: zidKl2rcLVBm, udp: true}
-  - {name: 加拿大*vu*Mpls线路二, server: mplsjs1.ggbbba.xyz, port: 45780, type: ss, cipher: aes-256-gcm, password: gDQ8kr1HdHEK5DGU, udp: true}
-  - {name: 荷兰*vu*Mpls线路一, server: mplsjs1.ggbbba.xyz, port: 30122, type: ss, cipher: aes-256-gcm, password: gDQ8kr1HdHEK5DGU, udp: true}
-  - {name: 韩国*vu*Mpls线路一, server: mplsgz1.ggbbba.xyz, port: 45786, type: ss, cipher: aes-256-gcm, password: gDQ8kr1HdHEK5DGU, udp: true}
-  - {name: 韩国*vu*Mpls线路五, server: mplsjs1.ggbbba.xyz, port: 45782, type: ss, cipher: aes-256-gcm, password: gDQ8kr1HdHEK5DGU, udp: true}
-  - {name: 8度商店：8du.shop, server: 172.99.190.35, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 8度商店：8du.shop 2, server: 172.99.190.35, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: HK商店：8du.shop, server: az1.chuangshi999.xyz, port: 39675, type: trojan, password: 830debf5-b6a5-47b7-ba6d-12d6227f3df3, sni: az1.chuangshi999.xyz, skip-cert-verify: true, udp: true}
-  - {name: CN商店：8du.shop, server: hl1.liuliangzhuanfa.xyz, port: 45379, type: trojan, password: 830debf5-b6a5-47b7-ba6d-12d6227f3df3, sni: hl1.liuliangzhuanfa.xyz, skip-cert-verify: true, udp: true}
-  - {name: US商店：8du.shop, server: 20.239.68.187, port: 60006, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.239.68.187}, udp: true}
-  - {name: CN商店：8du.shop 2, server: hl1.liuliangzhuanfa.xyz, port: 47718, type: trojan, password: 830debf5-b6a5-47b7-ba6d-12d6227f3df3, sni: hl1.liuliangzhuanfa.xyz, skip-cert-verify: true, udp: true}
-  - {name: HK商店：8du.shop 2, server: az1.chuangshi999.xyz, port: 22818, type: trojan, password: 830debf5-b6a5-47b7-ba6d-12d6227f3df3, sni: az1.chuangshi999.xyz, skip-cert-verify: true, udp: true}
-  - {name: US商店：8du.shop 2, server: free.spcloud.us, port: 10001, type: trojan, password: fdb6f3a3-9d29-47c3-8c92-5a279626dc5b, sni: free.spcloud.us, skip-cert-verify: true, udp: true}
-  - {name: CN商店：8du.shop 3, server: hl1.liuliangzhuanfa.xyz, port: 45320, type: trojan, password: 830debf5-b6a5-47b7-ba6d-12d6227f3df3, sni: hl1.liuliangzhuanfa.xyz, skip-cert-verify: true, udp: true}
-  - {name: 商店：8du.shop, server: v2ray.wefuckgfw.ga, port: 8443, type: vmess, uuid: f20fd86a-ca89-11ec-9385-52ac00ea1411, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /E94olUFf/, ws-headers: {Host: v2ray.wefuckgfw.ga}, udp: true}
-  - {name: HK商店：8du.shop 3, server: az1.chuangshi999.xyz, port: 41535, type: trojan, password: 830debf5-b6a5-47b7-ba6d-12d6227f3df3, sni: az1.chuangshi999.xyz, skip-cert-verify: true, udp: true}
-  - {name: 商店：8du.shop 2, server: v2ray.wefuckgfw.ga, port: 8443, type: vmess, uuid: f9d8424e-ca89-11ec-9385-52ac00ea1411, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /E94olUFf/, ws-headers: {Host: v2ray.wefuckgfw.ga}, udp: true}
-  - {name: HK商店：8du.shop 4, server: az1.chuangshi999.xyz, port: 33346, type: trojan, password: 830debf5-b6a5-47b7-ba6d-12d6227f3df3, sni: az1.chuangshi999.xyz, skip-cert-verify: true, udp: true}
-  - {name: GB商店：8du.shop, server: 172.99.190.35, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: Relay_🇨🇳CN-🇸🇬SG_398, server: 223.166.129.29, port: 63087, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: 223.166.129.29}, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_400, server: 183.232.56.108, port: 63004, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 183.232.56.108}, udp: true}
+  - {name: Relay_🇺🇸US-🇯🇵JP_3099, server: jp-direct-cdn.node001.xyz, port: 2086, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: jp-direct-cdn.node001.xyz}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3120, server: kr-direct-cdn.node001.xyz, port: 2086, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: kr-direct-cdn.node001.xyz}, udp: true}
+  - {name: _HK_香港->🇯🇵_JP_日本, server: 20.205.125.236, port: 60022, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.205.125.236}, udp: true}
+  - {name: _HK_香港->🇸🇬_SG_新加坡, server: 20.205.125.236, port: 20004, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.205.125.236}, udp: true}
+  - {name: _HK_香港->🇸🇬_SG_新加坡 2, server: 20.205.125.236, port: 60008, type: vmess, uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.205.125.236}, udp: true}
+  - {name: AU_32, server: 185.167.116.252, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: CA_262, server: 72.140.224.197, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: CA_302, server: 72.140.224.197, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: CA_307, server: 72.140.224.197, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_1480, server: 38.121.43.91, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_1833, server: 167.88.63.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_2018, server: 38.121.43.91, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_2030, server: 167.88.63.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_2322, server: 38.121.43.91, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: ZZ_3297, server: 134.195.196.206, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: ZZ_3784, server: 134.195.196.206, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ‌‌🇨🇦CA_0443+@WangCai_1, server: 134.195.196.206, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: ‌‌🇨🇦CA_2376+@WangCai_1, server: 134.195.196.206, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: ‌‌🇨🇦CA_5000+@WangCai_1, server: 134.195.196.206, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ‌‌🇨🇦CA_5003+@WangCai_1, server: 134.195.196.206, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ‌‌🇨🇦CA_5004+@WangCai_1, server: 134.195.196.206, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ‌‌🇨🇦CA_5500+@WangCai_1, server: 134.195.196.206, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: ‌‌🇨🇦CA_6379+@WangCai_1, server: 134.195.196.206, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: ‌‌🇨🇦CA_6679+@WangCai_1, server: 134.195.196.206, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: ‌‌🇨🇦CA_7001+@WangCai_1, server: 134.195.196.206, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: ‌‌🇨🇦CA_8080+@WangCai_1, server: 134.195.196.206, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: ‌‌🇨🇦CA_8091+@WangCai_1, server: 134.195.196.206, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: ‌‌🇨🇦CA_8118+@WangCai_1, server: 134.195.196.206, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: ‌‌🇨🇦CA_8119+@WangCai_1, server: 134.195.196.206, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: ‌‌🇨🇦CA_8881+@WangCai_1, server: 134.195.196.206, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: ‌‌🇨🇦CA_8888+@WangCai_1, server: 134.195.196.206, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ‌‌🇨🇦CA_9101+@WangCai_1, server: 134.195.196.206, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 台湾+Hinet|广电|NF.动漫疯|, server: szct.9218561.xyz, port: 35915, type: ss, cipher: aes-256-gcm, password: 18bf0566-2bf7-46a5-b463-e6017a270cf7, udp: true}
+  - {name: _GB_英国, server: 51.195.136.209, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
+  - {name: 香港+BGP|中转|NF|, server: 183.dxmax.net, port: 44202, type: ss, cipher: chacha20-ietf-poly1305, password: 18bf0566-2bf7-46a5-b463-e6017a270cf7, udp: true}
+  - {name: 香港+HKBN|中转|NF|, server: szct.9218561.xyz, port: 56511, type: ss, cipher: chacha20-ietf-poly1305, password: 18bf0566-2bf7-46a5-b463-e6017a270cf7, udp: true}
+  - {name: 香港+HKT02|中转|NF|, server: szct.9218561.xyz, port: 21352, type: ss, cipher: chacha20-ietf-poly1305, password: 18bf0566-2bf7-46a5-b463-e6017a270cf7, udp: true}
+  - {name: 香港+M247|中转|200M|X0.5, server: szct.9218561.xyz, port: 32597, type: ss, cipher: chacha20-ietf-poly1305, password: 18bf0566-2bf7-46a5-b463-e6017a270cf7, udp: true}
+  - {name: 日本+Kirino|广移|NF|, server: 183.dxmax.net, port: 40010, type: ss, cipher: aes-256-gcm, password: 18bf0566-2bf7-46a5-b463-e6017a270cf7, udp: true}
+  - {name: 日本+Kirino|上联|NF|, server: shcu.9218561.xyz, port: 18159, type: ss, cipher: aes-256-gcm, password: 18bf0566-2bf7-46a5-b463-e6017a270cf7, udp: true}
+  - {name: 日本+Kirino|长联|NF|, server: cscu.9218561.xyz, port: 18159, type: ss, cipher: aes-256-gcm, password: 18bf0566-2bf7-46a5-b463-e6017a270cf7, udp: true}
+  - {name: 日本+Nero|广移入口02|, server: 183.dxmax.net, port: 17206, type: ss, cipher: aes-256-gcm, password: 18bf0566-2bf7-46a5-b463-e6017a270cf7, udp: true}
+  - {name: 日本+Nero|联通入口01|, server: cscu.9218561.xyz, port: 19174, type: ss, cipher: aes-256-gcm, password: 18bf0566-2bf7-46a5-b463-e6017a270cf7, udp: true}
+  - {name: 俄罗斯+01|中转|, server: szct.9218561.xyz, port: 28432, type: ss, cipher: aes-128-gcm, password: 18bf0566-2bf7-46a5-b463-e6017a270cf7, udp: true}
+  - {name: 新加坡+Nero|临时广电|NF|, server: szct.9218561.xyz, port: 45953, type: ss, cipher: chacha20-ietf-poly1305, password: 18bf0566-2bf7-46a5-b463-e6017a270cf7, udp: true}
+  - {name: 新加坡+OVH|中转|NF|, server: 183.dxmax.net, port: 40009, type: ss, cipher: chacha20-ietf-poly1305, password: 18bf0566-2bf7-46a5-b463-e6017a270cf7, udp: true}
+  - {name: US_0443+@WangCai_1, server: 167.88.63.21, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_0443+@WangCai_1 2, server: 38.91.100.150, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_0443+@WangCai_1 3, server: 169.197.141.15, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_0443+@WangCai_1 4, server: 38.91.101.221, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2375+@WangCai_1, server: 38.91.100.150, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_2376+@WangCai_1, server: 167.88.63.21, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_3306+@WangCai_1, server: 169.197.141.15, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_3306+@WangCai_1 2, server: 167.88.63.21, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_3306+@WangCai_1 3, server: 38.91.100.150, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_3389+@WangCai_1, server: 167.88.63.21, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_3389+@WangCai_1 2, server: 169.197.141.15, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_3389+@WangCai_1 3, server: 38.91.101.221, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_5000+@WangCai_1, server: 167.88.63.21, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_5000+@WangCai_1 2, server: 38.91.100.150, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_5000+@WangCai_1 3, server: 169.197.141.15, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_5001+@WangCai_1, server: 169.197.141.15, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_5001+@WangCai_1 2, server: 167.88.63.21, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_5003+@WangCai_1, server: 169.197.141.15, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_5003+@WangCai_1 2, server: 38.91.100.150, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_5003+@WangCai_1 3, server: 38.91.101.221, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_5004+@WangCai_1, server: 167.88.63.21, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_5004+@WangCai_1 2, server: 38.91.100.150, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_5500+@WangCai_1, server: 38.91.100.150, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_5500+@WangCai_1 2, server: 167.88.63.21, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_5500+@WangCai_1 3, server: 38.91.101.221, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_5600+@WangCai_1, server: 169.197.141.15, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_5600+@WangCai_1 2, server: 38.91.100.150, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_5600+@WangCai_1 3, server: 167.88.63.21, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_5601+@WangCai_1, server: 169.197.141.15, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_5601+@WangCai_1 2, server: 38.91.101.221, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_6379+@WangCai_1, server: 38.91.100.150, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US_6379+@WangCai_1 2, server: 167.88.63.21, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US_6679+@WangCai_1, server: 38.91.100.150, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_6679+@WangCai_1 2, server: 169.197.141.15, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_6697+@WangCai_1, server: 169.197.141.15, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_6697+@WangCai_1 2, server: 38.91.101.221, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_6697+@WangCai_1 3, server: 38.91.100.150, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_7001+@WangCai_1, server: 38.91.100.150, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_7001+@WangCai_1 2, server: 169.197.141.15, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_7001+@WangCai_1 3, server: 167.88.63.21, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_7002+@WangCai_1, server: 169.197.141.15, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_7002+@WangCai_1 2, server: 167.88.63.21, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_7002+@WangCai_1 3, server: 38.91.100.150, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_7002+@WangCai_1 4, server: 38.91.101.221, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_7306+@WangCai_1, server: 167.88.63.21, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_7307+@WangCai_1, server: 167.88.63.21, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_7307+@WangCai_1 2, server: 38.91.100.150, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_7307+@WangCai_1 3, server: 169.197.141.15, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_8000+@WangCai_1, server: 167.88.63.21, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_8000+@WangCai_1 2, server: 38.91.100.150, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_8000+@WangCai_1 3, server: 169.197.141.15, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_8008+@WangCai_1, server: 38.91.100.150, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_8008+@WangCai_1 2, server: 167.88.63.21, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_8008+@WangCai_1 3, server: 38.91.101.221, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_8009+@WangCai_1, server: 169.197.141.15, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_8009+@WangCai_1 2, server: 38.91.100.150, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_8090+@WangCai_1, server: 169.197.141.15, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_8091+@WangCai_1, server: 169.197.141.15, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_8118+@WangCai_1, server: 169.197.141.15, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_8118+@WangCai_1 2, server: 38.91.101.221, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_8119+@WangCai_1, server: 38.91.100.150, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_8119+@WangCai_1 2, server: 38.91.101.221, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_8881+@WangCai_1, server: 38.91.100.150, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_8882+@WangCai_1, server: 38.91.101.221, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_8888+@WangCai_1, server: 38.91.101.221, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_9102+@WangCai_1, server: 167.88.63.21, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: Relay_🇫🇷FR-🇫🇷FR_713, server: fr-trojan.bonds.id, port: 443, type: trojan, password: e4307a50-9853-11ec-9b4b-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: 香港 HGC|移动入口02|NF|, server: 183.dxmax.net, port: 17201, type: trojan, password: 18bf0566-2bf7-46a5-b463-e6017a270cf7, sni: 183.dxmax.net, skip-cert-verify: true, udp: true}
+  - {name: 香港 HKT01|中转|NF|, server: szct.9218561.xyz, port: 33412, type: trojan, password: 18bf0566-2bf7-46a5-b463-e6017a270cf7, sni: szct.9218561.xyz, skip-cert-verify: true, udp: true}
+  - {name: 印度 Do|中转|, server: 183.dxmax.net, port: 17214, type: trojan, password: 18bf0566-2bf7-46a5-b463-e6017a270cf7, sni: 183.dxmax.net, skip-cert-verify: true, udp: true}
+  - {name: 韩国 Oracle|中转|0.5x流量消耗|, server: 183.dxmax.net, port: 17208, type: trojan, password: 18bf0566-2bf7-46a5-b463-e6017a270cf7, sni: 183.dxmax.net, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 Oracle|中转|NF|, server: 183.dxmax.net, port: 17212, type: trojan, password: 18bf0566-2bf7-46a5-b463-e6017a270cf7, sni: 183.dxmax.net, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -33,24 +135,126 @@ proxy-groups:
       - 🎯 全球直连
       - github.com/freefq - 福建省厦门市电信 2
       - github.com/freefq - 俄罗斯  18
-      - 加拿大*vu*Mpls线路二
-      - 荷兰*vu*Mpls线路一
-      - 韩国*vu*Mpls线路一
-      - 韩国*vu*Mpls线路五
-      - 8度商店：8du.shop
-      - 8度商店：8du.shop 2
-      - HK商店：8du.shop
-      - CN商店：8du.shop
-      - US商店：8du.shop
-      - CN商店：8du.shop 2
-      - HK商店：8du.shop 2
-      - US商店：8du.shop 2
-      - CN商店：8du.shop 3
-      - 商店：8du.shop
-      - HK商店：8du.shop 3
-      - 商店：8du.shop 2
-      - HK商店：8du.shop 4
-      - GB商店：8du.shop
+      - Relay_🇨🇳CN-🇸🇬SG_398
+      - Relay_🇨🇳CN-🇺🇸US_400
+      - Relay_🇺🇸US-🇯🇵JP_3099
+      - Relay_🇺🇸US-🇺🇸US_3120
+      - _HK_香港->🇯🇵_JP_日本
+      - _HK_香港->🇸🇬_SG_新加坡
+      - _HK_香港->🇸🇬_SG_新加坡 2
+      - AU_32
+      - CA_262
+      - CA_302
+      - CA_307
+      - US_1480
+      - US_1833
+      - US_2018
+      - US_2030
+      - US_2322
+      - ZZ_3297
+      - ZZ_3784
+      - ‌‌🇨🇦CA_0443+@WangCai_1
+      - ‌‌🇨🇦CA_2376+@WangCai_1
+      - ‌‌🇨🇦CA_5000+@WangCai_1
+      - ‌‌🇨🇦CA_5003+@WangCai_1
+      - ‌‌🇨🇦CA_5004+@WangCai_1
+      - ‌‌🇨🇦CA_5500+@WangCai_1
+      - ‌‌🇨🇦CA_6379+@WangCai_1
+      - ‌‌🇨🇦CA_6679+@WangCai_1
+      - ‌‌🇨🇦CA_7001+@WangCai_1
+      - ‌‌🇨🇦CA_8080+@WangCai_1
+      - ‌‌🇨🇦CA_8091+@WangCai_1
+      - ‌‌🇨🇦CA_8118+@WangCai_1
+      - ‌‌🇨🇦CA_8119+@WangCai_1
+      - ‌‌🇨🇦CA_8881+@WangCai_1
+      - ‌‌🇨🇦CA_8888+@WangCai_1
+      - ‌‌🇨🇦CA_9101+@WangCai_1
+      - 台湾+Hinet|广电|NF.动漫疯|
+      - _GB_英国
+      - 香港+BGP|中转|NF|
+      - 香港+HKBN|中转|NF|
+      - 香港+HKT02|中转|NF|
+      - 香港+M247|中转|200M|X0.5
+      - 日本+Kirino|广移|NF|
+      - 日本+Kirino|上联|NF|
+      - 日本+Kirino|长联|NF|
+      - 日本+Nero|广移入口02|
+      - 日本+Nero|联通入口01|
+      - 俄罗斯+01|中转|
+      - 新加坡+Nero|临时广电|NF|
+      - 新加坡+OVH|中转|NF|
+      - US_0443+@WangCai_1
+      - US_0443+@WangCai_1 2
+      - US_0443+@WangCai_1 3
+      - US_0443+@WangCai_1 4
+      - US_2375+@WangCai_1
+      - US_2376+@WangCai_1
+      - US_3306+@WangCai_1
+      - US_3306+@WangCai_1 2
+      - US_3306+@WangCai_1 3
+      - US_3389+@WangCai_1
+      - US_3389+@WangCai_1 2
+      - US_3389+@WangCai_1 3
+      - US_5000+@WangCai_1
+      - US_5000+@WangCai_1 2
+      - US_5000+@WangCai_1 3
+      - US_5001+@WangCai_1
+      - US_5001+@WangCai_1 2
+      - US_5003+@WangCai_1
+      - US_5003+@WangCai_1 2
+      - US_5003+@WangCai_1 3
+      - US_5004+@WangCai_1
+      - US_5004+@WangCai_1 2
+      - US_5500+@WangCai_1
+      - US_5500+@WangCai_1 2
+      - US_5500+@WangCai_1 3
+      - US_5600+@WangCai_1
+      - US_5600+@WangCai_1 2
+      - US_5600+@WangCai_1 3
+      - US_5601+@WangCai_1
+      - US_5601+@WangCai_1 2
+      - US_6379+@WangCai_1
+      - US_6379+@WangCai_1 2
+      - US_6679+@WangCai_1
+      - US_6679+@WangCai_1 2
+      - US_6697+@WangCai_1
+      - US_6697+@WangCai_1 2
+      - US_6697+@WangCai_1 3
+      - US_7001+@WangCai_1
+      - US_7001+@WangCai_1 2
+      - US_7001+@WangCai_1 3
+      - US_7002+@WangCai_1
+      - US_7002+@WangCai_1 2
+      - US_7002+@WangCai_1 3
+      - US_7002+@WangCai_1 4
+      - US_7306+@WangCai_1
+      - US_7307+@WangCai_1
+      - US_7307+@WangCai_1 2
+      - US_7307+@WangCai_1 3
+      - US_8000+@WangCai_1
+      - US_8000+@WangCai_1 2
+      - US_8000+@WangCai_1 3
+      - US_8008+@WangCai_1
+      - US_8008+@WangCai_1 2
+      - US_8008+@WangCai_1 3
+      - US_8009+@WangCai_1
+      - US_8009+@WangCai_1 2
+      - US_8090+@WangCai_1
+      - US_8091+@WangCai_1
+      - US_8118+@WangCai_1
+      - US_8118+@WangCai_1 2
+      - US_8119+@WangCai_1
+      - US_8119+@WangCai_1 2
+      - US_8881+@WangCai_1
+      - US_8882+@WangCai_1
+      - US_8888+@WangCai_1
+      - US_9102+@WangCai_1
+      - Relay_🇫🇷FR-🇫🇷FR_713
+      - 香港 HGC|移动入口02|NF|
+      - 香港 HKT01|中转|NF|
+      - 印度 Do|中转|
+      - 韩国 Oracle|中转|0.5x流量消耗|
+      - 新加坡 Oracle|中转|NF|
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -58,24 +262,126 @@ proxy-groups:
     proxies:
       - github.com/freefq - 福建省厦门市电信 2
       - github.com/freefq - 俄罗斯  18
-      - 加拿大*vu*Mpls线路二
-      - 荷兰*vu*Mpls线路一
-      - 韩国*vu*Mpls线路一
-      - 韩国*vu*Mpls线路五
-      - 8度商店：8du.shop
-      - 8度商店：8du.shop 2
-      - HK商店：8du.shop
-      - CN商店：8du.shop
-      - US商店：8du.shop
-      - CN商店：8du.shop 2
-      - HK商店：8du.shop 2
-      - US商店：8du.shop 2
-      - CN商店：8du.shop 3
-      - 商店：8du.shop
-      - HK商店：8du.shop 3
-      - 商店：8du.shop 2
-      - HK商店：8du.shop 4
-      - GB商店：8du.shop
+      - Relay_🇨🇳CN-🇸🇬SG_398
+      - Relay_🇨🇳CN-🇺🇸US_400
+      - Relay_🇺🇸US-🇯🇵JP_3099
+      - Relay_🇺🇸US-🇺🇸US_3120
+      - _HK_香港->🇯🇵_JP_日本
+      - _HK_香港->🇸🇬_SG_新加坡
+      - _HK_香港->🇸🇬_SG_新加坡 2
+      - AU_32
+      - CA_262
+      - CA_302
+      - CA_307
+      - US_1480
+      - US_1833
+      - US_2018
+      - US_2030
+      - US_2322
+      - ZZ_3297
+      - ZZ_3784
+      - ‌‌🇨🇦CA_0443+@WangCai_1
+      - ‌‌🇨🇦CA_2376+@WangCai_1
+      - ‌‌🇨🇦CA_5000+@WangCai_1
+      - ‌‌🇨🇦CA_5003+@WangCai_1
+      - ‌‌🇨🇦CA_5004+@WangCai_1
+      - ‌‌🇨🇦CA_5500+@WangCai_1
+      - ‌‌🇨🇦CA_6379+@WangCai_1
+      - ‌‌🇨🇦CA_6679+@WangCai_1
+      - ‌‌🇨🇦CA_7001+@WangCai_1
+      - ‌‌🇨🇦CA_8080+@WangCai_1
+      - ‌‌🇨🇦CA_8091+@WangCai_1
+      - ‌‌🇨🇦CA_8118+@WangCai_1
+      - ‌‌🇨🇦CA_8119+@WangCai_1
+      - ‌‌🇨🇦CA_8881+@WangCai_1
+      - ‌‌🇨🇦CA_8888+@WangCai_1
+      - ‌‌🇨🇦CA_9101+@WangCai_1
+      - 台湾+Hinet|广电|NF.动漫疯|
+      - _GB_英国
+      - 香港+BGP|中转|NF|
+      - 香港+HKBN|中转|NF|
+      - 香港+HKT02|中转|NF|
+      - 香港+M247|中转|200M|X0.5
+      - 日本+Kirino|广移|NF|
+      - 日本+Kirino|上联|NF|
+      - 日本+Kirino|长联|NF|
+      - 日本+Nero|广移入口02|
+      - 日本+Nero|联通入口01|
+      - 俄罗斯+01|中转|
+      - 新加坡+Nero|临时广电|NF|
+      - 新加坡+OVH|中转|NF|
+      - US_0443+@WangCai_1
+      - US_0443+@WangCai_1 2
+      - US_0443+@WangCai_1 3
+      - US_0443+@WangCai_1 4
+      - US_2375+@WangCai_1
+      - US_2376+@WangCai_1
+      - US_3306+@WangCai_1
+      - US_3306+@WangCai_1 2
+      - US_3306+@WangCai_1 3
+      - US_3389+@WangCai_1
+      - US_3389+@WangCai_1 2
+      - US_3389+@WangCai_1 3
+      - US_5000+@WangCai_1
+      - US_5000+@WangCai_1 2
+      - US_5000+@WangCai_1 3
+      - US_5001+@WangCai_1
+      - US_5001+@WangCai_1 2
+      - US_5003+@WangCai_1
+      - US_5003+@WangCai_1 2
+      - US_5003+@WangCai_1 3
+      - US_5004+@WangCai_1
+      - US_5004+@WangCai_1 2
+      - US_5500+@WangCai_1
+      - US_5500+@WangCai_1 2
+      - US_5500+@WangCai_1 3
+      - US_5600+@WangCai_1
+      - US_5600+@WangCai_1 2
+      - US_5600+@WangCai_1 3
+      - US_5601+@WangCai_1
+      - US_5601+@WangCai_1 2
+      - US_6379+@WangCai_1
+      - US_6379+@WangCai_1 2
+      - US_6679+@WangCai_1
+      - US_6679+@WangCai_1 2
+      - US_6697+@WangCai_1
+      - US_6697+@WangCai_1 2
+      - US_6697+@WangCai_1 3
+      - US_7001+@WangCai_1
+      - US_7001+@WangCai_1 2
+      - US_7001+@WangCai_1 3
+      - US_7002+@WangCai_1
+      - US_7002+@WangCai_1 2
+      - US_7002+@WangCai_1 3
+      - US_7002+@WangCai_1 4
+      - US_7306+@WangCai_1
+      - US_7307+@WangCai_1
+      - US_7307+@WangCai_1 2
+      - US_7307+@WangCai_1 3
+      - US_8000+@WangCai_1
+      - US_8000+@WangCai_1 2
+      - US_8000+@WangCai_1 3
+      - US_8008+@WangCai_1
+      - US_8008+@WangCai_1 2
+      - US_8008+@WangCai_1 3
+      - US_8009+@WangCai_1
+      - US_8009+@WangCai_1 2
+      - US_8090+@WangCai_1
+      - US_8091+@WangCai_1
+      - US_8118+@WangCai_1
+      - US_8118+@WangCai_1 2
+      - US_8119+@WangCai_1
+      - US_8119+@WangCai_1 2
+      - US_8881+@WangCai_1
+      - US_8882+@WangCai_1
+      - US_8888+@WangCai_1
+      - US_9102+@WangCai_1
+      - Relay_🇫🇷FR-🇫🇷FR_713
+      - 香港 HGC|移动入口02|NF|
+      - 香港 HKT01|中转|NF|
+      - 印度 Do|中转|
+      - 韩国 Oracle|中转|0.5x流量消耗|
+      - 新加坡 Oracle|中转|NF|
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -84,24 +390,126 @@ proxy-groups:
       - 🎯 全球直连
       - github.com/freefq - 福建省厦门市电信 2
       - github.com/freefq - 俄罗斯  18
-      - 加拿大*vu*Mpls线路二
-      - 荷兰*vu*Mpls线路一
-      - 韩国*vu*Mpls线路一
-      - 韩国*vu*Mpls线路五
-      - 8度商店：8du.shop
-      - 8度商店：8du.shop 2
-      - HK商店：8du.shop
-      - CN商店：8du.shop
-      - US商店：8du.shop
-      - CN商店：8du.shop 2
-      - HK商店：8du.shop 2
-      - US商店：8du.shop 2
-      - CN商店：8du.shop 3
-      - 商店：8du.shop
-      - HK商店：8du.shop 3
-      - 商店：8du.shop 2
-      - HK商店：8du.shop 4
-      - GB商店：8du.shop
+      - Relay_🇨🇳CN-🇸🇬SG_398
+      - Relay_🇨🇳CN-🇺🇸US_400
+      - Relay_🇺🇸US-🇯🇵JP_3099
+      - Relay_🇺🇸US-🇺🇸US_3120
+      - _HK_香港->🇯🇵_JP_日本
+      - _HK_香港->🇸🇬_SG_新加坡
+      - _HK_香港->🇸🇬_SG_新加坡 2
+      - AU_32
+      - CA_262
+      - CA_302
+      - CA_307
+      - US_1480
+      - US_1833
+      - US_2018
+      - US_2030
+      - US_2322
+      - ZZ_3297
+      - ZZ_3784
+      - ‌‌🇨🇦CA_0443+@WangCai_1
+      - ‌‌🇨🇦CA_2376+@WangCai_1
+      - ‌‌🇨🇦CA_5000+@WangCai_1
+      - ‌‌🇨🇦CA_5003+@WangCai_1
+      - ‌‌🇨🇦CA_5004+@WangCai_1
+      - ‌‌🇨🇦CA_5500+@WangCai_1
+      - ‌‌🇨🇦CA_6379+@WangCai_1
+      - ‌‌🇨🇦CA_6679+@WangCai_1
+      - ‌‌🇨🇦CA_7001+@WangCai_1
+      - ‌‌🇨🇦CA_8080+@WangCai_1
+      - ‌‌🇨🇦CA_8091+@WangCai_1
+      - ‌‌🇨🇦CA_8118+@WangCai_1
+      - ‌‌🇨🇦CA_8119+@WangCai_1
+      - ‌‌🇨🇦CA_8881+@WangCai_1
+      - ‌‌🇨🇦CA_8888+@WangCai_1
+      - ‌‌🇨🇦CA_9101+@WangCai_1
+      - 台湾+Hinet|广电|NF.动漫疯|
+      - _GB_英国
+      - 香港+BGP|中转|NF|
+      - 香港+HKBN|中转|NF|
+      - 香港+HKT02|中转|NF|
+      - 香港+M247|中转|200M|X0.5
+      - 日本+Kirino|广移|NF|
+      - 日本+Kirino|上联|NF|
+      - 日本+Kirino|长联|NF|
+      - 日本+Nero|广移入口02|
+      - 日本+Nero|联通入口01|
+      - 俄罗斯+01|中转|
+      - 新加坡+Nero|临时广电|NF|
+      - 新加坡+OVH|中转|NF|
+      - US_0443+@WangCai_1
+      - US_0443+@WangCai_1 2
+      - US_0443+@WangCai_1 3
+      - US_0443+@WangCai_1 4
+      - US_2375+@WangCai_1
+      - US_2376+@WangCai_1
+      - US_3306+@WangCai_1
+      - US_3306+@WangCai_1 2
+      - US_3306+@WangCai_1 3
+      - US_3389+@WangCai_1
+      - US_3389+@WangCai_1 2
+      - US_3389+@WangCai_1 3
+      - US_5000+@WangCai_1
+      - US_5000+@WangCai_1 2
+      - US_5000+@WangCai_1 3
+      - US_5001+@WangCai_1
+      - US_5001+@WangCai_1 2
+      - US_5003+@WangCai_1
+      - US_5003+@WangCai_1 2
+      - US_5003+@WangCai_1 3
+      - US_5004+@WangCai_1
+      - US_5004+@WangCai_1 2
+      - US_5500+@WangCai_1
+      - US_5500+@WangCai_1 2
+      - US_5500+@WangCai_1 3
+      - US_5600+@WangCai_1
+      - US_5600+@WangCai_1 2
+      - US_5600+@WangCai_1 3
+      - US_5601+@WangCai_1
+      - US_5601+@WangCai_1 2
+      - US_6379+@WangCai_1
+      - US_6379+@WangCai_1 2
+      - US_6679+@WangCai_1
+      - US_6679+@WangCai_1 2
+      - US_6697+@WangCai_1
+      - US_6697+@WangCai_1 2
+      - US_6697+@WangCai_1 3
+      - US_7001+@WangCai_1
+      - US_7001+@WangCai_1 2
+      - US_7001+@WangCai_1 3
+      - US_7002+@WangCai_1
+      - US_7002+@WangCai_1 2
+      - US_7002+@WangCai_1 3
+      - US_7002+@WangCai_1 4
+      - US_7306+@WangCai_1
+      - US_7307+@WangCai_1
+      - US_7307+@WangCai_1 2
+      - US_7307+@WangCai_1 3
+      - US_8000+@WangCai_1
+      - US_8000+@WangCai_1 2
+      - US_8000+@WangCai_1 3
+      - US_8008+@WangCai_1
+      - US_8008+@WangCai_1 2
+      - US_8008+@WangCai_1 3
+      - US_8009+@WangCai_1
+      - US_8009+@WangCai_1 2
+      - US_8090+@WangCai_1
+      - US_8091+@WangCai_1
+      - US_8118+@WangCai_1
+      - US_8118+@WangCai_1 2
+      - US_8119+@WangCai_1
+      - US_8119+@WangCai_1 2
+      - US_8881+@WangCai_1
+      - US_8882+@WangCai_1
+      - US_8888+@WangCai_1
+      - US_9102+@WangCai_1
+      - Relay_🇫🇷FR-🇫🇷FR_713
+      - 香港 HGC|移动入口02|NF|
+      - 香港 HKT01|中转|NF|
+      - 印度 Do|中转|
+      - 韩国 Oracle|中转|0.5x流量消耗|
+      - 新加坡 Oracle|中转|NF|
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -122,28 +530,140 @@ proxy-groups:
       - 🎯 全球直连
       - github.com/freefq - 福建省厦门市电信 2
       - github.com/freefq - 俄罗斯  18
-      - 加拿大*vu*Mpls线路二
-      - 荷兰*vu*Mpls线路一
-      - 韩国*vu*Mpls线路一
-      - 韩国*vu*Mpls线路五
-      - 8度商店：8du.shop
-      - 8度商店：8du.shop 2
-      - HK商店：8du.shop
-      - CN商店：8du.shop
-      - US商店：8du.shop
-      - CN商店：8du.shop 2
-      - HK商店：8du.shop 2
-      - US商店：8du.shop 2
-      - CN商店：8du.shop 3
-      - 商店：8du.shop
-      - HK商店：8du.shop 3
-      - 商店：8du.shop 2
-      - HK商店：8du.shop 4
-      - GB商店：8du.shop
+      - Relay_🇨🇳CN-🇸🇬SG_398
+      - Relay_🇨🇳CN-🇺🇸US_400
+      - Relay_🇺🇸US-🇯🇵JP_3099
+      - Relay_🇺🇸US-🇺🇸US_3120
+      - _HK_香港->🇯🇵_JP_日本
+      - _HK_香港->🇸🇬_SG_新加坡
+      - _HK_香港->🇸🇬_SG_新加坡 2
+      - AU_32
+      - CA_262
+      - CA_302
+      - CA_307
+      - US_1480
+      - US_1833
+      - US_2018
+      - US_2030
+      - US_2322
+      - ZZ_3297
+      - ZZ_3784
+      - ‌‌🇨🇦CA_0443+@WangCai_1
+      - ‌‌🇨🇦CA_2376+@WangCai_1
+      - ‌‌🇨🇦CA_5000+@WangCai_1
+      - ‌‌🇨🇦CA_5003+@WangCai_1
+      - ‌‌🇨🇦CA_5004+@WangCai_1
+      - ‌‌🇨🇦CA_5500+@WangCai_1
+      - ‌‌🇨🇦CA_6379+@WangCai_1
+      - ‌‌🇨🇦CA_6679+@WangCai_1
+      - ‌‌🇨🇦CA_7001+@WangCai_1
+      - ‌‌🇨🇦CA_8080+@WangCai_1
+      - ‌‌🇨🇦CA_8091+@WangCai_1
+      - ‌‌🇨🇦CA_8118+@WangCai_1
+      - ‌‌🇨🇦CA_8119+@WangCai_1
+      - ‌‌🇨🇦CA_8881+@WangCai_1
+      - ‌‌🇨🇦CA_8888+@WangCai_1
+      - ‌‌🇨🇦CA_9101+@WangCai_1
+      - 台湾+Hinet|广电|NF.动漫疯|
+      - _GB_英国
+      - 香港+BGP|中转|NF|
+      - 香港+HKBN|中转|NF|
+      - 香港+HKT02|中转|NF|
+      - 香港+M247|中转|200M|X0.5
+      - 日本+Kirino|广移|NF|
+      - 日本+Kirino|上联|NF|
+      - 日本+Kirino|长联|NF|
+      - 日本+Nero|广移入口02|
+      - 日本+Nero|联通入口01|
+      - 俄罗斯+01|中转|
+      - 新加坡+Nero|临时广电|NF|
+      - 新加坡+OVH|中转|NF|
+      - US_0443+@WangCai_1
+      - US_0443+@WangCai_1 2
+      - US_0443+@WangCai_1 3
+      - US_0443+@WangCai_1 4
+      - US_2375+@WangCai_1
+      - US_2376+@WangCai_1
+      - US_3306+@WangCai_1
+      - US_3306+@WangCai_1 2
+      - US_3306+@WangCai_1 3
+      - US_3389+@WangCai_1
+      - US_3389+@WangCai_1 2
+      - US_3389+@WangCai_1 3
+      - US_5000+@WangCai_1
+      - US_5000+@WangCai_1 2
+      - US_5000+@WangCai_1 3
+      - US_5001+@WangCai_1
+      - US_5001+@WangCai_1 2
+      - US_5003+@WangCai_1
+      - US_5003+@WangCai_1 2
+      - US_5003+@WangCai_1 3
+      - US_5004+@WangCai_1
+      - US_5004+@WangCai_1 2
+      - US_5500+@WangCai_1
+      - US_5500+@WangCai_1 2
+      - US_5500+@WangCai_1 3
+      - US_5600+@WangCai_1
+      - US_5600+@WangCai_1 2
+      - US_5600+@WangCai_1 3
+      - US_5601+@WangCai_1
+      - US_5601+@WangCai_1 2
+      - US_6379+@WangCai_1
+      - US_6379+@WangCai_1 2
+      - US_6679+@WangCai_1
+      - US_6679+@WangCai_1 2
+      - US_6697+@WangCai_1
+      - US_6697+@WangCai_1 2
+      - US_6697+@WangCai_1 3
+      - US_7001+@WangCai_1
+      - US_7001+@WangCai_1 2
+      - US_7001+@WangCai_1 3
+      - US_7002+@WangCai_1
+      - US_7002+@WangCai_1 2
+      - US_7002+@WangCai_1 3
+      - US_7002+@WangCai_1 4
+      - US_7306+@WangCai_1
+      - US_7307+@WangCai_1
+      - US_7307+@WangCai_1 2
+      - US_7307+@WangCai_1 3
+      - US_8000+@WangCai_1
+      - US_8000+@WangCai_1 2
+      - US_8000+@WangCai_1 3
+      - US_8008+@WangCai_1
+      - US_8008+@WangCai_1 2
+      - US_8008+@WangCai_1 3
+      - US_8009+@WangCai_1
+      - US_8009+@WangCai_1 2
+      - US_8090+@WangCai_1
+      - US_8091+@WangCai_1
+      - US_8118+@WangCai_1
+      - US_8118+@WangCai_1 2
+      - US_8119+@WangCai_1
+      - US_8119+@WangCai_1 2
+      - US_8881+@WangCai_1
+      - US_8882+@WangCai_1
+      - US_8888+@WangCai_1
+      - US_9102+@WangCai_1
+      - Relay_🇫🇷FR-🇫🇷FR_713
+      - 香港 HGC|移动入口02|NF|
+      - 香港 HKT01|中转|NF|
+      - 印度 Do|中转|
+      - 韩国 Oracle|中转|0.5x流量消耗|
+      - 新加坡 Oracle|中转|NF|
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - _HK_香港->🇯🇵_JP_日本
+      - _HK_香港->🇸🇬_SG_新加坡
+      - _HK_香港->🇸🇬_SG_新加坡 2
+      - 台湾+Hinet|广电|NF.动漫疯|
+      - 香港+BGP|中转|NF|
+      - 香港+HKBN|中转|NF|
+      - 香港+HKT02|中转|NF|
+      - 香港+M247|中转|200M|X0.5
+      - 香港 HGC|移动入口02|NF|
+      - 香港 HKT01|中转|NF|
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -152,24 +672,126 @@ proxy-groups:
       - 🔰 节点选择
       - github.com/freefq - 福建省厦门市电信 2
       - github.com/freefq - 俄罗斯  18
-      - 加拿大*vu*Mpls线路二
-      - 荷兰*vu*Mpls线路一
-      - 韩国*vu*Mpls线路一
-      - 韩国*vu*Mpls线路五
-      - 8度商店：8du.shop
-      - 8度商店：8du.shop 2
-      - HK商店：8du.shop
-      - CN商店：8du.shop
-      - US商店：8du.shop
-      - CN商店：8du.shop 2
-      - HK商店：8du.shop 2
-      - US商店：8du.shop 2
-      - CN商店：8du.shop 3
-      - 商店：8du.shop
-      - HK商店：8du.shop 3
-      - 商店：8du.shop 2
-      - HK商店：8du.shop 4
-      - GB商店：8du.shop
+      - Relay_🇨🇳CN-🇸🇬SG_398
+      - Relay_🇨🇳CN-🇺🇸US_400
+      - Relay_🇺🇸US-🇯🇵JP_3099
+      - Relay_🇺🇸US-🇺🇸US_3120
+      - _HK_香港->🇯🇵_JP_日本
+      - _HK_香港->🇸🇬_SG_新加坡
+      - _HK_香港->🇸🇬_SG_新加坡 2
+      - AU_32
+      - CA_262
+      - CA_302
+      - CA_307
+      - US_1480
+      - US_1833
+      - US_2018
+      - US_2030
+      - US_2322
+      - ZZ_3297
+      - ZZ_3784
+      - ‌‌🇨🇦CA_0443+@WangCai_1
+      - ‌‌🇨🇦CA_2376+@WangCai_1
+      - ‌‌🇨🇦CA_5000+@WangCai_1
+      - ‌‌🇨🇦CA_5003+@WangCai_1
+      - ‌‌🇨🇦CA_5004+@WangCai_1
+      - ‌‌🇨🇦CA_5500+@WangCai_1
+      - ‌‌🇨🇦CA_6379+@WangCai_1
+      - ‌‌🇨🇦CA_6679+@WangCai_1
+      - ‌‌🇨🇦CA_7001+@WangCai_1
+      - ‌‌🇨🇦CA_8080+@WangCai_1
+      - ‌‌🇨🇦CA_8091+@WangCai_1
+      - ‌‌🇨🇦CA_8118+@WangCai_1
+      - ‌‌🇨🇦CA_8119+@WangCai_1
+      - ‌‌🇨🇦CA_8881+@WangCai_1
+      - ‌‌🇨🇦CA_8888+@WangCai_1
+      - ‌‌🇨🇦CA_9101+@WangCai_1
+      - 台湾+Hinet|广电|NF.动漫疯|
+      - _GB_英国
+      - 香港+BGP|中转|NF|
+      - 香港+HKBN|中转|NF|
+      - 香港+HKT02|中转|NF|
+      - 香港+M247|中转|200M|X0.5
+      - 日本+Kirino|广移|NF|
+      - 日本+Kirino|上联|NF|
+      - 日本+Kirino|长联|NF|
+      - 日本+Nero|广移入口02|
+      - 日本+Nero|联通入口01|
+      - 俄罗斯+01|中转|
+      - 新加坡+Nero|临时广电|NF|
+      - 新加坡+OVH|中转|NF|
+      - US_0443+@WangCai_1
+      - US_0443+@WangCai_1 2
+      - US_0443+@WangCai_1 3
+      - US_0443+@WangCai_1 4
+      - US_2375+@WangCai_1
+      - US_2376+@WangCai_1
+      - US_3306+@WangCai_1
+      - US_3306+@WangCai_1 2
+      - US_3306+@WangCai_1 3
+      - US_3389+@WangCai_1
+      - US_3389+@WangCai_1 2
+      - US_3389+@WangCai_1 3
+      - US_5000+@WangCai_1
+      - US_5000+@WangCai_1 2
+      - US_5000+@WangCai_1 3
+      - US_5001+@WangCai_1
+      - US_5001+@WangCai_1 2
+      - US_5003+@WangCai_1
+      - US_5003+@WangCai_1 2
+      - US_5003+@WangCai_1 3
+      - US_5004+@WangCai_1
+      - US_5004+@WangCai_1 2
+      - US_5500+@WangCai_1
+      - US_5500+@WangCai_1 2
+      - US_5500+@WangCai_1 3
+      - US_5600+@WangCai_1
+      - US_5600+@WangCai_1 2
+      - US_5600+@WangCai_1 3
+      - US_5601+@WangCai_1
+      - US_5601+@WangCai_1 2
+      - US_6379+@WangCai_1
+      - US_6379+@WangCai_1 2
+      - US_6679+@WangCai_1
+      - US_6679+@WangCai_1 2
+      - US_6697+@WangCai_1
+      - US_6697+@WangCai_1 2
+      - US_6697+@WangCai_1 3
+      - US_7001+@WangCai_1
+      - US_7001+@WangCai_1 2
+      - US_7001+@WangCai_1 3
+      - US_7002+@WangCai_1
+      - US_7002+@WangCai_1 2
+      - US_7002+@WangCai_1 3
+      - US_7002+@WangCai_1 4
+      - US_7306+@WangCai_1
+      - US_7307+@WangCai_1
+      - US_7307+@WangCai_1 2
+      - US_7307+@WangCai_1 3
+      - US_8000+@WangCai_1
+      - US_8000+@WangCai_1 2
+      - US_8000+@WangCai_1 3
+      - US_8008+@WangCai_1
+      - US_8008+@WangCai_1 2
+      - US_8008+@WangCai_1 3
+      - US_8009+@WangCai_1
+      - US_8009+@WangCai_1 2
+      - US_8090+@WangCai_1
+      - US_8091+@WangCai_1
+      - US_8118+@WangCai_1
+      - US_8118+@WangCai_1 2
+      - US_8119+@WangCai_1
+      - US_8119+@WangCai_1 2
+      - US_8881+@WangCai_1
+      - US_8882+@WangCai_1
+      - US_8888+@WangCai_1
+      - US_9102+@WangCai_1
+      - Relay_🇫🇷FR-🇫🇷FR_713
+      - 香港 HGC|移动入口02|NF|
+      - 香港 HKT01|中转|NF|
+      - 印度 Do|中转|
+      - 韩国 Oracle|中转|0.5x流量消耗|
+      - 新加坡 Oracle|中转|NF|
   - name: 📲 电报信息
     type: select
     proxies:
@@ -177,24 +799,126 @@ proxy-groups:
       - 🎯 全球直连
       - github.com/freefq - 福建省厦门市电信 2
       - github.com/freefq - 俄罗斯  18
-      - 加拿大*vu*Mpls线路二
-      - 荷兰*vu*Mpls线路一
-      - 韩国*vu*Mpls线路一
-      - 韩国*vu*Mpls线路五
-      - 8度商店：8du.shop
-      - 8度商店：8du.shop 2
-      - HK商店：8du.shop
-      - CN商店：8du.shop
-      - US商店：8du.shop
-      - CN商店：8du.shop 2
-      - HK商店：8du.shop 2
-      - US商店：8du.shop 2
-      - CN商店：8du.shop 3
-      - 商店：8du.shop
-      - HK商店：8du.shop 3
-      - 商店：8du.shop 2
-      - HK商店：8du.shop 4
-      - GB商店：8du.shop
+      - Relay_🇨🇳CN-🇸🇬SG_398
+      - Relay_🇨🇳CN-🇺🇸US_400
+      - Relay_🇺🇸US-🇯🇵JP_3099
+      - Relay_🇺🇸US-🇺🇸US_3120
+      - _HK_香港->🇯🇵_JP_日本
+      - _HK_香港->🇸🇬_SG_新加坡
+      - _HK_香港->🇸🇬_SG_新加坡 2
+      - AU_32
+      - CA_262
+      - CA_302
+      - CA_307
+      - US_1480
+      - US_1833
+      - US_2018
+      - US_2030
+      - US_2322
+      - ZZ_3297
+      - ZZ_3784
+      - ‌‌🇨🇦CA_0443+@WangCai_1
+      - ‌‌🇨🇦CA_2376+@WangCai_1
+      - ‌‌🇨🇦CA_5000+@WangCai_1
+      - ‌‌🇨🇦CA_5003+@WangCai_1
+      - ‌‌🇨🇦CA_5004+@WangCai_1
+      - ‌‌🇨🇦CA_5500+@WangCai_1
+      - ‌‌🇨🇦CA_6379+@WangCai_1
+      - ‌‌🇨🇦CA_6679+@WangCai_1
+      - ‌‌🇨🇦CA_7001+@WangCai_1
+      - ‌‌🇨🇦CA_8080+@WangCai_1
+      - ‌‌🇨🇦CA_8091+@WangCai_1
+      - ‌‌🇨🇦CA_8118+@WangCai_1
+      - ‌‌🇨🇦CA_8119+@WangCai_1
+      - ‌‌🇨🇦CA_8881+@WangCai_1
+      - ‌‌🇨🇦CA_8888+@WangCai_1
+      - ‌‌🇨🇦CA_9101+@WangCai_1
+      - 台湾+Hinet|广电|NF.动漫疯|
+      - _GB_英国
+      - 香港+BGP|中转|NF|
+      - 香港+HKBN|中转|NF|
+      - 香港+HKT02|中转|NF|
+      - 香港+M247|中转|200M|X0.5
+      - 日本+Kirino|广移|NF|
+      - 日本+Kirino|上联|NF|
+      - 日本+Kirino|长联|NF|
+      - 日本+Nero|广移入口02|
+      - 日本+Nero|联通入口01|
+      - 俄罗斯+01|中转|
+      - 新加坡+Nero|临时广电|NF|
+      - 新加坡+OVH|中转|NF|
+      - US_0443+@WangCai_1
+      - US_0443+@WangCai_1 2
+      - US_0443+@WangCai_1 3
+      - US_0443+@WangCai_1 4
+      - US_2375+@WangCai_1
+      - US_2376+@WangCai_1
+      - US_3306+@WangCai_1
+      - US_3306+@WangCai_1 2
+      - US_3306+@WangCai_1 3
+      - US_3389+@WangCai_1
+      - US_3389+@WangCai_1 2
+      - US_3389+@WangCai_1 3
+      - US_5000+@WangCai_1
+      - US_5000+@WangCai_1 2
+      - US_5000+@WangCai_1 3
+      - US_5001+@WangCai_1
+      - US_5001+@WangCai_1 2
+      - US_5003+@WangCai_1
+      - US_5003+@WangCai_1 2
+      - US_5003+@WangCai_1 3
+      - US_5004+@WangCai_1
+      - US_5004+@WangCai_1 2
+      - US_5500+@WangCai_1
+      - US_5500+@WangCai_1 2
+      - US_5500+@WangCai_1 3
+      - US_5600+@WangCai_1
+      - US_5600+@WangCai_1 2
+      - US_5600+@WangCai_1 3
+      - US_5601+@WangCai_1
+      - US_5601+@WangCai_1 2
+      - US_6379+@WangCai_1
+      - US_6379+@WangCai_1 2
+      - US_6679+@WangCai_1
+      - US_6679+@WangCai_1 2
+      - US_6697+@WangCai_1
+      - US_6697+@WangCai_1 2
+      - US_6697+@WangCai_1 3
+      - US_7001+@WangCai_1
+      - US_7001+@WangCai_1 2
+      - US_7001+@WangCai_1 3
+      - US_7002+@WangCai_1
+      - US_7002+@WangCai_1 2
+      - US_7002+@WangCai_1 3
+      - US_7002+@WangCai_1 4
+      - US_7306+@WangCai_1
+      - US_7307+@WangCai_1
+      - US_7307+@WangCai_1 2
+      - US_7307+@WangCai_1 3
+      - US_8000+@WangCai_1
+      - US_8000+@WangCai_1 2
+      - US_8000+@WangCai_1 3
+      - US_8008+@WangCai_1
+      - US_8008+@WangCai_1 2
+      - US_8008+@WangCai_1 3
+      - US_8009+@WangCai_1
+      - US_8009+@WangCai_1 2
+      - US_8090+@WangCai_1
+      - US_8091+@WangCai_1
+      - US_8118+@WangCai_1
+      - US_8118+@WangCai_1 2
+      - US_8119+@WangCai_1
+      - US_8119+@WangCai_1 2
+      - US_8881+@WangCai_1
+      - US_8882+@WangCai_1
+      - US_8888+@WangCai_1
+      - US_9102+@WangCai_1
+      - Relay_🇫🇷FR-🇫🇷FR_713
+      - 香港 HGC|移动入口02|NF|
+      - 香港 HKT01|中转|NF|
+      - 印度 Do|中转|
+      - 韩国 Oracle|中转|0.5x流量消耗|
+      - 新加坡 Oracle|中转|NF|
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -203,24 +927,126 @@ proxy-groups:
       - ♻️ 自动选择
       - github.com/freefq - 福建省厦门市电信 2
       - github.com/freefq - 俄罗斯  18
-      - 加拿大*vu*Mpls线路二
-      - 荷兰*vu*Mpls线路一
-      - 韩国*vu*Mpls线路一
-      - 韩国*vu*Mpls线路五
-      - 8度商店：8du.shop
-      - 8度商店：8du.shop 2
-      - HK商店：8du.shop
-      - CN商店：8du.shop
-      - US商店：8du.shop
-      - CN商店：8du.shop 2
-      - HK商店：8du.shop 2
-      - US商店：8du.shop 2
-      - CN商店：8du.shop 3
-      - 商店：8du.shop
-      - HK商店：8du.shop 3
-      - 商店：8du.shop 2
-      - HK商店：8du.shop 4
-      - GB商店：8du.shop
+      - Relay_🇨🇳CN-🇸🇬SG_398
+      - Relay_🇨🇳CN-🇺🇸US_400
+      - Relay_🇺🇸US-🇯🇵JP_3099
+      - Relay_🇺🇸US-🇺🇸US_3120
+      - _HK_香港->🇯🇵_JP_日本
+      - _HK_香港->🇸🇬_SG_新加坡
+      - _HK_香港->🇸🇬_SG_新加坡 2
+      - AU_32
+      - CA_262
+      - CA_302
+      - CA_307
+      - US_1480
+      - US_1833
+      - US_2018
+      - US_2030
+      - US_2322
+      - ZZ_3297
+      - ZZ_3784
+      - ‌‌🇨🇦CA_0443+@WangCai_1
+      - ‌‌🇨🇦CA_2376+@WangCai_1
+      - ‌‌🇨🇦CA_5000+@WangCai_1
+      - ‌‌🇨🇦CA_5003+@WangCai_1
+      - ‌‌🇨🇦CA_5004+@WangCai_1
+      - ‌‌🇨🇦CA_5500+@WangCai_1
+      - ‌‌🇨🇦CA_6379+@WangCai_1
+      - ‌‌🇨🇦CA_6679+@WangCai_1
+      - ‌‌🇨🇦CA_7001+@WangCai_1
+      - ‌‌🇨🇦CA_8080+@WangCai_1
+      - ‌‌🇨🇦CA_8091+@WangCai_1
+      - ‌‌🇨🇦CA_8118+@WangCai_1
+      - ‌‌🇨🇦CA_8119+@WangCai_1
+      - ‌‌🇨🇦CA_8881+@WangCai_1
+      - ‌‌🇨🇦CA_8888+@WangCai_1
+      - ‌‌🇨🇦CA_9101+@WangCai_1
+      - 台湾+Hinet|广电|NF.动漫疯|
+      - _GB_英国
+      - 香港+BGP|中转|NF|
+      - 香港+HKBN|中转|NF|
+      - 香港+HKT02|中转|NF|
+      - 香港+M247|中转|200M|X0.5
+      - 日本+Kirino|广移|NF|
+      - 日本+Kirino|上联|NF|
+      - 日本+Kirino|长联|NF|
+      - 日本+Nero|广移入口02|
+      - 日本+Nero|联通入口01|
+      - 俄罗斯+01|中转|
+      - 新加坡+Nero|临时广电|NF|
+      - 新加坡+OVH|中转|NF|
+      - US_0443+@WangCai_1
+      - US_0443+@WangCai_1 2
+      - US_0443+@WangCai_1 3
+      - US_0443+@WangCai_1 4
+      - US_2375+@WangCai_1
+      - US_2376+@WangCai_1
+      - US_3306+@WangCai_1
+      - US_3306+@WangCai_1 2
+      - US_3306+@WangCai_1 3
+      - US_3389+@WangCai_1
+      - US_3389+@WangCai_1 2
+      - US_3389+@WangCai_1 3
+      - US_5000+@WangCai_1
+      - US_5000+@WangCai_1 2
+      - US_5000+@WangCai_1 3
+      - US_5001+@WangCai_1
+      - US_5001+@WangCai_1 2
+      - US_5003+@WangCai_1
+      - US_5003+@WangCai_1 2
+      - US_5003+@WangCai_1 3
+      - US_5004+@WangCai_1
+      - US_5004+@WangCai_1 2
+      - US_5500+@WangCai_1
+      - US_5500+@WangCai_1 2
+      - US_5500+@WangCai_1 3
+      - US_5600+@WangCai_1
+      - US_5600+@WangCai_1 2
+      - US_5600+@WangCai_1 3
+      - US_5601+@WangCai_1
+      - US_5601+@WangCai_1 2
+      - US_6379+@WangCai_1
+      - US_6379+@WangCai_1 2
+      - US_6679+@WangCai_1
+      - US_6679+@WangCai_1 2
+      - US_6697+@WangCai_1
+      - US_6697+@WangCai_1 2
+      - US_6697+@WangCai_1 3
+      - US_7001+@WangCai_1
+      - US_7001+@WangCai_1 2
+      - US_7001+@WangCai_1 3
+      - US_7002+@WangCai_1
+      - US_7002+@WangCai_1 2
+      - US_7002+@WangCai_1 3
+      - US_7002+@WangCai_1 4
+      - US_7306+@WangCai_1
+      - US_7307+@WangCai_1
+      - US_7307+@WangCai_1 2
+      - US_7307+@WangCai_1 3
+      - US_8000+@WangCai_1
+      - US_8000+@WangCai_1 2
+      - US_8000+@WangCai_1 3
+      - US_8008+@WangCai_1
+      - US_8008+@WangCai_1 2
+      - US_8008+@WangCai_1 3
+      - US_8009+@WangCai_1
+      - US_8009+@WangCai_1 2
+      - US_8090+@WangCai_1
+      - US_8091+@WangCai_1
+      - US_8118+@WangCai_1
+      - US_8118+@WangCai_1 2
+      - US_8119+@WangCai_1
+      - US_8119+@WangCai_1 2
+      - US_8881+@WangCai_1
+      - US_8882+@WangCai_1
+      - US_8888+@WangCai_1
+      - US_9102+@WangCai_1
+      - Relay_🇫🇷FR-🇫🇷FR_713
+      - 香港 HGC|移动入口02|NF|
+      - 香港 HKT01|中转|NF|
+      - 印度 Do|中转|
+      - 韩国 Oracle|中转|0.5x流量消耗|
+      - 新加坡 Oracle|中转|NF|
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -238,24 +1064,126 @@ proxy-groups:
       - ♻️ 自动选择
       - github.com/freefq - 福建省厦门市电信 2
       - github.com/freefq - 俄罗斯  18
-      - 加拿大*vu*Mpls线路二
-      - 荷兰*vu*Mpls线路一
-      - 韩国*vu*Mpls线路一
-      - 韩国*vu*Mpls线路五
-      - 8度商店：8du.shop
-      - 8度商店：8du.shop 2
-      - HK商店：8du.shop
-      - CN商店：8du.shop
-      - US商店：8du.shop
-      - CN商店：8du.shop 2
-      - HK商店：8du.shop 2
-      - US商店：8du.shop 2
-      - CN商店：8du.shop 3
-      - 商店：8du.shop
-      - HK商店：8du.shop 3
-      - 商店：8du.shop 2
-      - HK商店：8du.shop 4
-      - GB商店：8du.shop
+      - Relay_🇨🇳CN-🇸🇬SG_398
+      - Relay_🇨🇳CN-🇺🇸US_400
+      - Relay_🇺🇸US-🇯🇵JP_3099
+      - Relay_🇺🇸US-🇺🇸US_3120
+      - _HK_香港->🇯🇵_JP_日本
+      - _HK_香港->🇸🇬_SG_新加坡
+      - _HK_香港->🇸🇬_SG_新加坡 2
+      - AU_32
+      - CA_262
+      - CA_302
+      - CA_307
+      - US_1480
+      - US_1833
+      - US_2018
+      - US_2030
+      - US_2322
+      - ZZ_3297
+      - ZZ_3784
+      - ‌‌🇨🇦CA_0443+@WangCai_1
+      - ‌‌🇨🇦CA_2376+@WangCai_1
+      - ‌‌🇨🇦CA_5000+@WangCai_1
+      - ‌‌🇨🇦CA_5003+@WangCai_1
+      - ‌‌🇨🇦CA_5004+@WangCai_1
+      - ‌‌🇨🇦CA_5500+@WangCai_1
+      - ‌‌🇨🇦CA_6379+@WangCai_1
+      - ‌‌🇨🇦CA_6679+@WangCai_1
+      - ‌‌🇨🇦CA_7001+@WangCai_1
+      - ‌‌🇨🇦CA_8080+@WangCai_1
+      - ‌‌🇨🇦CA_8091+@WangCai_1
+      - ‌‌🇨🇦CA_8118+@WangCai_1
+      - ‌‌🇨🇦CA_8119+@WangCai_1
+      - ‌‌🇨🇦CA_8881+@WangCai_1
+      - ‌‌🇨🇦CA_8888+@WangCai_1
+      - ‌‌🇨🇦CA_9101+@WangCai_1
+      - 台湾+Hinet|广电|NF.动漫疯|
+      - _GB_英国
+      - 香港+BGP|中转|NF|
+      - 香港+HKBN|中转|NF|
+      - 香港+HKT02|中转|NF|
+      - 香港+M247|中转|200M|X0.5
+      - 日本+Kirino|广移|NF|
+      - 日本+Kirino|上联|NF|
+      - 日本+Kirino|长联|NF|
+      - 日本+Nero|广移入口02|
+      - 日本+Nero|联通入口01|
+      - 俄罗斯+01|中转|
+      - 新加坡+Nero|临时广电|NF|
+      - 新加坡+OVH|中转|NF|
+      - US_0443+@WangCai_1
+      - US_0443+@WangCai_1 2
+      - US_0443+@WangCai_1 3
+      - US_0443+@WangCai_1 4
+      - US_2375+@WangCai_1
+      - US_2376+@WangCai_1
+      - US_3306+@WangCai_1
+      - US_3306+@WangCai_1 2
+      - US_3306+@WangCai_1 3
+      - US_3389+@WangCai_1
+      - US_3389+@WangCai_1 2
+      - US_3389+@WangCai_1 3
+      - US_5000+@WangCai_1
+      - US_5000+@WangCai_1 2
+      - US_5000+@WangCai_1 3
+      - US_5001+@WangCai_1
+      - US_5001+@WangCai_1 2
+      - US_5003+@WangCai_1
+      - US_5003+@WangCai_1 2
+      - US_5003+@WangCai_1 3
+      - US_5004+@WangCai_1
+      - US_5004+@WangCai_1 2
+      - US_5500+@WangCai_1
+      - US_5500+@WangCai_1 2
+      - US_5500+@WangCai_1 3
+      - US_5600+@WangCai_1
+      - US_5600+@WangCai_1 2
+      - US_5600+@WangCai_1 3
+      - US_5601+@WangCai_1
+      - US_5601+@WangCai_1 2
+      - US_6379+@WangCai_1
+      - US_6379+@WangCai_1 2
+      - US_6679+@WangCai_1
+      - US_6679+@WangCai_1 2
+      - US_6697+@WangCai_1
+      - US_6697+@WangCai_1 2
+      - US_6697+@WangCai_1 3
+      - US_7001+@WangCai_1
+      - US_7001+@WangCai_1 2
+      - US_7001+@WangCai_1 3
+      - US_7002+@WangCai_1
+      - US_7002+@WangCai_1 2
+      - US_7002+@WangCai_1 3
+      - US_7002+@WangCai_1 4
+      - US_7306+@WangCai_1
+      - US_7307+@WangCai_1
+      - US_7307+@WangCai_1 2
+      - US_7307+@WangCai_1 3
+      - US_8000+@WangCai_1
+      - US_8000+@WangCai_1 2
+      - US_8000+@WangCai_1 3
+      - US_8008+@WangCai_1
+      - US_8008+@WangCai_1 2
+      - US_8008+@WangCai_1 3
+      - US_8009+@WangCai_1
+      - US_8009+@WangCai_1 2
+      - US_8090+@WangCai_1
+      - US_8091+@WangCai_1
+      - US_8118+@WangCai_1
+      - US_8118+@WangCai_1 2
+      - US_8119+@WangCai_1
+      - US_8119+@WangCai_1 2
+      - US_8881+@WangCai_1
+      - US_8882+@WangCai_1
+      - US_8888+@WangCai_1
+      - US_9102+@WangCai_1
+      - Relay_🇫🇷FR-🇫🇷FR_713
+      - 香港 HGC|移动入口02|NF|
+      - 香港 HKT01|中转|NF|
+      - 印度 Do|中转|
+      - 韩国 Oracle|中转|0.5x流量消耗|
+      - 新加坡 Oracle|中转|NF|
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
