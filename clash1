@@ -5,83 +5,39 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 油管：最网最强白嫖, server: cdn2.myuuusss.com, port: 32022, type: ss, cipher: aes-128-gcm, password: b195963c-2631-442d-ab3a-6e78df25d904, udp: true}
-  - {name: US_79, server: 107.167.24.6, port: 17001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, skip-cert-verify: true, udp: true}
   - {name: "", server: mc.xiaohouzi.club, port: 28325, type: vmess, uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: mc.xiaohouzi.club}, udp: true}
-  - {name: NONE, server: xjp.ziqiyun.xyz, port: 443, type: trojan, password: 7b561e94-42f3-4f92-979c-4cf97c328025, sni: xjp.ziqiyun.xyz, skip-cert-verify: true, udp: true}
-  - {name: CN_50 TG@peekfun, server: 120.233.185.60, port: 20011, type: ss, cipher: aes-128-gcm, password: b195963c-2631-442d-ab3a-6e78df25d904, udp: true}
-  - {name: 台湾 内网专线 Trojan 02 | x3.0x, server: dl02.03linecn.xyz, port: 52103, type: trojan, password: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, sni: dl02.03linecn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡 负载均衡 Trojan 04 | 中转, server: cn202.03linecn.xyz, port: 52104, type: trojan, password: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, sni: cn202.03linecn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 韩国 负载均衡 Trojan 04 | 中转, server: cn202.03linecn.xyz, port: 52106, type: trojan, password: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, sni: cn202.03linecn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 韩国 内网专线 Trojan 01 | x3.0x, server: dl01.03linecn.xyz, port: 52106, type: trojan, password: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, sni: dl01.03linecn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 韩国 内网专线 Trojan 02 | x3.0x, server: dl02.03linecn.xyz, port: 52106, type: trojan, password: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, sni: dl02.03linecn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港 Microsoft 06 | 流媒体解锁, server: yd02.03linecn.xyz, port: 42102, type: vmess, uuid: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港 Microsoft 07 | 流媒体解锁, server: cn201.03linecn.xyz, port: 42102, type: vmess, uuid: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港 Microsoft 12 | 流媒体解锁, server: yd02.03linecn.xyz, port: 42103, type: vmess, uuid: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾 HiNet 03 | 原生解锁, server: cn201.03linecn.xyz, port: 42107, type: vmess, uuid: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本 Oracle 01, server: yd01.03linecn.xyz, port: 42106, type: vmess, uuid: dd7e8c6c-3c3e-46ad-833f-b1f547fb4dd3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _RU_俄罗斯联邦, server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p, udp: true}
+  - {name: US_79, server: 107.167.24.6, port: 17001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, skip-cert-verify: true, udp: true}
+  - {name: US_111 TG@peekfun, server: 97.64.31.80, port: 247, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 油管：最网最强白嫖
-      - US_79
       - ""
-      - NONE
-      - CN_50 TG@peekfun
-      - 台湾 内网专线 Trojan 02 | x3.0x
-      - 新加坡 负载均衡 Trojan 04 | 中转
-      - 韩国 负载均衡 Trojan 04 | 中转
-      - 韩国 内网专线 Trojan 01 | x3.0x
-      - 韩国 内网专线 Trojan 02 | x3.0x
-      - 香港 Microsoft 06 | 流媒体解锁
-      - 香港 Microsoft 07 | 流媒体解锁
-      - 香港 Microsoft 12 | 流媒体解锁
-      - 台湾 HiNet 03 | 原生解锁
-      - 日本 Oracle 01
+      - _RU_俄罗斯联邦
+      - US_79
+      - US_111 TG@peekfun
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 油管：最网最强白嫖
-      - US_79
       - ""
-      - NONE
-      - CN_50 TG@peekfun
-      - 台湾 内网专线 Trojan 02 | x3.0x
-      - 新加坡 负载均衡 Trojan 04 | 中转
-      - 韩国 负载均衡 Trojan 04 | 中转
-      - 韩国 内网专线 Trojan 01 | x3.0x
-      - 韩国 内网专线 Trojan 02 | x3.0x
-      - 香港 Microsoft 06 | 流媒体解锁
-      - 香港 Microsoft 07 | 流媒体解锁
-      - 香港 Microsoft 12 | 流媒体解锁
-      - 台湾 HiNet 03 | 原生解锁
-      - 日本 Oracle 01
+      - _RU_俄罗斯联邦
+      - US_79
+      - US_111 TG@peekfun
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 油管：最网最强白嫖
-      - US_79
       - ""
-      - NONE
-      - CN_50 TG@peekfun
-      - 台湾 内网专线 Trojan 02 | x3.0x
-      - 新加坡 负载均衡 Trojan 04 | 中转
-      - 韩国 负载均衡 Trojan 04 | 中转
-      - 韩国 内网专线 Trojan 01 | x3.0x
-      - 韩国 内网专线 Trojan 02 | x3.0x
-      - 香港 Microsoft 06 | 流媒体解锁
-      - 香港 Microsoft 07 | 流媒体解锁
-      - 香港 Microsoft 12 | 流媒体解锁
-      - 台湾 HiNet 03 | 原生解锁
-      - 日本 Oracle 01
+      - _RU_俄罗斯联邦
+      - US_79
+      - US_111 TG@peekfun
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -100,92 +56,43 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 油管：最网最强白嫖
-      - US_79
       - ""
-      - NONE
-      - CN_50 TG@peekfun
-      - 台湾 内网专线 Trojan 02 | x3.0x
-      - 新加坡 负载均衡 Trojan 04 | 中转
-      - 韩国 负载均衡 Trojan 04 | 中转
-      - 韩国 内网专线 Trojan 01 | x3.0x
-      - 韩国 内网专线 Trojan 02 | x3.0x
-      - 香港 Microsoft 06 | 流媒体解锁
-      - 香港 Microsoft 07 | 流媒体解锁
-      - 香港 Microsoft 12 | 流媒体解锁
-      - 台湾 HiNet 03 | 原生解锁
-      - 日本 Oracle 01
+      - _RU_俄罗斯联邦
+      - US_79
+      - US_111 TG@peekfun
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 台湾 内网专线 Trojan 02 | x3.0x
-      - 香港 Microsoft 06 | 流媒体解锁
-      - 香港 Microsoft 07 | 流媒体解锁
-      - 香港 Microsoft 12 | 流媒体解锁
-      - 台湾 HiNet 03 | 原生解锁
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 油管：最网最强白嫖
-      - US_79
       - ""
-      - NONE
-      - CN_50 TG@peekfun
-      - 台湾 内网专线 Trojan 02 | x3.0x
-      - 新加坡 负载均衡 Trojan 04 | 中转
-      - 韩国 负载均衡 Trojan 04 | 中转
-      - 韩国 内网专线 Trojan 01 | x3.0x
-      - 韩国 内网专线 Trojan 02 | x3.0x
-      - 香港 Microsoft 06 | 流媒体解锁
-      - 香港 Microsoft 07 | 流媒体解锁
-      - 香港 Microsoft 12 | 流媒体解锁
-      - 台湾 HiNet 03 | 原生解锁
-      - 日本 Oracle 01
+      - _RU_俄罗斯联邦
+      - US_79
+      - US_111 TG@peekfun
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 油管：最网最强白嫖
-      - US_79
       - ""
-      - NONE
-      - CN_50 TG@peekfun
-      - 台湾 内网专线 Trojan 02 | x3.0x
-      - 新加坡 负载均衡 Trojan 04 | 中转
-      - 韩国 负载均衡 Trojan 04 | 中转
-      - 韩国 内网专线 Trojan 01 | x3.0x
-      - 韩国 内网专线 Trojan 02 | x3.0x
-      - 香港 Microsoft 06 | 流媒体解锁
-      - 香港 Microsoft 07 | 流媒体解锁
-      - 香港 Microsoft 12 | 流媒体解锁
-      - 台湾 HiNet 03 | 原生解锁
-      - 日本 Oracle 01
+      - _RU_俄罗斯联邦
+      - US_79
+      - US_111 TG@peekfun
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 油管：最网最强白嫖
-      - US_79
       - ""
-      - NONE
-      - CN_50 TG@peekfun
-      - 台湾 内网专线 Trojan 02 | x3.0x
-      - 新加坡 负载均衡 Trojan 04 | 中转
-      - 韩国 负载均衡 Trojan 04 | 中转
-      - 韩国 内网专线 Trojan 01 | x3.0x
-      - 韩国 内网专线 Trojan 02 | x3.0x
-      - 香港 Microsoft 06 | 流媒体解锁
-      - 香港 Microsoft 07 | 流媒体解锁
-      - 香港 Microsoft 12 | 流媒体解锁
-      - 台湾 HiNet 03 | 原生解锁
-      - 日本 Oracle 01
+      - _RU_俄罗斯联邦
+      - US_79
+      - US_111 TG@peekfun
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -201,21 +108,10 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 油管：最网最强白嫖
-      - US_79
       - ""
-      - NONE
-      - CN_50 TG@peekfun
-      - 台湾 内网专线 Trojan 02 | x3.0x
-      - 新加坡 负载均衡 Trojan 04 | 中转
-      - 韩国 负载均衡 Trojan 04 | 中转
-      - 韩国 内网专线 Trojan 01 | x3.0x
-      - 韩国 内网专线 Trojan 02 | x3.0x
-      - 香港 Microsoft 06 | 流媒体解锁
-      - 香港 Microsoft 07 | 流媒体解锁
-      - 香港 Microsoft 12 | 流媒体解锁
-      - 台湾 HiNet 03 | 原生解锁
-      - 日本 Oracle 01
+      - _RU_俄罗斯联邦
+      - US_79
+      - US_111 TG@peekfun
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
