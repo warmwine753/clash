@@ -9,6 +9,10 @@ proxies:
   - {name: _RU_俄罗斯联邦, server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p, udp: true}
   - {name: US_79, server: 107.167.24.6, port: 17001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, skip-cert-verify: true, udp: true}
   - {name: US_111 TG@peekfun, server: 97.64.31.80, port: 247, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
+  - {name: Relay_🇩🇪DE-🇬🇧GB_10, server: au2-4.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-4.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_30, server: xjp.ziqiyun.xyz, port: 443, type: trojan, password: 7b561e94-42f3-4f92-979c-4cf97c328025, sni: xjp.ziqiyun.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇦CA-🇨🇦CA_04, server: 527hk1.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 527hk1.fans8.xyz}, udp: true}
+  - {name: github.com/freefq - 加拿大  19, server: 527hk1.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 527hk1.fans8.xyz}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -19,6 +23,10 @@ proxy-groups:
       - _RU_俄罗斯联邦
       - US_79
       - US_111 TG@peekfun
+      - Relay_🇩🇪DE-🇬🇧GB_10
+      - Relay_🇺🇸US-🇺🇸US_30
+      - Relay_🇨🇦CA-🇨🇦CA_04
+      - github.com/freefq - 加拿大  19
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -28,6 +36,10 @@ proxy-groups:
       - _RU_俄罗斯联邦
       - US_79
       - US_111 TG@peekfun
+      - Relay_🇩🇪DE-🇬🇧GB_10
+      - Relay_🇺🇸US-🇺🇸US_30
+      - Relay_🇨🇦CA-🇨🇦CA_04
+      - github.com/freefq - 加拿大  19
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -38,6 +50,10 @@ proxy-groups:
       - _RU_俄罗斯联邦
       - US_79
       - US_111 TG@peekfun
+      - Relay_🇩🇪DE-🇬🇧GB_10
+      - Relay_🇺🇸US-🇺🇸US_30
+      - Relay_🇨🇦CA-🇨🇦CA_04
+      - github.com/freefq - 加拿大  19
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -60,6 +76,10 @@ proxy-groups:
       - _RU_俄罗斯联邦
       - US_79
       - US_111 TG@peekfun
+      - Relay_🇩🇪DE-🇬🇧GB_10
+      - Relay_🇺🇸US-🇺🇸US_30
+      - Relay_🇨🇦CA-🇨🇦CA_04
+      - github.com/freefq - 加拿大  19
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -74,6 +94,10 @@ proxy-groups:
       - _RU_俄罗斯联邦
       - US_79
       - US_111 TG@peekfun
+      - Relay_🇩🇪DE-🇬🇧GB_10
+      - Relay_🇺🇸US-🇺🇸US_30
+      - Relay_🇨🇦CA-🇨🇦CA_04
+      - github.com/freefq - 加拿大  19
   - name: 📲 电报信息
     type: select
     proxies:
@@ -83,6 +107,10 @@ proxy-groups:
       - _RU_俄罗斯联邦
       - US_79
       - US_111 TG@peekfun
+      - Relay_🇩🇪DE-🇬🇧GB_10
+      - Relay_🇺🇸US-🇺🇸US_30
+      - Relay_🇨🇦CA-🇨🇦CA_04
+      - github.com/freefq - 加拿大  19
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -93,6 +121,10 @@ proxy-groups:
       - _RU_俄罗斯联邦
       - US_79
       - US_111 TG@peekfun
+      - Relay_🇩🇪DE-🇬🇧GB_10
+      - Relay_🇺🇸US-🇺🇸US_30
+      - Relay_🇨🇦CA-🇨🇦CA_04
+      - github.com/freefq - 加拿大  19
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -112,6 +144,10 @@ proxy-groups:
       - _RU_俄罗斯联邦
       - US_79
       - US_111 TG@peekfun
+      - Relay_🇩🇪DE-🇬🇧GB_10
+      - Relay_🇺🇸US-🇺🇸US_30
+      - Relay_🇨🇦CA-🇨🇦CA_04
+      - github.com/freefq - 加拿大  19
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
