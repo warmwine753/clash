@@ -5,75 +5,363 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 日本NTT-1号 | 解锁流媒体, server: 203.138.98.199, port: 28000, type: trojan, password: 511b299d-532b-496e-b6be-4660931f4be5, skip-cert-verify: true, udp: true}
-  - {name: 日本NTT-广州移动负载均衡 | 解锁流媒体, server: gzyd1.52147.top, port: 30130, type: trojan, password: 511b299d-532b-496e-b6be-4660931f4be5, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
-  - {name: 日本NTT-广州移动2负载均衡 | 解锁流媒体, server: gzyd2.52147.top, port: 30130, type: trojan, password: 511b299d-532b-496e-b6be-4660931f4be5, sni: gzyd2.52147.top, skip-cert-verify: true, udp: true}
-  - {name: 日本NTT-河南移动负载均衡 | 解锁流媒体, server: hnyd.52147.top, port: 30130, type: trojan, password: 511b299d-532b-496e-b6be-4660931f4be5, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
-  - {name: 越南-1号, server: 103.173.255.21, port: 28000, type: trojan, password: 511b299d-532b-496e-b6be-4660931f4be5, skip-cert-verify: true, udp: true}
-  - {name: 越南-2号, server: 103.173.255.127, port: 28000, type: trojan, password: 511b299d-532b-496e-b6be-4660931f4be5, skip-cert-verify: true, udp: true}
-  - {name: 越南-3号, server: 103.173.255.228, port: 28000, type: trojan, password: 511b299d-532b-496e-b6be-4660931f4be5, skip-cert-verify: true, udp: true}
-  - {name: 越南-4号, server: 103.173.255.234, port: 28000, type: trojan, password: 511b299d-532b-496e-b6be-4660931f4be5, skip-cert-verify: true, udp: true}
-  - {name: 越南 | 广州移动2, server: gzyd2.52147.top, port: 30120, type: trojan, password: 511b299d-532b-496e-b6be-4660931f4be5, sni: gzyd2.52147.top, skip-cert-verify: true, udp: true}
-  - {name: 越南 | 河南移动, server: hnyd.52147.top, port: 30120, type: trojan, password: 511b299d-532b-496e-b6be-4660931f4be5, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
-  - {name: 台湾Hinet | 解锁流媒体, server: hinet.52147.top, port: 28000, type: trojan, password: 511b299d-532b-496e-b6be-4660931f4be5, sni: hinet.52147.top, skip-cert-verify: true, udp: true}
-  - {name: 德国-广移双线负载均衡 | 解锁流媒体, server: gzyd1.52147.top, port: 30080, type: trojan, password: 511b299d-532b-496e-b6be-4660931f4be5, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
-  - {name: 德国-河移双线负载均衡 | 解锁流媒体, server: hnyd.52147.top, port: 30080, type: trojan, password: 511b299d-532b-496e-b6be-4660931f4be5, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
+  - {name: US_823, server: 38.114.114.67, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: NL_304, server: 85.208.108.58, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: NL_305, server: 85.208.108.18, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_439, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_629, server: 38.75.136.102, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_675, server: 38.114.114.67, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_816, server: 38.114.114.67, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_817, server: 38.75.136.102, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: NL_296, server: 85.208.108.58, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_877, server: 38.114.114.49, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: NL_303, server: 85.208.108.18, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_467, server: 38.143.66.55, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_612, server: 38.75.136.21, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_733, server: 38.86.135.27, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_472, server: 38.68.134.85, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_782, server: 38.114.114.69, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_880, server: 38.75.136.102, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_406, server: 38.114.114.67, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_523, server: 38.64.138.145, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_673, server: 38.114.114.19, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_704, server: 38.86.135.36, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_686, server: 38.114.114.49, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_527, server: 38.64.138.145, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_466, server: 38.75.136.21, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_556, server: 38.114.114.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_691, server: 38.114.114.67, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_544, server: 38.114.114.19, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_886, server: 38.121.43.71, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_730, server: 38.86.135.27, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_819, server: 38.75.136.102, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Pool_🇳🇱NL_300, server: 85.208.108.60, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_486, server: 38.114.114.19, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_862, server: 38.68.135.18, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_696, server: 38.114.114.19, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_593, server: 38.68.134.85, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_692, server: 38.114.114.67, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_866, server: 38.68.135.18, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_771, server: 38.121.43.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_778, server: 38.114.114.19, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_731, server: 38.86.135.27, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_448, server: 38.114.114.69, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_825, server: 38.75.136.102, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_748, server: 38.68.134.85, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_793, server: 38.86.135.36, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_863, server: 38.68.135.19, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_530, server: 38.75.136.21, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_549, server: 38.75.136.21, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_620, server: 38.114.114.49, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_884, server: 38.121.43.71, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_474, server: 38.143.66.99, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_837, server: 38.121.43.71, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_856, server: 38.68.135.18, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_476, server: 38.114.114.19, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_501, server: 38.75.136.21, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_878, server: 38.114.114.49, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_529, server: 38.64.138.145, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_874, server: 38.114.114.19, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_409, server: 38.114.114.69, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_739, server: 38.86.135.27, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_455, server: 38.114.114.69, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_524, server: 38.68.135.18, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_553, server: 38.86.135.36, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_895, server: 144.168.60.70, port: 252, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
+  - {name: US_533, server: 38.64.138.145, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_693, server: 38.75.136.21, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_690, server: 38.114.114.19, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_852, server: 38.68.135.19, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_451, server: 38.68.135.19, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_558, server: 38.114.114.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US_868, server: 38.75.136.102, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_430, server: 38.68.135.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_462, server: 38.68.135.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US_586, server: 38.75.136.21, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_521, server: 38.64.138.145, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_546, server: 38.114.114.19, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_813, server: 38.75.136.102, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_429, server: 38.75.136.135, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_845, server: 38.86.135.27, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_875, server: 38.114.114.19, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_519, server: 38.75.136.21, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_557, server: 38.86.135.36, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_802, server: 38.114.114.67, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US_567, server: 38.64.138.145, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_522, server: 38.64.138.145, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_752, server: 38.86.135.27, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本NTT-1号 | 解锁流媒体
-      - 日本NTT-广州移动负载均衡 | 解锁流媒体
-      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
-      - 日本NTT-河南移动负载均衡 | 解锁流媒体
-      - 越南-1号
-      - 越南-2号
-      - 越南-3号
-      - 越南-4号
-      - 越南 | 广州移动2
-      - 越南 | 河南移动
-      - 台湾Hinet | 解锁流媒体
-      - 德国-广移双线负载均衡 | 解锁流媒体
-      - 德国-河移双线负载均衡 | 解锁流媒体
+      - US_823
+      - NL_304
+      - NL_305
+      - US_439
+      - US_629
+      - US_675
+      - US_816
+      - US_817
+      - NL_296
+      - US_877
+      - NL_303
+      - US_467
+      - US_612
+      - US_733
+      - US_472
+      - US_782
+      - US_880
+      - US_406
+      - US_523
+      - US_673
+      - US_704
+      - US_686
+      - US_527
+      - US_466
+      - US_556
+      - US_691
+      - US_544
+      - US_886
+      - US_730
+      - US_819
+      - Pool_🇳🇱NL_300
+      - US_486
+      - US_862
+      - US_696
+      - US_593
+      - US_692
+      - US_866
+      - US_771
+      - US_778
+      - US_731
+      - US_448
+      - US_825
+      - US_748
+      - US_793
+      - US_863
+      - US_530
+      - US_549
+      - US_620
+      - US_884
+      - US_474
+      - US_837
+      - US_856
+      - US_476
+      - US_501
+      - US_878
+      - US_529
+      - US_874
+      - US_409
+      - US_739
+      - US_455
+      - US_524
+      - US_553
+      - US_895
+      - US_533
+      - US_693
+      - US_690
+      - US_852
+      - US_451
+      - US_558
+      - US_868
+      - US_430
+      - US_462
+      - US_586
+      - US_521
+      - US_546
+      - US_813
+      - US_429
+      - US_845
+      - US_875
+      - US_519
+      - US_557
+      - US_802
+      - US_567
+      - US_522
+      - US_752
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 日本NTT-1号 | 解锁流媒体
-      - 日本NTT-广州移动负载均衡 | 解锁流媒体
-      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
-      - 日本NTT-河南移动负载均衡 | 解锁流媒体
-      - 越南-1号
-      - 越南-2号
-      - 越南-3号
-      - 越南-4号
-      - 越南 | 广州移动2
-      - 越南 | 河南移动
-      - 台湾Hinet | 解锁流媒体
-      - 德国-广移双线负载均衡 | 解锁流媒体
-      - 德国-河移双线负载均衡 | 解锁流媒体
+      - US_823
+      - NL_304
+      - NL_305
+      - US_439
+      - US_629
+      - US_675
+      - US_816
+      - US_817
+      - NL_296
+      - US_877
+      - NL_303
+      - US_467
+      - US_612
+      - US_733
+      - US_472
+      - US_782
+      - US_880
+      - US_406
+      - US_523
+      - US_673
+      - US_704
+      - US_686
+      - US_527
+      - US_466
+      - US_556
+      - US_691
+      - US_544
+      - US_886
+      - US_730
+      - US_819
+      - Pool_🇳🇱NL_300
+      - US_486
+      - US_862
+      - US_696
+      - US_593
+      - US_692
+      - US_866
+      - US_771
+      - US_778
+      - US_731
+      - US_448
+      - US_825
+      - US_748
+      - US_793
+      - US_863
+      - US_530
+      - US_549
+      - US_620
+      - US_884
+      - US_474
+      - US_837
+      - US_856
+      - US_476
+      - US_501
+      - US_878
+      - US_529
+      - US_874
+      - US_409
+      - US_739
+      - US_455
+      - US_524
+      - US_553
+      - US_895
+      - US_533
+      - US_693
+      - US_690
+      - US_852
+      - US_451
+      - US_558
+      - US_868
+      - US_430
+      - US_462
+      - US_586
+      - US_521
+      - US_546
+      - US_813
+      - US_429
+      - US_845
+      - US_875
+      - US_519
+      - US_557
+      - US_802
+      - US_567
+      - US_522
+      - US_752
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本NTT-1号 | 解锁流媒体
-      - 日本NTT-广州移动负载均衡 | 解锁流媒体
-      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
-      - 日本NTT-河南移动负载均衡 | 解锁流媒体
-      - 越南-1号
-      - 越南-2号
-      - 越南-3号
-      - 越南-4号
-      - 越南 | 广州移动2
-      - 越南 | 河南移动
-      - 台湾Hinet | 解锁流媒体
-      - 德国-广移双线负载均衡 | 解锁流媒体
-      - 德国-河移双线负载均衡 | 解锁流媒体
+      - US_823
+      - NL_304
+      - NL_305
+      - US_439
+      - US_629
+      - US_675
+      - US_816
+      - US_817
+      - NL_296
+      - US_877
+      - NL_303
+      - US_467
+      - US_612
+      - US_733
+      - US_472
+      - US_782
+      - US_880
+      - US_406
+      - US_523
+      - US_673
+      - US_704
+      - US_686
+      - US_527
+      - US_466
+      - US_556
+      - US_691
+      - US_544
+      - US_886
+      - US_730
+      - US_819
+      - Pool_🇳🇱NL_300
+      - US_486
+      - US_862
+      - US_696
+      - US_593
+      - US_692
+      - US_866
+      - US_771
+      - US_778
+      - US_731
+      - US_448
+      - US_825
+      - US_748
+      - US_793
+      - US_863
+      - US_530
+      - US_549
+      - US_620
+      - US_884
+      - US_474
+      - US_837
+      - US_856
+      - US_476
+      - US_501
+      - US_878
+      - US_529
+      - US_874
+      - US_409
+      - US_739
+      - US_455
+      - US_524
+      - US_553
+      - US_895
+      - US_533
+      - US_693
+      - US_690
+      - US_852
+      - US_451
+      - US_558
+      - US_868
+      - US_430
+      - US_462
+      - US_586
+      - US_521
+      - US_546
+      - US_813
+      - US_429
+      - US_845
+      - US_875
+      - US_519
+      - US_557
+      - US_802
+      - US_567
+      - US_522
+      - US_752
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -92,80 +380,367 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本NTT-1号 | 解锁流媒体
-      - 日本NTT-广州移动负载均衡 | 解锁流媒体
-      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
-      - 日本NTT-河南移动负载均衡 | 解锁流媒体
-      - 越南-1号
-      - 越南-2号
-      - 越南-3号
-      - 越南-4号
-      - 越南 | 广州移动2
-      - 越南 | 河南移动
-      - 台湾Hinet | 解锁流媒体
-      - 德国-广移双线负载均衡 | 解锁流媒体
-      - 德国-河移双线负载均衡 | 解锁流媒体
+      - US_823
+      - NL_304
+      - NL_305
+      - US_439
+      - US_629
+      - US_675
+      - US_816
+      - US_817
+      - NL_296
+      - US_877
+      - NL_303
+      - US_467
+      - US_612
+      - US_733
+      - US_472
+      - US_782
+      - US_880
+      - US_406
+      - US_523
+      - US_673
+      - US_704
+      - US_686
+      - US_527
+      - US_466
+      - US_556
+      - US_691
+      - US_544
+      - US_886
+      - US_730
+      - US_819
+      - Pool_🇳🇱NL_300
+      - US_486
+      - US_862
+      - US_696
+      - US_593
+      - US_692
+      - US_866
+      - US_771
+      - US_778
+      - US_731
+      - US_448
+      - US_825
+      - US_748
+      - US_793
+      - US_863
+      - US_530
+      - US_549
+      - US_620
+      - US_884
+      - US_474
+      - US_837
+      - US_856
+      - US_476
+      - US_501
+      - US_878
+      - US_529
+      - US_874
+      - US_409
+      - US_739
+      - US_455
+      - US_524
+      - US_553
+      - US_895
+      - US_533
+      - US_693
+      - US_690
+      - US_852
+      - US_451
+      - US_558
+      - US_868
+      - US_430
+      - US_462
+      - US_586
+      - US_521
+      - US_546
+      - US_813
+      - US_429
+      - US_845
+      - US_875
+      - US_519
+      - US_557
+      - US_802
+      - US_567
+      - US_522
+      - US_752
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 台湾Hinet | 解锁流媒体
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 日本NTT-1号 | 解锁流媒体
-      - 日本NTT-广州移动负载均衡 | 解锁流媒体
-      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
-      - 日本NTT-河南移动负载均衡 | 解锁流媒体
-      - 越南-1号
-      - 越南-2号
-      - 越南-3号
-      - 越南-4号
-      - 越南 | 广州移动2
-      - 越南 | 河南移动
-      - 台湾Hinet | 解锁流媒体
-      - 德国-广移双线负载均衡 | 解锁流媒体
-      - 德国-河移双线负载均衡 | 解锁流媒体
+      - US_823
+      - NL_304
+      - NL_305
+      - US_439
+      - US_629
+      - US_675
+      - US_816
+      - US_817
+      - NL_296
+      - US_877
+      - NL_303
+      - US_467
+      - US_612
+      - US_733
+      - US_472
+      - US_782
+      - US_880
+      - US_406
+      - US_523
+      - US_673
+      - US_704
+      - US_686
+      - US_527
+      - US_466
+      - US_556
+      - US_691
+      - US_544
+      - US_886
+      - US_730
+      - US_819
+      - Pool_🇳🇱NL_300
+      - US_486
+      - US_862
+      - US_696
+      - US_593
+      - US_692
+      - US_866
+      - US_771
+      - US_778
+      - US_731
+      - US_448
+      - US_825
+      - US_748
+      - US_793
+      - US_863
+      - US_530
+      - US_549
+      - US_620
+      - US_884
+      - US_474
+      - US_837
+      - US_856
+      - US_476
+      - US_501
+      - US_878
+      - US_529
+      - US_874
+      - US_409
+      - US_739
+      - US_455
+      - US_524
+      - US_553
+      - US_895
+      - US_533
+      - US_693
+      - US_690
+      - US_852
+      - US_451
+      - US_558
+      - US_868
+      - US_430
+      - US_462
+      - US_586
+      - US_521
+      - US_546
+      - US_813
+      - US_429
+      - US_845
+      - US_875
+      - US_519
+      - US_557
+      - US_802
+      - US_567
+      - US_522
+      - US_752
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 日本NTT-1号 | 解锁流媒体
-      - 日本NTT-广州移动负载均衡 | 解锁流媒体
-      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
-      - 日本NTT-河南移动负载均衡 | 解锁流媒体
-      - 越南-1号
-      - 越南-2号
-      - 越南-3号
-      - 越南-4号
-      - 越南 | 广州移动2
-      - 越南 | 河南移动
-      - 台湾Hinet | 解锁流媒体
-      - 德国-广移双线负载均衡 | 解锁流媒体
-      - 德国-河移双线负载均衡 | 解锁流媒体
+      - US_823
+      - NL_304
+      - NL_305
+      - US_439
+      - US_629
+      - US_675
+      - US_816
+      - US_817
+      - NL_296
+      - US_877
+      - NL_303
+      - US_467
+      - US_612
+      - US_733
+      - US_472
+      - US_782
+      - US_880
+      - US_406
+      - US_523
+      - US_673
+      - US_704
+      - US_686
+      - US_527
+      - US_466
+      - US_556
+      - US_691
+      - US_544
+      - US_886
+      - US_730
+      - US_819
+      - Pool_🇳🇱NL_300
+      - US_486
+      - US_862
+      - US_696
+      - US_593
+      - US_692
+      - US_866
+      - US_771
+      - US_778
+      - US_731
+      - US_448
+      - US_825
+      - US_748
+      - US_793
+      - US_863
+      - US_530
+      - US_549
+      - US_620
+      - US_884
+      - US_474
+      - US_837
+      - US_856
+      - US_476
+      - US_501
+      - US_878
+      - US_529
+      - US_874
+      - US_409
+      - US_739
+      - US_455
+      - US_524
+      - US_553
+      - US_895
+      - US_533
+      - US_693
+      - US_690
+      - US_852
+      - US_451
+      - US_558
+      - US_868
+      - US_430
+      - US_462
+      - US_586
+      - US_521
+      - US_546
+      - US_813
+      - US_429
+      - US_845
+      - US_875
+      - US_519
+      - US_557
+      - US_802
+      - US_567
+      - US_522
+      - US_752
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本NTT-1号 | 解锁流媒体
-      - 日本NTT-广州移动负载均衡 | 解锁流媒体
-      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
-      - 日本NTT-河南移动负载均衡 | 解锁流媒体
-      - 越南-1号
-      - 越南-2号
-      - 越南-3号
-      - 越南-4号
-      - 越南 | 广州移动2
-      - 越南 | 河南移动
-      - 台湾Hinet | 解锁流媒体
-      - 德国-广移双线负载均衡 | 解锁流媒体
-      - 德国-河移双线负载均衡 | 解锁流媒体
+      - US_823
+      - NL_304
+      - NL_305
+      - US_439
+      - US_629
+      - US_675
+      - US_816
+      - US_817
+      - NL_296
+      - US_877
+      - NL_303
+      - US_467
+      - US_612
+      - US_733
+      - US_472
+      - US_782
+      - US_880
+      - US_406
+      - US_523
+      - US_673
+      - US_704
+      - US_686
+      - US_527
+      - US_466
+      - US_556
+      - US_691
+      - US_544
+      - US_886
+      - US_730
+      - US_819
+      - Pool_🇳🇱NL_300
+      - US_486
+      - US_862
+      - US_696
+      - US_593
+      - US_692
+      - US_866
+      - US_771
+      - US_778
+      - US_731
+      - US_448
+      - US_825
+      - US_748
+      - US_793
+      - US_863
+      - US_530
+      - US_549
+      - US_620
+      - US_884
+      - US_474
+      - US_837
+      - US_856
+      - US_476
+      - US_501
+      - US_878
+      - US_529
+      - US_874
+      - US_409
+      - US_739
+      - US_455
+      - US_524
+      - US_553
+      - US_895
+      - US_533
+      - US_693
+      - US_690
+      - US_852
+      - US_451
+      - US_558
+      - US_868
+      - US_430
+      - US_462
+      - US_586
+      - US_521
+      - US_546
+      - US_813
+      - US_429
+      - US_845
+      - US_875
+      - US_519
+      - US_557
+      - US_802
+      - US_567
+      - US_522
+      - US_752
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -181,19 +756,91 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本NTT-1号 | 解锁流媒体
-      - 日本NTT-广州移动负载均衡 | 解锁流媒体
-      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
-      - 日本NTT-河南移动负载均衡 | 解锁流媒体
-      - 越南-1号
-      - 越南-2号
-      - 越南-3号
-      - 越南-4号
-      - 越南 | 广州移动2
-      - 越南 | 河南移动
-      - 台湾Hinet | 解锁流媒体
-      - 德国-广移双线负载均衡 | 解锁流媒体
-      - 德国-河移双线负载均衡 | 解锁流媒体
+      - US_823
+      - NL_304
+      - NL_305
+      - US_439
+      - US_629
+      - US_675
+      - US_816
+      - US_817
+      - NL_296
+      - US_877
+      - NL_303
+      - US_467
+      - US_612
+      - US_733
+      - US_472
+      - US_782
+      - US_880
+      - US_406
+      - US_523
+      - US_673
+      - US_704
+      - US_686
+      - US_527
+      - US_466
+      - US_556
+      - US_691
+      - US_544
+      - US_886
+      - US_730
+      - US_819
+      - Pool_🇳🇱NL_300
+      - US_486
+      - US_862
+      - US_696
+      - US_593
+      - US_692
+      - US_866
+      - US_771
+      - US_778
+      - US_731
+      - US_448
+      - US_825
+      - US_748
+      - US_793
+      - US_863
+      - US_530
+      - US_549
+      - US_620
+      - US_884
+      - US_474
+      - US_837
+      - US_856
+      - US_476
+      - US_501
+      - US_878
+      - US_529
+      - US_874
+      - US_409
+      - US_739
+      - US_455
+      - US_524
+      - US_553
+      - US_895
+      - US_533
+      - US_693
+      - US_690
+      - US_852
+      - US_451
+      - US_558
+      - US_868
+      - US_430
+      - US_462
+      - US_586
+      - US_521
+      - US_546
+      - US_813
+      - US_429
+      - US_845
+      - US_875
+      - US_519
+      - US_557
+      - US_802
+      - US_567
+      - US_522
+      - US_752
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
